@@ -1,0 +1,14 @@
+{
+	"name": "Steam",
+	"version": "1.0.0",
+	"description": "Steam UI on Discord.",
+	"author": "maenDisease",
+	"type": "module",
+	"scripts": {
+		"dev": "bd-scss dev",
+		"build": "bd-scss build"
+	},
+	"dependencies": {
+		"bd-scss": "^2.0.12"
+	}
+}
