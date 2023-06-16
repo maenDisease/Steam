@@ -1,7 +1,7 @@
 lockfileVersion: 5.4
 
 specifiers:
-  bd-scss: ^2.0.12
+  bd-scss: ^2.0.14
 
 dependencies:
   bd-scss: 2.0.14
