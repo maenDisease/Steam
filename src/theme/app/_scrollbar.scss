@@ -1,0 +1,11 @@
+#app-mount ::-webkit-scrollbar-track {
+    background: none;
+}
+
+#app-mount ::-webkit-scrollbar-thumb {
+    background-color: var(--scroller-color);
+}
+
+#app-mount ::-webkit-scrollbar-thumb:hover {
+    background-color: var(--scroller-hover-color);
+}

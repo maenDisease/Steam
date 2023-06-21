@@ -1,0 +1,8 @@
+#app-mount .wrapper-3Un6-K::before {
+    content: '';
+    position: absolute;
+    inset: 0;
+    outline: 1px solid rgba(0,0,0,.3);
+    outline-offset: -1px;
+    z-index: 1;
+}

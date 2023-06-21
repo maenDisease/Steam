@@ -1,0 +1,41 @@
+.header-3OsQeK {
+    position: fixed;
+    top: 1px;
+    left: 80px;
+    -webkit-app-region: no-drag;
+    padding: 6px 6px;
+    box-shadow: none;
+    max-width: 183px;
+}
+
+.clickable-vvKY2q .header-3OsQeK:hover,
+.selected-1GtAC5 .header-3OsQeK {
+    background-color: transparent;
+}
+
+#app-mount .clickable-vvKY2q .header-3OsQeK:hover .headerContent-2SNbie,
+#app-mount .selected-1GtAC5 .header-3OsQeK .headerContent-2SNbie {
+    color: var(--interactive-active);
+}
+
+#app-mount .headerContent-2SNbie {
+    color: var(--interactive-normal);
+    transition: color .15s ease;
+    filter: none;
+}
+
+.guildIconV2Container-2H8IRS {
+    margin-right: 6px;
+}
+
+.header-3OsQeK .name-3Uvkvr {
+    font-family: var(--font-display);
+    font-size: 12px;
+    line-height: 20px;
+    font-weight: 500;
+    cursor: pointer;
+}
+
+.header-3OsQeK .dropdownButton-1-5aBs {
+    display: none;
+}

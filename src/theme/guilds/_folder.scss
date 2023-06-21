@@ -1,0 +1,49 @@
+.folderIconWrapper-1oRIZr {
+    border-radius: 2px;
+    background-color: transparent !important;
+}
+
+#app-mount .expandedFolderBackground-1kSAf6.collapsed-uGXEbi {
+    background-color: var(--header-button-background);
+}
+
+#app-mount .expandedFolderBackground-1kSAf6.collapsed-uGXEbi.hover-3m7-WT,
+#app-mount .expandedFolderBackground-1kSAf6 {
+    background-color: var(--brand-experiment-700);
+}
+
+#app-mount .guilds-2JjMmN [class*=expandedFolderBackground] {
+    border-radius: 2px;
+}
+
+.expandedFolderIconWrapper-3RwQpD svg {
+    color: var(--brand-experiment-300) !important;
+}
+
+.folderIconWrapper-1oRIZr {
+    transform: rotate(-90deg);
+}
+
+.closedFolderIconWrapper-3tRb2d .icon-1zKOXL,
+.expandedFolderIconWrapper-3RwQpD svg {
+    transform: rotate(90deg);
+}
+
+.expandedFolderBackground-1kSAf6.collapsed-uGXEbi:before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    pointer-events: none;
+    border-radius: 0;
+    box-shadow: 0 0 0 1px var(--gpColor-Grey), inset 0 0 0 1px var(--background-tertiary);
+    transition: box-shadow .15s ease;
+    z-index: 1;
+}
+
+.expandedFolderBackground-1kSAf6.collapsed-uGXEbi:has(+.listItem-3SmSlK .item-2LIpTv[style="opacity: 1; height: 40px; transform: none;"]):before {
+    --gpColor-Grey: var(--brand-experiment);
+}
+
+.expandedFolderBackground-1kSAf6.collapsed-uGXEbi:has(+.listItem-3SmSlK .item-2LIpTv):before {
+    --gpColor-Grey: var(--header-primary);
+}

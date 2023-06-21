@@ -1,0 +1,40 @@
+.platform-win .typeWindows-2-g3UY {
+    background-color: var(--background-tertiary);
+    border-top: 1px solid var(--background-tertiary-border);
+    border-right: 1px solid var(--background-tertiary-border);
+    border-bottom: 1px solid var(--background-tertiary-border-bottom);
+    margin-left: 1px;
+}
+
+.withFrame-2dL45i {
+    height: 36px;
+    margin-top: 0;
+}
+
+.winButton-3UMjdg {
+    top: 0;
+    width: 32px;
+    height: 32px;
+}
+
+.titleBar-1it3bQ {
+    z-index: 1;
+}
+
+.winButton-3UMjdg svg {
+    height: 14px;
+    width: 14px;
+}
+
+.winButtonClose-3Q8ZH5:hover {
+    background-color: hsl(1, 76%, 52%);
+}
+
+.winButtonMinMax-3RsPUg:hover {
+    background-color: var(--background-modifier-hover);
+    color: var(--interactive-active);
+}
+
+.wordmarkWindows-2dq6rw {
+    display: none;
+}

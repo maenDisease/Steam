@@ -1,0 +1,14 @@
+.appMount-2yBXZl,
+body,
+.app-2CXKsg {
+    background: none;
+}
+
+.bg-1QIAus {
+    --baked-bg: url(https://store.akamai.steamstatic.com/public/images/v6/colored_body_top.png?v=2) center left/cover no-repeat;
+    background: var(--bg-overlay-app-frame, var(--baked-bg));
+}
+
+.base-2jDfDU {
+    margin: 0 calc(24px + 2vw);
+}

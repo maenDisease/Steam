@@ -1,0 +1,52 @@
+.wrapper-2PSQCG foreignObject {
+    mask: none;
+}
+
+
+.wrapper-2PSQCG,
+.childWrapper-1j_1ub {
+    border-radius: 0;
+}
+
+.tutorialContainer-1pL9QS foreignObject,
+.tutorialContainer-1pL9QS+.listItem-3SmSlK foreignObject,
+.tutorialContainer-2jwoiB foreignObject,
+.tutorialContainer-2jwoiB+.listItem-3SmSlK foreignObject {
+    mask: none;
+    border-radius: 2px;
+}
+
+.item-2LIpTv {
+    display: none;
+}
+
+.lowerBadge-3j0ZAg {
+    z-index: 3;
+}
+
+.numberBadge-37OJ3S {
+    border-radius: 0;
+}
+
+.blobContainer-ikKyFs:before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    pointer-events: none;
+    border-radius: 0;
+    box-shadow: 0 0 0 1px var(--gpColor-Grey), inset 0 0 0 1px var(--background-tertiary);
+    transition: box-shadow .15s ease;
+    z-index: 1;
+}
+
+.blobContainer-ikKyFs.selected-3c78Ai:before {
+    --gpColor-Grey: var(--brand-experiment);
+}
+
+.listItem-3SmSlK:has(.item-2LIpTv) .blobContainer-ikKyFs:not(.selected-3c78Ai):before {
+    --gpColor-Grey: var(--header-primary);
+}
+
+.blobContainer-ikKyFs:not(.selected-3c78Ai):has(.numberBadge-37OJ3S[style^="background-color: var(--status-danger);"]):before {
+    --gpColor-Grey: var(--status-danger);
+}
