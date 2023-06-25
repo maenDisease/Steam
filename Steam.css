@@ -46,17 +46,17 @@
 
 /* RadialStatus */
 :root {
-  --rs-small-spacing: 0px;
+  --rs-small-spacing: 0;
   /* Gap between avatar and status for members list/dms | MUST end in px */
-  --rs-medium-spacing: 3px;
+  --rs-medium-spacing: 0;
   /* Gap between avatar and status for User popout | MUST end in px */
-  --rs-large-spacing: 4px;
+  --rs-large-spacing: 0;
   /* Gap between avatar and status for User profiles | MUST end in px */
   --rs-small-width: 2px;
   /* Thickness of status border for members list/dms | MUST end in px */
-  --rs-medium-width: 3px;
+  --rs-medium-width: 2px;
   /* Thickness of status border for User popout | MUST end in px */
-  --rs-large-width: 4px;
+  --rs-large-width: 2px;
   /* Thickness of status border for User profile | MUST end in px */
   --rs-avatar-shape: 0%;
   /* 50% for round - 0% for square */
@@ -1307,7 +1307,7 @@ body,
 }
 #app-mount .mainCard-3KBsBI.header-1Uy0p6 .input-3O04eu {
   color: #66c0f4;
-  font-weight: 400;
+  font-weight: 400 !important;
 }
 #app-mount .mainCard-3KBsBI.header-1Uy0p6 .contentContainer-2xwoXK {
   padding-left: 0;
@@ -1337,10 +1337,39 @@ body,
   height: 92px;
   border-radius: 0;
 }
+#app-mount .mainCard-3KBsBI.header-1Uy0p6 .container-3Om6RL .popoutContainer-26yHc8 {
+  position: absolute;
+  padding: 0;
+  top: 0;
+  right: 0;
+}
+#app-mount .mainCard-3KBsBI.header-1Uy0p6 .container-3Om6RL .popout-2vZMlk {
+  padding: 0;
+  border-radius: 0;
+  background-color: #222b35;
+  box-shadow: inset 0px 0px 7px rgba(0, 0, 0, 0.5), 0 0 0 1px hsl(0, 0%, 29%), 0 0 0 2px hsl(0, 0%, 36%);
+}
+#app-mount .mainCard-3KBsBI.header-1Uy0p6 .container-3Om6RL .uploads-1mYJLm {
+  padding-right: 0;
+  gap: 2px;
+}
+#app-mount .mainCard-3KBsBI.header-1Uy0p6 .container-3Om6RL .spoilerContainer-1Dl06W {
+  border-radius: 0;
+  background-color: transparent;
+}
+#app-mount .mainCard-3KBsBI.header-1Uy0p6 .container-3Om6RL .attachmentItemSmall-3_nKTP {
+  min-width: 92px;
+  min-height: 92px;
+  max-width: 92px;
+  max-height: 92px;
+}
 #app-mount .mainCard-3KBsBI.header-1Uy0p6 .tagsContainer-3rSFH5 {
   background-color: rgba(0, 0, 0, 0.2);
   padding: 8px;
   margin: 6px 110px 6px 0;
+}
+#app-mount .mainCard-3KBsBI.header-1Uy0p6 .tagsContainer-3rSFH5 .tagList-2APRrt {
+  height: unset;
 }
 #app-mount .mainCard-3KBsBI.header-1Uy0p6 .tagsContainer-3rSFH5 .tagListInner-1mCauI {
   gap: 2px;
@@ -1447,6 +1476,16 @@ body,
   color: #e1c48a !important;
 }
 
+.tagsContainer-2bBw1x {
+  background: rgba(0, 0, 0, 0.2);
+  margin-top: 32px;
+  padding: 10px 18px;
+}
+
+.tagListInner-35MqcW {
+  gap: 4px;
+}
+
 .card-2JNtco {
   padding-bottom: 6px;
 }
@@ -1522,8 +1561,8 @@ body,
   background-image: url(https://maendisease.github.io/Steam/illustrations/bg_announcement.avif);
   background-repeat: no-repeat;
   z-index: -1;
-  -webkit-clip-path: inset(1px 0 0 1.5px);
-          clip-path: inset(1px 0 0 1.5px);
+  -webkit-clip-path: inset(1px 0 0 2px);
+          clip-path: inset(1px 0 0 2px);
   filter: blur(1px);
 }
 
@@ -1736,7 +1775,7 @@ body,
   background-color: hsla(var(--accent-hue), 88%, 68%, 0.2);
   --text-normal: hsl(var(--accent-hue), 88%, 68%);
 }
-.pill-3pRQlO.clickable-3YTfAq:not(.disabled-3Rezaw):hover {
+.pill-3pRQlO.clickable-3YTfAq:not(.disabled-3Rezaw):hover, .pill-3pRQlO.clickable-3YTfAq:not(.disabled-3Rezaw).selected-24z1Ou {
   background: linear-gradient(135deg, hsl(var(--accent-hue), 88%, 68%) 0%, hsl(var(--accent-hue), 41%, 43%) 100%);
   --text-normal: var(--white-500);
 }
