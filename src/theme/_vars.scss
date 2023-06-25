@@ -44,18 +44,18 @@
 
 /* RadialStatus */
 :root {
-    --rs-small-spacing: 0px;
+    --rs-small-spacing: 0;
     /* Gap between avatar and status for members list/dms | MUST end in px */
-    --rs-medium-spacing: 3px;
+    --rs-medium-spacing: 0;
     /* Gap between avatar and status for User popout | MUST end in px */
-    --rs-large-spacing: 4px;
+    --rs-large-spacing: 0;
     /* Gap between avatar and status for User profiles | MUST end in px */
 
     --rs-small-width: 2px;
     /* Thickness of status border for members list/dms | MUST end in px */
-    --rs-medium-width: 3px;
+    --rs-medium-width: 2px;
     /* Thickness of status border for User popout | MUST end in px */
-    --rs-large-width: 4px;
+    --rs-large-width: 2px;
     /* Thickness of status border for User profile | MUST end in px */
 
     --rs-avatar-shape: 0%;

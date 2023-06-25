@@ -30,7 +30,7 @@
 
     .input-3O04eu {
         color: #66c0f4;
-        font-weight: 400;
+        font-weight: 400 !important;
     }
 
     .contentContainer-2xwoXK {
@@ -64,12 +64,47 @@
             height: 92px;
             border-radius: 0;
         }
+
+        .popoutContainer-26yHc8 {
+            position: absolute;
+            padding: 0;
+            top: 0;
+            right: 0;
+        }
+
+        .popout-2vZMlk {
+            padding: 0;
+            border-radius: 0;
+            background-color: #222b35;
+            box-shadow: inset 0px 0px 7px rgba(0, 0, 0, 0.5), 0 0 0 1px hsl(0deg 0% 29%), 0 0 0 2px hsl(0deg 0% 36%);
+        }
+
+        .uploads-1mYJLm {
+            padding-right: 0;
+            gap: 2px;
+        }
+
+        .spoilerContainer-1Dl06W {
+            border-radius: 0;
+            background-color: transparent;
+        }
+
+        .attachmentItemSmall-3_nKTP {
+            min-width: 92px;
+            min-height: 92px;
+            max-width: 92px;
+            max-height: 92px;
+        }
     }
 
     .tagsContainer-3rSFH5 {
         background-color: rgba(0, 0, 0, 0.2);
         padding: 8px;
         margin: 6px 110px 6px 0;
+
+        .tagList-2APRrt {
+            height: unset;
+        }
 
         .tagListInner-1mCauI {
             gap: 2px;
@@ -189,6 +224,16 @@
     }
 }
 
+.tagsContainer-2bBw1x {
+    background: rgba(0,0,0,0.2);
+    margin-top: 32px;
+    padding: 10px 18px;
+}
+
+.tagListInner-35MqcW {
+    gap: 4px;
+}
+
 .card-2JNtco {
     padding-bottom: 6px;
 }
@@ -270,7 +315,7 @@
     background-image: url(https://maendisease.github.io/Steam/illustrations/bg_announcement.avif);
     background-repeat: no-repeat;
     z-index: -1;
-    clip-path: inset(1px 0 0 1.5px);
+    clip-path: inset(1px 0 0 2px);
     filter: blur(1px);
 }
 
@@ -521,9 +566,12 @@
         background-color: hsla(var(--accent-hue), 88%, 68%, 0.2);
         --text-normal: hsl(var(--accent-hue), 88%, 68%);
 
-        &:not(.disabled-3Rezaw):hover {
-            background: linear-gradient(135deg, hsl(var(--accent-hue), 88%, 68%) 0%, hsl(var(--accent-hue), 41%, 43%) 100%);
-            --text-normal: var(--white-500);
+        &:not(.disabled-3Rezaw) {
+            &:hover,
+            &.selected-24z1Ou {
+                background: linear-gradient(135deg, hsl(var(--accent-hue), 88%, 68%) 0%, hsl(var(--accent-hue), 41%, 43%) 100%);
+                --text-normal: var(--white-500);
+            }
         }
     }
 }
