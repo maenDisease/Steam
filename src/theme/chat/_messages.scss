@@ -127,6 +127,10 @@
     border-radius: 3px;
 }
 
+.button-3bklZh:hover {
+    background-color: hsla(var(--accent-hue), 87%, 68%, 0.4);
+}
+
 .button-3bklZh:active {
     padding: 0;
 }
@@ -176,8 +180,3 @@
     background: var(--button-danger-background);
     color: var(--white-500);
 }
-
-// .embedFull-1HGV2S[style="border-color: hsla(0, calc(var(--saturation-factor, 1) * 0%), 100%, 1);"] {
-//     background: var(--background-secondary);
-//     border: 1px solid var(--neutralTertiary) !important;
-// }

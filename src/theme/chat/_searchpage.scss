@@ -11,8 +11,6 @@
     padding: 16px;
 }
 
-
-
 .searchResult-O9NDji {
     background: hsla(var(--accent-hue), 88%, 68%, 0.1);
     border-radius: 0;
@@ -74,4 +72,50 @@
 /* Button 3 */
 .searchHeaderTabList-3CZMQB:has(.selected-1sf9UK:nth-child(3)):before {
     translate: 200%;
+}
+
+// Bottom nav buttons
+.pageButton-uta6J3 {
+    min-height: 32px;
+}
+
+.pageButton-uta6J3.button-ejjZWC:disabled,
+.pageButton-uta6J3.button-ejjZWC[aria-disabled=true] {
+    opacity: 0.2;
+    pointer-events: none;
+}
+
+.pageButton-uta6J3.button-ejjZWC {
+    background-color: hsla(var(--accent-hue), 88%, 68%, 0.2);
+    color: hsl(var(--accent-hue), 87%, 68%);
+    font-weight: 400;
+}
+
+.pageButton-uta6J3.button-ejjZWC:hover {
+    background-color: hsl(var(--accent-hue), 87%, 68%);
+    color: var(--white-500);
+}
+
+.roundButton-2mKRqM.pageButton-uta6J3 {
+    background: none;
+    font-weight: 400;
+}
+
+.roundButton-2mKRqM.pageButton-uta6J3:hover {
+    text-decoration: underline;
+    color: inherit;
+}
+
+.roundButton-2mKRqM.pageButton-uta6J3.activeButton-2K2Fwx {
+    color: hsl(var(--accent-hue), 19%, 42%);
+    cursor: default;
+    background: none;
+}
+
+.pageControlContainer-1Mbe6M {
+    margin: 0 0 4px 0;
+}
+
+.roundButton-2mKRqM.pageButton-uta6J3.gap-3Q-U2O {
+    cursor: text;
 }
