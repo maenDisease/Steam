@@ -189,6 +189,7 @@
     border-top: none;
     justify-content:flex-start;
     height: 1px;
+    max-width: 760px;
     background: linear-gradient( to right, hsl(201, 41%, 39%) 0%, transparent 60%);
     margin-top: 2rem;
     margin-bottom: -1px;
@@ -228,6 +229,10 @@
 
 .unreadPillCap-2-iI4h {
     display: none;
+}
+
+.content-3spvdd + .unreadPill-3nEWYM {
+    right: 0;
 }
 
 // Message reactions

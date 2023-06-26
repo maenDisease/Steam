@@ -6,3 +6,8 @@
 #app-mount .guilds-2JjMmN {
     height: calc(100vw - 2px) !important;
 }
+
+body #app-mount .app-3xd6d0 .base-2jDfDU {
+    top: 0 !important;
+    bottom: calc(var(--server-container) + 2px) !important;
+}
