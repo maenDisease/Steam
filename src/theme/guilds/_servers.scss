@@ -16,6 +16,47 @@
     border-radius: 2px;
 }
 
+.wrapper-3kah-n.selected-1Drb7Z .childWrapper-1j_1ub,
+.wrapper-3kah-n:hover .childWrapper-1j_1ub {
+    color: var(--background-tertiary);
+    background-color: transparent;
+}
+
+.wrapper-3kah-n:has(.childWrapper-1j_1ub) {
+    &:hover {
+        .childWrapper-1j_1ub::before {
+            background: var(--interactive-active);
+        }
+    }
+
+    &.selected-1Drb7Z:not(:hover) {
+        pointer-events: none;
+        .childWrapper-1j_1ub::before {
+            background: var(--brand-experiment);
+        }
+    }
+}
+
+.childWrapper-1j_1ub {
+    color: var(--background-tertiary);
+    background: none;
+
+    svg {
+        width: 18px;
+    }
+
+    &::before {
+        content: '';
+        display: block;
+        position: absolute;
+        height: 28px;
+        width: 28px;
+        background: hsl(var(--accent-hue), 9%, 44%);
+        z-index: -1;
+        border-radius: 2px;
+    }
+}
+
 .item-2LIpTv {
     display: none;
 }
