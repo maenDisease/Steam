@@ -46,11 +46,11 @@
 }
 
 .peopleList-2VBrVI>div {
-//     display: flex;
-//   flex-direction: row;
-//   flex-wrap: wrap;
-//   row-gap: 16px;
-//   column-gap: 16px;
+    display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  row-gap: 16px;
+  column-gap: 16px;
 }
 
 .searchBar-2aylmZ {
@@ -58,33 +58,72 @@
     border: 1px solid #000;
     border-radius: 3px;
     // color: #909090;
-    // background-color: rgba( 0, 0, 0, 0.2 );
-    // border: 1px solid #000;
-    // border-radius: 3px;
 }
 
 .peopleListItem-u6dGxF {
-    margin-left: 0;
-    margin-right: 0;
-    margin-bottom: 16px;
+    margin: 0;
+    padding: 0 12px;
     font-weight: 500;
-    font-size: 16px;
+    font-size: 14px;
     line-height: 20px;
     border-top: none;
-    background: rgba(0,0,0,0.2);
-    height: 52px !important;
-    // flex-basis: 292px;
+    background: hsl(var(--accent-hue), 26%, 15%);
+    height: 50px !important;
+    flex-basis: 292px;
+}
+
+.peopleListItem-u6dGxF .text-MPIeXO {
+    font-size: 12px;
+    font-weight: 400;
+}
+
+.userInfo-2WpsYG {
+    position: relative;
+    height: 100%;
+    align-items: center;
+    overflow: visible;
+}
+
+.userInfo-2WpsYG::before {
+    content: '';
+    display: block;
+    position: absolute;
+    height: 100%;
+    width: 4px;
+    top: 0;
+    left: -12px;
+    background: var(--rs-offline-color);
+    // filter: blur(1px);
+    // opacity: 0.5;
+    clip-path: inset(1px);
+}
+
+.userInfo-2WpsYG:has([mask="url(#svg-mask-status-online)"])::before,
+.userInfo-2WpsYG:has([mask="url(#svg-mask-avatar-status-mobile-32)"])::before {
+    background: var(--rs-online-color);
+}
+
+.userInfo-2WpsYG:has([mask="url(#svg-mask-status-idle)"])::before {
+    background: var(--rs-idle-color);
+}
+
+.userInfo-2WpsYG:has([mask="url(#svg-mask-status-dnd)"])::before {
+    background: var(--rs-dnd-color);
+}
+
+.peopleListItem-u6dGxF:not(:hover) .actions-YHvpIT {
+    display: none;
 }
 
 .peopleListItem-u6dGxF.active-2UF8Zh,
 .peopleListItem-u6dGxF:hover {
-    background: var(--background-modifier-hover);
-    -webkit-box-shadow: none;
-    box-shadow: none;
+    background: hsl(var(--accent-hue), 26%, 15%);
+    -webkit-box-shadow: 0 0 5px rgba( 0, 0, 0, 0.4);
+    box-shadow: 0 0 5px rgba( 0, 0, 0, 0.4);
     border-radius: 0;
     border-color: transparent;
     margin: 0;
-    padding: 0;
+    padding: 0 12px;
 }
 
 

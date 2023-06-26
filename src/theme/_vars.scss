@@ -22,10 +22,15 @@
     --background-tertiary-border-bottom: hsl(var(--accent-hue), 15%, 19%);
     --gpStoreDarkerGrey: hsl(var(--accent-hue), 35%, 16%);
 
-    --gpColor-Green: #5ba32b;
-    --gpColor-Red: #D94126;
-    --gpColor-Yellow: #FFC82C;
-    --gpColor-Grey: #4e5058;
+    --gpColor-Green: hsl(96, 58%, 40%);
+    --gpColor-Red: hsl(9, 70%, 50%);
+    --gpColor-Yellow: hsl(44, 100%, 59%);
+    --gpColor-Grey: hsl(228, 6%, 33%);
+
+    --gpColor-Green-hue: 96;
+    --gpColor-Red-hue: 9;
+    --gpColor-Yellow-hue: 44;
+    --gpColor-Grey-hue: 228;
 }
 
 #app-mount:has(.themeEditor-1Ebyfp) {
