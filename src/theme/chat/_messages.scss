@@ -49,11 +49,6 @@
     margin-top: 0;
 }
 
-#app-mount .divider-IqmEqJ.beforeGroup-1BvJAt {
-    margin-bottom: 0;
-    top: -1px;
-}
-
 .compact-2Nkcau.wrapper-30-Nkg,
 .cozy-VmLDNB.wrapper-30-Nkg {
     padding-top: 12px;
@@ -125,14 +120,18 @@
     margin-left: 2px;
     background-color: rgba(0, 0, 0, 0.2);
     border-radius: 3px;
-}
 
-.button-3bklZh:hover {
-    background-color: hsla(var(--accent-hue), 87%, 68%, 0.4);
-}
+    &:hover {
+        background-color: hsla(var(--accent-hue), 87%, 68%, 0.4);
+    }
 
-.button-3bklZh:active {
-    padding: 0;
+    &:active {
+        padding: 0;
+    }
+
+    &.selected-69H4ua {
+        background-color: hsla(var(--accent-hue), 87%, 68%, 0.4);
+    }
 }
 
 // Embeds
@@ -179,4 +178,86 @@
 .embedSuppressButton-1rZHq6:hover {
     background: var(--button-danger-background);
     color: var(--white-500);
+}
+
+// Message dividers
+#app-mount .divider-IqmEqJ.beforeGroup-1BvJAt {
+    top: 0;
+}
+
+#app-mount .divider-2rZFJK {
+    border-top: none;
+    justify-content:flex-start;
+    height: 1px;
+    background: linear-gradient( to right, hsl(201, 41%, 39%) 0%, transparent 60%);
+    margin-top: 2rem;
+    margin-bottom: -1px;
+    
+    &#---new-messages-bar {
+        background: linear-gradient( to right, var(--status-danger) 0%, transparent 60%);
+    }
+}
+
+.content-3spvdd {
+    padding: 0;
+    color: hsl(var(--accent-hue), 19%, 42%);
+    background: none;
+    line-height: auto;
+    font-size: 14px;
+    margin-top: -30px;
+    font-weight: 400;
+    letter-spacing: 2px;
+    border-radius: 0;
+    text-transform: uppercase;
+}
+
+.unreadPill-3nEWYM {
+    top: unset;
+    right: unset;
+    bottom: 0;
+    border-radius: 0;
+    padding: 0;
+    height: unset;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: auto;
+    padding-bottom: 11px;
+    letter-spacing: 2px;
+    background: none;
+}
+
+.unreadPillCap-2-iI4h {
+    display: none;
+}
+
+// Message reactions
+.reaction-3vwAF2 {
+    border-radius: 5px;
+    margin-right: 2px;
+    margin-bottom: 2px;
+    -webkit-transition: none;
+    transition: none;
+    background: rgba(0, 0, 0, 0.2);
+    border: none;
+
+    &:hover {
+        background: rgba(255, 255, 255, 0.2);
+        border-color: unset;
+    }
+
+    .reactionInner-YJjOtT {
+        padding: 5px 8px;
+
+        .reactionCount-26U4As {
+            color: hsl(var(--accent-hue), 87%, 68%);
+        }
+    }
+
+    &.reactionMe-1PwQAc {
+        background: hsla(var(--accent-hue), 88%, 68%, 0.4);
+
+        .reactionCount-26U4As {
+            color: var(--white-500);
+        }
+    }
 }

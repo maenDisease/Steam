@@ -1,0 +1,34 @@
+.privateChannels-oVe7HL {
+    background: none;
+
+    .scroller-WSmht3 {
+        background: none;
+    }
+}
+
+.channel-1Shao0 {
+    border-radius: 0;
+}
+
+.interactive-26HRN_ {
+
+    &:focus-within,
+    &:hover {
+        color: var(--brand-experiment-260);
+        background: none;
+    }
+
+    &.selected-26oxtA {
+        color: var(--interactive-active);
+        background: radial-gradient(circle at 0%, hsla(var(--accent-hue), 24%, 43%, 0) 20%, hsla(var(--accent-hue), 24%, 43%, 0.251) 100%);
+    }
+
+    .highlighted-Q8Nll-:hover {
+        color: var(--brand-experiment-260);
+    }
+}
+
+#app-mount .name-2m3Cms {
+    font-size: 12px;
+    font-weight: 700;
+}

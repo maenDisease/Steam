@@ -11,3 +11,63 @@
     -ms-flex-pack: start;
     justify-content: flex-start;
 }
+
+.wrapper-3HVHpV,
+.wrapper-15CKyy {
+    background: none;
+}
+
+.emptyChannelIcon-1YdEz2 {
+    display: none;
+}
+
+.attachment-16cAbS, .avatar-l9Txm5, .blob-1uHjdp {
+    border-radius: 2px;
+}
+
+// .messagesWrapper-RpOMA3:has(.attachment-16cAbS[style*="opacity: 0.03;"])::before {
+//     content:'';
+//     display: block;
+//     position: absolute;
+//     left: 0;
+//     right: 0;
+//     top: 0;
+//     bottom: 0;
+//     margin: auto;
+//     border-radius: 50%;
+//     height: 60px;
+//     width: 60px;
+//     border-top: 4px solid rgba(255,255,255,.2);
+//     border-right: 4px solid rgba(255,255,255,.2);
+//     border-bottom: 4px solid rgba(255,255,255,.2);
+//     border-left: 4px solid #fff;
+//     -webkit-transform: translateZ(0);
+//     -ms-transform: translateZ(0);
+//     transform: translateZ(0);
+//     -webkit-animation: loading_LoadAmin_2z54o 1.1s infinite linear;
+//     animation: loading_LoadAmin_2z54o 1.1s infinite linear;
+// }
+
+// @-webkit-keyframes loading_LoadAmin_2z54o {
+//     0% {
+//         -webkit-transform: rotate(0deg);
+//         transform: rotate(0deg)
+//     }
+
+//     100% {
+//         -webkit-transform: rotate(360deg);
+//         transform: rotate(360deg)
+//     }
+// }
+
+// @keyframes loading_LoadAmin_2z54o {
+//     0% {
+//         -webkit-transform: rotate(0deg);
+//         transform: rotate(0deg)
+//     }
+
+//     100% {
+//         -webkit-transform: rotate(360deg);
+//         transform: rotate(360deg)
+//     }
+// }
