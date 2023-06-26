@@ -2289,9 +2289,21 @@ body #app-mount .app-3xd6d0 .base-2jDfDU {
   background: none;
 }
 .nowPlayingColumn-1eCBCN .scroller-hE2gWq {
-  padding: 16px;
   height: 100%;
   border-left: none;
+}
+.nowPlayingColumn-1eCBCN .wrapper-2RrXDg {
+  background: rgba(103, 193, 245, 0.1);
+  border: none;
+  border-radius: 0;
+}
+.nowPlayingColumn-1eCBCN .wrapper-2RrXDg:hover {
+  background: linear-gradient(135deg, #67c1f5 0%, #417a9b 100%);
+}
+.nowPlayingColumn-1eCBCN .wrapper-2RrXDg .section-3G9aLW {
+  padding: 12px;
+  background-color: var(--background-primary);
+  border-radius: 0;
 }
 
 /*
