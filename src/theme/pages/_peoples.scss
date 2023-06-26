@@ -67,9 +67,13 @@
     font-size: 14px;
     line-height: 20px;
     border-top: none;
-    background: hsl(var(--accent-hue), 26%, 15%);
+    background: rgba(0,0,0,0.2);
     height: 50px !important;
     flex-basis: 292px;
+}
+
+.peopleListItem-u6dGxF:has([mask="url(#svg-mask-status-offline)"]) {
+    background-color: hsla(223, 11%, 13%, 0.8);
 }
 
 .peopleListItem-u6dGxF .text-MPIeXO {
@@ -117,7 +121,7 @@
 
 .peopleListItem-u6dGxF.active-2UF8Zh,
 .peopleListItem-u6dGxF:hover {
-    background: hsl(var(--accent-hue), 26%, 15%);
+    background: linear-gradient(135deg, #67c1f5 0%,#417a9b 100%);
     -webkit-box-shadow: 0 0 5px rgba( 0, 0, 0, 0.4);
     box-shadow: 0 0 5px rgba( 0, 0, 0, 0.4);
     border-radius: 0;
