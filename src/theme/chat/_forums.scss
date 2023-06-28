@@ -255,20 +255,20 @@
     background: rgba(0, 0, 0, 0.2);
 }
 
-.container-2qVG6q {
+.container-q2_DnH {
     height: 72px;
     max-width: 618px;
     padding: 0;
     z-index: 0;
 }
 
-.container-2qVG6q .left-r1N3TH {
+.container-q2_DnH .left-3Nlcn5 {
     padding-left: 14px;
     padding-right: 14px;
     padding-top: 8px;
 }
 
-.container-2qVG6q {
+.container-q2_DnH {
     --title-text: hsl(206, 29%, 83%);
     --body-text: hsl(var(--accent-hue), 23%, 28%);
 
@@ -278,7 +278,7 @@
     --background-modifier-accent: var(--body-text);
 }
 
-.container-2qVG6q .postTitleText-2ARr84 {
+.container-q2_DnH .postTitleText-3gRCnO {
     --text-muted: var(--title-text);
     --header-primary: var(--title-text);
 }
@@ -288,13 +288,13 @@
     background: rgba(0, 0, 0, 0.2);
 }
 
-#app-mount .mainCard-3KBsBI:not(.isOpen-2OXbFs, .header-1Uy0p6):hover {
+#app-mount .mainCard-3KBsBI:not(.isOpen-2Gyel_, .header-1Uy0p6):hover {
     outline: 1px solid hsl(203, 39%, 41%);
 }
 
 // card.onNewMessage
-#app-mount .mainCard-3KBsBI:has(.newMessageCount-jqlY9z),
-#app-mount .mainCard-3KBsBI:has(.newBadge-1LcB6t) {
+#app-mount .mainCard-3KBsBI:has(.newMessageCount-MJLPvW),
+#app-mount .mainCard-3KBsBI:has(.newBadge-1RUEYb) {
     background: linear-gradient(-45deg, hsl(var(--accent-hue), 41%, 43%) 5%, hsl(var(--accent-hue), 36%, 26%) 95%);
 
     --title-text: var(--white-500);
@@ -307,6 +307,10 @@
 
     --title-text: var(--white-500);
     --body-text: hsl(30, 1%, 55%);
+
+    .left-3Nlcn5 {
+        z-index: 1;
+    }
 }
 
 .mainCard-3KBsBI:has(.pinIcon-3I5-gm):not([class*="isOpen"])::before {
@@ -319,7 +323,7 @@
     left: -1px;
     background-image: url(https://maendisease.github.io/Steam/illustrations/bg_announcement.avif);
     background-repeat: no-repeat;
-    z-index: -1;
+    z-index: 0;
     clip-path: inset(1px 0 0 2px);
     filter: blur(1px);
 }
@@ -331,13 +335,13 @@
 .mainCard-3KBsBI {
 
     .pinIcon-3I5-gm,
-    .newBadgeWrapper-J629On {
+    .newBadgeWrapper-2KsCk4 {
         display: none;
     }
 
-    &:has(.pinIcon-3I5-gm, .newBadge-1LcB6t) {
+    &:has(.pinIcon-3I5-gm, .newBadge-1RUEYb) {
 
-        .postTitleText-2ARr84,
+        .postTitleText-3gRCnO,
         .title-2qfNnd {
             &::before {
                 white-space: nowrap;
@@ -352,7 +356,7 @@
 
     &:has(.pinIcon-3I5-gm) {
 
-        .postTitleText-2ARr84,
+        .postTitleText-3gRCnO,
         .title-2qfNnd {
             &::before {
                 content: "PINNED:";
@@ -360,9 +364,9 @@
         }
     }
 
-    &:has(.newBadge-1LcB6t) {
+    &:has(.newBadge-1RUEYb) {
 
-        .postTitleText-2ARr84,
+        .postTitleText-3gRCnO,
         .title-2qfNnd {
             &::before {
                 content: "NEW:";
@@ -370,9 +374,9 @@
         }
     }
 
-    &:not(.isOpen-2OXbFs) {
+    &:not(.isOpen-2Gyel_) {
 
-        .postTitleText-2ARr84,
+        .postTitleText-3gRCnO,
         .title-2qfNnd {
             &::before {
                 color: #AEDD08;
@@ -390,7 +394,7 @@
     --body-text: hsl(var(--accent-hue), 23%, 28%);
 }
 
-.container-2qVG6q.isOpen-2OXbFs:after {
+.container-q2_DnH.isOpen-2Gyel_:after {
     content: ' ';
     display: block;
     width: 50px;
@@ -406,15 +410,15 @@
     z-index: -1;
 }
 
-.container-2qVG6q.isOpen-2OXbFs .bodyMedia-3ij3KY {
+.container-q2_DnH.isOpen-2Gyel_ .bodyMedia-35rZ5t {
     clip-path: inset(2px);
 }
 
-.container-2qVG6q .header-2W779F {
+.container-q2_DnH .header-ErMa2_ {
     padding-bottom: 4px;
 }
 
-.container-2qVG6q .postTitleText-2ARr84 {
+.container-q2_DnH .postTitleText-3gRCnO {
     font-size: 16px;
     font-weight: 400;
     line-height: unset;
@@ -425,7 +429,7 @@
 }
 
 
-.container-2qVG6q .body-hCVwsC {
+.container-q2_DnH .body-391oJl {
     padding-bottom: 3px;
 }
 
@@ -433,7 +437,7 @@
     gap: 2px;
 }
 
-.container-2qVG6q .tags-2UGy2I {
+.container-q2_DnH .tags-2UGy2I {
     position: absolute;
     bottom: 6px;
     left: 14px;
@@ -442,67 +446,67 @@
     margin-bottom: 0;
 }
 
-.container-2qVG6q .pill-3pRQlO.small-1j51ag {
+.container-q2_DnH .pill-3pRQlO.small-1j51ag {
     background: none;
     padding: 0 4px 0 0;
     height: unset;
 }
 
-.container-2qVG6q .pill-3pRQlO .emoji-Z6vF9e {
+.container-q2_DnH .pill-3pRQlO .emoji-Z6vF9e {
     margin-right: 2px;
     display: none;
 }
 
-.container-2qVG6q .pill-3pRQlO:not(:last-child)::after {
+.container-q2_DnH .pill-3pRQlO:not(:last-child)::after {
     content: ',';
     font-size: 12px;
     color: var(--text-muted);
 }
 
 .tags-2UGy2I,
-.footer-3dzxcR {
+.footer-3UjAHx {
     overflow: hidden;
 }
 
-.container-2qVG6q .pill-3pRQlO {
+.container-q2_DnH .pill-3pRQlO {
     translate: 0 24px;
     transition: translate .15s ease;
 }
 
-.container-2qVG6q:hover .pill-3pRQlO {
+.container-q2_DnH:hover .pill-3pRQlO {
     translate: 0;
 }
 
-.container-2qVG6q .footer-3dzxcR>* {
+.container-q2_DnH .footer-3UjAHx>* {
     transition: translate .15s ease;
 }
 
-.container-2qVG6q:has(.pill-3pRQlO):hover .footer-3dzxcR>* {
+.container-q2_DnH:has(.pill-3pRQlO):hover .footer-3UjAHx>* {
     translate: 0 -24px;
 }
 
-.footer-3dzxcR {
+.footer-3UjAHx {
     height: unset;
     font-size: 12px;
 }
 
-.footer-3dzxcR .messageCountText-J-9pag,
-.footer-3dzxcR .text-sm-normal-AEQz4v,
-.footer-3dzxcR .newMessageCount-jqlY9z {
+.footer-3UjAHx .messageCountText-2q9uMy,
+.footer-3UjAHx .text-sm-normal-AEQz4v,
+.footer-3UjAHx .newMessageCount-MJLPv {
     font-size: 12px;
 }
 
-.messageCountBox-XEP63e {
+.messageCountBox-U8MTKq {
     height: unset;
     padding-top: 0;
 }
 
-.messageCountIcon-2CvKyY {
+.messageCountIcon-32-p8d {
     height: unset;
     margin-top: 0;
 }
 
-.footer-3dzxcR .typing-uHRw1D {
+.footer-3UjAHx .typing-21jJZA {
     .avatarContainer-gPrCzX {
         clip-path: inset(0 4px 0 0);
 
@@ -518,7 +522,7 @@
         line-height: unset;
     }
 
-    .dots-2_b2Mn {
+    .dots-3b0kDm {
         background-color: rgba(0, 0, 0, 0.2);
         border: none;
         border-radius: 0;
@@ -533,17 +537,17 @@
     padding: 0 6px;
 }
 
-.updateReactionButton-2dT2HE>div {
+.updateReactionButton-13dIN9>div {
     padding-bottom: 0;
     padding-top: 0;
 }
 
-.bodyMedia-3ij3KY {
+.bodyMedia-35rZ5t {
     height: 72px;
     margin-left: 0;
     border-radius: 0;
 
-    .thumbnailContainer-2XSRmY {
+    .thumbnailContainer-dzG9JU {
         max-height: 100%;
     }
 

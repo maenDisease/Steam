@@ -13,21 +13,24 @@
     width: 210px !important;
 }
 
-.content-yjf30S>div[style="height: 84px;"] ~ .container-2giAcK .progressBarContainer-1efroK {
-    position: absolute;
-    top: -90px;
-    left: 11px;
-    width: 188px;
-    height: 124px;
-    margin: 0;
-}
+.content-yjf30S>div[style="height: 84px;"] ~ .container-2giAcK {
 
-.content-yjf30S>div[style="height: 84px;"] ~ .container-2giAcK .textArea-7J7xQx {
-    margin-top: 32px;
-}
+    .progressBarContainer-1efroK {
+        position: absolute;
+        top: -90px;
+        left: 11px;
+        width: 188px;
+        height: 124px;
+        margin: 0;
+    }
 
-.content-yjf30S>div[style="height: 84px;"] ~ .container-2giAcK .progressBar-2yl2pi {
-    height: 100%;
+    .progressBar-2yl2pi {
+        height: 100%;
+    }
+
+    .textArea-7J7xQx {
+        margin-top: 32px;
+    }
 }
 
 .content-1gYQeQ {
@@ -37,9 +40,12 @@
     border-radius: 0;
 }
 
-.modeSelected-3DmyhH .content-1gYQeQ,
-.modeSelected-3DmyhH:hover .content-1gYQeQ {
-    background: radial-gradient(circle at 0%, hsla(var(--accent-hue), 24%, 43%, 0) 20%, hsla(var(--accent-hue), 24%, 43%, 0.251) 100%);
+.modeSelected-3DmyhH {
+
+    &:hover .content-1gYQeQ,
+    .content-1gYQeQ {
+        background: radial-gradient(circle at 0%, hsla(var(--accent-hue), 24%, 43%, 0) 20%, hsla(var(--accent-hue), 24%, 43%, 0.251) 100%);
+    }
 }
 
 .wrapper-NhbLHG:not(.modeSelected-3DmyhH):hover .content-1gYQeQ {
@@ -52,14 +58,26 @@
     color: var(--channels-category);
 }
 
-.wrapper-1S43wv.muted-19J0ih:hover .icon-3zI3d2,
-.wrapper-1S43wv:hover .icon-3zI3d2 {
-    color: var(--channels-category);
-}
+.wrapper-1S43wv {
+    &:hover {
+        .icon-3zI3d2 {
+            color: var(--channels-category);
+        }
 
-.wrapper-1S43wv.muted-19J0ih:hover .name-3BUDLf,
-.wrapper-1S43wv:hover .name-3BUDLf {
-    color: var(--brand-experiment-260);
+        .name-3BUDLf {
+            color: var(--brand-experiment-260);
+        }
+    }
+    
+    &.muted-19J0ih:hover {
+        .icon-3zI3d2 {
+            color: var(--channels-category);
+        }
+
+        .name-3BUDLf {
+            color: var(--brand-experiment-260);
+        }
+    }
 }
 
 .name-28HaxV {

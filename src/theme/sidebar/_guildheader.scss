@@ -6,6 +6,18 @@
     padding: 6px 6px;
     box-shadow: none;
     max-width: 183px;
+
+    .name-3Uvkvr {
+        font-family: var(--font-display);
+        font-size: 12px;
+        line-height: 20px;
+        font-weight: 500;
+        cursor: pointer;
+    }
+
+    .dropdownButton-1-5aBs {
+        display: none;
+    }
 }
 
 .clickable-vvKY2q .header-3OsQeK:hover,
@@ -26,16 +38,4 @@
 
 .guildIconV2Container-2H8IRS {
     margin-right: 6px;
-}
-
-.header-3OsQeK .name-3Uvkvr {
-    font-family: var(--font-display);
-    font-size: 12px;
-    line-height: 20px;
-    font-weight: 500;
-    cursor: pointer;
-}
-
-.header-3OsQeK .dropdownButton-1-5aBs {
-    display: none;
 }

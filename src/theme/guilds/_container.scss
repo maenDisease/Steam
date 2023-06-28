@@ -11,3 +11,7 @@ body #app-mount .app-3xd6d0 .base-2jDfDU {
     top: 0 !important;
     bottom: calc(var(--server-container) + 2px) !important;
 }
+
+.platform-osx body #app-mount .app-3xd6d0 .base-2jDfDU {
+    top: var(--titlebar-height) !important;
+}

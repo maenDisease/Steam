@@ -48,30 +48,31 @@
     display: flex;
     flex: 0 1 calc(100% / var(--btn-count));
     justify-content: center;
+
+    &:not(.selected-1sf9UK):hover {
+        background: hsla(var(--accent-hue), 40%, 23%, 0.4);
+    }
 }
 
-#app-mount .searchHeaderTabList-3CZMQB .item-2GWPIy:not(.selected-1sf9UK):hover {
-    background: hsla(var(--accent-hue), 40%, 23%, 0.4);
-}
 
-.searchHeaderTabList-3CZMQB::before {
-    content: '';
-    position: absolute;
-    height: 100%;
-    width: calc(100% / var(--btn-count));
-    background: linear-gradient(135deg, #3d6c8d 0%,#2e5470 100%);
-    transition: translate .2s ease;
-    border-radius: 3px;
-}
+.searchHeaderTabList-3CZMQB {
+    &::before {
+        content: '';
+        position: absolute;
+        height: 100%;
+        width: calc(100% / var(--btn-count));
+        background: linear-gradient(135deg, #3d6c8d 0%,#2e5470 100%);
+        transition: translate .2s ease;
+        border-radius: 3px;
+    }
 
-/* Button 2 */
-.searchHeaderTabList-3CZMQB:has(.selected-1sf9UK:nth-child(2)):before {
-    translate: 100%;
-}
+    &:has(.selected-1sf9UK:nth-child(2)):before {
+        translate: 100%;
+    }
 
-/* Button 3 */
-.searchHeaderTabList-3CZMQB:has(.selected-1sf9UK:nth-child(3)):before {
-    translate: 200%;
+    &:has(.selected-1sf9UK:nth-child(3)):before {
+        translate: 200%;
+    }
 }
 
 // Bottom nav buttons
@@ -89,33 +90,33 @@
     background-color: hsla(var(--accent-hue), 88%, 68%, 0.2);
     color: hsl(var(--accent-hue), 87%, 68%);
     font-weight: 400;
-}
 
-.pageButton-uta6J3.button-ejjZWC:hover {
-    background-color: hsl(var(--accent-hue), 87%, 68%);
-    color: var(--white-500);
+    &:hover {
+        background-color: hsl(var(--accent-hue), 87%, 68%);
+        color: var(--white-500);
+    }
 }
 
 .roundButton-2mKRqM.pageButton-uta6J3 {
     background: none;
     font-weight: 400;
-}
 
-.roundButton-2mKRqM.pageButton-uta6J3:hover {
-    text-decoration: underline;
-    color: inherit;
-}
+    &:hover {
+        text-decoration: underline;
+        color: inherit;
+    }
 
-.roundButton-2mKRqM.pageButton-uta6J3.activeButton-2K2Fwx {
-    color: hsl(var(--accent-hue), 19%, 42%);
-    cursor: default;
-    background: none;
+    &.activeButton-2K2Fwx {
+        color: hsl(var(--accent-hue), 19%, 42%);
+        cursor: default;
+        background: none;
+    }
+
+    &.gap-3Q-U2O {
+        cursor: text;
+    }
 }
 
 .pageControlContainer-1Mbe6M {
     margin: 0 0 4px 0;
-}
-
-.roundButton-2mKRqM.pageButton-uta6J3.gap-3Q-U2O {
-    cursor: text;
 }

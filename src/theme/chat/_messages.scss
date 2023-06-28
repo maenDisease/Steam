@@ -1,11 +1,3 @@
-.header-2jRmjb {
-    opacity: 0.25;
-}
-
-.message-2CShn3:hover .header-2jRmjb {
-    opacity: 1;
-}
-
 .avatar-2e8lTP {
     position: absolute;
     left: 14px;
@@ -13,6 +5,10 @@
     box-shadow:
         0 0 0 1px hsl(0, 0%, 29%),
         0 0 0 2px hsl(0, 0%, 36%);
+}
+
+.header-2jRmjb {
+    opacity: 0.25;
 }
 
 .username-h_Y3Us {
@@ -26,18 +22,22 @@
     margin: 0 16px;
     margin-bottom: 2px;
     max-width: 640px;
-}
 
-#app-mount .message-2CShn3.mentioned-Tre-dv {
-    background: linear-gradient(135deg, hsla(40, 23%, 41%, 0.5) 0%, hsla(40, 60%, 72%, 0.502) 100%);
-}
+    &.mentioned-Tre-dv {
+        background: linear-gradient(135deg, hsla(40, 23%, 41%, 0.5) 0%, hsla(40, 60%, 72%, 0.502) 100%);
+    }
 
-#app-mount .message-2CShn3.replying-eZ7p5z {
-    background: linear-gradient(135deg, hsla(var(--accent-hue), 23%, 41%, 0.5) 0%, hsla(var(--accent-hue), 60%, 72%, 0.502) 100%);
-}
+    &.replying-eZ7p5z {
+        background: linear-gradient(135deg, hsla(var(--accent-hue), 23%, 41%, 0.5) 0%, hsla(var(--accent-hue), 60%, 72%, 0.502) 100%);
+    }
 
-#app-mount .message-2CShn3:has(.communicationDisabled-2KRN2p) {
-    background: linear-gradient(135deg, hsla(0, 53%, 41%, 0.5) 0%, hsla(0, 90%, 72%, 0.502) 100%);
+    &:has(.communicationDisabled-2KRN2p) {
+        background: linear-gradient(135deg, hsla(0, 53%, 41%, 0.5) 0%, hsla(0, 90%, 72%, 0.502) 100%);
+    }
+
+    &:hover .header-2jRmjb {
+        opacity: 1;
+    }
 }
 
 .mentioned-Tre-dv:before,
@@ -53,10 +53,6 @@
 .cozy-VmLDNB.wrapper-30-Nkg {
     padding-top: 12px;
     padding-bottom: 20px;
-}
-
-.compact-2Nkcau.wrapper-30-Nkg,
-.cozy-VmLDNB.wrapper-30-Nkg {
     padding-left: 70px;
 }
 
@@ -70,27 +66,27 @@
     border-radius: 3px;
     box-sizing: border-box;
     max-width: calc(100% - 97px);
-}
 
-#app-mount .repliedMessage-3Z6XBG>div {
-    position: relative;
-    z-index: 1;
-}
+    &>div {
+        position: relative;
+        z-index: 1;
+    }
 
-#app-mount .repliedMessage-3Z6XBG img.emoji {
-    display: inline;
-}
+    &::before {
+        content: none;
+    }
 
-#app-mount .repliedMessage-3Z6XBG .username-h_Y3Us {
-    margin-right: 5px;
-}
+    &+.contents-2MsGLg .header-2jRmjb {
+        margin-bottom: 92px;
+    }
 
-#app-mount .repliedMessage-3Z6XBG::before {
-    content: none;
-}
+    img.emoji {
+        display: inline;
+    }
 
-#app-mount .repliedMessage-3Z6XBG+.contents-2MsGLg .header-2jRmjb {
-    margin-bottom: 92px;
+    .username-h_Y3Us {
+        margin-right: 5px;
+    }
 }
 
 .container-2gUZhU {
@@ -140,44 +136,44 @@
     border-left: none;
     z-index: 0;
     box-shadow: 2px 2px 10px rgba(0,0,0,.4);
-}
 
-.embedFull-1HGV2S::before {
-    content: '';
-    position: absolute;
-    display: block;
-    height: 100%;
-    border-right: 100vw solid transparent;
-    border-color: inherit;
-    opacity: 0.4;
-    z-index: -1;
-}
+    &::before {
+        content: '';
+        position: absolute;
+        display: block;
+        height: 100%;
+        border-right: 100vw solid transparent;
+        border-color: inherit;
+        opacity: 0.4;
+        z-index: -1;
+    }
 
-.embedFull-1HGV2S::after {
-    content: '';
-    position: absolute;
-    display: block;
-    height: 100%;
-    width: 100%;
-    background: linear-gradient( -45deg, transparent,rgba(0,0,0,0.6) 95%);
-    opacity: 0.6;
-    z-index: -1;
-}
+    &::after {
+        content: '';
+        position: absolute;
+        display: block;
+        height: 100%;
+        width: 100%;
+        background: linear-gradient( -45deg, transparent,rgba(0,0,0,0.6) 95%);
+        opacity: 0.6;
+        z-index: -1;
+    }
 
-.embedSuppressButton-1rZHq6 {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    margin: 6px 4px 0 0;
-    height: 20px;
-    width: 20px;
-    right: 0;
-    z-index: 2;
-}
-
-.embedSuppressButton-1rZHq6:hover {
-    background: var(--button-danger-background);
-    color: var(--white-500);
+    .embedSuppressButton-1rZHq6 {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin: 6px 4px 0 0;
+        height: 20px;
+        width: 20px;
+        right: 0;
+        z-index: 2;
+    }
+    
+    .embedSuppressButton-1rZHq6:hover {
+        background: var(--button-danger-background);
+        color: var(--white-500);
+    }
 }
 
 // Message dividers
