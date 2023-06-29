@@ -8,6 +8,7 @@
   --accent-hue: 205;
   --accent-saturation: 100%;
   --accent-brightness: 55%;
+  --messages-max-width: 640px;
   --background-tertiary: hsl(calc(var(--accent-hue) + 9), 18%, 11%);
   --interactive-normal: hsl(212, 7%, 57%);
   --interactive-hover: hsl(206, 5%, 74%);
@@ -677,6 +678,9 @@ body #app-mount .app-3xd6d0 .base-2jDfDU {
   z-index: 2;
   margin-bottom: 30px;
 }
+.animatedContainer-2laTjx[style*="opacity: 0;"] {
+  pointer-events: none;
+}
 
 .bannerImage-ubW8K- {
   width: 210px;
@@ -902,6 +906,7 @@ body #app-mount .app-3xd6d0 .base-2jDfDU {
 .container-ZMc96U.themed-Hp1KC_ .search-2Mwzzq .DraftEditor-root .public-DraftEditorPlaceholder-root {
   color: hsl(var(--accent-hue), 45%, 10%);
   font-size: 14px;
+  font-style: italic;
   text-shadow: 1px 1px 0px rgba(255, 255, 255, 0.1);
 }
 .container-ZMc96U.themed-Hp1KC_ .search-2Mwzzq .DraftEditor-root .DraftEditor-editorContainer {
@@ -940,7 +945,7 @@ body #app-mount .app-3xd6d0 .base-2jDfDU {
   box-shadow: 0 0 5px #000;
   margin: 0 16px;
   margin-bottom: 2px;
-  max-width: 640px;
+  max-width: var(--messages-max-width);
 }
 #app-mount .message-2CShn3.mentioned-Tre-dv {
   background: linear-gradient(135deg, hsla(40, 23%, 41%, 0.5) 0%, hsla(40, 60%, 72%, 0.502) 100%);
@@ -1435,9 +1440,15 @@ body #app-mount .app-3xd6d0 .base-2jDfDU {
   padding: 10px 11px;
   box-shadow: inset 0px 0px 7px rgba(0, 0, 0, 0.5);
 }
-#app-mount .mainCard-3KBsBI.header-1Uy0p6 .input-3O04eu {
+#app-mount .mainCard-3KBsBI.header-1Uy0p6 textarea {
   color: #66c0f4;
-  font-weight: 400 !important;
+  font-weight: 400;
+}
+#app-mount .mainCard-3KBsBI.header-1Uy0p6 textarea::-moz-placeholder {
+  font-weight: 400;
+}
+#app-mount .mainCard-3KBsBI.header-1Uy0p6 textarea::placeholder {
+  font-weight: 400;
 }
 #app-mount .mainCard-3KBsBI.header-1Uy0p6 .contentContainer-2xwoXK {
   padding-left: 0;
@@ -1566,7 +1577,8 @@ body #app-mount .app-3xd6d0 .base-2jDfDU {
   line-height: unset;
 }
 
-.combo-3PNrpQ, .key-RP8gj3 {
+.combo-3PNrpQ,
+.key-RP8gj3 {
   height: unset;
 }
 
@@ -1602,14 +1614,67 @@ body #app-mount .app-3xd6d0 .base-2jDfDU {
   padding: 16px;
   border-radius: 0;
 }
+.container-3arpDl .descriptionContainer-2ylKGk:has(.showMore-orAmWF) {
+  -webkit-mask-image: linear-gradient(180deg, rgb(0, 0, 0) calc(100% - 53px - 21px), transparent calc(100% - 21px), rgb(0, 0, 0) calc(100% - 21px));
+  mask-image: linear-gradient(180deg, rgb(0, 0, 0) calc(100% - 53px - 21px), transparent calc(100% - 21px), rgb(0, 0, 0) calc(100% - 21px));
+}
 .container-3arpDl .descriptionContainer-2ylKGk .guidelines-jQLwyH {
   color: #e1c48a !important;
+}
+.container-3arpDl .showMore-orAmWF {
+  height: 20px;
+  border-top: 1px solid hsla(40, 59%, 71%, 0.5);
+}
+.container-3arpDl .showMore-orAmWF .gradient-1SYq38 {
+  display: none;
+}
+.container-3arpDl .showMore-orAmWF .linkContainer-2xEQjX {
+  background: none;
+}
+.container-3arpDl .showMore-orAmWF .showMoreLink-v8clx5 {
+  padding: 0;
+}
+.container-3arpDl .showMore-orAmWF .showMoreText-1jKd_4 {
+  font-size: 10px;
+  font-weight: 500;
+  text-transform: uppercase;
+}
+.container-3arpDl .showMore-orAmWF svg {
+  margin-left: 4px;
+  height: 10px;
+  width: 10px;
 }
 
 .tagsContainer-2bBw1x {
   background: rgba(0, 0, 0, 0.2);
   margin-top: 32px;
-  padding: 10px 18px;
+  padding: 0;
+}
+.tagsContainer-2bBw1x > button {
+  border-left: 1px solid #2a475e;
+}
+.tagsContainer-2bBw1x .divider-2bkesd {
+  width: 0;
+  height: 40px;
+  border-radius: 0;
+  background: none;
+  margin: 0 4px 0 0;
+  border-left: 1px solid #2a475e;
+}
+.tagsContainer-2bBw1x .sortDropdown-hY93nR {
+  gap: 4px;
+  margin-bottom: -1px;
+  height: 40px;
+  background: none;
+  border-radius: 0;
+  padding: 10px;
+}
+.tagsContainer-2bBw1x .tagsButton-4pwOKH {
+  height: 40px;
+  padding-left: 4px;
+  padding-right: 4px;
+  margin-left: 4px;
+  border-radius: 0;
 }
 
 .tagListInner-35MqcW {
@@ -1645,7 +1710,7 @@ body #app-mount .app-3xd6d0 .base-2jDfDU {
   padding-top: 8px;
 }
 
-.container-q2_DnH {
+.mainCard-3KBsBI:not(.header-1Uy0p6) {
   --title-text: hsl(206, 29%, 83%);
   --body-text: hsl(var(--accent-hue), 23%, 28%);
   --text-normal: var(--body-text);
@@ -1654,7 +1719,7 @@ body #app-mount .app-3xd6d0 .base-2jDfDU {
   --background-modifier-accent: var(--body-text);
 }
 
-.container-q2_DnH .postTitleText-3gRCnO {
+.mainCard-3KBsBI h3 {
   --text-muted: var(--title-text);
   --header-primary: var(--title-text);
 }
@@ -1679,7 +1744,8 @@ body #app-mount .app-3xd6d0 .base-2jDfDU {
   --title-text: var(--white-500);
   --body-text: hsl(30, 1%, 55%);
 }
-#app-mount .mainCard-3KBsBI:has(.pinIcon-3I5-gm) .left-3Nlcn5 {
+#app-mount .mainCard-3KBsBI:has(.pinIcon-3I5-gm) .left-3Nlcn5,
+#app-mount .mainCard-3KBsBI:has(.pinIcon-3I5-gm) .header-AZ_4Uz {
   z-index: 1;
 }
 
@@ -1717,16 +1783,13 @@ body #app-mount .app-3xd6d0 .base-2jDfDU {
   font-weight: 700;
   margin-right: 4px;
 }
-.mainCard-3KBsBI:has(.pinIcon-3I5-gm) .postTitleText-3gRCnO::before,
-.mainCard-3KBsBI:has(.pinIcon-3I5-gm) .title-2qfNnd::before {
+.mainCard-3KBsBI:has(.pinIcon-3I5-gm) h3::before {
   content: "PINNED:";
 }
-.mainCard-3KBsBI:has(.newBadge-1RUEYb) .postTitleText-3gRCnO::before,
-.mainCard-3KBsBI:has(.newBadge-1RUEYb) .title-2qfNnd::before {
+.mainCard-3KBsBI:has(.newBadge-1RUEYb) h3::before {
   content: "NEW:";
 }
-.mainCard-3KBsBI:not(.isOpen-2Gyel_) .postTitleText-3gRCnO::before,
-.mainCard-3KBsBI:not(.isOpen-2Gyel_) .title-2qfNnd::before {
+.mainCard-3KBsBI:not(.isOpen-2Gyel_) h3::before {
   color: #AEDD08;
 }
 
@@ -1760,7 +1823,7 @@ body #app-mount .app-3xd6d0 .base-2jDfDU {
   padding-bottom: 4px;
 }
 
-.container-q2_DnH .postTitleText-3gRCnO {
+.mainCard-3KBsBI h3 {
   font-size: 16px;
   font-weight: 400;
   line-height: unset;
@@ -2214,19 +2277,16 @@ body #app-mount .app-3xd6d0 .base-2jDfDU {
   background-color: rgba(0, 0, 0, 0.2);
   border: 1px solid #000;
   border-radius: 3px;
+  padding: 0 4px 0 0;
+}
+.addFriendInputWrapper-kkoSV9 .addFriendInput-1Ta-rO {
   padding: 0;
 }
-
-.addFriendInput-1Ta-rO {
-  padding: 0;
-}
-
-.inputDefault-Ciwd-S {
+.addFriendInputWrapper-kkoSV9 .inputDefault-Ciwd-S {
   padding: 10px;
   height: unset;
 }
-
-.inputWrapper-2K8ds1:not(:has(+ .inputText-30IjXy)) .inputDefault-Ciwd-S {
+.addFriendInputWrapper-kkoSV9 .inputWrapper-2K8ds1:not(:has(+ .inputText-30IjXy)) .inputDefault-Ciwd-S {
   font-style: italic;
 }
 
