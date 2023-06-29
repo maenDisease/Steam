@@ -185,24 +185,20 @@
     background-color: rgba(0, 0, 0, 0.2);
     border: 1px solid #000;
     border-radius: 3px;
-    padding: 0;
+    padding: 0 4px 0 0;
 
-    // color: #909090;
-    // box-shadow: 1px 1px 0 0 rgba( 91, 132, 181, 0.2 );
-}
+    .addFriendInput-1Ta-rO {
+        padding: 0;
+    }
 
-.addFriendInput-1Ta-rO {
-    padding: 0;
-}
-
-
-.inputDefault-Ciwd-S {
-    padding: 10px;
-    height: unset;
-}
-
-.inputWrapper-2K8ds1:not(:has(+.inputText-30IjXy)) .inputDefault-Ciwd-S {
-    font-style: italic;
+    .inputDefault-Ciwd-S {
+        padding: 10px;
+        height: unset;
+    }
+    
+    .inputWrapper-2K8ds1:not(:has(+.inputText-30IjXy)) .inputDefault-Ciwd-S {
+        font-style: italic;
+    }
 }
 
 .inputText-30IjXy {

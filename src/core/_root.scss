@@ -1,2 +1,6 @@
 // The CSS to be included in your .theme.css file.
 // Addon @imports should be placed here.
+
+:root {
+    --messages-max-width: 640px; /* Change to 100% for full width */
+}

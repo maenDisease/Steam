@@ -21,7 +21,7 @@
     box-shadow: 0 0 5px #000;
     margin: 0 16px;
     margin-bottom: 2px;
-    max-width: 640px;
+    max-width: var(--messages-max-width);
 
     &.mentioned-Tre-dv {
         background: linear-gradient(135deg, hsla(40, 23%, 41%, 0.5) 0%, hsla(40, 60%, 72%, 0.502) 100%);
