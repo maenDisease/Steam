@@ -1091,7 +1091,7 @@ body #app-mount .app-3xd6d0 .base-2jDfDU {
   border-top: none;
   justify-content: flex-start;
   height: 1px;
-  max-width: 760px;
+  max-width: calc(var(--messages-max-width) + 120px);
   background: linear-gradient(to right, hsl(201, 41%, 39%) 0%, transparent 60%);
   margin-top: 2rem;
   margin-bottom: -1px;
