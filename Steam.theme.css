@@ -10,6 +10,7 @@
 
 @import url('https://maendisease.github.io/Steam/Steam.css');
 
+@import url(https://maendisease.github.io/Steam/src/addons/horizontalserverlist.css);
 :root {
   --messages-max-width: 640px; /* Change to 100% for full width */
 }
