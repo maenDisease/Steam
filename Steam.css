@@ -353,8 +353,8 @@ body,
   border-left: 1px solid var(--background-tertiary-border-bottom);
 }
 
-#app-mount .guilds-2JjMmN {
-  height: calc(100vw - 2px) !important;
+.platform-osx .wrapper-1_HaEi {
+  margin-top: var(--titlebar-height);
 }
 
 body #app-mount .app-3xd6d0 .base-2jDfDU {
@@ -363,7 +363,7 @@ body #app-mount .app-3xd6d0 .base-2jDfDU {
 }
 
 .platform-osx body #app-mount .app-3xd6d0 .base-2jDfDU {
-  top: var(--titlebar-height) !important;
+  margin-top: var(--titlebar-height);
 }
 
 .wrapper-2PSQCG foreignObject {
@@ -463,8 +463,17 @@ body #app-mount .app-3xd6d0 .base-2jDfDU {
   background-color: transparent !important;
 }
 
+#app-mount .folder-241Joy {
+  background: none;
+}
+
+.expandedFolderBackground-1kSAf6 {
+  bottom: 0;
+}
+
 #app-mount .expandedFolderBackground-1kSAf6.collapsed-uGXEbi {
   background-color: var(--header-button-background);
+  height: var(--server-size);
 }
 
 #app-mount .expandedFolderBackground-1kSAf6.collapsed-uGXEbi.hover-3m7-WT,
