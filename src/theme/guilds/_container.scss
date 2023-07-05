@@ -3,8 +3,8 @@
     border-left: 1px solid var(--background-tertiary-border-bottom);
 }
 
-#app-mount .guilds-2JjMmN {
-    height: calc(100vw - 2px) !important;
+.platform-osx .wrapper-1_HaEi {
+    margin-top: var(--titlebar-height);
 }
 
 body #app-mount .app-3xd6d0 .base-2jDfDU {
@@ -13,5 +13,5 @@ body #app-mount .app-3xd6d0 .base-2jDfDU {
 }
 
 .platform-osx body #app-mount .app-3xd6d0 .base-2jDfDU {
-    top: var(--titlebar-height) !important;
+    margin-top: var(--titlebar-height);
 }
