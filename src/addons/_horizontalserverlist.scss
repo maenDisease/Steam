@@ -4,3 +4,12 @@
 #app-mount .guilds-2JjMmN {
     height: calc(100vw - 2px) !important;
 }
+
+.folderIconWrapper-1oRIZr {
+    transform: rotate(-90deg);
+}
+
+.closedFolderIconWrapper-3tRb2d .icon-1zKOXL,
+.expandedFolderIconWrapper-3RwQpD svg {
+    transform: rotate(90deg);
+}

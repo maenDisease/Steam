@@ -16,6 +16,31 @@
     border-radius: 2px;
 }
 
+#app-mount .circleIconButton-1VxDrg {
+    background: none;
+}
+
+.circleIconButton-1VxDrg svg {
+    color: var(--background-tertiary);
+    background: hsl(var(--accent-hue), 9%, 44%);
+    border-radius: 2px;
+    height: 28px;
+    width: 28px;
+}
+
+.circleIconButton-1VxDrg.selected-2r1Hvo svg {
+    background: var(--interactive-active);
+}
+
+.circleIconButton-1VxDrg path {
+    scale: 0.8;
+    transform-origin: center;
+}
+
+.circleIconButton-1VxDrg path[d="M20 11.1111H12.8889V4H11.1111V11.1111H4V12.8889H11.1111V20H12.8889V12.8889H20V11.1111Z"] {
+    d: path("M 19 10 H 14 V 5 H 10 V 10 H 5 V 14 H 10 V 19 H 14 V 14 H 19 V 10 Z");
+}
+
 .wrapper-3kah-n.selected-1Drb7Z .childWrapper-1j_1ub,
 .wrapper-3kah-n:hover .childWrapper-1j_1ub {
     color: var(--background-tertiary);
