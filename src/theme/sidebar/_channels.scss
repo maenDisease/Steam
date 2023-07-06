@@ -37,22 +37,19 @@
     }
 }
 
-.content-1gYQeQ {
-    position: relative;
-    padding: 0 8px;
-    margin-left: 8px;
+.link-1_kTxV {
     border-radius: 0;
 }
 
 .modeSelected-3DmyhH {
 
-    &:hover .content-1gYQeQ,
-    .content-1gYQeQ {
+    &:hover .link-1_kTxV,
+    .link-1_kTxV {
         background: radial-gradient(circle at 0%, hsla(var(--accent-hue), 24%, 43%, 0) 20%, hsla(var(--accent-hue), 24%, 43%, 0.251) 100%);
     }
 }
 
-.wrapper-NhbLHG:not(.modeSelected-3DmyhH):hover .content-1gYQeQ {
+.wrapper-NhbLHG:not(.modeSelected-3DmyhH):hover .link-1_kTxV {
     background: none;
 }
 
