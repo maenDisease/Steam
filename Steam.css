@@ -2458,6 +2458,26 @@ body #app-mount .app-3xd6d0 .base-2jDfDU {
   border-bottom: none;
 }
 
+#app-mount .recentMentionsPopout-2bI1ZN .tab-TRrPC8 {
+  border-radius: 2px;
+  padding: 5px 10px;
+  font-size: 12px;
+  height: 30px;
+  margin-top: 0;
+  margin-left: 0;
+  margin-right: 2px;
+}
+#app-mount .recentMentionsPopout-2bI1ZN .tab-TRrPC8:hover {
+  background: hsla(223, 9%, 30%, 0.4);
+}
+#app-mount .recentMentionsPopout-2bI1ZN .tab-TRrPC8.active-1grPyy {
+  background: #454953;
+}
+
+.header-145e10 {
+  height: unset;
+}
+
 .messagesPopoutWrap-3zryHW {
   background: radial-gradient(circle at top left, rgba(74, 81, 92, 0.4) 0%, rgba(75, 81, 92, 0) 60%), #25282e;
   box-shadow: inset rgba(61, 68, 80, 0.75) 1px 1px 1px 0px, inset rgba(61, 68, 80, 0.25) -1px -1px 1px 0px;
@@ -2486,6 +2506,12 @@ body #app-mount .app-3xd6d0 .base-2jDfDU {
 }
 .messagesPopout-eVzQcI .header-2jRmjb {
   opacity: 1;
+  display: flex;
+  flex-direction: column-reverse;
+  padding-left: 56px;
+}
+.messagesPopout-eVzQcI .header-2jRmjb .timestampInline-_lS3aK {
+  margin-left: 0;
 }
 .messagesPopout-eVzQcI .repliedMessage-3Z6XBG {
   font-size: 11px;
@@ -2510,6 +2536,7 @@ body #app-mount .app-3xd6d0 .base-2jDfDU {
 }
 
 .messagesPopout-eVzQcI .wrapper-30-Nkg {
+  padding-left: 14px;
   padding-right: 10px;
 }
 
@@ -2525,7 +2552,24 @@ body #app-mount .app-3xd6d0 .base-2jDfDU {
   font-size: 11px;
   line-height: 16px;
 }
+.messagesPopout-eVzQcI .markup-eYLPri pre {
+  max-width: 100%;
+}
 .messagesPopout-eVzQcI .markup-eYLPri code {
   font-size: 11px;
   line-height: 16px;
+}
+
+.jumpButton-1ZwI_j {
+  margin: 0;
+  border-radius: 0;
+  background: #454953;
+}
+
+.jumpButton-1ZwI_j:hover {
+  background: #67707b;
+}
+
+.messageGroupWrapper-1jf_7C:has(.jumpButton-1ZwI_j:hover) {
+  background: #3d4450;
 }
