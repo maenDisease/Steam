@@ -7,3 +7,24 @@
     border-radius: unset;
     background: none;
 }
+
+.box-2iMsQm {
+    background: hsla(206, 32%, 34%, 0.502);
+    border-radius: 0;
+    margin: 12px 16px 12px 16px;
+    padding: 16px 24px;
+    width: fit-content;
+    max-width: 448px;
+
+    h3 {
+        font-size: 14px;
+    }
+
+    [data-text-variant="text-sm/normal"] {
+        font-size: 12px;
+    }
+}
+
+.box-2iMsQm:after, .box-2iMsQm:before {
+    display: none;
+}

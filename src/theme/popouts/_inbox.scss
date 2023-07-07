@@ -1,25 +1,23 @@
 .recentMentionsPopout-2bI1ZN {
-    max-width: 300px;
-    min-width: 300px;
-
-    .messagesPopout-eVzQcI {
-        padding: 4px;
-    }
 
     .container-iA3Qrz,
     .channel-3NJZ1V {
         background-color: #323640;
         border-radius: 0;
     }
-    
+
     .container-iA3Qrz {
         margin-bottom: 4px;
     }
 
     .channelHeader-DFRX8q {
         background: #323640;
-        padding: 10px;
+        padding: 10px 10px 0 10px;
         border-bottom: none;
+    }
+
+    .messageContainer-3VTXBC {
+        padding: 0;
     }
 }
 
@@ -32,28 +30,100 @@
         margin-top: 0;
         margin-left: 0;
         margin-right: 2px;
-        
+
         &:hover {
-            background: hsla(223, 9%, 30%, 0.4);
+            background: hsla(213, 9%, 44%, 0.4);
         }
-                
+
         &.active-1grPyy {
-            background: #454953;
+            background: #67707b;
         }
     }
 }
-.header-145e10 {
-    height: unset;
+
+.recentMentionsPopout-2bI1ZN {
+
+    .channel-3NJZ1V {
+        margin: 0 0 4px 0;
+
+        .messages-23can0 {
+            padding: 0;
+        }
+    }
+
+    .iconActiveMedium-27_R5B {
+        border-radius: 0;
+    }
 }
 
-
-
-// .greenenvelope_NotificationHeader_2CF6o .greenenvelope_AllNotificationsButton__Oohj {
-//     background-color: #454953;
-//     color: #fff;
-//     border-style: none;
-//     padding: 5px 10px;
-//     font-size: 12px;
-//     border-radius: 2px;
-//     cursor: pointer;
+// #app-mount [id^=popout] > [aria-modal=true] > div .scrollerBase-1Pkza4 .message-3g3FYR {
+//     padding: 10px;
 // }
+
+#app-mount .channelHeader-DFRX8q+[class^="message"] {
+    .wrapper-30-Nkg {
+        padding: 10px !important;
+    }
+
+    .repliedMessage-3Z6XBG {
+        left: 15px !important;
+        max-width: calc(100% - 20px);
+
+        .repliedTextContent-2hOYMB {
+            display: flex;
+            align-items: center;
+        }
+    }
+
+    .avatar-2e8lTP {
+        left: 12px !important;
+    }
+
+    .header-2jRmjb {
+        padding-left: 54px !important;
+    }
+
+    .jumpButton-1ITAeq {
+        right: 10px;
+    }
+}
+
+.recentMentionsPopout-2bI1ZN .channelHeader-DFRX8q {
+    background: none;
+
+    .channelNameHeader-51gJbl {
+        font-size: 12px;
+    }
+
+    .closeButton-3CiW2j {
+        margin-left: 0;
+    }
+}
+
+.container-iA3Qrz:has([class^="jumpButton"]:hover),
+.channel-3NJZ1V:has([class^="jumpButton"]:hover) {
+    background: #3d4450;
+}
+
+.container-iA3Qrz,
+.channel-3NJZ1V {
+    [class^="jumpButton"] {
+        margin: 0;
+        border-radius: 0;
+        background: #454953;
+        height: 14px;
+        padding: 2px 8px;
+        display: flex;
+        top: 10px;
+        right: 10px;
+
+        .text-2ifC_x {
+            line-height: 14px;
+            font-size: 11px;
+        }
+
+        &:hover {
+            background: #67707b;
+        }
+    }
+}
