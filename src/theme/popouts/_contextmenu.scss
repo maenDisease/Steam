@@ -1,0 +1,24 @@
+.menu-2TXYjN {
+    -webkit-box-shadow: 3px 3px 5px -3px #000;
+    box-shadow: 3px 3px 5px -3px #000;
+    background: #3D4450;
+    border-radius: 0;
+}
+
+.item-5ApiZt.colorDefault-2_rLdz {
+    border-radius: 0;
+    margin: 0;
+    padding: 6px 15px;
+    font-size: 12px;
+    min-height: 21px;
+
+    &:not(.colorDanger-3umuSx) {
+        color: #dcdedf;
+        
+        &.focused-3LIdPu,
+        &:active {
+            background: #dcdedf;
+            color: #171a21;
+        }
+    }
+}

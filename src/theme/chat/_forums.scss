@@ -365,7 +365,8 @@
 
 // card.onNewMessage
 #app-mount .mainCard-3KBsBI:has(.newMessageCount-MJLPvW),
-#app-mount .mainCard-3KBsBI:has(.newBadge-1RUEYb) {
+#app-mount .mainCard-3KBsBI:has([class*="newBadge"]),
+#app-mount .mainCard-3KBsBI:has(.hasUnreads-1b492d) {
     background: linear-gradient(-45deg, hsl(var(--accent-hue), 41%, 43%) 5%, hsl(var(--accent-hue), 36%, 26%) 95%);
 
     --title-text: var(--white-500);
@@ -411,7 +412,7 @@
         display: none;
     }
 
-    &:has(.pinIcon-3I5-gm, .newBadge-1RUEYb) {
+    &:has(.pinIcon-3I5-gm, [class*="newBadge"]) {
 
         .postTitleText-3gRCnO,
         .title-2qfNnd {
@@ -435,7 +436,7 @@
         }
     }
 
-    &:has(.newBadge-1RUEYb) {
+    &:has([class*="newBadge"]) {
 
         h3 {
             &::before {
