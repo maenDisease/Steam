@@ -900,6 +900,10 @@ body #app-mount .app-3xd6d0 .base-2jDfDU {
   height: 16px;
   filter: drop-shadow(0px 2px 3px rgba(0, 0, 0, 0.3));
 }
+.container-ZMc96U.themed-Hp1KC_ .count-vTKEhF {
+  color: var(--header-primary) !important;
+  font-size: 14px;
+}
 .container-ZMc96U.themed-Hp1KC_ .iconWrapper-2awDjA {
   justify-content: center;
   align-items: center;
@@ -1779,7 +1783,8 @@ body #app-mount .app-3xd6d0 .base-2jDfDU {
 }
 
 #app-mount .mainCard-3KBsBI:has(.newMessageCount-MJLPvW),
-#app-mount .mainCard-3KBsBI:has(.newBadge-1RUEYb) {
+#app-mount .mainCard-3KBsBI:has([class*=newBadge]),
+#app-mount .mainCard-3KBsBI:has(.hasUnreads-1b492d) {
   background: linear-gradient(-45deg, hsl(var(--accent-hue), 41%, 43%) 5%, hsl(var(--accent-hue), 36%, 26%) 95%);
   --title-text: var(--white-500);
   --body-text: hsl(30, 1%, 55%);
@@ -1820,8 +1825,8 @@ body #app-mount .app-3xd6d0 .base-2jDfDU {
 .mainCard-3KBsBI .newBadgeWrapper-2KsCk4 {
   display: none;
 }
-.mainCard-3KBsBI:has(.pinIcon-3I5-gm, .newBadge-1RUEYb) .postTitleText-3gRCnO::before,
-.mainCard-3KBsBI:has(.pinIcon-3I5-gm, .newBadge-1RUEYb) .title-2qfNnd::before {
+.mainCard-3KBsBI:has(.pinIcon-3I5-gm, [class*=newBadge]) .postTitleText-3gRCnO::before,
+.mainCard-3KBsBI:has(.pinIcon-3I5-gm, [class*=newBadge]) .title-2qfNnd::before {
   white-space: nowrap;
   text-overflow: ellipsis;
   font-size: 14px;
@@ -1832,7 +1837,7 @@ body #app-mount .app-3xd6d0 .base-2jDfDU {
 .mainCard-3KBsBI:has(.pinIcon-3I5-gm) h3::before {
   content: "PINNED:";
 }
-.mainCard-3KBsBI:has(.newBadge-1RUEYb) h3::before {
+.mainCard-3KBsBI:has([class*=newBadge]) h3::before {
   content: "NEW:";
 }
 .mainCard-3KBsBI:not(.isOpen-2Gyel_) h3::before {
@@ -2473,6 +2478,27 @@ body #app-mount .app-3xd6d0 .base-2jDfDU {
 }
 #app-mount [id^=popout] > [aria-modal=true] > div .scrollerBase-1Pkza4 .repliedMessage-3Z6XBG + .contents-2MsGLg .header-2jRmjb {
   margin-bottom: 45px;
+}
+
+.menu-2TXYjN {
+  box-shadow: 3px 3px 5px -3px #000;
+  background: #3D4450;
+  border-radius: 0;
+}
+
+.item-5ApiZt.colorDefault-2_rLdz {
+  border-radius: 0;
+  margin: 0;
+  padding: 6px 15px;
+  font-size: 12px;
+  min-height: 21px;
+}
+.item-5ApiZt.colorDefault-2_rLdz:not(.colorDanger-3umuSx) {
+  color: #dcdedf;
+}
+.item-5ApiZt.colorDefault-2_rLdz:not(.colorDanger-3umuSx).focused-3LIdPu, .item-5ApiZt.colorDefault-2_rLdz:not(.colorDanger-3umuSx):active {
+  background: #dcdedf;
+  color: #171a21;
 }
 
 /*
