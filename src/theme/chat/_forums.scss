@@ -40,6 +40,7 @@
 
     textarea::placeholder {
         font-weight: 400;
+        font-style: italic;
     }
 
     .contentContainer-2xwoXK {
@@ -177,7 +178,7 @@
             font-weight: 500;
         }
     }
-    
+
 }
 
 .matchingPostsRow-2IiEQ1 {
@@ -232,7 +233,7 @@
 
         &:has(.showMore-orAmWF) {
             -webkit-mask-image: linear-gradient(180deg, rgba(0 0 0 / 1) calc(100% - 53px - 21px), transparent calc(100% - 21px), rgba(0 0 0 / 1) calc(100% - 21px));
-        mask-image: linear-gradient(180deg, rgba(0 0 0 / 1) calc(100% - 53px - 21px), transparent calc(100% - 21px), rgba(0 0 0 / 1) calc(100% - 21px));
+            mask-image: linear-gradient(180deg, rgba(0 0 0 / 1) calc(100% - 53px - 21px), transparent calc(100% - 21px), rgba(0 0 0 / 1) calc(100% - 21px));
         }
 
         .guidelines-jQLwyH {
@@ -271,17 +272,38 @@
 }
 
 .tagsContainer-2bBw1x {
-    background: rgba(0, 0, 0, 0.2);
+    background: hsl(calc(var(--accent-hue) + 8), 36%, 19%);
     margin-top: 32px;
     padding: 0;
+    flex-wrap: wrap;
+
+    .tagList-1CiR0h {
+        height: unset;
+        order: -1;
+        width: 100%;
+        flex-basis: 100%;
+        padding: 10px;
+        background: hsl(calc(var(--accent-hue) + 2), 38%, 27%);
+        box-shadow: 0 0 5px #000;
+
+        .pill-3pRQlO {
+            height: 20px;
+            padding: 0 6px;
+        }
+
+        [data-text-variant="text-sm/semibold"] {
+            font-size: 12px;
+            line-height: 16px;
+        }
+    }
 
     >button {
         border-left: 1px solid #2a475e;
     }
-    
+
     .divider-2bkesd {
         width: 0;
-        height: calc(32px + 8px);
+        height: 26px;
         border-radius: 0;
         background: none;
         margin: 0 4px 0 0;
@@ -289,20 +311,39 @@
     }
 
     .sortDropdown-hY93nR {
-        gap: 4px;
-        margin-bottom: -1px;
-        height: calc(32px + 8px);
+        margin-bottom: 0;
+        height: unset;
         background: none;
         border-radius: 0;
-        padding: 10px;
+
+        
+        .sortDropdownText-3smleu {
+            font-size: 10px;
+            line-height: 10px;
+            text-transform: uppercase;
+            margin-left: 0;
+            --interactive-normal: #4582a5;
+        }
+
+        svg {
+            height: 16px;
+            width: 16px;
+            color: hsl(var(--accent-hue), 87%, 68%);
+
+            &:has([d^="M12.1803 4.66659L12.1803"]) {
+                display: none;
+            }
+        }
     }
 
     .tagsButton-4pwOKH {
-        height: calc(32px + 8px);
-        padding-left: 4px;
-        padding-right: 4px;
-        margin-left: 4px;
-        border-radius: 0;
+        // height: calc(32px + 8px);
+        // padding-left: 4px;
+        // padding-right: 4px;
+        // margin-left: 4px;
+        // border-radius: 0;
+        // background: none;
+        display: none;
     }
 }
 
