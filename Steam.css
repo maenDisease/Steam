@@ -2485,6 +2485,16 @@ body #app-mount .app-3xd6d0 .base-2jDfDU {
   background: #3D4450;
   border-radius: 0;
 }
+.menu-2TXYjN .button-1zW0-r {
+  width: 30px;
+  height: 30px;
+  padding: unset;
+  border-radius: 2px;
+  background: none;
+}
+.menu-2TXYjN .button-1zW0-r.focused-H4w81f {
+  background: #dcdedf;
+}
 
 .item-5ApiZt.colorDefault-2_rLdz {
   border-radius: 0;
@@ -2499,6 +2509,25 @@ body #app-mount .app-3xd6d0 .base-2jDfDU {
 .item-5ApiZt.colorDefault-2_rLdz:not(.colorDanger-3umuSx).focused-3LIdPu, .item-5ApiZt.colorDefault-2_rLdz:not(.colorDanger-3umuSx):active {
   background: #dcdedf;
   color: #171a21;
+}
+.item-5ApiZt.colorDefault-2_rLdz:not(.colorDanger-3umuSx).focused-3LIdPu .caret-1TZU-U,
+.item-5ApiZt.colorDefault-2_rLdz:not(.colorDanger-3umuSx).focused-3LIdPu .radioSelection-3PDNAQ,
+.item-5ApiZt.colorDefault-2_rLdz:not(.colorDanger-3umuSx).focused-3LIdPu .checkbox-397WsK, .item-5ApiZt.colorDefault-2_rLdz:not(.colorDanger-3umuSx):active .caret-1TZU-U,
+.item-5ApiZt.colorDefault-2_rLdz:not(.colorDanger-3umuSx):active .radioSelection-3PDNAQ,
+.item-5ApiZt.colorDefault-2_rLdz:not(.colorDanger-3umuSx):active .checkbox-397WsK {
+  color: #171a21;
+}
+.item-5ApiZt.colorDefault-2_rLdz:not(.colorDanger-3umuSx).focused-3LIdPu .check-3-73a4, .item-5ApiZt.colorDefault-2_rLdz:not(.colorDanger-3umuSx):active .check-3-73a4 {
+  color: #dcdedf;
+}
+
+.item-5ApiZt .iconContainer-Ksy8Oj {
+  justify-content: center;
+  align-items: center;
+  display: flex;
+}
+.item-5ApiZt .icon-3XHs8t {
+  width: 16px;
 }
 
 /*
