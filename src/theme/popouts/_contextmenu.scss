@@ -3,6 +3,18 @@
     box-shadow: 3px 3px 5px -3px #000;
     background: #3D4450;
     border-radius: 0;
+
+    .button-1zW0-r {
+        width: 30px;
+        height: 30px;
+        padding: unset;
+        border-radius: 2px;
+        background:none;
+
+        &.focused-H4w81f {
+            background: #dcdedf;
+        }
+    }
 }
 
 .item-5ApiZt.colorDefault-2_rLdz {
@@ -19,6 +31,29 @@
         &:active {
             background: #dcdedf;
             color: #171a21;
+
+            .caret-1TZU-U,
+            .radioSelection-3PDNAQ,
+            .checkbox-397WsK {
+                color: #171a21;
+            }
+
+            .check-3-73a4 {
+                color: #dcdedf;
+            }
         }
+    }
+}
+
+.item-5ApiZt {
+
+    .iconContainer-Ksy8Oj {
+        justify-content: center;
+        align-items: center;
+        display: flex;
+    }
+    
+    .icon-3XHs8t {
+        width: 16px;
     }
 }
