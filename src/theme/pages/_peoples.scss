@@ -246,9 +246,14 @@
             background: linear-gradient(135deg, #67c1f5 0%, #417a9b 100%);
         }
 
+        .inset-SbsSFp {
+            background: rgba(0,0,0,0.2);
+            border-radius: 0;
+        }
+
         .section-3G9aLW {
-            padding: 12px;
-            background-color: var(--background-primary);
+            padding: 10px;
+            background: none;
             border-radius: 0;
         }
     }

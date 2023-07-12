@@ -1,4 +1,4 @@
-#app-mount [id^="popout"]>[aria-modal="true"]>div {
+#app-mount [id^="popout"]>[aria-modal="true"]>div:not(.spinner-2ID8f1) {
     background: radial-gradient(circle at top left, rgba(74, 81, 92, 0.4) 0%, rgba(75, 81, 92, 0) 60%), #25282e;
     -webkit-box-shadow: inset rgba(61, 68, 80, .75) 1px 1px 1px 0px, inset rgba(61, 68, 80, .25) -1px -1px 1px 0px;
     box-shadow: inset rgba(61, 68, 80, .75) 1px 1px 1px 0px, inset rgba(61, 68, 80, .25) -1px -1px 1px 0px;

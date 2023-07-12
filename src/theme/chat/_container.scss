@@ -21,9 +21,21 @@
     display: none;
 }
 
-.attachment-16cAbS, .avatar-l9Txm5, .blob-1uHjdp {
+.attachment-16cAbS,
+.avatar-l9Txm5,
+.blob-1uHjdp {
     border-radius: 2px;
 }
+
+.memberGroupsPlaceholder-9tqX9V,
+.mulitplePlaceholderUsername-2T3DCI,
+.placeholderAvatar-1qAcRZ,
+.placeholderUsername-3iQi_D {
+    border-radius: 2px;
+    background: var(--text-normal);
+    opacity: 0.08;
+}
+
 
 // .messagesWrapper-RpOMA3:has(.attachment-16cAbS[style*="opacity: 0.03;"])::before {
 //     content:'';
@@ -111,6 +123,11 @@
         -webkit-animation: loading_LoadAmin_2z54o 1.1s infinite linear;
         animation: loading_LoadAmin_2z54o 1.1s infinite linear;
     }
+}
+
+.inner-MGEKwh {
+    min-width: 32px;
+    min-height: 32px;
 }
 
 .scroller-29cQFV {

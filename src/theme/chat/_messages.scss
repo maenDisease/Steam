@@ -15,6 +15,13 @@
     font-weight: 600;
 }
 
+#app-mount .botTagRegular-kpctgU {
+    background-color: hsl(calc(var(--accent-hue) + 5), 29%, 42%);
+    border: 1px solid hsl(calc(var(--accent-hue) + 5), 34%, 60%);
+    color: hsl(calc(var(--accent-hue) + 5), 79%, 78%);
+    border-radius: 0;
+}
+
 #app-mount .message-2CShn3 {
     background: hsla(calc(var(--accent-hue) + 9), 35%, 19%, 0.8);
     border: 1px solid hsl(var(--accent-hue), 35%, 23%);
@@ -38,6 +45,19 @@
     &:hover .header-2jRmjb {
         opacity: 1;
     }
+
+    .mediaAttachmentsContainer-1WGRWy,
+    .messageAttachmentMediaMosaic-2ic1yt,
+    .oneByOneGridSingle-2ss-Zx,
+    .imageWrapper-oMkQl4,
+    .video-2HW4jD,
+    .wrapper-1FP9YQ {
+        border-radius: 4px;
+    }
+}
+
+.hoverButtonGroup-2yZIzC {
+    border-radius: 3px;
 }
 
 .mentioned-Tre-dv:before,
@@ -173,6 +193,10 @@
     .embedSuppressButton-1rZHq6:hover {
         background: var(--button-danger-background);
         color: var(--white-500);
+    }
+
+    .embedAuthorIcon-3pnkS4 {
+        border-radius: 4px;
     }
 }
 

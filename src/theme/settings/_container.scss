@@ -1,0 +1,92 @@
+.layers-OrUESM>.layer-86YKbF.animating-1rIrGV *,
+.layers-OrUESM>.layer-86YKbF.animating-1rIrGV {
+    pointer-events: auto !important;
+    will-change: unset;
+}
+
+#app-mount .layer-86YKbF~.layer-86YKbF {
+    border-radius: 0 !important;
+    border: 0.5px solid black;
+}
+
+html.app-focused .layer-86YKbF~.layer-86YKbF::before {
+    content: '';
+    display: block;
+    height: 1px;
+    width: 100%;
+    background: linear-gradient(to right, hsl(192, 100%, 50%) 0%, hsl(225, 100%, 60%) 100%);
+    position: absolute;
+    z-index: 102;
+}
+
+#app-mount .layer-86YKbF.stop-animations:first-child::after {
+    opacity: 0 !important;
+}
+
+#app-mount .layer-86YKbF~.layer-86YKbF .sidebar-nqHbhN {
+    padding: 0 !important;
+}
+
+.sidebarRegionScroller-FXiQOh {
+    overflow: overlay !important;
+}
+
+body #app-mount {
+
+    .sidebar-nqHbhN:has(.socialLinks-3ywLUf),
+    .layer-86YKbF~.layer-86YKbF .sidebar-nqHbhN:has(.socialLinks-3ywLUf) {
+        width: 196px !important;
+    }
+}
+
+.contentRegion-3HkfJJ,
+.contentRegionScroller-2_GT_N {
+    background: var(--background-tertiary);
+}
+
+.sidebar-nqHbhN:has(.socialLinks-3ywLUf) .side-1lrxIh .item-2GWPIy::before {
+    margin-right: 20px;
+}
+
+.sidebar-nqHbhN {
+
+    .header-2F5_LB {
+        color: var(--brand-experiment);
+    }
+
+    .headerText-10ez_d {
+        font-size: 16px;
+        line-height: 20px;
+        padding: 42px 24px 24px 24px;
+    }
+
+    .separator-2N511j {
+        margin: 0 12px;
+        background: #3D4450;
+    }
+}
+
+#app-mount .sidebar-nqHbhN {
+
+    .item-2GWPIy {
+        height: 40px;
+        padding-left: 24px;
+        padding-right: 24px;
+        border-radius: 0;
+        font-size: 14px;
+        --interactive-normal: #B8BCBF;
+        --interactive-hover: #3D4450;
+        --background-modifier-hover: #DCDEDF;
+        --background-modifier-selected: #3e4551;
+
+        &:active {
+            background: #DCDEDF;
+            color: #3D4450;
+        }
+    
+        &.selected-1sf9UK {
+            background: #3e4551;
+            color: #ffff;
+        }
+    }
+}
