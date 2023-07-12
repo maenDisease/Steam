@@ -24,7 +24,7 @@ html.app-focused .layer-86YKbF~.layer-86YKbF::before {
 }
 
 #app-mount .layer-86YKbF~.layer-86YKbF .sidebar-nqHbhN {
-    padding: 0 !important;
+    padding: 12px 0 24px 0 !important;
 }
 
 .sidebarRegionScroller-FXiQOh {
@@ -57,7 +57,7 @@ body #app-mount {
     .headerText-10ez_d {
         font-size: 16px;
         line-height: 20px;
-        padding: 42px 24px 24px 24px;
+        padding: 24px;
     }
 
     .separator-2N511j {
@@ -69,9 +69,7 @@ body #app-mount {
 #app-mount .sidebar-nqHbhN {
 
     .item-2GWPIy {
-        height: 40px;
-        padding-left: 24px;
-        padding-right: 24px;
+        padding: 10px 24px;
         border-radius: 0;
         font-size: 14px;
         --interactive-normal: #B8BCBF;
@@ -83,10 +81,66 @@ body #app-mount {
             background: #DCDEDF;
             color: #3D4450;
         }
-    
+
         &.selected-1sf9UK {
             background: #3e4551;
             color: #ffff;
         }
     }
+}
+
+#app-mount .contentRegion-3HkfJJ {
+    .contentRegionScroller-2_GT_N {
+        --header-padding: 32px;
+        padding-top:6px;
+        overflow-y: overlay !important;
+        
+        &::-webkit-scrollbar {
+            width: 14px;
+        }
+
+        &::-webkit-scrollbar-track {
+            margin-top: calc(32px * 2 + 24px);
+        }
+    }
+}
+
+#app-mount .layer-86YKbF~.layer-86YKbF .contentColumnDefault-3eyv5o {
+    padding: 0 24px 24px 24px !important;
+}
+
+.contentColumn-1C7as6>div:first-child>.sectionTitle-LdcnyP,
+.contentColumn-1C7as6>div:not([class]):first-child>div:not([class]):first-child>.sectionTitle-LdcnyP,
+#profile-customization-tab h2,
+#billing-tab>div:not([class]):first-child>div:not([class]):first-child h2,
+#roles-tab div:not([class])>h2,
+#emoji-tab .sectionTitle-LdcnyP,
+#integrations-tab>.flex-2S1XBF:first-child,
+#guild_templates-tab h2,
+#vanity_url-tab h2.title-lXcL8p {
+    position: sticky;
+    display: flex;
+    align-items: center;
+    top: 0;
+    width: 200%;
+    padding: 32px 24px;
+    margin-left: -24px;
+    z-index: 10;
+    transform: translateY(calc(var(--header-padding) * -1 + 8.5px + 18px));
+    background: linear-gradient(to bottom, var(--background-tertiary) calc(100% - 24px), rgba(0,204,255,0) 100%);
+}
+
+.contentColumn-1C7as6>div:first-child>.sectionTitle-LdcnyP h2,
+.contentColumn-1C7as6>div:not([class]):first-child>div:not([class]):first-child>.sectionTitle-LdcnyP h2,
+#profile-customization-tab h2,
+#billing-tab>div:not([class]):first-child>div:not([class]):first-child h2,
+#roles-tab div:not([class])>h2,
+#emoji-tab .sectionTitle-LdcnyP h2,
+#integrations-tab>.flex-2S1XBF:first-child h2,
+#guild_templates-tab h2,
+#vanity_url-tab h2.title-lXcL8p {
+    font-size: 22px;
+    line-height: 24px;
+    font-weight: 600;
+    margin-bottom: 0;
 }
