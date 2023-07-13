@@ -7,6 +7,17 @@
 #app-mount .layer-86YKbF~.layer-86YKbF {
     border-radius: 0 !important;
     border: 0.5px solid black;
+
+    .lookFilled-1H2Jvj.colorBrand-2M3O3N {
+        color: #dfe3e6;
+        background: hsla(222, 10%, 26%, 0.5);
+
+        &:hover {
+            background: #464d58;
+            color: #fff;
+            box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.3);
+        }
+    }
 }
 
 html.app-focused .layer-86YKbF~.layer-86YKbF::before {
@@ -149,4 +160,60 @@ body #app-mount {
     line-height: 24px;
     font-weight: 700;
     margin-bottom: 0;
+}
+
+.divider-3nqZNm {
+    border-top: thin solid #23262e;
+}
+
+.marginTop40-Q4o1tS,
+.marginTop20-2T8ZJx,
+.dividerDefault-wIfHHD {
+    margin-top: 10px;
+}
+
+.container-31PmuA {
+    margin-bottom: 10px;
+}
+
+.container-31PmuA[class*="marginTop"][class*="marginBottom"]:has(+.container-31PmuA[class*="marginTop"][class*="marginBottom"]) {
+    margin-bottom: 0;
+}
+
+.title-2yADjX {
+    color: #dcdedf;
+    font-size: 14px;
+    line-height: 18px;
+    font-weight: 400;
+}
+
+.h1-3iMExa.title-lXcL8p {
+    margin-bottom: 10px;
+    font-size: 24px;
+    line-height: 36px;
+    font-weight: 300;
+    letter-spacing: 2px;
+    color: #fff;
+    text-transform: uppercase;
+}
+
+.h5-2feg8J.eyebrow-2wJAoF {
+    color: #8b929a;
+    font-size: 14px;
+    letter-spacing: .5px;
+    line-height: 36px;
+    margin-bottom: 0;
+}
+
+.note-3SS3a9 .description-foE_WP {
+    margin-bottom: 0;
+}
+
+.description-foE_WP {
+    font-size: 12px;
+    line-height: 18px;
+    font-weight: 300;
+    color: #8b929a;
+    letter-spacing: 0;
+    margin-bottom: 10px;
 }

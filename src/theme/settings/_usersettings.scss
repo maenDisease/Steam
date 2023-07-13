@@ -6,6 +6,7 @@
 #app-mount .accountProfileCard-lbN7n- {
     box-shadow: none;
     border-radius: 0;
+    overflow: visible;
 
     .bannerSVGWrapper-2CLfzN:not(:has([style*="/banners/"])) {
         min-height: 1px !important;
@@ -168,10 +169,106 @@
     }
 }
 
-.divider-3nqZNm {
-    border-top: thin solid #23262e;
+#notifications-tab {
+    .container-31PmuA:has(+.container-31PmuA.soundRow-2Vsfbg) {
+        margin-bottom: 7px;
+    }
+
+    .container-31PmuA.soundRow-2Vsfbg {
+        margin-bottom: 7px;
+
+        .divider-3nqZNm {
+            margin-top: 6px;
+        }
+
+        .title-2yADjX {
+            overflow: visible;
+        }
+        .control-10qYax {
+            order: -1;
+            margin-right: 6px;
+        }
+
+        .soundName-3e_44f {
+            margin-right: auto;
+        }
+
+        .soundIcon-1E1d9l {
+            opacity: 1;
+            background: hsla(222, 10%, 26%, 0.5);
+            margin-right: 4px;
+            height: 36px;
+            width: 36px;
+            border-radius: 2px;
+            color: var(--brand-experiment);
+            justify-content: center;
+            align-items: center;
+            display: flex;
+            transition: background 200ms ease-in-out, box-shadow 200ms ease-in-out;
+
+            &:hover {
+                background: #464d58;
+                box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.3);
+            }
+
+            .icon-2-8HDu {
+                width: 18px;
+                height: 18px;
+            }
+        }
+    }
 }
 
-.marginTop40-Q4o1tS {
-    margin-top: 10px;
+#game-activity-tab {
+    .children-2C96Ex {
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: row;
+        
+        >.marginTop40-Q4o1tS {
+            flex-basis: 100%;
+        }
+    }
+
+    .activeGame-1OdxzI {
+        padding: 8px 24px 10px 16px;
+        margin-right: 8px;
+
+        &.notDetected-M3Ghh2 {
+            background: #3d4450;
+            width: fit-content;
+        }
+        
+        &::before {
+            content: url(https://maendisease.github.io/Steam/illustrations/icns/storage.svg);
+            display: block;
+            width: 20px;
+            height: 20px;
+            filter: invert(1);
+            margin-right: 12px;
+        }
+
+        .gameName-zbZetm {
+            line-height: 20px;
+        }
+        .gameName-zbZetm,
+        .lastPlayed-1jum9A {
+            font-size: 14px;
+            font-weight: 600;
+            color: #fff;
+        }
+
+        .nowPlayingAdd-3I4RbE {
+            button {
+                &::before {
+                    content: url(https://maendisease.github.io/Steam/illustrations/icns/circleplus.svg);
+                    display: block;
+                    width: 20px;
+                    height: 20px;
+                    filter: invert(1);
+                    margin-right: 12px;
+                }
+            }
+        }
+    }
 }

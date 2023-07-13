@@ -1,0 +1,27 @@
+.button-ejjZWC {
+    border-radius: 2px;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.sizeSmall-3R2P2p {
+    height: 34px;
+    min-height: 34px;
+    padding: 8px 14px;
+}
+
+.button-1EGGcP.buttonColor-3bP3fX,
+.button-1EGGcP .buttonColor-3bP3fX {
+    color: #dfe3e6;
+    background: hsla(222, 10%, 26%, 0.5);
+
+    &:hover {
+        background: #464d58;
+        color: #fff;
+        box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.3);
+    }
+}
+
+.lookFilled-1H2Jvj, .lookInverted-2GrLaB {
+    transition: background 200ms ease-in-out, box-shadow 200ms ease-in-out;
+}
