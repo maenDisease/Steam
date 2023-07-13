@@ -56,13 +56,13 @@ body #app-mount {
 
     .header-2F5_LB,
     .header-2F5_LB:first-child {
-        padding: 24px 16px 22px 24px;
+        padding: 24px 16px 20px 24px;
     }
     .headerText-10ez_d {
         font-size: 17px;
-        line-height: 21px;
-        // padding: 24px 14px 20px 24px;
+        line-height: 20px;
         text-align: center;
+        overflow: hidden;
     }
 
     .separator-2N511j {
@@ -100,7 +100,7 @@ body #app-mount {
         padding-top:6px;
         overflow-y: overlay !important;
         max-width: calc(var(--settingsmodalwidth) - 196px);
-        
+
         &::-webkit-scrollbar {
             width: 14px;
         }
