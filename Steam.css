@@ -2751,6 +2751,21 @@ body #app-mount .layer-86YKbF ~ .layer-86YKbF .sidebar-nqHbhN:has(.socialLinks-3
   max-width: 100% !important;
 }
 
+#app-mount .accountProfileCard-lbN7n-:not(:has([style*="/banners/"])) .background-3d_SjE {
+  --profile-body-background-color: var(--background-tertiary);
+}
+
+#app-mount .accountProfileCard-lbN7n- {
+  box-shadow: none;
+  border-radius: 0;
+}
+
+.background-3d_SjE {
+  margin: 0;
+  border-radius: 0;
+  padding: 10px 0 0 0;
+}
+
 .fieldList-in8WkP {
   display: grid;
   grid-template-columns: repeat(3, minmax(0, 1fr));
@@ -2815,6 +2830,14 @@ body #app-mount .layer-86YKbF ~ .layer-86YKbF .sidebar-nqHbhN:has(.socialLinks-3
 }
 .field-21XZwa button.lookLink-13iF2K {
   z-index: 1;
+}
+
+.divider-3nqZNm {
+  border-top: thin solid #23262e;
+}
+
+.marginTop40-Q4o1tS {
+  margin-top: 10px;
 }
 
 #app-mount [id^=popout] > [aria-modal=true] > div:not(.spinner-2ID8f1) {
@@ -3127,6 +3150,25 @@ body #app-mount .layer-86YKbF ~ .layer-86YKbF .sidebar-nqHbhN:has(.socialLinks-3
 
 .messageGroupWrapper-1jf_7C:has(.jumpButton-1ZwI_j:hover) {
   background: #3d4450;
+}
+
+.container-1QtPKm {
+  width: 38px;
+  height: 22px;
+  background-color: #3d4450 !important;
+}
+
+.container-1QtPKm.checked-16gMAN {
+  background: var(--brand-experiment) !important;
+}
+
+.container-1QtPKm .slider-HJFN2i svg {
+  display: none;
+}
+
+.container-1QtPKm .slider-HJFN2i {
+  transform: scale(1.2) translateY(-1px);
+  filter: drop-shadow(0 0 5px rgba(0, 0, 0, 0.35));
 }
 
 .bd-sidebar-header h2 {
