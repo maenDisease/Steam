@@ -28,7 +28,7 @@ html.app-focused .layer-86YKbF~.layer-86YKbF::before {
 }
 
 .sidebarRegionScroller-FXiQOh {
-    overflow: overlay !important;
+    overflow: auto !important;
 }
 
 body #app-mount {
@@ -69,7 +69,7 @@ body #app-mount {
 #app-mount .sidebar-nqHbhN {
 
     .item-2GWPIy {
-        padding: 10px 24px;
+        padding: 10px 16px 10px 24px;
         border-radius: 0;
         font-size: 14px;
         --interactive-normal: #B8BCBF;
@@ -141,6 +141,6 @@ body #app-mount {
 #vanity_url-tab h2.title-lXcL8p {
     font-size: 22px;
     line-height: 24px;
-    font-weight: 600;
+    font-weight: 700;
     margin-bottom: 0;
 }
