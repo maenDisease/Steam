@@ -42,6 +42,13 @@
   --theme-preview-width: 260px;
 }
 
+/* Settings Icons */
+:root {
+  --use-settingsicons: calc(var(--settingsicons, 1) / (var(--settingsicons, 1) + 0.00000000000000000000001));
+  --settingsicons-size: 20px;
+  --settingsicons-myaccount: url(https://maendisease.github.io/Steam/illustrations/icns/account.svg);
+}
+
 /* Settings Modal */
 :root {
   --settingsmodalbackground: transparent;
@@ -2628,7 +2635,7 @@ html.app-focused .layer-86YKbF ~ .layer-86YKbF::before {
 
 body #app-mount .sidebar-nqHbhN:has(.socialLinks-3ywLUf),
 body #app-mount .layer-86YKbF ~ .layer-86YKbF .sidebar-nqHbhN:has(.socialLinks-3ywLUf) {
-  width: 196px !important;
+  width: 188px !important;
 }
 
 .contentRegion-3HkfJJ,
@@ -2637,7 +2644,7 @@ body #app-mount .layer-86YKbF ~ .layer-86YKbF .sidebar-nqHbhN:has(.socialLinks-3
 }
 
 .sidebar-nqHbhN:has(.socialLinks-3ywLUf) .side-1lrxIh .item-2GWPIy::before {
-  margin-right: 20px;
+  margin-right: 18px;
 }
 
 .sidebar-nqHbhN .header-2F5_LB {
@@ -2646,7 +2653,7 @@ body #app-mount .layer-86YKbF ~ .layer-86YKbF .sidebar-nqHbhN:has(.socialLinks-3
 .sidebar-nqHbhN .headerText-10ez_d {
   font-size: 16px;
   line-height: 20px;
-  padding: 24px;
+  padding: 24px 16px 24px 24px;
 }
 .sidebar-nqHbhN .separator-2N511j {
   margin: 0 12px;
