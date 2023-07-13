@@ -10,7 +10,7 @@
   --accent-brightness: 55%;
   --messages-max-width: 640px;
   --background-secondary: hsl(calc(var(--accent-hue) + 22), 9%, 19%);
-  --background-tertiary: hsl(calc(var(--accent-hue) + 9), 18%, 11%);
+  --background-tertiary: hsl(calc(var(--accent-hue) + 7), 22%, 12%);
   --interactive-normal: hsl(212, 7%, 57%);
   --interactive-hover: hsl(206, 5%, 74%);
   --background-modifier-hover: hsla(var(--accent-hue), 24%, 68%, 0.3);
@@ -2665,11 +2665,11 @@ body #app-mount .layer-86YKbF ~ .layer-86YKbF .sidebar-nqHbhN:has(.socialLinks-3
 }
 .sidebar-nqHbhN .header-2F5_LB,
 .sidebar-nqHbhN .header-2F5_LB:first-child {
-  padding: 24px 16px 20px 24px;
+  padding: 24px 16px 22px 24px;
 }
 .sidebar-nqHbhN .headerText-10ez_d {
   font-size: 17px;
-  line-height: 20px;
+  line-height: 21px;
   text-align: center;
 }
 .sidebar-nqHbhN .separator-2N511j {
@@ -2699,6 +2699,7 @@ body #app-mount .layer-86YKbF ~ .layer-86YKbF .sidebar-nqHbhN:has(.socialLinks-3
   --header-padding: 32px;
   padding-top: 6px;
   overflow-y: overlay !important;
+  max-width: calc(var(--settingsmodalwidth) - 196px);
 }
 #app-mount .contentRegion-3HkfJJ .contentRegionScroller-2_GT_N::-webkit-scrollbar {
   width: 14px;
@@ -2751,19 +2752,71 @@ body #app-mount .layer-86YKbF ~ .layer-86YKbF .sidebar-nqHbhN:has(.socialLinks-3
   max-width: 100% !important;
 }
 
-#app-mount .accountProfileCard-lbN7n-:not(:has([style*="/banners/"])) .background-3d_SjE {
-  --profile-body-background-color: var(--background-tertiary);
-}
-
 #app-mount .accountProfileCard-lbN7n- {
   box-shadow: none;
   border-radius: 0;
 }
-
-.background-3d_SjE {
-  margin: 0;
+#app-mount .accountProfileCard-lbN7n- .bannerSVGWrapper-2CLfzN:not(:has([style*="/banners/"])) {
+  min-height: 1px !important;
+  min-width: 100% !important;
+}
+#app-mount .accountProfileCard-lbN7n- .banner-1YaD3N:not([style^=background-image]) {
+  height: 1px;
+  min-height: 1px;
   border-radius: 0;
-  padding: 10px 0 0 0;
+  -webkit-mask-image: linear-gradient(to right, rgb(0, 0, 0), rgba(0, 0, 0, 0) 75%);
+          mask-image: linear-gradient(to right, rgb(0, 0, 0), rgba(0, 0, 0, 0) 75%);
+}
+#app-mount .accountProfileCard-lbN7n- .userInfo-regn9W {
+  height: 72px;
+  align-items: center;
+  padding: 10px 0 0 87px;
+}
+#app-mount .accountProfileCard-lbN7n- .avatar-3mTjvZ {
+  padding: 0;
+  top: unset;
+  margin: auto 0;
+  box-shadow: none;
+  height: 60px !important;
+  width: 60px !important;
+}
+#app-mount .accountProfileCard-lbN7n- .avatar-3mTjvZ svg {
+  height: 70px !important;
+  width: 70px !important;
+}
+#app-mount .accountProfileCard-lbN7n- .userTag-2qPxEZ {
+  margin: 0;
+  padding-left: 0;
+  font-size: 16px;
+  line-height: 20px;
+  font-weight: 400;
+}
+#app-mount .accountProfileCard-lbN7n- .profileCardUsernameRow-1bb6fi,
+#app-mount .accountProfileCard-lbN7n- .containerWithContent-2Yws8V {
+  background: none;
+  box-shadow: none;
+  border-radius: 0;
+  width: -moz-fit-content;
+  width: fit-content;
+  padding: 0;
+}
+#app-mount .accountProfileCard-lbN7n- .containerWithContent-2Yws8V {
+  margin-top: 0;
+}
+#app-mount .accountProfileCard-lbN7n- .container-1gYwHN {
+  min-height: unset;
+}
+#app-mount .accountProfileCard-lbN7n- .profileBadge22-3GAYRy {
+  width: 18px;
+  height: 18px;
+}
+#app-mount .accountProfileCard-lbN7n- .background-3d_SjE {
+  background: var(--background-tertiary) !important;
+  box-shadow: none;
+  margin: 10px 0 0 0;
+  border-radius: 0;
+  padding: 10px 0;
+  border-top: thin solid #23262e;
 }
 
 .fieldList-in8WkP {
