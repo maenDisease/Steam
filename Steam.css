@@ -2791,6 +2791,13 @@ body #app-mount .layer-86YKbF ~ .layer-86YKbF .sidebar-nqHbhN:has(.socialLinks-3
   line-height: 20px;
   font-weight: 400;
 }
+#app-mount .accountProfileCard-lbN7n- .overflowMenuButton-1I3Jz1 {
+  margin-left: 0;
+  height: 100%;
+  position: absolute;
+  inset: 0;
+  opacity: 0;
+}
 #app-mount .accountProfileCard-lbN7n- .profileCardUsernameRow-1bb6fi,
 #app-mount .accountProfileCard-lbN7n- .containerWithContent-2Yws8V {
   background: none;
@@ -2799,6 +2806,7 @@ body #app-mount .layer-86YKbF ~ .layer-86YKbF .sidebar-nqHbhN:has(.socialLinks-3
   width: -moz-fit-content;
   width: fit-content;
   padding: 0;
+  position: relative;
 }
 #app-mount .accountProfileCard-lbN7n- .containerWithContent-2Yws8V {
   margin-top: 0;
@@ -2811,7 +2819,7 @@ body #app-mount .layer-86YKbF ~ .layer-86YKbF .sidebar-nqHbhN:has(.socialLinks-3
   height: 18px;
 }
 #app-mount .accountProfileCard-lbN7n- .background-3d_SjE {
-  background: var(--background-tertiary) !important;
+  background: none !important;
   box-shadow: none;
   margin: 10px 0 0 0;
   border-radius: 0;
@@ -2823,6 +2831,7 @@ body #app-mount .layer-86YKbF ~ .layer-86YKbF .sidebar-nqHbhN:has(.socialLinks-3
   display: grid;
   grid-template-columns: repeat(3, minmax(0, 1fr));
   grid-gap: 20px;
+  background: none;
 }
 
 .field-21XZwa {
