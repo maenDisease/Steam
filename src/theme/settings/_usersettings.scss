@@ -47,6 +47,14 @@
         font-weight: 400;
     }
 
+    .overflowMenuButton-1I3Jz1 {
+        margin-left: 0;
+        height: 100%;
+        position: absolute;
+        inset: 0;
+        opacity: 0;
+    }
+
     .profileCardUsernameRow-1bb6fi,
     .containerWithContent-2Yws8V {
         background: none;
@@ -54,6 +62,7 @@
         border-radius: 0;
         width: fit-content;
         padding: 0;
+        position: relative;
     }
 
     .containerWithContent-2Yws8V {
@@ -70,7 +79,7 @@
     }
 
     .background-3d_SjE {
-        background: var(--background-tertiary) !important;
+        background: none !important;
         box-shadow: none;
         margin: 10px 0 0 0;
         border-radius: 0;
@@ -83,6 +92,7 @@
     display: grid;
     grid-template-columns: repeat(3, minmax(0, 1fr));
     grid-gap: 20px;
+    background: none;
 }
 
 .field-21XZwa {
