@@ -3,19 +3,80 @@
     max-width: 100% !important;
 }
 
-#app-mount .accountProfileCard-lbN7n-:not(:has([style*="/banners/"])) .background-3d_SjE {
-    --profile-body-background-color: var(--background-tertiary);
-}
-
 #app-mount .accountProfileCard-lbN7n- {
     box-shadow: none;
     border-radius: 0;
-}
 
-.background-3d_SjE {
-    margin: 0;
-    border-radius: 0;
-    padding: 10px 0 0 0;
+    .bannerSVGWrapper-2CLfzN:not(:has([style*="/banners/"])) {
+        min-height: 1px !important;
+        min-width: 100% !important;
+    }
+
+    .banner-1YaD3N:not([style^="background-image"]) {
+        height: 1px;
+        min-height: 1px;
+        border-radius: 0;
+        mask-image: linear-gradient(to right, rgba(0, 0, 0, 1), rgba(0, 0, 0, 0) 75%);
+    }
+
+    .userInfo-regn9W {
+        height: calc(62px + 10px);
+        align-items: center;
+        padding: 10px 0 0 87px;
+    }
+
+    .avatar-3mTjvZ {
+        padding: 0;
+        top: unset;
+        margin: auto 0;
+        box-shadow: none;
+        height: 60px !important;
+        width: 60px !important;
+
+        svg {
+            height: 70px !important;
+            width: 70px !important;
+        }
+    }
+
+    .userTag-2qPxEZ {
+        margin: 0;
+        padding-left: 0;
+        font-size: 16px;
+        line-height: 20px;
+        font-weight: 400;
+    }
+
+    .profileCardUsernameRow-1bb6fi,
+    .containerWithContent-2Yws8V {
+        background: none;
+        box-shadow: none;
+        border-radius: 0;
+        width: fit-content;
+        padding: 0;
+    }
+
+    .containerWithContent-2Yws8V {
+        margin-top: 0;
+    }
+
+    .container-1gYwHN {
+        min-height: unset;
+    }
+
+    .profileBadge22-3GAYRy {
+        width: 18px;
+        height: 18px;
+    }
+
+    .background-3d_SjE {
+        background: var(--background-tertiary) !important;
+        box-shadow: none;
+        margin: 10px 0 0 0;
+        border-radius: 0;
+        padding: 10px 0;
+        border-top: thin solid #23262e;
+    }
 }
 
 .fieldList-in8WkP {
@@ -62,7 +123,7 @@
 
                     --header-primary: #b8bcbf;
 
-                    
+
                 }
             }
         }
@@ -70,7 +131,7 @@
 
     &:has(button.lookFilled-1H2Jvj:hover) {
         background: #464d58;
-        box-shadow: 0 8px 16px 0 rgba(0,0,0,0.3);
+        box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.3);
     }
 
     .fieldButtonList-28BYbB {
@@ -82,7 +143,7 @@
 
     button {
         margin: 0;
-        
+
         &.lookFilled-1H2Jvj {
             position: absolute;
             width: 100%;
