@@ -1,0 +1,200 @@
+// My Account
+#app-mount .layer-86YKbF~.layer-86YKbF .accountProfileCard-lbN7n- {
+    max-width: 100% !important;
+}
+
+.fieldList-in8WkP {
+    display: grid;
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+    grid-gap: 20px;
+}
+
+.field-21XZwa {
+    flex-direction: column;
+    background: hsla(222, 10%, 26%, 0.5);
+    margin: 0;
+    padding: 6px;
+    border-radius: 2px;
+    align-items: center;
+    justify-content: center;
+    height: 100px;
+    position: relative;
+    transition: background 200ms ease-in-out, box-shadow 200ms ease-in-out;
+
+    .constrainedRow-3y91Xf {
+        margin-right: 0;
+        flex-grow: 0;
+
+        .fieldTitle-2g5r_V+div {
+            text-align: center;
+        }
+
+        .fieldTitle-2g5r_V {
+            font-size: 16px;
+            font-weight: 400;
+            line-height: 20px;
+            text-align: center;
+            text-transform: capitalize;
+            color: #fff;
+            margin-bottom: 0;
+
+            &+div {
+                text-align: center;
+
+                span {
+                    font-size: 14px;
+                    line-height: 20px;
+
+                    --header-primary: #b8bcbf;
+
+                    
+                }
+            }
+        }
+    }
+
+    &:has(button.lookFilled-1H2Jvj:hover) {
+        background: #464d58;
+        box-shadow: 0 8px 16px 0 rgba(0,0,0,0.3);
+    }
+
+    .fieldButtonList-28BYbB {
+        position: absolute;
+        inset: 0;
+        align-items: end;
+        justify-content: center;
+    }
+
+    button {
+        margin: 0;
+        
+        &.lookFilled-1H2Jvj {
+            position: absolute;
+            width: 100%;
+            height: 100%;
+            opacity: 0;
+            z-index: 0;
+        }
+
+        &.lookLink-13iF2K {
+            z-index: 1;
+        }
+    }
+}
+
+// --debug-pointer-size: 20px;
+// --debug-pointer-opacity-hovering: 1.0;
+// --debug-pointer-opacity-not-hovering: 0.5;
+// --field-negative-horizontal-margin: 0px;
+// --scroll-fade-size: 20px;
+// --gamepad-page-content-max-width: 1100px;
+// --sticky-header-background-opacity: 0;
+// --touchmenuicon-fg: #b8bcbf;
+// --touchmenuicon-bg: #1f1f1f;
+// --touchmenuicon-scale: 1;
+// --virtualmenu-accent: #1a9fff;
+// --virtualmenu-bg: #1f1f1f;
+// --virtualmenu-bg-hover: #103753;
+// --virtualmenu-fg: #ffffff;
+// --virtualmenutouchkey-icon-width: 100%;
+// --virtualmenutouchkey-icon-height: 100%;
+// --virtualmenupointer-x: 0%;
+// --virtualmenupointer-y: 0%;
+// --virtualmenupointer-color: #1a9fff;
+// --virtualmenutouchkey-midpoint-x: 0%;
+// --virtualmenutouchkey-midpoint-y: 0%;
+// --virtualmenutouchkey-description-width: 0px;
+// --main-text-color: #dbe2e6;
+// --main-light-blue-background: #93b3c8;
+// --main-text-on-light-blue: rgb(209, 209, 209);
+// --main-top-image-bg: #1f2126;
+// --main-editor-bg-color: #363a43;
+// --main-editor-text-color: #e6e7e8;
+// --main-editor-input-bg-color: #30333b;
+// --main-editor-section-title-color: #a3a3a3;
+// --field-row-children-spacing: 10px;
+// --indent-level: 0;
+// --controls-list-spacing: 10px;
+// --controls-child-max-width: 200px;
+// box-sizing: content-box;
+// border: 0;
+// font: inherit;
+// overflow: visible;
+// margin: 2px 0;
+// -webkit-user-select: none;
+// display: block;
+// color: #dfe3e6;
+// font-size: 14px;
+// text-align: center;
+// border-radius: 2px;
+// cursor: pointer;
+// width: 100%;
+// transition-property: opacity,background,color,box-shadow;
+// transition-duration: .2s;
+// transition-timing-function: ease-out;
+// background: #3d4450;
+// background-position: 99% 1%;
+// background-size: 300% 300%;
+// position: relative;
+// scroll-margin: 20px 0 55px 0;
+// background-color: rgba(59,63,72,.5);
+// padding: 6px 0;
+// line-height: 16px;
+// margin-top: 10px;
+// margin-bottom: 10px;
+
+// .fieldList-in8WkP {
+//     display: flex;
+//     gap: 5px;
+//     flex-wrap: wrap;
+//     flex-direction: row;
+// }
+
+// .field-21XZwa {
+//     width: calc((100%/2) - 2.5px);
+//     border-radius: 8px;
+//     background-color: var(--background-primary);
+//     max-height: unset;
+//     flex-flow: column;
+//     padding: 15px;
+//     display: flex;
+//     margin-top: 0 !important;
+//     position: relative;
+//     overflow-y: scroll;
+//     height: 120px;
+//     margin-bottom: 0;
+// }
+
+// .field-21XZwa::-webkit-scrollbar {
+//     width: 0;
+// }
+
+// .field-21XZwa .fieldButton-14lHvK {
+//     background: var(--button-secondary-background);
+//     border-radius: 6px;
+//     transition: .1s;
+// }
+
+// .field-21XZwa .fieldButton-14lHvK:hover {
+//     background: var(--button-secondary-background-hover);
+// }
+
+// .field-21XZwa .fieldButton-14lHvK:hover>div {
+//     background-image: none !important;
+// }
+
+// .field-21XZwa .fieldButton-14lHvK:nth-child(1) {
+//     right: 5px;
+// }
+
+
+// .field-21XZwa .fieldButton-14lHvK {
+//     width: 100%;
+//     margin-right: 0;
+//     position: relative;
+//     right: 0 !important;
+// }
+
+// .field-21XZwa .fieldButtonList-28BYbB {
+//     gap: 5px;
+// }

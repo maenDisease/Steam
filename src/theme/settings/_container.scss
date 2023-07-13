@@ -45,7 +45,7 @@ body #app-mount {
 }
 
 .sidebar-nqHbhN:has(.socialLinks-3ywLUf) .side-1lrxIh .item-2GWPIy::before {
-    margin-right: 18px;
+    margin-right: 20px;
 }
 
 .sidebar-nqHbhN {
@@ -54,10 +54,15 @@ body #app-mount {
         color: var(--brand-experiment);
     }
 
+    .header-2F5_LB,
+    .header-2F5_LB:first-child {
+        padding: 24px 16px 20px 24px;
+    }
     .headerText-10ez_d {
-        font-size: 16px;
+        font-size: 17px;
         line-height: 20px;
-        padding: 24px 16px 24px 24px;
+        // padding: 24px 14px 20px 24px;
+        text-align: center;
     }
 
     .separator-2N511j {
