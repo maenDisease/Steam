@@ -2665,12 +2665,13 @@ body #app-mount .layer-86YKbF ~ .layer-86YKbF .sidebar-nqHbhN:has(.socialLinks-3
 }
 .sidebar-nqHbhN .header-2F5_LB,
 .sidebar-nqHbhN .header-2F5_LB:first-child {
-  padding: 24px 16px 22px 24px;
+  padding: 24px 16px 20px 24px;
 }
 .sidebar-nqHbhN .headerText-10ez_d {
   font-size: 17px;
-  line-height: 21px;
+  line-height: 20px;
   text-align: center;
+  overflow: hidden;
 }
 .sidebar-nqHbhN .separator-2N511j {
   margin: 0 12px;
