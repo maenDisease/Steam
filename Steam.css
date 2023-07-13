@@ -56,7 +56,6 @@
   --settingsicons-notifications: url(https://maendisease.github.io/Steam/illustrations/icns/notifications.svg);
   --settingsicons-streamermode: url(https://maendisease.github.io/Steam/illustrations/icns/broadcast.svg);
   --settingsicons-advanced: url(https://maendisease.github.io/Steam/illustrations/icns/developer.svg);
-  --settingsicons-activityprivacy: url(https://mwittrien.github.io/BetterDiscordAddons/Themes/_res/svgs/settingsicons/activityprivacy.svg);
   --settingsicons-games: url(https://maendisease.github.io/Steam/illustrations/icns/controller.svg);
   --settingsicons-overlay: url(https://maendisease.github.io/Steam/illustrations/icns/ingame.svg);
   --settingsicons-developer: url(https://maendisease.github.io/Steam/illustrations/icns/developer.svg);
@@ -1621,6 +1620,14 @@ body #app-mount .app-3xd6d0 .base-2jDfDU {
   border-radius: unset;
   background: none;
 }
+.container-3XgAHv.floating-3M3WeH {
+  border-left: 1px solid #000;
+  top: 16px;
+  background: #1b2838;
+}
+.container-3XgAHv.floating-3M3WeH .container-ZMc96U.themed-Hp1KC_ {
+  margin-top: 0;
+}
 
 .box-2iMsQm {
   background: hsla(206, 32%, 34%, 0.502);
@@ -2623,6 +2630,15 @@ body #app-mount .app-3xd6d0 .base-2jDfDU {
   border-radius: 0 !important;
   border: 0.5px solid black;
 }
+#app-mount .layer-86YKbF ~ .layer-86YKbF .lookFilled-1H2Jvj.colorBrand-2M3O3N {
+  color: #dfe3e6;
+  background: hsla(222, 10%, 26%, 0.5);
+}
+#app-mount .layer-86YKbF ~ .layer-86YKbF .lookFilled-1H2Jvj.colorBrand-2M3O3N:hover {
+  background: #464d58;
+  color: #fff;
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.3);
+}
 
 html.app-focused .layer-86YKbF ~ .layer-86YKbF::before {
   content: "";
@@ -2749,6 +2765,62 @@ body #app-mount .layer-86YKbF ~ .layer-86YKbF .sidebar-nqHbhN:has(.socialLinks-3
   margin-bottom: 0;
 }
 
+.divider-3nqZNm {
+  border-top: thin solid #23262e;
+}
+
+.marginTop40-Q4o1tS,
+.marginTop20-2T8ZJx,
+.dividerDefault-wIfHHD {
+  margin-top: 10px;
+}
+
+.container-31PmuA {
+  margin-bottom: 10px;
+}
+
+.container-31PmuA[class*=marginTop][class*=marginBottom]:has(+ .container-31PmuA[class*=marginTop][class*=marginBottom]) {
+  margin-bottom: 0;
+}
+
+.title-2yADjX {
+  color: #dcdedf;
+  font-size: 14px;
+  line-height: 18px;
+  font-weight: 400;
+}
+
+.h1-3iMExa.title-lXcL8p {
+  margin-bottom: 10px;
+  font-size: 24px;
+  line-height: 36px;
+  font-weight: 300;
+  letter-spacing: 2px;
+  color: #fff;
+  text-transform: uppercase;
+}
+
+.h5-2feg8J.eyebrow-2wJAoF {
+  color: #8b929a;
+  font-size: 14px;
+  letter-spacing: 0.5px;
+  line-height: 36px;
+  margin-bottom: 0;
+}
+
+.note-3SS3a9 .description-foE_WP {
+  margin-bottom: 0;
+}
+
+.description-foE_WP {
+  font-size: 12px;
+  line-height: 18px;
+  font-weight: 300;
+  color: #8b929a;
+  letter-spacing: 0;
+  margin-bottom: 10px;
+}
+
 #app-mount .layer-86YKbF ~ .layer-86YKbF .accountProfileCard-lbN7n- {
   max-width: 100% !important;
 }
@@ -2756,6 +2828,7 @@ body #app-mount .layer-86YKbF ~ .layer-86YKbF .sidebar-nqHbhN:has(.socialLinks-3
 #app-mount .accountProfileCard-lbN7n- {
   box-shadow: none;
   border-radius: 0;
+  overflow: visible;
 }
 #app-mount .accountProfileCard-lbN7n- .bannerSVGWrapper-2CLfzN:not(:has([style*="/banners/"])) {
   min-height: 1px !important;
@@ -2895,12 +2968,88 @@ body #app-mount .layer-86YKbF ~ .layer-86YKbF .sidebar-nqHbhN:has(.socialLinks-3
   z-index: 1;
 }
 
-.divider-3nqZNm {
-  border-top: thin solid #23262e;
+#notifications-tab .container-31PmuA:has(+ .container-31PmuA.soundRow-2Vsfbg) {
+  margin-bottom: 7px;
+}
+#notifications-tab .container-31PmuA.soundRow-2Vsfbg {
+  margin-bottom: 7px;
+}
+#notifications-tab .container-31PmuA.soundRow-2Vsfbg .divider-3nqZNm {
+  margin-top: 6px;
+}
+#notifications-tab .container-31PmuA.soundRow-2Vsfbg .title-2yADjX {
+  overflow: visible;
+}
+#notifications-tab .container-31PmuA.soundRow-2Vsfbg .control-10qYax {
+  order: -1;
+  margin-right: 6px;
+}
+#notifications-tab .container-31PmuA.soundRow-2Vsfbg .soundName-3e_44f {
+  margin-right: auto;
+}
+#notifications-tab .container-31PmuA.soundRow-2Vsfbg .soundIcon-1E1d9l {
+  opacity: 1;
+  background: hsla(222, 10%, 26%, 0.5);
+  margin-right: 4px;
+  height: 36px;
+  width: 36px;
+  border-radius: 2px;
+  color: var(--brand-experiment);
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  transition: background 200ms ease-in-out, box-shadow 200ms ease-in-out;
+}
+#notifications-tab .container-31PmuA.soundRow-2Vsfbg .soundIcon-1E1d9l:hover {
+  background: #464d58;
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.3);
+}
+#notifications-tab .container-31PmuA.soundRow-2Vsfbg .soundIcon-1E1d9l .icon-2-8HDu {
+  width: 18px;
+  height: 18px;
 }
 
-.marginTop40-Q4o1tS {
-  margin-top: 10px;
+#game-activity-tab .children-2C96Ex {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+}
+#game-activity-tab .children-2C96Ex > .marginTop40-Q4o1tS {
+  flex-basis: 100%;
+}
+#game-activity-tab .activeGame-1OdxzI {
+  padding: 8px 24px 10px 16px;
+  margin-right: 8px;
+}
+#game-activity-tab .activeGame-1OdxzI.notDetected-M3Ghh2 {
+  background: #3d4450;
+  width: -moz-fit-content;
+  width: fit-content;
+}
+#game-activity-tab .activeGame-1OdxzI::before {
+  content: url(https://maendisease.github.io/Steam/illustrations/icns/storage.svg);
+  display: block;
+  width: 20px;
+  height: 20px;
+  filter: invert(1);
+  margin-right: 12px;
+}
+#game-activity-tab .activeGame-1OdxzI .gameName-zbZetm {
+  line-height: 20px;
+}
+#game-activity-tab .activeGame-1OdxzI .gameName-zbZetm,
+#game-activity-tab .activeGame-1OdxzI .lastPlayed-1jum9A {
+  font-size: 14px;
+  font-weight: 600;
+  color: #fff;
+}
+#game-activity-tab .activeGame-1OdxzI .nowPlayingAdd-3I4RbE button::before {
+  content: url(https://maendisease.github.io/Steam/illustrations/icns/circleplus.svg);
+  display: block;
+  width: 20px;
+  height: 20px;
+  filter: invert(1);
+  margin-right: 12px;
 }
 
 #app-mount [id^=popout] > [aria-modal=true] > div:not(.spinner-2ID8f1) {
@@ -3215,10 +3364,39 @@ body #app-mount .layer-86YKbF ~ .layer-86YKbF .sidebar-nqHbhN:has(.socialLinks-3
   background: #3d4450;
 }
 
+.button-ejjZWC {
+  border-radius: 2px;
+  font-size: 14px;
+  font-weight: 400;
+}
+
+.sizeSmall-3R2P2p {
+  height: 34px;
+  min-height: 34px;
+  padding: 8px 14px;
+}
+
+.button-1EGGcP.buttonColor-3bP3fX,
+.button-1EGGcP .buttonColor-3bP3fX {
+  color: #dfe3e6;
+  background: hsla(222, 10%, 26%, 0.5);
+}
+.button-1EGGcP.buttonColor-3bP3fX:hover,
+.button-1EGGcP .buttonColor-3bP3fX:hover {
+  background: #464d58;
+  color: #fff;
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.3);
+}
+
+.lookFilled-1H2Jvj, .lookInverted-2GrLaB {
+  transition: background 200ms ease-in-out, box-shadow 200ms ease-in-out;
+}
+
 .container-1QtPKm {
   width: 38px;
   height: 22px;
   background-color: #3d4450 !important;
+  margin-right: 4px;
 }
 
 .container-1QtPKm.checked-16gMAN {
