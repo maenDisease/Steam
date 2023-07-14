@@ -7,6 +7,11 @@
 #app-mount .layer-86YKbF~.layer-86YKbF {
     border-radius: 0 !important;
     border: 0.5px solid black;
+    --text-link: hsl(197, 88%, 70%);
+    a:hover {
+        text-decoration:none;
+        --text-link: hsl(197, 100%, 85%);
+    }
 
     .lookFilled-1H2Jvj.colorBrand-2M3O3N {
         color: #dfe3e6;
@@ -88,6 +93,7 @@ body #app-mount {
         padding: 10px 16px 10px 24px;
         border-radius: 0;
         font-size: 14px;
+        margin-bottom: 0;
         --interactive-normal: #B8BCBF;
         --interactive-hover: #3D4450;
         --background-modifier-hover: #DCDEDF;
@@ -101,6 +107,14 @@ body #app-mount {
         &.selected-1sf9UK {
             background: #3e4551;
             color: #ffff;
+        }
+
+        &:hover,
+        &:active,
+        &.selected-1sf9UK {
+            +.separator-2N511j {
+                opacity: 0;
+            }
         }
     }
 }
@@ -120,6 +134,10 @@ body #app-mount {
             margin-top: calc(32px * 2 + 24px);
         }
     }
+}
+
+[aria-controls="discord-nitro-tab"] .background-Gjdjzm {
+    border-radius: 0;
 }
 
 #app-mount .layer-86YKbF~.layer-86YKbF .contentColumnDefault-3eyv5o {
@@ -180,11 +198,16 @@ body #app-mount {
     margin-bottom: 0;
 }
 
-.title-2yADjX {
+.title-2yADjX,
+.h3-3jj15Z.title-lXcL8p.defaultColor-3Olr-9 {
     color: #dcdedf;
     font-size: 14px;
     line-height: 18px;
     font-weight: 400;
+}
+
+.h3-3jj15Z.title-lXcL8p.defaultColor-3Olr-9.defaultMarginh3-2xghED {
+    margin-bottom: 10px;
 }
 
 .marginTop40-Q4o1tS .h1-3iMExa.title-lXcL8p,
@@ -210,11 +233,17 @@ body #app-mount {
     margin-bottom: 0;
 }
 
-.description-foE_WP {
-    font-size: 12px;
+.description-foE_WP,
+.formText-2UzJT0 {
+    font-size: 13px;
     line-height: 18px;
-    font-weight: 300;
+    font-weight: 400;
     color: #8b929a;
     letter-spacing: 0;
     margin-bottom: 10px;
+}
+
+.modeDisabled-38SBXU.description-foE_WP {
+    opacity: 1;
+    color: #67707b;
 }

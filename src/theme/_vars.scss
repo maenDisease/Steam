@@ -4,8 +4,10 @@
     --accent-brightness: 55%;
 
     --messages-max-width: 640px;
+
     --background-secondary: hsl(calc(var(--accent-hue) + 22), 9%, 19%);
     --background-tertiary: hsl(calc(var(--accent-hue) + 7), 22%, 12%);
+
     --interactive-normal: hsl(212, 7%, 57%);
     --interactive-hover: hsl(206, 5%, 74%);
 
@@ -51,6 +53,7 @@
 	--settingsicons-myaccount: url(https://maendisease.github.io/Steam/illustrations/icns/account.svg);
 	--settingsicons-profile: url(https://maendisease.github.io/Steam/illustrations/icns/pencil.svg);
 	--settingsicons-privacy: url(https://maendisease.github.io/Steam/illustrations/icns/security.svg);
+    --settingsicons-family: url(https://maendisease.github.io/Steam/illustrations/icns/family.svg);
 	// --settingsicons-apps: url(https://mwittrien.github.io/BetterDiscordAddons/Themes/_res/svgs/settingsicons/apps.svg);
 	--settingsicons-sessions: url(https://maendisease.github.io/Steam/illustrations/icns/remoteplay.svg);
 	// --settingsicons-connections: url(https://mwittrien.github.io/BetterDiscordAddons/Themes/_res/svgs/settingsicons/connections.svg);

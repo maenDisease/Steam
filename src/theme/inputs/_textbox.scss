@@ -1,0 +1,44 @@
+.input-3O04eu {
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 22px;
+    border-radius: 2px;
+    background: rgba(59, 63, 72, .5);
+    border: none;
+    -webkit-transition: none;
+    transition: none;
+
+    &:hover {
+        background: rgba(67, 73, 83, .6);
+    }
+
+    &:focus,
+    &:focus-within {
+        background: #23262e;
+        box-shadow: inset 1px 1px 4px #000a;
+    }
+}
+
+.inputDefault-Ciwd-S {
+    height: 42px;
+}
+
+#app-mount .bioTextArea-dDGOeC {
+    background: rgba(59, 63, 72, .5);
+    border: none;
+    box-shadow: none;
+    border-radius: 2px;
+
+    &:focus,
+    &:focus-within {
+        background: #23262e;
+        box-shadow: inset 1px 1px 4px #000a;
+    }
+
+    .textArea-2CLwUE,
+    .markup-eYLPri {
+        font-size: 14px;
+        font-weight: 300;
+        line-height: 22px;
+    }
+}
