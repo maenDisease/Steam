@@ -3041,6 +3041,9 @@ body #app-mount .layer-86YKbF ~ .layer-86YKbF .sidebar-nqHbhN:has(.socialLinks-3
   background: #fff;
   margin-right: 12px;
 }
+#game-activity-tab .activeGame-1OdxzI .gameNameLastPlayed-2hWoXJ {
+  max-width: calc(var(--settingsmodalwidth) - 196px - 200px);
+}
 #game-activity-tab .activeGame-1OdxzI .gameName-zbZetm,
 #game-activity-tab .activeGame-1OdxzI .lastPlayed-1jum9A {
   font-size: 14px;
@@ -3064,7 +3067,7 @@ body #app-mount .layer-86YKbF ~ .layer-86YKbF .sidebar-nqHbhN:has(.socialLinks-3
 }
 #game-activity-tab .activeGame-1OdxzI .hovered-20u3oh {
   position: relative;
-  max-width: calc(var(--settingsmodalwidth) - 196px - 8px - 20px - 120px);
+  max-width: calc(var(--settingsmodalwidth) - 196px - 200px);
 }
 #game-activity-tab .nowPlayingAdd-3I4RbE {
   margin: 0;
@@ -3141,6 +3144,18 @@ body #app-mount .layer-86YKbF ~ .layer-86YKbF .sidebar-nqHbhN:has(.socialLinks-3
   background: #3d4450;
   transition: background 0.2s linear;
 }
+#game-activity-tab .marginTop40-Q4o1tS .game-2f2vPC:hover .gameNameLastPlayed-2hWoXJ::after,
+#game-activity-tab .marginTop40-Q4o1tS .game-2f2vPC:hover .removeGame-3V7nss {
+  background-color: #67707b;
+}
+#game-activity-tab .marginTop40-Q4o1tS .game-2f2vPC:hover:has(.removeGame-3V7nss:hover) .gameNameLastPlayed-2hWoXJ::after {
+  transition: background 0.2s linear;
+  background-color: var(--status-danger);
+}
+#game-activity-tab .marginTop40-Q4o1tS .game-2f2vPC .gameVerifiedIcon-1YMUdQ {
+  height: 14px !important;
+  width: 14px !important;
+}
 #game-activity-tab .marginTop40-Q4o1tS .game-2f2vPC .gameNameLastPlayed-2hWoXJ::before {
   content: "";
   display: block;
@@ -3191,6 +3206,7 @@ body #app-mount .layer-86YKbF ~ .layer-86YKbF .sidebar-nqHbhN:has(.socialLinks-3
   text-transform: uppercase;
   font-weight: 700;
   display: flex;
+  align-items: center;
 }
 #game-activity-tab .marginTop40-Q4o1tS .game-2f2vPC .gameNameLastPlayed-2hWoXJ .lastPlayed-1jum9A strong {
   color: #67707b;
@@ -3199,17 +3215,28 @@ body #app-mount .layer-86YKbF ~ .layer-86YKbF .sidebar-nqHbhN:has(.socialLinks-3
 #game-activity-tab .marginTop40-Q4o1tS .game-2f2vPC .gameNameLastPlayed-2hWoXJ .lastPlayed-1jum9A::before {
   content: "";
   display: block;
-  width: 20px;
-  height: 20px;
+  width: 16px;
+  height: 16px;
   mask: url(https://maendisease.github.io/Steam/illustrations/icns/clock.svg);
   -webkit-mask: url(https://maendisease.github.io/Steam/illustrations/icns/clock.svg);
-  background: #67707b;
-  margin: 4px;
+  background: #8b929a;
+  margin-right: 4px;
 }
 @keyframes game-activity-tabCounter {
   to {
     content: counter(gamesCount);
   }
+}
+#game-activity-tab .removeGame-3V7nss {
+  opacity: 1;
+  position: relative;
+  top: unset;
+  right: unset;
+  box-shadow: none;
+  background-color: #3d4450;
+  border-radius: 2px;
+  margin: 8px;
+  flex-shrink: 0;
 }
 
 #app-mount [id^=popout] > [aria-modal=true] > div:not(.spinner-2ID8f1) {
