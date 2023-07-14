@@ -253,6 +253,10 @@
             margin-right: 12px;
         }
 
+        .gameNameLastPlayed-2hWoXJ {
+            max-width: calc(var(--settingsmodalwidth) - 196px - 200px);
+        }
+
         .gameName-zbZetm,
         .lastPlayed-1jum9A {
             font-size: 14px;
@@ -264,7 +268,6 @@
         .lastPlayed-1jum9A {
             height: 20px;
             overflow: hidden;
-            
         }
 
         .default-rFvAvS {
@@ -280,7 +283,7 @@
 
         .hovered-20u3oh {
             position: relative;
-            max-width: calc(var(--settingsmodalwidth) - 196px  - 8px - 20px - 120px);
+            max-width: calc(var(--settingsmodalwidth) - 196px - 200px);
         }
     }
 
@@ -372,6 +375,23 @@
             &:hover {
                 background: #3d4450;
                 transition: background .2s linear;
+
+                .gameNameLastPlayed-2hWoXJ::after,
+                .removeGame-3V7nss {
+                    background-color: #67707b;
+                }
+
+                &:has(.removeGame-3V7nss:hover) {
+                    .gameNameLastPlayed-2hWoXJ::after {
+                        transition: background .2s linear;
+                        background-color: var(--status-danger);
+                    }
+                }
+            }
+
+            .gameVerifiedIcon-1YMUdQ {
+                height: 14px !important;
+                width: 14px !important;
             }
 
             .gameNameLastPlayed-2hWoXJ {
@@ -426,6 +446,7 @@
                 text-transform: uppercase;
                 font-weight: 700;
                 display: flex;
+                align-items: center;
 
                 strong {
                     color: #67707b;
@@ -435,12 +456,12 @@
                 &::before {
                     content: '';
                     display: block;
-                    width: 20px;
-                    height: 20px;
+                    width: 16px;
+                    height: 16px;
                     mask: url(https://maendisease.github.io/Steam/illustrations/icns/clock.svg);
                     -webkit-mask: url(https://maendisease.github.io/Steam/illustrations/icns/clock.svg);
-                    background: #67707b;
-                    margin: 4px;
+                    background: #8b929a;
+                    margin-right: 4px;
                 }
             }
         }
@@ -453,4 +474,53 @@
             }
         }
     }
+
+    .removeGame-3V7nss {
+        opacity: 1;
+        position: relative;
+        top: unset;
+        right: unset;
+        box-shadow: none;
+        background-color: #3d4450;
+        border-radius: 2px;
+        margin: 8px;
+        flex-shrink: 0;
+    }
 }
+
+
+
+
+// .game-2f2vPC:focus-within .overlayStatusText-In0YrK, .game-2f2vPC:focus-within .overlayWarningIcon-3MtO6b, .game-2f2vPC:focus-within .removeGame-3V7nss, .game-2f2vPC:hover .overlayStatusText-In0YrK, .game-2f2vPC:hover .overlayWarningIcon-3MtO6b, .game-2f2vPC:hover .removeGame-3V7nss {
+//     opacity: 1;
+// }
+// .game-2f2vPC .removeGame-3V7nss {
+//     position: absolute;
+//     top: -12px;
+//     right: -31px;
+//     opacity: 0;
+// }
+// .theme-dark .default-1Tkeeg {
+//     background-color: var(--primary-600);
+// }
+// .theme-dark .button-1yVL_7 {
+//     -webkit-box-shadow: var(--dark-elevation-border),var(--dark-elevation-low);
+//     box-shadow: var(--dark-elevation-border),var(--dark-elevation-low);
+// }
+// .default-1Tkeeg {
+//     background-image: url(/assets/b5ad3c5….svg);
+// }
+// .button-1yVL_7 {
+//     text-indent: -9999em;
+//     overflow: hidden;
+//     cursor: pointer;
+//     width: 24px;
+//     height: 24px;
+//     background-position: 50% 50%;
+//     background-repeat: no-repeat;
+//     border-radius: 50%;
+//     -webkit-transition: opacity .1s ease-in-out,-webkit-box-shadow .1s ease-in-out,-webkit-transform .2s ease;
+//     transition: opacity .1s ease-in-out,-webkit-box-shadow .1s ease-in-out,-webkit-transform .2s ease;
+//     transition: opacity .1s ease-in-out,box-shadow .1s ease-in-out,transform .2s ease;
+//     transition: opacity .1s ease-in-out,box-shadow .1s ease-in-out,transform .2s ease,-webkit-box-shadow .1s ease-in-out,-webkit-transform .2s ease;
+// }
