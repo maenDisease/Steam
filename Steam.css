@@ -1967,6 +1967,40 @@ body #app-mount .app-3xd6d0 .base-2jDfDU {
   border-radius: 0;
   background: rgba(0, 0, 0, 0.2);
 }
+.mainCard-3KBsBI:has(.notice-2tOLuo) {
+  padding-left: 14px;
+  padding-right: 14px;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  height: -moz-fit-content;
+  height: fit-content;
+}
+.mainCard-3KBsBI:has(.notice-2tOLuo) .inline-1Al0JA {
+  gap: 0;
+}
+.mainCard-3KBsBI:has(.notice-2tOLuo) .inline-1Al0JA .author-2kHvde [data-text-variant="text-sm/semibold"],
+.mainCard-3KBsBI:has(.notice-2tOLuo) .inline-1Al0JA .author-2kHvde [data-text-variant="text-sm/normal"] {
+  font-size: 12px;
+}
+.mainCard-3KBsBI:has(.notice-2tOLuo) .separator-3PdcLL {
+  display: none;
+}
+.mainCard-3KBsBI:has(.notice-2tOLuo) .title-Kuc4iQ {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: unset;
+  display: block;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  margin-bottom: 0;
+}
+.mainCard-3KBsBI:has(.notice-2tOLuo) img {
+  border-radius: 2px;
+  right: 0;
+  top: 0;
+  background: #5765F2;
+}
 
 .container-q2_DnH {
   height: 72px;
