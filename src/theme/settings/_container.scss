@@ -119,6 +119,14 @@ body #app-mount {
     }
 }
 
+.info-3pQQBb {
+    padding: 0 24px 24px 24px;
+
+    .line-18uChy {
+        line-height: 16px;
+    }
+}
+
 #app-mount .contentRegion-3HkfJJ {
     .contentRegionScroller-2_GT_N {
         --header-padding: 32px;
@@ -144,15 +152,7 @@ body #app-mount {
     padding: 0 24px 24px 24px !important;
 }
 
-.contentColumn-1C7as6>div:first-child>.sectionTitle-LdcnyP,
-.contentColumn-1C7as6>div:not([class]):first-child>div:not([class]):first-child>.sectionTitle-LdcnyP,
-#profile-customization-tab h2,
-#billing-tab>div:not([class]):first-child>div:not([class]):first-child h2,
-#roles-tab div:not([class])>h2,
-#emoji-tab .sectionTitle-LdcnyP,
-#integrations-tab>.flex-2S1XBF:first-child,
-#guild_templates-tab h2,
-#vanity_url-tab h2.title-lXcL8p {
+@mixin settingsHeader {
     position: sticky;
     display: flex;
     align-items: center;
@@ -165,6 +165,25 @@ body #app-mount {
     background: linear-gradient(to bottom, var(--background-tertiary) calc(100% - 24px), rgba(0,204,255,0) 100%);
 }
 
+@mixin settingsHeaderText {
+    font-size: 22px;
+    line-height: 24px;
+    font-weight: 700;
+    margin-bottom: 0;
+}
+
+.contentColumn-1C7as6>div:first-child>.sectionTitle-LdcnyP,
+.contentColumn-1C7as6>div:not([class]):first-child>div:not([class]):first-child>.sectionTitle-LdcnyP,
+#profile-customization-tab h2,
+#billing-tab>div:not([class]):first-child>div:not([class]):first-child h2,
+#roles-tab div:not([class])>h2,
+#emoji-tab .sectionTitle-LdcnyP,
+#integrations-tab>.flex-2S1XBF:first-child,
+#guild_templates-tab h2,
+#vanity_url-tab h2.title-lXcL8p {
+    @include settingsHeader;
+}
+
 .contentColumn-1C7as6>div:first-child>.sectionTitle-LdcnyP h2,
 .contentColumn-1C7as6>div:not([class]):first-child>div:not([class]):first-child>.sectionTitle-LdcnyP h2,
 #profile-customization-tab h2,
@@ -174,10 +193,7 @@ body #app-mount {
 #integrations-tab>.flex-2S1XBF:first-child h2,
 #guild_templates-tab h2,
 #vanity_url-tab h2.title-lXcL8p {
-    font-size: 22px;
-    line-height: 24px;
-    font-weight: 700;
-    margin-bottom: 0;
+    @include settingsHeaderText;
 }
 
 .divider-3nqZNm {

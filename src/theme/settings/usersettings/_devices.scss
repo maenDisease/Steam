@@ -1,0 +1,100 @@
+.sessions-2KZ0-Q {
+    margin: 10px 0;
+
+    .otherSessions-3BQszU {
+        margin-top: 10px;
+    }
+
+    +div .logOutAllButton-11uhew {
+        margin-top: 0;
+    }
+}
+
+.session-9khLqt {
+    border-bottom: none;
+    gap: 12px;
+    padding: 6px 8px;
+    height: 58px;
+
+    &:hover {
+        background: #3d4450;
+        transition: background .2s linear;
+
+        .sessionIcon-2fwSzb,
+        .sessionMoreButton-2cApSx {
+            background: #67707b;
+            transition: background .2s linear;
+        }
+    }
+
+    .sessionInfo-HxfESS {
+        gap: 0;
+    }
+
+    .eyebrow-1Shfyi {
+        color: #fff;
+        font-weight: 400;
+        line-height: 20px;
+    }
+
+    [data-text-variant="text-sm/medium"] {
+        color: #8b929a;
+        font-size: 12px;
+        line-height: 22px;
+        letter-spacing: .5px;
+        text-transform: uppercase;
+        font-weight: 700;
+        display: flex;
+        align-items: center;
+
+        span:nth-child(2) {
+            display: none;
+        }
+
+        span:nth-child(3) {
+            color: #67707b;
+            font-weight: 700;
+        }
+    }
+
+    .sessionMoreButton-2cApSx {
+        background-color: #3d4450;
+        border-radius: 2px;
+        margin: 8px 8px 8px auto;
+        height: 24px;
+        width: 24px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        color: var(--status-danger);
+
+        &:hover {
+            background: var(--status-danger);
+            color: #fff;
+        }
+
+        svg {
+            height: 18px;
+            width: 18px;
+        }
+    }
+
+    &:has(.sessionMoreButton-2cApSx:hover) {
+        .sessionIcon-2fwSzb {
+            background: var(--status-danger);
+        }
+    }
+}
+
+.sessionIcon-2fwSzb {
+    width: 98px;
+    height: 45px;
+    border-radius: 0;
+    background: #3d4450;
+    color: #fff;
+
+    svg {
+        height: 18px;
+        width: 18px;
+    }
+}

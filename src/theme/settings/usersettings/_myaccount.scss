@@ -1,0 +1,169 @@
+#app-mount .layer-86YKbF~.layer-86YKbF .accountProfileCard-lbN7n- {
+    max-width: 100% !important;
+}
+
+#app-mount .accountProfileCard-lbN7n- {
+    box-shadow: none;
+    border-radius: 0;
+    overflow: visible;
+
+    .bannerSVGWrapper-2CLfzN:not(:has([style*="/banners/"])) {
+        min-height: 1px !important;
+        min-width: 100% !important;
+    }
+
+    .banner-1YaD3N:not([style^="background-image"]) {
+        height: 1px;
+        min-height: 1px;
+        border-radius: 0;
+        mask-image: linear-gradient(to right, rgba(0, 0, 0, 1), rgba(0, 0, 0, 0) 75%);
+    }
+
+    .userInfo-regn9W {
+        height: calc(62px + 10px);
+        align-items: center;
+        padding: 10px 0 0 87px;
+    }
+
+    .avatar-3mTjvZ {
+        padding: 0;
+        top: unset;
+        margin: auto 0;
+        box-shadow: none;
+        height: 60px !important;
+        width: 60px !important;
+
+        svg {
+            height: 70px !important;
+            width: 70px !important;
+        }
+    }
+
+    .userTag-2qPxEZ {
+        margin: 0;
+        padding-left: 0;
+        font-size: 16px;
+        line-height: 20px;
+        font-weight: 400;
+    }
+
+    .overflowMenuButton-1I3Jz1 {
+        margin-left: 0;
+        height: 100%;
+        position: absolute;
+        inset: 0;
+        opacity: 0;
+    }
+
+    .profileCardUsernameRow-1bb6fi,
+    .containerWithContent-2Yws8V {
+        background: none;
+        box-shadow: none;
+        border-radius: 0;
+        width: fit-content;
+        padding: 0;
+        position: relative;
+    }
+
+    .containerWithContent-2Yws8V {
+        margin-top: 0;
+    }
+
+    .container-1gYwHN {
+        min-height: unset;
+    }
+
+    .profileBadge22-3GAYRy {
+        width: 18px;
+        height: 18px;
+    }
+
+    .background-3d_SjE {
+        background: none !important;
+        box-shadow: none;
+        margin: 10px 0 0 0;
+        border-radius: 0;
+        padding: 10px 0;
+        border-top: thin solid #23262e;
+    }
+}
+
+.fieldList-in8WkP {
+    display: grid;
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+    grid-gap: 20px;
+    background: none;
+}
+
+.field-21XZwa {
+    flex-direction: column;
+    background: hsla(222, 10%, 26%, 0.5);
+    margin: 0;
+    padding: 6px;
+    border-radius: 2px;
+    align-items: center;
+    justify-content: center;
+    height: 100px;
+    position: relative;
+    transition: background 200ms ease-in-out, box-shadow 200ms ease-in-out;
+
+    .constrainedRow-3y91Xf {
+        margin-right: 0;
+        flex-grow: 0;
+
+        .fieldTitle-2g5r_V+div {
+            text-align: center;
+        }
+
+        .fieldTitle-2g5r_V {
+            font-size: 16px;
+            font-weight: 400;
+            line-height: 20px;
+            text-align: center;
+            text-transform: capitalize;
+            color: #fff;
+            margin-bottom: 0;
+
+            &+div {
+                text-align: center;
+
+                span {
+                    font-size: 14px;
+                    line-height: 20px;
+
+                    --header-primary: #b8bcbf;
+
+
+                }
+            }
+        }
+    }
+
+    &:has(button.lookFilled-1H2Jvj:hover) {
+        background: #464d58;
+        box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.3);
+    }
+
+    .fieldButtonList-28BYbB {
+        position: absolute;
+        inset: 0;
+        align-items: end;
+        justify-content: center;
+    }
+
+    button {
+        margin: 0;
+
+        &.lookFilled-1H2Jvj {
+            position: absolute;
+            width: 100%;
+            height: 100%;
+            opacity: 0;
+            z-index: 0;
+        }
+
+        &.lookLink-13iF2K {
+            z-index: 1;
+        }
+    }
+}

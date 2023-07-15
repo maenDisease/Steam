@@ -1,0 +1,147 @@
+#authorized-apps-tab {
+    .formNotice-1JW4h2 {
+        padding: 0;
+        margin-bottom: 10px;
+        background: none;
+        border: none;
+    }
+
+    .authedApp-8q3NA9 {
+        padding: 6px 8px;
+        margin-bottom: 10px;
+        border: none;
+        border-radius: 0;
+        background: none;
+
+        &:hover {
+            background: #3d4450;
+            transition: background .2s linear;
+        }
+
+        .marginBottom20-315RVT {
+            margin-bottom: 10px;
+        }
+
+        .headerInfo-3UVPHi {
+
+            [data-text-variant="text-sm/semibold"] {
+                margin-left: 12px;
+            }
+        }
+
+        .twoWayWarning-2lKQI- {
+            margin-top: 10px;
+
+            .twoWayWarningIcon-1T9ioF {
+                height: 18px;
+                width: 18px;
+                color: #ffc82c;
+                margin-right: 4px;
+            }
+
+            [data-text-variant="text-sm/medium"] {
+                font-size: 13px;
+                line-height: 18px;
+                font-weight: 400;
+                color: #8b929a !important;
+            }
+        }
+
+        .permission-CbNHIg {
+            margin-top: 0;
+
+            .formText-2UzJT0 {
+                margin-bottom: 0;
+            }
+        }
+    }
+
+    .appAvatar-2htirv {
+        width: 98px;
+        height: 45px;
+        border-radius: 0;
+        object-fit: cover;
+        background: #3d4450;
+
+        // Youtube Together
+        &[src*="755600276941176913/4e"],
+        // Watch Together
+        &[src*="880218394199220334/ec"],
+        // StreamKit Overlay
+        &[src*="207646673902501888/a3"],
+        // Jamspace
+        &[src*="1070087967294631976/9a"] {
+            object-fit: scale-down;
+            background: #fff;
+        }
+
+        // Xbox
+        &[src*="622174530214821906/38"] {
+            object-fit: scale-down;
+            background: #0F7C10;
+        }
+
+        // DiscordServers.com
+        &[src*="162469056312639488/de"] {
+            object-fit: scale-down;
+            background: #3D4450;
+        }
+
+        // BetterDiscordWeb
+        &[src*="777264613867257857/65"] {
+            object-fit: scale-down;
+            background: #0C0D10;
+        }
+    }
+
+    :root {
+        counter-reset: authappsCount;
+    }
+
+    .children-2C96Ex {
+        display: flex;
+        flex-flow: row wrap;
+
+        &:before {
+            content: 'Authorized Apps';
+
+            color: #fff;
+            font-size: 16px;
+            line-height: 20px;
+            font-weight: 600;
+            letter-spacing: 0;
+            padding-top: 8px;
+            padding-left: 8px;
+            order: -2;
+        }
+
+        &:after {
+            content: counter(authappsCount);
+            animation: authorized-apps-tabCounter 1s linear infinite forwards;
+
+            // Styles
+            color: #8b929a;
+            font-size: 16px;
+            line-height: 20px;
+            margin-left: 8px;
+            font-weight: 600;
+            order: -1;
+            padding-top: 8px;
+        }
+    }
+
+    .formNotice-1JW4h2 {
+        order: -3;
+    }
+
+    .authedApp-8q3NA9 {
+        counter-increment: authappsCount;
+        flex-basis: 100%;
+    }
+
+    @keyframes authorized-apps-tabCounter {
+        to {
+            content: counter(authappsCount);
+        }
+    }
+}

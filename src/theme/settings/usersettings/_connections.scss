@@ -1,0 +1,149 @@
+.connectContainer-1hylYM {
+    margin-bottom: 10px;
+    background: none;
+    border-radius: 0;
+    padding: 0;
+
+    .connectHeader-2VkFiv {
+        color: #8b929a !important;
+        font-size: 14px;
+        letter-spacing: 0.5px;
+        line-height: 36px;
+        text-transform: uppercase;
+        margin-bottom: 0;
+    }
+
+    [data-text-variant="text-xs/normal"] {
+        font-size: 13px;
+        line-height: 18px;
+        font-weight: 400;
+        color: #8b929a !important;
+        margin-bottom: 10px;
+    }
+
+    button {
+        background-color: hsla(222, 10%, 26%, 0.5);
+        transition: background-color 200ms ease-in-out, box-shadow 200ms ease-in-out;
+        border-radius: 2px;
+        width: fit-content;
+        background-position: left;
+        background-origin: content-box;
+        padding: 8px 14px;
+        color: #dfe3e6;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        &:hover {
+            background-color: #464d58;
+            color: #fff;
+            box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.3);
+        }
+
+        &[aria-label]::after {
+            content: attr(aria-label);
+            font-size: 14px;
+            font-weight: 400;
+            margin-left: 48px;
+        }
+
+        &.accountAddInner-2y9WLL {
+            &[aria-label]::after {
+                margin-left: 10px;
+            }
+
+            svg {
+                color: var(--brand-experiment);
+            }
+        }
+    }
+}
+
+.connectionList-11Q_X- {
+    gap: 10px;
+    padding-top: 10px;
+    border-top: thin solid #23262e;
+}
+
+.connection-YOVI9j {
+    margin-bottom: 0;
+    border-radius: 0;
+    background: none;
+}
+
+.connectionHeader-Ixbb1s {
+    padding: 8px;
+    background: rgba(59, 63, 72, .5);
+    border-radius: 0;
+
+    .connectionAccountLabelContainer-1KuLS6 {
+        color: #fff;
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 20px;
+    }
+
+    .connectionAccountLabel-28GEPk {
+        --header-secondary: #8b929a;
+        font-size: 12px;
+        line-height: 22px;
+        letter-spacing: 0.5px;
+        text-transform: uppercase;
+        font-weight: 700;
+    }
+
+    .connectionDelete-3YgMVq {
+        background: #3d4450;
+        border-radius: 2px;
+        height: 24px;
+        width: 24px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        color: var(--status-danger);
+        margin-right: 0;
+
+        &:hover {
+            background: var(--status-danger);
+            color: #fff;
+        }
+
+        svg {
+            height: 18px;
+            width: 18px;
+        }
+    }
+}
+
+.connectionOptionsWrapper-3aVWcp {
+    background: #23262e;
+    padding: 8px;
+    box-shadow: inset 0 2px 3px rgba(0, 0, 0, 0.5);
+}
+
+.connectionOptions-JJ1YEi {
+    flex-flow: row wrap;
+}
+
+.connectionOptionSwitch-y1S-cR {
+    margin-bottom: 0;
+    width: 50%;
+    max-width: 50%;
+    flex: 1 1 50%;
+    padding: 0;
+    align-items: center;
+
+    .labelRow-NnoUIp {
+        width: fit-content;
+
+        [data-text-variant="text-sm/semibold"] {
+            font-size: 13px;
+            font-weight: 300;
+        }
+    }
+
+    .control-10qYax {
+        order: -1;
+        margin-right: 4px;
+    }
+}
