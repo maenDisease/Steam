@@ -1,0 +1,51 @@
+.presets-2zm9Ir.basicThemeSelectors-2wNKs6 {
+    padding: 6px;
+    background: #202226;
+    box-shadow: inset 0 1px 1px 0 #000a;
+    border-radius: 2px;
+    margin-bottom: 10px;
+    display: grid;
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+    grid-gap: 6px;
+    background: none;
+
+    .themeSelectionContainer-3nGXK9 {
+        height: fit-content;
+        width: 100%;
+
+        .selectionCircle-3s5Uex,
+        .iconWrapper-1EIGUS {
+            display: none;
+        }
+
+        .themeSelection-2u4ce0 {
+            border-radius: 2px;
+        padding: 6px;
+            box-shadow: none;
+            background: none;
+            justify-content: center;
+            display: flex;
+            transition: background 0.18s ease-in-out;
+
+            &[aria-label]::after {
+                content: attr(aria-label);
+                font-size: 14px;
+                line-height: 18px;
+                font-weight: 400;
+                color: #dfe3e6;
+            }
+
+            &:hover {
+                background: #33363e;
+            }
+
+            &.selected-2FbEJt {
+                background: #1f8dff;
+
+                &[aria-label]::after {
+                    color: #fff;
+                }
+            }
+        }
+    }
+}
