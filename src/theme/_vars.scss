@@ -13,6 +13,10 @@
 
     --background-modifier-hover: hsla(var(--accent-hue), 24%, 68%, 0.3);
     --background-modifier-active: var(--background-modifier-hover);
+
+    --background-dark-4: rgba(0,0,0, .4);
+    --background-dark-3: rgba(0,0,0, .3);
+    --background-dark-2: rgba(0,0,0, .2);
     
     --text-muted: hsl(0, 0%, 60%);
     --scroller-color: hsl(218, 11%, 29%);

@@ -1,9 +1,15 @@
-.container-2cd8Mz {
+.container-2cd8Mz,
+.containerSidenav-3qiKqP {
     background: none;
 }
 
+.sideNavContent-D1tzYo {
+    min-width: unset;
+    max-width: 656px;
+    padding: 36px 0 0 0;
+}
 
-.tabBar-ra-EuL .item-3mHhwr.themed-qqoYp3 {
+.topPill-2vcLsa .item-2GWPIy.themed-qqoYp3 {
     border-radius: 0;
     margin: 0;
     padding: 0 14px;
@@ -178,7 +184,7 @@
 }
 
 .header-30YxSJ form {
-    background-color: rgba(0, 0, 0, .4);
+    background-color: var(--background-dark-4);
     padding: 20px 20px 20px 20px;
 }
 
@@ -203,6 +209,8 @@
     .inputDefault-Ciwd-S {
         padding: 10px;
         height: unset;
+        background: none !important;
+        box-shadow: none !important;
     }
     
     .inputWrapper-2K8ds1:not(:has(+.inputText-30IjXy)) .inputDefault-Ciwd-S {
