@@ -32,3 +32,21 @@
         }
     }
 }
+
+.checkboxWrapper-3zdYym {
+    input[type="checkbox"] {
+        height: 22px !important;
+        width: 22px !important;
+
+        &:hover + .checkbox-1LuCGM {
+            background: #67707b;
+        }
+    }
+}
+.checkbox-1LuCGM {
+    border-radius: 2px;
+    border: none;
+    background: #3d4450;
+    height: 22px !important;
+    width: 22px !important;
+}

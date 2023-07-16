@@ -1,0 +1,13 @@
+#text-\&-images-tab {
+    [role=radiogroup]:has(.item-1TA5qI)[aria-orientation=vertical] {
+        flex-direction: row;
+    }
+
+    [role=radiogroup]:has(.item-1TA5qI) .item-1TA5qI {
+        width: 100%;
+
+        [data-text-variant="text-md/medium"] {
+            text-align: center;
+        }
+    }
+}

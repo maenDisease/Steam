@@ -1,0 +1,106 @@
+#app-mount .layer-86YKbF~.layer-86YKbF .contentColumnDefault-3eyv5o#hypesquad-online-tab {
+    padding: 0 !important;
+}
+
+#app-mount .contentRegion-3HkfJJ .contentRegionScroller-2_GT_N:has(#hypesquad-online-tab) {
+    padding-top: 0;
+}
+
+.contentRegionScroller-2_GT_N:has(#hypesquad-online-tab) {
+    background: #000;
+}
+
+#hypesquad-online-tab {
+    .intro-2CBQJs {
+        z-index: 0;
+        position: relative;
+        margin-bottom: 0;
+        padding: 5em;
+
+        [data-text-variant="text-lg/normal"] {
+            font-size: 16px;
+            line-height: 20px;
+        }
+
+        &::after {
+            --house-calc: calc(var(--house) + 54);
+            content: '';
+            z-index: -1;
+            position: absolute;
+            inset: 0;
+            width: 100%;
+            height: 100%;
+            background: linear-gradient(135deg, hsl(var(--house, 235), calc(var(--saturation-factor, 1)*85.6%), 64.7%) 38%, hsl(var(--house-calc, 269), calc(var(--saturation-factor, 1)*52.7%), 52.7%) 65%);
+            -webkit-mask: radial-gradient(circle at center, black 0%, transparent 35%);
+        }
+    }
+
+    &:has([class*="membershipDialogHouse3"]) {
+        --house: 169;
+    }
+
+    &:has([class*="membershipDialogHouse2"]) {
+        --house: 7;
+    }
+
+    &:has([class*="membershipDialogHouse1"]) {
+        --house: 254;
+    }
+
+    .membershipDialog-2wAdpQ {
+        border-radius: 0;
+        padding: 4em 5em;
+        margin-bottom: 0;
+    }
+
+    .features-6z-RVS {
+        background: linear-gradient(137.42deg, #00d5ff 0%, #d0266f 40%, #b9b500 100%);
+        background-size: 300% 300%;
+        animation: nitroGradient 20s ease infinite;
+        max-width: unset;
+        margin: 0;
+        padding: 0 0 4em 0;
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .perksHeading-3fBj-Y {
+        display: none;
+    }
+
+    .video-293uMj {
+        border-radius: 0;
+        flex-basis: 100%;
+    }
+
+    .feature-2sPtnu {
+        width: 100%;
+        background: rgba(255, 255, 255, .0588235294);
+        border-radius: 3px;
+        padding: 20px;
+        margin: 10px;
+        flex-direction: column;
+        flex: 0 1 calc(33.3% - 10px - 10px) !important;
+        display: flex;
+        border: none;
+        flex-wrap: nowrap;
+
+        .icon-2g_pHb {
+            margin: 0;
+        }
+    }
+
+    .title-2pQsrN {
+        font-size: 24px;
+        line-height: 28px;
+        font-weight: 600;
+        margin-bottom: 10px;
+        text-align: center;
+    }
+
+    .description-22Sl9U {
+        font-size: 12px;
+        line-height: 16px;
+        text-align: center;
+    }
+}

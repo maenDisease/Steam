@@ -1,0 +1,41 @@
+#voice-\&-video-tab {
+    .micTest-19EtdQ {
+        margin-top: 0;
+        gap: 10px;
+
+        button {
+            order: 1;
+            margin: 0;
+        }
+
+        .wrapper-UvA17F {
+            border-radius: 50px;
+            overflow: hidden;
+            height: 8px;
+        }
+
+        .progress-1S-TDF {
+            background: #23262e;
+        }
+
+        .notches-2w7UZJ {
+            display: none;
+        }
+
+        .micTestCaption-3wFDcZ {
+            left: 0;
+        }
+    }
+
+    [role=radiogroup]:has(.item-1TA5qI)[aria-orientation=vertical] {
+        flex-direction: row;
+    }
+
+    [role=radiogroup]:has(.item-1TA5qI) .item-1TA5qI {
+        width: 100%;
+
+        [data-text-variant="text-md/medium"] {
+            text-align: center;
+        }
+    }
+}

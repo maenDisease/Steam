@@ -119,6 +119,9 @@ body #app-mount {
     }
 }
 
+.socialLinks-3ywLUf {
+    padding: 24px 0 24px 24px;
+}
 .info-3pQQBb {
     padding: 0 24px 24px 24px;
 
@@ -256,8 +259,7 @@ body #app-mount {
 }
 
 .sectionDescription-2ealM1,
-.description-foE_WP,
-.formText-2UzJT0 {
+.description-foE_WP {
     font-size: 13px;
     line-height: 18px;
     font-weight: 400;
@@ -266,7 +268,19 @@ body #app-mount {
     margin-bottom: 10px;
 }
 
+.formText-2UzJT0 {
+    font-size: 13px;
+    line-height: 18px;
+    font-weight: 400;
+    color: #8b929a;
+    letter-spacing: 0;
+}
+
 .modeDisabled-38SBXU.description-foE_WP {
     opacity: 1;
     color: #67707b;
+}
+
+.children-2C96Ex>.marginBottom40-fvAlAV:last-child:has(.formText-2UzJT0) {
+    margin-bottom: 0;
 }

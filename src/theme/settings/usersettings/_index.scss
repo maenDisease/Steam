@@ -1,6 +1,6 @@
 @forward './myaccount';
 @forward './profiles';
-@forward './privacy&safety';
+// @forward './privacy&safety';
 @forward './familycenter';
 @forward './authorizedapps';
 @forward './devices';
@@ -13,10 +13,10 @@
 @forward './billing';
 @forward './appearance';
 @forward './accessibility';
-// @forward './voice&video';
-// @forward './text&images';
+@forward './voice&video';
+@forward './text&images';
 @forward './notifications';
-// @forward './keybinds';
+@forward './keybinds';
 // @forward './language';
 // @forward './streamermode';
 // @forward './advanced';
