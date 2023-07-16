@@ -5892,6 +5892,7 @@ body #app-mount .layer-86YKbF ~ .layer-86YKbF .sidebar-nqHbhN:has(.socialLinks-3
 #updates-tab .bd-setting-item:has([for=core-updater]) {
   padding: 8px 24px 10px 16px;
   margin-right: 8px;
+  margin-bottom: 0;
   border-radius: 2px;
   width: -moz-fit-content;
   width: fit-content;
