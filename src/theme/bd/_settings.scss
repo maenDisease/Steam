@@ -1,9 +1,22 @@
-// @use './src/theme/settings/container';
+@use "../settings/container";
 
-// .bd-settings-title:not(.bd-settings-group-title) {
-//     @include container.settingsHeader;
-//     @include container.settingsHeaderText;
-// }
+.bd-settings-title:not(.bd-settings-group-title) {
+    @include container.settingsHeader;
+    @include container.settingsHeaderText;
+}
+
+.bd-button {
+    border-radius: 2px;
+    font-size: 14px;
+    font-weight: 400;
+    padding: 8px 14px;
+    height: 34px;
+    transition: background 200ms ease-in-out, box-shadow 200ms ease-in-out;
+    
+    &:hover {
+        box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.3);
+    }
+}
 
 .bd-settings-title.bd-settings-group-title {
     margin-bottom: 10px;
