@@ -1,4 +1,5 @@
 @import url(https://maendisease.github.io/BetterDiscordStuff/css/ProfileBannerSkins.css);
+@import url(https://maendisease.github.io/BetterDiscordStuff/css/bdAddonMini.css);
 @import url(https://maendisease.github.io/BetterDiscordStuff/css/bearableInbox.css);
 @import url(https://discordstyles.github.io/RadialStatus/dist/RadialStatus.css);
 @import url(https://mwittrien.github.io/BetterDiscordAddons/Themes/SettingsModal/SettingsModal.css);
@@ -5726,6 +5727,35 @@ body #app-mount .layer-86YKbF ~ .layer-86YKbF .sidebar-nqHbhN:has(.socialLinks-3
   position: absolute;
   right: 8px;
   margin-top: 18px;
+}
+
+.bd-settings-title:not(.bd-settings-group-title) {
+  position: sticky;
+  display: flex;
+  align-items: center;
+  top: 0;
+  width: 200%;
+  padding: 32px 24px;
+  margin-left: -24px;
+  z-index: 10;
+  transform: translateY(calc(var(--header-padding) * -1 + 8.5px + 18px));
+  background: linear-gradient(to bottom, var(--background-tertiary) calc(100% - 24px), rgba(0, 204, 255, 0) 100%);
+  font-size: 22px;
+  line-height: 24px;
+  font-weight: 700;
+  margin-bottom: 0;
+}
+
+.bd-button {
+  border-radius: 2px;
+  font-size: 14px;
+  font-weight: 400;
+  padding: 8px 14px;
+  height: 34px;
+  transition: background 200ms ease-in-out, box-shadow 200ms ease-in-out;
+}
+.bd-button:hover {
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.3);
 }
 
 .bd-settings-title.bd-settings-group-title {
