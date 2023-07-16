@@ -361,9 +361,10 @@ body,
 
 #app-mount .tooltip-33Jwqe {
   border-radius: 2px;
+  font-size: 13px;
   font-weight: 400;
-  color: #E0E1E5;
-  box-shadow: 0 0 5px #000;
+  color: #E0E1E6;
+  box-shadow: 1px 1px 8px rgba(0, 0, 0, 0.3333333333), 2px 2px 16px 1px rgba(0, 0, 0, 0.3333333333);
 }
 #app-mount .tooltipPrimary-2466a2 {
   background: #696773;
@@ -372,7 +373,7 @@ body,
   display: none;
 }
 #app-mount .tooltipContent-38tm3I {
-  padding: 8px 10px;
+  padding: 6px 8px;
 }
 
 ::-moz-selection {
@@ -2950,6 +2951,13 @@ body #app-mount .layer-86YKbF ~ .layer-86YKbF .sidebar-nqHbhN:has(.socialLinks-3
   margin-bottom: 0;
 }
 
+.formNotice-1JW4h2 {
+  padding: 0;
+  background: none;
+  border: none;
+}
+
+.sectionDescription-2ealM1,
 .description-foE_WP,
 .formText-2UzJT0 {
   font-size: 13px;
@@ -3178,6 +3186,14 @@ body #app-mount .layer-86YKbF ~ .layer-86YKbF .sidebar-nqHbhN:has(.socialLinks-3
 #app-mount .layer-86YKbF ~ .layer-86YKbF .profileCustomizationSection-53kreU .baseLayout-1_9QRm .preview-sMYs9f {
   min-width: unset !important;
   max-width: unset !important;
+}
+
+.swatch-efj8wq {
+  border-radius: 2px;
+}
+
+#privacy-\&-safety-tab .marginBottom40-fvAlAV:has(.formNotice-1JW4h2) {
+  margin-bottom: 0;
 }
 
 #app-mount .layer-86YKbF ~ .layer-86YKbF #family-center-tab.contentColumnDefault-3eyv5o {
@@ -4228,6 +4244,303 @@ body #app-mount .layer-86YKbF ~ .layer-86YKbF .sidebar-nqHbhN:has(.socialLinks-3
   box-shadow: 3px 3px 5px -3px #000;
 }
 
+#subscriptions-tab .h1-3iMExa.title-lXcL8p.defaultColor-3Olr-9.sectionTitle-3vprZ6 {
+  position: sticky;
+  display: flex;
+  align-items: center;
+  top: 0;
+  width: 200%;
+  padding: 32px 24px;
+  margin-left: -24px;
+  z-index: 10;
+  transform: translateY(calc(var(--header-padding) * -1 + 8.5px + 18px));
+  background: linear-gradient(to bottom, var(--background-tertiary) calc(100% - 24px), rgba(0, 204, 255, 0) 100%);
+  font-size: 22px;
+  line-height: 24px;
+  font-weight: 700;
+  margin-bottom: 0;
+}
+#subscriptions-tab .sectionAccountCredit-1IqaxB, #subscriptions-tab .subscriptionDetails-ZcKNHC {
+  padding-bottom: 10px;
+  margin-bottom: 10px;
+  border-bottom: thin solid #23262e;
+}
+#subscriptions-tab .card-2guEcY {
+  padding: 8px 24px 10px 16px;
+  margin-top: 0;
+  margin-right: 8px;
+  border-radius: 2px;
+}
+#subscriptions-tab .card-2guEcY[class*=noItemsCard] {
+  background: #3d4450;
+  width: -moz-fit-content;
+  width: fit-content;
+}
+#subscriptions-tab .card-2guEcY [class*=noItemsIcon] {
+  background: #fff;
+}
+#subscriptions-tab .card-2guEcY [class*=noItemsIcon].small-1P4vlo {
+  width: 20px;
+  height: 20px;
+}
+#subscriptions-tab .card-2guEcY .gameIcon-1mDo1J {
+  color: #3d4450;
+}
+#subscriptions-tab .card-2guEcY [class*=cardText] {
+  font-size: 14px;
+  font-weight: 600;
+  color: #fff;
+  line-height: 20px;
+}
+#subscriptions-tab .accountCreditTitle-3nJMsS {
+  color: #8b929a;
+  font-size: 14px;
+  letter-spacing: 0.5px;
+  line-height: 36px;
+  margin-bottom: 0;
+  text-transform: uppercase;
+}
+#subscriptions-tab .accountCreditDescription-1lEaJI {
+  font-size: 13px;
+  line-height: 18px;
+  font-weight: 400;
+  color: #8b929a;
+  letter-spacing: 0;
+  margin-bottom: 10px;
+}
+
+#library-inventory-tab form .flex-2S1XBF {
+  align-items: center;
+}
+#library-inventory-tab .inputWrapper-2K8ds1 {
+  margin-right: 10px;
+}
+#library-inventory-tab .divider-5YGcJb {
+  margin: 10px 0;
+}
+#library-inventory-tab [data-text-variant="heading-md/semibold"] {
+  text-transform: capitalize;
+  color: #fff;
+  font-size: 16px;
+  line-height: 20px;
+  font-weight: 600;
+  letter-spacing: 0;
+  padding-left: 8px;
+}
+#library-inventory-tab .emptyStateImage-1kilCd {
+  margin-top: 0;
+}
+
+#billing-tab h2.title-lXcL8p + .footer-1Dc_h6 {
+  margin-top: 0;
+}
+#billing-tab .subText-1gefwV {
+  margin-top: 10px;
+}
+#billing-tab .paymentHistory-34PrLP {
+  margin-top: 24px;
+}
+#billing-tab .paymentHistory-34PrLP h2.title-lXcL8p {
+  margin-bottom: 0;
+  text-transform: capitalize;
+  color: #fff;
+  font-size: 16px;
+  line-height: 20px;
+  font-weight: 600;
+  letter-spacing: 0;
+  padding-top: 8px;
+  padding-left: 8px;
+  display: flex;
+  align-items: center;
+}
+#billing-tab .paymentHistory-34PrLP h2.title-lXcL8p::after {
+  content: "";
+  height: 2px;
+  margin: 0 10px 0 10px;
+  background: rgba(103, 112, 123, 0.3);
+  display: flex;
+  flex-grow: 1;
+}
+#billing-tab .paymentHistory-34PrLP .paymentRowHeader-3WJnOv {
+  display: none;
+}
+#billing-tab .paymentHistory-34PrLP .paymentPane-ut5qKZ {
+  background: none;
+  color: #8b929a;
+  border-radius: 0;
+}
+#billing-tab .paymentHistory-34PrLP .paymentRow-1HKOLu {
+  border: none;
+}
+#billing-tab .paymentHistory-34PrLP .paginator-1eqD2g {
+  background: none;
+}
+#billing-tab .paymentHistory-34PrLP .scrollerBase-1Pkza4 {
+  overflow: auto !important;
+  border: none;
+}
+#billing-tab .paymentHistory-34PrLP .payment-2bOh4k {
+  background: none;
+  border: none;
+  padding: 6px 8px;
+  min-height: 58px;
+}
+#billing-tab .paymentHistory-34PrLP .payment-2bOh4k.hoverablePayment-lE1s4t:hover, #billing-tab .paymentHistory-34PrLP .payment-2bOh4k:has(.expandedInfo-1W31i3) {
+  background: #3d4450;
+  transition: background 0.2s linear;
+}
+#billing-tab .paymentHistory-34PrLP .payment-2bOh4k .summaryInfo-3hcuop {
+  padding: 0;
+}
+#billing-tab .paymentHistory-34PrLP .payment-2bOh4k .date-2cJd4O {
+  position: absolute;
+  left: 122px;
+  margin-top: 20px;
+  display: flex;
+  color: #8b929a;
+  font-size: 12px;
+  line-height: 22px;
+  letter-spacing: 0.5px;
+  text-transform: uppercase;
+  font-weight: 700;
+  display: flex;
+  align-items: center;
+}
+#billing-tab .paymentHistory-34PrLP .payment-2bOh4k .date-2cJd4O::before {
+  content: "";
+  display: block;
+  width: 16px;
+  height: 16px;
+  mask: url(https://maendisease.github.io/Steam/illustrations/icns/clock.svg);
+  -webkit-mask: url(https://maendisease.github.io/Steam/illustrations/icns/clock.svg);
+  background: #8b929a;
+  margin-right: 4px;
+}
+#billing-tab .paymentHistory-34PrLP .gameIcon-1mDo1J {
+  border-radius: 0;
+  margin-right: 16px;
+}
+#billing-tab .paymentHistory-34PrLP .xsmall-XOZhsp {
+  height: 45px;
+  width: 98px;
+}
+#billing-tab .paymentHistory-34PrLP .description-1IgJoT {
+  color: #fff;
+  font-weight: 400;
+  line-height: 20px;
+}
+#billing-tab .paymentHistory-34PrLP .description-1IgJoT > div:not(.gameIcon-1mDo1J),
+#billing-tab .paymentHistory-34PrLP .description-1IgJoT > svg {
+  margin-top: -19px;
+}
+#billing-tab .paymentHistory-34PrLP .giftIcon-U9wStf {
+  height: 14px;
+  width: 14px;
+  color: #ffc82c;
+  opacity: 1;
+  margin-left: 4px;
+}
+#billing-tab .paymentHistory-34PrLP svg.expand-3Nh1P5 {
+  margin: 8px;
+  color: var(--brand-experiment);
+}
+#billing-tab .codeRedemptionRedirect-2hYMSQ {
+  padding: 0;
+  background: none;
+  border: none;
+  font-size: 13px;
+  line-height: 18px;
+  font-weight: 400;
+  color: #8b929a;
+  letter-spacing: 0;
+}
+#billing-tab .expandedInfo-1W31i3 {
+  background: var(--background-tertiary);
+  padding: 24px;
+  margin: 6px 0 0 0;
+  padding-top: 24px;
+  border-radius: 0;
+}
+#billing-tab .paymentText-BPrx01 {
+  color: #fff;
+}
+#billing-tab .paymentDetail-3Hi99Q {
+  margin: 0;
+  padding: 10px 0;
+  border-bottom: thin solid #23262e;
+}
+#billing-tab .paymentDetail-3Hi99Q:first-child {
+  margin-top: 10px;
+  border-top: thin solid #23262e;
+}
+#billing-tab .paymentDetail-3Hi99Q > div {
+  gap: 10px;
+  justify-content: left;
+}
+#billing-tab .paymentDetail-3Hi99Q > div div:first-child {
+  font-size: 14px;
+  line-height: 18px;
+  color: #dcdedf;
+}
+#billing-tab .paymentDetail-3Hi99Q > div div:last-child {
+  font-size: 12px;
+  line-height: 19px;
+  font-weight: 400;
+  color: #8b929a;
+}
+#billing-tab .paymentHeader-2o7Phd {
+  border: none;
+  padding: 0;
+  margin: 0;
+  color: #8b929a;
+  font-size: 14px;
+  letter-spacing: 0.5px;
+  line-height: 36px;
+  margin-bottom: 0;
+  text-transform: uppercase;
+}
+#billing-tab .paymentText-BPrx01 > div:not([class]) {
+  font-size: 13px;
+  line-height: 18px;
+  font-weight: 400;
+  color: #8b929a;
+  letter-spacing: 0;
+  margin-bottom: 10px;
+}
+#billing-tab .refundSubHeader-zBPAag {
+  color: #8b929a;
+  font-size: 14px;
+  letter-spacing: 0.5px;
+  line-height: 36px;
+  margin: 0;
+  text-transform: uppercase;
+}
+#billing-tab .refundIconContainer-3V7-Ar {
+  font-size: 13px;
+  line-height: 18px;
+  font-weight: 400;
+  color: #8b929a;
+  letter-spacing: 0;
+}
+#billing-tab .refundActions-2iwYyn {
+  font-size: 13px;
+  line-height: 18px;
+  font-weight: 400;
+  letter-spacing: 0;
+}
+
+#appearance-tab .children-2C96Ex > [data-text-variant="text-md/normal"]:last-child {
+  padding: 0;
+  background: none;
+  border: none;
+  font-size: 13px;
+  line-height: 18px;
+  font-weight: 400;
+  color: #8b929a;
+  letter-spacing: 0;
+  margin-top: 40px;
+}
+
 .presets-2zm9Ir.basicThemeSelectors-2wNKs6 {
   padding: 6px;
   background: #202226;
@@ -4249,7 +4562,6 @@ body #app-mount .layer-86YKbF ~ .layer-86YKbF .sidebar-nqHbhN:has(.socialLinks-3
   display: none;
 }
 .presets-2zm9Ir.basicThemeSelectors-2wNKs6 .themeSelectionContainer-3nGXK9 .themeSelection-2u4ce0 {
-  border-radius: 2px;
   padding: 6px;
   box-shadow: none;
   background: none;
@@ -4272,6 +4584,59 @@ body #app-mount .layer-86YKbF ~ .layer-86YKbF .sidebar-nqHbhN:has(.socialLinks-3
 }
 .presets-2zm9Ir.basicThemeSelectors-2wNKs6 .themeSelectionContainer-3nGXK9 .themeSelection-2u4ce0.selected-2FbEJt[aria-label]::after {
   color: #fff;
+}
+
+.featureBorder-2Jl8g4 {
+  border-radius: 0;
+  margin: 0;
+}
+.featureBorder-2Jl8g4 .background-yH6t2p {
+  padding: 10px 0 0 0;
+  margin: 0 -2px -2px -2px;
+  background: var(--background-tertiary);
+}
+.featureBorder-2Jl8g4 .background-yH6t2p .header-LaudvZ .headings-1UkJbq {
+  gap: 0;
+}
+.featureBorder-2Jl8g4 .background-yH6t2p .header-LaudvZ [data-text-variant="text-md/medium"] {
+  color: #8b929a;
+  font-size: 14px;
+  font-weight: 700;
+  letter-spacing: 0.5px;
+  line-height: 36px;
+  margin-bottom: 0;
+  text-transform: uppercase;
+}
+.featureBorder-2Jl8g4 .background-yH6t2p .header-LaudvZ [data-text-variant="text-sm/normal"] {
+  font-size: 13px;
+  line-height: 18px;
+  font-weight: 400;
+  color: #8b929a;
+  letter-spacing: 0;
+}
+
+.presets-2zm9Ir {
+  margin-top: 10px;
+  gap: 10px;
+}
+
+.themeSelection-2u4ce0 {
+  border-radius: 2px;
+}
+
+#accessibility-tab .children-2C96Ex > .divider-3nqZNm.marginBottom20-315RVT:has(+ [data-text-variant="text-md/normal"]:last-child) {
+  margin-bottom: 0;
+}
+#accessibility-tab .children-2C96Ex > [data-text-variant="text-md/normal"]:last-child {
+  padding: 0;
+  background: none;
+  border: none;
+  font-size: 13px;
+  line-height: 18px;
+  font-weight: 400;
+  color: #8b929a;
+  letter-spacing: 0;
+  margin-top: 40px;
 }
 
 #notifications-tab .container-31PmuA:has(+ .container-31PmuA.soundRow-2Vsfbg) {
@@ -4313,6 +4678,236 @@ body #app-mount .layer-86YKbF ~ .layer-86YKbF .sidebar-nqHbhN:has(.socialLinks-3
 #notifications-tab .container-31PmuA.soundRow-2Vsfbg .soundIcon-1E1d9l .icon-2-8HDu {
   width: 18px;
   height: 18px;
+}
+
+#game-activity-tab .children-2C96Ex {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+}
+#game-activity-tab .children-2C96Ex > .marginTop40-Q4o1tS {
+  flex-basis: 100%;
+}
+#game-activity-tab .activeGame-1OdxzI {
+  padding: 8px 24px 10px 16px;
+  margin-right: 8px;
+  border-radius: 2px;
+  width: -moz-fit-content;
+  width: fit-content;
+  max-width: calc(100% - 8px - 20px - 12px);
+}
+#game-activity-tab .activeGame-1OdxzI.notDetected-M3Ghh2 {
+  background: #3d4450;
+  width: -moz-fit-content;
+  width: fit-content;
+}
+#game-activity-tab .activeGame-1OdxzI::before {
+  content: "";
+  display: block;
+  width: 20px;
+  height: 20px;
+  mask: url(https://maendisease.github.io/Steam/illustrations/icns/storage.svg);
+  -webkit-mask: url(https://maendisease.github.io/Steam/illustrations/icns/storage.svg);
+  background: #fff;
+  margin-right: 12px;
+}
+#game-activity-tab .activeGame-1OdxzI .gameNameLastPlayed-2hWoXJ {
+  max-width: calc(var(--settingsmodalwidth) - 196px - 200px);
+}
+#game-activity-tab .activeGame-1OdxzI .gameName-zbZetm,
+#game-activity-tab .activeGame-1OdxzI .lastPlayed-1jum9A {
+  font-size: 14px;
+  font-weight: 600;
+  color: #fff;
+  line-height: 20px;
+}
+#game-activity-tab .activeGame-1OdxzI .lastPlayed-1jum9A {
+  height: 20px;
+  overflow: hidden;
+}
+#game-activity-tab .activeGame-1OdxzI .default-rFvAvS {
+  transform: translateY(-107%);
+}
+#game-activity-tab .activeGame-1OdxzI .lastPlayed-1jum9A,
+#game-activity-tab .activeGame-1OdxzI .hoverRoll-2XwpoF,
+#game-activity-tab .activeGame-1OdxzI .hovered-20u3oh,
+#game-activity-tab .activeGame-1OdxzI .default-rFvAvS {
+  width: -moz-fit-content;
+  width: fit-content;
+}
+#game-activity-tab .activeGame-1OdxzI .hovered-20u3oh {
+  position: relative;
+  max-width: calc(var(--settingsmodalwidth) - 196px - 200px);
+}
+#game-activity-tab .nowPlayingAdd-3I4RbE {
+  margin: 0;
+  font-size: 0;
+}
+#game-activity-tab .nowPlayingAdd-3I4RbE button {
+  padding: 0;
+}
+#game-activity-tab .nowPlayingAdd-3I4RbE button .contents-3NembX {
+  display: none;
+}
+#game-activity-tab .nowPlayingAdd-3I4RbE button::before {
+  content: "";
+  display: block;
+  width: 20px;
+  height: 20px;
+  mask: url(https://maendisease.github.io/Steam/illustrations/icns/circleplus.svg);
+  -webkit-mask: url(https://maendisease.github.io/Steam/illustrations/icns/circleplus.svg);
+  background: #67707b;
+  margin: 4px;
+}
+#game-activity-tab .nowPlayingAdd-3I4RbE button:hover::before {
+  background: #fff;
+}
+#game-activity-tab :root {
+  counter-reset: gamesCount;
+}
+#game-activity-tab .marginTop40-Q4o1tS {
+  display: flex;
+  flex-flow: row wrap;
+  margin-top: 24px;
+}
+#game-activity-tab .marginTop40-Q4o1tS h3 {
+  order: -2;
+  text-transform: capitalize;
+  color: #fff;
+  font-size: 16px;
+  line-height: 20px;
+  font-weight: 600;
+  letter-spacing: 0;
+  padding-top: 8px;
+  padding-left: 8px;
+}
+#game-activity-tab .marginTop40-Q4o1tS:before {
+  content: "";
+  height: 2px;
+  margin: 16px 10px 0 10px;
+  background: rgba(103, 112, 123, 0.3);
+  display: flex;
+  flex-grow: 1;
+}
+#game-activity-tab .marginTop40-Q4o1tS:after {
+  content: counter(gamesCount);
+  animation: game-activity-tabCounter 1s linear infinite forwards;
+  color: #8b929a;
+  font-size: 16px;
+  line-height: 20px;
+  margin-left: 8px;
+  font-weight: 600;
+  order: -1;
+  padding-top: 8px;
+}
+#game-activity-tab .marginTop40-Q4o1tS .game-2f2vPC {
+  counter-increment: gamesCount;
+  flex-basis: 100%;
+  padding: 6px 8px;
+  height: 58px;
+  box-shadow: none;
+}
+#game-activity-tab .marginTop40-Q4o1tS .game-2f2vPC.card-2ART2V:before {
+  display: none;
+}
+#game-activity-tab .marginTop40-Q4o1tS .game-2f2vPC:hover {
+  background: #3d4450;
+  transition: background 0.2s linear;
+}
+#game-activity-tab .marginTop40-Q4o1tS .game-2f2vPC:hover .gameNameLastPlayed-2hWoXJ::after,
+#game-activity-tab .marginTop40-Q4o1tS .game-2f2vPC:hover .removeGame-3V7nss {
+  background-color: #67707b;
+}
+#game-activity-tab .marginTop40-Q4o1tS .game-2f2vPC:hover:has(.removeGame-3V7nss:hover) .gameNameLastPlayed-2hWoXJ::after {
+  transition: background 0.2s linear;
+  background-color: var(--status-danger);
+}
+#game-activity-tab .marginTop40-Q4o1tS .game-2f2vPC .gameVerifiedIcon-1YMUdQ {
+  height: 14px !important;
+  width: 14px !important;
+  margin-left: 4px;
+}
+#game-activity-tab .marginTop40-Q4o1tS .game-2f2vPC .gameNameLastPlayed-2hWoXJ::before {
+  content: "";
+  display: block;
+  position: absolute;
+  width: 98px;
+  height: 45px;
+  mask: url(https://maendisease.github.io/Steam/illustrations/icns/storage.svg);
+  -webkit-mask: url(https://maendisease.github.io/Steam/illustrations/icns/storage.svg);
+  background-color: #fff;
+  -webkit-mask-repeat: no-repeat;
+          mask-repeat: no-repeat;
+  -webkit-mask-position: center;
+          mask-position: center;
+  -webkit-mask-size: 18px;
+          mask-size: 18px;
+  margin-right: 12px;
+  z-index: 1;
+  top: 0;
+  bottom: 0;
+  margin-top: auto;
+  margin-bottom: auto;
+}
+#game-activity-tab .marginTop40-Q4o1tS .game-2f2vPC .gameNameLastPlayed-2hWoXJ::after {
+  content: "";
+  display: block;
+  position: absolute;
+  height: 45px;
+  width: 98px;
+  background: #3d4450;
+  top: 0;
+  bottom: 0;
+  margin-top: auto;
+  margin-bottom: auto;
+}
+#game-activity-tab .marginTop40-Q4o1tS .game-2f2vPC .gameNameLastPlayed-2hWoXJ > div {
+  margin-left: 114px;
+}
+#game-activity-tab .marginTop40-Q4o1tS .game-2f2vPC .gameNameLastPlayed-2hWoXJ .gameName-zbZetm {
+  color: #fff;
+  font-weight: 400;
+  line-height: 20px;
+}
+#game-activity-tab .marginTop40-Q4o1tS .game-2f2vPC .gameNameLastPlayed-2hWoXJ .lastPlayed-1jum9A {
+  color: #8b929a;
+  font-size: 12px;
+  line-height: 22px;
+  letter-spacing: 0.5px;
+  text-transform: uppercase;
+  font-weight: 700;
+  display: flex;
+  align-items: center;
+}
+#game-activity-tab .marginTop40-Q4o1tS .game-2f2vPC .gameNameLastPlayed-2hWoXJ .lastPlayed-1jum9A strong {
+  color: #67707b;
+  font-weight: 700;
+}
+#game-activity-tab .marginTop40-Q4o1tS .game-2f2vPC .gameNameLastPlayed-2hWoXJ .lastPlayed-1jum9A::before {
+  content: "";
+  display: block;
+  width: 16px;
+  height: 16px;
+  mask: url(https://maendisease.github.io/Steam/illustrations/icns/clock.svg);
+  -webkit-mask: url(https://maendisease.github.io/Steam/illustrations/icns/clock.svg);
+  background: #8b929a;
+  margin-right: 4px;
+}
+@keyframes game-activity-tabCounter {
+  to {
+    content: counter(gamesCount);
+  }
+}
+#game-activity-tab .removeGame-3V7nss {
+  opacity: 1;
+  position: relative;
+  top: unset;
+  right: unset;
+  box-shadow: none;
+  background-color: #3d4450;
+  border-radius: 2px;
+  margin: 8px;
+  flex-shrink: 0;
 }
 
 #roles-tab .contentWidth-3aWel5 {
@@ -4844,7 +5439,8 @@ body #app-mount .layer-86YKbF ~ .layer-86YKbF .sidebar-nqHbhN:has(.socialLinks-3
 }
 [role=radiogroup]:has(.item-1TA5qI) .item-1TA5qI [data-text-variant="text-md/medium"] {
   font-size: 14px;
-  line-height: 20px;
+  line-height: 18px;
+  font-weight: 400;
 }
 [role=radiogroup]:has(.item-1TA5qI) .item-1TA5qI [data-text-variant="text-sm/normal"] {
   font-size: 12px;
