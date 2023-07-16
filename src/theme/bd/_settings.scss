@@ -1,0 +1,31 @@
+.bd-settings-title.bd-settings-group-title {
+    margin-bottom: 10px;
+    text-transform: capitalize;
+    color: #fff;
+    font-size: 16px;
+    line-height: 20px;
+    font-weight: 600;
+    letter-spacing: 0;
+    padding-top: 8px;
+    padding-left: 8px;
+}
+
+.bd-settings-group.collapsible .bd-settings-title::before {
+    background: rgba(103, 112, 123, .3);
+    height: 2px;
+    margin: 0 10px 0 10px;
+}
+
+.bd-settings-group.collapsible .bd-settings-title::after {
+    content: "";
+    -webkit-mask: url(https://maendisease.github.io/Steam/illustrations/icns/triangledown.svg) center/contain no-repeat;
+    mask: url(https://maendisease.github.io/Steam/illustrations/icns/triangledown.svg) center/contain no-repeat;
+    background: var(--header-secondary);
+    height: 20px;
+    width: 20px;
+    display: inline-block;
+    vertical-align: bottom;
+    transition: transform 0.3s ease;
+    transform: rotate(0);
+    order: 3;
+}
