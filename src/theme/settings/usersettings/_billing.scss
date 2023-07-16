@@ -1,0 +1,233 @@
+#billing-tab {
+    h2.title-lXcL8p+.footer-1Dc_h6 {
+        margin-top: 0;
+    }
+
+    .subText-1gefwV {
+        margin-top: 10px;
+    }
+
+    .paymentHistory-34PrLP {
+        margin-top: 24px;
+
+        h2.title-lXcL8p {
+            margin-bottom: 0;
+            text-transform: capitalize;
+            color: #fff;
+            font-size: 16px;
+            line-height: 20px;
+            font-weight: 600;
+            letter-spacing: 0;
+            padding-top: 8px;
+            padding-left: 8px;
+            display: flex;
+            align-items: center;
+
+            &::after {
+                content: '';
+                height: 2px;
+                margin: 0 10px 0 10px;
+                background: rgba(103, 112, 123, .3);
+                display: flex;
+                flex-grow: 1;
+            }
+        }
+
+        .paymentRowHeader-3WJnOv {
+            display: none;
+        }
+
+        .paymentPane-ut5qKZ {
+            background: none;
+            color: #8b929a;
+            border-radius: 0;
+        }
+
+        .paymentRow-1HKOLu {
+            border: none;
+        }
+
+        .paginator-1eqD2g {
+            background: none;
+        }
+
+        .scrollerBase-1Pkza4 {
+            overflow: auto !important;
+            border: none;
+        }
+
+        .payment-2bOh4k {
+            background: none;
+            border: none;
+            padding: 6px 8px;
+            min-height: 58px;
+
+            &.hoverablePayment-lE1s4t:hover,
+            &:has(.expandedInfo-1W31i3) {
+                background: #3d4450;
+                transition: background .2s linear;
+            }
+
+            .summaryInfo-3hcuop {
+                padding: 0;
+            }
+
+            .date-2cJd4O {
+                position: absolute;
+                left: 122px;
+                margin-top: 20px;
+                display: flex;
+                color: #8b929a;
+                font-size: 12px;
+                line-height: 22px;
+                letter-spacing: .5px;
+                text-transform: uppercase;
+                font-weight: 700;
+                display: flex;
+                align-items: center;
+
+                &::before {
+                    content: '';
+                    display: block;
+                    width: 16px;
+                    height: 16px;
+                    mask: url(https://maendisease.github.io/Steam/illustrations/icns/clock.svg);
+                    -webkit-mask: url(https://maendisease.github.io/Steam/illustrations/icns/clock.svg);
+                    background: #8b929a;
+                    margin-right: 4px;
+                }
+            }
+        }
+
+        .gameIcon-1mDo1J {
+            border-radius: 0;
+            margin-right: 16px;
+        }
+
+        .xsmall-XOZhsp {
+            height: 45px;
+            width: 98px;
+        }
+
+        .description-1IgJoT {
+            color: #fff;
+            font-weight: 400;
+            line-height: 20px;
+
+            >div:not(.gameIcon-1mDo1J),
+            >svg {
+                margin-top: -19px;
+            }
+        }
+
+        .giftIcon-U9wStf {
+            height: 14px;
+            width: 14px;
+            color: #ffc82c;
+            opacity: 1;
+            margin-left: 4px;
+        }
+
+        svg.expand-3Nh1P5 {
+            margin: 8px;
+            color: var(--brand-experiment);
+        }
+    }
+
+    .codeRedemptionRedirect-2hYMSQ {
+        padding: 0;
+        background: none;
+        border: none;
+        font-size: 13px;
+        line-height: 18px;
+        font-weight: 400;
+        color: #8b929a;
+        letter-spacing: 0;
+    }
+
+    .expandedInfo-1W31i3 {
+        background: var(--background-tertiary);
+        padding: 24px;
+        margin: 6px 0 0 0;
+        padding-top: 24px;
+        border-radius: 0;
+    }
+
+    .paymentText-BPrx01 {
+        color: #fff;
+    }
+
+    .paymentDetail-3Hi99Q {
+        margin: 0;
+        padding: 10px 0;
+        border-bottom: thin solid #23262e;
+
+        &:first-child {
+            margin-top: 10px;
+            border-top: thin solid #23262e;
+        }
+
+        >div {
+            gap: 10px;
+            justify-content: left;
+
+            div:first-child {
+                font-size: 14px;
+                line-height: 18px;
+                color: #dcdedf;
+            }
+
+            div:last-child {
+                font-size: 12px;
+                line-height: 19px;
+                font-weight: 400;
+                color: #8b929a;
+            }
+        }
+    }
+
+    .paymentHeader-2o7Phd {
+        border: none;
+        padding: 0;
+        margin: 0;
+        color: #8b929a;
+        font-size: 14px;
+        letter-spacing: 0.5px;
+        line-height: 36px;
+        margin-bottom: 0;
+        text-transform: uppercase;
+    }
+
+    .paymentText-BPrx01>div:not([class]) {
+        font-size: 13px;
+        line-height: 18px;
+        font-weight: 400;
+        color: #8b929a;
+        letter-spacing: 0;
+        margin-bottom: 10px;
+    }
+
+    .refundSubHeader-zBPAag {
+        color: #8b929a;
+        font-size: 14px;
+        letter-spacing: 0.5px;
+        line-height: 36px;
+        margin: 0;
+        text-transform: uppercase;
+    }
+
+    .refundIconContainer-3V7-Ar {
+        font-size: 13px;
+        line-height: 18px;
+        font-weight: 400;
+        color: #8b929a;
+        letter-spacing: 0;
+    }
+
+    .refundActions-2iwYyn {
+        font-size: 13px;
+        line-height: 18px;
+        font-weight: 400;
+        letter-spacing: 0;
+    }
+}

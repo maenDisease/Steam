@@ -1,0 +1,19 @@
+#accessibility-tab {
+    .children-2C96Ex {
+        > .divider-3nqZNm.marginBottom20-315RVT:has(+[data-text-variant="text-md/normal"]:last-child) {
+            margin-bottom: 0;
+        }
+        
+        > [data-text-variant="text-md/normal"]:last-child {
+            padding: 0;
+            background: none;
+            border: none;
+            font-size: 13px;
+            line-height: 18px;
+            font-weight: 400;
+            color: #8b929a;
+            letter-spacing: 0;
+            margin-top: 40px;
+        }
+    }
+}

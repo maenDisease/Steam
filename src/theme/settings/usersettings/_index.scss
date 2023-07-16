@@ -1,6 +1,6 @@
 @forward './myaccount';
 @forward './profiles';
-// @forward './privacy&safety';
+@forward './privacy&safety';
 @forward './familycenter';
 @forward './authorizedapps';
 @forward './devices';
@@ -8,11 +8,11 @@
 // @forward './friendrequests';
 @forward './nitro';
 @forward './serverboost';
-// @forward './subscriptions';
-// @forward './giftinventory';
-// @forward './billing';
+@forward './subscriptions';
+@forward './giftinventory';
+@forward './billing';
 @forward './appearance';
-// @forward './accessibility';
+@forward './accessibility';
 // @forward './voice&video';
 // @forward './text&images';
 @forward './notifications';
@@ -20,5 +20,7 @@
 // @forward './language';
 // @forward './streamermode';
 // @forward './advanced';
+@forward 'activityprivacy';
+@forward 'registeredgames';
 // @forward './whatsnew';
 @forward './hypesquad';
