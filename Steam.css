@@ -6075,3 +6075,245 @@ body #app-mount .layer-86YKbF ~ .layer-86YKbF .sidebar-nqHbhN:has(.socialLinks-3
   background: linear-gradient(to right, hsl(192, 100%, 50%) 0%, hsl(225, 100%, 60%) 100%);
   position: absolute;
 }
+
+.bd-search-wrapper {
+  padding: 4px 8px;
+  transition: background 200ms ease-in-out, box-shadow 200ms ease-in-out;
+}
+.bd-search-wrapper:hover {
+  background: #464d58;
+  color: #fff;
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.3);
+}
+.bd-search-wrapper:focus, .bd-search-wrapper:focus-within {
+  background: hsla(222, 10%, 26%, 0.5);
+  color: var(--text-normal);
+  box-shadow: none;
+  cursor: default;
+}
+.bd-search-wrapper svg {
+  height: 18px !important;
+  width: 18px !important;
+  fill: var(--brand-experiment);
+}
+
+.bd-addon-controls .bd-search::-moz-placeholder {
+  color: #fff;
+  font-size: 16px;
+  line-height: 20px;
+  font-weight: 600;
+  letter-spacing: 0;
+}
+
+.bd-addon-controls .bd-search,
+.bd-addon-controls .bd-search::placeholder {
+  color: #fff;
+  font-size: 16px;
+  line-height: 20px;
+  font-weight: 600;
+  letter-spacing: 0;
+}
+
+.bd-addon-controls .bd-search::after {
+  content: attr(aria-label);
+  font-size: 14px;
+  line-height: 18px;
+  font-weight: 400;
+  color: #dfe3e6;
+}
+
+.bd-select-wrapper label {
+  display: none;
+}
+
+.bd-select.bd-select-transparent {
+  align-items: center;
+  padding: 4px 0;
+  transition: padding 0.3s cubic-bezier(0.16, 0.86, 0.43, 0.99);
+}
+.bd-select.bd-select-transparent:hover, .bd-select.bd-select-transparent.menu-open {
+  padding-left: 8px;
+  padding-right: 8px;
+}
+
+/* Placement */
+#themes-tab,
+#plugins-tab {
+  display: grid;
+  grid-template-areas: "title title title title" "search counter divider controls" "addons addons addons addons";
+  min-height: unset;
+}
+
+#themes-tab::after,
+#plugins-tab::after {
+  grid-area: counter;
+}
+#themes-tab::before,
+#plugins-tab::before {
+  grid-area: divider;
+}
+
+.bd-addon-controls:not(#a) {
+  display: contents;
+}
+
+.bd-settings-title {
+  grid-area: title;
+}
+
+.bd-search-wrapper {
+  grid-area: search;
+}
+
+.bd-controls-advanced {
+  grid-area: controls;
+  justify-self: flex-end;
+}
+
+.bd-addon-list {
+  grid-area: addons;
+}
+
+.bd-empty-image-container,
+.bd-empty-results {
+  grid-column: 1/-1;
+}
+
+/* Cosmetics*/
+#themes-tab::after,
+#plugins-tab::after {
+  white-space: nowrap;
+  color: #8b929a;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 20px;
+  margin-left: 8px;
+  align-items: center;
+  display: flex;
+}
+
+/* Counter Styles */
+:root {
+  counter-reset: addonCount;
+}
+
+.bd-addon-card {
+  counter-increment: addonCount;
+}
+
+#themes-tab::after,
+#plugins-tab::after {
+  content: counter(addonCount);
+  animation: f 1s linear infinite forwards;
+}
+
+@keyframes f {
+  to {
+    content: counter(addonCount);
+  }
+}
+.bd-addon-list.bd-grid-view {
+  gap: 0;
+}
+.bd-addon-list.bd-grid-view .bd-addon-card .bd-addon-header .bd-icon {
+  width: 45px !important;
+}
+.bd-addon-list .bd-addon-card {
+  margin-bottom: 0;
+}
+.bd-addon-list .bd-addon-card:hover {
+  background: #3d4450;
+  transition: background 0.2s linear;
+}
+
+.bd-addon-list .bd-addon-card {
+  margin-bottom: 0;
+  background: none;
+  border-radius: 0;
+  height: 58px;
+}
+.bd-addon-list .bd-addon-card:not(:has(.bd-switch-checked), .bd-addon-card-disabled):hover .bd-icon {
+  background-color: #67707b;
+  transition: background 0.2s linear;
+}
+.bd-addon-list .bd-addon-card:has(.bd-switch-checked) .bd-addon-header .bd-icon {
+  background: var(--brand-experiment);
+}
+.bd-addon-list .bd-addon-card.bd-addon-card-disabled {
+  background: none;
+  border: none;
+}
+.bd-addon-list .bd-addon-card.bd-addon-card-disabled:hover {
+  background: var(--info-danger-background);
+}
+.bd-addon-list .bd-addon-card.bd-addon-card-disabled .bd-addon-header .bd-icon {
+  background: var(--status-danger);
+}
+.bd-addon-list .bd-addon-card.bd-addon-card-disabled .bd-name {
+  color: var(--status-danger);
+}
+.bd-addon-list .bd-addon-card .bd-addon-header {
+  padding: 6.5px 8px 5.5px 8px;
+}
+.bd-addon-list .bd-addon-card .bd-addon-header .bd-icon {
+  display: block;
+  background: #3d4450;
+  height: 45px !important;
+  width: 98px !important;
+  padding: 13px;
+  margin-right: 0;
+}
+.bd-addon-list .bd-addon-card .bd-switch-body {
+  display: none;
+}
+.bd-addon-list .bd-addon-card .bd-title {
+  margin-left: 12px;
+  flex-wrap: wrap;
+}
+.bd-addon-list .bd-addon-card .bd-title .bd-name,
+.bd-addon-list .bd-addon-card .bd-title .bd-meta {
+  display: flex;
+}
+.bd-addon-list .bd-addon-card .bd-name {
+  color: #fff;
+  line-height: 20px;
+  font-size: 16px;
+  font-weight: 400;
+}
+.bd-addon-list .bd-addon-card .bd-meta {
+  color: #8b929a;
+  line-height: 22px;
+  letter-spacing: 0.5px;
+  text-transform: uppercase;
+  font-weight: 700;
+  gap: 1px;
+  font-size: 0;
+}
+.bd-addon-list .bd-addon-card .bd-meta .bd-version,
+.bd-addon-list .bd-addon-card .bd-meta a,
+.bd-addon-list .bd-addon-card .bd-meta .bd-author {
+  font-size: 12px;
+}
+.bd-addon-list .bd-addon-card .bd-meta .bd-author {
+  color: #67707b;
+}
+.bd-addon-list .bd-addon-card .bd-description-wrap {
+  margin-left: 0;
+  background: linear-gradient(90deg, rgba(33, 162, 255, 0.1) 1.89%, rgba(50, 50, 51, 0) 50%), linear-gradient(180deg, #575860 11.6%, #3A4852 54.73%, #2C2D34 100%);
+  border-radius: 0;
+  box-shadow: 3px 3px 5px -3px #000;
+}
+.bd-addon-list .bd-addon-card .bd-description-wrap .banner {
+  border-radius: 0;
+}
+.bd-addon-list .bd-addon-card .bd-description {
+  color: #dcdedf;
+  font-weight: 400;
+}
+
+#app-mount .bd-addon-card .bd-button {
+  border-radius: 2px;
+}
+#app-mount .bd-addon-header {
+  opacity: 1;
+}
