@@ -6066,6 +6066,16 @@ body #app-mount .layer-86YKbF ~ .layer-86YKbF .sidebar-nqHbhN:has(.socialLinks-3
   -webkit-mask-size: 28px;
           mask-size: 28px;
 }
+#updates-tab .bd-empty-updates {
+  font-size: 13px;
+  line-height: 18px;
+  font-weight: 400;
+  color: #8b929a;
+}
+#updates-tab .bd-empty-updates svg {
+  fill: var(--status-online);
+  margin-bottom: 4px;
+}
 
 #floating-editor-window:has(.monaco-editor.focused)::before {
   content: "";
