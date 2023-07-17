@@ -158,6 +158,7 @@
                 .gameNameLastPlayed-2hWoXJ::after,
                 .removeGame-3V7nss {
                     background-color: #67707b;
+                    transition: background .2s linear;
                 }
 
                 &:has(.removeGame-3V7nss:hover) {

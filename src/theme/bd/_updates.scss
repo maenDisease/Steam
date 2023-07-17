@@ -40,4 +40,118 @@
             display: none;
         }
     }
+
+    .bd-setting-item:not(:has([for="core-updater"])) {
+        position: relative;
+        margin-bottom: 0;
+        display: flex;
+        padding: 6px 8px;
+        height: 58px;
+
+        &:hover {
+            background: #3d4450;
+            transition: background .2s linear;
+
+            &::after {
+                background-color: #67707b;
+                transition: background .2s linear;
+            }
+        }
+
+        &::before {
+            content: '';
+            display: block;
+            position: absolute;
+            width: 98px;
+            height: 45px;
+            mask: url(https://maendisease.github.io/Steam/illustrations/icns/storage.svg);
+            -webkit-mask: url(https://maendisease.github.io/Steam/illustrations/icns/storage.svg);
+            background-color: #fff;
+            mask-repeat: no-repeat;
+            mask-position: center;
+            mask-size: 18px;
+            margin-right: 12px;
+            z-index: 1;
+            top: 0;
+            bottom: 0;
+            margin-top: auto;
+            margin-bottom: auto;
+        }
+
+        &::after {
+            content: '';
+            display: block;
+            position: absolute;
+            height: 45px;
+            width: 98px;
+            background: #3d4450;
+            top: 0;
+            bottom: 0;
+            margin-top: auto;
+            margin-bottom: auto;
+        }
+
+        .bd-setting-title {
+            color: #fff;
+            line-height: 20px;
+            font-size: 16px;
+            margin-left: 114px;
+            max-width: calc(100% - 212px);
+        }
+
+        .bd-setting-note {
+            margin-left: 114px;
+            color: #8b929a;
+            font-size: 12px;
+            line-height: 22px;
+            letter-spacing: .5px;
+            text-transform: uppercase;
+            font-weight: 700;
+            display: flex;
+            align-items: center;
+            margin-top: 0;
+            max-width: calc(100% - 212px);
+
+            &::before {
+                content: '';
+                display: block;
+                width: 16px;
+                height: 16px;
+                mask: url(https://maendisease.github.io/Steam/illustrations/icns/downloads.svg);
+                -webkit-mask: url(https://maendisease.github.io/Steam/illustrations/icns/downloads.svg);
+                background: #8b929a;
+                margin-right: 4px;
+            }
+        }
+
+        button {
+            position: absolute;
+            right: 18px;
+            margin: auto 0;
+            top: 0;
+            bottom: 0;
+        }
+
+        .bd-setting-divider {
+            display: none;
+        }
+    }
+
+    .bd-settings-group:nth-child(3) {
+        .bd-setting-item:not(:has([for="core-updater"])) {
+            &::before {
+                mask: url(https://maendisease.github.io/Steam/illustrations/icns/plugins.svg);
+                -webkit-mask: url(https://maendisease.github.io/Steam/illustrations/icns/plugins.svg);
+            }
+        }
+    }
+    
+    .bd-settings-group:nth-child(4) {
+        .bd-setting-item:not(:has([for="core-updater"])) {
+            &::before {
+                mask: url(https://maendisease.github.io/Steam/illustrations/icns/themes.svg);
+                -webkit-mask: url(https://maendisease.github.io/Steam/illustrations/icns/themes.svg);
+            }
+        }
+    }
 }
