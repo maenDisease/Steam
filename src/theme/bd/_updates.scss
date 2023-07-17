@@ -142,15 +142,21 @@
             &::before {
                 mask: url(https://maendisease.github.io/Steam/illustrations/icns/plugins.svg);
                 -webkit-mask: url(https://maendisease.github.io/Steam/illustrations/icns/plugins.svg);
+                mask-repeat: no-repeat;
+                mask-position: center;
+                mask-size: 24px;
             }
         }
     }
-    
+
     .bd-settings-group:nth-child(4) {
         .bd-setting-item:not(:has([for="core-updater"])) {
             &::before {
                 mask: url(https://maendisease.github.io/Steam/illustrations/icns/themes.svg);
                 -webkit-mask: url(https://maendisease.github.io/Steam/illustrations/icns/themes.svg);
+                mask-repeat: no-repeat;
+                mask-position: center;
+                mask-size: 28px;
             }
         }
     }
