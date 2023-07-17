@@ -160,4 +160,16 @@
             }
         }
     }
+    
+    .bd-empty-updates {
+        font-size: 13px;
+        line-height: 18px;
+        font-weight: 400;
+        color: #8b929a;
+
+        svg {
+            fill: var(--status-online);
+            margin-bottom: 4px;
+        }
+    }
 }
