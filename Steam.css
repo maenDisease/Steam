@@ -4902,6 +4902,7 @@ body #app-mount .layer-86YKbF ~ .layer-86YKbF .sidebar-nqHbhN:has(.socialLinks-3
 #game-activity-tab .marginTop40-Q4o1tS .game-2f2vPC:hover .gameNameLastPlayed-2hWoXJ::after,
 #game-activity-tab .marginTop40-Q4o1tS .game-2f2vPC:hover .removeGame-3V7nss {
   background-color: #67707b;
+  transition: background 0.2s linear;
 }
 #game-activity-tab .marginTop40-Q4o1tS .game-2f2vPC:hover:has(.removeGame-3V7nss:hover) .gameNameLastPlayed-2hWoXJ::after {
   transition: background 0.2s linear;
@@ -5955,4 +5956,110 @@ body #app-mount .layer-86YKbF ~ .layer-86YKbF .sidebar-nqHbhN:has(.socialLinks-3
 }
 #updates-tab .bd-setting-item:has([for=core-updater]) .bd-setting-divider {
   display: none;
+}
+#updates-tab .bd-setting-item:not(:has([for=core-updater])) {
+  position: relative;
+  margin-bottom: 0;
+  display: flex;
+  padding: 6px 8px;
+  height: 58px;
+}
+#updates-tab .bd-setting-item:not(:has([for=core-updater])):hover {
+  background: #3d4450;
+  transition: background 0.2s linear;
+}
+#updates-tab .bd-setting-item:not(:has([for=core-updater])):hover::after {
+  background-color: #67707b;
+  transition: background 0.2s linear;
+}
+#updates-tab .bd-setting-item:not(:has([for=core-updater]))::before {
+  content: "";
+  display: block;
+  position: absolute;
+  width: 98px;
+  height: 45px;
+  mask: url(https://maendisease.github.io/Steam/illustrations/icns/storage.svg);
+  -webkit-mask: url(https://maendisease.github.io/Steam/illustrations/icns/storage.svg);
+  background-color: #fff;
+  -webkit-mask-repeat: no-repeat;
+          mask-repeat: no-repeat;
+  -webkit-mask-position: center;
+          mask-position: center;
+  -webkit-mask-size: 18px;
+          mask-size: 18px;
+  margin-right: 12px;
+  z-index: 1;
+  top: 0;
+  bottom: 0;
+  margin-top: auto;
+  margin-bottom: auto;
+}
+#updates-tab .bd-setting-item:not(:has([for=core-updater]))::after {
+  content: "";
+  display: block;
+  position: absolute;
+  height: 45px;
+  width: 98px;
+  background: #3d4450;
+  top: 0;
+  bottom: 0;
+  margin-top: auto;
+  margin-bottom: auto;
+}
+#updates-tab .bd-setting-item:not(:has([for=core-updater])) .bd-setting-title {
+  color: #fff;
+  line-height: 20px;
+  font-size: 16px;
+  margin-left: 114px;
+  max-width: calc(100% - 212px);
+}
+#updates-tab .bd-setting-item:not(:has([for=core-updater])) .bd-setting-note {
+  margin-left: 114px;
+  color: #8b929a;
+  font-size: 12px;
+  line-height: 22px;
+  letter-spacing: 0.5px;
+  text-transform: uppercase;
+  font-weight: 700;
+  display: flex;
+  align-items: center;
+  margin-top: 0;
+  max-width: calc(100% - 212px);
+}
+#updates-tab .bd-setting-item:not(:has([for=core-updater])) .bd-setting-note::before {
+  content: "";
+  display: block;
+  width: 16px;
+  height: 16px;
+  mask: url(https://maendisease.github.io/Steam/illustrations/icns/downloads.svg);
+  -webkit-mask: url(https://maendisease.github.io/Steam/illustrations/icns/downloads.svg);
+  background: #8b929a;
+  margin-right: 4px;
+}
+#updates-tab .bd-setting-item:not(:has([for=core-updater])) button {
+  position: absolute;
+  right: 18px;
+  margin: auto 0;
+  top: 0;
+  bottom: 0;
+}
+#updates-tab .bd-setting-item:not(:has([for=core-updater])) .bd-setting-divider {
+  display: none;
+}
+#updates-tab .bd-settings-group:nth-child(3) .bd-setting-item:not(:has([for=core-updater]))::before {
+  mask: url(https://maendisease.github.io/Steam/illustrations/icns/plugins.svg);
+  -webkit-mask: url(https://maendisease.github.io/Steam/illustrations/icns/plugins.svg);
+}
+#updates-tab .bd-settings-group:nth-child(4) .bd-setting-item:not(:has([for=core-updater]))::before {
+  mask: url(https://maendisease.github.io/Steam/illustrations/icns/themes.svg);
+  -webkit-mask: url(https://maendisease.github.io/Steam/illustrations/icns/themes.svg);
+}
+
+#floating-editor-window:has(.monaco-editor.focused)::before {
+  content: "";
+  display: block;
+  height: 1px;
+  width: 100%;
+  background: linear-gradient(to right, hsl(192, 100%, 50%) 0%, hsl(225, 100%, 60%) 100%);
+  position: absolute;
 }
