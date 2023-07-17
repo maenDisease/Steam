@@ -6049,10 +6049,22 @@ body #app-mount .layer-86YKbF ~ .layer-86YKbF .sidebar-nqHbhN:has(.socialLinks-3
 #updates-tab .bd-settings-group:nth-child(3) .bd-setting-item:not(:has([for=core-updater]))::before {
   mask: url(https://maendisease.github.io/Steam/illustrations/icns/plugins.svg);
   -webkit-mask: url(https://maendisease.github.io/Steam/illustrations/icns/plugins.svg);
+  -webkit-mask-repeat: no-repeat;
+          mask-repeat: no-repeat;
+  -webkit-mask-position: center;
+          mask-position: center;
+  -webkit-mask-size: 24px;
+          mask-size: 24px;
 }
 #updates-tab .bd-settings-group:nth-child(4) .bd-setting-item:not(:has([for=core-updater]))::before {
   mask: url(https://maendisease.github.io/Steam/illustrations/icns/themes.svg);
   -webkit-mask: url(https://maendisease.github.io/Steam/illustrations/icns/themes.svg);
+  -webkit-mask-repeat: no-repeat;
+          mask-repeat: no-repeat;
+  -webkit-mask-position: center;
+          mask-position: center;
+  -webkit-mask-size: 28px;
+          mask-size: 28px;
 }
 
 #floating-editor-window:has(.monaco-editor.focused)::before {
