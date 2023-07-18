@@ -36,6 +36,8 @@
         &[aria-checked="true"] {
             background: #1f8dff;
             color: #fff;
+            --text-normal: #fff;
+            --header-secondary: #fff;
         }
 
         &:not([aria-checked=true]) {

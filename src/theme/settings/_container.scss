@@ -1,3 +1,5 @@
+@use "../modals/generic";
+
 .layers-OrUESM>.layer-86YKbF.animating-1rIrGV *,
 .layers-OrUESM>.layer-86YKbF.animating-1rIrGV {
     pointer-events: auto !important;
@@ -25,14 +27,8 @@
     }
 }
 
-html.app-focused .layer-86YKbF~.layer-86YKbF::before {
-    content: '';
-    display: block;
-    height: 1px;
-    width: 100%;
-    background: linear-gradient(to right, hsl(192, 100%, 50%) 0%, hsl(225, 100%, 60%) 100%);
-    position: absolute;
-    z-index: 102;
+html.app-focused .layer-86YKbF~.layer-86YKbF {
+    @include generic.modalTopBar;
 }
 
 #app-mount .layer-86YKbF.stop-animations:first-child::after {

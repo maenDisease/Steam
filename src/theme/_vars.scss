@@ -14,11 +14,20 @@
     --background-modifier-hover: hsla(var(--accent-hue), 24%, 68%, 0.3);
     --background-modifier-active: var(--background-modifier-hover);
 
-    --background-dark-4: rgba(0,0,0, .4);
-    --background-dark-3: rgba(0,0,0, .3);
-    --background-dark-2: rgba(0,0,0, .2);
+    --background-dark-4: rgba(0, 0, 0, .4);
+    --background-dark-3: rgba(0, 0, 0, .3);
+    --background-dark-2: rgba(0, 0, 0, .2);
+
+    --message-background-gradient-yellow: linear-gradient(135deg, hsla(40, 23%, 41%, 0.5) 0%, hsla(40, 60%, 72%, 0.502) 100%);
+    --message-background-gradient-blue: linear-gradient(135deg, hsla(var(--accent-hue), 23%, 41%, 0.5) 0%, hsla(var(--accent-hue), 60%, 72%, 0.502) 100%);
+    --message-background-gradient-red: linear-gradient(135deg, hsla(0, 53%, 41%, 0.5) 0%, hsla(0, 90%, 72%, 0.502) 100%);
+
+
+    --modal-background: radial-gradient(circle at top left, rgba(74,81,92, 0.4) 0%, rgba(75,81,92,0) 60%), #25282e;
+    --modal-footer-background: none;
 
     --text-muted: #8b929a;
+    --header-primary: #fff;
     --header-secondary: #b8bcbf;
     --scroller-color: hsl(218, 11%, 29%);
     --scroller-hover-color: hsl(220, 5%, 32%);
@@ -31,8 +40,9 @@
     --background-tertiary-border-bottom: hsl(var(--accent-hue), 15%, 19%);
     --gpStoreDarkerGrey: hsl(var(--accent-hue), 35%, 16%);
 
-    --btn-brand: ;
-    --btn-brand-hover-fade: ;
+    --btn-brand: hsla(202, 88%, 68%, 0.2);
+    --btn-brand-hover-gradient: linear-gradient(-60deg, hsl(202, 41%, 43%) 5%, hsl(202, 88%, 68%) 95%);
+    --btn-brand-text: #67c1f5;
 
     --gpColor-Green: hsl(96, 58%, 40%);
     --gpColor-Red: hsl(9, 70%, 50%);
@@ -51,61 +61,61 @@
 
 /* Settings Icons */
 :root {
-	--use-settingsicons: calc(var(--settingsicons, 1) / (var(--settingsicons, 1) + 0.00000000000000000000001));
-	--settingsicons-size: 18px;
-	
-	// --settingsicons-default: url(https://mwittrien.github.io/BetterDiscordAddons/Themes/_res/svgs/settingsicons/questionmark.svg);
-	--settingsicons-myaccount: url(https://maendisease.github.io/Steam/illustrations/icns/account.svg);
-	--settingsicons-profile: url(https://maendisease.github.io/Steam/illustrations/icns/pencil.svg);
-	--settingsicons-privacy: url(https://maendisease.github.io/Steam/illustrations/icns/security.svg);
+    --use-settingsicons: calc(var(--settingsicons, 1) / (var(--settingsicons, 1) + 0.00000000000000000000001));
+    --settingsicons-size: 18px;
+
+    // --settingsicons-default: url(https://mwittrien.github.io/BetterDiscordAddons/Themes/_res/svgs/settingsicons/questionmark.svg);
+    --settingsicons-myaccount: url(https://maendisease.github.io/Steam/illustrations/icns/account.svg);
+    --settingsicons-profile: url(https://maendisease.github.io/Steam/illustrations/icns/pencil.svg);
+    --settingsicons-privacy: url(https://maendisease.github.io/Steam/illustrations/icns/security.svg);
     --settingsicons-family: url(https://maendisease.github.io/Steam/illustrations/icns/family.svg);
-	// --settingsicons-apps: url(https://mwittrien.github.io/BetterDiscordAddons/Themes/_res/svgs/settingsicons/apps.svg);
-	--settingsicons-sessions: url(https://maendisease.github.io/Steam/illustrations/icns/remoteplay.svg);
-	// --settingsicons-connections: url(https://mwittrien.github.io/BetterDiscordAddons/Themes/_res/svgs/settingsicons/connections.svg);
-	--settingsicons-friendrequests: url(https://maendisease.github.io/Steam/illustrations/icns/friends&chat.svg);
-	// --settingsicons-nitro: url(https://mwittrien.github.io/BetterDiscordAddons/Themes/_res/svgs/settingsicons/nitro.svg);
-	// --settingsicons-boosts: url(https://mwittrien.github.io/BetterDiscordAddons/Themes/_res/svgs/settingsicons/boosts.svg);
-	// --settingsicons-subscriptions: url(https://mwittrien.github.io/BetterDiscordAddons/Themes/_res/svgs/settingsicons/subscriptions.svg);
-	// --settingsicons-gifts: url(https://mwittrien.github.io/BetterDiscordAddons/Themes/_res/svgs/settingsicons/gift.svg);
-	--settingsicons-billing: url(https://maendisease.github.io/Steam/illustrations/icns/funds.svg);
-	// --settingsicons-appearance: url(https://mwittrien.github.io/BetterDiscordAddons/Themes/_res/svgs/settingsicons/appearance.svg);
-	// --settingsicons-accessibility: url(https://mwittrien.github.io/BetterDiscordAddons/Themes/_res/svgs/settingsicons/accessibility.svg);
-	--settingsicons-voice: url(https://maendisease.github.io/Steam/illustrations/icns/voice.svg);
-	// --settingsicons-powermode: url(https://mwittrien.github.io/BetterDiscordAddons/Themes/_res/svgs/settingsicons/party.svg);
-	// --settingsicons-text: url(https://mwittrien.github.io/BetterDiscordAddons/Themes/_res/svgs/settingsicons/text.svg);
-	--settingsicons-notifications: url(https://maendisease.github.io/Steam/illustrations/icns/notifications.svg);
-	// --settingsicons-keybinds: url(https://mwittrien.github.io/BetterDiscordAddons/Themes/_res/svgs/settingsicons/keybinds.svg);
-	// --settingsicons-language: url(https://mwittrien.github.io/BetterDiscordAddons/Themes/_res/svgs/settingsicons/language.svg);
-	--settingsicons-windows: url(https://maendisease.github.io/Steam/illustrations/icns/library.svg);
-	--settingsicons-streamermode: url(https://maendisease.github.io/Steam/illustrations/icns/broadcast.svg);
-	--settingsicons-advanced: url(https://maendisease.github.io/Steam/illustrations/icns/developer.svg);
-	// --settingsicons-activityprivacy: url(https://mwittrien.github.io/BetterDiscordAddons/Themes/_res/svgs/settingsicons/activityprivacy.svg);
-	--settingsicons-games: url(https://maendisease.github.io/Steam/illustrations/icns/controller.svg);
-	--settingsicons-overlay: url(https://maendisease.github.io/Steam/illustrations/icns/ingame.svg);
-	// --settingsicons-bd-settings: url(https://mwittrien.github.io/BetterDiscordAddons/Themes/_res/svgs/settingsicons/settings.svg);
-	// --settingsicons-bd-changelog: url(https://mwittrien.github.io/BetterDiscordAddons/Themes/_res/svgs/settingsicons/changelog.svg);
-	// --settingsicons-bd-customcss: url(https://mwittrien.github.io/BetterDiscordAddons/Themes/_res/svgs/settingsicons/custom.svg);
-	// --settingsicons-bd-plugins: url(https://mwittrien.github.io/BetterDiscordAddons/Themes/_res/svgs/settingsicons/plugins.svg);
-	// --settingsicons-bd-themes: url(https://mwittrien.github.io/BetterDiscordAddons/Themes/_res/svgs/settingsicons/themes.svg);
-	// --settingsicons-bd-pluginrepo: url(https://mwittrien.github.io/BetterDiscordAddons/Themes/_res/svgs/settingsicons/pluginrepo.svg);
-	// --settingsicons-bd-themerepo: url(https://mwittrien.github.io/BetterDiscordAddons/Themes/_res/svgs/settingsicons/themerepo.svg);
-	// --settingsicons-changelog: url(https://mwittrien.github.io/BetterDiscordAddons/Themes/_res/svgs/settingsicons/changelog.svg);
-	// --settingsicons-hypesquad: url(https://mwittrien.github.io/BetterDiscordAddons/Themes/_res/svgs/settingsicons/hypesquad.svg);
-	// --settingsicons-experiments: url(https://mwittrien.github.io/BetterDiscordAddons/Themes/_res/svgs/settingsicons/experiments.svg);
-	--settingsicons-developer: url(https://maendisease.github.io/Steam/illustrations/icns/developer.svg);
-	// --settingsicons-hotspots: url(https://mwittrien.github.io/BetterDiscordAddons/Themes/_res/svgs/settingsicons/hotspots.svg);
-	// --settingsicons-dismissable: url(https://mwittrien.github.io/BetterDiscordAddons/Themes/_res/svgs/settingsicons/dismissable.svg);
-	// --settingsicons-paymentmodals: url(https://mwittrien.github.io/BetterDiscordAddons/Themes/_res/svgs/settingsicons/paymentmodals.svg);
-	// --settingsicons-textplayground: url(https://mwittrien.github.io/BetterDiscordAddons/Themes/_res/svgs/settingsicons/textcomponent.svg);
-	// --settingsicons-textcomponent: url(https://mwittrien.github.io/BetterDiscordAddons/Themes/_res/svgs/settingsicons/textcomponent.svg);
-	// --settingsicons-logout: url(https://mwittrien.github.io/BetterDiscordAddons/Themes/_res/svgs/settingsicons/logout.svg);
+    // --settingsicons-apps: url(https://mwittrien.github.io/BetterDiscordAddons/Themes/_res/svgs/settingsicons/apps.svg);
+    --settingsicons-sessions: url(https://maendisease.github.io/Steam/illustrations/icns/remoteplay.svg);
+    // --settingsicons-connections: url(https://mwittrien.github.io/BetterDiscordAddons/Themes/_res/svgs/settingsicons/connections.svg);
+    --settingsicons-friendrequests: url(https://maendisease.github.io/Steam/illustrations/icns/friends&chat.svg);
+    // --settingsicons-nitro: url(https://mwittrien.github.io/BetterDiscordAddons/Themes/_res/svgs/settingsicons/nitro.svg);
+    // --settingsicons-boosts: url(https://mwittrien.github.io/BetterDiscordAddons/Themes/_res/svgs/settingsicons/boosts.svg);
+    // --settingsicons-subscriptions: url(https://mwittrien.github.io/BetterDiscordAddons/Themes/_res/svgs/settingsicons/subscriptions.svg);
+    // --settingsicons-gifts: url(https://mwittrien.github.io/BetterDiscordAddons/Themes/_res/svgs/settingsicons/gift.svg);
+    --settingsicons-billing: url(https://maendisease.github.io/Steam/illustrations/icns/funds.svg);
+    // --settingsicons-appearance: url(https://mwittrien.github.io/BetterDiscordAddons/Themes/_res/svgs/settingsicons/appearance.svg);
+    // --settingsicons-accessibility: url(https://mwittrien.github.io/BetterDiscordAddons/Themes/_res/svgs/settingsicons/accessibility.svg);
+    --settingsicons-voice: url(https://maendisease.github.io/Steam/illustrations/icns/voice.svg);
+    // --settingsicons-powermode: url(https://mwittrien.github.io/BetterDiscordAddons/Themes/_res/svgs/settingsicons/party.svg);
+    // --settingsicons-text: url(https://mwittrien.github.io/BetterDiscordAddons/Themes/_res/svgs/settingsicons/text.svg);
+    --settingsicons-notifications: url(https://maendisease.github.io/Steam/illustrations/icns/notifications.svg);
+    // --settingsicons-keybinds: url(https://mwittrien.github.io/BetterDiscordAddons/Themes/_res/svgs/settingsicons/keybinds.svg);
+    // --settingsicons-language: url(https://mwittrien.github.io/BetterDiscordAddons/Themes/_res/svgs/settingsicons/language.svg);
+    --settingsicons-windows: url(https://maendisease.github.io/Steam/illustrations/icns/library.svg);
+    --settingsicons-streamermode: url(https://maendisease.github.io/Steam/illustrations/icns/broadcast.svg);
+    --settingsicons-advanced: url(https://maendisease.github.io/Steam/illustrations/icns/developer.svg);
+    // --settingsicons-activityprivacy: url(https://mwittrien.github.io/BetterDiscordAddons/Themes/_res/svgs/settingsicons/activityprivacy.svg);
+    --settingsicons-games: url(https://maendisease.github.io/Steam/illustrations/icns/controller.svg);
+    --settingsicons-overlay: url(https://maendisease.github.io/Steam/illustrations/icns/ingame.svg);
+    // --settingsicons-bd-settings: url(https://mwittrien.github.io/BetterDiscordAddons/Themes/_res/svgs/settingsicons/settings.svg);
+    // --settingsicons-bd-changelog: url(https://mwittrien.github.io/BetterDiscordAddons/Themes/_res/svgs/settingsicons/changelog.svg);
+    // --settingsicons-bd-customcss: url(https://mwittrien.github.io/BetterDiscordAddons/Themes/_res/svgs/settingsicons/custom.svg);
+    // --settingsicons-bd-plugins: url(https://mwittrien.github.io/BetterDiscordAddons/Themes/_res/svgs/settingsicons/plugins.svg);
+    // --settingsicons-bd-themes: url(https://mwittrien.github.io/BetterDiscordAddons/Themes/_res/svgs/settingsicons/themes.svg);
+    // --settingsicons-bd-pluginrepo: url(https://mwittrien.github.io/BetterDiscordAddons/Themes/_res/svgs/settingsicons/pluginrepo.svg);
+    // --settingsicons-bd-themerepo: url(https://mwittrien.github.io/BetterDiscordAddons/Themes/_res/svgs/settingsicons/themerepo.svg);
+    // --settingsicons-changelog: url(https://mwittrien.github.io/BetterDiscordAddons/Themes/_res/svgs/settingsicons/changelog.svg);
+    // --settingsicons-hypesquad: url(https://mwittrien.github.io/BetterDiscordAddons/Themes/_res/svgs/settingsicons/hypesquad.svg);
+    // --settingsicons-experiments: url(https://mwittrien.github.io/BetterDiscordAddons/Themes/_res/svgs/settingsicons/experiments.svg);
+    --settingsicons-developer: url(https://maendisease.github.io/Steam/illustrations/icns/developer.svg);
+    // --settingsicons-hotspots: url(https://mwittrien.github.io/BetterDiscordAddons/Themes/_res/svgs/settingsicons/hotspots.svg);
+    // --settingsicons-dismissable: url(https://mwittrien.github.io/BetterDiscordAddons/Themes/_res/svgs/settingsicons/dismissable.svg);
+    // --settingsicons-paymentmodals: url(https://mwittrien.github.io/BetterDiscordAddons/Themes/_res/svgs/settingsicons/paymentmodals.svg);
+    // --settingsicons-textplayground: url(https://mwittrien.github.io/BetterDiscordAddons/Themes/_res/svgs/settingsicons/textcomponent.svg);
+    // --settingsicons-textcomponent: url(https://mwittrien.github.io/BetterDiscordAddons/Themes/_res/svgs/settingsicons/textcomponent.svg);
+    // --settingsicons-logout: url(https://mwittrien.github.io/BetterDiscordAddons/Themes/_res/svgs/settingsicons/logout.svg);
 }
 
 /* Settings Modal */
 :root {
-	--settingsmodalbackground: transparent;
-	--settingsmodalwidth: 850px;
-	--settingsmodalheight: 80vh;
+    --settingsmodalbackground: transparent;
+    --settingsmodalwidth: 850px;
+    --settingsmodalheight: 80vh;
 }
 
 /* HorizontalServerList*/

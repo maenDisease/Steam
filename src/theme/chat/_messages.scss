@@ -31,15 +31,15 @@
     max-width: var(--messages-max-width);
 
     &.mentioned-Tre-dv {
-        background: linear-gradient(135deg, hsla(40, 23%, 41%, 0.5) 0%, hsla(40, 60%, 72%, 0.502) 100%);
+        background: var(--message-background-gradient-yellow);
     }
 
     &.replying-eZ7p5z {
-        background: linear-gradient(135deg, hsla(var(--accent-hue), 23%, 41%, 0.5) 0%, hsla(var(--accent-hue), 60%, 72%, 0.502) 100%);
+        background: var(--message-background-gradient-blue);
     }
 
     &:has(.communicationDisabled-2KRN2p) {
-        background: linear-gradient(135deg, hsla(0, 53%, 41%, 0.5) 0%, hsla(0, 90%, 72%, 0.502) 100%);
+        background: var(--message-background-gradient-red);
     }
 
     &:hover .header-2jRmjb {
