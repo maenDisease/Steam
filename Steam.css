@@ -19,7 +19,8 @@
   --background-dark-4: rgba(0,0,0, .4);
   --background-dark-3: rgba(0,0,0, .3);
   --background-dark-2: rgba(0,0,0, .2);
-  --text-muted: hsl(0, 0%, 60%);
+  --text-muted: #8b929a;
+  --header-secondary: #b8bcbf;
   --scroller-color: hsl(218, 11%, 29%);
   --scroller-hover-color: hsl(220, 5%, 32%);
   --channels-category: hsl(var(--accent-hue), 24%, 43%);
@@ -2464,6 +2465,11 @@ body #app-mount .app-3xd6d0 .base-2jDfDU {
   height: 100%;
 }
 
+#app-mount .container-2IKOsH,
+#app-mount .container-1um7CU {
+  background: none;
+}
+
 .container-2cd8Mz,
 .containerSidenav-3qiKqP {
   background: none;
@@ -2819,7 +2825,7 @@ body #app-mount .layer-86YKbF ~ .layer-86YKbF .sidebar-nqHbhN:has(.socialLinks-3
   border-radius: 0;
   font-size: 14px;
   margin-bottom: 0;
-  --interactive-normal: #B8BCBF;
+  --interactive-normal: var(--header-secondary);
   --interactive-hover: #3D4450;
   --background-modifier-hover: #DCDEDF;
   --background-modifier-selected: #3e4551;
@@ -2946,7 +2952,7 @@ body #app-mount .layer-86YKbF ~ .layer-86YKbF .sidebar-nqHbhN:has(.socialLinks-3
 }
 
 .h5-2feg8J.eyebrow-2wJAoF {
-  color: #8b929a;
+  color: var(--text-muted);
   font-size: 14px;
   letter-spacing: 0.5px;
   line-height: 36px;
@@ -2968,7 +2974,7 @@ body #app-mount .layer-86YKbF ~ .layer-86YKbF .sidebar-nqHbhN:has(.socialLinks-3
   font-size: 13px;
   line-height: 18px;
   font-weight: 400;
-  color: #8b929a;
+  color: var(--text-muted);
   letter-spacing: 0;
   margin-bottom: 10px;
 }
@@ -2977,7 +2983,7 @@ body #app-mount .layer-86YKbF ~ .layer-86YKbF .sidebar-nqHbhN:has(.socialLinks-3
   font-size: 13px;
   line-height: 18px;
   font-weight: 400;
-  color: #8b929a;
+  color: var(--text-muted);
   letter-spacing: 0;
 }
 
@@ -3111,7 +3117,7 @@ body #app-mount .layer-86YKbF ~ .layer-86YKbF .sidebar-nqHbhN:has(.socialLinks-3
 .field-21XZwa .constrainedRow-3y91Xf .fieldTitle-2g5r_V + div span {
   font-size: 14px;
   line-height: 20px;
-  --header-primary: #b8bcbf;
+  --header-primary: var(--header-secondary);
 }
 .field-21XZwa:has(button.lookFilled-1H2Jvj:hover) {
   background: #464d58;
@@ -3229,7 +3235,6 @@ body #app-mount .layer-86YKbF ~ .layer-86YKbF .sidebar-nqHbhN:has(.socialLinks-3
   font-size: 13px;
   line-height: 18px;
   font-weight: 400;
-  --text-muted: #8b929a;
   margin-bottom: 10px;
 }
 #family-center-tab [data-text-variant="text-xs/medium"],
@@ -3238,7 +3243,6 @@ body #app-mount .layer-86YKbF ~ .layer-86YKbF .sidebar-nqHbhN:has(.socialLinks-3
   font-size: 13px;
   line-height: 18px;
   font-weight: 400;
-  --text-muted: #8b929a;
 }
 #family-center-tab .container-2WMFjc,
 #family-center-tab .box-3QCU9H,
@@ -3288,7 +3292,7 @@ body #app-mount .layer-86YKbF ~ .layer-86YKbF .sidebar-nqHbhN:has(.socialLinks-3
 #activity-tab .container-jV-A82 [data-text-variant="text-sm/medium"],
 #requests-tab .container-jV-A82 [data-text-variant="text-sm/medium"] {
   text-align: center;
-  --text-muted: #b8bcbf;
+  --text-muted: var(--header-secondary);
 }
 #family-center-tab .container-jV-A82 [data-text-variant="text-sm/medium"],
 #activity-tab .container-jV-A82 [data-text-variant="text-sm/medium"],
@@ -3304,7 +3308,7 @@ body #app-mount .layer-86YKbF ~ .layer-86YKbF .sidebar-nqHbhN:has(.socialLinks-3
 #family-center-tab .container-1iKw09 .header-1_l8EY,
 #activity-tab .container-1iKw09 .header-1_l8EY,
 #requests-tab .container-1iKw09 .header-1_l8EY {
-  color: #8b929a;
+  color: var(--text-muted);
   font-size: 14px;
   letter-spacing: 0.5px;
   line-height: 36px;
@@ -3374,7 +3378,7 @@ body #app-mount .layer-86YKbF ~ .layer-86YKbF .sidebar-nqHbhN:has(.socialLinks-3
 #activity-tab .step-3WCaE1 [data-text-variant="text-sm/medium"],
 #requests-tab .step-3WCaE1 [data-text-variant="text-sm/medium"] {
   margin-bottom: 0;
-  --text-muted: #b8bcbf;
+  --text-muted: var(--header-secondary);
 }
 #family-center-tab .step-3WCaE1 .stepNumber-1OYCPJ,
 #activity-tab .step-3WCaE1 .stepNumber-1OYCPJ,
@@ -3461,6 +3465,30 @@ body #app-mount .layer-86YKbF ~ .layer-86YKbF .sidebar-nqHbhN:has(.socialLinks-3
   padding: 10px 0 0 0;
   border-top: thin solid #23262e;
 }
+#app-mount #family-center-tab .card-2guEcY {
+  border-radius: 0;
+  padding: 0;
+  border: none;
+  background: none;
+}
+#app-mount #family-center-tab .card-2guEcY [data-text-variant="text-sm/semibold"] {
+  font-size: 13px;
+  line-height: 18px;
+  font-weight: 400;
+  --text-normal: var(--text-muted);
+  letter-spacing: 0;
+}
+#app-mount #family-center-tab .card-2guEcY a {
+  font-size: 13px;
+  line-height: 18px;
+  font-weight: 400;
+}
+#app-mount #family-center-tab .card-2guEcY .iconBadge-1D5-9X {
+  height: 18px;
+  width: 18px;
+  margin-left: 4px;
+  color: var(--brand-experiment);
+}
 
 #activity-tab .container-2WMFjc,
 #activity-tab .box-3QCU9H,
@@ -3524,7 +3552,7 @@ body #app-mount .layer-86YKbF ~ .layer-86YKbF .sidebar-nqHbhN:has(.socialLinks-3
   font-size: 13px;
   line-height: 18px;
   font-weight: 400;
-  color: #8b929a !important;
+  color: var(--text-muted) !important;
 }
 #authorized-apps-tab .authedApp-8q3NA9 .permission-CbNHIg {
   margin-top: 0;
@@ -3581,7 +3609,7 @@ body #app-mount .layer-86YKbF ~ .layer-86YKbF .sidebar-nqHbhN:has(.socialLinks-3
 #authorized-apps-tab .children-2C96Ex:after {
   content: counter(authappsCount);
   animation: authorized-apps-tabCounter 1s linear infinite forwards;
-  color: #8b929a;
+  color: var(--text-muted);
   font-size: 16px;
   line-height: 20px;
   margin-left: 8px;
@@ -3636,7 +3664,7 @@ body #app-mount .layer-86YKbF ~ .layer-86YKbF .sidebar-nqHbhN:has(.socialLinks-3
   line-height: 20px;
 }
 .session-9khLqt [data-text-variant="text-sm/medium"] {
-  color: #8b929a;
+  color: var(--text-muted);
   font-size: 12px;
   line-height: 22px;
   letter-spacing: 0.5px;
@@ -3694,7 +3722,7 @@ body #app-mount .layer-86YKbF ~ .layer-86YKbF .sidebar-nqHbhN:has(.socialLinks-3
   padding: 0;
 }
 .connectContainer-1hylYM .connectHeader-2VkFiv {
-  color: #8b929a !important;
+  color: var(--text-muted) !important;
   font-size: 14px;
   letter-spacing: 0.5px;
   line-height: 36px;
@@ -3705,7 +3733,7 @@ body #app-mount .layer-86YKbF ~ .layer-86YKbF .sidebar-nqHbhN:has(.socialLinks-3
   font-size: 13px;
   line-height: 18px;
   font-weight: 400;
-  color: #8b929a !important;
+  color: var(--text-muted) !important;
   margin-bottom: 10px;
 }
 .connectContainer-1hylYM button {
@@ -3764,7 +3792,7 @@ body #app-mount .layer-86YKbF ~ .layer-86YKbF .sidebar-nqHbhN:has(.socialLinks-3
   line-height: 20px;
 }
 .connectionHeader-Ixbb1s .connectionAccountLabel-28GEPk {
-  --header-secondary: #8b929a;
+  --header-secondary: var(--text-muted);
   font-size: 12px;
   line-height: 22px;
   letter-spacing: 0.5px;
@@ -4247,7 +4275,7 @@ body #app-mount .layer-86YKbF ~ .layer-86YKbF .sidebar-nqHbhN:has(.socialLinks-3
   font-size: 13px;
   line-height: 18px;
   font-weight: 400;
-  --text-normal: #8b929a;
+  --text-normal: var(--text-muted);
 }
 
 .perkPreviewImage-2jd1Tx {
@@ -4273,7 +4301,8 @@ body #app-mount .layer-86YKbF ~ .layer-86YKbF .sidebar-nqHbhN:has(.socialLinks-3
   font-weight: 700;
   margin-bottom: 0;
 }
-#subscriptions-tab .sectionAccountCredit-1IqaxB, #subscriptions-tab .subscriptionDetails-ZcKNHC {
+#subscriptions-tab .sectionAccountCredit-1IqaxB,
+#subscriptions-tab .subscriptionDetails-ZcKNHC {
   padding-bottom: 10px;
   margin-bottom: 10px;
   border-bottom: thin solid #23262e;
@@ -4306,7 +4335,7 @@ body #app-mount .layer-86YKbF ~ .layer-86YKbF .sidebar-nqHbhN:has(.socialLinks-3
   line-height: 20px;
 }
 #subscriptions-tab .accountCreditTitle-3nJMsS {
-  color: #8b929a;
+  color: var(--text-muted);
   font-size: 14px;
   letter-spacing: 0.5px;
   line-height: 36px;
@@ -4317,7 +4346,7 @@ body #app-mount .layer-86YKbF ~ .layer-86YKbF .sidebar-nqHbhN:has(.socialLinks-3
   font-size: 13px;
   line-height: 18px;
   font-weight: 400;
-  color: #8b929a;
+  color: var(--text-muted);
   letter-spacing: 0;
   margin-bottom: 10px;
 }
@@ -4379,7 +4408,6 @@ body #app-mount .layer-86YKbF ~ .layer-86YKbF .sidebar-nqHbhN:has(.socialLinks-3
 }
 #billing-tab .paymentHistory-34PrLP .paymentPane-ut5qKZ {
   background: none;
-  color: #8b929a;
   border-radius: 0;
 }
 #billing-tab .paymentHistory-34PrLP .paymentRow-1HKOLu {
@@ -4410,7 +4438,7 @@ body #app-mount .layer-86YKbF ~ .layer-86YKbF .sidebar-nqHbhN:has(.socialLinks-3
   left: 122px;
   margin-top: 20px;
   display: flex;
-  color: #8b929a;
+  color: var(--text-muted);
   font-size: 12px;
   line-height: 22px;
   letter-spacing: 0.5px;
@@ -4426,7 +4454,7 @@ body #app-mount .layer-86YKbF ~ .layer-86YKbF .sidebar-nqHbhN:has(.socialLinks-3
   height: 16px;
   mask: url(https://maendisease.github.io/Steam/illustrations/icns/clock.svg);
   -webkit-mask: url(https://maendisease.github.io/Steam/illustrations/icns/clock.svg);
-  background: #8b929a;
+  background: var(--text-muted);
   margin-right: 4px;
 }
 #billing-tab .paymentHistory-34PrLP .gameIcon-1mDo1J {
@@ -4464,7 +4492,7 @@ body #app-mount .layer-86YKbF ~ .layer-86YKbF .sidebar-nqHbhN:has(.socialLinks-3
   font-size: 13px;
   line-height: 18px;
   font-weight: 400;
-  color: #8b929a;
+  color: var(--text-muted);
   letter-spacing: 0;
 }
 #billing-tab .expandedInfo-1W31i3 {
@@ -4499,13 +4527,13 @@ body #app-mount .layer-86YKbF ~ .layer-86YKbF .sidebar-nqHbhN:has(.socialLinks-3
   font-size: 12px;
   line-height: 19px;
   font-weight: 400;
-  color: #8b929a;
+  color: var(--text-muted);
 }
 #billing-tab .paymentHeader-2o7Phd {
   border: none;
   padding: 0;
   margin: 0;
-  color: #8b929a;
+  color: var(--text-muted);
   font-size: 14px;
   letter-spacing: 0.5px;
   line-height: 36px;
@@ -4516,12 +4544,12 @@ body #app-mount .layer-86YKbF ~ .layer-86YKbF .sidebar-nqHbhN:has(.socialLinks-3
   font-size: 13px;
   line-height: 18px;
   font-weight: 400;
-  color: #8b929a;
+  color: var(--text-muted);
   letter-spacing: 0;
   margin-bottom: 10px;
 }
 #billing-tab .refundSubHeader-zBPAag {
-  color: #8b929a;
+  color: var(--text-muted);
   font-size: 14px;
   letter-spacing: 0.5px;
   line-height: 36px;
@@ -4532,7 +4560,7 @@ body #app-mount .layer-86YKbF ~ .layer-86YKbF .sidebar-nqHbhN:has(.socialLinks-3
   font-size: 13px;
   line-height: 18px;
   font-weight: 400;
-  color: #8b929a;
+  color: var(--text-muted);
   letter-spacing: 0;
 }
 #billing-tab .refundActions-2iwYyn {
@@ -4549,7 +4577,7 @@ body #app-mount .layer-86YKbF ~ .layer-86YKbF .sidebar-nqHbhN:has(.socialLinks-3
   font-size: 13px;
   line-height: 18px;
   font-weight: 400;
-  color: #8b929a;
+  color: var(--text-muted);
   letter-spacing: 0;
   margin-top: 40px;
 }
@@ -4611,7 +4639,7 @@ body #app-mount .layer-86YKbF ~ .layer-86YKbF .sidebar-nqHbhN:has(.socialLinks-3
   gap: 0;
 }
 .featureBorder-2Jl8g4 .background-yH6t2p .header-LaudvZ [data-text-variant="text-md/medium"] {
-  color: #8b929a;
+  color: var(--text-muted);
   font-size: 14px;
   font-weight: 700;
   letter-spacing: 0.5px;
@@ -4623,7 +4651,7 @@ body #app-mount .layer-86YKbF ~ .layer-86YKbF .sidebar-nqHbhN:has(.socialLinks-3
   font-size: 13px;
   line-height: 18px;
   font-weight: 400;
-  color: #8b929a;
+  color: var(--text-muted);
   letter-spacing: 0;
 }
 
@@ -4657,7 +4685,7 @@ body #app-mount .layer-86YKbF ~ .layer-86YKbF .sidebar-nqHbhN:has(.socialLinks-3
   font-size: 13px;
   line-height: 18px;
   font-weight: 400;
-  color: #8b929a;
+  color: var(--text-muted);
   letter-spacing: 0;
   margin-top: 40px;
 }
@@ -4878,7 +4906,7 @@ body #app-mount .layer-86YKbF ~ .layer-86YKbF .sidebar-nqHbhN:has(.socialLinks-3
 #game-activity-tab .marginTop40-Q4o1tS:after {
   content: counter(gamesCount);
   animation: game-activity-tabCounter 1s linear infinite forwards;
-  color: #8b929a;
+  color: var(--text-muted);
   font-size: 16px;
   line-height: 20px;
   margin-left: 8px;
@@ -4957,7 +4985,7 @@ body #app-mount .layer-86YKbF ~ .layer-86YKbF .sidebar-nqHbhN:has(.socialLinks-3
   line-height: 20px;
 }
 #game-activity-tab .marginTop40-Q4o1tS .game-2f2vPC .gameNameLastPlayed-2hWoXJ .lastPlayed-1jum9A {
-  color: #8b929a;
+  color: var(--text-muted);
   font-size: 12px;
   line-height: 22px;
   letter-spacing: 0.5px;
@@ -4977,7 +5005,7 @@ body #app-mount .layer-86YKbF ~ .layer-86YKbF .sidebar-nqHbhN:has(.socialLinks-3
   height: 16px;
   mask: url(https://maendisease.github.io/Steam/illustrations/icns/clock.svg);
   -webkit-mask: url(https://maendisease.github.io/Steam/illustrations/icns/clock.svg);
-  background: #8b929a;
+  background: var(--text-muted);
   margin-right: 4px;
 }
 @keyframes game-activity-tabCounter {
@@ -5537,7 +5565,7 @@ body #app-mount .layer-86YKbF ~ .layer-86YKbF .sidebar-nqHbhN:has(.socialLinks-3
   cursor: default;
 }
 .container-1QtPKm.disabled-3_3z1m rect {
-  fill: #8b929a;
+  fill: var(--text-muted);
 }
 
 .checkboxWrapper-3zdYym input[type=checkbox] {
@@ -5672,9 +5700,6 @@ body #app-mount .layer-86YKbF ~ .layer-86YKbF .sidebar-nqHbhN:has(.socialLinks-3
   height: 6px;
   border-radius: 3px;
   background: #23262e;
-}
-.slider-1mmyV6 .markValue-21gAVC {
-  --text-normal: #8b929a;
 }
 .slider-1mmyV6 .markDash-1ATsxA {
   background: #23262e;
@@ -5811,7 +5836,7 @@ body #app-mount .layer-86YKbF ~ .layer-86YKbF .sidebar-nqHbhN:has(.socialLinks-3
   font-size: 13px;
   line-height: 18px;
   font-weight: 400;
-  color: #8b929a;
+  color: var(--text-muted);
   letter-spacing: 0;
   margin-top: 8px;
 }
@@ -6016,7 +6041,7 @@ body #app-mount .layer-86YKbF ~ .layer-86YKbF .sidebar-nqHbhN:has(.socialLinks-3
 }
 #updates-tab .bd-setting-item:not(:has([for=core-updater])) .bd-setting-note {
   margin-left: 114px;
-  color: #8b929a;
+  color: var(--text-muted);
   font-size: 12px;
   line-height: 22px;
   letter-spacing: 0.5px;
@@ -6034,7 +6059,7 @@ body #app-mount .layer-86YKbF ~ .layer-86YKbF .sidebar-nqHbhN:has(.socialLinks-3
   height: 16px;
   mask: url(https://maendisease.github.io/Steam/illustrations/icns/downloads.svg);
   -webkit-mask: url(https://maendisease.github.io/Steam/illustrations/icns/downloads.svg);
-  background: #8b929a;
+  background: var(--text-muted);
   margin-right: 4px;
 }
 #updates-tab .bd-setting-item:not(:has([for=core-updater])) button {
@@ -6071,7 +6096,7 @@ body #app-mount .layer-86YKbF ~ .layer-86YKbF .sidebar-nqHbhN:has(.socialLinks-3
   font-size: 13px;
   line-height: 18px;
   font-weight: 400;
-  color: #8b929a;
+  color: var(--text-muted);
 }
 #updates-tab .bd-empty-updates svg {
   fill: var(--status-online);
@@ -6194,7 +6219,7 @@ body #app-mount .layer-86YKbF ~ .layer-86YKbF .sidebar-nqHbhN:has(.socialLinks-3
 #themes-tab::after,
 #plugins-tab::after {
   white-space: nowrap;
-  color: #8b929a;
+  color: var(--text-muted);
   font-weight: 600;
   font-size: 16px;
   line-height: 20px;
@@ -6292,7 +6317,7 @@ body #app-mount .layer-86YKbF ~ .layer-86YKbF .sidebar-nqHbhN:has(.socialLinks-3
   font-weight: 400;
 }
 .bd-addon-list .bd-addon-card .bd-meta {
-  color: #8b929a;
+  color: var(--text-muted);
   line-height: 22px;
   letter-spacing: 0.5px;
   text-transform: uppercase;
