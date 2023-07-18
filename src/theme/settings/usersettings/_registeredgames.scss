@@ -129,7 +129,7 @@
             animation: game-activity-tabCounter 1s linear infinite forwards;
 
             // Styles
-            color: #8b929a;
+            color: var(--text-muted);
             font-size: 16px;
             line-height: 20px;
             margin-left: 8px;
@@ -221,7 +221,7 @@
                 }
 
                 .lastPlayed-1jum9A {
-                    color: #8b929a;
+                    color: var(--text-muted);
                     font-size: 12px;
                     line-height: 22px;
                     letter-spacing: .5px;
@@ -242,7 +242,7 @@
                         height: 16px;
                         mask: url(https://maendisease.github.io/Steam/illustrations/icns/clock.svg);
                         -webkit-mask: url(https://maendisease.github.io/Steam/illustrations/icns/clock.svg);
-                        background: #8b929a;
+                        background: var(--text-muted);
                         margin-right: 4px;
                     }
                 }

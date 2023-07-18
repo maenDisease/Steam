@@ -6,7 +6,8 @@
         @include container.settingsHeaderText;
     }
 
-    .sectionAccountCredit-1IqaxB, .subscriptionDetails-ZcKNHC {
+    .sectionAccountCredit-1IqaxB,
+    .subscriptionDetails-ZcKNHC {
         padding-bottom: 10px;
         margin-bottom: 10px;
         border-bottom: thin solid #23262e;
@@ -28,7 +29,7 @@
 
             &.small-1P4vlo {
                 width: 20px;
-            height: 20px;
+                height: 20px;
             }
         }
 
@@ -45,20 +46,20 @@
     }
 
     .accountCreditTitle-3nJMsS {
-        color: #8b929a;
-    font-size: 14px;
-    letter-spacing: .5px;
-    line-height: 36px;
-    margin-bottom: 0;
-    text-transform: uppercase;
+        color: var(--text-muted);
+        font-size: 14px;
+        letter-spacing: .5px;
+        line-height: 36px;
+        margin-bottom: 0;
+        text-transform: uppercase;
     }
 
     .accountCreditDescription-1lEaJI {
         font-size: 13px;
-    line-height: 18px;
-    font-weight: 400;
-    color: #8b929a;
-    letter-spacing: 0;
-    margin-bottom: 10px;
+        line-height: 18px;
+        font-weight: 400;
+        color: var(--text-muted);
+        letter-spacing: 0;
+        margin-bottom: 10px;
     }
 }

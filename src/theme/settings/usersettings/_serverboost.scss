@@ -208,7 +208,7 @@
         font-size: 13px;
         line-height: 18px;
         font-weight: 400;
-        --text-normal: #8b929a;
+        --text-normal: var(--text-muted);
     }
 }
 

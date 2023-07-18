@@ -43,7 +43,7 @@
                 font-size: 13px;
                 line-height: 18px;
                 font-weight: 400;
-                color: #8b929a !important;
+                color: var(--text-muted) !important;
             }
         }
 
@@ -120,7 +120,7 @@
             animation: authorized-apps-tabCounter 1s linear infinite forwards;
 
             // Styles
-            color: #8b929a;
+            color: var(--text-muted);
             font-size: 16px;
             line-height: 20px;
             margin-left: 8px;

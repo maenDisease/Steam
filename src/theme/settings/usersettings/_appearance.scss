@@ -6,7 +6,7 @@
         font-size: 13px;
         line-height: 18px;
         font-weight: 400;
-        color: #8b929a;
+        color: var(--text-muted);
         letter-spacing: 0;
         margin-top: 40px;
     }
@@ -78,7 +78,7 @@
             }
 
             [data-text-variant="text-md/medium"]{
-                color: #8b929a;
+                color: var(--text-muted);
                 font-size: 14px;
                 font-weight: 700;
                 letter-spacing: 0.5px;
@@ -91,7 +91,7 @@
                 font-size: 13px;
                 line-height: 18px;
                 font-weight: 400;
-                color: #8b929a;
+                color: var(--text-muted);
                 letter-spacing: 0;
             }
         }

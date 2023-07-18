@@ -28,7 +28,7 @@
         background: #67707b !important;
         cursor: default;
         rect {
-            fill: #8b929a;
+            fill: var(--text-muted);
         }
     }
 }
