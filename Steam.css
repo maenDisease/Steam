@@ -5425,12 +5425,29 @@ body #app-mount .layer-86YKbF ~ .layer-86YKbF .sidebar-nqHbhN:has(.socialLinks-3
   font-weight: 700;
 }
 #app-mount .theme-light .root-1CAIjD .container-x8Y1ix {
-  border-radius: 0;
+  border-radius: 2px;
   border: none;
-  background: none;
-  margin-bottom: 0;
+  background: hsla(222, 10%, 26%, 0.5);
+  margin-bottom: 10px;
+  transition: background 200ms ease-in-out, box-shadow 200ms ease-in-out;
 }
-
+#app-mount .theme-light .root-1CAIjD .container-x8Y1ix:hover {
+  background: #464d58;
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.3);
+}
+#app-mount .theme-light .root-1CAIjD .container-x8Y1ix:hover [data-text-variant="text-md/bold"] {
+  color: #fff;
+}
+#app-mount .theme-light .root-1CAIjD .container-x8Y1ix:has(.arrow-2yY1Tm)::after {
+  content: "";
+  display: block;
+  width: 20px;
+  height: 20px;
+  mask: url(https://maendisease.github.io/Steam/illustrations/icns/discordrightarrow.svg);
+  -webkit-mask: url(https://maendisease.github.io/Steam/illustrations/icns/discordrightarrow.svg);
+  background: var(--brand-experiment);
+  margin: 16px 16px 16px auto;
+}
 .image-ZPv20Y {
   border-radius: 2px;
 }
