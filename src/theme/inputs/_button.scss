@@ -11,7 +11,8 @@
 }
 
 .button-1EGGcP.buttonColor-3bP3fX,
-.button-1EGGcP .buttonColor-3bP3fX {
+.button-1EGGcP .buttonColor-3bP3fX,
+.button-ejjZWC.lookLink-13iF2K.lowSaturationUnderline-Z6CW6z.colorPrimary-2-Lusz {
     color: #dfe3e6;
     background: hsla(222, 10%, 26%, 0.5);
 
@@ -19,6 +20,16 @@
         background: #464d58;
         color: #fff;
         box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.3);
+    }
+}
+
+#app-mount {
+    .lookLink-13iF2K.colorTransparent-2SBJ8-:hover .contents-3NembX {
+        --button--underline-color: none;
+    }
+
+    .lookLink-13iF2K.colorPrimary-2-Lusz:hover .contents-3NembX {
+        --button--underline-color: none;
     }
 }
 
