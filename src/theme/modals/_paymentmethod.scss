@@ -1,0 +1,43 @@
+.wrap-7NZuTn:has(.cardIcon-1d-mcG) {
+    display: grid;
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+    grid-gap: 10px;
+
+    button {
+        margin: 0;
+        width: unset;
+        height: unset;
+        background: hsla(222, 10%, 26%, 0.5);
+        border-radius: 2px;
+        padding: 20px;
+        font-size: 16px;
+        line-height: 20px;
+        font-weight: 400;
+
+        &:hover {
+            color: #fff;
+            background: #464d58;
+            box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.3);
+        }
+
+        .flex-3BkGQD {
+            flex-direction: column;
+
+            .buttonIcon-3rUffx {
+                margin: 0 0 10px 0;
+            }
+        }
+    }
+}
+
+.root-1CAIjD > form:first-child > .modalTitle-nz51Yi:first-child {
+    padding: 32px;
+
+    h1.title-lXcL8p {
+        font-size: 22px;
+            font-weight: 700;
+            text-transform: capitalize;
+            letter-spacing: 0;
+            line-height: 24px;
+    }
+}

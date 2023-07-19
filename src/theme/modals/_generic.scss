@@ -7,6 +7,7 @@
         background: linear-gradient(to right, hsl(192, 100%, 50%) 0%, hsl(225, 100%, 60%) 100%);
         position: absolute;
         z-index: 102;
+        top: 0;
     }
 }
 
@@ -24,6 +25,12 @@
 .root-1CAIjD {
     @include modalTopBar;
     border-radius: 0;
+
+    --text-link: hsl(197, 88%, 70%);
+    a:hover {
+        text-decoration:none;
+        --text-link: hsl(197, 100%, 85%);
+    }
 
     .close-A4ZfTI {
         position: absolute;
@@ -52,6 +59,7 @@
         [data-text-variant="heading-lg/semibold"] {
             font-size: 22px;
             font-weight: 700;
+            line-height: 24px;
         }
     }
 

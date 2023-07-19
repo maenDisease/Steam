@@ -15,6 +15,14 @@
     font-weight: 600;
 }
 
+.automodMessage-265YwJ:before,
+.ephemeral-2nDdnn:before,
+.highlighted-1TaRLI:before,
+.mentioned-Tre-dv:before,
+.replying-eZ7p5z:before {
+    display: none;
+}
+
 #app-mount .botTagRegular-kpctgU {
     background-color: hsl(calc(var(--accent-hue) + 5), 29%, 42%);
     border: 1px solid hsl(calc(var(--accent-hue) + 5), 34%, 60%);
@@ -38,7 +46,13 @@
         background: var(--message-background-gradient-blue);
     }
 
+    &.automodMessage-265YwJ,
     &:has(.communicationDisabled-2KRN2p) {
+        background: var(--message-background-gradient-red);
+    }
+
+    &:has(.button-3bklZh.dangerous-Y36ifs:hover),
+    &:has(.button-3bklZh.dangerous-Y36ifs:active) {
         background: var(--message-background-gradient-red);
     }
 
@@ -58,11 +72,6 @@
 
 .hoverButtonGroup-2yZIzC {
     border-radius: 3px;
-}
-
-.mentioned-Tre-dv:before,
-.replying-eZ7p5z:before {
-    display: none;
 }
 
 #app-mount .groupStart-3Mlgv1 {
@@ -147,6 +156,11 @@
 
     &.selected-69H4ua {
         background-color: hsla(var(--accent-hue), 87%, 68%, 0.4);
+    }
+
+    &.dangerous-Y36ifs:hover {
+        background: var(--status-danger);
+        color: #fff;
     }
 }
 
@@ -312,7 +326,7 @@
     .messageListItem-ZZ7v6g {
         opacity: .5
     }
-    
+
     .message-2CShn3 {
         background: var(--info-danger-background);
         border: 1px solid var(--info-danger-foreground);
@@ -355,4 +369,11 @@
     inset: 0;
     width: 100%;
     opacity: 0
+}
+
+.spamBanner-1auiob {
+    background: var(--message-background-gradient-red);
+    -webkit-box-shadow: 2px 2px 15px rgba(0, 0, 0, 0.4);
+    box-shadow: 2px 2px 15px rgba(0, 0, 0, 0.4);
+    border-radius: 4px;
 }

@@ -1,0 +1,30 @@
+.scroller-2GkvCq {
+    background: none;
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
+    padding: 0;
+}
+
+.reactors-1VXca7 {
+    background: none;
+    border-radius: 0;
+}
+
+.reactionDefault-1Sjj1f, .reactionSelected-1aMb2K {
+    margin-bottom: 0;
+    border-radius: 0;
+    padding: 5px 8px;
+}
+
+.reactionDefault-1Sjj1f {
+    &:hover {
+        background: rgba(255, 255, 255, 0.2);
+    }
+}
+
+.reactionSelected-1aMb2K {
+    background: hsla(var(--accent-hue), 88%, 68%, 0.4);
+    [data-text-variant="text-sm/bold"] {
+        color: #fff;
+    }
+}

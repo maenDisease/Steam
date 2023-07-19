@@ -1,0 +1,58 @@
+#app-mount {
+    .lookLink-13iF2K.colorTransparent-2SBJ8-:hover .contents-3NembX {
+        --button--underline-color: none;
+    }
+}
+
+.root-1CAIjD {
+    .contentWrapper-3oy4Xo {
+        background: var(--modal-background);
+        border-radius: 0;
+
+        .guildIcon-3bwCCn {
+            background-color: #3d4450;
+            box-shadow: 0 0 5px 0 #000000;
+            margin-bottom: 15px;
+
+            .icon-1zKOXL {
+                border-radius: 0;
+            }
+        }
+
+        .title-3FQ39e {
+            font-size: 22px;
+            font-weight: 700;
+            margin-top: 10px;
+        }
+
+        .activityCount-2n5Mj9 {
+            margin-top: 10px;
+        }
+        
+        .pillMessage-3pHz6R {
+            font-size: 14px;
+            line-height: 18px;
+        }
+
+        .noThanksButton-Iu22pq {
+            width: 100%;
+        }
+
+        .button-ejjZWC {
+            height: 34px;
+            min-height: 34px;
+            padding: 8px 14px;
+
+            &.lookLink-13iF2K {
+                background: hsla(222, 10%, 26%, 0.5);
+                transition: background 200ms ease-in-out, box-shadow 200ms ease-in-out;
+
+                &:hover {
+                    background: #464d58;
+                    color: #fff;
+                    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.3);
+                }
+            }
+        }
+    }
+}

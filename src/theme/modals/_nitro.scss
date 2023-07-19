@@ -1,0 +1,157 @@
+.root-1CAIjD:has(.tier2HeaderBackground-2XINxm) {
+    --text-muted: #ffffff7a;
+
+    .header-1ffhsl:has(.headerBackground-131uxy) {
+        box-shadow: none;
+        border-radius: 0;
+        padding: 0;
+        position: absolute;
+        inset: 0;
+        height: 100%;
+        z-index: -1;
+
+        +div {
+            margin-top: 87px;
+        }
+
+        .headerBackground-131uxy {
+            inset: 0;
+            height: 100%;
+            padding: 32px;
+            box-sizing: border-box;
+        }
+
+        .headerAnimation-3DVb6i {
+            position: absolute;
+            inset: 0;
+            min-width: unset;
+            -webkit-transform: none;
+            transform: none;
+
+            .panningAnimation-1pMfvn {
+                position: absolute;
+                inset: 0;
+                overflow: hidden;
+                max-height: 100px;
+                margin-top: auto;
+            }
+
+            .sequencedAnimation-f_FX_M {
+                position: absolute;
+                inset: 0;
+                max-height: 100px;
+            }
+        }
+    }
+
+    .paymentNote-3dcb-Z {
+        padding: 0 32px 0 32px;
+    }
+
+    .breadcrumb.wrapper-wOVKdL {
+        padding: 10px 32px 0 32px;
+
+        &::after {
+            display: none;
+        }
+    }
+
+    .content-1OG56Q>[style^="position: relative; width:"] {
+        width: 100% !important;
+
+        >[style^="position: absolute;"] {
+            position: relative !important;
+            left: unset !important;
+            right: unset !important;
+        }
+    }
+
+    .sliderBody-1SR1Ot {
+        width: 100%;
+    }
+
+    [role="radiogroup"] {
+        display: flex;
+        flex-direction: row;
+        gap: 10px;
+    }
+
+    .planOptionClickableContainer-O-50CZ {
+        background: rgba(255, 255, 255, .0588235294);
+        border-radius: 3px;
+        padding: 20px;
+        flex-basis: calc(50% - 20px);
+        position: relative;
+        transition: background 200ms ease-in-out, box-shadow 200ms ease-in-out;
+
+        &:hover {
+            background: rgba(255, 255, 255, .2);
+            box-shadow: 0 4px 8px 0 rgb(0 0 0 / 20%);
+        }
+
+        &[aria-checked="true"] {
+            background: #fff;
+            box-shadow: none;
+
+            .optionSelected-2AMHHJ {
+                color: #1b1b1b;
+            }
+
+            .planOptionDiscount-2nex9n {
+                color: #1b1b1b !important;
+            }
+        }
+    }
+
+    .checkboxWrapper-3zdYym {
+        position: absolute;
+        inset: 0;
+        height: 100%;
+        width: 100%;
+        opacity: 0;
+        margin: 0;
+    }
+
+    .planOptionInterval-3QyrC0 {
+        color: #1b1b1b;
+        font-weight: 400;
+        font-size: 20px;
+        position: absolute;
+        top: 0;
+        right: 0;
+    }
+
+    .planOption-187LtR {
+        flex-direction: column-reverse;
+        position: relative;
+        padding: 0;
+        align-items: start;
+        color: #ffffff7a;
+        font-size: 20px !important;
+    }
+
+    .planOptionDiscount-2nex9n {
+        background: none;
+        border-radius: 0;
+        padding: 0;
+        margin: 0;
+    }
+
+    .totalLabel-2RGUEh {
+        color: #ffffff7a;
+    }
+
+    .wrap-7NZuTn:has(.cardIcon-1d-mcG) {
+
+        button {
+            background: rgba(255, 255, 255, .0588235294);
+            border-radius: 3px;
+
+            &:hover {
+                color: #1b1b1b;
+                background: #fff;
+                box-shadow: 0 4px 8px 0 rgb(0 0 0 / 20%);
+            }
+        }
+    }
+}

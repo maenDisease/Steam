@@ -1,0 +1,15 @@
+.input-3r5zZY {
+    font-size: 20px;
+    border-radius: 2px;
+    background: rgba(59, 63, 72, .5);
+
+    &:hover {
+        background: rgba(67, 73, 83, .6);
+    }
+
+    &:focus,
+    &:focus-within {
+        background: #23262e;
+        box-shadow: inset 1px 1px 4px #000a;
+    }
+}

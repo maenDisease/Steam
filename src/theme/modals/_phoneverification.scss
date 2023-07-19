@@ -1,0 +1,42 @@
+.phoneVerificationModal-3OHeBt {
+    margin: 0;
+    padding: 0;
+    transform: none !important;
+    
+    .animationContainer-2Fe_Bk {
+        position: absolute;
+        top: 0 !important;
+        right: 0 !important;
+        left: unset !important;
+        bottom: unset !important;
+        height: 72px;
+        width: 124px;
+    }
+
+    .title-2UGWXc {
+        font-size: 22px;
+            font-weight: 700;
+            line-height: 24px;
+            margin: 0;
+            padding: 32px;
+            width: calc(100% - 32px * 2);
+    }
+
+    .description-krHRyL {
+        width: calc(100% - 32px * 2);
+        padding: 0 32px;
+        margin-bottom: 10px;
+        text-align:left;
+        --text-normal: #acb2b8;
+        font-size: 14px;
+        line-height: 18px;
+
+        strong {
+            color: #fff;
+        }
+    }
+
+    .phoneField-3NAPDv {
+        margin: 32px;
+    }
+}

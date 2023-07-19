@@ -207,12 +207,14 @@
     font-weight: 500;
 }
 
-#app-mount .key-RP8gj3 {
-    background: none;
-    border: none;
-    padding: 0 2px;
-    box-shadow: none;
-    min-height: unset;
+#app-mount .matchingPostsRow-2IiEQ1 {
+    .key-RP8gj3 {
+        background: none;
+        border: none;
+        padding: 0 2px;
+        box-shadow: none;
+        min-height: unset;
+    }
 }
 
 .tagsSpacer-38ovAE:first-child {
@@ -376,6 +378,7 @@
             gap: 0;
 
             .author-2kHvde {
+
                 [data-text-variant="text-sm/semibold"],
                 [data-text-variant="text-sm/normal"] {
                     font-size: 12px;

@@ -1,0 +1,86 @@
+#app-mount {
+    .keyboardShortcutsModal-2CRmCm {
+        background: var(--modal-background);
+    }
+
+    .modalSubtitle-2lx7qk {
+        border-bottom: none;
+    }
+}
+
+.keyboardShortcutsModal-2CRmCm {
+    .modalTitle-2skSKy {
+        margin: 0;
+        padding: 32px 32px 0 32px;
+        font-size: 22px;
+        font-weight: 700;
+        line-height: 24px;
+    }
+
+    .modalSubtitle-2lx7qk {
+        padding: 0 32px 32px 32px;
+        font-size: 14px;
+        line-height: 18px;
+        color: var(--header-secondary);
+    }
+
+    .keyboardShortcutList-3VFAYS {
+        column-count: unset;
+        column-gap: unset;
+        display: flex;
+        flex-flow: row wrap;
+        gap: var(--gap);
+
+        --gap: 20px;
+        --columns: 3;
+    }
+
+    .keyboardShortcutListGroup-2m9BJ_ {
+        background: hsla(222, 10%, 26%, 0.5);
+        border-radius: 2px;
+        padding: 8px 24px 10px 16px;
+        margin: 0;
+        height: fit-content;
+        flex-grow: 1;
+        width: calc((100% / var(--columns)) - var(--gap) + (var(--gap) / var(--columns)));
+    }
+
+    .keybindGroup-39HP2U {
+        [data-text-variant="heading-md/semibold"] {
+            font-size: 16px;
+            font-weight: 400;
+            line-height: 20px;
+        }
+
+        .keybindGroupDescription-1P2Y6A {
+            font-size: 13px;
+            line-height: 18px;
+            font-weight: 400;
+            color: var(--text-muted);
+            margin: 0;
+        }
+    }
+
+    .divider-3nqZNm {
+        display: none;
+    }
+}
+
+#app-mount .key-RP8gj3 {
+    background: var(--btn-brand);
+    border: none;
+    padding: 3px 6px 4px;
+    border-radius: 2px;
+    box-shadow: inset 0 -1px 0 var(--brand-experiment);
+}
+
+#app-mount .combo-3PNrpQ {
+    color: var(--btn-brand-text);
+    font-weight: 400;
+
+    .key-RP8gj3:active {
+        height: unset;
+        color: #fff;
+        background: var(--btn-brand-hover-gradient);
+    }
+}
