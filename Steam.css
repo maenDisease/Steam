@@ -5544,10 +5544,6 @@ body #app-mount .layer-86YKbF ~ .layer-86YKbF .sidebar-nqHbhN:has(.socialLinks-3
   height: unset !important;
 }
 
-#app-mount .lookLink-13iF2K.colorTransparent-2SBJ8-:hover .contents-3NembX {
-  --button--underline-color: none;
-}
-
 .root-1CAIjD .contentWrapper-3oy4Xo {
   background: var(--modal-background);
   border-radius: 0;
@@ -6010,14 +6006,66 @@ body #app-mount .layer-86YKbF ~ .layer-86YKbF .sidebar-nqHbhN:has(.socialLinks-3
 }
 
 .sourceContainer-1uqUbz {
-  padding: 0 24px 0 32px;
+  padding: 10px 24px 0 32px;
   gap: 10px;
 }
 
 .tile-3POX2m {
   background: hsla(222, 10%, 26%, 0.5);
   padding: 6px;
+  border-radius: 2px;
   flex: 0 1 calc(50% - 5px) !important;
+  max-width: calc(50% - 5px);
+  transition: background 200ms ease-in-out, box-shadow 200ms ease-in-out;
+}
+.tile-3POX2m:hover {
+  background: #464d58;
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.3);
+}
+.tile-3POX2m .sourceThumbnail-ERDcZE {
+  border-radius: 2px;
+  box-shadow: inset 0 0 0 1px transparent;
+}
+.tile-3POX2m .sourceName-3Wf8QG {
+  margin-top: 10px;
+  width: 100%;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 18px;
+  color: var(--header-secondary);
+}
+
+.modalSize-3WSXDU form {
+  height: 100%;
+}
+.modalSize-3WSXDU form > [style^="position: relative;"] {
+  height: calc(100% - 94px - 98px) !important;
+}
+.modalSize-3WSXDU form > [style^="position: relative;"] > [style^="position: absolute;"] {
+  position: relative !important;
+  top: unset !important;
+  left: unset !important;
+  right: unset !important;
+  transform: none !important;
+  width: 100% !important;
+  height: 100%;
+}
+.modalSize-3WSXDU form > [style^="position: relative;"] .modalSize-3WSXDU {
+  width: 100%;
+  height: 100%;
+  overflow: hidden scroll;
+}
+
+.modalContent-2y3sGW {
+  padding: 0 32px;
+}
+
+.warning-1ALdC6 {
+  padding: 10px 32px 0 32px;
+}
+
+.warningIcon-3vNf04 {
+  color: #ffc82c;
 }
 
 #app-mount [id^=popout] > [aria-modal=true] > div:not(.spinner-2ID8f1) {
@@ -6374,15 +6422,24 @@ body #app-mount .layer-86YKbF ~ .layer-86YKbF .sidebar-nqHbhN:has(.socialLinks-3
 }
 
 .button-1EGGcP.buttonColor-3bP3fX,
-.button-1EGGcP .buttonColor-3bP3fX {
+.button-1EGGcP .buttonColor-3bP3fX,
+.button-ejjZWC.lookLink-13iF2K.lowSaturationUnderline-Z6CW6z.colorPrimary-2-Lusz {
   color: #dfe3e6;
   background: hsla(222, 10%, 26%, 0.5);
 }
 .button-1EGGcP.buttonColor-3bP3fX:hover,
-.button-1EGGcP .buttonColor-3bP3fX:hover {
+.button-1EGGcP .buttonColor-3bP3fX:hover,
+.button-ejjZWC.lookLink-13iF2K.lowSaturationUnderline-Z6CW6z.colorPrimary-2-Lusz:hover {
   background: #464d58;
   color: #fff;
   box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.3);
+}
+
+#app-mount .lookLink-13iF2K.colorTransparent-2SBJ8-:hover .contents-3NembX {
+  --button--underline-color: none;
+}
+#app-mount .lookLink-13iF2K.colorPrimary-2-Lusz:hover .contents-3NembX {
+  --button--underline-color: none;
 }
 
 .lookFilled-1H2Jvj,
