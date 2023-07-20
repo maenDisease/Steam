@@ -1,0 +1,122 @@
+.root-1CAIjD:has(img[alt="characters playing a game"]) {
+    .shelfTopBackground-R55ED9 {
+        position: absolute;
+        top: 16px;
+        right: 40px;
+        left: unset;
+        margin: 0;
+        width: 120px;
+    }
+
+    .header-1ffhsl {
+        .headerTextContainer-16tB2v {
+            -webkit-box-align: start;
+            align-items: start;
+            width: calc(100% - 140px);
+
+            .activityShelfTitle-1rkbSI {
+                justify-content: left;
+                margin-top: 0;
+            }
+
+            h1 {
+                font-size: 22px;
+                font-weight: 700;
+                line-height: 24px;
+            }
+
+            [data-text-variant="text-sm/normal"] {
+                font-size: 14px;
+                line-height: 18px;
+                color: var(--header-secondary);
+            }
+        }
+    }
+
+    .modalDivider-MtZbPb {
+        display: none;
+    }
+
+    .scrollBackgroundContainer-1gy1Hx {
+        display: none;
+    }
+
+    .scroller-3oxliS {
+        overflow: overlay !important;
+    }
+
+    .scrollSection-HnJkHK {
+        padding-left: 32px;
+        padding-right: 32px;
+        padding-bottom: 32px;
+    }
+
+    .shelf-3D6g4D {
+        display: grid;
+        margin-top: 1em;
+        margin-bottom: 1em;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 10px;
+    }
+
+    .activityItem-1Z9CTr {
+        width: unset;
+        height: fit-content;
+        border-radius: 2px;
+        background: hsla(222, 10%, 26%, 0.5);
+        padding: 6px;
+        -webkit-box-shadow: none;
+        box-shadow: none;
+        transition: background 200ms ease-in-out, box-shadow 200ms ease-in-out;
+
+        &:hover {
+            background: #464d58;
+            box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.3);
+        }
+
+        .activityImageContainer-3FIpli {
+            border-radius: 2px;
+            margin-bottom: 10px;
+        }
+
+        .activityTextContainer-2l4Dnr {
+            padding: 0;
+        }
+
+        .activityName-16mAQo {
+            width: 100%;
+            justify-content: center;
+        }
+
+        .activityTitleText-3LZ9o5 {
+            font-size: 16px;
+            font-weight: 400;
+            line-height: 20px;
+        }
+
+        .activitySubtitleText-r0WHTk {
+            max-height: unset;
+            margin-bottom: 10px;
+            font-size: 14px;
+            font-weight: 400;
+            line-height: 18px;
+            color: var(--header-secondary);
+
+        }
+
+        .activityTagsContainer-2tHK0W {
+            width: 100%;
+            justify-content: center;
+        }
+
+        .activityTag-3C3YK5 {
+            background-color: rgba(0, 0, 0, 0.2);
+            border-radius: 2px;
+            height: 20px;
+            padding: 0 6px;
+            font-size: 12px;
+            line-height: 20px;
+            font-weight: 400;
+        }
+    }
+}

@@ -101,17 +101,18 @@
             }
         }
     }
+}
 
-    .tierComparisonTable-1gMWkk {
-        padding: 24px;
-        margin-bottom: 0;
-        max-width: unset;
-        width: 100%;
-        padding: 5em;
-        background: linear-gradient(137.42deg, #3209d9 0%, #0b5f42 60%, #b0d909 100%);
-        background-size: 300% 300%;
-        animation: nitroGradient 20s ease infinite;
-    }
+.tierComparisonTable-1gMWkk,
+.tierComparisonTable-13SiXF {
+    padding: 24px;
+    margin-bottom: 0;
+    max-width: unset;
+    width: 100%;
+    padding: 5em;
+    background: linear-gradient(137.42deg, #3209d9 0%, #0b5f42 60%, #b0d909 100%);
+    background-size: 300% 300%;
+    animation: nitroGradient 20s ease infinite;
 
     .columnHeading-1mydnJ {
         padding-bottom: 0;
@@ -171,45 +172,46 @@
             color: #ffffff7a;
         }
     }
+}
 
-    .wrapper-3ViBpj {
-        border-radius: 0;
-        margin-bottom: 0;
-    }
+.wrapper-3ViBpj {
+    border-radius: 0;
+    margin-bottom: 0;
+    padding: 4em 5em;
+}
 
-    .card-2ZCHT- {
-        background: rgba(255, 255, 255, .0588235294);
-        border-radius: 3px;
-        padding: 20px;
-        --text-normal: #fff;
-    }
+.card-2ZCHT- {
+    background: rgba(255, 255, 255, .0588235294);
+    border-radius: 3px;
+    padding: 20px;
+    --text-normal: #fff;
+}
 
-    .faq-29l_f8 {
-        border-radius: 0;
-        background: none;
-        padding: 4em 5em;
-    }
+.wrapper-2r1p30 {
+    border-radius: 0;
+    background: none;
+    padding: 4em 5em;
+}
 
-    .list-3omFaz {
-        border-top: none;
-    }
+.list-3omFaz {
+    border-top: none;
+}
 
-    .listItem-2_Y_Te {
-        border-bottom: thin solid #23262e;
-    }
+.listItem-2_Y_Te {
+    border-bottom: thin solid #23262e;
+}
 
-    .question-1Ociyu {
-        font-size: 16px;
-        line-height: 20px;
-        font-weight: 700;
-    }
+.question-1Ociyu {
+    font-size: 16px;
+    line-height: 20px;
+    font-weight: 700;
+}
 
-    .answer-3VW8AS {
-        font-size: 13px;
-        line-height: 18px;
-        font-weight: 400;
-        --text-normal: var(--text-muted);
-    }
+.answer-3VW8AS {
+    font-size: 13px;
+    line-height: 18px;
+    font-weight: 400;
+    --text-normal: var(--text-muted);
 }
 
 .perkPreviewImage-2jd1Tx {
