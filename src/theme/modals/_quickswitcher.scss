@@ -35,7 +35,7 @@
         font-weight: 400;
 
         &[aria-selected=true] {
-            background: #464d58;
+            background: var(--btn-grey-hover);
             border-radius: 2px;
 
             .contentDefault-17ewQQ {

@@ -1,5 +1,7 @@
 .chat-2ZfjoI {
     background: none;
+    overflow: visible;
+    max-width: var(--content-width);
 }
 
 .chatContent-3KubbW {
@@ -155,7 +157,7 @@
     height: fit-content;
     margin-left: 24px;
     margin-right: 24px;
-    max-width: 940px;
+    max-width: var(--content-width);
 
     .image-3HC6rC {
         margin: -45px 0 15px 0;

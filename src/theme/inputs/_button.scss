@@ -12,14 +12,14 @@
 
 .button-1EGGcP.buttonColor-3bP3fX,
 .button-1EGGcP .buttonColor-3bP3fX,
-.button-ejjZWC.lookLink-13iF2K.lowSaturationUnderline-Z6CW6z.colorPrimary-2-Lusz {
+.button-ejjZWC.lookLink-13iF2K.lowSaturationUnderline-Z6CW6z.colorPrimary-2-Lusz:not(.fieldButton-14lHvK) {
     color: #dfe3e6;
-    background: hsla(222, 10%, 26%, 0.5);
+    background: var(--btn-grey);
 
     &:hover {
-        background: #464d58;
+        background: var(--btn-grey-hover);
         color: #fff;
-        box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.3);
+        box-shadow: var(--btn-grey-boxshadow);
     }
 }
 

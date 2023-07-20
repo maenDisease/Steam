@@ -26,12 +26,12 @@
     height: 34px;
     opacity: 1;
     border-radius: 2px;
-    background: hsla(222, 10%, 26%, 0.5);
+    background: var(--btn-grey);
     transition: background 200ms ease-in-out;
 
     &:hover {
-        background: #464d58;
-        box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.3);
+        background: var(--btn-grey-hover);
+        box-shadow: var(--btn-grey-boxshadow);
     }
 
     &.navPrev-3Oe07S {

@@ -4,6 +4,9 @@
     --accent-brightness: 55%;
 
     --messages-max-width: 640px;
+    --app-gutter: 24px;
+    --app-gutter-negative: calc(var(--app-gutter) * -1);
+    --content-width: 940px;
 
     --background-secondary: hsl(calc(var(--accent-hue) + 22), 9%, 19%);
     --background-tertiary: hsl(calc(var(--accent-hue) + 7), 22%, 12%);
@@ -43,6 +46,10 @@
     --btn-brand: hsla(202, 88%, 68%, 0.2);
     --btn-brand-hover-gradient: linear-gradient(-60deg, hsl(202, 41%, 43%) 5%, hsl(202, 88%, 68%) 95%);
     --btn-brand-text: #67c1f5;
+
+    --btn-grey: rgba(59, 63, 72, .5);
+    --btn-grey-hover: #464d58;
+    --btn-grey-boxshadow: 0 8px 16px 0 rgba(0, 0, 0, 0.3);
 
     --gpColor-Green: hsl(96, 58%, 40%);
     --gpColor-Red: hsl(9, 70%, 50%);

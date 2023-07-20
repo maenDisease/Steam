@@ -17,12 +17,12 @@
 
     .lookFilled-1H2Jvj.colorBrand-2M3O3N {
         color: #dfe3e6;
-        background: hsla(222, 10%, 26%, 0.5);
+        background: var(--btn-grey);
 
         &:hover {
-            background: #464d58;
+            background: var(--btn-grey-hover);
             color: #fff;
-            box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.3);
+            box-shadow: var(--btn-grey-boxshadow);
         }
     }
 }
@@ -132,11 +132,7 @@ body #app-mount {
         padding-top:6px;
         overflow-y: overlay !important;
         max-width: calc(var(--settingsmodalwidth) - 196px);
-
-        &::-webkit-scrollbar {
-            width: 14px;
-        }
-
+        
         &::-webkit-scrollbar-track {
             margin-top: calc(32px * 2 + 24px);
         }

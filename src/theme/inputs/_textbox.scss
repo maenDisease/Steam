@@ -3,7 +3,7 @@
     font-weight: 300;
     line-height: 22px;
     border-radius: 2px;
-    background: rgba(59, 63, 72, .5);
+    background: var(--btn-grey);
     border: none;
     -webkit-transition: none;
     transition: none;
@@ -24,7 +24,7 @@
 }
 
 #app-mount .bioTextArea-dDGOeC {
-    background: rgba(59, 63, 72, .5);
+    background: var(--btn-grey);
     border: none;
     box-shadow: none;
     border-radius: 2px;
@@ -46,7 +46,7 @@
 .cardInput-33x7OF {
     // padding: 10px 9px;
     border-radius: 2px;
-    background: rgba(59, 63, 72, .5);
+    background: var(--btn-grey);
 
     &:hover {
         background: rgba(67, 73, 83, .6);
@@ -66,7 +66,7 @@
     border-radius: 2px;
     padding: 2px;
     position: relative;
-    background: rgba(59, 63, 72, .5);
+    background: var(--btn-grey);
     border: none;
 
     &:hover {

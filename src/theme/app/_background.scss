@@ -10,5 +10,11 @@ body,
 }
 
 .base-2jDfDU {
-    margin: 0 calc(24px + 2vw);
+    display: flex;
+    justify-content: center;
+}
+
+.content-1SgpWY {
+    gap: var(--app-gutter);
+    justify-content: center;
 }

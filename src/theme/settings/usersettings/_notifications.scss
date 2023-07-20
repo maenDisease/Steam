@@ -37,7 +37,7 @@
 
         .soundIcon-1E1d9l {
             opacity: 1;
-            background: hsla(222, 10%, 26%, 0.5);
+            background: var(--btn-grey);
             margin-right: 4px;
             height: 36px;
             width: 36px;
@@ -49,8 +49,8 @@
             transition: background 200ms ease-in-out, box-shadow 200ms ease-in-out;
 
             &:hover {
-                background: #464d58;
-                box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.3);
+                background: var(--btn-grey-hover);
+                box-shadow: var(--btn-grey-boxshadow);
             }
 
             .icon-2-8HDu {

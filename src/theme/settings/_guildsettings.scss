@@ -28,7 +28,7 @@
         justify-content: center;
 
         &:not(.selected-1sf9UK):hover {
-            background: hsla(222, 10%, 26%, 0.5);
+            background: var(--btn-grey);
         }
 
         border-bottom: none;
@@ -46,7 +46,7 @@
             position: absolute;
             height: 100%;
             width: calc(100% / var(--btn-count));
-            background: #464d58;
+            background: var(--btn-grey-hover);
             transition: translate .2s ease;
             border-radius: 2px;
         }

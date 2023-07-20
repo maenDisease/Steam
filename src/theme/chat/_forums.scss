@@ -2,6 +2,19 @@
     background: none;
 }
 
+.list-3FIpnh.scrollerBase-1Pkza4 {
+    overflow: hidden overlay !important;
+
+    &>div:first-child {
+        width: calc(100% - 48px);
+        padding-left: 0;
+    }
+}
+
+.grid-21dB-S>div:first-child, .headerRow-1MKoR-, .list-3FIpnh>div:first-child {
+    min-width: unset;
+}
+
 .loadingCard-3pIp9h {
     background: rgba(0, 0, 0, 0.2);
     border-radius: 2px;

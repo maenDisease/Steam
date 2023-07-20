@@ -14,7 +14,7 @@
     transition: background 200ms ease-in-out, box-shadow 200ms ease-in-out;
     
     &:hover {
-        box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.3);
+        box-shadow: var(--btn-grey-boxshadow);
     }
 }
 
@@ -108,7 +108,7 @@
 }
 
 .bd-select {
-    background: hsla(222, 10%, 26%, 0.5);
+    background: var(--btn-grey);
     border: none;
     font-size: 14px;
     font-weight: 400;
@@ -117,13 +117,13 @@
     transition: background 200ms ease-in-out, box-shadow 200ms ease-in-out;
 
     &:hover {
-        background: #464d58;
+        background: var(--btn-grey-hover);
         color: #fff;
-        box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.3);
+        box-shadow: var(--btn-grey-boxshadow);
     }
 
     &.menu-open {
-        background: hsla(222, 10%, 26%, 0.5);
+        background: var(--btn-grey);
         color: var(--text-normal);
         box-shadow: none;
         cursor: default;
@@ -175,7 +175,7 @@
     font-weight: 300;
     line-height: 22px;
     border-radius: 2px;
-    background: rgba(59, 63, 72, .5);
+    background: var(--btn-grey);
     border: none;
     -webkit-transition: none;
     transition: none;

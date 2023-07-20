@@ -22,7 +22,7 @@
     }
 
     button {
-        background-color: hsla(222, 10%, 26%, 0.5);
+        background-color: var(--btn-grey);
         transition: background-color 200ms ease-in-out, box-shadow 200ms ease-in-out;
         border-radius: 2px;
         width: fit-content;
@@ -35,9 +35,9 @@
         align-items: center;
 
         &:hover {
-            background-color: #464d58;
+            background-color: var(--btn-grey-hover);
             color: #fff;
-            box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.3);
+            box-shadow: var(--btn-grey-boxshadow);
         }
 
         &[aria-label]::after {
@@ -73,7 +73,7 @@
 
 .connectionHeader-Ixbb1s {
     padding: 8px;
-    background: rgba(59, 63, 72, .5);
+    background: var(--btn-grey);
     border-radius: 0;
 
     .connectionAccountLabelContainer-1KuLS6 {

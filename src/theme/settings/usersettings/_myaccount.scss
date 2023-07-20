@@ -97,7 +97,7 @@
 
 .field-21XZwa {
     flex-direction: column;
-    background: hsla(222, 10%, 26%, 0.5);
+    background: var(--btn-grey);
     margin: 0;
     padding: 6px;
     border-radius: 2px;
@@ -140,8 +140,8 @@
     }
 
     &:has(button.lookFilled-1H2Jvj:hover) {
-        background: #464d58;
-        box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.3);
+        background: var(--btn-grey-hover);
+        box-shadow: var(--btn-grey-boxshadow);
     }
 
     .fieldButtonList-28BYbB {

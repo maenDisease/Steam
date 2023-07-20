@@ -63,15 +63,15 @@
         width: unset;
         height: fit-content;
         border-radius: 2px;
-        background: hsla(222, 10%, 26%, 0.5);
+        background: var(--btn-grey);
         padding: 6px;
         -webkit-box-shadow: none;
         box-shadow: none;
         transition: background 200ms ease-in-out, box-shadow 200ms ease-in-out;
 
         &:hover {
-            background: #464d58;
-            box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.3);
+            background: var(--btn-grey-hover);
+            box-shadow: var(--btn-grey-boxshadow);
         }
 
         .activityImageContainer-3FIpli {

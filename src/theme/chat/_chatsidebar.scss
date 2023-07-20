@@ -1,6 +1,19 @@
 .resizeHandle-PBRzPC {
-    width: 16px;
+    width: 0;
     background: none;
+    margin: 0 var(--app-gutter-negative);
+    position: relative;
+
+    &::before {
+        content: '';
+        display: block;
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        left: var(--app-gutter-negative);
+        height: 100%;
+        width: var(--app-gutter);
+    }
 }
 
 .container-3XgAHv {
