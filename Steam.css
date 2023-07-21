@@ -641,6 +641,30 @@ body #app-mount .app-3xd6d0 .base-2jDfDU {
   margin-right: var(--app-gutter);
 }
 
+.bar-wDIGjg {
+  background: #e5e5e5;
+  box-shadow: 0 0 3px #000;
+  padding: 0 6px;
+  border-radius: 3px;
+  opacity: 1;
+}
+.bar-wDIGjg:hover {
+  background: #67c1f5;
+  --interactive-normal: #fff;
+}
+
+.mentionsBar-DpLHCy {
+  --status-danger-text: #fff;
+  background: var(--status-danger);
+}
+.mentionsBar-DpLHCy:hover {
+  background: var(--status-danger);
+}
+
+.barText-1eIsLx {
+  text-transform: capitalize;
+}
+
 .header-3OsQeK {
   position: fixed;
   top: 1px;
