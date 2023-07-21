@@ -3009,6 +3009,10 @@ body #app-mount .app-3xd6d0 .base-2jDfDU {
   background: none;
 }
 
+.card-2TuZPZ:focus .splash-1VADA3, .card-2TuZPZ:hover .splash-1VADA3 {
+  transform: none;
+}
+
 .backdrop-2ByYRN.withLayer-2VVmpp[style="opacity: 0.85; background: var(--black-500);"] {
   opacity: 0.8 !important;
 }
