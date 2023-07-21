@@ -1,0 +1,109 @@
+#app-mount .pageWrapper-2PwDoS {
+    background: none;
+}
+
+.pageWrapper-2PwDoS {
+    max-width: var(--content-width);
+
+    .scroller-3j5xK2 {
+        padding: 0;
+        overflow: hidden overlay !important;
+    }
+}
+
+.searchHeader-3ZIh2x {
+    padding: 32px;
+    margin: 0;
+}
+
+.headerImage-2D5D-v {
+    box-shadow: 0 0 5px 0 #000000;
+}
+
+.card-2TuZPZ {
+    border-radius: 0;
+    box-sizing: content-box;
+    filter: brightness(1) contrast(1);
+    transition-property: filter, box-shadow, transform, background;
+    transition-duration: .6s;
+    transition-timing-function: cubic-bezier(0, 0.73, 0.48, 1);
+    border-top: 1px solid rgba(201, 201, 201, .06);
+    border-bottom: 1px solid rgba(0, 0, 0, .5);
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, .5);
+    transform-origin: 50% 50%;
+    transform-style: preserve-3d;
+    perspective: 300px;
+    perspective-origin: 50%;
+
+    &:hover {
+        transform: rotateX(3deg) translateZ(15px);
+        filter: brightness(1.1) contrast(0.95) saturate(1);
+        box-shadow: 0 14px 12px 0 rgba(0, 0, 0, .3);
+
+        &::before {
+            opacity: .2;
+            transform: rotateZ(210deg) translateX(12%) translateY(32%);
+        }
+    }
+
+    &::before {
+        content: '';
+        display: block;
+        opacity: .1;
+        width: 220%;
+        height: 100%;
+        background: linear-gradient(to bottom, rgba(235, 245, 255, 0) 0%, rgba(235, 245, 255, 0.85) 12px, rgba(235, 245, 255, 0.75) 20%, rgba(210, 210, 210, 0) 60%, rgba(10, 10, 10, 0) 85%, rgba(10, 10, 10, 0.8) 100%);
+        position: absolute;
+        top: 0;
+        left: 0;
+        transform: rotateZ(212deg) translateX(12%) translateY(59%);
+        pointer-events: none;
+        z-index: 10;
+        transition-property: transform, opacity;
+        transition-duration: .6s;
+        transition-timing-function: cubic-bezier(0, 0.73, 0.48, 1);
+    }
+
+    .guildIcon-1nnIAv {
+        foreignObject {
+            mask: none;
+        }
+
+        .iconMask-2fMR98 .svg-lIB-lq {
+            box-shadow: 0 0 5px 0 #000000;
+            background: #fff;
+        }
+    }
+
+    .iconMask-2fMR98 {
+        padding: 0;
+    }
+
+    .button-3bklZh {
+        height: 15px;
+        width: 15px;
+        background: #e5e5e5;
+        border-radius: 3px;
+        box-shadow: 0 0 3px #000;
+
+        &:hover {
+            background: #67c1f5;
+            color: #fff;
+        }
+    }
+}
+
+#app-mount {
+
+    .card-2TuZPZ {
+        background: linear-gradient(-45deg, rgba(64, 121, 153, 1) 5%, rgba(42, 62, 89, 1) 95%);
+
+        &:hover {
+            background: linear-gradient(to right, rgba(56, 107, 135, 1) 5%, rgba(68, 130, 163, 1) 95%)
+        }
+
+        .iconMask-2fMR98 {
+            background: none;
+        }
+    }
+}

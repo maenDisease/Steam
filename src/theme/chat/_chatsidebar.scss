@@ -1,19 +1,7 @@
 .resizeHandle-PBRzPC {
-    width: 0;
+    width: var(--app-gutter);
     background: none;
-    margin: 0 var(--app-gutter-negative);
     position: relative;
-
-    &::before {
-        content: '';
-        display: block;
-        position: absolute;
-        top: 0;
-        bottom: 0;
-        left: var(--app-gutter-negative);
-        height: 100%;
-        width: var(--app-gutter);
-    }
 }
 
 .container-3XgAHv {
@@ -50,4 +38,10 @@
 
 .box-2iMsQm:after, .box-2iMsQm:before {
     display: none;
+}
+
+.iconWrapper-3plkqh {
+    margin-top: 0;
+    border-radius: 0;
+    background: none;
 }
