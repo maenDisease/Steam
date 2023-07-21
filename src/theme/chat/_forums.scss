@@ -11,7 +11,9 @@
     }
 }
 
-.grid-21dB-S>div:first-child, .headerRow-1MKoR-, .list-3FIpnh>div:first-child {
+.grid-21dB-S>div:first-child,
+.headerRow-1MKoR-,
+.list-3FIpnh>div:first-child {
     min-width: unset;
 }
 
@@ -458,6 +460,13 @@
 
 #app-mount .mainCard-3KBsBI:not(.isOpen-2Gyel_, .header-1Uy0p6):hover {
     outline: 1px solid hsl(203, 39%, 41%);
+    outline-offset: -1px;
+}
+
+.container-q2_DnH:not(.isOpen-2Gyel_):hover {
+    .bodyMedia-35rZ5t {
+        clip-path: inset(1px 1px 1px 0);
+    }
 }
 
 // card.onNewMessage
@@ -577,8 +586,10 @@
     z-index: -1;
 }
 
-.container-q2_DnH.isOpen-2Gyel_ .bodyMedia-35rZ5t {
-    clip-path: inset(2px);
+.container-q2_DnH.isOpen-2Gyel_ {
+    .bodyMedia-35rZ5t {
+        clip-path: inset(2px);
+    }
 }
 
 .container-q2_DnH .header-ErMa2_ {
