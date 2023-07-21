@@ -1820,7 +1820,9 @@ body #app-mount .app-3xd6d0 .base-2jDfDU {
   padding-left: 0;
 }
 
-.grid-21dB-S > div:first-child, .headerRow-1MKoR-, .list-3FIpnh > div:first-child {
+.grid-21dB-S > div:first-child,
+.headerRow-1MKoR-,
+.list-3FIpnh > div:first-child {
   min-width: unset;
 }
 
@@ -2210,6 +2212,12 @@ body #app-mount .app-3xd6d0 .base-2jDfDU {
 
 #app-mount .mainCard-3KBsBI:not(.isOpen-2Gyel_, .header-1Uy0p6):hover {
   outline: 1px solid hsl(203, 39%, 41%);
+  outline-offset: -1px;
+}
+
+.container-q2_DnH:not(.isOpen-2Gyel_):hover .bodyMedia-35rZ5t {
+  -webkit-clip-path: inset(1px 1px 1px 0);
+          clip-path: inset(1px 1px 1px 0);
 }
 
 #app-mount .mainCard-3KBsBI:has(.newMessageCount-MJLPvW),
@@ -2914,6 +2922,49 @@ body #app-mount .app-3xd6d0 .base-2jDfDU {
   padding: 0;
 }
 
+.sidebar-1tnWFu:has(.discoverHeader-1vsvZ0) .discoverHeader-1vsvZ0 {
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 16px;
+  text-transform: uppercase;
+  color: var(--channels-category);
+  padding: 16px 16px 0 8px;
+  margin-left: 0;
+  margin-right: 0;
+  margin-bottom: 0;
+}
+.sidebar-1tnWFu:has(.discoverHeader-1vsvZ0) .categoryItem-Kc_HK_ {
+  --header-secondary: var(--channels-default);
+}
+.sidebar-1tnWFu:has(.discoverHeader-1vsvZ0) .categoryItem-Kc_HK_:hover:not(.selected-1-Z6gm) {
+  --channels-default: var(--brand-experiment-260);
+}
+.sidebar-1tnWFu:has(.discoverHeader-1vsvZ0) .categoryItem-Kc_HK_:hover:not(.selected-1-Z6gm) svg {
+  color: var(--channels-default);
+}
+.sidebar-1tnWFu:has(.discoverHeader-1vsvZ0) .categoryItem-Kc_HK_.selected-1-Z6gm {
+  --channels-default: #fff;
+}
+.sidebar-1tnWFu:has(.discoverHeader-1vsvZ0) .categoryItem-Kc_HK_.selected-1-Z6gm .layout-1qmrhw {
+  background: radial-gradient(circle at 0%, hsla(var(--accent-hue), 24%, 43%, 0) 20%, hsla(var(--accent-hue), 24%, 43%, 0.251) 100%);
+}
+.sidebar-1tnWFu:has(.discoverHeader-1vsvZ0) .layout-1qmrhw {
+  border-radius: 0;
+  background: none;
+  padding: 6px 8px;
+}
+.sidebar-1tnWFu:has(.discoverHeader-1vsvZ0) .avatar-6qzftW {
+  width: 16px;
+  height: 16px;
+  margin-right: 6px;
+}
+.sidebar-1tnWFu:has(.discoverHeader-1vsvZ0) .name-3Vmqxm {
+  font-size: 12px;
+  font-weight: 700;
+  line-height: 20px;
+  color: var(--channels-default);
+}
+
 #app-mount .pageWrapper-2PwDoS {
   background: none;
 }
@@ -2923,28 +2974,69 @@ body #app-mount .app-3xd6d0 .base-2jDfDU {
 }
 .pageWrapper-2PwDoS .scroller-3j5xK2 {
   padding: 0;
-  overflow: hidden overlay !important;
 }
 
 .searchHeader-3ZIh2x {
   padding: 32px;
   margin: 0;
 }
+.searchHeader-3ZIh2x .search-25t1e9 .searchBox-31Zv9h {
+  background: var(--btn-grey);
+}
+.searchHeader-3ZIh2x .search-25t1e9:hover .searchBox-31Zv9h {
+  background: var(--btn-grey-hover);
+}
+.searchHeader-3ZIh2x .search-25t1e9 .searchBoxInput-3h4etz {
+  color: #fff;
+  font-weight: 400;
+}
+.searchHeader-3ZIh2x .search-25t1e9 .searchBoxInput-3h4etz::-moz-placeholder {
+  color: #dfe3e6;
+  font-weight: 400;
+}
+.searchHeader-3ZIh2x .search-25t1e9 .searchBoxInput-3h4etz::placeholder {
+  color: #dfe3e6;
+  font-weight: 400;
+}
+.searchHeader-3ZIh2x .search-25t1e9 .input-3O04eu:focus, .searchHeader-3ZIh2x .search-25t1e9 .input-3O04eu:focus-within {
+  background: none;
+  box-shadow: none;
+}
+.searchHeader-3ZIh2x .search-25t1e9 .closeIcon-BMGxx0,
+.searchHeader-3ZIh2x .search-25t1e9 .searchIcon-3X4BYL {
+  color: var(--brand-experiment);
+  height: 18px;
+  width: 18px;
+}
+.searchHeader-3ZIh2x .search-25t1e9 .closeIcon-BMGxx0:hover {
+  color: var(--status-danger);
+}
 
 .headerImage-2D5D-v {
   box-shadow: 0 0 5px 0 #000000;
 }
 
+#app-mount .card-2TuZPZ {
+  background: linear-gradient(-45deg, rgb(64, 121, 153) 5%, rgb(42, 62, 89) 95%);
+}
+#app-mount .card-2TuZPZ:hover {
+  background: linear-gradient(to right, rgb(56, 107, 135) 5%, rgb(68, 130, 163) 95%);
+}
+#app-mount .card-2TuZPZ .iconMask-2fMR98 {
+  background: none;
+}
+
 .card-2TuZPZ {
+  height: 170px;
   border-radius: 0;
+  border-top: 1px solid rgba(201, 201, 201, 0.06);
+  border-bottom: 1px solid rgba(0, 0, 0, 0.5);
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.5);
   box-sizing: content-box;
   filter: brightness(1) contrast(1);
   transition-property: filter, box-shadow, transform, background;
   transition-duration: 0.6s;
   transition-timing-function: cubic-bezier(0, 0.73, 0.48, 1);
-  border-top: 1px solid rgba(201, 201, 201, 0.06);
-  border-bottom: 1px solid rgba(0, 0, 0, 0.5);
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.5);
   transform-origin: 50% 50%;
   transform-style: preserve-3d;
   perspective: 300px;
@@ -2976,16 +3068,77 @@ body #app-mount .app-3xd6d0 .base-2jDfDU {
   transition-duration: 0.6s;
   transition-timing-function: cubic-bezier(0, 0.73, 0.48, 1);
 }
+.card-2TuZPZ:focus .splash-1VADA3, .card-2TuZPZ:hover .splash-1VADA3 {
+  transform: none;
+}
+.card-2TuZPZ .splashImage-_KUn-T,
+.card-2TuZPZ .description-19gINd,
+.card-2TuZPZ .memberInfo-3G3E9W {
+  transition-property: filter, opacity;
+  transition-duration: 0.6s;
+  transition-timing-function: cubic-bezier(0, 0.73, 0.48, 1);
+}
+.card-2TuZPZ:has(.title-2vVOzt:hover) .splashImage-_KUn-T {
+  filter: blur(16px);
+}
+.card-2TuZPZ:has(.title-2vVOzt:hover) .description-19gINd,
+.card-2TuZPZ:has(.title-2vVOzt:hover) .memberInfo-3G3E9W {
+  opacity: 1;
+}
+.card-2TuZPZ .cardHeader-1kPMOm {
+  width: 100%;
+  height: 100%;
+  margin-bottom: 0;
+}
+.card-2TuZPZ .splash-1VADA3 {
+  position: relative;
+}
+.card-2TuZPZ .guildIcon-1nnIAv {
+  bottom: 0;
+}
 .card-2TuZPZ .guildIcon-1nnIAv foreignObject {
   -webkit-mask: none;
           mask: none;
+}
+.card-2TuZPZ .guildIcon-1nnIAv .iconMask-2fMR98 {
+  padding: 0;
 }
 .card-2TuZPZ .guildIcon-1nnIAv .iconMask-2fMR98 .svg-lIB-lq {
   box-shadow: 0 0 5px 0 #000000;
   background: #fff;
 }
-.card-2TuZPZ .iconMask-2fMR98 {
-  padding: 0;
+.card-2TuZPZ .guildInfo-PdhToW {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  padding: 16px 16px 10px 16px;
+}
+.card-2TuZPZ .title-2vVOzt {
+  order: 1;
+  padding-left: 44px;
+  height: 40px;
+}
+.card-2TuZPZ .title-2vVOzt .guildBadge-U9DBt_ {
+  filter: drop-shadow(0 0 5px #000000);
+}
+.card-2TuZPZ .title-2vVOzt .guildName-1sOa9v {
+  text-shadow: 0 0 5px #000000;
+  overflow: visible;
+}
+.card-2TuZPZ .memberInfo-3G3E9W {
+  margin-bottom: 10px;
+}
+.card-2TuZPZ .description-19gINd,
+.card-2TuZPZ .memberInfo-3G3E9W {
+  opacity: 0;
+  text-shadow: 0px 1px 2px rgba(0, 0, 0, 0.3);
+  --header-secondary: #fff;
+}
+.card-2TuZPZ .actionButtons-3ILsbw {
+  z-index: 1;
+}
+.card-2TuZPZ .wrapper-2vIMkT {
+  overflow: visible;
 }
 .card-2TuZPZ .button-3bklZh {
   height: 15px;
@@ -2997,20 +3150,6 @@ body #app-mount .app-3xd6d0 .base-2jDfDU {
 .card-2TuZPZ .button-3bklZh:hover {
   background: #67c1f5;
   color: #fff;
-}
-
-#app-mount .card-2TuZPZ {
-  background: linear-gradient(-45deg, rgb(64, 121, 153) 5%, rgb(42, 62, 89) 95%);
-}
-#app-mount .card-2TuZPZ:hover {
-  background: linear-gradient(to right, rgb(56, 107, 135) 5%, rgb(68, 130, 163) 95%);
-}
-#app-mount .card-2TuZPZ .iconMask-2fMR98 {
-  background: none;
-}
-
-.card-2TuZPZ:focus .splash-1VADA3, .card-2TuZPZ:hover .splash-1VADA3 {
-  transform: none;
 }
 
 .backdrop-2ByYRN.withLayer-2VVmpp[style="opacity: 0.85; background: var(--black-500);"] {
