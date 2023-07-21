@@ -1,6 +1,28 @@
 .privateChannels-oVe7HL {
     background: none;
+    padding-top: 16px;
 
+    .searchBar-3TnChZ {
+        height: unset;
+        box-shadow: none;
+    
+        .searchBarComponent-3N7dCG {
+            height: unset;
+            border-radius: 2px;
+            font-size: 14px;
+            font-weight: 400;
+            line-height: 24px;
+            text-align: center;
+            color: var(--btn-brand-text);
+            background: var(--btn-brand);
+    
+            &:hover {
+                background: var(--btn-brand-hover-gradient);
+                color: #fff;
+            }
+        }
+    }
+    
     .scroller-WSmht3 {
         background: none;
     }

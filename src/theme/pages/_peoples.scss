@@ -9,8 +9,8 @@
 
 .sideNavContent-D1tzYo {
     min-width: unset;
-    max-width: 656px;
-    padding: 36px 0 0 0;
+    max-width: var(--content-inner-width);
+    padding: var(--content-gutter) 0 0 0;
 }
 
 .topPill-2vcLsa .item-2GWPIy.themed-qqoYp3 {
@@ -55,6 +55,11 @@
     }
 }
 
+.peopleColumn-1wMU14 {
+    .searchBar-2aylmZ {
+        margin-top: var(--content-gutter);
+    }
+}
 .peopleList-2VBrVI>div {
     display: flex;
     flex-direction: row;
@@ -236,9 +241,9 @@
 
 .nowPlayingColumn-1eCBCN {
     background: linear-gradient(to right, rgba(0, 0, 0, 0.2) 0%, rgba(0, 0, 0, 0.5) 100%);
-    margin-top: 16px;
+    margin-top: var(--content-gutter);
     height: fit-content;
-    max-height: calc(100% - 16px);
+    max-height: calc(100% - var(--content-gutter));
 
     .container-1oAagU {
         background: none;

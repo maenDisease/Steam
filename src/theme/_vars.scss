@@ -3,10 +3,12 @@
     --accent-saturation: 100%;
     --accent-brightness: 55%;
 
-    --messages-max-width: 640px;
     --app-gutter: 24px;
     --app-gutter-negative: calc(var(--app-gutter) * -1);
+    --content-gutter: 16px;
     --content-width: 940px;
+    --content-inner-width: 656px;
+    --messages-max-width: 640px;
 
     --background-secondary: hsl(calc(var(--accent-hue) + 22), 9%, 19%);
     --background-tertiary: hsl(calc(var(--accent-hue) + 7), 22%, 12%);
@@ -50,6 +52,8 @@
     --btn-grey: rgba(59, 63, 72, .5);
     --btn-grey-hover: #464d58;
     --btn-grey-boxshadow: 0 8px 16px 0 rgba(0, 0, 0, 0.3);
+
+    --btn-dark-hover: hsla(var(--accent-hue), 87%, 68%, 0.4);
 
     --gpColor-Green: hsl(96, 58%, 40%);
     --gpColor-Red: hsl(9, 70%, 50%);

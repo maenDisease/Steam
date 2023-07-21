@@ -13,15 +13,103 @@
 }
 
 .wrapper-3Hk9OB:not(:empty) {
-    background: radial-gradient(circle at 0%, rgba(83, 111, 134, 0) 20%, rgba(83, 111, 134, 0.25) 100%);
+    background: radial-gradient(50% 16px at top, hsla(var(--rtc-hsl, 207, 34%, 43%), 0.25) 0%, hsla(var(--rtc-hsl, 207, 24%, 43%), 0) 100%);
     padding: 15px 0 15px 0;
+
+    &::before {
+        content: '';
+        display: block;
+        height: .5px;
+        width: 100%;
+        background: linear-gradient(to right, hsla(var(--rtc-hsl, 225, 100%, 60%), 0) 0%, hsla(var(--rtc-hsl, 192, 100%, 50%), var(--rtc-opacity, .4)) 50%, hsla(var(--rtc-hsl, 225, 100%, 60%), 0) 100%);
+        position: absolute;
+        top: 0;
+    }
+
+    &:has([class*="rtcConnectionStatus"]) {
+        --rtc-opacity: 1;
+    }
+
+    &:has(.rtcConnectionStatusConnected-1c73OK) {
+        --rtc-hsl: 93, 50%, 50%;
+    }
+
+    &:has(.rtcConnectionStatusConnecting-2D7M2N) {
+        --rtc-hsl: 58, 70%, 47%;
+    }
+
+    &:has(.rtcConnectionStatusError-2QNGCS) {
+        --rtc-hsl: 0, 85%, 57%;
+    }
 }
 
 .panels-3wFtMD {
     background: none;
 
+    .connection-3k9QeF {
+        .flex-2S1XBF:has(>button) {
+            gap: 4px;
+        }
+
+        .button-12Fmur.enabled-9OeuTA {
+            background: var(--background-dark-2);
+    
+            &:hover {
+                background: var(--btn-dark-hover);
+            }
+        }
+
+        button.enabled-9OeuTA:has([d*="M21.1169 1.11603L22.8839 2.88403L19.7679 6.00003L22.8839"]) {
+            &:hover {
+                background: var(--status-danger);
+                color: #fff;
+            }
+        }
+    }
+
+    .rtcConnectionQualityFine-3zZrSa {
+        --ping-hsl: 93, 50%, 50%;
+    }
+
+    .rtcConnectionQualityAverage-USzsaD {
+        --ping-hsl: 93, 50%, 37%;
+    }
+
+    .rtcConnectionQualityBad-3fxsmZ {
+        --ping-hsl: 93, 50%, 27%;
+    }
+
+    .ping-2IpLcU {
+        border-radius: 50px;
+        height: 6px;
+        width: 6px;
+        margin: calc(6px + 4px);
+        background: hsl(var(--ping-hsl));
+        filter: drop-shadow(0 0 4px hsla(var(--ping-hsl), 0.8));
+
+        path {
+            display: none;
+        }
+    }
+
+    .rtcConnectionStatusLabel-Nodt6L {
+        font-size: 12px;
+    }
+
     .actionButtons-2vEOUh {
         grid-gap: 4px;
+
+        .button-1EGGcP.buttonColor-3bP3fX {
+            color: var(--btn-brand-text);
+            background: var(--btn-brand);
+            box-shadow: none;
+            transition: none;
+
+            &:hover {
+                background: var(--btn-brand-hover-gradient);
+                color: #fff;
+            }
+        }
     }
 }
 
@@ -134,7 +222,7 @@
         border-bottom: 1px solid var(--background-tertiary-border-bottom);
         border-left: 1px solid var(--background-tertiary-border);
     }
-    
+
     .container-YkUktl::after {
         content: 'Discord';
         position: fixed;
