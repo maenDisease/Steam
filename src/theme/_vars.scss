@@ -19,6 +19,9 @@
     --background-modifier-hover: hsla(var(--accent-hue), 24%, 68%, 0.3);
     --background-modifier-active: var(--background-modifier-hover);
 
+    --code-background: #151f25;
+
+    // --color: #dfe3e6;
     --background-dark-4: rgba(0, 0, 0, .4);
     --background-dark-3: rgba(0, 0, 0, .3);
     --background-dark-2: rgba(0, 0, 0, .2);
@@ -30,6 +33,8 @@
 
     --modal-background: radial-gradient(circle at top left, rgba(74,81,92, 0.4) 0%, rgba(75,81,92,0) 60%), #25282e;
     --modal-footer-background: none;
+
+    --font-code: monospace, Consolas,"Andale Mono WT","Andale Mono","Lucida Console","Lucida Sans Typewriter","DejaVu Sans Mono","Bitstream Vera Sans Mono","Liberation Mono","Nimbus Mono L",Monaco,"Courier New",Courier,monospace;
 
     --text-muted: #8b929a;
     --header-primary: #fff;

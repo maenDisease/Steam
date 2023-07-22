@@ -15,6 +15,7 @@
 .button-ejjZWC.lookLink-13iF2K.lowSaturationUnderline-Z6CW6z.colorPrimary-2-Lusz:not(.fieldButton-14lHvK) {
     color: #dfe3e6;
     background: var(--btn-grey);
+    transition: background 200ms ease-in-out, box-shadow 200ms ease-in-out;
 
     &:hover {
         background: var(--btn-grey-hover);
@@ -31,11 +32,6 @@
     .lookLink-13iF2K.colorPrimary-2-Lusz:hover .contents-3NembX {
         --button--underline-color: none;
     }
-}
-
-.lookFilled-1H2Jvj,
-.lookInverted-2GrLaB {
-    transition: background 200ms ease-in-out, box-shadow 200ms ease-in-out;
 }
 
 .lookFilled-1H2Jvj.colorPrimary-2-Lusz {
