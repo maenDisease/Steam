@@ -11,6 +11,7 @@
 
     .header-2e2w0L {
         margin: 0;
+        max-width: var(--content-inner-width);
     }
 
     .search-kg4MrS {
@@ -26,12 +27,16 @@
 }
 
 .browser-2ea0yq {
+    .scrollerInner-1kQEqs {
+        padding: 0;
+    }
+
     .separator-3vTHjS {
         display: none;
     }
 
     .categoryRow-2VIZ6m {
-        max-width: var(--content-inner-width);
+        max-width: calc(var(--content-inner-width) - 40px);
         background-color: #015e80;
         padding: 10px 20px 10px 20px;
         margin-top: var(--content-gutter);
@@ -55,7 +60,7 @@
     }
 
     .channelRow-4X_3fi {
-        max-width: calc(var(--content-inner-width) - 16px);
+        max-width: calc(var(--content-inner-width) - 16px - 40px);
         background: var(--background-dark-4);
         position: relative;
         padding: 6px calc(20px + 8px);
