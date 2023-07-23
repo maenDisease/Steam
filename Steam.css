@@ -502,8 +502,8 @@ body,
   width: 100%;
   max-height: 142px;
   max-width: 142px;
-  -webkit-mask: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" data-name="Layer 1" viewBox="0 0 36 36"><path d="M18 34.32C9 34.32 1.68 27 1.68 18S9 1.68 18 1.68 34.32 9 34.32 18 27 34.32 18 34.32Zm0-31.63c-8.44 0-15.32 6.87-15.32 15.32S9.55 33.33 18 33.33s15.32-6.87 15.32-15.32S26.45 2.68 18 2.68Zm7.98 7.95c-1.51-.71-3.11-1.2-4.74-1.48-.22.41-.43.83-.61 1.25-1.74-.26-3.51-.26-5.26 0-.19-.43-.39-.85-.61-1.25-1.64.28-3.24.78-4.75 1.48C7 15.15 6.19 19.55 6.6 23.88c1.76 1.32 3.73 2.32 5.82 2.96.47-.64.89-1.33 1.24-2.04-.68-.26-1.34-.57-1.96-.95.17-.12.33-.24.48-.38 3.69 1.76 7.95 1.76 11.63 0 .16.13.32.26.48.38-.63.37-1.29.7-1.96.95.36.72.77 1.4 1.24 2.04 2.09-.64 4.06-1.64 5.82-2.96.48-5.02-.82-9.38-3.42-13.24Zm-11.8 10.58c-1.13 0-2.07-1.06-2.07-2.34 0-1.28.91-2.34 2.07-2.34 1.16 0 2.09 1.06 2.07 2.34 0 1.28-.92 2.34-2.07 2.34zm7.64 0c-1.13 0-2.07-1.06-2.07-2.34 0-1.28.92-2.34 2.07-2.34s2.09 1.06 2.07 2.34c0 1.28-.92 2.34-2.07 2.34z"/></svg>') center/contain no-repeat;
-  mask: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" data-name="Layer 1" viewBox="0 0 36 36"><path d="M18 34.32C9 34.32 1.68 27 1.68 18S9 1.68 18 1.68 34.32 9 34.32 18 27 34.32 18 34.32Zm0-31.63c-8.44 0-15.32 6.87-15.32 15.32S9.55 33.33 18 33.33s15.32-6.87 15.32-15.32S26.45 2.68 18 2.68Zm7.98 7.95c-1.51-.71-3.11-1.2-4.74-1.48-.22.41-.43.83-.61 1.25-1.74-.26-3.51-.26-5.26 0-.19-.43-.39-.85-.61-1.25-1.64.28-3.24.78-4.75 1.48C7 15.15 6.19 19.55 6.6 23.88c1.76 1.32 3.73 2.32 5.82 2.96.47-.64.89-1.33 1.24-2.04-.68-.26-1.34-.57-1.96-.95.17-.12.33-.24.48-.38 3.69 1.76 7.95 1.76 11.63 0 .16.13.32.26.48.38-.63.37-1.29.7-1.96.95.36.72.77 1.4 1.24 2.04 2.09-.64 4.06-1.64 5.82-2.96.48-5.02-.82-9.38-3.42-13.24Zm-11.8 10.58c-1.13 0-2.07-1.06-2.07-2.34 0-1.28.91-2.34 2.07-2.34 1.16 0 2.09 1.06 2.07 2.34 0 1.28-.92 2.34-2.07 2.34zm7.64 0c-1.13 0-2.07-1.06-2.07-2.34 0-1.28.92-2.34 2.07-2.34s2.09 1.06 2.07 2.34c0 1.28-.92 2.34-2.07 2.34z"/></svg>') center/contain no-repeat;
+  -webkit-mask: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 36 36"><path d="M18 34.32C9 34.32 1.68 27 1.68 18S9 1.68 18 1.68 34.32 9 34.32 18 27 34.32 18 34.32Zm0-31.63c-8.44 0-15.32 6.87-15.32 15.32S9.55 33.33 18 33.33s15.32-6.87 15.32-15.32S26.45 2.68 18 2.68Zm7.98 7.95c-1.51-.71-3.11-1.2-4.74-1.48-.22.41-.43.83-.61 1.25-1.74-.26-3.51-.26-5.26 0-.19-.43-.39-.85-.61-1.25-1.64.28-3.24.78-4.75 1.48C7 15.15 6.19 19.55 6.6 23.88c1.76 1.32 3.73 2.32 5.82 2.96.47-.64.89-1.33 1.24-2.04-.68-.26-1.34-.57-1.96-.95.17-.12.33-.24.48-.38 3.69 1.76 7.95 1.76 11.63 0 .16.13.32.26.48.38-.63.37-1.29.7-1.96.95.36.72.77 1.4 1.24 2.04 2.09-.64 4.06-1.64 5.82-2.96.48-5.02-.82-9.38-3.42-13.24Zm-11.8 10.58c-1.13 0-2.07-1.06-2.07-2.34 0-1.28.91-2.34 2.07-2.34 1.16 0 2.09 1.06 2.07 2.34 0 1.28-.92 2.34-2.07 2.34zm7.64 0c-1.13 0-2.07-1.06-2.07-2.34 0-1.28.92-2.34 2.07-2.34s2.09 1.06 2.07 2.34c0 1.28-.92 2.34-2.07 2.34z"/></svg>') center/contain no-repeat;
+  mask: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 36 36"><path d="M18 34.32C9 34.32 1.68 27 1.68 18S9 1.68 18 1.68 34.32 9 34.32 18 27 34.32 18 34.32Zm0-31.63c-8.44 0-15.32 6.87-15.32 15.32S9.55 33.33 18 33.33s15.32-6.87 15.32-15.32S26.45 2.68 18 2.68Zm7.98 7.95c-1.51-.71-3.11-1.2-4.74-1.48-.22.41-.43.83-.61 1.25-1.74-.26-3.51-.26-5.26 0-.19-.43-.39-.85-.61-1.25-1.64.28-3.24.78-4.75 1.48C7 15.15 6.19 19.55 6.6 23.88c1.76 1.32 3.73 2.32 5.82 2.96.47-.64.89-1.33 1.24-2.04-.68-.26-1.34-.57-1.96-.95.17-.12.33-.24.48-.38 3.69 1.76 7.95 1.76 11.63 0 .16.13.32.26.48.38-.63.37-1.29.7-1.96.95.36.72.77 1.4 1.24 2.04 2.09-.64 4.06-1.64 5.82-2.96.48-5.02-.82-9.38-3.42-13.24Zm-11.8 10.58c-1.13 0-2.07-1.06-2.07-2.34 0-1.28.91-2.34 2.07-2.34 1.16 0 2.09 1.06 2.07 2.34 0 1.28-.92 2.34-2.07 2.34zm7.64 0c-1.13 0-2.07-1.06-2.07-2.34 0-1.28.92-2.34 2.07-2.34s2.09 1.06 2.07 2.34c0 1.28-.92 2.34-2.07 2.34z"/></svg>') center/contain no-repeat;
   background: #fff;
   animation: discordSpinnerScale 1.44s cubic-bezier(0.5, 0, 0.5, 1) alternate infinite;
 }
@@ -6143,6 +6143,129 @@ body #app-mount .layer-86YKbF ~ .layer-86YKbF .sidebar-nqHbhN:has(.socialLinks-3
   text-align: center;
 }
 
+#overview-tab [role=radiogroup]:has(.item-1TA5qI)[aria-orientation=vertical] {
+  flex-direction: row;
+}
+#overview-tab [role=radiogroup]:has(.item-1TA5qI) .item-1TA5qI {
+  width: 100%;
+}
+#overview-tab [role=radiogroup]:has(.item-1TA5qI) .item-1TA5qI [data-text-variant="text-md/medium"] {
+  text-align: center;
+}
+#overview-tab h4 .clickable-GCrrEr {
+  display: flex;
+  align-items: center;
+}
+#overview-tab h4 .clickable-GCrrEr .availabilityIndicator-KldT0d {
+  margin-top: 0;
+  border-radius: 0;
+  background: none;
+  box-shadow: 0 0 1px var(--text-muted);
+}
+
+.imageUploaderInner-IIRaFr {
+  border-radius: 0;
+}
+
+.avatarUploaderInnerSquareDisabled-3M9eJS {
+  background: var(--btn-grey);
+}
+
+.select-Zz0IcO .title-3DKv5a,
+.option-Uc12mm .title-3DKv5a {
+  font-size: 14px;
+}
+
+#app-mount .divider--oiTeJ {
+  border-color: #23262e;
+}
+
+.divider--oiTeJ {
+  margin-top: 10px;
+  padding-top: 10px;
+  border-top: thin solid transparent;
+}
+
+#roles-tab .customScroller-m1-jZn > div {
+  margin-left: 24px;
+  margin-right: 24px;
+  max-width: unset;
+  min-width: unset;
+}
+#roles-tab .container-3EtAkD {
+  width: -moz-fit-content;
+  width: fit-content;
+  background-color: var(--background-secondary);
+  color: var(--interactive-normal);
+  border-radius: var(--radius-xs);
+  padding: 16px 24px 16px 16px;
+}
+#roles-tab .rolesTable-11lOYY .memberSpacing-1e6OH3 {
+  display: none;
+}
+#roles-tab .roleRow-230vCm {
+  margin-left: 0;
+  margin-right: 0;
+  border-radius: 0;
+}
+#roles-tab .roleRow-230vCm::before, #roles-tab .roleRow-230vCm::after {
+  opacity: 0;
+}
+#roles-tab .roleRow-230vCm:hover:not(.roleRowDisableHover-3En0vy) {
+  background: #3d4450;
+  transition: background 0.2s linear;
+}
+#roles-tab .roleRow-230vCm .dragIcon-2L691r {
+  color: var(--brand-experiment);
+}
+#roles-tab .roleRow-230vCm .roleIcon-1dWkrr:has(path[d="M19.487 5.126L10.487 0.126C10.184 -0.042 9.81798 -0.042 9.51498 0.126L0.514977 5.126C0.197977 5.302 0.000976562 5.636 0.000976562 5.999C0.000976562 6.693 0.114977 22.999 10.001 22.999C19.887 22.999 20.001 6.693 20.001 5.999C20.001 5.636 19.804 5.302 19.487 5.126ZM10.001 5.999C11.382 5.999 12.501 7.118 12.501 8.499C12.501 9.88 11.382 10.999 10.001 10.999C8.61998 10.999 7.50098 9.88 7.50098 8.499C7.50098 7.118 8.61998 5.999 10.001 5.999ZM6.25098 16C6.25098 13.699 7.69998 12.25 10.001 12.25C12.302 12.25 13.751 13.699 13.751 16H6.25098Z"]) {
+  height: 47px;
+  width: 49px;
+  margin-top: 1px;
+  margin-right: 12px;
+}
+#roles-tab .roleRow-230vCm .roleIcon-1dWkrr:has(path[d="M19.487 5.126L10.487 0.126C10.184 -0.042 9.81798 -0.042 9.51498 0.126L0.514977 5.126C0.197977 5.302 0.000976562 5.636 0.000976562 5.999C0.000976562 6.693 0.114977 22.999 10.001 22.999C19.887 22.999 20.001 6.693 20.001 5.999C20.001 5.636 19.804 5.302 19.487 5.126ZM10.001 5.999C11.382 5.999 12.501 7.118 12.501 8.499C12.501 9.88 11.382 10.999 10.001 10.999C8.61998 10.999 7.50098 9.88 7.50098 8.499C7.50098 7.118 8.61998 5.999 10.001 5.999ZM6.25098 16C6.25098 13.699 7.69998 12.25 10.001 12.25C12.302 12.25 13.751 13.699 13.751 16H6.25098Z"]) path {
+  d: path("M 22 0 L 0 0 L 0 22 L 22 22 Z M 11.001 5.999 C 12.382 5.999 13.501 7.118 13.501 8.499 C 13.501 9.88 12.382 10.999 11.001 10.999 C 9.62 10.999 8.501 9.88 8.501 8.499 C 8.501 7.118 9.62 5.999 11.001 5.999 Z M 7.251 16 C 7.251 13.699 8.7 12.25 11.001 12.25 C 13.302 12.25 14.751 13.699 14.751 16 H 7.251 Z");
+}
+#roles-tab .roleRow-230vCm .roleName-1zfJkq {
+  font-weight: 400;
+  margin-bottom: 20px;
+}
+#roles-tab .roleRow-230vCm .memberCountContainer-2sIXRp {
+  position: absolute;
+  left: 0;
+  margin-top: 22px;
+  margin-left: 93px;
+  color: var(--text-muted);
+}
+#roles-tab .roleRow-230vCm .memberCountContainer-2sIXRp .text-md-normal-2rFCH3 {
+  color: var(--text-muted);
+  font-size: 12px;
+  line-height: 22px;
+  letter-spacing: 0.5px;
+  text-transform: uppercase;
+  font-weight: 700;
+}
+#roles-tab .roleRow-230vCm .person-2z4Mcy {
+  order: -1;
+  margin-left: 0;
+  margin-right: 4px;
+  width: 16px;
+  height: 16px;
+}
+#roles-tab .roleRow-230vCm:hover:not(.roleRowDisableHover-3En0vy) .circleButton-2Yr5A1 {
+  background-color: #67707b;
+}
+#roles-tab .roleRow-230vCm .circleButton-2Yr5A1 {
+  background: var(--btn-grey);
+  color: var(--brand-experiment);
+  transition: background 0.2s linear, box-shadow 200ms ease-in-out;
+  border-radius: 2px;
+}
+#roles-tab .roleRow-230vCm .circleButton-2Yr5A1:hover {
+  background: var(--btn-grey-hover);
+  box-shadow: var(--btn-grey-boxshadow);
+}
 #roles-tab .contentWidth-3aWel5 {
   margin-right: 0;
   max-width: unset;
@@ -7802,6 +7925,9 @@ body #app-mount .layer-86YKbF ~ .layer-86YKbF .sidebar-nqHbhN:has(.socialLinks-3
 }
 .select-Zz0IcO + .icons-2ibyma .dropdownIcon-2sYF18 {
   color: var(--brand-experiment);
+}
+.select-Zz0IcO.searchable-YgS2mV .searchInput-2-KiNf {
+  font-size: 14px;
 }
 .select-Zz0IcO.searchable-YgS2mV input {
   cursor: text;
