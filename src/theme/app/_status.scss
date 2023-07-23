@@ -2,7 +2,21 @@
     content: '';
     position: absolute;
     inset: 0;
-    outline: 1px solid rgba(0,0,0,.3);
+    outline: 1px solid rgba(0, 0, 0, .3);
     outline-offset: -1px;
     z-index: 1;
+}
+
+.chat-2ZfjoI {
+    &::before {
+        content: '';
+        display: block;
+        position: absolute;
+        height: 60px;
+        width: 60px;
+        -webkit-mask: url(https://maendisease.github.io/Steam/illustrations/icns/discord.svg) center/contain no-repeat;
+        mask: url(https://maendisease.github.io/Steam/illustrations/icns/discord.svg) center/contain no-repeat;
+        background: #fff;
+
+    }
 }
