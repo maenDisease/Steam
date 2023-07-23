@@ -1,3 +1,71 @@
+@mixin discordSpinner {
+    &::before {
+        content: '';
+        display: block;
+        position: absolute;
+        inset: 0;
+        margin: auto;
+        z-index: 999;
+        height: 100%;
+        width: 100%;
+        max-height: 142px;
+        max-width: 142px;
+        -webkit-mask: url(https://maendisease.github.io/Steam/illustrations/icns/discordCircle.svg) center/contain no-repeat;
+        mask: url(https://maendisease.github.io/Steam/illustrations/icns/discordCircle.svg) center/contain no-repeat;
+        background: #fff;
+
+        animation: discordSpinnerScale calc(2.88s / 2) cubic-bezier(0.5, 0, 0.5, 1) alternate infinite;
+    }
+
+    &::after {
+        content: '';
+        display: block;
+        position: absolute;
+        inset: 0;
+        margin: auto;
+        z-index: 999;
+        height: 100%;
+        width: 100%;
+        max-height: 142px;
+        max-width: 142px;
+        border-radius: 50%;
+        aspect-ratio: 1;
+        background:
+            radial-gradient(farthest-side, var(--brand-experiment) 94%, #0000) top/40% 20% no-repeat,
+            conic-gradient(#0000 20%, var(--brand-experiment));
+        -webkit-mask: radial-gradient(farthest-side, #0000 calc(100% - 5px), #000 0);
+        animation:
+            discordSpinnerRotate 2.88s cubic-bezier(0.5, 0, 0.5, 1) infinite,
+            discordSpinnerFade calc(2.88s / 2) cubic-bezier(0.5, 0, 0.5, 1) alternate infinite;
+    }
+
+    @keyframes discordSpinnerScale {
+        0% {
+            transform: scale(.8);
+        }
+
+        100% {
+            transform: scale(.7);
+        }
+    }
+
+    @keyframes discordSpinnerRotate {
+        100% {
+            transform: rotate(3turn)
+        }
+    }
+
+    @keyframes discordSpinnerFade {
+        0% {
+            opacity: 0;
+        }
+
+        50% {
+            opacity: 1;
+        }
+    }
+}
+
 #app-mount .wrapper-3Un6-K::before {
     content: '';
     position: absolute;
@@ -8,15 +76,5 @@
 }
 
 .chat-2ZfjoI {
-    // &::before {
-    //     content: '';
-    //     display: block;
-    //     position: absolute;
-    //     height: 60px;
-    //     width: 60px;
-    //     -webkit-mask: url(https://maendisease.github.io/Steam/illustrations/icns/discord.svg) center/contain no-repeat;
-    //     mask: url(https://maendisease.github.io/Steam/illustrations/icns/discord.svg) center/contain no-repeat;
-    //     background: #fff;
-
-    // }
+    // @include discordSpinner;
 }
