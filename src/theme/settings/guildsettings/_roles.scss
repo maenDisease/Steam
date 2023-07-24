@@ -1,3 +1,7 @@
+#app-mount .contentRegion-3HkfJJ .contentRegionScroller-2_GT_N:has(#roles-tab) {
+    padding-top: 0;
+}
+
 #roles-tab {
     .customScroller-m1-jZn>div {
         margin-left: 24px;
@@ -8,10 +12,32 @@
 
     .container-3EtAkD {
         width: fit-content;
-        background-color: var(--background-secondary);
-        color: var(--interactive-normal);
-        border-radius: var(--radius-xs);
+        background: #3d4450;
+        color: #fff;
+        border-radius: 2px;
         padding: 16px 24px 16px 16px;
+
+        .icon-2DGsye {
+            background: none;
+        }
+
+        .description-18M4UD {
+            margin-left: 12px;
+        }
+
+        .label-2Pe5f1,
+        .text-xs-normal-3O7EaX {
+            margin-bottom: 0;
+            font-size: 14px;
+            font-weight: 600;
+            color: #fff;
+            line-height: 18px;
+        }
+
+        .arrow-2v2Yl2 {
+            margin-left: 12px;
+            color: var(--brand-experiment);
+        }
     }
 
     .rolesTable-11lOYY {
@@ -101,11 +127,130 @@
         }
     }
 
+    .page-15bX59 {
+        min-width: unset;
+    }
+
+    .sidebar-3K3Z4C {
+        margin-left: 24px;
+        padding-top: 24px;
+        flex: 0 0 calc(232px - 24px) !important;
+        border-right: thin solid #23262e;
+
+
+        .titleContainer-3fPic2 {
+            padding: 0 0 10px 0;
+            margin: 0;
+            z-index: 2;
+            background: none;
+        }
+
+        .title-JU0E7C {
+            height: 34px;
+            padding: 8px 14px;
+            border-radius: 2px;
+            color: #dfe3e6;
+            background: var(--btn-grey);
+            transition: background 200ms ease-in-out, box-shadow 200ms ease-in-out;
+
+            &:hover {
+                background: var(--btn-grey-hover);
+                color: #fff;
+                box-shadow: var(--btn-grey-boxshadow);
+            }
+
+            svg {
+                height: 18px;
+                width: 18px;
+                color: var(--brand-experiment);
+            }
+
+            .titleText-3LapIU {
+                font-size: 14px;
+                font-weight: 400;
+                text-transform: capitalize;
+            }
+        }
+
+        .addRole-viKZpC {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            width: 34px;
+            height: 34px;
+            border-radius: 2px;
+            margin-right: 10px;
+            color: var(--brand-experiment);
+            background: var(--btn-grey);
+            transition: background 200ms ease-in-out, box-shadow 200ms ease-in-out;
+
+            &:hover {
+                background: var(--btn-grey-hover);
+                box-shadow: var(--btn-grey-boxshadow);
+            }
+        }
+
+        .list-1AJFv_ {
+            padding: 0;
+            overflow: scroll auto !important;
+        }
+
+        .row-LoqnA5 {
+            margin: 0;
+            border-radius: 0;
+
+            --interactive-active: var(--header-secondary);
+
+            &:hover:not(.selected-1sf9UK),
+            &:active:not(.selected-1sf9UK)titleContainer-3fPic2 {
+                background: #DCDEDF;
+                --interactive-hover: #3D4450;
+                --interactive-active: #3D4450;
+                --header-primary: #3D4450;
+            }
+
+            &.selected-1sf9UK {
+                background: #3d4450;
+                color: #fff;
+                --header-primary: #fff;
+                --interactive-active: #fff;
+            }
+        }
+    }
+
     .contentWidth-3aWel5 {
         margin-right: 0;
         max-width: unset;
         width: 100%;
         padding-right: 24px;
+    }
+
+    .header-JUTO-g {
+        margin-left: 0;
+        padding: 24px 0 0 0;
+        margin-right: 0;
+        background: var(--background-tertiary);
+    }
+
+    .titleContainer-16mFj2 {
+        margin-bottom: 10px;
+
+        .titleText-35PD5k {
+            text-transform: capitalize;
+        }
+    }
+
+    .warning-RBGtx2 {
+        margin-bottom: 10px;
+        .text-sm-medium-2-Xzsi {
+            font-weight: 400;
+        }
+    }
+
+    .container-3jbRo5 {
+        border-radius: 2px;
+        padding: 10px;
+        font-weight: 400;
     }
 
     .top-Ktfr_T {
@@ -164,5 +309,73 @@
         &:has(.selected-1sf9UK:nth-child(4)):before {
             translate: 300%;
         }
+    }
+
+    .notice-GALUuA {
+        padding: 0;
+        border-radius: 0;
+        background: none;
+
+        .noticeIcon-3RFp7l {
+            height: 18px;
+            width: 18px;
+            margin-right: 4px;
+            color: var(--info-warning-foreground);
+        }
+
+        [data-text-variant="text-sm/normal"] {
+            font-size: 13px;
+            line-height: 18px;
+            font-weight: 400;
+        }
+
+        .defaultColor-1EVLSt {
+            color: var(--text-muted);
+        }
+    }
+
+    .searchContainer-2kJ46v {
+        margin-top: 10px;
+
+        .container-2oNtJn {
+            padding: 4px 8px;
+            border-radius: 2px;
+            overflow: hidden;
+            background: none;
+            transition: background 200ms ease-in-out, box-shadow 200ms ease-in-out;
+
+            input,
+            input::placeholder {
+                color: #fff;
+                font-size: 16px;
+                line-height: 20px;
+                font-weight: 600;
+            }
+
+            &:hover:not(:focus, :focus-within) {
+                background: var(--btn-grey-hover);
+                box-shadow: var(--btn-grey-boxshadow);
+            }
+
+            &:focus,
+            &:focus-within {
+                background: var(--btn-grey);
+            }
+
+            .iconLayout-3Bjizv.medium-2NClDM,
+            .medium-2NClDM .iconContainer-6pgShY {
+                height: 18px;
+                width: 18px;
+            }
+
+            svg {
+                color: var(--brand-experiment);
+            }
+        }
+    }
+
+    .clearButtonWrapper-3P4Ikn {
+        position: relative;
+        top: unset;
     }
 }

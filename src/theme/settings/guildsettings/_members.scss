@@ -1,0 +1,79 @@
+.sidebarRegion-1VBisG:has(.selected-1sf9UK[aria-controls="members-tab"])+.contentRegion-3HkfJJ {
+    .membersCount-1G86bs {
+        margin-bottom: 0;
+    }
+
+    .quickSelect-384d3G {
+        padding-top: 0;
+        padding-bottom: 0;
+    }
+
+    .searchBar-3joS_I {
+        border-radius: 2px;
+        transition: padding .3s cubic-bezier(0.16, 0.86, 0.43, 0.99);
+
+        &:hover {
+            padding-left: 8px;
+            padding-right: 8px;
+            background: var(--btn-grey-hover);
+            box-shadow: var(--btn-grey-boxshadow);
+        }
+
+        .icon-3CDcPB {
+            color: var(--brand-experiment);
+        }
+    }
+}
+
+#app-mount {
+    .member-2cj2PI {
+        -webkit-box-shadow: none;
+        box-shadow: none;
+
+        .overflowIconFg-29oz-o {
+            fill: var(--brand-experiment);
+        }
+    }
+}
+
+.member-2cj2PI {
+    padding-left: 8px;
+    padding-right: 8px;
+
+    &:hover {
+        background: #3d4450;
+        transition: background .2s linear;
+
+        .overflowIcon-863s2Z {
+            opacity: 1;
+        }
+
+        .role-2TIOKu,
+        .addButton-1_dZYu {
+            background-color: #67707b;
+            transition: background .2s linear;
+        }
+    }
+
+    .name-3IqW9M {
+        font-size: 16px;
+        line-height: 20px;
+    }
+
+    .role-2TIOKu {
+        background: var(--btn-grey);
+        border-radius: 2px;
+    }
+
+    .addButton-1_dZYu {
+        border-radius: 2px;
+        background: var(--btn-grey);
+        color: var(--brand-experiment);
+        transition: background 200ms ease-in-out, box-shadow 200ms ease-in-out;
+
+        &:hover {
+            background: var(--btn-grey-hover);
+            box-shadow: var(--btn-grey-boxshadow);
+        }
+    }
+}

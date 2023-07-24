@@ -1,0 +1,99 @@
+// @use '../container';
+
+.contentRegionScroller-2_GT_N:has(#onboarding-tab) {
+    background: #000;
+}
+
+#app-mount .layer-86YKbF~.layer-86YKbF .contentColumnDefault-3eyv5o#onboarding-tab {
+    padding: 0 !important;
+}
+
+#onboarding-tab {
+    .upsellContainer-3YwRiu {
+        gap: 0;
+    }
+
+    .upsellHeader-3c2px1 {
+        position: relative;
+
+        >* {
+            z-index: 1;
+        }
+
+        &::after {
+            content: '';
+            z-index: 0;
+            position: absolute;
+            inset: 0;
+            width: 100%;
+            height: 100%;
+            background: linear-gradient(135deg, hsl(36, calc(var(--saturation-factor, 1)*95.6%), 64.7%) 48%, hsl(40, calc(var(--saturation-factor, 1)*52.7%), 52.7%) 55%);
+            -webkit-mask: radial-gradient(circle at center, black 0%, transparent calc(45%));
+        }
+
+        .upsellHeaderText-3d63K0 {
+            padding-left: 5em;
+            padding-right: 5em;
+        }
+    }
+
+    .divider-3nqZNm {
+        display: none;
+    }
+
+    .testimonialHeroContainer-18HL2a {
+        background: linear-gradient(137.42deg, #00d5ff 0%, #d0266f 40%, #b9b500 100%);
+        background-size: 300% 300%;
+        animation: nitroGradient 20s ease infinite;
+        max-width: unset;
+        margin-top: 5em;
+        margin-bottom: 0;
+        padding-bottom: 4em;
+        padding-top: 4em;
+        border-radius: 0;
+
+        .animatedContainer-H9qOt8 {
+            background: rgba(255, 255, 255, .0588235294);
+            border-radius: 3px;
+            padding: 20px;
+        }
+
+        .testimonial-3w2QGT {
+            padding: 0;
+            min-height: unset;
+            --header-secondary: var(--header-primary);
+            --interactive-normal: var(--header-primary);
+
+            [data-text-variant="text-sm/medium"] {
+                font-weight: 400;
+            }
+        }
+
+        .testimonialControlIcon-2E0uPq,
+        .testimonialControlInner-2H7p1X {
+            height: 24px;
+            width: 24px;
+        }
+    }
+
+    .valuesContainer-3qp0Oa {
+        background: #fff;
+        padding: 4em 24px;
+
+        .valueText-30a4tl {
+            [data-text-variant="heading-md/semibold"] {
+                font-size: 18px;
+                font-weight: 700;
+                line-height: 20px;
+                color: #1b1b1b;
+            }
+
+            [data-text-variant="text-sm/normal"] {
+                font-size: 13px;
+                line-height: 18px;
+                font-weight: 700;
+                color: #1b1b1b;
+            }
+        }
+    }
+}

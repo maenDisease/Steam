@@ -1,0 +1,105 @@
+#emoji-tab {
+    .title-P3e0Lp {
+        margin-bottom: 0;
+        padding-top: 8px;
+        padding-left: 8px;
+        display: flex;
+        align-items: center;
+        gap: 4px;
+
+        span {
+            color: var(--text-muted);
+        }
+
+        &::after {
+            content: '';
+            height: 2px;
+            margin: 0 10px 0 10px;
+            background: rgba(103, 112, 123, .3);
+            display: flex;
+            flex-grow: 1;
+        }
+    }
+
+    .emojiTable-17v9Y6 {
+        padding-top: 8px;
+        padding-left: 8px;
+        margin-bottom: 0;
+
+        .description-foE_WP {
+            margin-bottom: 0;
+        }
+        
+        .columnLabel-2VUyzo {
+            flex-basis: 40%;
+        }
+    }
+
+    .emojiRow-1aPaM- {
+        padding: 6px 8px;
+        height: 58px;
+        box-shadow: none;
+
+        &:hover {
+            background: #3d4450;
+            transition: background .2s linear;
+        }
+
+        .emojiColumn-2P3Fj1 {
+            flex-basis: unset;
+        }
+
+        .emojiImage-1sHmM- {
+            height: 45px;
+            width: 45px;
+            margin-right: 12px;
+        }
+
+        .emojiAliasInput-3ZhdKx .emojiInput-B8MGXq {
+            opacity: 1;
+        }
+
+        .emojiAliasPlaceholder-3oShSx {
+            display: none;
+        }
+
+        &:not(:hover) {
+            .input-3O04eu {
+                background: none;
+            }
+        }
+
+        .avatar-98occ- {
+            bottom: 2px;
+        }
+
+        .wrapper-3Un6-K::before {
+            display: none;
+        }
+
+        .emojiRowText-3RQpJv {
+            font-size: 12px;
+            line-height: 22px;
+            letter-spacing: .5px;
+            text-transform: uppercase;
+            font-weight: 700;
+        }
+
+        .emojiRemove-D9w3jo {
+            position: relative;
+            top: unset;
+            right: unset;
+            opacity: 1;
+            margin: 8px;
+            border-radius: 2px;
+            box-shadow: none;
+            background-color: #3d4450;
+            flex-shrink: 0;
+        }
+
+        &:has(.emojiRemove-D9w3jo:hover) {
+            background: var(--status-danger);
+            transition: none;
+        }
+    }
+}

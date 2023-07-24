@@ -86,3 +86,17 @@
     line-height: 22px;
     }
 }
+
+.copyInput-3AbKWB {
+    background: var(--btn-grey);
+    border: none;
+    border-radius: 2px;
+
+    input {
+        font-size: 14px;
+    }
+
+    &:hover {
+        background: rgba(67, 73, 83, .6);
+    }
+}

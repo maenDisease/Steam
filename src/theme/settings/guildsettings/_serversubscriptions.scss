@@ -1,0 +1,121 @@
+#app-mount .sidebarRegion-1VBisG:has(.selected-1sf9UK[aria-controls="role_subscriptions-tab"])+.contentRegion-3HkfJJ {
+    .contentColumnDefault-3eyv5o {
+        padding: 0 !important;
+    }
+
+    .contentRegionScroller-2_GT_N {
+        padding-top: 0;
+    }
+}
+
+.sidebarRegion-1VBisG:has(.selected-1sf9UK[aria-controls="role_subscriptions-tab"])+.contentRegion-3HkfJJ {
+    .contentRegionScroller-2_GT_N {
+        background: #000;
+    }
+
+    .settingsContent-2HUX1H {
+        margin-right: 0;
+    }
+
+    .card-ErWTld {
+        background: none;
+        border-radius: 0;
+    }
+
+    .divider-3nqZNm {
+        display: none;
+    }
+
+    div:has(>.howItWorksContainer-3ZDRIG) {
+        background: linear-gradient(137.42deg, #00d5ff 0%, #d0266f 40%, #b9b500 100%);
+        background-size: 300% 300%;
+        animation: nitroGradient 20s ease infinite;
+        max-width: unset;
+        margin-bottom: 0px;
+        padding-bottom: 4em;
+        padding-top: 4em;
+    }
+
+    .howItWorksContainer-3ZDRIG {
+        background: none;
+        border-radius: 0;
+        gap: 20px;
+    }
+
+    .howItWorksCard-WMHpU3 {
+        background: rgba(255, 255, 255, .0588235294);
+        border-radius: 3px;
+        padding: 20px;
+    }
+
+    .howItWorksImageContainer-3U9Rdq {
+        background: none;
+        padding: 0;
+    }
+
+    .howItWorksContainer-3ZDRIG {
+        +span {
+            display: none !important;
+        }
+        ~div:has(a) {
+            font-style: italic;
+            font-size: 12px;
+            font-weight: 500;
+            color: #ffffff87;
+        }
+    }
+
+    div:has(>.creatorBenefitsContainer-TwxZO6) {
+        background: #fff;
+        padding-top: 4em;
+        padding-bottom: 4em;
+        --header-primary: #1b1b1b;
+        --header-secondary: #1b1b1b;
+
+        [data-text-variant="heading-lg/semibold"] {
+            font-size: 20px;
+                font-weight: 700;
+                line-height: 24px;
+        }
+        [data-text-variant="text-md/normal"] {
+            font-size: 18px;
+                font-weight: 700;
+                line-height: 20px;
+        }
+
+        .earningsPreviewContainer-2I6S8Z {
+            background: var(--background-dark-2) !important;
+        }
+
+        .avatarCard-1N47yx {
+            background: var(--background-dark-2)
+        }
+
+        .revenueSharePercentageDark-2gq6aI  {
+            text-shadow: 0px 2px 3px rgba(0, 0, 0, 0.3);
+        }
+    }
+
+    div:has(>.root-22SjyR) {
+        padding: 4em 5em;
+
+        .guildCardHeaderAvatar-3FAHSc {
+            border-radius: 2px;
+        }
+
+        .guildCardQuote-2c70-X {
+            [data-text-variant="text-lg/normal"] {
+                font-size: 16px;
+                line-height: 20px;
+                font-weight: 400;
+            }
+
+            [data-text-variant="text-md/normal"] {
+                --interactive-active: var(--text-muted);
+                font-size: 14px;
+                line-height: 18px;
+                font-weight: 400;
+            }
+        }
+    }
+}

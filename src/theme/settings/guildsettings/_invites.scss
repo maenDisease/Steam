@@ -1,0 +1,35 @@
+#app-mount .inviteSettingsInviteRow-FAjfDN {
+    box-shadow: none;
+}
+
+.inviteSettingsInviteRow-FAjfDN {
+    padding-left: 8px;
+    padding-right: 8px;
+
+    &:hover {
+        background: #3d4450;
+        transition: background .2s linear;
+    }
+
+    .wrapper-3Un6-K {
+        top: 8px;
+
+        &::before {
+            display: none;
+        }
+    }
+
+    .username-oFyVdr {
+        margin-left: 15px;
+    }
+
+    [data-text-variant="text-xs/normal"] {
+        margin-left: 36px;
+        --header-secondary: var(--text-muted);
+        font-size: 12px;
+        // line-height: 22px;
+        letter-spacing: .5px;
+        text-transform: uppercase;
+        font-weight: 700;
+    }
+}

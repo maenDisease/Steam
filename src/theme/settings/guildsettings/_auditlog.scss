@@ -1,0 +1,123 @@
+@use '../container';
+
+.sidebarRegion-1VBisG:has(.selected-1sf9UK[aria-controls="audit_log-tab"])+.contentRegion-3HkfJJ {
+    overflow: hidden overlay !important;
+
+    .scroller-IZ5d96 {
+        overflow: hidden overlay !important;
+    }
+
+    .customHeader-3mDgmH {
+        @include container.settingsHeader;
+        justify-content: left;
+
+        h2 {
+            @include container.settingsHeaderText;
+            flex-grow: 0;
+            white-space: nowrap;
+            margin-right: 10px;
+        }
+    }
+
+    .divider-34qTss {
+        display: none;
+    }
+}
+
+.auditLog-1NVAY0 {
+    border: none;
+    border-radius: 0;
+
+    &:hover,
+    &:has(.headerExpanded-1-zwDr) {
+        background: #3d4450;
+        transition: background .2s linear;
+    }
+
+    .header-2pgFQm {
+        padding: 6px 8px;
+        height: 58px;
+        background: none;
+    }
+
+    .headerClickable-zGQJz3 {
+        color: var(--text-muted);
+    }
+
+    .timeWrap-3zb-z5 {
+        margin: 0 0 0 12px;
+    }
+
+    .userHook-3R3zjr {
+        .defaultColor-1EVLSt {
+            color: var(--header-primary);
+        }
+    }
+
+    .timestamp-147bcs {
+        color: var(--text-muted);
+        font-size: 12px;
+        line-height: 22px;
+        letter-spacing: .5px;
+        text-transform: uppercase;
+        font-weight: 700;
+        display: flex;
+                    align-items: center;
+
+        &::before {
+            content: '';
+            display: block;
+            width: 16px;
+            height: 16px;
+            mask: url(https://maendisease.github.io/Steam/illustrations/icns/clock.svg);
+            -webkit-mask: url(https://maendisease.github.io/Steam/illustrations/icns/clock.svg);
+            background: var(--text-muted);
+            margin-right: 4px;
+        }
+    }
+
+    .expand-3HRmv2 {
+        margin: 8px;
+
+        .expandForeground-1rs9T1 {
+            stroke: var(--brand-experiment) !important;
+        }
+
+    }
+
+    .divider-M3saWq {
+        display: none;
+    }
+}
+
+#app-mount {
+    .headerExpanded-1-zwDr {
+        color: var(--header-secondary);
+    }
+
+    .changeDetails-1kMZqI {
+        background: var(--background-tertiary);
+        margin: 0 8px 6px 8px;
+        padding: 24px;
+
+        .detail-Obzlyb:first-child {
+            margin-top: 0;
+        }
+
+        .detail-Obzlyb {
+            margin: 10px 0 0 0;
+        }
+
+        .change-1kGG13 {
+            font-size: 14px;
+            line-height: 18px;
+            color: var(--header-secondary);
+        }
+
+        .subListItem-3B43Tg {
+            margin: 0;
+            color: var(--header-primary);
+        }
+    }
+
+}

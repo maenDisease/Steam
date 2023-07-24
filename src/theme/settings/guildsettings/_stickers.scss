@@ -1,0 +1,95 @@
+#app-mount {
+    .background-3xJH_4 {
+        color: var(--btn-grey);
+    }
+
+    .tierInProgress-1vFUnw {
+        background-color: var(--brand-experiment);
+    }
+
+    .tierBody-1d3UiS {
+        background: none;
+    }
+
+    .tierHeaderLocked-30MLlO,
+    .tierHeaderUnlocked-1OpOLf {
+        background: none;
+    }
+}
+
+#stickers-tab {
+    .upsellContainer-22N_CL {
+        display: none;
+    }
+
+    .divider-3nqZNm {
+        display: none;
+    }
+
+    .tiers-7TOtI7 {
+        margin-left: 38px;
+        width: calc(100% - 96px - 20px);
+    }
+}
+
+.tierHeaderContent-2SPBAA {
+    padding: 16px 0 16px 0;
+
+    &::after {
+        content: '';
+        height: 2px;
+        margin: 0 10px 0 10px;
+        background: rgba(103, 112, 123, .3);
+        display: flex;
+        flex-grow: 1;
+        order: -1;
+    }
+}
+
+.tierHeader-3q9jIw {
+    background: none;
+}
+
+.tierTitle-kGI87L {
+    width: fit-content;
+    flex-grow: 0;
+    order: -3;
+    white-space: nowrap;
+    color: var(--header-primary);
+
+    h3,
+    [data-text-variant="text-xs/normal"] {
+        white-space: nowrap;
+    }
+
+    [data-text-variant="text-xs/normal"] {
+        color: var(--header-secondary);
+    }
+}
+
+.tierIcon-3m8V16 {
+    height: 24px;
+    width: 24px;
+    margin: 4px 4px 4px 0;
+    order: -4;
+}
+
+.tierIconLocked-RGSkSl {
+    color: var(--brand-experiment);
+}
+
+.tierRequirement-7q3_7- {
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 20px;
+    color: var(--text-muted);
+    margin-left: 8px;
+    order: -2;
+}
+
+.tierLock-1eabw6 {
+    width: 24px;
+    height: 24px;
+    margin-left: 0;
+    color: var(--info-warning-foreground);
+}

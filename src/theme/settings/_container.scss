@@ -10,8 +10,9 @@
     border-radius: 0 !important;
     border: 0.5px solid black;
     --text-link: hsl(197, 88%, 70%);
+
     a:hover {
-        text-decoration:none;
+        text-decoration: none;
         --text-link: hsl(197, 100%, 85%);
     }
 
@@ -70,6 +71,7 @@ body #app-mount {
     .header-2F5_LB:first-child {
         padding: 24px 16px 20px 24px;
     }
+
     .headerText-10ez_d {
         font-size: 17px;
         line-height: 20px;
@@ -93,7 +95,7 @@ body #app-mount {
         --interactive-normal: var(--header-secondary);
         --interactive-hover: #3D4450;
         --background-modifier-hover: #DCDEDF;
-        --background-modifier-selected: #3e4551;
+        --background-modifier-selected: #3d4450;
 
         &:active {
             background: #DCDEDF;
@@ -101,7 +103,7 @@ body #app-mount {
         }
 
         &.selected-1sf9UK {
-            background: #3e4551;
+            background: #3d4450;
             color: #ffff;
         }
 
@@ -118,6 +120,7 @@ body #app-mount {
 .socialLinks-3ywLUf {
     padding: 24px 0 24px 24px;
 }
+
 .info-3pQQBb {
     padding: 0 24px 24px 24px;
 
@@ -129,14 +132,30 @@ body #app-mount {
 #app-mount .contentRegion-3HkfJJ {
     .contentRegionScroller-2_GT_N {
         --header-padding: 32px;
-        padding-top:6px;
+        padding-top: 6px;
         overflow-y: overlay !important;
         max-width: calc(var(--settingsmodalwidth) - 196px);
-        
+
         &::-webkit-scrollbar-track {
             margin-top: calc(32px * 2 + 24px);
         }
     }
+}
+
+.contentRegion-3HkfJJ {
+    flex: 1 1 calc(var(--settingsmodalwidth) - 196px);
+}
+
+.contentColumn-1C7as6,
+.customColumn-2n-oKU {
+    min-width: unset;
+}
+
+.customScroller-m1-jZn>div {
+    margin-left: 24px;
+    margin-right: 24px;
+    max-width: 100%;
+    min-width: unset;
 }
 
 [aria-controls="discord-nitro-tab"] .background-Gjdjzm {
@@ -157,7 +176,7 @@ body #app-mount {
     margin-left: -24px;
     z-index: 10;
     transform: translateY(calc(var(--header-padding) * -1 + 8.5px + 18px));
-    background: linear-gradient(to bottom, var(--background-tertiary) calc(100% - 24px), rgba(0,204,255,0) 100%);
+    background: linear-gradient(to bottom, var(--background-tertiary) calc(100% - 24px), rgba(0, 204, 255, 0) 100%);
 }
 
 @mixin settingsHeaderText {
@@ -275,4 +294,55 @@ body #app-mount {
 
 .children-2C96Ex>.marginBottom40-fvAlAV:last-child:has(.formText-2UzJT0) {
     margin-bottom: 0;
+}
+
+.container-3jbRo5 {
+    border-radius: 2px;
+    padding: 10px;
+    font-weight: 400;
+}
+
+.descriptionBox-SKGNgB {
+    background: none;
+    border-radius: 0;
+    margin-top: 0;
+    padding: 0;
+    gap: 10px;
+
+    .descriptionSection-2uY1K5 {
+        padding: 8px 24px 10px 16px;
+        background: var(--btn-grey);
+        border-radius: 2px;
+        flex: 1 1 calc(50% - 10px);
+
+        .descriptionIcon-3nDZrK {
+            height: 20px;
+            width: 20px;
+            margin-right: 10px;
+            vertical-align: middle;
+
+            circle {
+                display: none;
+            }
+        }
+
+        h3 {
+            font-size: 16px;
+            font-weight: 400;
+            line-height: 20px;
+            color: var(--header-primary);
+            letter-spacing: 0;
+            text-transform: capitalize;
+            text-align: center;
+        }
+    }
+
+    .descriptionRow-1UPN0d {
+        margin-top: 10px;
+        vertical-align: middle;
+        font-size: 13px;
+        font-weight: 400;
+        line-height: 20px;
+        color: var(--header-secondary);
+    }
 }

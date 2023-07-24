@@ -1,0 +1,186 @@
+#integrations-tab {
+    .breadcrumbs--Y6d8N {
+        margin-bottom: 0;
+    }
+
+    .divider-1mBcKC {
+        margin: 10px 0;
+    }
+
+    .cardPrimary-pAe8Ed:has(.iconWrapper-1sOtkE) {
+        border-radius: 0;
+        margin: 0;
+        border: none;
+        padding: 6px 8px;
+        min-height: 58px;
+
+        &:hover,
+        &:has(.body-1rejdE) {
+            background: #3d4450;
+            transition: background .2s linear;
+
+            .iconWrapper-1sOtkE {
+                background-color: #67707b;
+                transition: background .2s linear;
+            }
+
+            .button-ejjZWC.lookFilled-1H2Jvj.colorBrand-2M3O3N.sizeSmall-3R2P2p.grow-2T4nbg {
+                background-color: #67707b;
+                transition: background .2s linear, box-shadow 200ms ease-in-out;
+            }
+        }
+
+        .header-2WDlmg {
+            padding: 0;
+        }
+
+        .iconWrapper-1sOtkE {
+            border-radius: 0;
+            height: 45px;
+            width: 98px;
+            object-fit: scale-down;
+            background: #3d4450;
+
+            svg {
+                height: 18px;
+                width: 18px;
+                color: #fff;
+            }
+        }
+
+        .secondaryHeader-1sJsuH {
+            font-weight: 400;
+        }
+
+        .detailsWrapper-1hquuf {
+            margin-top: 0;
+            align-items: center;
+            --header-secondary: var(--text-muted);
+
+            .detailsIcon-2NtTO9+[data-text-variant="text-xs/normal"] {
+                color: var(--text-muted);
+                font-size: 12px;
+                line-height: 22px;
+                letter-spacing: .5px;
+                text-transform: uppercase;
+                font-weight: 700;
+            }
+        }
+
+        .detailsIcon-2NtTO9 {
+            color: var(--text-muted);
+        }
+
+        .feature-3VT8J9 {
+            margin-right: 8px;
+        }
+
+        .featureIcon-3rvFkz {
+            color: var(--brand-experiment);
+        }
+    }
+
+    .sectionHeader-qme2DQ {
+        margin-bottom: 0;
+        padding-top: 8px;
+        padding-left: 8px;
+    }
+
+    .headerDivider-QSt6pD {
+        margin: 0 0 10px 0;
+    }
+
+    .groupHeader-2e8SOI {
+        text-transform: capitalize;
+        font-size: 16px;
+        line-height: 20px;
+        font-weight: 600;
+        letter-spacing: 0;
+    }
+
+    .expandIcon-kTQHvx {
+        color: var(--brand-experiment);
+        margin: 8px;
+    }
+
+    .body-1rejdE {
+        margin-top: 6px;
+        background: var(--background-tertiary);
+        padding: 24px;
+    }
+
+    .topDivider-3h8X4f {
+        display: none;
+    }
+
+    .bottomDivider-1VmqFK {
+        margin: 10px 0;
+    }
+
+    .iconWrapper-1sOtkE {
+        background: none;
+        width: 48px;
+        height: 48px;
+        border-radius: 0;
+    }
+}
+
+.applicationPermissions-3bwpAg {
+    .card-2L21B2 {
+        margin-bottom: 10px;
+        padding: 8px 24px 10px 16px;
+        background: var(--btn-grey);
+        border-radius: 2px;
+    }
+
+    .cardHeader-3d6H8N {
+        background: none;
+        padding: 0;
+
+        .title-12X6LO {
+            font-size: 16px;
+            font-weight: 400;
+            line-height: 20px;
+            margin-bottom: 10px;
+        }
+    }
+
+    .entryItem-1OwqoD {
+        .listContainer-_t9khV {
+            padding: 0;
+        }
+
+        [data-text-variant="text-md/normal"] {
+            font-size: 13px;
+            line-height: 18px;
+            font-weight: 400;
+            --header-primary: var(--header-secondary);
+        }
+
+        .channelIcon-2hyBMH {
+            color: var(--header-secondary);
+        }
+
+        .image-1Ku6D3 {
+            height: 18px;
+            width: 18px;
+            margin-right: 4px;
+            min-width: unset;
+        }
+    }
+
+    .entryActions-262_Jm {
+        order: -1;
+        margin-right: 10px;
+
+        .deny-2VqAyZ {
+            border-top-left-radius: 2px;
+            border-bottom-left-radius: 2px;
+        }
+
+        .allow-q9kwjz {
+            border-top-right-radius: 2px;
+            border-bottom-right-radius: 2px;
+        }
+    }
+}

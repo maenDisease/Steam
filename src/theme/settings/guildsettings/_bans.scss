@@ -1,0 +1,30 @@
+.sidebarRegion-1VBisG:has(.selected-1sf9UK[aria-controls="bans-tab"])+.contentRegion-3HkfJJ {
+    .searchBar-30dqPB {
+        border-radius: 2px;
+        transition: padding .3s cubic-bezier(0.16, 0.86, 0.43, 0.99);
+
+        &:hover {
+            padding-left: 8px;
+            padding-right: 8px;
+            background: var(--btn-grey-hover);
+            box-shadow: var(--btn-grey-boxshadow);
+        }
+
+        .icon-3CDcPB {
+            color: var(--brand-experiment);
+        }
+    }
+}
+
+#app-mount {
+    .bannedUser-26qsXF {
+        box-shadow: none;
+        padding-left: 8px;
+        padding-right: 8px;
+
+        &:hover {
+            background: #3d4450;
+            transition: background .2s linear;
+        }
+    }
+}

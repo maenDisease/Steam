@@ -1,0 +1,39 @@
+.error-2568aZ {
+    border-radius: 3px;
+    font-size: 14px;
+    line-height: 18px;
+    font-weight: 400;
+}
+
+.developerPortalCtaWrapper-2PniQs {
+    background: var(--btn-grey);
+    border-radius: 2px;
+}
+
+.checklistContainer-12xGp5,
+.checklist-Asy_56 {
+    display: flex;
+    flex-direction: column;
+    background: none;
+    border-radius: 0;
+    margin: 0 32px;
+
+    .separator-1py8Bj {
+        display: none;
+    }
+}
+
+.checklistItem-1gWPPD {
+    padding: 8px 24px 10px 16px;
+    background: var(--btn-grey);
+    border-radius: 2px;
+    margin-bottom: 10px;
+
+    &:has([d*="M10 0C4.486 0 0 4.486 0 10C0"]) {
+        order: 1;
+    }
+
+    &:has(.checked-22NTbO) {
+        order: 2;
+    }
+}

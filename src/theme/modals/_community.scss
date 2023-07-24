@@ -1,0 +1,56 @@
+.root-1CAIjD:has(.overviewSteps-eGJA8e) {
+    .sequencer-3ojOk0 {
+        padding: 32px 0 0 0;
+    }
+
+    .content--gAC_W {
+        img {
+            position: absolute;
+            top: 0;
+            right: 0;
+        }
+
+        .header-3h1Ldm,
+        .headerCaption-3Tw9SO,
+        .updatedHeader-W47DUA {
+            margin-right: 100px;
+            text-align: left;
+        }
+    }
+
+    .header-3h1Ldm,
+    .updatedHeader-W47DUA {
+        margin-top: 0;
+        margin-bottom: 0;
+    }
+
+    .button-ejjZWC {
+        height: 34px;
+    min-height: 34px;
+    padding: 8px 14px;
+    }
+
+    .roleRow-3AipPg {
+        border-radius: 2px;
+        background: var(--btn-grey);
+    }
+    
+    .tableContainer-ElCMnk {
+        padding: 8px 24px 10px 16px;
+        background: var(--btn-grey);
+        border-radius: 2px;
+    }
+}
+
+.checkboxWrapper-3zdYym.row-1T4Qpj,
+.checkboxWrapper-3zdYym.row-1T4Qpj.checked-22NTbO {
+    background: var(--btn-grey);
+    border-radius: 2px;
+    transition: background 200ms ease-in-out, box-shadow 200ms ease-in-out;
+
+    &:hover {
+        background: var(--btn-grey-hover);
+        color: #fff;
+        box-shadow: var(--btn-grey-boxshadow);
+    }
+}

@@ -10,16 +10,26 @@
             text-align: center;
         }
     }
+}
 
-    h4 .clickable-GCrrEr {
-        display: flex;
+.clickable-GCrrEr {
+    display: flex;
+    align-items: center;
+
+    .availabilityIndicator-KldT0d {
+        margin-top: 0;
+        border-radius: 0;
+        background: none;
+        box-shadow: 0 0 1px var(--text-muted);
         align-items: center;
 
-        .availabilityIndicator-KldT0d {
-            margin-top: 0;
-            border-radius: 0;
-            background: none;
-            box-shadow: 0 0 1px var(--text-muted);
+        .icon-1WcxU9 {
+            height: 12px;
+            width: 12px;
+            top: unset;
+        }
+        .description-1RfcDR {
+            font-weight: 600;
         }
     }
 }
@@ -30,6 +40,10 @@
 
 .avatarUploaderInnerSquareDisabled-3M9eJS {
     background: var(--btn-grey);
+}
+
+.imageUploaderIcon-2OHmFu {
+    border-radius: 0;
 }
 
 .select-Zz0IcO,

@@ -97,6 +97,10 @@
 
 .medium-2JV7bE {
     width: 500px;
+
+    &:has(.overviewSidebar-3JDLaJ) {
+        width: calc(500px + 192px);
+    }
 }
 
 .largeSpacing-22TLsQ {

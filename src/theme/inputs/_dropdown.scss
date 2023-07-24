@@ -69,3 +69,50 @@
         background: #3e444d;
     }
 }
+
+.quickSelect-i8mQq1 {
+    gap: 10px;
+}
+
+.quickSelect-384d3G {
+    font-size: 14px;
+    font-weight: 400;
+    border-radius: 2px;
+    padding: 4px 0;
+    color: var(--text-normal);
+    transition: padding .3s cubic-bezier(0.16, 0.86, 0.43, 0.99);
+
+    &:hover {
+        padding-left: 8px;
+        padding-right: 8px;
+        cursor: pointer;
+        background: var(--btn-grey-hover);
+        color: #fff;
+        box-shadow: var(--btn-grey-boxshadow);
+    }
+
+    .quickSelectValue-rmtkbe {
+        margin-left: 0;
+    }
+
+    .quickSelectArrow-1dOOHb {
+        background: none !important;
+        height: 24px;
+        width: 24px;
+        display: flex;
+        flex-wrap: nowrap;
+        margin-left: 10px;
+
+        &::before {
+            content: '';
+            display: block;
+            width: 24px;
+            height: 24px;
+            mask: url(https://maendisease.github.io/Steam/illustrations/icns/discordrightarrow.svg);
+            -webkit-mask: url(https://maendisease.github.io/Steam/illustrations/icns/discordrightarrow.svg);
+            background-color: var(--brand-experiment);
+            mask-repeat: no-repeat;
+            mask-position: center;
+        }
+    }
+}
