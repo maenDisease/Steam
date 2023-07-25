@@ -13,6 +13,7 @@
     font-size: 10px;
     font-weight: 500;
     line-height: 15px;
+    align-self: center;
 
     &[style="background-color: var(--brand-500);"] {
         background-color: hsl(calc(var(--accent-hue) + 5), 29%, 42%) !important;

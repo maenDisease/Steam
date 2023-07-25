@@ -1,0 +1,86 @@
+.root-1CAIjD {
+
+    .guildSidebar-UHnQqs {
+        border-top-left-radius: 0;
+        border-bottom-left-radius: 0;
+        background: var(--background-tertiary);
+        padding: 32px;
+
+        .guildIcon-uYC13g {
+            border-radius: 2px;
+        }
+    }
+
+    .modal-2TOYtq {
+        border-top-right-radius: 0;
+        border-bottom-right-radius: 0;
+        background: var(--modal-background);
+    }
+}
+
+.root-1CAIjD:has(.modal-2TOYtq .requirementContainer-1YZZty) {
+    .content-228In8 {
+        padding-left: 0;
+        padding-right: 0;
+    }
+
+    .animationAndSparklesContainer-7Fwx3i {
+        position: absolute;
+        right: 0;
+        top: 16px;
+    }
+
+    .header-EmaVAp {
+        margin: 0 100px 0 0;
+        text-align: left;
+        font-size: 22px;
+            font-weight: 700;
+            line-height: 24px;
+    }
+
+    .subheader-37bSfX {
+        margin: 0 100px 32px 0;
+        text-align: left;
+    }
+    
+    .divider-1zHRlg {
+        margin: 10px 0;
+    }
+
+    .requirementContainer-1YZZty {
+        margin-top: 0;
+        border: none;
+        padding: 8px 14px;
+        background: var(--btn-grey);
+        border-radius: 2px;
+
+        .sizeSmall-3R2P2p {
+            padding: 0;
+        }
+    }
+}
+
+.termsRow-2I3Fqz {
+    
+    [style="color: var(--text-muted);"] {
+        --text-muted: var(--brand-experiment);
+        font-weight: 700;
+        font-size: 18px;
+    }
+}
+
+.termsRowContent-3SAZDa[data-text-variant="text-md/normal"] {
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.fieldBackground-3nYcw0,
+.fieldBackground-3nYcw0:hover:not(:focus) {
+    background: var(--btn-grey);
+    border: none;
+    border-radius: 2px;
+}
+
+.fieldBackground-3nYcw0 {
+    padding: 8px 14px;
+}
