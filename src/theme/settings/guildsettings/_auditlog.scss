@@ -34,6 +34,24 @@
         transition: background .2s linear;
     }
 
+    &:has(.typeDelete-1AYMTg) {
+        .title-11H0i9 {
+            color: var(--status-danger);
+        }
+    }
+
+    &:has(.typeUpdate-34INPr) {
+        .title-11H0i9 {
+            color: var(--info-warning-foreground);
+        }
+    }
+
+    &:has(.typeCreate--o_pRH) {
+        .title-11H0i9 {
+            color: var(--status-online);
+        }
+    }
+
     .header-2pgFQm {
         padding: 6px 8px;
         height: 58px;
