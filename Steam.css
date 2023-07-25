@@ -7277,6 +7277,15 @@ body #app-mount .layer-86YKbF ~ .layer-86YKbF .sidebar-nqHbhN:has(.socialLinks-3
   background: #3d4450;
   transition: background 0.2s linear;
 }
+.auditLog-1NVAY0:has(.typeDelete-1AYMTg) .title-11H0i9 {
+  color: var(--status-danger);
+}
+.auditLog-1NVAY0:has(.typeUpdate-34INPr) .title-11H0i9 {
+  color: var(--info-warning-foreground);
+}
+.auditLog-1NVAY0:has(.typeCreate--o_pRH) .title-11H0i9 {
+  color: var(--status-online);
+}
 .auditLog-1NVAY0 .header-2pgFQm {
   padding: 6px 8px;
   height: 58px;
