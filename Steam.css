@@ -3250,17 +3250,16 @@ body #app-mount .app-3xd6d0 .base-2jDfDU {
 .addFriendInputWrapper-kkoSV9 .inputWrapper-2K8ds1:not(:has(+ .inputText-30IjXy)) .inputDefault-Ciwd-S {
   font-style: italic;
 }
-
-.inputText-30IjXy {
-  font-size: 14px;
-  font-weight: 400;
-}
-
-.lookFilled-1H2Jvj.colorBrand-2M3O3N {
+.addFriendInputWrapper-kkoSV9 .lookFilled-1H2Jvj.colorBrand-2M3O3N {
   color: var(--white-500);
   background: linear-gradient(to right, #47bfff 0%, #1a44c2 60%);
   background-position: 0%;
   background-size: 330% 100%;
+}
+
+.inputText-30IjXy {
+  font-size: 14px;
+  font-weight: 400;
 }
 
 .nowPlayingColumn-1eCBCN {
@@ -3752,6 +3751,110 @@ body #app-mount .app-3xd6d0 .base-2jDfDU {
   border-radius: 2px;
 }
 
+#app-mount .errorPage-2pZ2Kq {
+  background: linear-gradient(to right, rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url(https://maendisease.github.io/Steam/illustrations/colored_body_top.avif) center left/cover no-repeat, linear-gradient(to right, var(--background-tertiary), var(--background-tertiary));
+}
+#app-mount .image-35kDIs {
+  background: none;
+}
+
+.errorPage-2pZ2Kq {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.errorPage-2pZ2Kq > .flex-2S1XBF {
+  background: var(--modal-background);
+  max-width: 600px;
+  max-height: 300px;
+  border: 0.5px solid black;
+  position: relative;
+  flex-grow: 0;
+  padding: 32px;
+}
+.errorPage-2pZ2Kq > .flex-2S1XBF::before {
+  content: "";
+  display: block;
+  height: 1px;
+  width: 100%;
+  background: linear-gradient(to right, hsl(192, 100%, 50%) 0%, hsl(225, 100%, 60%) 100%);
+  position: absolute;
+  z-index: 102;
+  top: 0;
+}
+.errorPage-2pZ2Kq .title-NjUt5y {
+  font-size: 22px;
+  font-weight: 700;
+  line-height: 24px;
+  margin-bottom: 0;
+}
+.errorPage-2pZ2Kq .note-Ph806N {
+  font-size: 14px;
+  margin-top: 10px;
+}
+.errorPage-2pZ2Kq .note-Ph806N p {
+  margin: 0;
+  line-height: 18px;
+}
+
+.image-35kDIs {
+  position: relative;
+  background: none;
+  height: 100px;
+  width: 100px;
+}
+.image-35kDIs::before {
+  content: "";
+  display: block;
+  position: absolute;
+  inset: 0;
+  margin: auto;
+  z-index: 999;
+  height: 100%;
+  width: 100%;
+  max-height: 142px;
+  max-width: 142px;
+  -webkit-mask: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 36 36"><path d="M18 34.32C9 34.32 1.68 27 1.68 18S9 1.68 18 1.68 34.32 9 34.32 18 27 34.32 18 34.32Zm0-31.63c-8.44 0-15.32 6.87-15.32 15.32S9.55 33.33 18 33.33s15.32-6.87 15.32-15.32S26.45 2.68 18 2.68Zm7.98 7.95c-1.51-.71-3.11-1.2-4.74-1.48-.22.41-.43.83-.61 1.25-1.74-.26-3.51-.26-5.26 0-.19-.43-.39-.85-.61-1.25-1.64.28-3.24.78-4.75 1.48C7 15.15 6.19 19.55 6.6 23.88c1.76 1.32 3.73 2.32 5.82 2.96.47-.64.89-1.33 1.24-2.04-.68-.26-1.34-.57-1.96-.95.17-.12.33-.24.48-.38 3.69 1.76 7.95 1.76 11.63 0 .16.13.32.26.48.38-.63.37-1.29.7-1.96.95.36.72.77 1.4 1.24 2.04 2.09-.64 4.06-1.64 5.82-2.96.48-5.02-.82-9.38-3.42-13.24Zm-11.8 10.58c-1.13 0-2.07-1.06-2.07-2.34 0-1.28.91-2.34 2.07-2.34 1.16 0 2.09 1.06 2.07 2.34 0 1.28-.92 2.34-2.07 2.34zm7.64 0c-1.13 0-2.07-1.06-2.07-2.34 0-1.28.92-2.34 2.07-2.34s2.09 1.06 2.07 2.34c0 1.28-.92 2.34-2.07 2.34z"/></svg>') center/contain no-repeat;
+  mask: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 36 36"><path d="M18 34.32C9 34.32 1.68 27 1.68 18S9 1.68 18 1.68 34.32 9 34.32 18 27 34.32 18 34.32Zm0-31.63c-8.44 0-15.32 6.87-15.32 15.32S9.55 33.33 18 33.33s15.32-6.87 15.32-15.32S26.45 2.68 18 2.68Zm7.98 7.95c-1.51-.71-3.11-1.2-4.74-1.48-.22.41-.43.83-.61 1.25-1.74-.26-3.51-.26-5.26 0-.19-.43-.39-.85-.61-1.25-1.64.28-3.24.78-4.75 1.48C7 15.15 6.19 19.55 6.6 23.88c1.76 1.32 3.73 2.32 5.82 2.96.47-.64.89-1.33 1.24-2.04-.68-.26-1.34-.57-1.96-.95.17-.12.33-.24.48-.38 3.69 1.76 7.95 1.76 11.63 0 .16.13.32.26.48.38-.63.37-1.29.7-1.96.95.36.72.77 1.4 1.24 2.04 2.09-.64 4.06-1.64 5.82-2.96.48-5.02-.82-9.38-3.42-13.24Zm-11.8 10.58c-1.13 0-2.07-1.06-2.07-2.34 0-1.28.91-2.34 2.07-2.34 1.16 0 2.09 1.06 2.07 2.34 0 1.28-.92 2.34-2.07 2.34zm7.64 0c-1.13 0-2.07-1.06-2.07-2.34 0-1.28.92-2.34 2.07-2.34s2.09 1.06 2.07 2.34c0 1.28-.92 2.34-2.07 2.34z"/></svg>') center/contain no-repeat;
+  background: #fff;
+  animation: discordSpinnerScale 1.44s cubic-bezier(0.5, 0, 0.5, 1) alternate infinite;
+}
+.image-35kDIs::after {
+  content: "";
+  display: block;
+  position: absolute;
+  inset: 0;
+  margin: auto;
+  z-index: 999;
+  height: 100%;
+  width: 100%;
+  max-height: 142px;
+  max-width: 142px;
+  border-radius: 50%;
+  aspect-ratio: 1;
+  background: radial-gradient(farthest-side, var(--status-danger) 94%, rgba(0, 0, 0, 0)) top/40% 20% no-repeat, conic-gradient(rgba(0, 0, 0, 0) var(--percent), var(--status-danger));
+  -webkit-mask: radial-gradient(farthest-side, rgba(0, 0, 0, 0) calc(100% - 4px), #000 0);
+  animation: discordSpinnerRotateError 1.44s cubic-bezier(0.5, 0, 0.5, 1) alternate infinite, discordSpinnerTailError 2.88s cubic-bezier(0.5, 0, 0.5, 1) infinite, discordSpinnerFade 1.44s cubic-bezier(0.5, 0, 0.5, 1) alternate infinite;
+}
+
+@property --percent {
+  syntax: "<percentage>";
+  inherits: false;
+  initial-value: 20%;
+}
+@keyframes discordSpinnerTailError {
+  25% {
+    --percent: 20%;
+  }
+  100% {
+    --percent: 100%;
+  }
+}
+@keyframes discordSpinnerRotateError {
+  100% {
+    transform: rotate(0.5turn);
+  }
+}
 .layers-OrUESM > .layer-86YKbF.animating-1rIrGV *,
 .layers-OrUESM > .layer-86YKbF.animating-1rIrGV {
   pointer-events: auto !important;
@@ -9336,6 +9439,7 @@ body #app-mount .layer-86YKbF ~ .layer-86YKbF .sidebar-nqHbhN:has(.socialLinks-3
 
 .button-1EGGcP.buttonColor-3bP3fX,
 .button-1EGGcP .buttonColor-3bP3fX,
+.lookFilled-1H2Jvj.colorBrand-2M3O3N,
 .button-ejjZWC.lookLink-13iF2K.lowSaturationUnderline-Z6CW6z.colorPrimary-2-Lusz:not(.fieldButton-14lHvK) {
   color: #dfe3e6;
   background: var(--btn-grey);
@@ -9343,6 +9447,7 @@ body #app-mount .layer-86YKbF ~ .layer-86YKbF .sidebar-nqHbhN:has(.socialLinks-3
 }
 .button-1EGGcP.buttonColor-3bP3fX:hover,
 .button-1EGGcP .buttonColor-3bP3fX:hover,
+.lookFilled-1H2Jvj.colorBrand-2M3O3N:hover,
 .button-ejjZWC.lookLink-13iF2K.lowSaturationUnderline-Z6CW6z.colorPrimary-2-Lusz:not(.fieldButton-14lHvK):hover {
   background: var(--btn-grey-hover);
   color: #fff;
