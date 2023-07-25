@@ -262,18 +262,18 @@
     .inputWrapper-2K8ds1:not(:has(+.inputText-30IjXy)) .inputDefault-Ciwd-S {
         font-style: italic;
     }
+
+    .lookFilled-1H2Jvj.colorBrand-2M3O3N {
+        color: var(--white-500);
+        background: linear-gradient(to right, #47bfff 0%, #1a44c2 60%);
+        background-position: 0%;
+        background-size: 330% 100%;
+    }
 }
 
 .inputText-30IjXy {
     font-size: 14px;
     font-weight: 400;
-}
-
-.lookFilled-1H2Jvj.colorBrand-2M3O3N {
-    color: var(--white-500);
-    background: linear-gradient(to right, #47bfff 0%, #1a44c2 60%);
-    background-position: 0%;
-    background-size: 330% 100%;
 }
 
 .nowPlayingColumn-1eCBCN {
