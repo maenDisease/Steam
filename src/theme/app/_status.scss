@@ -1,3 +1,5 @@
+@use "../modals/generic";
+
 @mixin discordSpinner {
     &::before {
         content: '';
@@ -77,8 +79,30 @@
     z-index: 1;
 }
 
+.app-3xd6d0:has(>.container-2RRFHK) {
+    &::before {
+        content: '';
+        display: block;
+        position: absolute;
+        inset: 0;
+        background: rgba(0, 0, 0, 0.8);
+        z-index: 2999;
+    }
+}
+
 .container-2RRFHK {
-    background: rgba(0, 0, 0, 0.8);
+    background: var(--modal-background);
+        max-width: 600px;
+        max-height: 300px;
+        width: fit-content;
+        height: fit-content;
+        @include generic.modalTopBar;
+        border: 0.5px solid black;
+        padding: 32px;
+        margin: auto;
+        position: absolute;
+        display: flex;
+        flex-flow: column wrap;
 }
 
 .ready-3BZNWT {
@@ -88,12 +112,26 @@
 .content-3AIQZv:has(.ready-3BZNWT) {
     @include discordSpinner;
 
+    &::before {
+        position: relative;
+        height: 100px;
+        width: 100px;
+    }
+
+    &::after {
+        top: 32px;
+        bottom: unset;
+        margin: 0 auto;
+        height: 100px;
+        width: 100px;
+    }
+
     .ready-3BZNWT {
         display: none;
     }
 
     .text-2bYgPB {
-        top: 142px;
+        margin-top: 64px;
     }
 
     .tipTitle-3FYEQp {
@@ -108,5 +146,29 @@
         color: var(--text-muted);
         font-size: 14px;
         line-height: 18px;
+    }
+}
+
+.problems-CvGwpb {
+    position: relative;
+    inset: unset;
+    padding: 0;
+    -webkit-transform: none;
+    transform: none;
+    --text-link: hsl(197, 88%, 70%);
+
+    a:hover {
+        text-decoration: none;
+        --text-link: hsl(197, 100%, 85%);
+    }
+
+    .links-30fqF9 {
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 18px;
+    }
+
+    .anchor-1X4H4q {
+        text-decoration: none;
     }
 }

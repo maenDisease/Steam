@@ -1,0 +1,51 @@
+.root-1CAIjD {
+    .header-1LSUD5 {
+        padding: 0;
+        align-items: flex-start;
+
+        [data-text-variant="heading-xl/semibold"] {
+            font-size: 22px;
+            font-weight: 700;
+            line-height: 24px;
+        }
+
+        .subheaderText-2Slnoc {
+            margin: 0;
+        }
+    }
+
+    .list-3-WAYB {
+        background: none;
+        border-radius: 0;
+
+        .separator-3pyJLj {
+            display: none;
+        }
+
+
+        .accountCard-2lki2x {
+            padding: 8px 24px 10px 16px;
+            background: var(--btn-grey);
+            border-radius: 2px;
+
+            &:not(:last-child) {
+                margin-bottom: 10px;
+            }
+
+            [data-text-variant="text-md/semibold"] {
+                font-weight: 400;
+            }
+
+            .hintText-1gwhJG {
+                font-size: 12px;
+                letter-spacing: .5px;
+                text-transform: uppercase;
+                font-weight: 700;
+            }
+        }
+    }
+
+    .actions-1qEPMo {
+        margin: 32px 0;
+    }
+}
