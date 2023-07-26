@@ -1414,6 +1414,11 @@ body #app-mount .app-3xd6d0 .base-2jDfDU {
   opacity: 0.08;
 }
 
+.popoutLoadingForeground-3xnRkg {
+  background: var(--text-normal);
+  opacity: 0.08;
+}
+
 @keyframes loading_LoadAmin_2z54o {
   0% {
     transform: rotate(0deg);
