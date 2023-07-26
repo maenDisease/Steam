@@ -59,6 +59,15 @@
     margin-bottom: 0px;
     padding-bottom: 4em;
     padding-top: 4em;
+
+    &:has(.banner-2kOu3o) {
+        padding-top: 0;
+    }
+}
+
+.banner-2kOu3o {
+    border-radius: 0;
+    max-width: unset;
 }
 
 .premiumCards-36uMGt {
@@ -120,10 +129,12 @@
         height: 36px;
         font-size: 12px;
         font-weight: 600;
+        border: none;
         transition: background .2s ease, color .2s ease, box-shadow .2s ease;
 
         &:hover {
             color: #1b1b1b;
+            background: #fff;
             box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
         }
     }

@@ -133,9 +133,8 @@
 
 .withTagAsButton-OsgQ9L:hover,
 .withTagless-10ooWt:hover {
-    background-color: var(--brand-experiment-700);
+    background-color: rgba(76,180,255,.2);
     border-radius: 2px;
-    color: var(--interactive-hover);
 }
 
 .avatarWrapper-1B9FTW {
@@ -147,7 +146,7 @@
     justify-content: center;
     background: var(--header-button-background);
     border-radius: 2px;
-    transition: background .15s ease;
+    transition: background .15s ease-out;
 
     .avatar-1EWyVD {
         height: 23px !important;
@@ -177,8 +176,9 @@
 }
 
 .title-338goq {
-    color: var(--brand-experiment-300);
+    color: #4cb4ff;
     font-weight: 400;
+    font-size: 12px;
 }
 
 .hoverRoll-2XwpoF {
@@ -198,10 +198,10 @@
         min-width: 48px;
         border-radius: 2px;
         background: var(--header-button-background);
-        transition: background .15s ease, color .15s ease;
+        transition: background .15s ease-out, color .15s ease-out;
 
         &:hover {
-            background: var(--background-modifier-hover);
+            background: hsl(218, 13%, 28%);
             color: var(--interactive-active);
         }
 

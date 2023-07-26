@@ -1,0 +1,65 @@
+.override-1sK4r0 {
+    border-radius: 0;
+    border: none;
+    margin-bottom: 0;
+    background: none;
+    transition: none;
+    padding: 6px 0 6px 8px;
+    height: 46px;
+
+    &:hover {
+        background: #3d4450;
+        transition: background .2s linear;
+
+        .checkbox-1LuCGM {
+            background-color: #67707b;
+            transition: background .2s linear;
+        }
+    }
+
+    .icon-qThCQ9 {
+        width: 16px;
+    }
+
+    .channelNameContainer-30S1Sr {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+    }
+
+    .channelName-IPB6B3 {
+        color: #fff;
+        font-weight: 400;
+        line-height: 20px;
+    }
+
+    .channelNameByline-tP477j {
+        color: var(--text-muted);
+        font-size: 12px;
+        line-height: 22px;
+        letter-spacing: .5px;
+        text-transform: uppercase;
+        font-weight: 700;
+    }
+
+    .checkboxMute-1erNeD {
+        &::before {
+            display: none;
+        }
+    }
+}
+
+#app-mount .override-1sK4r0 {
+    &:hover {
+        background: #3d4450;
+        transition: background .2s linear;
+    }
+
+    .checkboxContainer-1NbL2v:before {
+        background-color: #23262e;
+    }
+}
+
+.button-1yVL_7 {
+    border-radius: 2px;
+}

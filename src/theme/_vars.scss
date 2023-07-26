@@ -43,12 +43,13 @@
     --channels-category: hsl(var(--accent-hue), 24%, 43%);
     --channels-default: hsl(var(--accent-hue), 14%, 51%);
     --channel-icon: var(--channels-category);
-    --header-button-background: hsl(var(--accent-hue), 17%, 18%);
     --titlebar-height: 36px;
     --background-tertiary-border: hsl(var(--accent-hue), 15%, 22%);
     --background-tertiary-border-bottom: hsl(var(--accent-hue), 15%, 19%);
     --gpStoreDarkerGrey: hsl(var(--accent-hue), 35%, 16%);
 
+    --header-button-background: rgba(103,112,123,.2);
+    
     --btn-brand: hsla(202, 88%, 68%, 0.2);
     --btn-brand-hover-gradient: linear-gradient(-60deg, hsl(202, 41%, 43%) 5%, hsl(202, 88%, 68%) 95%);
     --btn-brand-text: #67c1f5;
@@ -59,16 +60,15 @@
 
     --btn-dark-hover: hsla(var(--accent-hue), 87%, 68%, 0.4);
 
-    --info-warning-foreground: #ffc82c;
-    --gpColor-Green: hsl(96, 58%, 40%);
-    --gpColor-Red: hsl(9, 70%, 50%);
-    --gpColor-Yellow: hsl(44, 100%, 59%);
-    --gpColor-Grey: hsl(228, 6%, 33%);
+    --info-warning-foreground: var(--gpColor-Yellow);
+    --info-positive-foreground: var(--gpColor-Green);
+    --info-danger-foreground: var(--gpColor-Red);
 
-    --gpColor-Green-hue: 96;
-    --gpColor-Red-hue: 9;
-    --gpColor-Yellow-hue: 44;
-    --gpColor-Grey-hue: 228;
+    --gpColor-Green: #5ba32b;
+    --gpColor-GreenHi: #59BF40;
+    --gpColor-Red: #D94126;
+    --gpColor-Yellow: #FFC82C;
+    --gpColor-Grey: #4f5159;
 }
 
 #app-mount:has(.themeEditor-1Ebyfp) {
@@ -78,7 +78,7 @@
 /* Settings Icons */
 :root {
     --use-settingsicons: calc(var(--settingsicons, 1) / (var(--settingsicons, 1) + 0.00000000000000000000001));
-    --settingsicons-size: 18px;
+    --settingsicons-size: 20px;
 
     // --settingsicons-default: url(https://mwittrien.github.io/BetterDiscordAddons/Themes/_res/svgs/settingsicons/questionmark.svg);
     --settingsicons-myaccount: url(https://maendisease.github.io/Steam/illustrations/icns/account.svg);
@@ -147,39 +147,24 @@
 /* RadialStatus */
 :root {
     --rs-small-spacing: 0;
-    /* Gap between avatar and status for members list/dms | MUST end in px */
     --rs-medium-spacing: 0;
-    /* Gap between avatar and status for User popout | MUST end in px */
     --rs-large-spacing: 0;
-    /* Gap between avatar and status for User profiles | MUST end in px */
 
     --rs-small-width: 2px;
-    /* Thickness of status border for members list/dms | MUST end in px */
     --rs-medium-width: 2px;
-    /* Thickness of status border for User popout | MUST end in px */
     --rs-large-width: 2px;
-    /* Thickness of status border for User profile | MUST end in px */
 
     --rs-avatar-shape: 0%;
-    /* 50% for round - 0% for square */
 
     --rs-online-color: var(--gpColor-Green);
-    /* Colour for online status */
     --rs-idle-color: var(--gpColor-Yellow);
-    /* Colour for idle status */
     --rs-dnd-color: var(--gpColor-Red);
-    /* Colour for dnd status */
     --rs-offline-color: var(--gpColor-Grey);
-    /* Colour for offline status */
     --rs-streaming-color: #643da7;
-    /* Colour for streaming status */
     --rs-invisible-color: var(--gpColor-Grey);
-    /* Colour for invisible status - Note: this will only show for your own invisibility */
     --rs-phone-color: var(--rs-online-color);
-    /* Colour of the ring and phone icon when a user is on their phone |  */
 
     --rs-phone-visible: block;
-    /* Visibility of the phone icon next to a users avatar. | block = visible | none = hidden */
 }
 
 :root {
