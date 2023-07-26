@@ -92,17 +92,17 @@
 
 .container-2RRFHK {
     background: var(--modal-background);
-        max-width: 600px;
-        max-height: 300px;
-        width: fit-content;
-        height: fit-content;
-        @include generic.modalTopBar;
-        border: 0.5px solid black;
-        padding: 32px;
-        margin: auto;
-        position: absolute;
-        display: flex;
-        flex-flow: column wrap;
+    max-width: 600px;
+    max-height: 300px;
+    width: fit-content;
+    height: fit-content;
+    @include generic.modalTopBar;
+    border: 0.5px solid black;
+    padding: 32px;
+    margin: auto;
+    position: absolute;
+    display: flex;
+    flex-flow: column wrap;
 }
 
 .ready-3BZNWT {
