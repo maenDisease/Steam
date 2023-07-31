@@ -283,3 +283,295 @@
         }
     }
 }
+
+.pageWrapper-2PwDoS {
+
+    .container-3gW0Nv {
+        flex-flow: row wrap;
+        display: grid;
+        grid-template-areas:
+            "search search"
+            "found categories"
+            "results categories";
+    }
+
+    .searchPage-3tt6dh {
+        grid-area: search;
+    }
+
+    .searchHeader-gz2NXf {
+        grid-area: found;
+        background: var(--background-dark-2);
+        margin-bottom: 0;
+        padding: 10px;
+
+        .arrow-3fMmSH {
+            position: absolute;
+            top: calc(var(--content-gutter) + 6px);
+            left: 6px;
+            height: 40px;
+            width: 40px;
+            color: var(--brand-experiment);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            background: var(--btn-brand);
+            border-radius: 2px;
+
+            &:hover {
+                background: var(--btn-brand-hover-gradient);
+                color: #fff;
+            }
+        }
+
+        .header-3lOo5J {
+            font-size: 12px;
+            color: var(--text-normal);
+            font-weight: 500;
+            margin: 0;
+            line-height: 18px;
+        }
+    }
+
+    .results-1Lsvf8 {
+        grid-area: results;
+        max-width: unset;
+        width: 100%;
+    }
+
+    .categories-2LoSbA {
+        grid-area: categories;
+        align-items: flex-start;
+        height: fit-content;
+        border: 1px solid rgba(255,255,255, 0.1);
+        border-top: none;
+        border-radius: 2px;
+        flex-direction: column;
+        width: 238px;
+        margin-left: var(--content-gutter);
+        margin-bottom: 0;
+
+        &::before {
+            content: 'Categories';
+            background: rgba(255,255,255,0.1);
+            padding: 4px 4px 4px 6px;
+            width: calc(100% - 10px);
+            font-size: 12px;
+            color: #c7d5e0;
+            border-top-left-radius: 1px;
+            border-top-right-radius: 1px;
+        }
+
+        .categoryPill-1zjNrr {
+            padding: 6px 8px;
+            text-align: left;
+            border-radius: 0;
+            margin: 0 2px 0 4px;
+            width: calc(100% - 22px);
+            --text-muted: #9fbbcb;
+
+            &:first-child {
+                margin-top: 4px;
+            }
+
+            &:last-child {
+                margin-bottom: 4px;
+            }
+
+            &:hover {
+                --text-muted: #fff;
+                background: rgba(255, 255, 255, 0.1);
+            }
+
+            &.selected-bLcqYK {
+                background: var(--btn-brand-hover-gradient)
+            }
+
+            .categoryLabel-2m4AT- {
+                font-size: 13px;
+                font-weight: 500;
+            }
+        }
+    }
+
+    .searchPage-3tt6dh {
+        background: var(--background-dark-4);
+        padding: 6px 6px 6px 52px;
+        margin-top: var(--content-gutter);
+        margin-bottom: var(--content-gutter);
+        align-items: center;
+
+        .search-25t1e9 {
+            width: 300px;
+            max-width: calc(100% - 80px - 2px);
+            flex-grow: 0;
+        }
+
+        .searchBox-pyIJJj {
+            background: rgba(103, 193, 245, 0.2);
+            border: 1px solid #000;
+            border-radius: 3px;
+            box-shadow: 1px 1px 0 rgba(103, 193, 245, 0.15);
+            padding: 5px;
+            font-size: 12px;
+
+            input {
+                padding: 0;
+                font-size: 12px;
+                font-weight: 500;
+                color: #fff;
+
+                &:hover {
+                    background: none;
+                }
+
+                &:focus,
+                &:focus-within {
+                    background: none;
+                    box-shadow: none;
+                }
+
+                &::placeholder {
+                    font-style: italic;
+                    font-weight: 500;
+                }
+            }
+        }
+    }
+
+    .guildList-QjZKeK {
+        max-width: unset;
+        grid-gap: 5px;
+    }
+
+    .card-1rhKXq {
+        background: var(--background-dark-2);
+        border: 1px solid transparent;
+
+        &:hover {
+            background: var(--background-dark-4);
+            border-color: rgba(139, 185, 224, 0.2);
+        }
+
+        .splashContainer-2PC_Bm {
+            border-radius: 0;
+            margin-right: 12px;
+
+        }
+
+        .svg-lIB-lq {
+            position: absolute;
+            top: 8px;
+            margin-left: calc(calc(12px + 32px + 8px) * -1);
+            border-radius: 2px;
+            box-shadow: 0 0 5px 0 #000000;
+            
+            foreignObject {
+                mask: none;
+            }
+        }
+
+        .content-3Xrx5s {
+            margin-top: 12px;
+            height: calc(135px - 32px);
+        }
+
+        .headerName-1IcEWM {
+            margin-top: 0;
+
+            h2 {
+                color: var(--header-primary);
+                font-weight: 400;
+            }
+        }
+
+        .description-1l_PNB {
+            margin-top: 10px;
+            margin-bottom: auto;
+            color: var(--header-secondary);
+        }
+
+        .memberInfo-1LJpwT {
+            --header-secondary: var(--text-muted);
+            margin-top: 10px;
+        }
+
+        .dotSeparator-3MbNc4 {
+            margin: 0 4px;
+            background-color: var(--text-muted);
+        }
+
+        .actionButtons-1KX_dv {
+            margin: 6px 6px 0 0;
+        }
+    }
+
+    .separator-2t2gPa {
+        display: none;
+    }
+}
+
+.placeholder-2jEh13 {
+    border-radius: 2px;
+}
+
+// Student Hubs
+.scroller-RfJjkV {
+    background: none;
+    padding: 0 !important;
+    max-width: var(--content-width);
+
+    .headerContainer-1RYk-Y {
+        padding: 32px;
+    }
+
+    .headerImage-1c8Lrb {
+        box-shadow: 0 0 5px 0 #000000;
+        margin-bottom: 0;
+    }
+
+    .guildListSection-27K5In {
+        min-width: unset;
+    }
+
+    .guildList-3-B_6n {
+        margin: 0;
+        .container-1wv6C6 {
+            background: var(--background-dark-3);
+            padding: 8px 16px 10px 16px;
+            border-radius: 2px;
+            display: flex;
+            align-items: center;
+            height: unset;
+
+            .iconContainer-6xlTpK {
+                border-radius: 2px;
+                margin: 6px 6px 16px 6px;
+            }
+
+            .header-2jY5vI {
+                text-align: center;
+                font-size: 16px;
+                font-weight: 400;
+                line-height: 20px;
+                margin-bottom: 0;
+            }
+
+            [data-text-variant="text-sm/normal"] {
+                font-size: 13px;
+                line-height: 18px;
+                font-weight: 400;
+                text-align: center;
+                margin-bottom: 16px;
+            }
+        }
+    }
+
+    .footerDescription-3D1fe9 {
+        --header-secondary: var(--text-muted);
+        font-size: 14px;
+        line-height: 18px;
+        font-weight: 400;
+        padding-bottom: 24px;
+    }
+}

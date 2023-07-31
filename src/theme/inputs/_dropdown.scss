@@ -2,6 +2,7 @@
     background: var(--btn-grey);
     border: none;
     font-size: 14px;
+    line-height: 18px;
     font-weight: 400;
     transition: background 200ms ease-in-out, box-shadow 200ms ease-in-out;
 
@@ -23,7 +24,8 @@
     padding: 8px 14px;
     border-radius: 2px;
 
-    svg:has([d="M16.59 8.59003L12 13.17L7.41 8.59003L6 10L12 16L18 10L16.59 8.59003Z"]) {
+    svg:has([d="M16.59 8.59003L12 13.17L7.41 8.59003L6 10L12 16L18 10L16.59 8.59003Z"],
+        [d="M7.41 16.0001L12 11.4201L16.59 16.0001L18 14.5901L12 8.59006L6 14.5901L7.41 16.0001Z"]) {
         color: var(--brand-experiment);
     }
 
@@ -35,19 +37,20 @@
         .searchInput-2-KiNf {
             font-size: 14px;
         }
-        
+
         input {
             cursor: text;
         }
     }
 }
+
 .popout-15UxD6 {
     border: none;
     background: #373c44;
     border-radius: 3px;
     margin-top: 2px;
     margin-bottom: 2px;
-    box-shadow: 0 8px 26px 2px rgba(0,0,0,.2);
+    box-shadow: 0 8px 26px 2px rgba(0, 0, 0, .2);
     padding: 12px !important;
     max-height: 200px !important;
     overflow: overlay !important;

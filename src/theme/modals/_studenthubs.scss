@@ -1,0 +1,49 @@
+.root-1CAIjD {
+    .content-1OG56Q.modalContent-2-8d3M {
+        padding-left: 0;
+    }
+
+    .sidebarContainer-gUKhtL {
+        width: 256px;
+        padding: 32px;
+        background: var(--background-tertiary);
+
+        .iconContainer-3LclNk {
+            border-radius: 2px;
+        }
+    }
+    
+    .contentContainer-qRbgi7 {
+        background: var(--modal-background);
+        align-items: start;
+
+        .header-1Hiujs {
+            margin-right: 140px;
+            margin-bottom: 0;
+            text-align: left;
+            font-size: 22px;
+            font-weight: 700;
+            line-height: 24px;
+        }
+
+        .descriptionWidth-39ysW5 {
+            width: calc(100% - 140px);
+            margin: 0 140px 32px 0;
+
+            .centerText-3xgf1v {
+                text-align: left;
+            }
+        }
+
+        .container-eK82mE {
+            padding: 32px;
+        }
+    
+        .topImage-Rlo-5x {
+            position: absolute;
+            top: 0;
+            right: 32px;
+            width: 140px;
+        }
+    }
+}

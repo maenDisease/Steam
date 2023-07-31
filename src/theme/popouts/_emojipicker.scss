@@ -1,50 +1,23 @@
-/*
-// Background of navigation
-:root {
-    --emojipicker-btnCount: 3;
-}
-.contentWrapper-3vHNP2:has(#emoji-picker-tab) .navList-YSb9UB {
-    background-color: var(--background-secondary-alt);
-    padding: 2px;
-    gap: 2px;
-    border-radius: 4px;
+.contentWrapper-3vHNP2 {
+    background: var(--modal-background);
+    border-radius: 0;
+    -webkit-box-shadow: v1px 3px 14px rgba(0, 0, 0, .65);
+    box-shadow: 1px 3px 14px rgba(0, 0, 0, .65);
 }
 
-// Resize buttons
-.contentWrapper-3vHNP2:has(#emoji-picker-tab) .navList-YSb9UB>button {
-    margin: 0;
-    width: calc((100%/var(--emojipicker-btnCount)) - 1.5px);
+.theme-dark .theme-light .contentWrapper-3vHNP2 {
+    background: var(--modal-background);
 }
 
-// Create foundation
-.drawerSizingWrapper-1txdWG .navList-YSb9UB {
-    position: relative;
-    z-index: 0;
-}
-
-// Create pseudo element that moves on switch
-.drawerSizingWrapper-1txdWG .navList-YSb9UB:after {
-    content: "";
-    position: absolute;
-    top: 2px;
-    bottom: 2px;
-    width: calc((100%/var(--emojipicker-btnCount)) - 2px);
-    background: var(--background-accent);
-    border-radius: 4px;
-    z-index: -1;
-    transition: transform .2s ease;
-}
-
-// Animate on 1st closest switch
-.drawerSizingWrapper-1txdWG .navList-YSb9UB:has(.navButtonActive-1EqC5l[id="sticker-picker-tab"]):after {
-    transform: translateX(calc(100% + 3px));
-}
-
-// Animate on 2nd closest switch
-.drawerSizingWrapper-1txdWG .navList-YSb9UB:has(.navButtonActive-1EqC5l[id="emoji-picker-tab"]):after {
-    transform: translateX(calc(200% + 6px));
-}
-
-.navButtonActive-1EqC5l {
+.wrapper-22rqw6 {
+    border-radius: 0;
     background: none;
-}*/
+}
+
+.bodyWrapper-1eSOtW {
+    background: var(--background-tertiary);
+}
+
+.inspector-DFKXwB {
+    background: none;
+}

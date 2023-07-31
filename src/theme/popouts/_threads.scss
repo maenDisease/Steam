@@ -1,0 +1,73 @@
+.browser-mnQ1T7 {
+    .title-10Au0i {
+        margin-right: 8px;
+    }
+    .divider-2xk5N2 {
+        display: none;
+    }
+    .sectionHeader-QsOv68 {
+        color: var(--text-muted) !important;
+        letter-spacing: .5px;
+        line-height: 36px;
+        margin-bottom: 0;
+    }
+
+    .searchBox-3IjAC1 {
+        padding: 4px 8px;
+        margin-right: 8px;
+        border-radius: 2px;
+        background: none;
+        transition: background 200ms ease-in-out, box-shadow 200ms ease-in-out;
+
+        &:hover {
+            background: var(--btn-grey-hover);
+            box-shadow: var(--btn-grey-boxshadow);
+        }
+
+        svg {
+            color: var(--brand-experiment);
+        }
+    }
+
+    .createButton-oruGBs {
+        margin-right: 0;
+        height: 30px;
+    }
+
+    .closeIcon-11tHJX {
+        display: none;
+    }
+}
+
+.container-2rzKKA {
+    background: #323640;
+    border-radius: 0;
+    border: none;
+    margin: 0 0 4px;
+    padding: 10px;
+    height: unset;
+
+    &:hover {
+        background: #3d4450;
+    }
+
+    .avatar-2jnSDw,
+    .noAvatarIcon-3Jqqzy {
+        margin-right: 4px;
+    }
+
+    .threadNameLine-1FNzAW {
+        font-size: 12px;
+        font-weight: 600;
+    }
+
+    .subtext-21DUaG {
+        font-size: 11px;
+        font-weight: 500;
+    }
+
+    .messageContentIcon-3szly_ {
+        height: 18px;
+        width: 18px;
+    }
+}
