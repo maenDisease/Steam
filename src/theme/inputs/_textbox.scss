@@ -17,6 +17,10 @@
         background: #23262e;
         box-shadow: inset 1px 1px 4px #000a;
     }
+
+    &::placeholder {
+        font-style: italic;
+    }
 }
 
 .inputDefault-Ciwd-S {

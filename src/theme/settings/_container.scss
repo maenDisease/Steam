@@ -114,6 +114,11 @@ body #app-mount {
                 opacity: 0;
             }
         }
+
+        [data-text-variant="text-md/normal"] {
+            font-size: 14px;
+            line-height: 18px;
+        }
     }
 }
 

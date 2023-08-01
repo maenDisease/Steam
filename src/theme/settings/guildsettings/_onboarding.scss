@@ -1,6 +1,6 @@
 // @use '../container';
 
-.contentRegionScroller-2_GT_N:has(#onboarding-tab) {
+.contentRegionScroller-2_GT_N:has(#onboarding-tab:not(:has(.onboardingContainer-2miLb4))) {
     background: #000;
 }
 
@@ -95,5 +95,48 @@
                 color: #1b1b1b;
             }
         }
+    }
+
+    .onboardingContainer-2miLb4 {
+        padding: 24px;
+        gap: 0;
+
+        // .progressContainer-1-LRSI {
+        //     width: calc(100% - 48px);
+        // }
+
+        .channelBrowser-IzfwD1 {
+            width: 50%;
+        }
+
+        .container-1zf5oT {
+            width: 50%;
+            margin-left: 16px;
+
+            .header-1ug_s9 {
+                width: 100%;
+            }
+        }
+    }
+
+}
+
+.educationUpsell-2MjLj5 {
+    background: #3D4450;
+    border-radius: 0;
+
+    .container-OT4m6X {
+        -webkit-box-shadow: 3px 3px 5px -3px #000;
+        box-shadow: 3px 3px 5px -3px #000;
+        border-radius: 0;
+
+        .header-127hvx {
+            line-height: 22px;
+            margin-bottom: 10px;
+        }
+    }
+
+    .lookFilled-1H2Jvj.colorBrand-2M3O3N {
+        box-shadow: var(--btn-grey-boxshadow);
     }
 }

@@ -70,6 +70,10 @@
     }
 }
 
+#app-mount .messageListItem-ZZ7v6g:has(.communicationDisabled-2KRN2p) + .messageListItem-ZZ7v6g .message-2CShn3:not(.groupStart-3Mlgv1) {
+    background: var(--message-background-gradient-red);
+}
+
 .hoverButtonGroup-2yZIzC {
     border-radius: 3px;
 }
