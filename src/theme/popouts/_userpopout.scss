@@ -11,6 +11,12 @@ userProfileModalOuter-2wdWjU: modal
     &.userProfileOuterThemed-2BgJCM {
         padding: 2px;
     }
+
+    .userProfileInnerThemedWithBanner-25XGmz {
+        .wrapper-3Un6-K {
+            backdrop-filter: blur(8px);
+        }
+    }
 }
 
 .userPopoutOuter-1OHwPL {

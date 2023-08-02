@@ -120,6 +120,12 @@
             background-color: #67707b;
             transition: background .2s linear, box-shadow 200ms ease-in-out;
 
+            &.actionDeny-1pQVuZ {
+                &:hover {
+                    color: #fff;
+                    background: var(--status-danger);
+                }
+            }
             &:hover {
                 background: var(--btn-grey-hover);
                 box-shadow: var(--btn-grey-boxshadow);
@@ -157,6 +163,10 @@
         background: var(--btn-grey);
         transition: background 200ms ease-in-out, box-shadow 200ms ease-in-out;
 
+        &.actionDeny-1pQVuZ {
+            color: var(--status-danger);
+        }
+        
         svg {
             height: 18px;
             width: 18px;
@@ -213,7 +223,6 @@
 
 .header-30YxSJ {
     padding: 0;
-    margin: 16px;
     border-bottom: 0;
 }
 
