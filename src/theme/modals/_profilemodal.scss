@@ -6,7 +6,7 @@
 
     &.profileColors-2AgAV4 {
         --profile-gradient-secondary-color: var(--background-dark-4);
-        --profile-gradient-primary-color: var(--brand-experiment);
+        --profile-gradient-primary-color: var(--background-dark-2);
     }
 
     .topSection-13QKHs {
@@ -43,13 +43,13 @@
         display: flex;
         flex-flow: row wrap;
         background: var(--background-dark-3);
-            border-radius: 3px;
-            padding: 10px;
-            box-shadow: none;
-            width: fit-content;
-            max-width: calc(100% - 20px);
-            margin-right: 0;
-            gap: 6px 10px;
+        border-radius: 3px;
+        padding: 10px;
+        box-shadow: none;
+        width: fit-content;
+        max-width: calc(100% - 20px);
+        margin-right: 0;
+        gap: 6px 10px;
     }
 
     .relationshipButtons-3ByBpj {
@@ -67,7 +67,7 @@
                 background: var(--gpColor-Green);
             }
         }
-        
+
         [role="button"] {
             background: var(--background-dark-3);
             height: 34px;
@@ -99,7 +99,7 @@
         padding: 0;
         max-width: calc(100% - 12px - 120px - 32px - 48px - 200px);
         overflow: hidden;
-        
+
 
         [data-text-variant="text-lg/semibold"] {
             font-size: 24px;
@@ -151,8 +151,9 @@
         }
 
         .overlayBackground-2aa7wt {
-            margin-top: 106px;
+            margin-top: 0;
         }
+
     }
 
     .top-Ktfr_T {
@@ -229,25 +230,34 @@
         }
     }
 
+    .scrollerBase-1Pkza4 {
+        padding-top: 16px;
+    }
+
     .userInfoText-2MFCmH {
         margin-bottom: 0;
     }
 
-    .userInfoSection-2u2hir h1 {
-        background: linear-gradient(90deg, var(--profile-gradient-secondary-color) 0%, var(--profile-gradient-primary-color) 90%);
-        padding: 5px 10px 5px 10px;
-        color: #ffffff;
-        font-size: 16px;
-        font-weight: 200;
-        line-height: 30px;
-        border-radius: 3px 3px 0 0;
-        margin-bottom: 0;
+    .userInfoSection-2u2hir {
+        padding: 0;
+        
+        h1 {
+            background: linear-gradient(90deg, var(--profile-gradient-secondary-color) 0%, var(--profile-gradient-primary-color) 90%);
+            padding: 5px 10px 5px 10px;
+            color: #ffffff;
+            font-size: 16px;
+            font-weight: 200;
+            line-height: 30px;
+            border-radius: 3px 3px 0 0;
+            margin-bottom: 0;
+            user-select: text;
 
-        +div {
-            background: var(--background-dark-3);
-            border-radius: 0 0 3px 3px;
-            padding: 20px 10px 11px 10px;
-            margin-bottom: 12px;
+            +div {
+                background: var(--background-dark-3);
+                border-radius: 0 0 3px 3px;
+                padding: 20px 10px 11px 10px;
+                margin-bottom: 12px;
+            }
         }
     }
 
@@ -293,6 +303,7 @@
             padding: 8px;
             border-radius: 5px;
             width: 100%;
+            user-select: text;
         }
     }
 
@@ -372,5 +383,26 @@
             height: 18px;
             width: 18px;
         }
+    }
+
+    .listScroller-entkMk {
+        padding: 16px 12px 12px 12px;
+    }
+
+    .listRow-2nO1T6 {
+        background: var(--background-dark-3);
+        padding: 8px;
+        border-radius: 5px;
+        margin: 0;
+    }
+
+    .listName-PwbeHL {
+        font-size: 14px;
+        line-height: 18px;
+    }
+
+    .guildNick-fe8oPN {
+        font-size: 13px;
+        line-height: 17px;
     }
 }
