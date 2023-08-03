@@ -1,5 +1,5 @@
-.chat-2ZfjoI.threadSidebarOpen-1LSXvU {
-    max-width: var(--content-width);
+.chat-2ZfjoI.threadSidebarOpen-1LSXvUL:not(.threadSidebarFloating-uC2s6v) {
+    max-width: calc(var(--content-width) - 400px);
 }
 
 .resizeHandle-PBRzPC {
@@ -11,6 +11,7 @@
 .container-3XgAHv {
     border-radius: unset;
     background: none;
+    max-width: var(--content-width);
 
     &.floating-3M3WeH {
         border-left: 1px solid #000;

@@ -6,7 +6,7 @@
     overflow: hidden overlay !important;
 
     &>div:first-child {
-        width: calc(100% - 48px);
+        box-sizing: border-box;
         padding-left: 0;
     }
 }

@@ -229,43 +229,7 @@ userProfileModalOuter-2wdWjU: modal
     order: -1;
 }
 
-// .memberSinceContainer-2CBD23 {
-//     display: flex;
-//     flex-wrap: wrap;
-//     justify-content: center;
-
-//     .discordIcon-32mgeP,
-//     .icon-1zKOXL {
-//         flex-shrink: 0;
-//     }
-
-//     .divider-MZkkle {
-//         flex: 1 100%;
-//         height: 0;
-//         opacity: 0;
-//     }
-// }
-
-// #app-mount .scroller-15bIdk {
-//     display: grid;
-//     grid-template-columns: repeat(2, minmax(0, 1fr));
-//     grid-gap: 8px;
-
-//     .section-28YDOf {
-//         background-color: rgba( 0, 0, 0, 0.3 );
-//     padding: 8px;
-//     border-radius: 5px;
-//     }
-// }
-
-// .section-28YDOf {
-//     &.lastSection-q3HCfo,
-//     &:has(
-//         >.buttonsContainer-3iOFIV,
-//         >.markup-eYLPri,
-//         .activity-3uaYny img,
-//         .activity-3uaYny svg
-//     ) {
-//         grid-column: span 2;
-//     }
-// }
+.role-2TIOKu {
+    background: var(--background-dark-3);
+    border-radius: 2px;
+}

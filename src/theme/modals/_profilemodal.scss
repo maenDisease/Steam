@@ -13,13 +13,21 @@
         position: relative;
         margin-bottom: 0;
         z-index: unset;
+        box-sizing: border-box;
+        width: 100%;
+
+        header {
+            
+        }
     }
 
     .header-S26rhB {
         position: absolute;
         bottom: calc(calc(120px + 24px) * -1);
-        left: 24px;
-        width: calc(100% - 24px - 24px);
+        left: 0;
+        padding: 0 24px;
+        width: 100%;
+        box-sizing: border-box;
         display: flex;
         flex-flow: row nowrap;
         justify-content: space-between;
@@ -47,7 +55,7 @@
         padding: 10px;
         box-shadow: none;
         width: fit-content;
-        max-width: calc(100% - 20px);
+        box-sizing: border-box;
         margin-right: 0;
         gap: 6px 10px;
     }
@@ -95,9 +103,10 @@
     .container-3g15px {
         position: absolute;
         top: 24px;
-        left: calc(24px + 120px + 32px);
-        padding: 0;
-        max-width: calc(100% - 12px - 120px - 32px - 48px - 200px);
+        left: 0;
+        padding: 0 calc(24px + 200px + 16px) 0 calc(24px + 120px + 16px);
+        width: 100%;
+        box-sizing: border-box;
         overflow: hidden;
 
 
@@ -106,6 +115,8 @@
             line-height: 40px;
             font-weight: 200;
             color: #fff;
+            margin-right: 0 !important;
+            overflow: hidden;
         }
     }
 
@@ -231,7 +242,9 @@
     }
 
     .scrollerBase-1Pkza4 {
-        padding-top: 16px;
+        overflow: hidden overlay !important;
+        padding: 0 !important;
+        margin: 16px 12px 12px 12px;
     }
 
     .userInfoText-2MFCmH {
@@ -240,7 +253,7 @@
 
     .userInfoSection-2u2hir {
         padding: 0;
-        
+
         h1 {
             background: linear-gradient(90deg, var(--profile-gradient-secondary-color) 0%, var(--profile-gradient-primary-color) 90%);
             padding: 5px 10px 5px 10px;
@@ -319,8 +332,8 @@
             background: var(--background-dark-3);
             border-radius: 3px;
             padding: 10px;
-            margin-top: 16px;
             height: fit-content;
+            box-sizing: border-box;
         }
 
         >[aria-hidden="true"] {
@@ -329,7 +342,7 @@
     }
 
     .connectedAccountsColumn-1zdyyx {
-        width: calc(100% - 12px);
+        width: 100%;
 
         +.connectedAccountsColumn-1zdyyx {
             margin-left: 0;
@@ -386,7 +399,13 @@
     }
 
     .listScroller-entkMk {
-        padding: 16px 12px 12px 12px;
+        display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    grid-gap: 7px;
+        background: var(--background-dark-3);
+        border-radius: 3px;
+        padding: 20px 10px 11px 10px !important;
+        width: calc(100% - 12px - 10px);
     }
 
     .listRow-2nO1T6 {
@@ -394,6 +413,7 @@
         padding: 8px;
         border-radius: 5px;
         margin: 0;
+        height: fit-content;
     }
 
     .listName-PwbeHL {
@@ -405,4 +425,20 @@
         font-size: 13px;
         line-height: 17px;
     }
+
+    .userProfileActivity-sal5no {
+        grid-column: span 2;
+        background: var(--background-dark-3);
+        padding: 8px;
+        border-radius: 5px;
+    }
+
+    .empty-2zcusz {
+        grid-column: span 2;
+    }
+}
+
+.assetsLargeImage-8U5dlz,
+.iconActiveMedium-27_R5B {
+    border-radius: 0;
 }

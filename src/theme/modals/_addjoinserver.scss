@@ -26,7 +26,8 @@
             position: absolute;
             bottom: 0;
             justify-content: right;
-            width: calc(100% - 32px * 2);
+            width: 100%;
+            box-sizing: border-box;
             gap: 10px;
             flex-flow: row nowrap;
 

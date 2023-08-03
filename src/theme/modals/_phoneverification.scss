@@ -19,7 +19,8 @@
             line-height: 24px;
             margin: 0;
             padding: 32px;
-            width: calc(100% - 32px * 2);
+            width: 100%;
+            box-sizing: border-box;
     }
 
     .description-krHRyL {
