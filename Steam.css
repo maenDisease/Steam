@@ -315,7 +315,7 @@ body,
 
 .bg-1QIAus {
   --baked-bg: url(https://maendisease.github.io/Steam/illustrations/colored_body_top.avif) center left/cover no-repeat;
-  background: var(--bg-overlay-app-frame, var(--baked-bg));
+  background: url(data:image/avif;base64,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) center left/cover no-repeat;
 }
 
 .base-2jDfDU {
@@ -648,6 +648,9 @@ path[d="M20 11.1111H12.8889V4H11.1111V11.1111H4V12.8889H11.1111V20H12.8889V12.88
   display: none;
 }
 
+.content-3AIQZv {
+  position: relative;
+}
 .content-3AIQZv:has(.ready-3BZNWT)::before {
   content: "";
   display: block;
@@ -659,8 +662,8 @@ path[d="M20 11.1111H12.8889V4H11.1111V11.1111H4V12.8889H11.1111V20H12.8889V12.88
   width: 100%;
   max-height: 142px;
   max-width: 142px;
-  -webkit-mask: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 36 36"><path d="M18 34.32C9 34.32 1.68 27 1.68 18S9 1.68 18 1.68 34.32 9 34.32 18 27 34.32 18 34.32Zm0-31.63c-8.44 0-15.32 6.87-15.32 15.32S9.55 33.33 18 33.33s15.32-6.87 15.32-15.32S26.45 2.68 18 2.68Zm7.98 7.95c-1.51-.71-3.11-1.2-4.74-1.48-.22.41-.43.83-.61 1.25-1.74-.26-3.51-.26-5.26 0-.19-.43-.39-.85-.61-1.25-1.64.28-3.24.78-4.75 1.48C7 15.15 6.19 19.55 6.6 23.88c1.76 1.32 3.73 2.32 5.82 2.96.47-.64.89-1.33 1.24-2.04-.68-.26-1.34-.57-1.96-.95.17-.12.33-.24.48-.38 3.69 1.76 7.95 1.76 11.63 0 .16.13.32.26.48.38-.63.37-1.29.7-1.96.95.36.72.77 1.4 1.24 2.04 2.09-.64 4.06-1.64 5.82-2.96.48-5.02-.82-9.38-3.42-13.24Zm-11.8 10.58c-1.13 0-2.07-1.06-2.07-2.34 0-1.28.91-2.34 2.07-2.34 1.16 0 2.09 1.06 2.07 2.34 0 1.28-.92 2.34-2.07 2.34zm7.64 0c-1.13 0-2.07-1.06-2.07-2.34 0-1.28.92-2.34 2.07-2.34s2.09 1.06 2.07 2.34c0 1.28-.92 2.34-2.07 2.34z"/></svg>') center/contain no-repeat;
-  mask: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 36 36"><path d="M18 34.32C9 34.32 1.68 27 1.68 18S9 1.68 18 1.68 34.32 9 34.32 18 27 34.32 18 34.32Zm0-31.63c-8.44 0-15.32 6.87-15.32 15.32S9.55 33.33 18 33.33s15.32-6.87 15.32-15.32S26.45 2.68 18 2.68Zm7.98 7.95c-1.51-.71-3.11-1.2-4.74-1.48-.22.41-.43.83-.61 1.25-1.74-.26-3.51-.26-5.26 0-.19-.43-.39-.85-.61-1.25-1.64.28-3.24.78-4.75 1.48C7 15.15 6.19 19.55 6.6 23.88c1.76 1.32 3.73 2.32 5.82 2.96.47-.64.89-1.33 1.24-2.04-.68-.26-1.34-.57-1.96-.95.17-.12.33-.24.48-.38 3.69 1.76 7.95 1.76 11.63 0 .16.13.32.26.48.38-.63.37-1.29.7-1.96.95.36.72.77 1.4 1.24 2.04 2.09-.64 4.06-1.64 5.82-2.96.48-5.02-.82-9.38-3.42-13.24Zm-11.8 10.58c-1.13 0-2.07-1.06-2.07-2.34 0-1.28.91-2.34 2.07-2.34 1.16 0 2.09 1.06 2.07 2.34 0 1.28-.92 2.34-2.07 2.34zm7.64 0c-1.13 0-2.07-1.06-2.07-2.34 0-1.28.92-2.34 2.07-2.34s2.09 1.06 2.07 2.34c0 1.28-.92 2.34-2.07 2.34z"/></svg>') center/contain no-repeat;
+  -webkit-mask: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 36 36"><path d="M18 34.32C9 34.32 1.68 27 1.68 18S9 1.68 18 1.68 34.32 9 34.32 18 27 34.32 18 34.32Zm0-31.63c-8.44 0-15.32 6.87-15.32 15.32S9.55 33.33 18 33.33s15.32-6.87 15.32-15.32S26.45 2.68 18 2.68Zm7.98 7.95c-1.51-.71-3.11-1.2-4.74-1.48-.22.41-.43.83-.61 1.25-1.74-.26-3.51-.26-5.26 0-.19-.43-.39-.85-.61-1.25-1.64.28-3.24.78-4.75 1.48C7 15.15 6.19 19.55 6.6 23.88c1.76 1.32 3.73 2.32 5.82 2.96.47-.64.89-1.33 1.24-2.04-.68-.26-1.34-.57-1.96-.95.17-.12.33-.24.48-.38 3.69 1.76 7.95 1.76 11.63 0 .16.13.32.26.48.38-.63.37-1.29.7-1.96.95.36.72.77 1.4 1.24 2.04 2.09-.64 4.06-1.64 5.82-2.96.48-5.02-.82-9.38-3.42-13.24Zm-11.8 10.58c-1.13 0-2.07-1.06-2.07-2.34 0-1.28.91-2.34 2.07-2.34 1.16 0 2.09 1.06 2.07 2.34 0 1.28-.92 2.34-2.07 2.34zm7.64 0c-1.13 0-2.07-1.06-2.07-2.34 0-1.28.92-2.34 2.07-2.34s2.09 1.06 2.07 2.34c0 1.28-.92 2.34-2.07 2.34z"/></svg>') center/contain no-repeat;
+  mask: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 36 36"><path d="M18 34.32C9 34.32 1.68 27 1.68 18S9 1.68 18 1.68 34.32 9 34.32 18 27 34.32 18 34.32Zm0-31.63c-8.44 0-15.32 6.87-15.32 15.32S9.55 33.33 18 33.33s15.32-6.87 15.32-15.32S26.45 2.68 18 2.68Zm7.98 7.95c-1.51-.71-3.11-1.2-4.74-1.48-.22.41-.43.83-.61 1.25-1.74-.26-3.51-.26-5.26 0-.19-.43-.39-.85-.61-1.25-1.64.28-3.24.78-4.75 1.48C7 15.15 6.19 19.55 6.6 23.88c1.76 1.32 3.73 2.32 5.82 2.96.47-.64.89-1.33 1.24-2.04-.68-.26-1.34-.57-1.96-.95.17-.12.33-.24.48-.38 3.69 1.76 7.95 1.76 11.63 0 .16.13.32.26.48.38-.63.37-1.29.7-1.96.95.36.72.77 1.4 1.24 2.04 2.09-.64 4.06-1.64 5.82-2.96.48-5.02-.82-9.38-3.42-13.24Zm-11.8 10.58c-1.13 0-2.07-1.06-2.07-2.34 0-1.28.91-2.34 2.07-2.34 1.16 0 2.09 1.06 2.07 2.34 0 1.28-.92 2.34-2.07 2.34zm7.64 0c-1.13 0-2.07-1.06-2.07-2.34 0-1.28.92-2.34 2.07-2.34s2.09 1.06 2.07 2.34c0 1.28-.92 2.34-2.07 2.34z"/></svg>') center/contain no-repeat;
   background: #fff;
   animation: discordSpinnerScale 1.44s cubic-bezier(0.5, 0, 0.5, 1) alternate infinite;
 }
@@ -672,7 +675,6 @@ path[d="M20 11.1111H12.8889V4H11.1111V11.1111H4V12.8889H11.1111V20H12.8889V12.88
   margin: auto;
   z-index: 999;
   height: 100%;
-  width: 100%;
   max-height: 142px;
   max-width: 142px;
   border-radius: 50%;
@@ -708,9 +710,7 @@ path[d="M20 11.1111H12.8889V4H11.1111V11.1111H4V12.8889H11.1111V20H12.8889V12.88
   width: 100px;
 }
 .content-3AIQZv:has(.ready-3BZNWT)::after {
-  top: 32px;
   bottom: unset;
-  margin: 0 auto;
   height: 100px;
   width: 100px;
 }
@@ -1945,6 +1945,7 @@ body #app-mount .app-3xd6d0 .base-2jDfDU {
   pointer-events: none;
   background-color: currentColor;
   -webkit-mask: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 18 24" fill="currentColor"><path fill-rule="evenodd" clip-rule="evenodd" d="M15 3.999V2H9V3.999H3V5.999H21V3.999H15Z M5 6.99902V18.999C5 20.101 5.897 20.999 7 20.999H17C18.103 20.999 19 20.101 19 18.999V6.99902H5ZM11 17H9V11H11V17ZM15 17H13V11H15V17Z" ></path></svg>') center/contain no-repeat;
+  mask: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 18 24" fill="currentColor"><path fill-rule="evenodd" clip-rule="evenodd" d="M15 3.999V2H9V3.999H3V5.999H21V3.999H15Z M5 6.99902V18.999C5 20.101 5.897 20.999 7 20.999H17C18.103 20.999 19 20.101 19 18.999V6.99902H5ZM11 17H9V11H11V17ZM15 17H13V11H15V17Z" ></path></svg>') center/contain no-repeat;
 }
 
 .groupStart-3Mlgv1.expanded-3lghlw .blockedMessageText-3Zeg3y {
@@ -2114,8 +2115,8 @@ body #app-mount .app-3xd6d0 .base-2jDfDU {
   display: block;
   width: 16px;
   height: 16px;
-  mask: url(https://maendisease.github.io/Steam/illustrations/icns/phoneA.svg);
-  -webkit-mask: url(https://maendisease.github.io/Steam/illustrations/icns/phoneA.svg);
+  -webkit-mask: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 36 36" fill="none"><path d="m23.9557 3H12.0343C10.6158 3 9.47 4.1458 9.47 5.5643v24.8657c0 1.4186 1.1458 2.5643 2.5643 2.5643h11.9077c1.4186 0 2.5643-1.1458 2.5643-2.5643V5.5643c0-1.4186-1.1458-2.5643-2.5643-2.5643Zm-8.8933 1.2003h5.8788c.3819 0 .682.3001.682.682s-.3001.682-.682.682h-5.8788c-.3819 0-.682-.3001-.682-.682s.3001-.682.682-.682Zm2.9462 26.5844c-.7502 0-1.364-.6138-1.364-1.364s.6138-1.364 1.364-1.364 1.364.6138 1.364 1.364-.6138 1.364-1.364 1.364Zm6.7927-4.433H11.2568V7.2693h13.5172v19.096Z" fill="currentColor"></path></svg>') center/contain no-repeat;
+  mask: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 36 36" fill="none"><path d="m23.9557 3H12.0343C10.6158 3 9.47 4.1458 9.47 5.5643v24.8657c0 1.4186 1.1458 2.5643 2.5643 2.5643h11.9077c1.4186 0 2.5643-1.1458 2.5643-2.5643V5.5643c0-1.4186-1.1458-2.5643-2.5643-2.5643Zm-8.8933 1.2003h5.8788c.3819 0 .682.3001.682.682s-.3001.682-.682.682h-5.8788c-.3819 0-.682-.3001-.682-.682s.3001-.682.682-.682Zm2.9462 26.5844c-.7502 0-1.364-.6138-1.364-1.364s.6138-1.364 1.364-1.364 1.364.6138 1.364 1.364-.6138 1.364-1.364 1.364Zm6.7927-4.433H11.2568V7.2693h13.5172v19.096Z" fill="currentColor"></path></svg>') center/contain no-repeat;
   background: var(--rs-online-color);
   margin-left: 2px;
 }
@@ -4070,6 +4071,7 @@ body #app-mount .app-3xd6d0 .base-2jDfDU {
   position: relative;
   flex-grow: 0;
   padding: 32px;
+  overflow: hidden;
 }
 .errorPage-2pZ2Kq > .flex-2S1XBF::before {
   content: "";
@@ -4114,8 +4116,8 @@ body #app-mount .app-3xd6d0 .base-2jDfDU {
   width: 100%;
   max-height: 142px;
   max-width: 142px;
-  -webkit-mask: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 36 36"><path d="M18 34.32C9 34.32 1.68 27 1.68 18S9 1.68 18 1.68 34.32 9 34.32 18 27 34.32 18 34.32Zm0-31.63c-8.44 0-15.32 6.87-15.32 15.32S9.55 33.33 18 33.33s15.32-6.87 15.32-15.32S26.45 2.68 18 2.68Zm7.98 7.95c-1.51-.71-3.11-1.2-4.74-1.48-.22.41-.43.83-.61 1.25-1.74-.26-3.51-.26-5.26 0-.19-.43-.39-.85-.61-1.25-1.64.28-3.24.78-4.75 1.48C7 15.15 6.19 19.55 6.6 23.88c1.76 1.32 3.73 2.32 5.82 2.96.47-.64.89-1.33 1.24-2.04-.68-.26-1.34-.57-1.96-.95.17-.12.33-.24.48-.38 3.69 1.76 7.95 1.76 11.63 0 .16.13.32.26.48.38-.63.37-1.29.7-1.96.95.36.72.77 1.4 1.24 2.04 2.09-.64 4.06-1.64 5.82-2.96.48-5.02-.82-9.38-3.42-13.24Zm-11.8 10.58c-1.13 0-2.07-1.06-2.07-2.34 0-1.28.91-2.34 2.07-2.34 1.16 0 2.09 1.06 2.07 2.34 0 1.28-.92 2.34-2.07 2.34zm7.64 0c-1.13 0-2.07-1.06-2.07-2.34 0-1.28.92-2.34 2.07-2.34s2.09 1.06 2.07 2.34c0 1.28-.92 2.34-2.07 2.34z"/></svg>') center/contain no-repeat;
-  mask: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 36 36"><path d="M18 34.32C9 34.32 1.68 27 1.68 18S9 1.68 18 1.68 34.32 9 34.32 18 27 34.32 18 34.32Zm0-31.63c-8.44 0-15.32 6.87-15.32 15.32S9.55 33.33 18 33.33s15.32-6.87 15.32-15.32S26.45 2.68 18 2.68Zm7.98 7.95c-1.51-.71-3.11-1.2-4.74-1.48-.22.41-.43.83-.61 1.25-1.74-.26-3.51-.26-5.26 0-.19-.43-.39-.85-.61-1.25-1.64.28-3.24.78-4.75 1.48C7 15.15 6.19 19.55 6.6 23.88c1.76 1.32 3.73 2.32 5.82 2.96.47-.64.89-1.33 1.24-2.04-.68-.26-1.34-.57-1.96-.95.17-.12.33-.24.48-.38 3.69 1.76 7.95 1.76 11.63 0 .16.13.32.26.48.38-.63.37-1.29.7-1.96.95.36.72.77 1.4 1.24 2.04 2.09-.64 4.06-1.64 5.82-2.96.48-5.02-.82-9.38-3.42-13.24Zm-11.8 10.58c-1.13 0-2.07-1.06-2.07-2.34 0-1.28.91-2.34 2.07-2.34 1.16 0 2.09 1.06 2.07 2.34 0 1.28-.92 2.34-2.07 2.34zm7.64 0c-1.13 0-2.07-1.06-2.07-2.34 0-1.28.92-2.34 2.07-2.34s2.09 1.06 2.07 2.34c0 1.28-.92 2.34-2.07 2.34z"/></svg>') center/contain no-repeat;
+  -webkit-mask: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 36 36"><path d="M18 34.32C9 34.32 1.68 27 1.68 18S9 1.68 18 1.68 34.32 9 34.32 18 27 34.32 18 34.32Zm0-31.63c-8.44 0-15.32 6.87-15.32 15.32S9.55 33.33 18 33.33s15.32-6.87 15.32-15.32S26.45 2.68 18 2.68Zm7.98 7.95c-1.51-.71-3.11-1.2-4.74-1.48-.22.41-.43.83-.61 1.25-1.74-.26-3.51-.26-5.26 0-.19-.43-.39-.85-.61-1.25-1.64.28-3.24.78-4.75 1.48C7 15.15 6.19 19.55 6.6 23.88c1.76 1.32 3.73 2.32 5.82 2.96.47-.64.89-1.33 1.24-2.04-.68-.26-1.34-.57-1.96-.95.17-.12.33-.24.48-.38 3.69 1.76 7.95 1.76 11.63 0 .16.13.32.26.48.38-.63.37-1.29.7-1.96.95.36.72.77 1.4 1.24 2.04 2.09-.64 4.06-1.64 5.82-2.96.48-5.02-.82-9.38-3.42-13.24Zm-11.8 10.58c-1.13 0-2.07-1.06-2.07-2.34 0-1.28.91-2.34 2.07-2.34 1.16 0 2.09 1.06 2.07 2.34 0 1.28-.92 2.34-2.07 2.34zm7.64 0c-1.13 0-2.07-1.06-2.07-2.34 0-1.28.92-2.34 2.07-2.34s2.09 1.06 2.07 2.34c0 1.28-.92 2.34-2.07 2.34z"/></svg>') center/contain no-repeat;
+  mask: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 36 36"><path d="M18 34.32C9 34.32 1.68 27 1.68 18S9 1.68 18 1.68 34.32 9 34.32 18 27 34.32 18 34.32Zm0-31.63c-8.44 0-15.32 6.87-15.32 15.32S9.55 33.33 18 33.33s15.32-6.87 15.32-15.32S26.45 2.68 18 2.68Zm7.98 7.95c-1.51-.71-3.11-1.2-4.74-1.48-.22.41-.43.83-.61 1.25-1.74-.26-3.51-.26-5.26 0-.19-.43-.39-.85-.61-1.25-1.64.28-3.24.78-4.75 1.48C7 15.15 6.19 19.55 6.6 23.88c1.76 1.32 3.73 2.32 5.82 2.96.47-.64.89-1.33 1.24-2.04-.68-.26-1.34-.57-1.96-.95.17-.12.33-.24.48-.38 3.69 1.76 7.95 1.76 11.63 0 .16.13.32.26.48.38-.63.37-1.29.7-1.96.95.36.72.77 1.4 1.24 2.04 2.09-.64 4.06-1.64 5.82-2.96.48-5.02-.82-9.38-3.42-13.24Zm-11.8 10.58c-1.13 0-2.07-1.06-2.07-2.34 0-1.28.91-2.34 2.07-2.34 1.16 0 2.09 1.06 2.07 2.34 0 1.28-.92 2.34-2.07 2.34zm7.64 0c-1.13 0-2.07-1.06-2.07-2.34 0-1.28.92-2.34 2.07-2.34s2.09 1.06 2.07 2.34c0 1.28-.92 2.34-2.07 2.34z"/></svg>') center/contain no-repeat;
   background: #fff;
   animation: discordSpinnerScale 1.44s cubic-bezier(0.5, 0, 0.5, 1) alternate infinite;
 }
@@ -4127,7 +4129,6 @@ body #app-mount .app-3xd6d0 .base-2jDfDU {
   margin: auto;
   z-index: 999;
   height: 100%;
-  width: 100%;
   max-height: 142px;
   max-width: 142px;
   border-radius: 50%;
