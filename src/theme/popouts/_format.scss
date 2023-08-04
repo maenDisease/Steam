@@ -1,0 +1,35 @@
+#slate-toolbar {
+    background: var(--contextmenu-background);
+    border-radius: 0;
+    -webkit-box-shadow: var(--contextmenu-shadow);
+    box-shadow: var(--contextmenu-shadow);
+}
+
+.buttons-3snlAO {
+    border-radius: 0;
+
+    .button-ejjZWC {
+        border-radius: 0;
+        font-size: 12px;
+        transition: none;
+
+        .buttonInner-1RE0NV {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        
+        svg {
+            color: #dcdedf;
+            height: 18px;
+            width: 18px;
+        }
+
+        &.hover-3OQb9Y:hover {
+            background: #dcdedf;
+            svg {
+                color: #171a21;
+            }
+        }
+    }
+}

@@ -63,9 +63,6 @@
     }
 }
 
-#app-mount .phoneField-3NAPDv {
-    box-shadow: none;
-}
 .phoneField-3NAPDv {
     border-radius: 2px;
     padding: 2px;
@@ -81,6 +78,10 @@
     &:focus-within {
         background: #23262e;
         box-shadow: inset 1px 1px 4px #000a;
+    }
+
+    &:not(:focus, :focus-within) {
+        box-shadow: none;
     }
 
     .inputField-1iYysB {

@@ -15,7 +15,7 @@
         --header-secondary: var(--channels-default);
 
         &:hover:not(.selected-1-Z6gm) {
-            --channels-default: var(--brand-experiment-260);
+            --channels-default: #66c0f4;
 
             svg {
                 color: var(--channels-default);
@@ -26,7 +26,7 @@
             --channels-default: #fff;
 
             .layout-1qmrhw {
-                background: radial-gradient(circle at 0%, hsla(var(--accent-hue), 24%, 43%, 0) 20%, hsla(var(--accent-hue), 24%, 43%, 0.251) 100%);
+                background: radial-gradient(circle at 0%, hsla(207, 24%, 43%, 0) 20%, hsla(207, 24%, 43%, 0.25) 100%);
             }
         }
     }
@@ -342,7 +342,7 @@
         grid-area: categories;
         align-items: flex-start;
         height: fit-content;
-        border: 1px solid rgba(255,255,255, 0.1);
+        border: 1px solid rgba(255, 255, 255, 0.1);
         border-top: none;
         border-radius: 2px;
         flex-direction: column;
@@ -352,9 +352,10 @@
 
         &::before {
             content: 'Categories';
-            background: rgba(255,255,255,0.1);
+            background: rgba(255, 255, 255, 0.1);
             padding: 4px 4px 4px 6px;
-            width: calc(100% - 10px);
+            width: 100%;
+            box-sizing: border-box;
             font-size: 12px;
             color: #c7d5e0;
             border-top-left-radius: 1px;
@@ -459,7 +460,7 @@
             margin-left: calc(calc(12px + 32px + 8px) * -1);
             border-radius: 2px;
             box-shadow: 0 0 5px 0 #000000;
-            
+
             foreignObject {
                 mask: none;
             }
@@ -530,6 +531,7 @@
 
     .guildList-3-B_6n {
         margin: 0;
+
         .container-1wv6C6 {
             background: var(--background-dark-3);
             padding: 8px 16px 10px 16px;

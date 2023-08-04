@@ -56,6 +56,7 @@
 
     &.selected-1Drb7Z:not(:hover) {
         pointer-events: none;
+
         .childWrapper-1j_1ub::before {
             background: var(--brand-experiment);
         }
@@ -95,6 +96,7 @@
     z-index: 3;
 }
 
+.baseShapeRound-3epLEv,
 .numberBadge-37OJ3S {
     border-radius: 0;
 }
@@ -102,6 +104,7 @@
 .blobContainer-ikKyFs {
     position: relative;
 }
+
 .blobContainer-ikKyFs:before {
     content: "";
     position: absolute;

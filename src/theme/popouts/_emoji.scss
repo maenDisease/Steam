@@ -1,7 +1,74 @@
 .popoutContainer-2wbmiM {
-    background: linear-gradient(90deg, rgba(33, 162, 255, 0.1) 1.89%, rgba(50, 50, 51, 0) 50%), linear-gradient(180deg, #575860 11.6%, #3A4852 54.73%, #2C2D34 100%);
-    padding: 8px 5px 8px 5px;
+    // background: linear-gradient(90deg, rgba(33, 162, 255, 0.1) 1.89%, rgba(50, 50, 51, 0) 50%), linear-gradient(180deg, #575860 11.6%, #3A4852 54.73%, #2C2D34 100%);
+    // padding: 16px;
+    // border-radius: 0;
+    // -webkit-box-shadow: 3px 3px 5px -3px #000;
+    // box-shadow: 3px 3px 5px -3px #000;
+    border: 2px solid #3A3A3A;
+    padding: 16px;
+    background-color: #1d1d1d;
+    box-shadow: 0 0 12px #000000;
     border-radius: 0;
-    -webkit-box-shadow: 3px 3px 5px -3px #000;
-    box-shadow: 3px 3px 5px -3px #000;
+
+    .emojiSection-3QtaWO {
+        padding: 0;
+    }
+
+    [data-text-variant="text-md/semibold"] {
+        color: #b4b4b4;
+        font-weight: 400;
+        font-size: 24px;
+        line-height: 28px;
+        margin-bottom: 5px;
+    }
+
+    [data-text-variant="text-sm/normal"] {
+        color: #767676;
+        font-weight: 500;
+    }
+
+    button {
+        width: fit-content;
+    }
+
+    .guildSection-2Zyzy8 {
+        padding: 0;
+        background: none;
+        position: relative;
+        margin-top: 24px;
+        padding-top: 24px;
+
+        &::before {
+            content: '';
+            display: block;
+            height: 2px;
+            width: 100%;
+            background: linear-gradient(to right, transparent, #3A3A3A, transparent);
+            position: absolute;
+            top: 0;
+        }
+
+        .guildTitle-1yMWvh {
+            display: none;
+        }
+
+        svg {
+            border-radius: 3px;
+            foreignObject {
+                mask: none;
+            }
+        }
+
+        .guildName-3JcJGj {
+            font-weight: 500;
+            color: #767676;
+        }
+
+        [data-text-variant="text-xs/normal"] {
+            --header-secondary: #767676;
+            font-size: 14px;
+            line-height: 18px;
+            font-weight: 500;
+        }
+    }
 }

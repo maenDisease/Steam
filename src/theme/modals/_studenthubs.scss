@@ -27,8 +27,10 @@
         }
 
         .descriptionWidth-39ysW5 {
-            width: calc(100% - 140px);
-            margin: 0 140px 32px 0;
+            width: 100%;
+            box-sizing: border-box;
+            padding: 0 140px 32px 0;
+            margin: 0;
 
             .centerText-3xgf1v {
                 text-align: left;

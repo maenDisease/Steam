@@ -26,6 +26,9 @@
     --background-dark-3: rgba(0, 0, 0, .3);
     --background-dark-2: rgba(0, 0, 0, .2);
 
+    --contextmenu-background: #3D4450;
+    --contextmenu-shadow: 3px 3px 5px -3px #000;
+
     --message-background-gradient-yellow: linear-gradient(135deg, hsla(40, 23%, 41%, 0.5) 0%, hsla(40, 60%, 72%, 0.502) 100%);
     --message-background-gradient-blue: linear-gradient(135deg, hsla(var(--accent-hue), 23%, 41%, 0.5) 0%, hsla(var(--accent-hue), 60%, 72%, 0.502) 100%);
     --message-background-gradient-red: linear-gradient(135deg, hsla(0, 53%, 41%, 0.5) 0%, hsla(0, 90%, 72%, 0.502) 100%);
@@ -33,6 +36,7 @@
 
     --modal-background: radial-gradient(circle at top left, rgba(74,81,92, 0.4) 0%, rgba(75,81,92,0) 60%), #25282e;
     --modal-footer-background: none;
+    --modal-elevation: 1px 3px 14px rgba(0, 0, 0, .65);
 
     --font-code: monospace, Consolas,"Andale Mono WT","Andale Mono","Lucida Console","Lucida Sans Typewriter","DejaVu Sans Mono","Bitstream Vera Sans Mono","Liberation Mono","Nimbus Mono L",Monaco,"Courier New",Courier,monospace;
 
@@ -62,10 +66,15 @@
 
     --btn-dark-hover: hsla(var(--accent-hue), 87%, 68%, 0.4);
 
+    --button-positive-background: var(--gpColor-Green);
+    --button-positive-background-hover: hsl(96, 58%, 30%);
+
     --info-warning-foreground: var(--gpColor-Yellow);
     --info-positive-foreground: var(--gpColor-Green);
     --info-danger-foreground: var(--gpColor-Red);
 
+    --text-positive: var(--gpColor-Green);
+    
     --gpColor-Green: #5ba32b;
     --gpColor-GreenHi: #59BF40;
     --gpColor-Red: #D94126;

@@ -17,7 +17,7 @@
     width: 210px !important;
 }
 
-.content-yjf30S>div[style="height: 84px;"] ~ .container-2giAcK {
+.content-yjf30S>div[style="height: 84px;"]~.container-2giAcK {
 
     .progressBarContainer-1efroK {
         position: absolute;
@@ -45,7 +45,7 @@
 
     &:hover .link-1_kTxV,
     .link-1_kTxV {
-        background: radial-gradient(circle at 0%, hsla(var(--accent-hue), 24%, 43%, 0) 20%, hsla(var(--accent-hue), 24%, 43%, 0.251) 100%);
+        background: radial-gradient(circle at 0%, hsla(207, 24%, 43%, 0) 20%, hsla(207, 24%, 43%, 0.25) 100%);
     }
 }
 
@@ -66,17 +66,17 @@
         }
 
         .name-3BUDLf {
-            color: var(--brand-experiment-260);
+            color: #66c0f4;
         }
     }
-    
+
     &.muted-19J0ih:hover {
         .icon-3zI3d2 {
             color: var(--channels-category);
         }
 
         .name-3BUDLf {
-            color: var(--brand-experiment-260);
+            color: #66c0f4;
         }
     }
 }
@@ -88,7 +88,7 @@
 
 .modeMuted-2T4MDZ:hover .name-28HaxV,
 .wrapper-NhbLHG:not(.modeSelected-3DmyhH):hover .name-28HaxV {
-    color: var(--brand-experiment-260);
+    color: #66c0f4;
 }
 
 .modeConnected-NrO4cP .name-28HaxV,
@@ -132,4 +132,40 @@
     top: 50%;
     left: 2px;
     margin-top: -8px;
+}
+
+.listDefault-2F-w65 .clickable-1ctZ-H {
+    &:hover {
+
+        .content-1Tgc42 {
+            background: none;
+        }
+
+        .username-vAneIW {
+            color: #66c0f4;
+        }
+    }
+
+    &.selected-1oxcpH .content-1Tgc42 {
+        background: radial-gradient(circle at 0%, hsla(207, 24%, 43%, 0) 20%, hsla(207, 24%, 43%, 0.25) 100%);
+    }
+}
+
+
+.content-1Tgc42 {
+    border-radius: 0;
+}
+
+.wrapper-2fEmwW {
+    line-height: 16px;
+    font-weight: 700;
+    height: 16px;
+    border-radius: 2px;
+    overflow: hidden;
+    color: var(--channels-default);
+
+    .users-2JoyGL {
+        width: 28px;
+        background-color: var(--btn-brand);
+    }
 }

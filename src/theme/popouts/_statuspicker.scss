@@ -1,0 +1,35 @@
+.accountProfilePopoutWrapper-3GskID {
+    .overlayBackground-2aa7wt {
+
+        .scroller-15bIdk {
+            max-height: 200px;
+        }
+
+        >.menu-2TXYjN {
+            box-shadow: none;
+            background: var(--background-dark-3);
+                padding: 8px;
+                border-radius: 5px;
+                width: calc(100% - 24px - 16px);
+                max-width: unset;
+                min-width: unset;
+                margin-left: 12px;
+                margin-bottom: 12px;
+                box-sizing:content-box;
+        }
+    }
+
+    [aria-activedescendant*="account-status-picker"] {
+        max-width: 200px;
+    }
+
+    .statusItem-38ArJn {
+        padding: 0;
+        min-height: unset;
+
+        .description-1Dd2kv {
+            margin-bottom: 0;
+            color: var(--text-muted);
+        }
+    }
+}

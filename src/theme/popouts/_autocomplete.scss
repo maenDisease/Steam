@@ -1,0 +1,107 @@
+#app-mount .autocomplete-3NRXG8 {
+    background: var(--modal-background);
+}
+
+.autocomplete-3NRXG8 {
+    .section-Dep3No {
+        border-radius: 3px;
+    }
+
+    .wrapper-1wwiGV {
+        border-radius: 3px;
+        transition: none;
+    }
+
+    .wrapper-3t15Cn {
+        border-radius: 3px;
+
+        svg {
+            border-radius: 3px;
+        }
+
+        foreignObject {
+            mask: none;
+        }
+    }
+
+    .rail-1BiMhk {
+
+        .wrapper-3t15Cn,
+        .wrapper-1wwiGV {
+            transition: none;
+            height: 32px;
+            width: 32px;
+
+            &:hover {
+                box-shadow: 0 0 0 1px var(--header-primary);
+
+                svg {
+                    clip-path: inset(1px round 3px);
+                }
+            }
+        }
+    }
+
+
+    .selected-3B2w1z,
+    .selected-3B2w1z:hover {
+        background: none;
+    }
+
+    .clickable-2V8YKY[aria-disabled=false]>.base-2v-uc0:hover {
+        background-color: var(--background-accent);
+    }
+
+    .base-2v-uc0 {
+        border-radius: 0;
+    }
+
+    [data-text-variant="text-md/normal"] {
+        font-size: 14px;
+        line-height: 18px;
+        font-weight: 400;
+    }
+}
+
+.outerWrapper-3UdjNj,
+.autocomplete-3jLKbj {
+    border-radius: 0;
+    -webkit-box-shadow: var(--modal-elevation);
+    box-shadow: var(--modal-elevation);
+}
+
+.autocomplete-3NRXG8 {
+    .wrapper-3z7DuG {
+        background: none;
+    }
+
+    .autocompleteInner-y1mjDl:has(.list-2u03C-) {
+        &::before {
+            content: '';
+            position: absolute;
+            top: 16px;
+            right: 16px;
+            height: calc(100% - 32px);
+            width: calc(100% - 56px - 16px);
+            box-shadow: inset 1px 1px 4px #000a;
+            z-index: 2;
+            pointer-events: none;
+            border-radius: 2px;
+        }
+    }
+
+    .list-2u03C- {
+        background: #23262e;
+        margin: 16px 16px 0 0;
+        height: calc(100% - 32px);
+        border-radius: 2px;
+    }
+
+    .categoryHeader-OpJ1Ly {
+        background: #23262e;
+
+        .headerLabel-1g790w {
+            text-transform: capitalize;
+        }
+    }
+}

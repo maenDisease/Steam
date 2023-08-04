@@ -15,10 +15,6 @@
         z-index: unset;
         box-sizing: border-box;
         width: 100%;
-
-        header {
-            
-        }
     }
 
     .header-S26rhB {
@@ -400,8 +396,8 @@
 
     .listScroller-entkMk {
         display: grid;
-    grid-template-columns: repeat(2, minmax(0, 1fr));
-    grid-gap: 7px;
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+        grid-gap: 7px;
         background: var(--background-dark-3);
         border-radius: 3px;
         padding: 20px 10px 11px 10px !important;

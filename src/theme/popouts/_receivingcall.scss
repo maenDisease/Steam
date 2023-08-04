@@ -1,0 +1,31 @@
+@use "../modals/generic";
+
+.root-1e2tfc {
+    border-radius: 0;
+    padding: 32px;
+    background: var(--modal-background);
+    -webkit-box-shadow: var(--modal-elevation);
+    box-shadow: var(--modal-elevation);
+    @include generic.modalTopBar;
+
+    [data-text-variant="text-lg/semibold"] {
+        font-size: 22px;
+        font-weight: 700;
+        line-height: 24px;
+        margin-bottom: 10px;
+    }
+
+    [data-text-variant="text-md/normal"] {
+        font-size: 14px;
+        line-height: 18px;
+        margin-bottom: 32px;
+    }
+
+    .colorable-3rVGna.green-3wkLbx {
+        background: var(--button-positive-background);
+
+        &:hover {
+            background: var(--button-positive-background-hover);
+        }
+    }
+}

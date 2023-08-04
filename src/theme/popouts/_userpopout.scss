@@ -39,6 +39,7 @@ userProfileModalOuter-2wdWjU: modal
     border-radius: 0;
     left: 16px;
     box-shadow: 1px 3px 14px rgba(0, 0, 0, .65);
+    z-index: 2;
 }
 
 .avatarPositionPremiumBanner-2EAbSH {
@@ -74,13 +75,13 @@ userProfileModalOuter-2wdWjU: modal
 .usernameSection-3FppkT {
     position: absolute;
     top: 16px;
-    left: calc(16px + 82px + 16px);
-    padding: 0;
+    padding: 0 0 0 calc(16px + 82px + 16px);
     height: 82px;
     display: flex;
     align-items: center;
     text-shadow: 1px 1px 4px #000;
-    width: calc(100% - 16px - 82px - 16px - 16px);
+    width: 100%;
+    box-sizing:border-box;
     --header-primary: #fff;
     --text-normal: #bbb;
 
@@ -104,7 +105,6 @@ userProfileModalOuter-2wdWjU: modal
 
     .pronouns-17_QV6 {
         font-size: 12px;
-        max-width: calc(100% - 16px);
     }
 
     +.divider-2dDziJ {
@@ -160,6 +160,11 @@ userProfileModalOuter-2wdWjU: modal
     box-shadow: none;
 }
 
+.customStatus-19KW6v {
+    display: flex;
+    justify-content: center;
+}
+
 .overlayBackground-2aa7wt {
     border-radius: 0;
     position: unset;
@@ -170,11 +175,6 @@ userProfileModalOuter-2wdWjU: modal
         padding-top: 16px;
         padding-right: 16px;
         padding-left: 16px;
-
-        .customStatus-19KW6v {
-            display: flex;
-            justify-content: center;
-        }
     }
 
     .scroller-15bIdk {

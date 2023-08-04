@@ -36,17 +36,17 @@
 
     &:focus-within,
     &:hover {
-        color: var(--brand-experiment-260);
+        color: #66c0f4;
         background: none;
     }
 
     &.selected-26oxtA {
         color: var(--interactive-active);
-        background: radial-gradient(circle at 0%, hsla(var(--accent-hue), 24%, 43%, 0) 20%, hsla(var(--accent-hue), 24%, 43%, 0.251) 100%);
+        background: radial-gradient(circle at 0%, hsla(207, 24%, 43%, 0) 20%, hsla(207, 24%, 43%, 0.25) 100%);
     }
 
     .highlighted-Q8Nll-:hover {
-        color: var(--brand-experiment-260);
+        color: #66c0f4;
     }
 }
 
