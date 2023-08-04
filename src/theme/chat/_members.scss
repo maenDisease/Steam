@@ -85,7 +85,7 @@
         align-items: center;
 
         span {
-            max-width: calc(100% - 4px - 16px);
+            max-width: calc(100% - 2px - 16px);
             overflow: hidden;
             white-space: nowrap;
             text-overflow: ellipsis;
@@ -99,7 +99,7 @@
             mask: url(https://maendisease.github.io/Steam/illustrations/icns/phoneA.svg);
             -webkit-mask: url(https://maendisease.github.io/Steam/illustrations/icns/phoneA.svg);
             background: var(--rs-online-color);
-            margin-left: 4px;
+            margin-left: 2px;
         }
     }
 }
