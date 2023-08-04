@@ -26,7 +26,7 @@
     .content-yjf30S {
         margin-top: var(--content-gutter);
         padding-bottom: 16px;
-        background: linear-gradient(to right, rgba(0,0,0,0.2) 0%,rgba(0,0,0,0.5) 100%);
+        background: linear-gradient(to right, rgba(0, 0, 0, 0.2) 0%, rgba(0, 0, 0, 0.5) 100%);
     }
 }
 
@@ -38,7 +38,7 @@
 
 .clickable-28SzVr:hover .layout-1qmrhw,
 .selected-1-Z6gm .layout-1qmrhw {
-    background: linear-gradient(135deg, hsl(var(--accent-hue), 88%, 68%) 0%,hsl(var(--accent-hue), 41%, 43%) 100%);
+    background: linear-gradient(135deg, hsl(var(--accent-hue), 88%, 68%) 0%, hsl(var(--accent-hue), 41%, 43%) 100%);
 }
 
 .membersGroup-2eiWxl.container-q97qHp {
@@ -48,6 +48,7 @@
     text-transform: capitalize;
     padding-top: 16px;
 }
+
 .member-2gU6Ar {
     margin-left: 16px;
     margin-right: 16px;
@@ -74,4 +75,30 @@
 .clickable-28SzVr:hover .activity-2EQDZv,
 .selected-1-Z6gm .activity-2EQDZv {
     color: var(--white-500);
+}
+
+.layout-1qmrhw:has([mask="url(#svg-mask-avatar-status-mobile-32)"]) {
+    .username-i5-wv- {
+        display: flex;
+        flex-flow: row nowrap;
+        align-items: center;
+
+        span {
+            max-width: calc(100% - 4px - 16px);
+            overflow: hidden;
+            white-space: nowrap;
+            text-overflow: ellipsis;
+        }
+
+        &::after {
+            content: '';
+            display: block;
+            width: 16px;
+            height: 16px;
+            mask: url(https://maendisease.github.io/Steam/illustrations/icns/phone.svg);
+            -webkit-mask: url(https://maendisease.github.io/Steam/illustrations/icns/phone.svg);
+            background: var(--rs-online-color);
+            margin-left: 4px;
+        }
+    }
 }
