@@ -288,13 +288,23 @@
         }
     }
 
-    h3 {
-        margin-top: auto;
+    .h5-2feg8J.eyebrow-2wJAoF {
+        padding: 0 8px;
+        font-size: 12px;
+        font-weight: 400;
+        line-height: 16px;
+        letter-spacing: 0;
+        text-transform: unset;
+        position: absolute;
+        bottom: 76px;
+        left: 0;
+        text-align: center;
     }
 
     .content-1r-J1r {
         height: 76px;
         padding: 0 8px;
+        margin-top: auto;
         position: relative;
         overflow: hidden;
 
@@ -313,6 +323,19 @@
 
     .headerLine-2AIsUj {
         gap: 12px;
+    }
+
+    .inviteDestination-1rM5rX {
+        font-weight: 400;
+    }
+
+    .guildDetail-3EJhW_ {
+        font-size: 12px;
+        line-height: 16px;
+    }
+
+    .count-62gVQ0 {
+        color: var(--header-secondary);
     }
 
     button {
@@ -334,6 +357,12 @@
         &.buttonSize-3QlBTl {
             height: 60px;
             width: 60px;
+        }
+    }
+
+    &:has(.inviteDestinationJoined-dZrdzT) {
+        button {
+            background: radial-gradient(ellipse farthest-corner at 50% 40%, #35b2ec 0%, #11668a 100%);
         }
     }
 }
