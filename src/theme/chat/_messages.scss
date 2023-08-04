@@ -70,7 +70,7 @@
     }
 }
 
-#app-mount .messageListItem-ZZ7v6g:has(.communicationDisabled-2KRN2p) + .messageListItem-ZZ7v6g .message-2CShn3:not(.groupStart-3Mlgv1) {
+#app-mount .messageListItem-ZZ7v6g:has(.communicationDisabled-2KRN2p)+.messageListItem-ZZ7v6g .message-2CShn3:not(.groupStart-3Mlgv1) {
     background: var(--message-background-gradient-red);
 }
 
@@ -223,6 +223,138 @@
     border-radius: 5px;
     padding: 5px 8px;
     margin-right: 4px;
+}
+
+.wrapper-1HIH0j {
+    background: var(--background-tertiary);
+    border-radius: 0;
+    padding: 0;
+    max-width: 432px;
+    min-width: 160px;
+    width: 100%;
+    height: 222px;
+
+    box-sizing: content-box;
+    position: relative;
+    border-top: 1px solid rgba(201, 201, 201, .06);
+    border-bottom: 1px solid rgba(0, 0, 0, .5);
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, .5);
+    transform-style: preserve-3d;
+    perspective: 300px;
+    perspective-origin: 50%;
+    overflow: hidden;
+
+    &:hover {
+
+        .inviteSplash-2nkLRX {
+            transform: scale(1.06);
+            filter: brightness(1.1) contrast(0.95) saturate(1);
+
+            &::before {
+                opacity: .2;
+                transform: rotateZ(210deg) translateX(12%) translateY(32%);
+            }
+        }
+    }
+
+    .inviteSplash-2nkLRX {
+        position: absolute;
+        inset: 0;
+        background-color: var(--background-modifier-accent);
+        border-radius: 0;
+        height: 100%;
+        margin: 0;
+        z-index: -1;
+        transition-property: transform;
+        transition-duration: .6s;
+        transition-timing-function: cubic-bezier(0, 0.73, 0.48, 1);
+        
+        &::before {
+            content: '';
+            display: block;
+            opacity: .1;
+            width: 220%;
+            height: 100%;
+            background: linear-gradient(to bottom, rgba(235, 245, 255, 0) 0%, rgba(235, 245, 255, 0.85) 12px, rgba(235, 245, 255, 0.75) 20%, rgba(210, 210, 210, 0) 60%, rgba(10, 10, 10, 0) 85%, rgba(10, 10, 10, 0.8) 100%);
+            position: absolute;
+            top: 0;
+            left: 0;
+            transform: rotateZ(212deg) translateX(12%) translateY(59%);
+            pointer-events: none;
+            z-index: 10;
+            transition-property: transform, opacity;
+            transition-duration: .6s;
+            transition-timing-function: cubic-bezier(0, 0.73, 0.48, 1);
+        }
+    }
+
+    h3 {
+        margin-top: auto;
+    }
+
+    .content-1r-J1r {
+        height: 76px;
+        padding: 0 8px;
+        position: relative;
+        overflow: hidden;
+
+        &::before {
+            content: '';
+            display: block;
+            position: absolute;
+            inset: 0;
+            box-shadow: inset 0 0 16px 16px #686868;
+            filter: blur(16px);
+            backdrop-filter: blur(16px);
+            overflow: hidden;
+            z-index: -1;
+        }
+    }
+
+    .headerLine-2AIsUj {
+        gap: 12px;
+    }
+
+    button {
+        padding: 2px;
+        background: radial-gradient(ellipse farthest-corner at 50% 40%, #75b022 0%, #588a1b 100%);
+        box-shadow: 1px 1px 4px 1px rgba(0, 0, 0, .5);
+        transition-property: background;
+        transition-duration: .21s;
+        transition-timing-function: ease-in-out;
+
+        &:hover {
+            background: radial-gradient(ellipse farthest-corner at 50% 40%, #8ed629 0%, #6aa621 100%);
+        }
+
+        &:active {
+            background: radial-gradient(ellipse farthest-corner at 50% 40%, rgba(193, 228, 249, 1) 0%, rgba(148, 183, 202, 1) 100%);
+        }
+
+        &.buttonSize-3QlBTl {
+            height: 60px;
+            width: 60px;
+        }
+    }
+}
+
+.iconActiveLarge-ac-EDu {
+    border-radius: 3px;
+}
+
+.status-JIDx3x {
+    height: 6px;
+    width: 6px;
+    margin-right: 8px;
+}
+
+.statusOffline-2R-ArP {
+    background: var(--gpColor-Grey);
+}
+
+.statusOnline-Iw3r2o {
+    background: var(--gpColor-GreenHi);
+    filter: drop-shadow(0 0 4px hsla(var(--gpColor-GreenHi-hsl), 0.8));
 }
 
 // Message dividers

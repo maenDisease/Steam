@@ -1,8 +1,13 @@
 .accountProfilePopoutWrapper-3GskID {
     .overlayBackground-2aa7wt {
 
+        .divider-on9OTV {
+            display: none;
+        }
+
         .scroller-15bIdk {
             max-height: 200px;
+            padding-bottom: 16px;
         }
 
         >.menu-2TXYjN {
@@ -16,6 +21,10 @@
                 margin-left: 12px;
                 margin-bottom: 12px;
                 box-sizing:content-box;
+        }
+
+        .section-28YDOf:has(.memberSinceContainer-2CBD23) {
+            padding-bottom: 12px;
         }
     }
 

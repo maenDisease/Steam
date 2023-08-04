@@ -39,7 +39,6 @@
 .clickable-28SzVr:hover .layout-1qmrhw,
 .selected-1-Z6gm .layout-1qmrhw {
     background: linear-gradient(135deg, hsl(var(--accent-hue), 88%, 68%) 0%, hsl(var(--accent-hue), 41%, 43%) 100%);
-    --rs-online-color: #fff;
 }
 
 .membersGroup-2eiWxl.container-q97qHp {
@@ -76,6 +75,13 @@
 .clickable-28SzVr:hover .activity-2EQDZv,
 .selected-1-Z6gm .activity-2EQDZv {
     color: var(--white-500);
+}
+
+.clickable-28SzVr:hover .layout-1qmrhw,
+.selected-1-Z6gm .layout-1qmrhw {
+    &:has([mask="url(#svg-mask-avatar-status-mobile-32)"]) {
+        --rs-online-color: #fff;
+    }
 }
 
 .layout-1qmrhw:has([mask="url(#svg-mask-avatar-status-mobile-32)"]) {
