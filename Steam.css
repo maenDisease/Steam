@@ -127,7 +127,7 @@
   --rs-streaming-color: #643da7;
   --rs-invisible-color: var(--gpColor-Grey);
   --rs-phone-color: var(--rs-online-color);
-  --rs-phone-visible: block;
+  --rs-phone-visible: none;
 }
 
 :root {
@@ -2095,6 +2095,28 @@ body #app-mount .app-3xd6d0 .base-2jDfDU {
 .clickable-28SzVr:hover .activity-2EQDZv,
 .selected-1-Z6gm .activity-2EQDZv {
   color: var(--white-500);
+}
+
+.layout-1qmrhw:has([mask="url(#svg-mask-avatar-status-mobile-32)"]) .username-i5-wv- {
+  display: flex;
+  flex-flow: row nowrap;
+  align-items: center;
+}
+.layout-1qmrhw:has([mask="url(#svg-mask-avatar-status-mobile-32)"]) .username-i5-wv- span {
+  max-width: calc(100% - 4px - 16px);
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+.layout-1qmrhw:has([mask="url(#svg-mask-avatar-status-mobile-32)"]) .username-i5-wv-::after {
+  content: "";
+  display: block;
+  width: 16px;
+  height: 16px;
+  mask: url(https://maendisease.github.io/Steam/illustrations/icns/phone.svg);
+  -webkit-mask: url(https://maendisease.github.io/Steam/illustrations/icns/phone.svg);
+  background: var(--rs-online-color);
+  margin-left: 4px;
 }
 
 .searchResultsWrap-5RVOkx {
