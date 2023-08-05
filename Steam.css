@@ -1836,7 +1836,8 @@ body #app-mount .app-3xd6d0 .base-2jDfDU {
   display: none;
 }
 
-.durationTimeDisplay-QwCeRr, .durationTimeSeparator-1Cqi9N {
+.durationTimeDisplay-QwCeRr,
+.durationTimeSeparator-1Cqi9N {
   font-weight: 400;
   font-family: var(--font-primary);
 }
@@ -1852,9 +1853,17 @@ body #app-mount .app-3xd6d0 .base-2jDfDU {
   opacity: 0.4;
 }
 
-.volumeButton-3IDSX- {
+.volumeButton-3IDSX-:has([d^="M11.383 3.07904C11.009 2.92504 10.579 3.01004 10.293"]) {
   -webkit-mask: url(https://maendisease.github.io/Steam/illustrations/icns/volume.svg) center/contain no-repeat;
   mask: url(https://maendisease.github.io/Steam/illustrations/icns/volume.svg) center/contain no-repeat;
+  -webkit-mask-size: 18px;
+          mask-size: 18px;
+}
+.volumeButton-3IDSX-:has([d^="M19.73 9L21 10.27l-2.23 2.23L21"]) {
+  -webkit-mask: url(https://maendisease.github.io/Steam/illustrations/icns/volumemuted.svg) center/contain no-repeat;
+  mask: url(https://maendisease.github.io/Steam/illustrations/icns/volumemuted.svg) center/contain no-repeat;
+  -webkit-mask-size: 18px;
+          mask-size: 18px;
 }
 .volumeButton-3IDSX- svg {
   background: #fff;
