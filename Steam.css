@@ -783,6 +783,17 @@ body #app-mount .app-3xd6d0 .base-2jDfDU {
   margin-top: var(--titlebar-height);
 }
 
+.bar-2eAyLE {
+  text-transform: capitalize;
+  height: unset;
+  border-radius: 3px;
+  box-shadow: 0 0 3px #000;
+}
+
+.mention-3XBnnZ {
+  opacity: 1;
+}
+
 .wrapper-2PSQCG foreignObject {
   -webkit-mask: none;
           mask: none;
@@ -1846,29 +1857,67 @@ body #app-mount .app-3xd6d0 .base-2jDfDU {
   opacity: 0.4;
 }
 
-.controlIcon-10O-4h {
+.videoButton-3NM9Tc svg {
   color: #fff;
+  height: 20px;
+  width: 20px;
+  padding: 2px;
 }
-.controlIcon-10O-4h:not(:hover) {
+.videoButton-3NM9Tc svg:not(:hover) {
   opacity: 0.4;
 }
 
 .volumeButton-3IDSX-:has([d^="M11.383 3.07904C11.009 2.92504 10.579 3.01004 10.293"]) {
   -webkit-mask: url(https://maendisease.github.io/Steam/illustrations/icns/volume.svg) center/contain no-repeat;
   mask: url(https://maendisease.github.io/Steam/illustrations/icns/volume.svg) center/contain no-repeat;
-  -webkit-mask-size: 18px;
-          mask-size: 18px;
+  -webkit-mask-size: 20px;
+          mask-size: 20px;
 }
 .volumeButton-3IDSX-:has([d^="M19.73 9L21 10.27l-2.23 2.23L21"]) {
   -webkit-mask: url(https://maendisease.github.io/Steam/illustrations/icns/volumemuted.svg) center/contain no-repeat;
   mask: url(https://maendisease.github.io/Steam/illustrations/icns/volumemuted.svg) center/contain no-repeat;
-  -webkit-mask-size: 18px;
-          mask-size: 18px;
+  -webkit-mask-size: 20px;
+          mask-size: 20px;
 }
 .volumeButton-3IDSX- svg {
   background: #fff;
 }
 .volumeButton-3IDSX- path {
+  display: none;
+}
+
+.mediaBarInteractionVolume-zGrOSh {
+  border-radius: 0;
+  padding: 0;
+}
+
+.mediaBarGrabber-FvJKJg {
+  width: 6px;
+  height: 24px;
+  border-radius: 50px;
+  margin-top: -16px;
+  transition: none;
+  box-shadow: 0 0 1px 1px #000;
+}
+.mediaBarInteraction-tUE5dq:hover .mediaBarGrabber-FvJKJg {
+  background-color: var(--brand-experiment);
+}
+.mediaBarInteraction-tUE5dq:hover .mediaBarGrabber-FvJKJg:hover {
+  background-color: #fff;
+}
+
+.bubble-3XikHF {
+  top: -34px;
+  border-radius: 2px;
+  height: unset;
+  line-height: 17px;
+  font-size: 13px;
+  font-weight: 400;
+  color: #E0E1E6;
+  background: #696773;
+  box-shadow: 1px 1px 8px rgba(0, 0, 0, 0.3333333333), 2px 2px 16px 1px rgba(0, 0, 0, 0.3333333333);
+}
+.bubble-3XikHF::before {
   display: none;
 }
 
