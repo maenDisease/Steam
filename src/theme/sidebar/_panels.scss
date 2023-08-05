@@ -1,62 +1,49 @@
-#app-mount .container-YkUktl {
-    height: var(--titlebar-height);
-    width: calc(100% - 96px - 8px - 262px);
-    background: var(--background-tertiary);
-    position: fixed;
-    top: 0;
-    right: calc(96px + 1px);
-    padding: 0 6px 0 0;
-    justify-content: right !important;
-    -webkit-app-region: drag;
-    border-top: 1px solid var(--background-tertiary-border);
-    border-bottom: 1px solid var(--background-tertiary-border-bottom);
-}
-
-.wrapper-3Hk9OB:not(:empty) {
-    background: radial-gradient(50% 16px at top, hsla(var(--rtc-hsl, 207, 34%, 43%), 0.25) 0%, hsla(var(--rtc-hsl, 207, 24%, 43%), 0) 100%);
-    padding: 15px 0 15px 0;
-
-    &::before {
-        content: '';
-        display: block;
-        height: .5px;
-        width: 100%;
-        background: linear-gradient(to right, hsla(var(--rtc-hsl, 225, 100%, 60%), 0) 0%, hsla(var(--rtc-hsl, 192, 100%, 50%), var(--rtc-opacity, .4)) 50%, hsla(var(--rtc-hsl, 225, 100%, 60%), 0) 100%);
-        position: absolute;
-        top: 0;
-    }
-
-    &:has([class*="rtcConnectionStatus"]) {
-        --rtc-opacity: 1;
-    }
-
-    &:has(.rtcConnectionStatusConnected-1c73OK) {
-        --rtc-hsl: 93, 50%, 50%;
-    }
-
-    &:has(.rtcConnectionStatusConnecting-2D7M2N) {
-        --rtc-hsl: 58, 70%, 47%;
-    }
-
-    &:has(.rtcConnectionStatusError-2QNGCS) {
-        --rtc-hsl: 0, 85%, 57%;
-    }
-}
-
 .panels-3wFtMD {
     background: none;
+
+    &:not(:has(.wrapper-3Hk9OB:empty + .container-YkUktl:nth-child(2))) {
+        position: relative;
+        padding: 15px 0 15px 0;
+        background: radial-gradient(50% 16px at top, hsla(var(--rtc-hsl, 207, 34%, 43%), 0.25) 0%, hsla(var(--rtc-hsl, 207, 24%, 43%), 0) 100%);
+
+        &:has([class*="rtcConnectionStatus"]) {
+            --rtc-opacity: 1;
+        }
+
+        &:has(.rtcConnectionStatusConnected-1c73OK) {
+            --rtc-hsl: 93, 50%, 50%;
+        }
+
+        &:has(.rtcConnectionStatusConnecting-2D7M2N) {
+            --rtc-hsl: 58, 70%, 47%;
+        }
+
+        &:has(.rtcConnectionStatusError-2QNGCS) {
+            --rtc-hsl: 0, 85%, 57%;
+        }
+
+        &::before {
+            content: '';
+            display: block;
+            height: .5px;
+            width: 100%;
+            background: linear-gradient(to right, hsla(var(--rtc-hsl, 225, 100%, 60%), 0) 0%, hsla(var(--rtc-hsl, 192, 100%, 50%), var(--rtc-opacity, .4)) 50%, hsla(var(--rtc-hsl, 225, 100%, 60%), 0) 100%);
+            position: absolute;
+            top: 0;
+        }
+    }
+
+    >div:not(.container-YkUktl) button.enabled-9OeuTA {
+        background: var(--background-dark-2);
+
+        &:hover {
+            background: var(--btn-dark-hover);
+        }
+    }
 
     .connection-3k9QeF {
         .flex-2S1XBF:has(>button) {
             gap: 4px;
-        }
-
-        .button-12Fmur.enabled-9OeuTA {
-            background: var(--background-dark-2);
-    
-            &:hover {
-                background: var(--btn-dark-hover);
-            }
         }
 
         button.enabled-9OeuTA:has([d*="M21.1169 1.11603L22.8839 2.88403L19.7679 6.00003L22.8839"]) {
@@ -88,23 +75,93 @@
     }
 }
 
+#app-mount .panel-2ZFCRb {
+    background: none;
+}
+
+.activityPanel-9icbyU:has(+.wrapper-3Hk9OB:empty) {
+    border-bottom: none;
+}
+
 .container-1zzFcN {
     background: none;
     border: none;
 }
 
-.platform-osx #app-mount .container-YkUktl {
-    right: 0;
-    width: 100%;
-}
+.container-YkUktl {
+    #app-mount & {
+        height: var(--titlebar-height);
+        width: calc(100% - 96px - 8px - 262px);
+        background: var(--background-tertiary);
+        position: fixed;
+        top: 0;
+        right: calc(96px + 1px);
+        padding: 0 6px 0 0;
+        justify-content: right !important;
+        -webkit-app-region: drag;
+        border-top: 1px solid var(--background-tertiary-border);
+        border-bottom: 1px solid var(--background-tertiary-border-bottom);
+    
+        .platform-osx & {
+            right: 0;
+            width: 100%;
+        }
+    }
 
-.container-YkUktl>* {
-    -webkit-app-region: no-drag;
+    >* {
+        -webkit-app-region: no-drag;
+    }
+
+    >.flex-2S1XBF {
+        gap: 8px;
+    
+        &>button {
+            height: var(--titlebar-height);
+            height: 24px;
+            min-width: 48px;
+            border-radius: 2px;
+            background: var(--header-button-background);
+            transition: background .15s ease-out, color .15s ease-out;
+    
+            &:hover {
+                background: hsl(218, 13%, 28%);
+                color: var(--interactive-active);
+            }
+    
+            svg {
+                height: 16px;
+                width: 16px;
+            }
+        }
+    }
+
+    .platform-win & {
+        &::before {
+            content: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="32" height="28" viewBox="-7 -20 24 48" fill="hsl(212, 7%, 57%)"><path fill-rule="evenodd" clip-rule="evenodd" d="M23.0212 1.67671C21.3107 0.879656 19.5079 0.318797 17.6584 0C17.4062 0.461742 17.1749 0.934541 16.9708 1.4184C15.003 1.12145 12.9974 1.12145 11.0283 1.4184C10.819 0.934541 10.589 0.461744 10.3368 0.00546311C8.48074 0.324393 6.67795 0.885118 4.96746 1.68231C1.56727 6.77853 0.649666 11.7538 1.11108 16.652C3.10102 18.1418 5.3262 19.2743 7.69177 20C8.22338 19.2743 8.69519 18.4993 9.09812 17.691C8.32996 17.3997 7.58522 17.0424 6.87684 16.6135C7.06531 16.4762 7.24726 16.3387 7.42403 16.1847C11.5911 18.1749 16.408 18.1749 20.5763 16.1847C20.7531 16.3332 20.9351 16.4762 21.1171 16.6135C20.41 17.0369 19.6639 17.3997 18.897 17.691C19.3052 18.4993 19.7718 19.2689 20.3021 19.9945C22.6677 19.2689 24.8929 18.1364 26.8828 16.6466H26.8893C27.43 10.9731 25.9665 6.04728 23.0212 1.67671ZM9.68041 13.6383C8.39754 13.6383 7.34085 12.4453 7.34085 10.994C7.34085 9.54272 8.37155 8.34973 9.68041 8.34973C10.9893 8.34973 12.0395 9.54272 12.0187 10.994C12.0187 12.4453 10.9828 13.6383 9.68041 13.6383ZM18.3161 13.6383C17.0332 13.6383 15.9765 12.4453 15.9765 10.994C15.9765 9.54272 17.0124 8.34973 18.3161 8.34973C19.6184 8.34973 20.6751 9.54272 20.6543 10.994C20.6543 12.4453 19.6184 13.6383 18.3161 13.6383Z" ></path></svg>');
+            position: fixed;
+            left: 0;
+            height: var(--titlebar-height);
+            border-top: 1px solid var(--background-tertiary-border);
+            border-bottom: 1px solid var(--background-tertiary-border-bottom);
+            border-left: 1px solid var(--background-tertiary-border);
+        }
+
+        &::after {
+            content: 'Discord';
+            position: fixed;
+            left: 34px;
+            font-family: var(--font-display);
+            font-weight: 500;
+            font-size: 12px;
+            line-height: var(--titlebar-height);
+            color: var(--interactive-normal);
+        }
+    }
 }
 
 .withTagAsButton-OsgQ9L:hover,
 .withTagless-10ooWt:hover {
-    background-color: rgba(76,180,255,.2);
+    background-color: rgba(76, 180, 255, .2);
     border-radius: 2px;
 }
 
@@ -130,11 +187,6 @@
     }
 }
 
-.withTagAsButton-OsgQ9L .nameTag-sc-gpq,
-.withTagless-10ooWt .nameTag-sc-gpq {
-    padding-left: 5px;
-}
-
 .nameTag-sc-gpq {
     display: flex;
     flex-wrap: nowrap;
@@ -143,6 +195,11 @@
 
     &>div {
         display: flex;
+    }
+
+    .withTagAsButton-OsgQ9L &,
+    .withTagless-10ooWt & {
+        padding-left: 5px;
     }
 }
 
@@ -158,50 +215,4 @@
 
 .hovered-20u3oh {
     margin-top: 2px;
-}
-
-.container-YkUktl>.flex-2S1XBF {
-    gap: 8px;
-
-    &>button {
-        height: var(--titlebar-height);
-        height: 24px;
-        min-width: 48px;
-        border-radius: 2px;
-        background: var(--header-button-background);
-        transition: background .15s ease-out, color .15s ease-out;
-
-        &:hover {
-            background: hsl(218, 13%, 28%);
-            color: var(--interactive-active);
-        }
-
-        svg {
-            height: 16px;
-            width: 16px;
-        }
-    }
-}
-
-.platform-win {
-    .container-YkUktl::before {
-        content: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="32" height="28" viewBox="-7 -20 24 48" fill="hsl(212, 7%, 57%)"><path fill-rule="evenodd" clip-rule="evenodd" d="M23.0212 1.67671C21.3107 0.879656 19.5079 0.318797 17.6584 0C17.4062 0.461742 17.1749 0.934541 16.9708 1.4184C15.003 1.12145 12.9974 1.12145 11.0283 1.4184C10.819 0.934541 10.589 0.461744 10.3368 0.00546311C8.48074 0.324393 6.67795 0.885118 4.96746 1.68231C1.56727 6.77853 0.649666 11.7538 1.11108 16.652C3.10102 18.1418 5.3262 19.2743 7.69177 20C8.22338 19.2743 8.69519 18.4993 9.09812 17.691C8.32996 17.3997 7.58522 17.0424 6.87684 16.6135C7.06531 16.4762 7.24726 16.3387 7.42403 16.1847C11.5911 18.1749 16.408 18.1749 20.5763 16.1847C20.7531 16.3332 20.9351 16.4762 21.1171 16.6135C20.41 17.0369 19.6639 17.3997 18.897 17.691C19.3052 18.4993 19.7718 19.2689 20.3021 19.9945C22.6677 19.2689 24.8929 18.1364 26.8828 16.6466H26.8893C27.43 10.9731 25.9665 6.04728 23.0212 1.67671ZM9.68041 13.6383C8.39754 13.6383 7.34085 12.4453 7.34085 10.994C7.34085 9.54272 8.37155 8.34973 9.68041 8.34973C10.9893 8.34973 12.0395 9.54272 12.0187 10.994C12.0187 12.4453 10.9828 13.6383 9.68041 13.6383ZM18.3161 13.6383C17.0332 13.6383 15.9765 12.4453 15.9765 10.994C15.9765 9.54272 17.0124 8.34973 18.3161 8.34973C19.6184 8.34973 20.6751 9.54272 20.6543 10.994C20.6543 12.4453 19.6184 13.6383 18.3161 13.6383Z" ></path></svg>');
-        position: fixed;
-        left: 0;
-        height: var(--titlebar-height);
-        border-top: 1px solid var(--background-tertiary-border);
-        border-bottom: 1px solid var(--background-tertiary-border-bottom);
-        border-left: 1px solid var(--background-tertiary-border);
-    }
-
-    .container-YkUktl::after {
-        content: 'Discord';
-        position: fixed;
-        left: 34px;
-        font-family: var(--font-display);
-        font-weight: 500;
-        font-size: 12px;
-        line-height: var(--titlebar-height);
-        color: var(--interactive-normal);
-    }
 }

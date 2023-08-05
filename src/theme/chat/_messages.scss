@@ -124,9 +124,6 @@
 
 .container-2gUZhU {
     top: 14px;
-}
-
-.container-2gUZhU {
     padding-right: 8px;
 }
 
@@ -218,6 +215,51 @@
     }
 }
 
+.videoControls-2NzHnF {
+    background: linear-gradient(to top, rgba(0, 0, 0, 0.95) 0%, rgba(0, 0, 0, 0.6) 60%, rgba(29, 30, 35, 0) 100%);
+
+    .mediaBarWrapper-33h1oY {
+        background: #405358;
+    }
+
+    .fakeEdges-18N907 {
+
+        &::before,
+        &::after {
+            display: none;
+        }
+    }
+}
+
+.durationTimeDisplay-QwCeRr, .durationTimeSeparator-1Cqi9N {
+    font-weight: 400;
+    font-family: var(--font-primary);
+}
+
+.controlIcon-1grhw_ {
+    opacity: .4;
+}
+
+.controlIcon-10O-4h {
+    color: #fff;
+
+    &:not(:hover) {
+        opacity: .4;
+    }
+}
+
+.volumeButton-3IDSX- {
+    -webkit-mask: url(https://maendisease.github.io/Steam/illustrations/icns/volume.svg) center/contain no-repeat;
+        mask: url(https://maendisease.github.io/Steam/illustrations/icns/volume.svg) center/contain no-repeat;
+
+        svg {
+            background: #fff;
+        }
+        path {
+            display: none;
+        }
+}
+
 .bumpBox-1Pp4td {
     background: rgba(0, 0, 0, 0.2);
     border-radius: 5px;
@@ -232,7 +274,6 @@
     max-width: 432px;
     min-width: 160px;
     width: 100%;
-    height: 222px;
 
     box-sizing: content-box;
     position: relative;
@@ -243,6 +284,10 @@
     perspective: 300px;
     perspective-origin: 50%;
     overflow: hidden;
+
+    &:has(.inviteSplash-2nkLRX) {
+        height: 222px;
+    }
 
     &:hover {
 
@@ -268,7 +313,7 @@
         transition-property: transform;
         transition-duration: .6s;
         transition-timing-function: cubic-bezier(0, 0.73, 0.48, 1);
-        
+
         &::before {
             content: '';
             display: block;
@@ -386,12 +431,14 @@
     filter: drop-shadow(0 0 4px hsla(var(--gpColor-GreenHi-hsl), 0.8));
 }
 
+
+
 // Message dividers
 #app-mount .divider-IqmEqJ.beforeGroup-1BvJAt {
     top: 0;
 }
 
-#app-mount .divider-2rZFJK {
+#app-mount .divider-2rZFJK[role="separator"] {
     border-top: none;
     justify-content: flex-start;
     height: 1px;

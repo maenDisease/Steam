@@ -211,7 +211,23 @@
                 }
 
                 >div {
-                    margin-left: calc(98px + 16px)
+                    margin-left: calc(98px + 16px);
+                }
+
+                .gameNameInput-2wbDJ9 {
+                    margin-left: calc(98px + 16px - 4px);
+                    border: none;
+                    border-radius: 2px;
+
+                    &:hover {
+                        background: #67707b;
+                    }
+                
+                    &:focus,
+                    &:focus-within {
+                        background: #23262e;
+                        box-shadow: inset 1px 1px 4px #000a;
+                    }
                 }
 
                 .gameName-zbZetm {
