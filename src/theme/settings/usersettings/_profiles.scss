@@ -72,47 +72,6 @@
         }
     }
 
-    .section-28YDOf:has(.info-3ddo6z) {
-        position: absolute;
-        top: 16px;
-        padding: 0 0 0 calc(16px + 82px + 16px);
-        height: 82px;
-        display: flex;
-        align-items: center;
-        text-shadow: 1px 1px 4px #000;
-        width: 100%;
-        box-sizing: border-box;
-        --header-primary: #fff;
-        --text-normal: #bbb;
-        z-index: 3;
-
-        [data-text-variant="heading-lg/semibold"] {
-            font-weight: 300;
-            letter-spacing: 1px;
-        }
-
-        .userTag-3A4Fw4 {
-            font-weight: 300;
-            width: 100%;
-        }
-
-        .nameTag-H6kSJ0 {
-            overflow: unset;
-        }
-
-        .info-3ddo6z {
-            overflow: unset;
-        }
-
-        .pronouns-17_QV6 {
-            font-size: 12px;
-        }
-
-        +.divider-2dDziJ {
-            display: none;
-        }
-    }
-
     .imageUploaderIconWrapper-14sdnH {
         padding: 0;
         border-radius: 0;

@@ -1,3 +1,92 @@
+.profilePanel-2VBkh8 {
+
+    .bannerSVGWrapper-2CLfzN:not(:has([style*=image])) {
+        position: absolute;
+        top: 0;
+        left: 0;
+        z-index: unset;
+    }
+
+    &:not(:has(svg div[style*=image])) .overlayBackground-2aa7wt {
+        --header-height: 112px;
+        margin-top: var(--header-height);
+    }
+
+    .avatarPositionPanel-3ZMJUj {
+        top: 16px;
+    }
+
+    .userPanelInner-3KPel3:before {
+        height: 100%;
+        width: 100%;
+    }
+
+    .badgelistGroup-_4Ddiq {
+        position: absolute;
+        top: calc(var(--banner-height, 108px) + 2px + 16px);
+        left: 0;
+        width: 100%;
+        min-height: unset;
+        margin: 0;
+    }
+
+    .badgeList-2hF9ig {
+        width: 100%;
+        padding: 0;
+        gap: 4px;
+        z-index: 2;
+        background: none;
+        box-shadow: none;
+        -webkit-box-pack: center;
+        justify-content: center;
+        min-height: unset;
+        margin: 0;
+    }
+
+    .overlayBackground-2aa7wt~.overlayBackground-2aa7wt:not(:empty, :has(.activity-3uaYny)) {
+        margin: 12px;
+        background: var(--background-dark-3);
+        border-radius: 3px;
+        padding: 20px 10px 11px 10px;
+    }
+
+    .profilePanelConnections-1tVK8j {
+        gap: 7px;
+
+        >div {
+            box-sizing: border-box;
+            background: var(--background-dark-3);
+            border-radius: 5px;
+        }
+
+        button svg {
+            color: var(--brand-experiment);
+        }
+    }
+
+    .mutualFriendsDivider-_X_dLc {
+        border-top: none;
+    }
+
+    &:has(.containerWithContent-2Yws8V) .overlayBackground-2aa7wt:has(.memberSinceContainer-2CBD23) {
+        padding-top: calc(22px + 16px);
+
+        &:not(:has(.customStatusSection-2_fKRl)) {
+            padding-top: calc(22px + 16px + 16px);
+        }
+    }
+
+    .divider-2dDziJ {
+        display: none;
+    }
+
+    .section-28YDOf:has(.activity-3uaYny) {
+        background: var(--background-dark-2);
+        margin: 0 -12px -12px;
+        padding: 12px;
+    }
+}
+
 .container-2o3qEW,
 .member-48YF_l,
 .members-3WRCEx {

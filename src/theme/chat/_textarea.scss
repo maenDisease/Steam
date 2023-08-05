@@ -1,9 +1,4 @@
 .form-3gdLxP {
-    position: relative;
-    -ms-flex-negative: 0;
-    flex-shrink: 0;
-    padding-left: 16px;
-    padding-right: 16px;
     margin-top: 0;
 }
 
@@ -53,4 +48,18 @@
     border-radius: 0 0 3px 3px;
     background: linear-gradient(135deg, hsla(var(--accent-hue), 23%, 41%, 0.5) 0%, hsla(var(--accent-hue), 60%, 72%, 0.502) 100%), var(--background-tertiary);
     opacity: 1;
+}
+
+.upload-vLbqu- {
+    background: var(--background-dark-3);
+    padding: 8px;
+    border-radius: 5px;
+
+    .actionBar-1ozugS {
+        transform: none;
+    }
+}
+
+.altTag-3DeQpq {
+    border-radius: 2px;
 }
