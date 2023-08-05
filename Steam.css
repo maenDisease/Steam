@@ -11700,10 +11700,10 @@ userProfileModalOuter-2wdWjU: modal
   --banner-height: 60px;
 }
 .profileColors-2AgAV4:has(svg[viewBox$="90"]) {
-  --banner-height: 92px;
+  --banner-height: 90px;
 }
 .profileColors-2AgAV4:has(svg[viewBox$="120"]) {
-  --banner-height: 122px;
+  --banner-height: 120px;
   --header-height: 120px;
 }
 
