@@ -322,6 +322,10 @@ body,
 #app-mount .tooltipContent-38tm3I {
   padding: 6px 8px;
 }
+#app-mount .tooltipBlack-3X399X {
+  background: #696773;
+  color: #E0E1E6;
+}
 
 .tooltipPremiumFooterContainer-3Z8jwf {
   border-radius: 0;
@@ -2238,6 +2242,10 @@ body #app-mount .app-3xd6d0 .base-2jDfDU {
 .replyBar-1oi75v [aria-checked=true] .mentionButton-3C5YMI {
   background: linear-gradient(90deg, hsl(var(--accent-hue), 100%, 51%) 0%, hsl(var(--accent-hue), 100%, 59%) 100%);
   color: var(--white-500) !important;
+}
+
+.barBase-3xxDXu {
+  z-index: 3;
 }
 
 .jumpToPresentBar-1cEnH0 {
@@ -11259,6 +11267,10 @@ body #app-mount .layer-86YKbF ~ .layer-86YKbF .sidebar-nqHbhN:has(.socialLinks-3
   background: var(--contextmenu-background);
   border-radius: 0;
   box-shadow: var(--contextmenu-shadow);
+}
+
+.toolbar-37BrJ5:before {
+  display: none;
 }
 
 .buttons-3snlAO {
