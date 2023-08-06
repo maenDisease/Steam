@@ -1,6 +1,5 @@
-.folderIconWrapper-1oRIZr {
+#app-mount .guilds-2JjMmN [class*=expandedFolderBackground] {
     border-radius: 2px;
-    background-color: transparent !important;
 }
 
 #app-mount .folder-241Joy {
@@ -9,40 +8,42 @@
 
 .expandedFolderBackground-1kSAf6 {
     bottom: 0;
-}
-#app-mount .expandedFolderBackground-1kSAf6.collapsed-uGXEbi {
-    background-color: var(--header-button-background);
-    height: var(--server-size);
-}
-
-#app-mount .expandedFolderBackground-1kSAf6.collapsed-uGXEbi.hover-3m7-WT,
-#app-mount .expandedFolderBackground-1kSAf6 {
     background-color: var(--brand-experiment-700);
+
+    &.collapsed-uGXEbi {
+        background-color: var(--header-button-background);
+        height: var(--server-size);
+
+        &.hover-3m7-WT {
+            background-color: var(--brand-experiment-700);
+        }
+
+        &:before {
+            content: "";
+            position: absolute;
+            inset: 0;
+            pointer-events: none;
+            border-radius: 0;
+            box-shadow: 0 0 0 1px var(--gpColor-Grey), inset 0 0 0 1px var(--background-tertiary);
+            transition: box-shadow .15s ease;
+            z-index: 1;
+        }
+
+        &:has(+.listItem-3SmSlK .item-2LIpTv[style="opacity: 1; height: 40px; transform: none;"]):before {
+            --gpColor-Grey: var(--brand-experiment);
+        }
+
+        &:has(+.listItem-3SmSlK .item-2LIpTv):before {
+            --gpColor-Grey: var(--header-primary);
+        }
+    }
 }
 
-#app-mount .guilds-2JjMmN [class*=expandedFolderBackground] {
+.folderIconWrapper-1oRIZr {
     border-radius: 2px;
+    background-color: transparent !important;
 }
 
 .expandedFolderIconWrapper-3RwQpD svg {
     color: var(--brand-experiment-300) !important;
-}
-
-.expandedFolderBackground-1kSAf6.collapsed-uGXEbi:before {
-    content: "";
-    position: absolute;
-    inset: 0;
-    pointer-events: none;
-    border-radius: 0;
-    box-shadow: 0 0 0 1px var(--gpColor-Grey), inset 0 0 0 1px var(--background-tertiary);
-    transition: box-shadow .15s ease;
-    z-index: 1;
-}
-
-.expandedFolderBackground-1kSAf6.collapsed-uGXEbi:has(+.listItem-3SmSlK .item-2LIpTv[style="opacity: 1; height: 40px; transform: none;"]):before {
-    --gpColor-Grey: var(--brand-experiment);
-}
-
-.expandedFolderBackground-1kSAf6.collapsed-uGXEbi:has(+.listItem-3SmSlK .item-2LIpTv):before {
-    --gpColor-Grey: var(--header-primary);
 }

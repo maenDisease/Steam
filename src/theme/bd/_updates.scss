@@ -65,7 +65,6 @@
             width: 98px;
             height: 45px;
             mask: url(https://maendisease.github.io/Steam/illustrations/icns/storage.svg);
-            -webkit-mask: url(https://maendisease.github.io/Steam/illustrations/icns/storage.svg);
             background-color: #fff;
             mask-repeat: no-repeat;
             mask-position: center;
@@ -118,7 +117,6 @@
                 width: 16px;
                 height: 16px;
                 mask: url(https://maendisease.github.io/Steam/illustrations/icns/downloads.svg);
-                -webkit-mask: url(https://maendisease.github.io/Steam/illustrations/icns/downloads.svg);
                 background: var(--text-muted);
                 margin-right: 4px;
             }
@@ -141,7 +139,6 @@
         .bd-setting-item:not(:has([for="core-updater"])) {
             &::before {
                 mask: url(https://maendisease.github.io/Steam/illustrations/icns/plugins.svg);
-                -webkit-mask: url(https://maendisease.github.io/Steam/illustrations/icns/plugins.svg);
                 mask-repeat: no-repeat;
                 mask-position: center;
                 mask-size: 24px;
@@ -153,7 +150,6 @@
         .bd-setting-item:not(:has([for="core-updater"])) {
             &::before {
                 mask: url(https://maendisease.github.io/Steam/illustrations/icns/themes.svg);
-                -webkit-mask: url(https://maendisease.github.io/Steam/illustrations/icns/themes.svg);
                 mask-repeat: no-repeat;
                 mask-position: center;
                 mask-size: 28px;

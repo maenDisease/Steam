@@ -42,7 +42,6 @@
 
 .bd-settings-group.collapsible .bd-settings-title::after {
     content: "";
-    -webkit-mask: url(https://maendisease.github.io/Steam/illustrations/icns/triangledown.svg) center/contain no-repeat;
     mask: url(https://maendisease.github.io/Steam/illustrations/icns/triangledown.svg) center/contain no-repeat;
     background: #fff;
     height: 16px;
@@ -177,7 +176,6 @@
     border-radius: 2px;
     background: var(--btn-grey);
     border: none;
-    -webkit-transition: none;
     transition: none;
 
     &:hover {

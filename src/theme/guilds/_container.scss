@@ -1,26 +1,25 @@
 .wrapper-1_HaEi {
     border: 1px solid var(--background-tertiary-border);
     border-left: 1px solid var(--background-tertiary-border-bottom);
-}
 
-.platform-osx .wrapper-1_HaEi {
-    margin-top: var(--titlebar-height);
+    .platform-osx & {
+        margin-top: var(--titlebar-height);
+    }
 }
 
 body #app-mount .app-3xd6d0 .base-2jDfDU {
     top: 0 !important;
     bottom: calc(var(--server-container) + 2px) !important;
-}
 
-.platform-osx body #app-mount .app-3xd6d0 .base-2jDfDU {
-    margin-top: var(--titlebar-height);
+    .platform-osx & {
+        margin-top: var(--titlebar-height);
+    }
 }
 
 .bar-2eAyLE {
     text-transform: capitalize;
     height: unset;
     border-radius: 3px;
-    -webkit-box-shadow: 0 0 3px #000;
     box-shadow: 0 0 3px #000;
 }
 

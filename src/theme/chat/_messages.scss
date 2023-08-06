@@ -215,19 +215,114 @@
     }
 }
 
+.newMosaicStyle-2jdUaP {
+
+    .codeView-12LUIl {
+        margin: 2px 2px 0;
+        border-radius: 4px;
+        font-size: 0.8125rem;
+        line-height: 1.0625rem;
+        font-weight: lighter;
+        -webkit-font-smoothing: antialiased;
+    }
+
+    .textContainer-36wgKK {
+        background: linear-gradient(-90deg, rgba(226, 244, 255, 0.3) 5%, rgba(84, 107, 115, 0.3) 95%);
+        border: none;
+        border-radius: 4px 4px 0 0;
+        min-height: 116px;
+    }
+
+    .footer-GXWBBp {
+        background: linear-gradient(-60deg, rgba(226, 244, 255, 0.3) 5%, rgba(84, 107, 115, 0.3) 95%);
+        border: none;
+        border-radius: 0 0 4px 4px;
+        gap: 4px;
+
+        .attachmentName-vgRpzs {
+            color: var(--header-secondary);
+        }
+
+        .formattedSize-1YbZww {
+            color: var(--text-muted);
+        }
+
+        svg {
+            color: var(--brand-experiment);
+        }
+    }
+}
+
+.tile-2mmK5T {
+    #app-mount & {
+        background: var(--background-tertiary);
+        box-shadow: 2px 2px 10px rgba(0, 0, 0, .4);
+    }
+
+    transform: none;
+    transition: none;
+    min-height: unset;
+    position: relative;
+    border-radius: 4px;
+
+    .invalidPoop--w1123 {
+        background-color: transparent;
+    }
+
+    &:has(.invalidPoop--w1123) {
+        &::before {
+            content: '';
+            position: absolute;
+            inset: 0;
+            background: radial-gradient(circle at top left, var(--background-accent) 0%, transparent 95%);
+        }
+    }
+    .title-oJa_A6 {
+        font-size: 16px;
+        font-weight: 400;
+        text-align: center;
+    }
+
+    .tagline-3DhQWg {
+        text-align: center;
+        font-size: 14px;
+        line-height: 18px;
+        color: var(--header-secondary);
+        margin-top: 10px;
+    }
+
+    .actions-3Gkxv6 {
+        margin-top: 10px;
+        display: flex;
+        justify-content: center;
+    }
+}
+
+.wrapperAudio-1Bzv_Z {
+    border: none;
+
+    #app-mount & {
+        background: linear-gradient(-60deg, rgba(226, 244, 255, 0.3) 5%, rgba(84, 107, 115, 0.3) 95%);
+    }
+}
+
+.audioControls-3fmemK {
+    border-radius: 2px;
+}
+
 .videoControls-2NzHnF {
     background: linear-gradient(to top, rgba(0, 0, 0, 0.95) 0%, rgba(0, 0, 0, 0.6) 60%, rgba(29, 30, 35, 0) 100%);
 
     .mediaBarWrapper-33h1oY {
         background: #405358;
     }
+}
 
-    .fakeEdges-18N907 {
+.fakeEdges-18N907 {
 
-        &::before,
-        &::after {
-            display: none;
-        }
+    &::before,
+    &::after {
+        display: none;
     }
 }
 
@@ -254,13 +349,11 @@
 
 .volumeButton-3IDSX- {
     &:has([d^="M11.383 3.07904C11.009 2.92504 10.579 3.01004 10.293"]) {
-        -webkit-mask: url(https://maendisease.github.io/Steam/illustrations/icns/volume.svg) center/contain no-repeat;
         mask: url(https://maendisease.github.io/Steam/illustrations/icns/volume.svg) center/contain no-repeat;
         mask-size: 20px;
     }
 
     &:has([d^="M19.73 9L21 10.27l-2.23 2.23L21"]) {
-        -webkit-mask: url(https://maendisease.github.io/Steam/illustrations/icns/volumemuted.svg) center/contain no-repeat;
         mask: url(https://maendisease.github.io/Steam/illustrations/icns/volumemuted.svg) center/contain no-repeat;
         mask-size: 20px;
     }
@@ -305,7 +398,6 @@
     font-weight: 400;
     color: #E0E1E6;
     background: #696773;
-    -webkit-box-shadow: 1px 1px 8px #0005, 2px 2px 16px 1px #0005;
     box-shadow: 1px 1px 8px #0005, 2px 2px 16px 1px #0005;
 
     &::before {
@@ -484,8 +576,6 @@
     filter: drop-shadow(0 0 4px hsla(var(--gpColor-GreenHi-hsl), 0.8));
 }
 
-
-
 // Message dividers
 #app-mount .divider-IqmEqJ.beforeGroup-1BvJAt {
     top: 0;
@@ -621,7 +711,6 @@
         width: 14px;
         pointer-events: none;
         background-color: currentColor;
-        -webkit-mask: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 18 24" fill="currentColor"><path fill-rule="evenodd" clip-rule="evenodd" d="M15 3.999V2H9V3.999H3V5.999H21V3.999H15Z M5 6.99902V18.999C5 20.101 5.897 20.999 7 20.999H17C18.103 20.999 19 20.101 19 18.999V6.99902H5ZM11 17H9V11H11V17ZM15 17H13V11H15V17Z" ></path></svg>') center/contain no-repeat;
         mask: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 18 24" fill="currentColor"><path fill-rule="evenodd" clip-rule="evenodd" d="M15 3.999V2H9V3.999H3V5.999H21V3.999H15Z M5 6.99902V18.999C5 20.101 5.897 20.999 7 20.999H17C18.103 20.999 19 20.101 19 18.999V6.99902H5ZM11 17H9V11H11V17ZM15 17H13V11H15V17Z" ></path></svg>') center/contain no-repeat;
     }
 }
@@ -639,7 +728,6 @@
 
 .spamBanner-1auiob {
     background: var(--message-background-gradient-red);
-    -webkit-box-shadow: 2px 2px 15px rgba(0, 0, 0, 0.4);
     box-shadow: 2px 2px 15px rgba(0, 0, 0, 0.4);
     border-radius: 4px;
 }

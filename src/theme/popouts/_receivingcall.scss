@@ -4,7 +4,6 @@
     border-radius: 0;
     padding: 32px;
     background: var(--modal-background);
-    -webkit-box-shadow: var(--modal-elevation);
     box-shadow: var(--modal-elevation);
     @include generic.modalTopBar;
 
