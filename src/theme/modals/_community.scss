@@ -26,15 +26,15 @@
 
     .button-ejjZWC {
         height: 34px;
-    min-height: 34px;
-    padding: 8px 14px;
+        min-height: 34px;
+        padding: 8px 14px;
     }
 
     .roleRow-3AipPg {
         border-radius: 2px;
         background: var(--btn-grey);
     }
-    
+
     .tableContainer-ElCMnk {
         padding: 8px 24px 10px 16px;
         background: var(--btn-grey);
@@ -46,7 +46,9 @@
 .checkboxWrapper-3zdYym.row-1T4Qpj.checked-22NTbO {
     background: var(--btn-grey);
     border-radius: 2px;
-    transition: background 200ms ease-in-out, box-shadow 200ms ease-in-out;
+    transition-property: background, box-shadow, color;
+    transition-duration: .2s;
+    transition-timing-function: ease-out;
 
     &:hover {
         background: var(--btn-grey-hover);

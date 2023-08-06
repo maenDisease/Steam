@@ -7,7 +7,7 @@
     padding-right: 8px;
 
     &:hover {
-        background: #3d4450;
+        background: var(--background-accent);
         transition: background .2s linear;
     }
 

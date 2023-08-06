@@ -12,17 +12,68 @@
 
 .button-1EGGcP.buttonColor-3bP3fX,
 .button-1EGGcP .buttonColor-3bP3fX,
-.lookFilled-1H2Jvj.colorBrand-2M3O3N,
 .button-ejjZWC.lookLink-13iF2K.lowSaturationUnderline-Z6CW6z.colorPrimary-2-Lusz:not(.fieldButton-14lHvK) {
     color: #dfe3e6;
     background: var(--btn-grey);
-    transition: background 200ms ease-in-out, box-shadow 200ms ease-in-out;
+    transition-property: background, box-shadow, color;
+    transition-duration: .2s;
+    transition-timing-function: ease-out;
+
+    .root-1CAIjD & {
+        &:not(:hover) {
+            box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
+        }
+    }
 
     &:hover {
         background: var(--btn-grey-hover);
         color: #fff;
         box-shadow: var(--btn-grey-boxshadow);
     }
+}
+
+.lookFilled-1H2Jvj {
+
+    &.colorBrand-2M3O3N {
+        background-image: linear-gradient(to right, #47bfff 0%, #1a44c2 60%);
+
+        &:hover {
+            background-image: linear-gradient(to right, #47bfff 0%, #1a44c2 60%);
+        }
+    }
+
+    &.colorRed-2VFhM4 {
+        background-image: var(--button-danger-background);
+        
+        &:hover {
+            background-image: var(--button-danger-background);
+        }
+    }
+    
+    color: #dfe3e6;
+    transition-property: background, box-shadow, color;
+    transition-duration: .2s;
+    transition-timing-function: ease-out;
+    background-position: 25%;
+    background-size: 330% 100%;
+
+    &:hover {
+        background-position: 0%;
+        background-size: 330% 100%;
+        color: #fff;
+        box-shadow: var(--btn-grey-boxshadow);
+    }
+
+    .root-1CAIjD & {
+        &:not(:hover) {
+            box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
+        }
+    }
+}
+
+:root {
+    --button-danger-background: linear-gradient(to right, #ff4747 0%, #c21a1a 60%);
+    --button-danger-background-hover: var(--button-danger-background);
 }
 
 #app-mount {

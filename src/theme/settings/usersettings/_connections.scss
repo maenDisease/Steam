@@ -23,7 +23,7 @@
 
     button {
         background-color: var(--btn-grey);
-        transition: background-color 200ms ease-in-out, box-shadow 200ms ease-in-out;
+        transition: background-color .2s ease-in-out, box-shadow .2s ease-in-out;
         border-radius: 2px;
         width: fit-content;
         background-position: left;
@@ -93,7 +93,7 @@
     }
 
     .connectionDelete-3YgMVq {
-        background: #3d4450;
+        background: var(--background-accent);
         border-radius: 2px;
         height: 24px;
         width: 24px;

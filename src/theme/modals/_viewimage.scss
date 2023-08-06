@@ -27,7 +27,7 @@
     opacity: 1;
     border-radius: 2px;
     background: var(--btn-grey);
-    transition: background 200ms ease-in-out;
+    transition: background .2s ease-in-out;
 
     &:hover {
         background: var(--btn-grey-hover);

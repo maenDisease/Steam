@@ -11,8 +11,10 @@
     font-weight: 400;
     padding: 8px 14px;
     height: 34px;
-    transition: background 200ms ease-in-out, box-shadow 200ms ease-in-out;
-    
+    transition-property: background, box-shadow, color;
+    transition-duration: .2s;
+    transition-timing-function: ease-out;
+
     &:hover {
         box-shadow: var(--btn-grey-boxshadow);
     }
@@ -74,7 +76,7 @@
 }
 
 .bd-switch-body {
-    --switch-color: #3d4450;
+    --switch-color: var(--background-accent);
     --symbol1path: none;
     --symbol2path: none;
     width: 38px;
@@ -113,7 +115,9 @@
     font-weight: 400;
     padding: 8px 14px;
     border-radius: 2px;
-    transition: background 200ms ease-in-out, box-shadow 200ms ease-in-out;
+    transition-property: background, box-shadow, color;
+    transition-duration: .2s;
+    transition-timing-function: ease-out;
 
     &:hover {
         background: var(--btn-grey-hover);

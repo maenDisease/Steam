@@ -89,7 +89,9 @@
     border-radius: 2px;
     flex: 0 1 calc(50% - 5px) !important;
     max-width: calc(50% - 5px);
-    transition: background 200ms ease-in-out, box-shadow 200ms ease-in-out;
+    transition-property: background, box-shadow;
+    transition-duration: .2s;
+    transition-timing-function: ease-out;
 
     &:hover {
         background: var(--btn-grey-hover);
@@ -186,6 +188,7 @@
     .settingsGroup-VNJxZ8:nth-child(2) {
         --btn-count: 3;
     }
+
     .settingsGroup-VNJxZ8 {
         [role="group"].group-1_ptLP {
             background: #202226;
@@ -207,7 +210,7 @@
                 transition: translate .2s ease;
                 border-radius: 2px;
             }
-        
+
             &:has(.selectorButtonSelected-3cQUnj:nth-child(2)):before {
                 translate: 100%;
             }
@@ -223,14 +226,14 @@
                 flex: 0 1 calc(100% / var(--btn-count));
                 justify-content: center;
                 z-index: 1;
-            
+
                 &:not(.selectorButtonSelected-3cQUnj):hover {
                     background: var(--btn-grey);
                 }
-            
+
                 border-bottom: none;
                 padding: 8px 14px;
-            
+
                 [data-text-variant="text-sm/medium"] {
                     font-weight: 400;
                 }

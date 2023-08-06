@@ -81,7 +81,7 @@ body #app-mount {
 
     .separator-2N511j {
         margin: 0 12px;
-        background: #3D4450;
+        background: var(--background-accent);
     }
 }
 
@@ -93,17 +93,17 @@ body #app-mount {
         font-size: 14px;
         margin-bottom: 0;
         --interactive-normal: var(--header-secondary);
-        --interactive-hover: #3D4450;
+        --interactive-hover: var(--background-accent);
         --background-modifier-hover: #DCDEDF;
-        --background-modifier-selected: #3d4450;
+        --background-modifier-selected: var(--background-accent);
 
         &:active {
             background: #DCDEDF;
-            color: #3D4450;
+            color: var(--background-accent);
         }
 
         &.selected-1sf9UK {
-            background: #3d4450;
+            background: var(--background-accent);
             color: #ffff;
         }
 

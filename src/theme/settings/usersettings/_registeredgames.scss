@@ -17,7 +17,7 @@
         max-width: calc(100% - 8px - 20px - 12px);
 
         &.notDetected-M3Ghh2 {
-            background: #3d4450;
+            background: var(--background-accent);
             width: fit-content;
         }
 
@@ -150,7 +150,7 @@
             }
 
             &:hover {
-                background: #3d4450;
+                background: var(--background-accent);
                 transition: background .2s linear;
 
                 .gameNameLastPlayed-2hWoXJ::after,
@@ -200,7 +200,7 @@
                     position: absolute;
                     height: 45px;
                     width: 98px;
-                    background: #3d4450;
+                    background: var(--background-accent);
                     top: 0;
                     bottom: 0;
                     margin-top: auto;
@@ -275,7 +275,7 @@
         top: unset;
         right: unset;
         box-shadow: none;
-        background-color: #3d4450;
+        background-color: var(--background-accent);
         border-radius: 2px;
         margin: 8px;
         flex-shrink: 0;

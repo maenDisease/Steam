@@ -66,7 +66,9 @@
         background: var(--btn-grey);
         padding: 6px;
         box-shadow: none;
-        transition: background 200ms ease-in-out, box-shadow 200ms ease-in-out;
+        transition-property: background, box-shadow;
+        transition-duration: .2s;
+        transition-timing-function: ease-out;
 
         &:hover {
             background: var(--btn-grey-hover);

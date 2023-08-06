@@ -110,7 +110,7 @@
 
 .loadingPopout-1tyQMM {
     box-shadow: 3px 3px 5px -3px #000;
-    background: #3D4450;
+    background: var(--background-accent);
 }
 
 .wrapper-2R36Wv:has(>.gatedContent-31-gID) {
@@ -132,7 +132,7 @@
         padding: 0;
         height: 129px;
         width: 275px;
-        background-color: #3d4450;
+        background-color: var(--background-accent);
         box-shadow: 0 0 5px 0 #000000;
     }
 

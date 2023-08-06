@@ -5,7 +5,7 @@
 
     --code-background: #151f25;
     
-    --contextmenu-background: #3D4450;
+    --contextmenu-background: var(--background-accent);
     --contextmenu-shadow: 3px 3px 5px -3px #000;
 }
 
@@ -98,7 +98,7 @@
     --settingsicons-size: 20px;
 
     $icon-path: "https://maendisease.github.io/Steam/illustrations/icns";
-    // --settingsicons-default: url(https://mwittrien.github.io/BetterDiscordAddons/Themes/_res/svgs/settingsicons/questionmark.svg);
+    --settingsicons-default: url(#{$icon-path}/developer.svg);
     --settingsicons-myaccount: url(#{$icon-path}/account.svg);
     --settingsicons-profile: url(#{$icon-path}/pencil.svg);
     --settingsicons-privacy: url(#{$icon-path}/security.svg);
@@ -126,7 +126,7 @@
     // --settingsicons-activityprivacy: url(https://mwittrien.github.io/BetterDiscordAddons/Themes/_res/svgs/settingsicons/activityprivacy.svg);
     --settingsicons-games: url(#{$icon-path}/controller.svg);
     --settingsicons-overlay: url(#{$icon-path}/ingame.svg);
-    // --settingsicons-bd-settings: url(https://mwittrien.github.io/BetterDiscordAddons/Themes/_res/svgs/settingsicons/settings.svg);
+    --settingsicons-bd-settings: url(#{$icon-path}/settings.svg);
     // --settingsicons-bd-changelog: url(https://mwittrien.github.io/BetterDiscordAddons/Themes/_res/svgs/settingsicons/changelog.svg);
     // --settingsicons-bd-customcss: url(https://mwittrien.github.io/BetterDiscordAddons/Themes/_res/svgs/settingsicons/custom.svg);
     // --settingsicons-bd-plugins: url(https://mwittrien.github.io/BetterDiscordAddons/Themes/_res/svgs/settingsicons/plugins.svg);
@@ -285,12 +285,12 @@
 }
 
 // Reference vars
-// :root {
-//     --gpSystemLightestGrey: #DCDEDF;
+:root {
+    --gpSystemLightestGrey: #DCDEDF;
 //     --gpSystemLighterGrey: #B8BCBF;
 //     --gpSystemLightGrey: #8B929A;
 //     --gpSystemGrey: #67707B;
-//     --gpSystemDarkGrey: #3D4450;
+//     --gpSystemDarkGrey: var(--background-accent);
 //     --gpSystemDarkerGrey: #23262E;
 //     --gpSystemDarkestGrey: #0E141B;
 //     --gpStoreLightestGrey: #CCD8E3;
@@ -301,7 +301,7 @@
 //     --gpStoreDarkerGrey: #1B2838;
 //     --gpStoreDarkestGrey: #000F18;
 //     --gpGradient-StoreBackground: linear-gradient(180deg, var(--gpStoreDarkGrey) 0%, var(--gpStoreDarkerGrey) 80%);
-//     --gpGradient-LibraryBackground: radial-gradient(farthest-corner at 40px 40px,#3D4450 0%, #23262E 80%);
+//     --gpGradient-LibraryBackground: radial-gradient(farthest-corner at 40px 40px,var(--background-accent) 0%, #23262E 80%);
 //     --gpColor-Blue: #1A9FFF;
 //     --gpColor-BlueHi: #00BBFF;
 //     --gpColor-Green: #5ba32b;
@@ -359,4 +359,4 @@
 //     --gpText-BodyLarge: normal 400 16px/1.4 "Motiva Sans", Arial, Sans-serif;
 //     --gpText-BodyMedium: normal 400 14px/1.4 "Motiva Sans", Arial, Sans-serif;
 //     --gpText-BodySmall: normal 400 12px/1.4 "Motiva Sans", Arial, Sans-serif;
-// }
+}

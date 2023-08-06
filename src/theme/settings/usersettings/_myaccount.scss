@@ -105,7 +105,9 @@
     justify-content: center;
     height: 100px;
     position: relative;
-    transition: background 200ms ease-in-out, box-shadow 200ms ease-in-out;
+    transition-property: background, box-shadow;
+    transition-duration: .2s;
+    transition-timing-function: ease-out;
 
     .constrainedRow-3y91Xf {
         margin-right: 0;

@@ -12,7 +12,7 @@
 
     .container-3EtAkD {
         width: fit-content;
-        background: #3d4450;
+        background: var(--background-accent);
         color: #fff;
         border-radius: 2px;
         padding: 16px 24px 16px 16px;
@@ -57,7 +57,7 @@
         }
 
         &:hover:not(.roleRowDisableHover-3En0vy) {
-            background: #3d4450;
+            background: var(--background-accent);
             transition: background .2s linear;
         }
 
@@ -70,7 +70,7 @@
             width: 49px;
             margin-top: 1px;
             margin-right: 12px;
-            
+
             path {
                 d: path("M 22 0 L 0 0 L 0 22 L 22 22 Z M 11.001 5.999 C 12.382 5.999 13.501 7.118 13.501 8.499 C 13.501 9.88 12.382 10.999 11.001 10.999 C 9.62 10.999 8.501 9.88 8.501 8.499 C 8.501 7.118 9.62 5.999 11.001 5.999 Z M 7.251 16 C 7.251 13.699 8.7 12.25 11.001 12.25 C 13.302 12.25 14.751 13.699 14.751 16 H 7.251 Z");
             }
@@ -115,7 +115,7 @@
         .circleButton-2Yr5A1 {
             background: var(--btn-grey);
             color: var(--brand-experiment);
-            transition: background .2s linear, box-shadow 200ms ease-in-out;
+            transition: background .2s linear, box-shadow .2s ease-in-out;
             border-radius: 2px;
 
             &:hover {
@@ -149,7 +149,9 @@
             border-radius: 2px;
             color: #dfe3e6;
             background: var(--btn-grey);
-            transition: background 200ms ease-in-out, box-shadow 200ms ease-in-out;
+            transition-property: background, box-shadow, color;
+            transition-duration: .2s;
+            transition-timing-function: ease-out;
 
             &:hover {
                 background: var(--btn-grey-hover);
@@ -180,7 +182,9 @@
             margin-right: 10px;
             color: var(--brand-experiment);
             background: var(--btn-grey);
-            transition: background 200ms ease-in-out, box-shadow 200ms ease-in-out;
+            transition-property: background, box-shadow;
+            transition-duration: .2s;
+            transition-timing-function: ease-out;
 
             &:hover {
                 background: var(--btn-grey-hover);
@@ -202,13 +206,13 @@
             &:hover:not(.selected-1sf9UK),
             &:active:not(.selected-1sf9UK)titleContainer-3fPic2 {
                 background: #DCDEDF;
-                --interactive-hover: #3D4450;
-                --interactive-active: #3D4450;
-                --header-primary: #3D4450;
+                --interactive-hover: var(--background-accent);
+                --interactive-active: var(--background-accent);
+                --header-primary: var(--background-accent);
             }
 
             &.selected-1sf9UK {
-                background: #3d4450;
+                background: var(--background-accent);
                 color: #fff;
                 --header-primary: #fff;
                 --interactive-active: #fff;
@@ -240,6 +244,7 @@
 
     .warning-RBGtx2 {
         margin-bottom: 10px;
+
         .text-sm-medium-2-Xzsi {
             font-weight: 400;
         }
@@ -340,7 +345,9 @@
             border-radius: 2px;
             overflow: hidden;
             background: none;
-            transition: background 200ms ease-in-out, box-shadow 200ms ease-in-out;
+            transition-property: background, box-shadow;
+            transition-duration: .2s;
+            transition-timing-function: ease-out;
 
             input,
             input::placeholder {

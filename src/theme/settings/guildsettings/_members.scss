@@ -40,7 +40,7 @@
     padding-right: 8px;
 
     &:hover {
-        background: #3d4450;
+        background: var(--background-accent);
         transition: background .2s linear;
 
         .overflowIcon-863s2Z {
@@ -68,7 +68,9 @@
         border-radius: 2px;
         background: var(--btn-grey);
         color: var(--brand-experiment);
-        transition: background 200ms ease-in-out, box-shadow 200ms ease-in-out;
+        transition-property: background, box-shadow;
+        transition-duration: .2s;
+        transition-timing-function: ease-out;
 
         &:hover {
             background: var(--btn-grey-hover);

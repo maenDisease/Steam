@@ -14,7 +14,7 @@
         background: none;
 
         &:hover {
-            background: #3d4450;
+            background: var(--background-accent);
             transition: background .2s linear;
         }
 
@@ -61,7 +61,7 @@
         height: 45px;
         border-radius: 0;
         object-fit: cover;
-        background: #3d4450;
+        background: var(--background-accent);
 
         // Youtube Together
         &[src*="755600276941176913/4e"],
@@ -84,7 +84,7 @@
         // DiscordServers.com
         &[src*="162469056312639488/de"] {
             object-fit: scale-down;
-            background: #3D4450;
+            background: var(--background-accent);
         }
 
         // BetterDiscordWeb

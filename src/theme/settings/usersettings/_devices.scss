@@ -17,7 +17,7 @@
     height: 58px;
 
     &:hover {
-        background: #3d4450;
+        background: var(--background-accent);
         transition: background .2s linear;
 
         .sessionIcon-2fwSzb,
@@ -58,7 +58,7 @@
     }
 
     .sessionMoreButton-2cApSx {
-        background-color: #3d4450;
+        background-color: var(--background-accent);
         border-radius: 2px;
         margin: 8px 8px 8px auto;
         height: 24px;
@@ -90,7 +90,7 @@
     width: 98px;
     height: 45px;
     border-radius: 0;
-    background: #3d4450;
+    background: var(--background-accent);
     color: #fff;
 
     svg {

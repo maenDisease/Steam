@@ -33,3 +33,18 @@
 .barText-1eIsLx {
     text-transform: capitalize;
 }
+
+.numberBadge-37OJ3S {
+    border-radius: 2px;
+    min-width: unset;
+    width: unset !important;
+    padding-left: 4px;
+    padding-right: 4px !important;
+    font-size: 11px;
+    font-weight: 400;
+    letter-spacing: 0;
+
+    .listItem-3SmSlK & {
+        border-radius: 0;
+    }
+}

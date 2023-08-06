@@ -30,7 +30,7 @@
 
     &:hover,
     &:has(.headerExpanded-1-zwDr) {
-        background: #3d4450;
+        background: var(--background-accent);
         transition: background .2s linear;
     }
 

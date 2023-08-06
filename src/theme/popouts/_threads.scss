@@ -2,9 +2,11 @@
     .title-10Au0i {
         margin-right: 8px;
     }
+
     .divider-2xk5N2 {
         display: none;
     }
+
     .sectionHeader-QsOv68 {
         color: var(--text-muted) !important;
         letter-spacing: .5px;
@@ -17,7 +19,9 @@
         margin-right: 8px;
         border-radius: 2px;
         background: none;
-        transition: background 200ms ease-in-out, box-shadow 200ms ease-in-out;
+        transition-property: background, box-shadow;
+        transition-duration: .2s;
+        transition-timing-function: ease-out;
 
         &:hover {
             background: var(--btn-grey-hover);
@@ -48,7 +52,7 @@
     height: unset;
 
     &:hover {
-        background: #3d4450;
+        background: var(--background-accent);
     }
 
     .avatar-2jnSDw,

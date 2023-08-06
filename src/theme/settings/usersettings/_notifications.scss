@@ -10,7 +10,7 @@
             text-align: center;
         }
     }
-    
+
     .container-31PmuA:has(+.container-31PmuA.soundRow-2Vsfbg) {
         margin-bottom: 7px;
     }
@@ -46,7 +46,9 @@
             justify-content: center;
             align-items: center;
             display: flex;
-            transition: background 200ms ease-in-out, box-shadow 200ms ease-in-out;
+            transition-property: background, box-shadow;
+            transition-duration: .2s;
+            transition-timing-function: ease-out;
 
             &:hover {
                 background: var(--btn-grey-hover);

@@ -61,6 +61,7 @@
         @include container.settingsHeaderText;
     }
 }
+
 #safety-tab,
 #onboarding-tab {
 
@@ -70,7 +71,9 @@
         border-radius: 2px;
         --interactive-normal: #dfe3e6;
         background: var(--btn-grey);
-        transition: background 200ms ease-in-out, box-shadow 200ms ease-in-out;
+        transition-property: background, box-shadow;
+        transition-duration: .2s;
+        transition-timing-function: ease-out;
 
         &:hover {
             background: var(--btn-grey-hover);
@@ -130,7 +133,7 @@
 
         &:hover,
         &.toggled-35JcVc {
-            background: #3d4450;
+            background: var(--background-accent);
             transition: background .2s linear;
 
             .innerHeader-Us1oKD {

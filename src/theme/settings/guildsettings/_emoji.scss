@@ -41,7 +41,7 @@
         box-shadow: none;
 
         &:hover {
-            background: #3d4450;
+            background: var(--background-accent);
             transition: background .2s linear;
         }
 
@@ -93,7 +93,7 @@
             margin: 8px;
             border-radius: 2px;
             box-shadow: none;
-            background-color: #3d4450;
+            background-color: var(--background-accent);
             flex-shrink: 0;
         }
 

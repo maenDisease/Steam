@@ -82,7 +82,9 @@
         padding: 20px;
         flex-basis: calc(50% - 20px);
         position: relative;
-        transition: background 200ms ease-in-out, box-shadow 200ms ease-in-out;
+        transition-property: background, box-shadow;
+        transition-duration: .2s;
+        transition-timing-function: ease-out;
 
         &:hover {
             background: rgba(255, 255, 255, .2);

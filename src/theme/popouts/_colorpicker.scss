@@ -16,7 +16,9 @@
         width: 34px;
         border-radius: 2px;
         background: var(--background-alpha-2);
-        transition: background 200ms ease-in-out, box-shadow 200ms ease-in-out;
+        transition-property: background, box-shadow;
+        transition-duration: .2s;
+        transition-timing-function: ease-out;
 
         &:hover {
             background: var(--background-alpha-3);
@@ -49,7 +51,9 @@
         height: 34px;
         border-radius: 2px;
         border: none;
-        transition: background 200ms ease-in-out, box-shadow 200ms ease-in-out;
+        transition-property:box-shadow;
+        transition-duration: .2s;
+        transition-timing-function: ease-out;
 
         &:hover {
             box-shadow: var(--btn-grey-boxshadow);

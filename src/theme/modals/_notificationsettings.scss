@@ -8,7 +8,7 @@
     height: 46px;
 
     &:hover {
-        background: #3d4450;
+        background: var(--background-accent);
         transition: background .2s linear;
 
         .checkbox-1LuCGM {
@@ -51,7 +51,7 @@
 
 #app-mount .override-1sK4r0 {
     &:hover {
-        background: #3d4450;
+        background: var(--background-accent);
         transition: background .2s linear;
     }
 

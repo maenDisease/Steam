@@ -4,7 +4,7 @@
         border-radius: 0;
 
         .guildIcon-3bwCCn {
-            background-color: #3d4450;
+            background-color: var(--background-accent);
             box-shadow: 0 0 5px 0 #000000;
             margin-bottom: 15px;
 
@@ -22,7 +22,7 @@
         .activityCount-2n5Mj9 {
             margin-top: 10px;
         }
-        
+
         .pillMessage-3pHz6R {
             font-size: 14px;
             line-height: 18px;
@@ -39,7 +39,9 @@
 
             &.lookLink-13iF2K {
                 background: var(--btn-grey);
-                transition: background 200ms ease-in-out, box-shadow 200ms ease-in-out;
+                transition-property: background, box-shadow, color;
+                transition-duration: .2s;
+                transition-timing-function: ease-out;
 
                 &:hover {
                     background: var(--btn-grey-hover);

@@ -4,7 +4,9 @@
     font-size: 14px;
     line-height: 18px;
     font-weight: 400;
-    transition: background 200ms ease-in-out, box-shadow 200ms ease-in-out;
+    transition-property: background, box-shadow, color;
+    transition-duration: .2s;
+    transition-timing-function: ease-out;
 
     &:hover {
         background: var(--btn-grey-hover);

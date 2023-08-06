@@ -1,4 +1,4 @@
-#app-mount .theme-light {
+.theme-dark #app-mount .theme-light {
     .root-1CAIjD {
         --text-normal: #DCDEE1;
         --text-muted: #8b929a;
@@ -14,11 +14,71 @@
                 width: 100%;
                 text-align: left;
             }
-    
+
             [data-text-variant="text-md/normal"] {
                 margin-top: 10px;
                 text-align: left;
                 width: 100%;
+            }
+        }
+
+        .header-oub2Vc {
+            .title-1LqMUp {
+                margin: 0;
+            }
+
+            [data-text-variant="text-sm/normal"] {
+                margin-top: 10px;
+                text-align: left;
+                width: 100%;
+            }
+        }
+
+        form .input-m1-Y7Q {
+            background: none;
+            border-radius: 0;
+
+            input::placeholder {
+                color: var(--text-muted);
+            }
+        }
+
+        .sampleLink-5BWNy9 {
+            color: var(--text-muted);
+        }
+
+        .rowContainer-3t7486 {
+            border-radius: 2px;
+            padding: 6px 8px;
+            background: var(--btn-brand);
+            color: var(--btn-brand-text);
+            margin-bottom: 10px;
+
+            &:hover {
+                background: var(--btn-brand-hover);
+                color: #fff;
+            }
+
+            .rowIcon-1mRvtM {
+                background: var(--green-360);
+                border-radius: 2px;
+            }
+
+            h2 {
+                color: inherit;
+                font-weight: 400;
+            }
+
+            .rowText-3MQqQi {
+                color: inherit;
+                line-height: 12px;
+                margin-top: 4px;
+            }
+
+            .rowArrow-TIwwIc {
+                height: 18px;
+                width: 18px;
+                margin: 8px;
             }
         }
 
@@ -63,12 +123,14 @@
             border: none;
             background: hsla(222, 10%, 26%, 0.5);
             margin-bottom: 10px;
-            transition: background 200ms ease-in-out, box-shadow 200ms ease-in-out;
+            transition-property: background, box-shadow, color;
+            transition-duration: .2s;
+            transition-timing-function: ease-out;
 
             [data-text-variant="text-md/bold"] {
                 color: #dfe3e6;
                 font-weight: 400;
-                transition: color 200ms ease-in-out;
+                transition: color .2s ease-in-out;
             }
 
             &:hover {
@@ -99,13 +161,15 @@
 
         .button-ejjZWC:not(.close-A4ZfTI) {
             height: 34px;
-                min-height: 34px;
-                padding: 8px 14px;
+            min-height: 34px;
+            padding: 8px 14px;
 
             &.lookBlank-FgPMy6 {
                 color: #dfe3e6;
                 background: hsla(222, 10%, 26%, 0.5);
-                transition: background 200ms ease-in-out, box-shadow 200ms ease-in-out;
+                transition-property: background, box-shadow, color;
+                transition-duration: .2s;
+                transition-timing-function: ease-out;
 
                 &:hover {
                     background: #464d58;
@@ -114,5 +178,7 @@
                 }
             }
         }
+
+
     }
 }

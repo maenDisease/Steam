@@ -1,6 +1,8 @@
 .bd-search-wrapper {
     padding: 4px 8px;
-    transition: background 200ms ease-in-out, box-shadow 200ms ease-in-out;
+    transition-property: background, box-shadow, color;
+    transition-duration: .2s;
+    transition-timing-function: ease-out;
 
     &:hover {
         background: var(--btn-grey-hover);
@@ -164,7 +166,7 @@
         margin-bottom: 0;
 
         &:hover {
-            background: #3d4450;
+            background: var(--background-accent);
             transition: background .2s linear;
         }
     }
@@ -216,7 +218,7 @@
 
         .bd-icon {
             display: block;
-            background: #3d4450;
+            background: var(--background-accent);
             height: 45px !important;
             width: 98px !important;
             padding: 13px;

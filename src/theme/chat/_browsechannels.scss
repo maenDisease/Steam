@@ -95,13 +95,13 @@
                 background: var(--background-alpha-4);
 
                 &:before {
-                    background: #3d4450;
+                    background: var(--background-accent);
                     transition: background .2s linear;
                 }
 
                 .viewChannelButton-59XD70 {
                     background-color: #67707b;
-                    transition: background .2s linear, box-shadow 200ms ease-in-out;
+                    transition: background .2s linear, box-shadow .2s ease-in-out;
                 }
 
             }
@@ -131,7 +131,7 @@
         .iconContainer-21RCa3 {
             width: 98px;
             height: 45px;
-            background: #3d4450;
+            background: var(--background-accent);
             align-items: center;
             justify-content: center;
             position: absolute;

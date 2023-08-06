@@ -16,7 +16,7 @@
 
         &:hover,
         &:has(.body-1rejdE) {
-            background: #3d4450;
+            background: var(--background-accent);
             transition: background .2s linear;
 
             .iconWrapper-1sOtkE {
@@ -26,7 +26,7 @@
 
             .button-ejjZWC.lookFilled-1H2Jvj.colorBrand-2M3O3N.sizeSmall-3R2P2p.grow-2T4nbg {
                 background-color: #67707b;
-                transition: background .2s linear, box-shadow 200ms ease-in-out;
+                transition: background .2s linear, box-shadow .2s ease-in-out;
             }
         }
 
@@ -39,7 +39,7 @@
             height: 45px;
             width: 98px;
             object-fit: scale-down;
-            background: #3d4450;
+            background: var(--background-accent);
 
             svg {
                 height: 18px;

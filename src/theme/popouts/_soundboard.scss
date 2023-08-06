@@ -91,7 +91,9 @@
     .soundButton-2P2Ua2 {
         border-radius: 2px;
         background: var(--btn-grey);
-        transition: background 200ms ease-in-out, box-shadow 200ms ease-in-out;
+        transition-property: background, box-shadow;
+        transition-duration: .2s;
+        transition-timing-function: ease-out;
 
         [data-text-variant="text-xs/medium"] {
             font-weight: 400;
@@ -108,8 +110,8 @@
         }
 
         .buttonOverlay-3K0hyD {
-            -webkit-transition: opacity 200ms ease-in-out;
-            transition: opacity 200ms ease-in-out;
+            -webkit-transition: opacity .2s ease-in-out;
+            transition: opacity .2s ease-in-out;
         }
 
         .buttonOverlayBackground-3fyfGX {

@@ -20,7 +20,7 @@
         border-radius: 2px;
 
         &[class*="noItemsCard"] {
-            background: #3d4450;
+            background: var(--background-accent);
             width: fit-content;
         }
 
@@ -34,7 +34,7 @@
         }
 
         .gameIcon-1mDo1J {
-            color: #3d4450;
+            color: var(--background-accent);
         }
 
         [class*="cardText"] {
