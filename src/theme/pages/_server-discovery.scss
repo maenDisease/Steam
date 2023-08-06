@@ -300,7 +300,7 @@
 
     .searchHeader-gz2NXf {
         grid-area: found;
-        background: var(--background-dark-2);
+        background: var(--background-alpha-2);
         margin-bottom: 0;
         padding: 10px;
 
@@ -318,7 +318,7 @@
             border-radius: 2px;
 
             &:hover {
-                background: var(--btn-brand-hover-gradient);
+                background: var(--btn-brand-hover);
                 color: #fff;
             }
         }
@@ -384,7 +384,7 @@
             }
 
             &.selected-bLcqYK {
-                background: var(--btn-brand-hover-gradient)
+                background: var(--btn-brand-hover)
             }
 
             .categoryLabel-2m4AT- {
@@ -395,7 +395,7 @@
     }
 
     .searchPage-3tt6dh {
-        background: var(--background-dark-4);
+        background: var(--background-alpha-4);
         padding: 6px 6px 6px 52px;
         margin-top: var(--content-gutter);
         margin-bottom: var(--content-gutter);
@@ -440,11 +440,11 @@
     }
 
     .card-1rhKXq {
-        background: var(--background-dark-2);
+        background: var(--background-alpha-2);
         border: 1px solid transparent;
 
         &:hover {
-            background: var(--background-dark-4);
+            background: var(--background-alpha-4);
             border-color: rgba(139, 185, 224, 0.2);
         }
 
@@ -533,7 +533,7 @@
         margin: 0;
 
         .container-1wv6C6 {
-            background: var(--background-dark-3);
+            background: var(--background-alpha-3);
             padding: 8px 16px 10px 16px;
             border-radius: 2px;
             display: flex;

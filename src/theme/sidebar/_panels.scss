@@ -34,7 +34,7 @@
     }
 
     >div:not(.container-YkUktl) button.enabled-9OeuTA {
-        background: var(--background-dark-2);
+        background: var(--background-alpha-2);
 
         &:hover {
             background: var(--btn-dark-hover);
@@ -68,7 +68,7 @@
             transition: none;
 
             &:hover {
-                background: var(--btn-brand-hover-gradient);
+                background: var(--btn-brand-hover);
                 color: #fff;
             }
         }

@@ -45,7 +45,7 @@
 
     .overlayBackground-2aa7wt~.overlayBackground-2aa7wt:not(:empty, :has(.activity-3uaYny)) {
         margin: 12px;
-        background: var(--background-dark-3);
+        background: var(--background-alpha-3);
         border-radius: 3px;
         padding: 20px 10px 11px 10px;
     }
@@ -55,7 +55,7 @@
 
         >div {
             box-sizing: border-box;
-            background: var(--background-dark-3);
+            background: var(--background-alpha-3);
             border-radius: 5px;
         }
 
@@ -81,7 +81,7 @@
     }
 
     .section-28YDOf:has(.activity-3uaYny) {
-        background: var(--background-dark-2);
+        background: var(--background-alpha-2);
         margin: 0 -12px -12px;
         padding: 12px;
     }
@@ -196,4 +196,14 @@
             margin-left: 2px;
         }
     }
+}
+
+.interactive:hover {
+    color: #fff;
+    background: var(--btn-brand-hover);
+}
+
+.wrapper-1ZcZW- {
+    border-radius: 2px;
+    font-weight: 400;
 }

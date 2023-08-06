@@ -1,11 +1,22 @@
+.theme-dark {
+    --background-alpha-4: rgba(0, 0, 0, .4);
+    --background-alpha-3: rgba(0, 0, 0, .3);
+    --background-alpha-2: rgba(0, 0, 0, .2);
+
+    --code-background: #151f25;
+    
+    --contextmenu-background: #3D4450;
+    --contextmenu-shadow: 3px 3px 5px -3px #000;
+}
+
 :root,
 .theme-dark {
     --accent-hue: 205;
     --accent-saturation: 100%;
     --accent-brightness: 55%;
 
+    // Spacing
     --app-gutter: 24px;
-    --app-gutter-negative: calc(var(--app-gutter) * -1);
     --content-gutter: 16px;
     --content-width: 940px;
     --content-inner-width: 656px;
@@ -19,15 +30,6 @@
 
     --background-modifier-hover: hsla(var(--accent-hue), 24%, 68%, 0.3);
     --background-modifier-active: var(--background-modifier-hover);
-
-    --code-background: #151f25;
-
-    --background-dark-4: rgba(0, 0, 0, .4);
-    --background-dark-3: rgba(0, 0, 0, .3);
-    --background-dark-2: rgba(0, 0, 0, .2);
-
-    --contextmenu-background: #3D4450;
-    --contextmenu-shadow: 3px 3px 5px -3px #000;
 
     --message-background-gradient-yellow: linear-gradient(135deg, hsla(40, 23%, 41%, 0.5) 0%, hsla(40, 60%, 72%, 0.502) 100%);
     --message-background-gradient-blue: linear-gradient(135deg, hsla(var(--accent-hue), 23%, 41%, 0.5) 0%, hsla(var(--accent-hue), 60%, 72%, 0.502) 100%);
@@ -57,7 +59,7 @@
     --header-button-background: rgba(103,112,123,.2);
     
     --btn-brand: hsla(202, 88%, 68%, 0.2);
-    --btn-brand-hover-gradient: linear-gradient(-60deg, hsl(202, 41%, 43%) 5%, hsl(202, 88%, 68%) 95%);
+    --btn-brand-hover: linear-gradient(-60deg, hsl(202, 41%, 43%) 5%, hsl(202, 88%, 68%) 95%);
     --btn-brand-text: #67c1f5;
 
     --btn-grey: rgba(59, 63, 72, .5);
@@ -68,6 +70,9 @@
 
     --button-positive-background: var(--gpColor-Green);
     --button-positive-background-hover: hsl(96, 58%, 30%);
+
+    --mention-background: var(--btn-brand);
+    --mention-foreground: var(--btn-brand-text);
 
     --info-warning-foreground: var(--gpColor-Yellow);
     --info-positive-foreground: var(--gpColor-Green);
@@ -87,39 +92,40 @@
     --theme-preview-width: 260px;
 }
 
-/* Settings Icons */
+// Settings Icons
 :root {
     --use-settingsicons: calc(var(--settingsicons, 1) / (var(--settingsicons, 1) + 0.00000000000000000000001));
     --settingsicons-size: 20px;
 
+    $icon-path: "https://maendisease.github.io/Steam/illustrations/icns";
     // --settingsicons-default: url(https://mwittrien.github.io/BetterDiscordAddons/Themes/_res/svgs/settingsicons/questionmark.svg);
-    --settingsicons-myaccount: url(https://maendisease.github.io/Steam/illustrations/icns/account.svg);
-    --settingsicons-profile: url(https://maendisease.github.io/Steam/illustrations/icns/pencil.svg);
-    --settingsicons-privacy: url(https://maendisease.github.io/Steam/illustrations/icns/security.svg);
-    --settingsicons-family: url(https://maendisease.github.io/Steam/illustrations/icns/family.svg);
+    --settingsicons-myaccount: url(#{$icon-path}/account.svg);
+    --settingsicons-profile: url(#{$icon-path}/pencil.svg);
+    --settingsicons-privacy: url(#{$icon-path}/security.svg);
+    --settingsicons-family: url(#{$icon-path}/family.svg);
     // --settingsicons-apps: url(https://mwittrien.github.io/BetterDiscordAddons/Themes/_res/svgs/settingsicons/apps.svg);
-    --settingsicons-sessions: url(https://maendisease.github.io/Steam/illustrations/icns/remoteplay.svg);
+    --settingsicons-sessions: url(#{$icon-path}/remoteplay.svg);
     // --settingsicons-connections: url(https://mwittrien.github.io/BetterDiscordAddons/Themes/_res/svgs/settingsicons/connections.svg);
-    --settingsicons-friendrequests: url(https://maendisease.github.io/Steam/illustrations/icns/friends&chat.svg);
+    --settingsicons-friendrequests: url(#{$icon-path}/friends&chat.svg);
     // --settingsicons-nitro: url(https://mwittrien.github.io/BetterDiscordAddons/Themes/_res/svgs/settingsicons/nitro.svg);
     // --settingsicons-boosts: url(https://mwittrien.github.io/BetterDiscordAddons/Themes/_res/svgs/settingsicons/boosts.svg);
-    // --settingsicons-subscriptions: url(https://mwittrien.github.io/BetterDiscordAddons/Themes/_res/svgs/settingsicons/subscriptions.svg);
+    --settingsicons-subscriptions: url(#{$icon-path}/star.svg);
     // --settingsicons-gifts: url(https://mwittrien.github.io/BetterDiscordAddons/Themes/_res/svgs/settingsicons/gift.svg);
-    --settingsicons-billing: url(https://maendisease.github.io/Steam/illustrations/icns/funds.svg);
+    --settingsicons-billing: url(#{$icon-path}/funds.svg);
     // --settingsicons-appearance: url(https://mwittrien.github.io/BetterDiscordAddons/Themes/_res/svgs/settingsicons/appearance.svg);
     // --settingsicons-accessibility: url(https://mwittrien.github.io/BetterDiscordAddons/Themes/_res/svgs/settingsicons/accessibility.svg);
-    --settingsicons-voice: url(https://maendisease.github.io/Steam/illustrations/icns/voice.svg);
+    --settingsicons-voice: url(#{$icon-path}/voice.svg);
     // --settingsicons-powermode: url(https://mwittrien.github.io/BetterDiscordAddons/Themes/_res/svgs/settingsicons/party.svg);
     // --settingsicons-text: url(https://mwittrien.github.io/BetterDiscordAddons/Themes/_res/svgs/settingsicons/text.svg);
-    --settingsicons-notifications: url(https://maendisease.github.io/Steam/illustrations/icns/notifications.svg);
+    --settingsicons-notifications: url(#{$icon-path}/notifications.svg);
     // --settingsicons-keybinds: url(https://mwittrien.github.io/BetterDiscordAddons/Themes/_res/svgs/settingsicons/keybinds.svg);
     // --settingsicons-language: url(https://mwittrien.github.io/BetterDiscordAddons/Themes/_res/svgs/settingsicons/language.svg);
-    --settingsicons-windows: url(https://maendisease.github.io/Steam/illustrations/icns/library.svg);
-    --settingsicons-streamermode: url(https://maendisease.github.io/Steam/illustrations/icns/broadcast.svg);
-    --settingsicons-advanced: url(https://maendisease.github.io/Steam/illustrations/icns/developer.svg);
+    --settingsicons-windows: url(#{$icon-path}/library.svg);
+    --settingsicons-streamermode: url(#{$icon-path}/broadcast.svg);
+    --settingsicons-advanced: url(#{$icon-path}/developer.svg);
     // --settingsicons-activityprivacy: url(https://mwittrien.github.io/BetterDiscordAddons/Themes/_res/svgs/settingsicons/activityprivacy.svg);
-    --settingsicons-games: url(https://maendisease.github.io/Steam/illustrations/icns/controller.svg);
-    --settingsicons-overlay: url(https://maendisease.github.io/Steam/illustrations/icns/ingame.svg);
+    --settingsicons-games: url(#{$icon-path}/controller.svg);
+    --settingsicons-overlay: url(#{$icon-path}/ingame.svg);
     // --settingsicons-bd-settings: url(https://mwittrien.github.io/BetterDiscordAddons/Themes/_res/svgs/settingsicons/settings.svg);
     // --settingsicons-bd-changelog: url(https://mwittrien.github.io/BetterDiscordAddons/Themes/_res/svgs/settingsicons/changelog.svg);
     // --settingsicons-bd-customcss: url(https://mwittrien.github.io/BetterDiscordAddons/Themes/_res/svgs/settingsicons/custom.svg);
@@ -130,7 +136,7 @@
     // --settingsicons-changelog: url(https://mwittrien.github.io/BetterDiscordAddons/Themes/_res/svgs/settingsicons/changelog.svg);
     // --settingsicons-hypesquad: url(https://mwittrien.github.io/BetterDiscordAddons/Themes/_res/svgs/settingsicons/hypesquad.svg);
     // --settingsicons-experiments: url(https://mwittrien.github.io/BetterDiscordAddons/Themes/_res/svgs/settingsicons/experiments.svg);
-    --settingsicons-developer: url(https://maendisease.github.io/Steam/illustrations/icns/developer.svg);
+    --settingsicons-developer: url(#{$icon-path}/developer.svg);
     // --settingsicons-hotspots: url(https://mwittrien.github.io/BetterDiscordAddons/Themes/_res/svgs/settingsicons/hotspots.svg);
     // --settingsicons-dismissable: url(https://mwittrien.github.io/BetterDiscordAddons/Themes/_res/svgs/settingsicons/dismissable.svg);
     // --settingsicons-paymentmodals: url(https://mwittrien.github.io/BetterDiscordAddons/Themes/_res/svgs/settingsicons/paymentmodals.svg);
@@ -139,24 +145,21 @@
     // --settingsicons-logout: url(https://mwittrien.github.io/BetterDiscordAddons/Themes/_res/svgs/settingsicons/logout.svg);
 }
 
-/* Settings Modal */
+// Settings Modal
 :root {
     --settingsmodalbackground: transparent;
     --settingsmodalwidth: 850px;
     --settingsmodalheight: 80vh;
 }
 
-/* HorizontalServerList*/
+// HorizontalServerList
 :root {
     --HSL-server-icon-size: 28px;
-    /* Size of the server icons | DEFAULT: 40px */
     --HSL-server-spacing: 10px;
-    /* Spacing between each server icon | DEFAULT: 10px */
     --HSL-server-direction: column;
-    /* Direct of the server list. | Options: column, column-reverse | DEFAULT: column */
 }
 
-/* RadialStatus */
+// RadialStatus
 :root {
     --rs-small-spacing: 0;
     --rs-medium-spacing: 0;
@@ -281,79 +284,79 @@
     --brand-new-900: hsl(var(--accent-hue), calc(var(--saturation-factor, 1) * 50%), 3.1%);
 }
 
-/* Reference vars */
-/*:root {
-    --gpSystemLightestGrey: #DCDEDF;
-    --gpSystemLighterGrey: #B8BCBF;
-    --gpSystemLightGrey: #8B929A;
-    --gpSystemGrey: #67707B;
-    --gpSystemDarkGrey: #3D4450;
-    --gpSystemDarkerGrey: #23262E;
-    --gpSystemDarkestGrey: #0E141B;
-    --gpStoreLightestGrey: #CCD8E3;
-    --gpStoreLighterGrey: #A7BACC;
-    --gpStoreLightGrey: #7C8EA3;
-    --gpStoreGrey: #4e697d;
-    --gpStoreDarkGrey: #2A475E;
-    --gpStoreDarkerGrey: #1B2838;
-    --gpStoreDarkestGrey: #000F18;
-    --gpGradient-StoreBackground: linear-gradient(180deg, var(--gpStoreDarkGrey) 0%, var(--gpStoreDarkerGrey) 80%);
-    --gpGradient-LibraryBackground: radial-gradient(farthest-corner at 40px 40px,#3D4450 0%, #23262E 80%);
-    --gpColor-Blue: #1A9FFF;
-    --gpColor-BlueHi: #00BBFF;
-    --gpColor-Green: #5ba32b;
-    --gpColor-GreenHi: #59BF40;
-    --gpColor-Orange: #E35E1C;
-    --gpColor-Red: #D94126;
-    --gpColor-RedHi: #EE563B;
-    --gpColor-DustyBlue: #417a9b;
-    --gpColor-LightBlue: #B3DFFF;
-    --gpColor-Yellow: #FFC82C;
-    --gpColor-ChalkyBlue: #66C0F4;
-    --gpBackground-LightSofter: #6998bb24;
-    --gpBackground-LightSoft: #3b5a7280;
-    --gpBackground-LightMedium: #678BA670;
-    --gpBackground-LightHard: #93B8D480;
-    --gpBackground-LightHarder: #aacce6a6;
-    --gpBackground-DarkSofter: #0e141b33;
-    --gpBackground-DarkSoft: #0e141b66;
-    --gpBackground-DarkMedium: #0e141b99;
-    --gpBackground-DarkHard: #0e141bcc;
-    --gpBackground-Neutral-LightSofter: rgba(235, 246, 255, 0.10);
-    --gpBackground-Neutral-LightSoft: rgba(235, 246, 255, 0.20);
-    --gpBackground-Neutral-LightMedium: rgba(235, 246, 255, 0.30);
-    --gpBackground-Neutral-LightHard: rgba(235, 246, 255, 0.40);
-    --gpBackground-Neutral-LightHarder: rgba(235, 246, 255, 0.50);
-    --gpCorner-Small: 1px;
-    --gpCorner-Medium: 2px;
-    --gpCorner-Large: 3px;
-    --gpSpace-Gutter: 24px;
-    --gpSpace-Gap: 12px;
-    --gpNavWidth: 240px;
-    --gpPaymentsNavWidth: 340px;
-    --gpDselectWidth: 340px;
-    --gpSidePanelWidth: 340px;
-    --gpGiftingPanelWidth: 280px;
-    --gpCommunityRightPanelWidth: 320px;
-    --gpVerticalResponsivePadding-Small: calc( (100vw - 854px) / 60 );
-    --gpVerticalResponsivePadding-Medium: calc( (100vw - 854px) / 20 );
-    --gpVerticalResponsivePadding-Large: calc( (100vw - 854px) / 12 );
-    --screen-width: 100vw;
-    --gpWidth-6colcap: calc((var(--screen-width) - (5 * var(--gpSpace-Gap)) - (2 * var(--gpSpace-Gutter))) / 6);
-    --gpWidth-5colcap: calc((var(--screen-width) - (4 * var(--gpSpace-Gap)) - (2 * var(--gpSpace-Gutter))) / 5);
-    --gpWidth-4colcap: calc((var(--screen-width) - (3 * var(--gpSpace-Gap)) - (2 * var(--gpSpace-Gutter))) / 4);
-    --gpWidth-3colcap: calc((var(--screen-width) - (2 * var(--gpSpace-Gap)) - (2 * var(--gpSpace-Gutter))) / 3);
-    --gpWidth-2colcap: calc((var(--screen-width) - (1 * var(--gpSpace-Gap)) - (2 * var(--gpSpace-Gutter))) / 2);
-    --gpWidth-1colcap: calc((var(--screen-width) - (2 * var(--gpSpace-Gutter))));
-    --gpStoreMenuHeight: 58px;
-    --gpShadow-Small: 0px 2px 2px 0px #0000003D;
-    --gpShadow-Medium: 0px 3px 6px 0px #0000003D;
-    --gpShadow-Large: 0px 12px 16px 0px #0000003D;
-    --gpShadow-XLarge: 0px 24px 32px 0px #0000003D;
-    --gpText-HeadingLarge: normal 700 26px/1.4 "Motiva Sans", Arial, Sans-serif;
-    --gpText-HeadingMedium: normal 700 22px/1.4 "Motiva Sans", Arial, Sans-serif;
-    --gpText-HeadingSmall: normal 700 18px/1.4 "Motiva Sans", Arial, Sans-serif;
-    --gpText-BodyLarge: normal 400 16px/1.4 "Motiva Sans", Arial, Sans-serif;
-    --gpText-BodyMedium: normal 400 14px/1.4 "Motiva Sans", Arial, Sans-serif;
-    --gpText-BodySmall: normal 400 12px/1.4 "Motiva Sans", Arial, Sans-serif;
-}*/
+// Reference vars
+// :root {
+//     --gpSystemLightestGrey: #DCDEDF;
+//     --gpSystemLighterGrey: #B8BCBF;
+//     --gpSystemLightGrey: #8B929A;
+//     --gpSystemGrey: #67707B;
+//     --gpSystemDarkGrey: #3D4450;
+//     --gpSystemDarkerGrey: #23262E;
+//     --gpSystemDarkestGrey: #0E141B;
+//     --gpStoreLightestGrey: #CCD8E3;
+//     --gpStoreLighterGrey: #A7BACC;
+//     --gpStoreLightGrey: #7C8EA3;
+//     --gpStoreGrey: #4e697d;
+//     --gpStoreDarkGrey: #2A475E;
+//     --gpStoreDarkerGrey: #1B2838;
+//     --gpStoreDarkestGrey: #000F18;
+//     --gpGradient-StoreBackground: linear-gradient(180deg, var(--gpStoreDarkGrey) 0%, var(--gpStoreDarkerGrey) 80%);
+//     --gpGradient-LibraryBackground: radial-gradient(farthest-corner at 40px 40px,#3D4450 0%, #23262E 80%);
+//     --gpColor-Blue: #1A9FFF;
+//     --gpColor-BlueHi: #00BBFF;
+//     --gpColor-Green: #5ba32b;
+//     --gpColor-GreenHi: #59BF40;
+//     --gpColor-Orange: #E35E1C;
+//     --gpColor-Red: #D94126;
+//     --gpColor-RedHi: #EE563B;
+//     --gpColor-DustyBlue: #417a9b;
+//     --gpColor-LightBlue: #B3DFFF;
+//     --gpColor-Yellow: #FFC82C;
+//     --gpColor-ChalkyBlue: #66C0F4;
+//     --gpBackground-LightSofter: #6998bb24;
+//     --gpBackground-LightSoft: #3b5a7280;
+//     --gpBackground-LightMedium: #678BA670;
+//     --gpBackground-LightHard: #93B8D480;
+//     --gpBackground-LightHarder: #aacce6a6;
+//     --gpBackground-DarkSofter: #0e141b33;
+//     --gpBackground-DarkSoft: #0e141b66;
+//     --gpBackground-DarkMedium: #0e141b99;
+//     --gpBackground-DarkHard: #0e141bcc;
+//     --gpBackground-Neutral-LightSofter: rgba(235, 246, 255, 0.10);
+//     --gpBackground-Neutral-LightSoft: rgba(235, 246, 255, 0.20);
+//     --gpBackground-Neutral-LightMedium: rgba(235, 246, 255, 0.30);
+//     --gpBackground-Neutral-LightHard: rgba(235, 246, 255, 0.40);
+//     --gpBackground-Neutral-LightHarder: rgba(235, 246, 255, 0.50);
+//     --gpCorner-Small: 1px;
+//     --gpCorner-Medium: 2px;
+//     --gpCorner-Large: 3px;
+//     --gpSpace-Gutter: 24px;
+//     --gpSpace-Gap: 12px;
+//     --gpNavWidth: 240px;
+//     --gpPaymentsNavWidth: 340px;
+//     --gpDselectWidth: 340px;
+//     --gpSidePanelWidth: 340px;
+//     --gpGiftingPanelWidth: 280px;
+//     --gpCommunityRightPanelWidth: 320px;
+//     --gpVerticalResponsivePadding-Small: calc( (100vw - 854px) / 60 );
+//     --gpVerticalResponsivePadding-Medium: calc( (100vw - 854px) / 20 );
+//     --gpVerticalResponsivePadding-Large: calc( (100vw - 854px) / 12 );
+//     --screen-width: 100vw;
+//     --gpWidth-6colcap: calc((var(--screen-width) - (5 * var(--gpSpace-Gap)) - (2 * var(--gpSpace-Gutter))) / 6);
+//     --gpWidth-5colcap: calc((var(--screen-width) - (4 * var(--gpSpace-Gap)) - (2 * var(--gpSpace-Gutter))) / 5);
+//     --gpWidth-4colcap: calc((var(--screen-width) - (3 * var(--gpSpace-Gap)) - (2 * var(--gpSpace-Gutter))) / 4);
+//     --gpWidth-3colcap: calc((var(--screen-width) - (2 * var(--gpSpace-Gap)) - (2 * var(--gpSpace-Gutter))) / 3);
+//     --gpWidth-2colcap: calc((var(--screen-width) - (1 * var(--gpSpace-Gap)) - (2 * var(--gpSpace-Gutter))) / 2);
+//     --gpWidth-1colcap: calc((var(--screen-width) - (2 * var(--gpSpace-Gutter))));
+//     --gpStoreMenuHeight: 58px;
+//     --gpShadow-Small: 0px 2px 2px 0px #0000003D;
+//     --gpShadow-Medium: 0px 3px 6px 0px #0000003D;
+//     --gpShadow-Large: 0px 12px 16px 0px #0000003D;
+//     --gpShadow-XLarge: 0px 24px 32px 0px #0000003D;
+//     --gpText-HeadingLarge: normal 700 26px/1.4 "Motiva Sans", Arial, Sans-serif;
+//     --gpText-HeadingMedium: normal 700 22px/1.4 "Motiva Sans", Arial, Sans-serif;
+//     --gpText-HeadingSmall: normal 700 18px/1.4 "Motiva Sans", Arial, Sans-serif;
+//     --gpText-BodyLarge: normal 400 16px/1.4 "Motiva Sans", Arial, Sans-serif;
+//     --gpText-BodyMedium: normal 400 14px/1.4 "Motiva Sans", Arial, Sans-serif;
+//     --gpText-BodySmall: normal 400 12px/1.4 "Motiva Sans", Arial, Sans-serif;
+// }
