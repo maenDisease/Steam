@@ -21,6 +21,10 @@ body #app-mount .app-3xd6d0 .base-2jDfDU {
     height: unset;
     border-radius: 3px;
     box-shadow: 0 0 3px #000;
+
+    &[aria-hidden="true"][style="transform: translateY(180%);"] {
+        transform: translateY(calc(180% + 24px)) !important;
+    }
 }
 
 .mention-3XBnnZ {

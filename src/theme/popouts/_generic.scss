@@ -40,19 +40,19 @@
     .scrollerBase-1Pkza4 {
 
         padding: 4px 0 0 4px;
-    
+
         &::-webkit-scrollbar {
             width: 4px;
         }
-    
+
         .wrapper-30-Nkg {
             padding: 10px 10px 10px 14px;
         }
-    
+
         .avatar-2e8lTP {
             left: 16px;
         }
-    
+
         .header-2jRmjb {
             opacity: 1;
             display: flex;
@@ -60,40 +60,41 @@
             padding-left: calc(40px + 4px + 2px + 12px);
             margin-bottom: 10px;
         }
-    
+
         .username-h_Y3Us {
-            font-size: 12px;
+            font-size: 0.75rem;
+            line-height: 1.125rem;
         }
-    
+
         .timestamp-p1Df1m {
-            font-size: 11px;
+            font-size: 0.6875rem;
         }
-    
+
         .timestampInline-_lS3aK {
             margin-left: 0;
         }
-    
+
         .markup-eYLPri {
-            font-size: 11px;
-            line-height: 16px;
-    
+            font-size: 0.875rem;
+            line-height: 1.25rem;
+
             pre {
                 max-width: 100%;
             }
-    
+
             code {
-                font-size: 11px;
-                line-height: 16px;
+                font-size: 0.875rem;
+                line-height: 1.25rem;
             }
         }
-    
+
         .repliedMessage-3Z6XBG {
             top: 64px;
             left: calc(9px + 10px);
             padding: 4px;
-            font-size: 11px;
-            line-height: 16px;
-    
+            font-size: 0.8125rem;
+            line-height: 1.0625rem;
+
             +.contents-2MsGLg .header-2jRmjb {
                 margin-bottom: calc(35px + 10px);
             }
