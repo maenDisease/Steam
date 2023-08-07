@@ -21,6 +21,8 @@
     text-shadow: 0px 2px 3px rgba(0, 0, 0, 0.3);
     color: #e5e5e5;
     font-size: 14px;
+    display: flex;
+    align-items: center;
 
     &:hover:not(.disabled-2G98Nl) {
         background: linear-gradient(90deg, rgba(33, 162, 255, 0.25) 0%, rgba(33, 162, 255, 0.15) 50%, rgba(50, 50, 51, 0) 100%);
@@ -366,12 +368,22 @@
 
     .content-yjf30S {
         max-width: var(--content-inner-width);
+        z-index: 0;
+
+        &:after {
+            content: '';
+            display: block;
+            position: absolute;
+            inset: 20px 0 0 0;
+            z-index: -1;
+            background: var(--background-alpha-4);
+        }
     }
 
     .sectionTitle-1P1u0N {
         background-color: #015e80;
         padding: 10px 20px 10px 20px;
-        margin: var(--content-gutter) 0 0 0;
+        margin: -8px 0 0 0;
         font-weight: normal;
         font-size: 14px;
         line-height: 16px;
@@ -384,31 +396,38 @@
         margin-top: 20px;
     }
 
+    h2+div~.messageRequestItem-1_NNAR:last-child {
+        // outline: 1px dashed cyan;
+    }
+
     .messageRequestItem-1_NNAR {
         font-weight: 500;
         font-size: 16px;
         line-height: 20px;
         border: none !important;
-        padding: 16px 10px;
+        border-radius: 0;
         margin-left: 20px;
         margin-right: 20px;
-        outline: 1px dashed cyan;
-
-        // background: var(--background-alpha-4);
-        position: relative;
         padding: 6px 8px;
         height: 46px;
         box-sizing: content-box;
 
-        &:before {
-            content: '';
-            display: block;
-            position: absolute;
-            inset: 0;
-            z-index: 0;
-            background: var(--background-alpha-4);
-            margin-left: -20px;
-        margin-right: -20px;
+        &:hover,
+        &.selected-11Gl-y {
+            background: var(--background-accent);
+            transition: background .2s linear;
+        }
+    }
+
+    .timestampWithPreview-2lTGjV {
+        margin-top: 2px;
+    }
+
+    .actions-3dU7M- {
+        gap: 4px;
+
+        .button-YJZ_0E:not(:last-child) {
+            margin-right: 0;
         }
     }
 }

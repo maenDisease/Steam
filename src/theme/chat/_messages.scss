@@ -479,24 +479,26 @@
     }
 
     .h5-2feg8J.eyebrow-2wJAoF {
-        padding: 0 8px;
-        font-size: 12px;
-        font-weight: 400;
-        line-height: 16px;
-        letter-spacing: 0;
-        text-transform: unset;
-        position: absolute;
-        bottom: 76px;
-        left: 0;
-        text-align: center;
+        // padding: 0 8px;
+        // font-size: 12px;
+        // font-weight: 400;
+        // line-height: 16px;
+        // letter-spacing: 0;
+        // text-transform: unset;
+        // position: absolute;
+        // bottom: 76px;
+        // left: 0;
+        // text-align: center;
+        display: none;
     }
 
     .content-1r-J1r {
-        height: 76px;
-        padding: 0 8px;
+        min-height: 76px;
+        padding: 8px;
         margin-top: auto;
         position: relative;
         overflow: hidden;
+        box-sizing: border-box;
 
         &::before {
             content: '';

@@ -1,3 +1,13 @@
+// ./icns/viewlist.svg
+[d="M4 18h17v-6H4v6zM4 5v6h17V5H4z"] {
+    d: path("M 20,4 H 4 v 7 h 16 z M 20,13 H 4 v 7 h 16 z");
+}
+
+// ./icns/viewgrid.svg
+[d="M4 11h5V5H4v6zm0 7h5v-6H4v6zm6 0h5v-6h-5v6zm6 0h5v-6h-5v6zm-6-7h5V5h-5v6zm6-6v6h5V5h-5z"] {
+    d: path("M 8.31743,4 H 3.999968 V 8.317462 H 8.31743 Z M 8.31743,9.756612 H 3.999968 v 4.31742 H 8.31743 Z M 14.074,4 H 9.75658 V 8.317462 H 14.074 Z M 14.074,9.756612 H 9.75658 v 4.31742 H 14.074 Z M 20,4 H 15.6825 V 8.317462 H 20 Z M 20,9.756612 h -4.3175 v 4.31742 H 20 Z M 8.31743,15.682532 H 3.999968 v 4.3175 H 8.31743 Z M 14.074,15.682532 H 9.75658 v 4.3175 H 14.074 Z M 20,15.682532 h -4.3175 v 4.3175 H 20 Z");
+}
+
 .bd-search-wrapper {
     padding: 4px 8px;
     transition-property: background, box-shadow, color;
