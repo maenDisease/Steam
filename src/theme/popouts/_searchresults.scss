@@ -42,15 +42,13 @@
             background: none;
         }
 
-        .react-datepicker__current-month {
-        }
-
         .react-datepicker__day {
             border-radius: 0;
             border: none;
         }
 
-        .react-datepicker__day--outside-month {
+        .react-datepicker__day--outside-month,
+        .react-datepicker__day--disabled {
             background: var(--background-alpha-2);
             color: var(--text-muted);
         }
