@@ -97,6 +97,7 @@
     padding: 0 6px 0 0;
     justify-content: right;
     -webkit-app-region: drag;
+    box-sizing: border-box;
 
     #app-mount & {
         background: var(--background-tertiary);
@@ -105,6 +106,10 @@
     .platform-osx & {
         right: 0;
         width: 100%;
+
+        &::before {
+            left: 0;
+        }
     }
 
     &::before {
