@@ -4,7 +4,7 @@
     border-radius: 0;
     padding: 32px;
     background: var(--modal-background);
-    box-shadow: var(--modal-elevation);
+    box-shadow: var(--modal-shadow);
     @include generic.modalTopBar;
 
     [data-text-variant="text-lg/semibold"] {

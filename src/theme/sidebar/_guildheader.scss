@@ -1,11 +1,16 @@
 .header-3OsQeK {
     position: fixed;
-    top: 1px;
-    left: 80px;
-    -webkit-app-region: no-drag;
-    padding: 6px 6px;
+    top: 0;
+    left: 76px;
+    -webkit-app-region: drag;
+    padding: 6px 4px 6px 10px;
     box-shadow: none;
-    max-width: 183px;
+    width: 189px;
+
+    .headerContent-2SNbie {
+        -webkit-app-region: no-drag;
+        width: fit-content;
+    }
 
     .name-3Uvkvr {
         font-family: var(--font-display);
@@ -37,5 +42,5 @@
 }
 
 .guildIconV2Container-2H8IRS {
-    margin-right: 6px;
+    margin-right: 4px;
 }

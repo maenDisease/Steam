@@ -16,7 +16,7 @@
     background: var(--modal-background);
     z-index: 1;
     border-radius: 0;
-    box-shadow: var(--modal-elevation);
+    box-shadow: var(--modal-shadow);
 
     [data-text-variant="heading-xl/semibold"] {
         margin-top: 0;
