@@ -121,7 +121,7 @@
         .container-x8Y1ix {
             border-radius: 2px;
             border: none;
-            background: hsla(222, 10%, 26%, 0.5);
+            background: var(--btn-grey);
             margin-bottom: 10px;
             transition-property: background, box-shadow, color;
             transition-duration: .2s;
@@ -134,8 +134,8 @@
             }
 
             &:hover {
-                background: #464d58;
-                box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.3);
+                background: var(--btn-grey-hover);
+                box-shadow: var(--btn-grey-boxshadow);
 
                 [data-text-variant="text-md/bold"] {
                     color: #fff;
