@@ -58,7 +58,7 @@
 .spinningCircleInner-YCEeSc.inner-MGEKwh {
     -webkit-transform: none;
     transform: none;
-    
+
     svg {
         display: none;
     }
@@ -73,7 +73,7 @@
 .spinningCircleInner-YCEeSc.inner-MGEKwh,
 .inner-MGEKwh.wanderingCubes-2A046F {
     &::before {
-        content:'';
+        content: '';
         display: block;
         position: absolute;
         left: 0;
@@ -84,9 +84,9 @@
         border-radius: 50%;
         height: calc(100% - 8px);
         width: calc(100% - 8px);
-        border-top: 4px solid rgba(255,255,255,.2);
-        border-right: 4px solid rgba(255,255,255,.2);
-        border-bottom: 4px solid rgba(255,255,255,.2);
+        border-top: 4px solid rgba(255, 255, 255, .2);
+        border-right: 4px solid rgba(255, 255, 255, .2);
+        border-bottom: 4px solid rgba(255, 255, 255, .2);
         border-left: 4px solid #fff;
         -webkit-transform: translateZ(0);
         -ms-transform: translateZ(0);
@@ -119,7 +119,7 @@
 }
 
 .gatedContent-31-gID {
-    border: 1px solid rgba(255,255,255,0.2);
+    border: 1px solid rgba(255, 255, 255, 0.2);
     border-radius: 5px;
     padding: 0;
     height: fit-content;
@@ -163,5 +163,25 @@
 
     .action-3eQ5Or {
         margin: 0;
+    }
+}
+
+.wrapper-2SplAX {
+    border-radius: 4px;
+    margin-bottom: var(--content-gutter);
+    padding: 4px;
+    box-sizing: content-box;
+    height: unset;
+    background: #000;
+    box-shadow: 2px 2px 15px rgba(0,0,0,0.4);
+
+    h3 {
+        font-size: 14px;
+        font-weight: 400;
+        --header-primary: var(--text-muted);
+    }
+
+    .buttonContainer-KMz3Ex {
+        margin-right: 0;
     }
 }

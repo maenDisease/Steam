@@ -1,0 +1,351 @@
+.homeContainer-1T8N7y {
+    margin-top: var(--content-gutter);
+    padding: 0 0 32px 0;
+    position: relative;
+
+    .header-20qCMo {
+        margin-top: 52px;
+        padding-bottom: 12px;
+        background: linear-gradient(to right, rgba(0, 0, 0, 0) 50%, rgba(0, 0, 0, 0.4) 100%);
+        display: grid;
+        grid-template-columns: 1fr auto;
+        gap: 16px;
+    }
+
+    .headerArtWrapper-2o2rZd {
+        margin-left: unset;
+        margin-right: unset;
+        border-radius: 0;
+        width: 100%;
+    }
+
+    .headerArt-UqZaX6 {
+        border-radius: 0;
+        background-position: center;
+    }
+
+    .headerIcon-3Q7cOC {
+        margin: 16px 16px 16px 0;
+        border: none;
+        background-color: transparent;
+    }
+
+    div.headerName-z8Vr_4 {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+
+        h3 {
+            display: block;
+            font-size: 26px;
+            line-height: 32px;
+            font-weight: 400;
+            max-width: calc(100% - 324px - 16px);
+            overflow: hidden;
+            white-space: nowrap;
+            text-overflow: ellipsis;
+        }
+    }
+
+
+    .container-28hluq,
+    .container-PAPxZh {
+        padding-top: 30px;
+        gap: 2px;
+
+        h2 {
+            font-size: 14px;
+            line-height: 26px;
+            text-transform: uppercase;
+            letter-spacing: 0.03em;
+            font-weight: 400;
+            padding-top: 2px;
+            margin-bottom: 6px;
+            position: relative;
+
+            &::before {
+                content: '';
+                display: block;
+                position: absolute;
+                left: 0;
+                bottom: 0;
+                width: 100%;
+                height: 1px;
+                background: linear-gradient(to right, hsl(201, 41%, 39%) 0%, transparent 100%);
+            }
+        }
+    }
+
+    .container-28hluq {
+
+        .action-3oG-si {
+            padding: 4px 8px;
+            background: linear-gradient(135deg, rgba(97, 100, 101, 0.3) 0%, rgba(226, 244, 255, 0.3) 100%);
+            transition: none;
+            border-radius: 0;
+
+            &:hover {
+                background-color: #417a9b;
+
+                .checkCircle-1uvETj {
+                    color: #fff;
+                }
+            }
+
+            &:hover,
+            &:has(.checkCircleCompleted-1VoXrE) {
+
+                .channelIconContainer-1sVwKj,
+                .rulesIconContainer-3hKWCf {
+                    svg {
+                        color: #fff;
+                    }
+                }
+            }
+
+            &:has(.checkCircleCompleted-1VoXrE) {
+                background: linear-gradient(60deg, rgba(117, 176, 34, 0.7) 5%, rgba(88, 138, 27, 0.6) 95%);
+            }
+
+            .large-1W87Tq {
+                width: 16px;
+                height: 16px;
+            }
+
+            .channelIconContainer-1sVwKj,
+            .rulesIconContainer-3hKWCf {
+                width: 18px;
+                height: 18px;
+                border-radius: 0;
+                background: none;
+
+                svg {
+                    width: 16px;
+                    height: 16px;
+                }
+            }
+
+            .checkCircle-1uvETj {
+                height: 18px;
+                width: 18px;
+            }
+
+            .checkCircleCompleted-1VoXrE {
+                height: 18px;
+                width: 18px;
+                color: #fff;
+
+                circle {
+                    fill: none;
+                }
+            }
+
+            &:not(:hover, :has(.checkCircleCompleted-1VoXrE)) {
+                --header-primary: #a8b2ba;
+            }
+
+            &:hover:not(:has(.checkCircleCompleted-1VoXrE)) {
+                --text-muted: #fff;
+            }
+
+            .actionInfo-3uojZl {
+                display: flex;
+                flex-direction: row;
+            }
+
+            [data-text-variant="text-md/semibold"] {
+                font-size: 12px;
+                line-height: unset;
+                font-weight: 400;
+            }
+        }
+    }
+
+    .container-PAPxZh {
+        margin-top: 0;
+
+        .row--LCpto {
+            padding: 8px;
+            background: linear-gradient(135deg, rgba(97, 100, 101, 0.3) 0%, rgba(226, 244, 255, 0.3) 100%);
+            transition: none;
+            border-radius: 0;
+
+            &:hover {
+                background-color: #417a9b;
+            }
+
+            .title-2Q1RSR {
+                margin-bottom: 0;
+                font-size: 12px;
+                line-height: unset;
+                font-weight: 400;
+            }
+
+            [data-text-variant="text-sm/normal"] {
+                margin-top: 4px;
+                font-size: 12px;
+                line-height: unset;
+                font-weight: 400;
+            }
+
+            .media-1EQ0ve {
+                border-radius: 3px;
+            }
+        }
+    }
+}
+
+@media (min-width: 1300px) {
+    .homeContainer-1T8N7y {
+        .headerArt-UqZaX6 {
+            height: 338px;
+            padding-top: 0;
+        }
+
+        .header-20qCMo {
+            grid-template-columns: 1fr 324px;
+        }
+    }
+}
+
+.iconActiveXLarge-ehIcza {
+    border-radius: 3px;
+}
+
+.homeContent-1M6ovF {
+    margin-top: 0;
+    gap: var(--content-gutter);
+
+}
+
+@media (max-width: 1300px) {
+    .homeContent-1M6ovF {
+        max-width: var(--content-inner-width);
+        margin-left: 0;
+    }
+}
+
+.sidebarCardWrapper-34oCuK:has(.guildDescription-2azZZ9) {
+    position: absolute;
+    top: calc(52px + 16px + 100px + 8px);
+    width: 324px;
+    right: 0;
+    box-sizing: border-box;
+    padding: 0 16px 0 0;
+    background: none;
+    border-radius: 0;
+    height: calc(338px - 16px - 100px - 8px);
+
+    h2 {
+        display: none;
+    }
+
+    .guildDescription-2azZZ9 {
+        --text-normal: #c6d4df;
+        font-size: 14px;
+        line-height: 18px;
+    }
+
+    .guildInfoText-1GzwWc {
+        line-height: 20px;
+    }
+}
+
+.sidebar-24m-_E {
+    width: 308px;
+    min-width: 308px;
+}
+
+.sidebarCardWrapper-34oCuK:not(:has(.guildDescription-2azZZ9)) {
+    background: linear-gradient(to right, rgba(0, 0, 0, 0.2) 0%, rgba(0, 0, 0, 0.5) 100%);
+    border-radius: 0;
+
+    h2 {
+        font-size: 12px;
+        line-height: unset;
+        font-weight: 400;
+        margin-bottom: 2px;
+        --header-primary: #8f98a0;
+    }
+}
+
+.resourceChannelsList-3tNCCN {
+    margin: 0;
+    gap: 2px;
+}
+
+.resourceChannel-r2RX07 {
+    color: var(--btn-brand-text);
+    border-radius: 1px;
+    padding: 4px 0 4px 8px;
+    background: var(--btn-brand);
+
+    &:hover {
+        background: var(--btn-brand-hover);
+        color: #fff;
+    }
+
+    .resourceImageBase-2b0veT {
+        border-radius: 2px;
+    }
+
+    [data-text-variant="text-sm/semibold"] {
+        font-size: 12px;
+        font-weight: 400;
+    }
+}
+
+.welcomeMessageContainer-35bQR5 {
+
+    .welcomeMessageContent-1ZqlKh {
+        padding: 4px 16px 16px;
+        z-index: 1;
+    }
+
+    .userProfileOuter-2tQwNf,
+    .userProfileInner-1ngKnf {
+        border-radius: 4px;
+    }
+
+    .userCardInner-3c42YR {
+        border-radius: 4px;
+        background: none;
+    }
+
+    .wrapper-3Un6-K {
+        #app-mount & {
+            border-radius: 4px;
+            overflow: hidden;
+        }
+    }
+
+    .avatarBackground-2PaDOT,
+    .avatarBorder-20IrEw {
+        border-radius: 4px;
+    }
+
+    [data-text-variant="text-md/medium"] {
+        font-size: 14px;
+        line-height: 18px;
+        font-weight: 400;
+    }
+}
+
+.messagesWrapper-RpOMA3 .scrollerInner-2PPAp2[data-list-id=chat-messages]:not(:has(.wrapper-3HVHpV)) {
+    .navigationDescription-3xDmE2:first-child+.divider-IqmEqJ+.messageListItem-ZZ7v6g {
+        .message-2CShn3 {
+            #app-mount & {
+                background: none;
+                border: none;
+                box-shadow: none;
+            }
+        }
+    }
+
+    &:has(.navigationDescription-3xDmE2:first-child+.divider-IqmEqJ+.messageListItem-ZZ7v6g) {
+        &::before {
+            top: 32px;
+        }
+    }
+}

@@ -12,6 +12,7 @@
 
 .button-1EGGcP.buttonColor-3bP3fX,
 .button-1EGGcP .buttonColor-3bP3fX,
+.button-ejjZWC.lookOutlined-3RTC7c,
 .button-ejjZWC.lookLink-13iF2K.lowSaturationUnderline-Z6CW6z.colorPrimary-2-Lusz:not(.fieldButton-14lHvK) {
     color: #dfe3e6;
     background: var(--btn-grey);
@@ -19,7 +20,8 @@
     transition-duration: .2s;
     transition-timing-function: ease-out;
 
-    .root-1CAIjD & {
+    .root-1CAIjD &,
+    .prompt-R8SyL4 & {
         &:not(:hover) {
             box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
         }
@@ -30,6 +32,10 @@
         color: #fff;
         box-shadow: var(--btn-grey-boxshadow);
     }
+}
+
+.lookOutlined-3RTC7c {
+    border: none;
 }
 
 .lookFilled-1H2Jvj {
@@ -64,7 +70,8 @@
         box-shadow: var(--btn-grey-boxshadow);
     }
 
-    .root-1CAIjD & {
+    .root-1CAIjD &,
+    .prompt-R8SyL4 & {
         &:not(:hover) {
             box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
         }

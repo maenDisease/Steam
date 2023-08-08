@@ -122,6 +122,10 @@
     }
 }
 
+.blockquoteDivider-363utW {
+    background-color: hsl(var(--accent-hue), 19%, 42%);
+}
+
 .container-2gUZhU {
     top: 14px;
     padding-right: 8px;
@@ -277,6 +281,7 @@
             background: radial-gradient(circle at top left, var(--background-accent) 0%, transparent 95%);
         }
     }
+
     .title-oJa_A6 {
         font-size: 16px;
         font-weight: 400;
@@ -531,30 +536,34 @@
     }
 
     button {
-        padding: 2px;
-        background: radial-gradient(ellipse farthest-corner at 50% 40%, #75b022 0%, #588a1b 100%);
-        box-shadow: 1px 1px 4px 1px rgba(0, 0, 0, .5);
-        transition-property: background;
-        transition-duration: .21s;
-        transition-timing-function: ease-in-out;
+        #app-mount & {
+            padding: 2px;
+            background-image: radial-gradient(ellipse farthest-corner at 50% 40%, #75b022 0%, #588a1b 100%);
+            box-shadow: 1px 1px 4px 1px rgba(0, 0, 0, .5);
+            transition-property: background;
+            transition-duration: .21s;
+            transition-timing-function: ease-in-out;
 
-        &:hover {
-            background: radial-gradient(ellipse farthest-corner at 50% 40%, #8ed629 0%, #6aa621 100%);
-        }
+            &:hover {
+                background-image: radial-gradient(ellipse farthest-corner at 50% 40%, #8ed629 0%, #6aa621 100%);
+            }
 
-        &:active {
-            background: radial-gradient(ellipse farthest-corner at 50% 40%, rgba(193, 228, 249, 1) 0%, rgba(148, 183, 202, 1) 100%);
-        }
+            &:active {
+                background-image: radial-gradient(ellipse farthest-corner at 50% 40%, rgba(193, 228, 249, 1) 0%, rgba(148, 183, 202, 1) 100%);
+            }
 
-        &.buttonSize-3QlBTl {
-            height: 60px;
-            width: 60px;
+            &.buttonSize-3QlBTl {
+                height: 60px;
+                width: 60px;
+            }
         }
     }
 
     &:has(.inviteDestinationJoined-dZrdzT) {
         button {
-            background: radial-gradient(ellipse farthest-corner at 50% 40%, #35b2ec 0%, #11668a 100%);
+            #app-mount & {
+                background-image: radial-gradient(ellipse farthest-corner at 50% 40%, #35b2ec 0%, #11668a 100%);
+            }
         }
     }
 }

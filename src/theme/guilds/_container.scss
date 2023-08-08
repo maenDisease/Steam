@@ -16,6 +16,10 @@ body #app-mount .app-3xd6d0 .base-2jDfDU {
     }
 }
 
+body #app-mount:-webkit-full-screen .app-3xd6d0 .base-2jDfDU {
+    bottom: 0 !important;
+}
+
 .bar-2eAyLE {
     text-transform: capitalize;
     height: unset;

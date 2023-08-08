@@ -55,6 +55,7 @@ body #app-mount {
 .contentRegion-3HkfJJ,
 .contentRegionScroller-2_GT_N {
     background: var(--background-tertiary);
+    --background-modifier-accent: var(--background-modifier-accent-dark);
 }
 
 .sidebar-nqHbhN:has(.socialLinks-3ywLUf) .side-1lrxIh .item-2GWPIy::before {
@@ -215,10 +216,6 @@ body #app-mount {
     @include settingsHeaderText;
 }
 
-.divider-3nqZNm {
-    border-top: thin solid #23262e;
-}
-
 .marginTop40-Q4o1tS,
 .marginTop20-2T8ZJx,
 .dividerDefault-wIfHHD {
@@ -350,4 +347,8 @@ body #app-mount {
         line-height: 20px;
         color: var(--header-secondary);
     }
+}
+
+.container-20TyK0 {
+    border-radius: 4px;
 }

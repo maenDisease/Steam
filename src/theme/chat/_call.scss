@@ -1,0 +1,115 @@
+.wrapper-1gVUIN.chatSidebarOpen--YCxhs .callContainer-HtHELf {
+    border-radius: 0;
+}
+
+.wrapper-1gVUIN {
+    background: #000;
+}
+
+.chat-2ZfjoI:has(.wrapper-1gVUIN.video-3n15R6) {
+    max-width: 100%;
+}
+
+#app-mount:-webkit-full-screen {
+    --app-gutter: 0;
+    --content-gutter: 0;
+}
+
+.root-1BPI9i {
+    background: var(--background-tertiary);
+}
+
+.tile-2TcwiO {
+    border-radius: 4px;
+}
+
+.overlayTitle-2efoIF {
+    border-radius: 4px;
+}
+
+.container-3a5mk- {
+    background: var(--modal-background);
+    border-radius: 0;
+    box-shadow: 1px 3px 14px rgba(0, 0, 0, .65);
+
+    .emojiPickerHeader-2mWh2T {
+        background: none;
+    }
+
+    .animatedPicker-IdiG5I {
+        background: none;
+    }
+
+    .categoryList-2qRrlj:has(.unicodeShortcut-3N8oDe[aria-hidden="false"]) .scroller-2MALzE {
+        clip-path: inset(0 0 48px 0);
+    }
+
+    .dropDown-3dfe_z {
+        color: var(--brand-experiment);
+    }
+
+    .label-3TDpbn {
+        border-radius: 3px;
+    }
+
+    .wrapper-1NNaWG {
+        background: #23262e;
+        box-shadow: none;
+        border-radius: 0;
+
+        .header-1XpmZs {
+            width: 100%;
+
+            .headerLabel-1g790w {
+                margin-left: 4px;
+                margin-right: 0;
+                text-transform: capitalize;
+            }
+
+            &::after {
+                content: '';
+                height: 2px;
+                margin: 0 10px 0 10px;
+                background: rgba(103, 112, 123, .3);
+                display: flex;
+                flex-grow: 1;
+                width: 20px;
+            }
+
+            >svg:last-of-type {
+                order: 1;
+                color: var(--brand-experiment);
+            }
+        }
+    }
+}
+
+.container-1jQZ2U {
+    background: var(--modal-background);
+    border-radius: 0;
+    box-shadow: 1px 3px 14px rgba(0, 0, 0, .65);
+
+    .titleRight-1KcZhY[role="button"] {
+        border-radius: 2px;
+        height: 34px;
+        padding: 8px 14px;
+        box-sizing: border-box;
+        background: var(--btn-brand);
+        --text-normal: var(--btn-brand-text);
+        --interactive-active: var(--brand-experiment);
+
+        &:hover {
+            background: var(--btn-brand-hover);
+            --text-normal: #fff;
+            --interactive-active: #fff;
+        }
+
+        .defaultColor-1EVLSt {
+            font-weight: 400;
+        }
+    }
+}
+
+.activityItem-3WU8KI {
+    border-radius: 3px;
+}
