@@ -1,0 +1,167 @@
+.container-2McqkF {
+    border-radius: 0;
+    background: var(--contextmenu-background);
+
+    #app-mount & {
+        box-shadow: 0 0 12px #000000;
+    }
+
+    .focused-2FU0YH {
+        background: var(--contextmenu-background);
+    }
+
+    .queryContainer-ZunrLZ {
+        border: none;
+    }
+
+    .datePicker-3iA7_k {
+
+        .datePickerHint-Ir4715 {
+            border-top: none;
+        }
+
+        .hint-xfbpCV {
+            color: var(--contextmenu-text);
+            font-size: 14px;
+        }
+
+        .hintValue-V9hd8l {
+            background: var(--background-accent-hover);
+            font-weight: 400;
+
+            &:hover {
+                background: var(--background-accent-hover);
+            }
+        }
+    }
+
+    #app-mount & {
+
+        .react-datepicker,
+        .react-datepicker__header {
+            background: none;
+        }
+
+        .react-datepicker__current-month {
+        }
+
+        .react-datepicker__day {
+            border-radius: 0;
+            border: none;
+        }
+
+        .react-datepicker__day--outside-month {
+            background: var(--background-alpha-2);
+            color: var(--text-muted);
+        }
+
+        .react-datepicker__navigation {
+            height: 34px;
+            width: 34px;
+            transition-property: background, box-shadow, color;
+            transition-duration: .2s;
+            transition-timing-function: ease-out;
+            border: none;
+        
+            &:hover {
+                background-color: var(--background-accent-hover);
+            }
+        }
+    }
+
+    .react-datepicker__month {
+        border-radius: 3px;
+        background-color: rgba(0, 0, 0, 0.2);
+        border: 1px solid #000;
+        box-shadow: 1px 1px 0 0 rgba(91, 132, 181, 0.2);
+    }
+}
+
+.resultsGroup-cfY57t .header-1BR0Ro {
+    font-weight: 700;
+    letter-spacing: .5px;
+}
+
+.option-ayUoaq {
+    font-size: 16px;
+    margin: 0 1px;
+    border-radius: 0;
+    box-sizing: content-box;
+    --search-popout-option-fade: linear-gradient(90deg, transparent, var(--contextmenu-background) 80%);
+    --search-popout-option-fade-hover: linear-gradient(90deg, transparent, var(--contextmenu-text) 50%);
+
+    &:hover,
+    &[aria-selected=true] {
+        background: var(--contextmenu-text);
+        --text-muted: var(--contextmenu-text-hover);
+        --interactive-normal: var(--contextmenu-text-hover);
+        --interactive-hover: var(--contextmenu-text-hover);
+        --interactive-active: var(--contextmenu-text-hover);
+
+        --search-popout-option-user-nickname: var(--contextmenu-text-hover);
+        --search-popout-option-user-username: var(--contextmenu-text-hover);
+        --search-popout-option-filter-text: var(--contextmenu-text-hover);
+        --search-popout-option-non-text-color: var(--contextmenu-text-hover);
+        --search-popout-option-filter-color: var(--contextmenu-text-hover);
+        --search-popout-option-answer-color: var(--contextmenu-text-hover);
+
+        .filter-2QaH9y {
+            color: var(--contextmenu-text-hover);
+        }
+
+        .answer-14OVbQ {
+            color: var(--contextmenu-text-hover);
+        }
+
+        .nonText-28q_Ot {
+            color: var(--contextmenu-text-hover);
+        }
+
+        span {
+            text-shadow: unset;
+        }
+
+        strong {
+            text-shadow: unset;
+            color: var(--contextmenu-text-hover);
+        }
+    }
+
+    .filter-2QaH9y {
+        color: var(--contextmenu-text);
+        font-weight: 500;
+    }
+
+    .answer-14OVbQ {
+        color: var(--text-muted);
+        font-size: 14px;
+        font-weight: 400;
+    }
+
+    .nonText-28q_Ot {
+        color: var(--contextmenu-text);
+    }
+
+    span {
+        text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.3);
+    }
+
+    strong {
+        color: var(--contextmenu-text);
+        text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.3);
+    }
+
+    &.user-1dKxvu .displayAvatar-3jNvaK {
+        border-radius: 2px;
+    }
+}
+
+#app-mount {
+
+    .searchAnswer-23w-CH,
+    .searchFilter-2UfsDk {
+        background: var(--background-accent);
+        font-weight: 400;
+        text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.3);
+    }
+}

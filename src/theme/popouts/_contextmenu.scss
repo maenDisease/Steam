@@ -11,7 +11,7 @@
         background:none;
 
         &.focused-H4w81f {
-            background: #dcdedf;
+            background: var(--contextmenu-text);
         }
     }
 
@@ -29,22 +29,22 @@
     min-height: 21px;
 
     &:not(.colorDanger-3umuSx) {
-        color: #dcdedf;
+        color: var(--contextmenu-text);
         
         &.focused-3LIdPu,
         &:active {
-            background: #dcdedf;
-            color: #171a21;
+            background: var(--contextmenu-text);
+            color: var(--contextmenu-text-hover);
 
             .subtext-1mqKVB,
             .caret-1TZU-U,
             .radioSelection-3PDNAQ,
             .checkbox-397WsK {
-                color: #171a21;
+                color: var(--contextmenu-text-hover);
             }
 
             .check-3-73a4 {
-                color: #dcdedf;
+                color: var(--contextmenu-text);
             }
         }
     }
