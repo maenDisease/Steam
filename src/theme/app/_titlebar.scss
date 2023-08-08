@@ -113,3 +113,14 @@
         margin-left: 1px;
     }
 }
+
+html.app-focused #app-mount::before {
+    content: '';
+    display: block;
+    height: 1px;
+    width: 100%;
+    background: linear-gradient(to right, transparent 10%, #1aa0ff53 50%, transparent 90%);
+    position: absolute;
+    z-index: 9999;
+    top: 0;
+}
