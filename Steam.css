@@ -1143,7 +1143,7 @@ body #app-mount:-webkit-full-screen .app-3xd6d0 .base-2jDfDU {
   top: 0;
   right: 96px;
   height: var(--titlebar-height);
-  width: calc(100% - 96px - 271px);
+  width: calc(100% - 96px - 265px);
   padding: 0 6px 0 0;
   justify-content: right;
   -webkit-app-region: drag;
@@ -12481,7 +12481,8 @@ body #app-mount .layer-86YKbF ~ .layer-86YKbF .sidebar-nqHbhN:has(.socialLinks-3
   border-radius: 0;
   border: none;
 }
-#app-mount .container-2McqkF .react-datepicker__day--outside-month {
+#app-mount .container-2McqkF .react-datepicker__day--outside-month,
+#app-mount .container-2McqkF .react-datepicker__day--disabled {
   background: var(--background-alpha-2);
   color: var(--text-muted);
 }
