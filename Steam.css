@@ -355,6 +355,17 @@ body,
   margin-left: 1px;
 }
 
+html.app-focused #app-mount::before {
+  content: "";
+  display: block;
+  height: 1px;
+  width: 100%;
+  background: linear-gradient(to right, transparent 10%, rgba(26, 160, 255, 0.3254901961) 50%, transparent 90%);
+  position: absolute;
+  z-index: 9999;
+  top: 0;
+}
+
 #app-mount ::-webkit-scrollbar-track {
   background: none;
 }
