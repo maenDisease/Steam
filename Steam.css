@@ -12,6 +12,8 @@
   --code-background: #151f25;
   --contextmenu-background: var(--background-accent);
   --contextmenu-shadow: 3px 3px 5px -3px #000;
+  --contextmenu-text: #dcdedf;
+  --contextmenu-text-hover: #171a21;
 }
 
 :root,
@@ -11659,7 +11661,7 @@ body #app-mount .layer-86YKbF ~ .layer-86YKbF .sidebar-nqHbhN:has(.socialLinks-3
   background: none;
 }
 .menu-2TXYjN .button-1zW0-r.focused-H4w81f {
-  background: #dcdedf;
+  background: var(--contextmenu-text);
 }
 .menu-2TXYjN .scroller-nxCRu_ {
   padding: 0;
@@ -11674,11 +11676,11 @@ body #app-mount .layer-86YKbF ~ .layer-86YKbF .sidebar-nqHbhN:has(.socialLinks-3
   min-height: 21px;
 }
 .item-5ApiZt.colorDefault-2_rLdz:not(.colorDanger-3umuSx) {
-  color: #dcdedf;
+  color: var(--contextmenu-text);
 }
 .item-5ApiZt.colorDefault-2_rLdz:not(.colorDanger-3umuSx).focused-3LIdPu, .item-5ApiZt.colorDefault-2_rLdz:not(.colorDanger-3umuSx):active {
-  background: #dcdedf;
-  color: #171a21;
+  background: var(--contextmenu-text);
+  color: var(--contextmenu-text-hover);
 }
 .item-5ApiZt.colorDefault-2_rLdz:not(.colorDanger-3umuSx).focused-3LIdPu .subtext-1mqKVB,
 .item-5ApiZt.colorDefault-2_rLdz:not(.colorDanger-3umuSx).focused-3LIdPu .caret-1TZU-U,
@@ -11687,10 +11689,10 @@ body #app-mount .layer-86YKbF ~ .layer-86YKbF .sidebar-nqHbhN:has(.socialLinks-3
 .item-5ApiZt.colorDefault-2_rLdz:not(.colorDanger-3umuSx):active .caret-1TZU-U,
 .item-5ApiZt.colorDefault-2_rLdz:not(.colorDanger-3umuSx):active .radioSelection-3PDNAQ,
 .item-5ApiZt.colorDefault-2_rLdz:not(.colorDanger-3umuSx):active .checkbox-397WsK {
-  color: #171a21;
+  color: var(--contextmenu-text-hover);
 }
 .item-5ApiZt.colorDefault-2_rLdz:not(.colorDanger-3umuSx).focused-3LIdPu .check-3-73a4, .item-5ApiZt.colorDefault-2_rLdz:not(.colorDanger-3umuSx):active .check-3-73a4 {
-  color: #dcdedf;
+  color: var(--contextmenu-text);
 }
 
 .item-5ApiZt .iconContainer-Ksy8Oj {
@@ -12395,6 +12397,135 @@ body #app-mount .layer-86YKbF ~ .layer-86YKbF .sidebar-nqHbhN:has(.socialLinks-3
 
 .graphContainer-3Txdak {
   margin-bottom: 10px;
+}
+
+.container-2McqkF {
+  border-radius: 0;
+  background: var(--contextmenu-background);
+}
+#app-mount .container-2McqkF {
+  box-shadow: 0 0 12px #000000;
+}
+.container-2McqkF .focused-2FU0YH {
+  background: var(--contextmenu-background);
+}
+.container-2McqkF .queryContainer-ZunrLZ {
+  border: none;
+}
+.container-2McqkF .datePicker-3iA7_k .datePickerHint-Ir4715 {
+  border-top: none;
+}
+.container-2McqkF .datePicker-3iA7_k .hint-xfbpCV {
+  color: var(--contextmenu-text);
+  font-size: 14px;
+}
+.container-2McqkF .datePicker-3iA7_k .hintValue-V9hd8l {
+  background: var(--background-accent-hover);
+  font-weight: 400;
+}
+.container-2McqkF .datePicker-3iA7_k .hintValue-V9hd8l:hover {
+  background: var(--background-accent-hover);
+}
+#app-mount .container-2McqkF .react-datepicker,
+#app-mount .container-2McqkF .react-datepicker__header {
+  background: none;
+}
+#app-mount .container-2McqkF .react-datepicker__day {
+  border-radius: 0;
+  border: none;
+}
+#app-mount .container-2McqkF .react-datepicker__day--outside-month {
+  background: var(--background-alpha-2);
+  color: var(--text-muted);
+}
+#app-mount .container-2McqkF .react-datepicker__navigation {
+  height: 34px;
+  width: 34px;
+  transition-property: background, box-shadow, color;
+  transition-duration: 0.2s;
+  transition-timing-function: ease-out;
+  border: none;
+}
+#app-mount .container-2McqkF .react-datepicker__navigation:hover {
+  background-color: var(--background-accent-hover);
+}
+.container-2McqkF .react-datepicker__month {
+  border-radius: 3px;
+  background-color: rgba(0, 0, 0, 0.2);
+  border: 1px solid #000;
+  box-shadow: 1px 1px 0 0 rgba(91, 132, 181, 0.2);
+}
+
+.resultsGroup-cfY57t .header-1BR0Ro {
+  font-weight: 700;
+  letter-spacing: 0.5px;
+}
+
+.option-ayUoaq {
+  font-size: 16px;
+  margin: 0 1px;
+  border-radius: 0;
+  box-sizing: content-box;
+  --search-popout-option-fade: linear-gradient(90deg, transparent, var(--contextmenu-background) 80%);
+  --search-popout-option-fade-hover: linear-gradient(90deg, transparent, var(--contextmenu-text) 50%);
+}
+.option-ayUoaq:hover, .option-ayUoaq[aria-selected=true] {
+  background: var(--contextmenu-text);
+  --text-muted: var(--contextmenu-text-hover);
+  --interactive-normal: var(--contextmenu-text-hover);
+  --interactive-hover: var(--contextmenu-text-hover);
+  --interactive-active: var(--contextmenu-text-hover);
+  --search-popout-option-user-nickname: var(--contextmenu-text-hover);
+  --search-popout-option-user-username: var(--contextmenu-text-hover);
+  --search-popout-option-filter-text: var(--contextmenu-text-hover);
+  --search-popout-option-non-text-color: var(--contextmenu-text-hover);
+  --search-popout-option-filter-color: var(--contextmenu-text-hover);
+  --search-popout-option-answer-color: var(--contextmenu-text-hover);
+}
+.option-ayUoaq:hover .filter-2QaH9y, .option-ayUoaq[aria-selected=true] .filter-2QaH9y {
+  color: var(--contextmenu-text-hover);
+}
+.option-ayUoaq:hover .answer-14OVbQ, .option-ayUoaq[aria-selected=true] .answer-14OVbQ {
+  color: var(--contextmenu-text-hover);
+}
+.option-ayUoaq:hover .nonText-28q_Ot, .option-ayUoaq[aria-selected=true] .nonText-28q_Ot {
+  color: var(--contextmenu-text-hover);
+}
+.option-ayUoaq:hover span, .option-ayUoaq[aria-selected=true] span {
+  text-shadow: unset;
+}
+.option-ayUoaq:hover strong, .option-ayUoaq[aria-selected=true] strong {
+  text-shadow: unset;
+  color: var(--contextmenu-text-hover);
+}
+.option-ayUoaq .filter-2QaH9y {
+  color: var(--contextmenu-text);
+  font-weight: 500;
+}
+.option-ayUoaq .answer-14OVbQ {
+  color: var(--text-muted);
+  font-size: 14px;
+  font-weight: 400;
+}
+.option-ayUoaq .nonText-28q_Ot {
+  color: var(--contextmenu-text);
+}
+.option-ayUoaq span {
+  text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.3);
+}
+.option-ayUoaq strong {
+  color: var(--contextmenu-text);
+  text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.3);
+}
+.option-ayUoaq.user-1dKxvu .displayAvatar-3jNvaK {
+  border-radius: 2px;
+}
+
+#app-mount .searchAnswer-23w-CH,
+#app-mount .searchFilter-2UfsDk {
+  background: var(--background-accent);
+  font-weight: 400;
+  text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.3);
 }
 
 .picker-20lcBA {
