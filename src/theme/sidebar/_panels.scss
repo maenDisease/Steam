@@ -123,7 +123,9 @@
         pointer-events: none;
         z-index: -1;
         background: var(--background-tertiary);
-        box-shadow: inset rgba(61, 68, 80, .75) 1px 1px 1px 0px, inset rgba(61, 68, 80, .25) -1px 0px 1px 0px;
+        box-shadow: inset rgb(61 68 80 / .75) 1px 1px 1px 0,
+            // inset rgb(61 68 80 / .25) -1px 0 1px 0,
+            inset rgb(61 68 80 / .25) -1px -1px 0 0;
     }
 
     >* {
