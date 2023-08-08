@@ -24,8 +24,9 @@
     --content-inner-width: 656px;
     --messages-max-width: 640px;
 
-    --background-secondary: hsl(calc(var(--accent-hue) + 22), 9%, 19%);
-    --background-tertiary: hsl(calc(var(--accent-hue) + 7), 22%, 12%);
+    --background-secondary: #2a2d34;
+    // --background-tertiary: #171d25;
+    --background-tertiary: hsl(214 23.3% 11.8%);
 
     --interactive-normal: hsl(212, 7%, 57%);
     --interactive-hover: hsl(206, 5%, 74%);
