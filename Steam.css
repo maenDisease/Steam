@@ -1230,6 +1230,9 @@ body #app-mount:-webkit-full-screen .app-3xd6d0 .base-2jDfDU {
 .withTagAsButton-OsgQ9L .nameTag-sc-gpq, .withTagless-10ooWt .nameTag-sc-gpq {
   padding-left: 5px;
 }
+.nameTag-sc-gpq .subtext-2HDqJ7 {
+  line-height: 13px;
+}
 
 .title-338goq {
   color: #4cb4ff;
