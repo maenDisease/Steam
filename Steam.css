@@ -3724,6 +3724,11 @@ body #app-mount:-webkit-full-screen .app-3xd6d0 .base-2jDfDU {
   border-radius: 4px;
 }
 
+.attachment-1PZZB2 {
+  border-color: transparent;
+  background: var(--background-alpha-2);
+}
+
 .artwork-3uFrhF[viewBox="0 0 1700 1200"] {
   -webkit-mask: radial-gradient(circle at top, #000 0%, transparent 80%);
           mask: radial-gradient(circle at top, #000 0%, transparent 80%);
