@@ -1,0 +1,25 @@
+.VPP-Button {
+    background: var(--background-alpha-3);
+    border-radius: 2px;
+
+    &:hover {
+        background: rgb(0 0 0 / .6);
+    }
+}
+
+.VPP-carousel.carouselModal-1eUFoq:not(#idontthinkso) {
+    height: fit-content;
+    width: fit-content;
+    position: relative;
+    background: var(--modal-background);
+}
+
+.VPP-carousel .arrowContainer-2wpC4q {
+    opacity: 1;
+    background: var(--btn-grey);
+    border-radius: 2px;
+
+    &:hover {
+        background: var(--btn-grey-hover);
+    }
+}

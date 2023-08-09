@@ -78,6 +78,11 @@ userProfileModalOuter-2wdWjU: modal
 
 .pencilContainer-18TrEJ {
     border-radius: 2px;
+    transition: none;
+
+    &:hover {
+        background: rgb(0 0 0 / .6);
+    }
 
     svg {
         height: 18px;

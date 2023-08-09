@@ -19,7 +19,6 @@
 .arrowContainer-2wpC4q {
     top: unset;
     bottom: 8px;
-    -webkit-transform: none;
     transform: none;
     color: var(--brand-experiment);
     width: 34px;
@@ -27,7 +26,10 @@
     opacity: 1;
     border-radius: 2px;
     background: var(--btn-grey);
-    transition: background .2s ease-in-out;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
+    transition-property: background, box-shadow, color;
+    transition-duration: .2s;
+    transition-timing-function: ease-out;
 
     &:hover {
         background: var(--btn-grey-hover);
