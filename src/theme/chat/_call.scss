@@ -40,47 +40,12 @@
         background: none;
     }
 
-    .categoryList-2qRrlj:has(.unicodeShortcut-3N8oDe[aria-hidden="false"]) .scroller-2MALzE {
-        clip-path: inset(0 0 48px 0);
-    }
-
     .dropDown-3dfe_z {
         color: var(--brand-experiment);
     }
 
     .label-3TDpbn {
         border-radius: 3px;
-    }
-
-    .wrapper-1NNaWG {
-        background: #23262e;
-        box-shadow: none;
-        border-radius: 0;
-
-        .header-1XpmZs {
-            width: 100%;
-
-            .headerLabel-1g790w {
-                margin-left: 4px;
-                margin-right: 0;
-                text-transform: capitalize;
-            }
-
-            &::after {
-                content: '';
-                height: 2px;
-                margin: 0 10px 0 10px;
-                background: rgba(103, 112, 123, .3);
-                display: flex;
-                flex-grow: 1;
-                width: 20px;
-            }
-
-            >svg:last-of-type {
-                order: 1;
-                color: var(--brand-experiment);
-            }
-        }
     }
 }
 
