@@ -1,5 +1,9 @@
 .containerSidenav-3qiKqP {
     max-width: var(--content-width);
+
+    #app-mount & {
+        background: none;
+    }
 }
 
 #activity-tab,

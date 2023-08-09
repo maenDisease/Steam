@@ -1,0 +1,110 @@
+.container-2_BXG- {
+    max-width: var(--content-width);
+
+    .scroller-38C5lh {
+        background: none;
+    }
+
+    .container-1gltKk {
+        margin-top: var(--content-gutter);
+        padding-bottom: 12px;
+        background: linear-gradient(to right, rgba(0, 0, 0, 0) 50%, rgba(0, 0, 0, 0.4) 100%);
+        display: grid;
+        grid-template-areas:
+            "banner icon"
+            "banner title"
+            "banner sub";
+        column-gap: 16px;
+        align-items: start;
+        grid-template-columns: 1fr 324px;
+        position: relative;
+    }
+
+    .coverImageContainer-1fm2Ch {
+        grid-area: banner;
+        padding-bottom: 0;
+        height: 100%;
+        max-height: 338px;
+    }
+
+    .guildIconContainer-17YqOH {
+        grid-area: icon;
+        padding: 0;
+        background: none;
+        border-radius: 3px;
+        margin-top: 16px;
+        margin-bottom: 8px;
+        box-shadow: 0 0 3px #000000;
+        width: 100px;
+    }
+
+    .iconInactive-26M06U {
+        border-radius: 3px;
+    }
+
+    .ctaTitle-3zxXyr {
+        grid-area: title;
+        font-size: 14px;
+        line-height: 18px;
+        font-weight: 400;
+        text-align: left;
+        margin: 0 0 10px 0;
+        padding-right: 16px;
+        color: #c6d4df;
+    }
+
+    .ctaSubtitle-2NP9L_ {
+        grid-area: sub;
+        --header-secondary: #c6d4df;
+        font-size: 14px;
+        line-height: 18px;
+        text-align: left;
+        margin: 0;
+        padding-right: 16px;
+    }
+
+    .container-R77IJV {
+        flex: 1 1 320px;
+        border-radius: 4px 4px 0 0;
+    }
+
+    .roleMessagePreview-NUi2Ri {
+        padding: 0;
+        background: none;
+        border-radius: 0;
+        border: none;
+    }
+
+    .benefitsList-2OMjtC {
+        gap: 10px;
+    }
+
+    .container-1s6UE8 {
+        padding: 8px 24px 10px 16px;
+        background: var(--btn-grey);
+        border-radius: 2px;
+    }
+}
+
+.tierPreviewsContainer-3tMaPR {
+    padding: 0;
+}
+
+.cardContainerWithoutTopIndicator-36cvDB {
+    border-radius: 4px 4px 0 0;
+    
+    .tierInfoContainer-3o77tj {
+        background: linear-gradient(135deg, rgba(64,120,152,0.4) 10%,rgba(102,192,244,0.4) 100%);
+        padding: 32px 16px 16px;
+    }
+}
+
+.subscriptionPerks-17BiNa {
+    background: var(--background-alpha-4);
+}
+
+.infoContainer--DaTWo {
+    .name-yBgpWl {
+        font-weight: 400;
+    }
+}
