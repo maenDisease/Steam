@@ -12,5 +12,11 @@
 
 @import url(https://maendisease.github.io/Steam/addons/horizontalserverlist.css);
 :root {
-  --messages-max-width: 640px; /* Change to 100% for full width */
+  --hue-shift: 0; /* 0-360 */
+  /* 100% = Full Width */
+  --content-width: 940px;
+  --messages-max-width: 640px;
+  --custom-font-primary: "gg sans";
+  --custom-font-display: "gg sans";
+  --custom-font-code: monospace;
 }
