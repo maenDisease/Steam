@@ -1,12 +1,7 @@
+@use "../modals/generic";
+
 #floating-editor-window {
     &:has(.monaco-editor.focused) {
-        &::before {
-            content: '';
-            display: block;
-            height: 1px;
-            width: 100%;
-            background: linear-gradient(to right, hsl(192, 100%, 50%) 0%, hsl(225, 100%, 60%) 100%);
-            position: absolute;
-        }
+        @include generic.modalTopBar;
     }
 }

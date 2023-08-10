@@ -1,6 +1,6 @@
 .wrapper-1_HaEi {
-    border: 1px solid var(--background-tertiary-border);
-    border-left: 1px solid var(--background-tertiary-border-bottom);
+    box-shadow: inset hsl(calc(var(--accent-hue) + 13) 13.5% 27.6%/.65) -1px -1px 0 0,
+        inset hsl(calc(var(--accent-hue) + 13) 13.5% 27.6%/.45) 1px 1px 0 0;
 
     .platform-osx & {
         margin-top: var(--titlebar-height);
@@ -8,9 +8,6 @@
 }
 
 body #app-mount .app-3xd6d0 .base-2jDfDU {
-    top: 0 !important;
-    bottom: calc(var(--server-container) + 2px) !important;
-
     .platform-osx & {
         margin-top: var(--titlebar-height);
     }

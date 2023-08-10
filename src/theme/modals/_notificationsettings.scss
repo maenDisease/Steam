@@ -12,7 +12,7 @@
         transition: background .2s linear;
 
         .checkbox-1LuCGM {
-            background-color: #67707b;
+            background-color: var(--background-accent-hover);
             transition: background .2s linear;
         }
     }
@@ -56,7 +56,7 @@
     }
 
     .checkboxContainer-1NbL2v:before {
-        background-color: #23262e;
+        background-color: var(--background-modifier-accent-dark);
     }
 }
 

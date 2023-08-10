@@ -77,7 +77,7 @@
     }
 
     .planOptionClickableContainer-O-50CZ {
-        background: rgba(255, 255, 255, .0588235294);
+        background: rgb(255 255 255/.0588235294);
         border-radius: 3px;
         padding: 20px;
         flex-basis: calc(50% - 20px);
@@ -87,8 +87,8 @@
         transition-timing-function: ease-out;
 
         &:hover {
-            background: rgba(255, 255, 255, .2);
-            box-shadow: 0 4px 8px 0 rgb(0 0 0 / 20%);
+            background: rgb(255 255 255/.2);
+            box-shadow: 0 4px 8px 0 rgb(0 0 0/.2);
         }
 
         &[aria-checked="true"] {
@@ -146,13 +146,13 @@
     .wrap-7NZuTn:has(.cardIcon-1d-mcG) {
 
         button {
-            background: rgba(255, 255, 255, .0588235294);
+            background: rgb(255 255 255/.0588235294);
             border-radius: 3px;
 
             &:hover {
                 color: #1b1b1b;
                 background: #fff;
-                box-shadow: 0 4px 8px 0 rgb(0 0 0 / 20%);
+                box-shadow: 0 4px 8px 0 rgb(0 0 0/.2);
             }
         }
     }

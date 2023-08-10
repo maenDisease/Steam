@@ -16,12 +16,12 @@
             }
 
             &:hover {
-                background: rgba(67, 73, 83, .6);
+                background: var(--btn-grey-hover-light);
             }
 
             &:focus,
             &:focus-within {
-                background: #23262e;
+                background: var(--background-modifier-accent-dark);
                 box-shadow: inset 1px 1px 4px #000a;
             }
 
@@ -76,7 +76,7 @@
             content: '';
             height: 2px;
             margin: 0 10px 0 10px;
-            background: rgba(103, 112, 123, .3);
+            background: var(--background-modifier-accent-compat);
             display: flex;
             flex-grow: 1;
             width: 20px;
@@ -97,7 +97,7 @@
 
         [data-text-variant="text-xs/medium"] {
             font-weight: 400;
-            --header-primary: #dfe3e6;
+            --header-primary: var(--text-lighter);
         }
 
         &:hover {

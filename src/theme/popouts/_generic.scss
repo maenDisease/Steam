@@ -1,6 +1,6 @@
 #app-mount [id^="popout"]>[aria-modal="true"]>div:only-child:not(.spinner-2ID8f1) {
-    background: radial-gradient(circle at top left, rgba(74, 81, 92, 0.4) 0%, rgba(75, 81, 92, 0) 60%), #25282e;
-    box-shadow: inset rgba(61, 68, 80, .75) 1px 1px 1px 0px, inset rgba(61, 68, 80, .25) -1px -1px 1px 0px;
+    background: var(--modal-background);
+    box-shadow: inset var(--background-accent-75) 1px 1px 1px 0, inset var(--background-accent-25) -1px -1px 1px 0;
     border-radius: 0;
     border: 1px solid #000;
     padding: 1px;
@@ -28,11 +28,11 @@
             height: 30px;
             min-height: 30px;
             transition: none;
-            background: #454953;
+            background: var(--btn-grey-hover);
             border-radius: 2px;
 
             &.secondary-2bzKEX:hover:not(.disabled-184-il) {
-                background: #67707b;
+                background: var(--background-accent-hover);
             }
         }
     }

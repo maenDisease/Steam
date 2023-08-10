@@ -4,7 +4,7 @@
         display: block;
         height: 1px;
         width: 100%;
-        background: linear-gradient(to right, hsl(192, 100%, 50%) 0%, hsl(225, 100%, 60%) 100%);
+        background: linear-gradient(to right, hsl(calc(var(--accent-hue) - 13) 100% 50%) 0%, hsl(calc(var(--accent-hue) + 20) 100% 60%) 100%);
         position: absolute;
         z-index: 102;
         top: 0;
@@ -26,10 +26,10 @@
     @include modalTopBar;
     border-radius: 0;
 
-    --text-link: hsl(197, 88%, 70%);
+    --text-link: var(--text-linkHi);
     a:hover {
         text-decoration:none;
-        --text-link: hsl(197, 100%, 85%);
+        --text-link: var(--text-linkHi-hover);
     }
 
     .close-A4ZfTI {
@@ -95,7 +95,7 @@
     }
 
     .defaultColor-1EVLSt.text-md-normal-2rFCH3 {
-        --text-normal: #acb2b8;
+        --text-normal: hsl(calc(var(--accent-hue) + 5), 7.8%, 69.8%);
     }
 }
 

@@ -53,7 +53,7 @@
             transition: background .2s linear;
 
             &::after {
-                background-color: #67707b;
+                background-color: var(--background-accent-hover);
                 transition: background .2s linear;
             }
         }

@@ -14,7 +14,7 @@
             width: 500px;
             height: 250px;
             background: linear-gradient(135deg, hsl(235, calc(var(--saturation-factor, 1)*85.6%), 64.7%) 48%, hsl(269, calc(var(--saturation-factor, 1)*52.7%), 52.7%) 55%);
-            mask: radial-gradient(circle at center, black 0%, transparent calc(45%));
+            mask: radial-gradient(circle at center, black 0%, transparent 45%);
         }
     }
 
@@ -42,7 +42,7 @@
     }
 
     .guildContainer-o60hpj {
-        background: rgba(255, 255, 255, .0588235294);
+        background: rgb(255 255 255/.0588235294);
         border-radius: 3px;
         padding: 20px;
 
@@ -85,7 +85,7 @@
             &:hover {
                 background: #fff;
                 color: #1b1b1b;
-                box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+                box-shadow: 0 4px 8px 0 rgb(0 0 0/.2);
             }
         }
 
@@ -182,7 +182,7 @@
 }
 
 .card-2ZCHT- {
-    background: rgba(255, 255, 255, .0588235294);
+    background: rgb(255 255 255/.0588235294);
     border-radius: 3px;
     padding: 20px;
     --text-normal: #fff;
@@ -199,7 +199,7 @@
 }
 
 .listItem-2_Y_Te {
-    border-bottom: thin solid #23262e;
+    border-bottom: thin solid var(--background-modifier-accent-dark);
 }
 
 .question-1Ociyu {
@@ -216,7 +216,7 @@
 }
 
 .perkPreviewImage-2jd1Tx {
-    background: linear-gradient(90deg, rgba(33, 162, 255, 0.1) 1.89%, rgba(50, 50, 51, 0) 50%), linear-gradient(180deg, #575860 11.6%, #3A4852 54.73%, #2C2D34 100%);
+    background: var(--contextmenu-gradient);
     padding: 8px 5px 8px 5px;
     border-radius: 0;
     box-shadow: 3px 3px 5px -3px #000;

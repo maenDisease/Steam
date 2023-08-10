@@ -37,7 +37,7 @@ userProfileModalOuter-2wdWjU: modal
 .avatarWrapper-eenWra {
     border-radius: 0;
     left: 16px;
-    box-shadow: 1px 3px 14px rgba(0, 0, 0, .65);
+    box-shadow: 1px 3px 14px rgb(0 0 0/.65);
     z-index: 2;
 }
 
@@ -198,7 +198,7 @@ userProfileModalOuter-2wdWjU: modal
 }
 
 .theme-light .overlayBackground-2aa7wt {
-    background: linear-gradient(to bottom, hsla(220, 11%, 39%, 0.7) 5%, hsla(220, 11%, 89%, 0.4) 95%);
+    background: linear-gradient(to bottom, hsl(calc(var(--accent-hue) + 15) 11.1% 39%/.7) 5%, hsl(calc(var(--accent-hue) + 15) 11.1% 89%/.4) 95%);
 }
 
 .profileColors-2AgAV4 .overlayBackground-2aa7wt {
@@ -212,7 +212,7 @@ userProfileModalOuter-2wdWjU: modal
 
 .overlayBackground-2aa7wt {
     border-radius: 0;
-    background: linear-gradient(to bottom, rgba(24, 26, 30, 0.7) 5%, rgba(24, 26, 30, 0.4) 95%);
+    background: linear-gradient(to bottom, hsl(calc(var(--accent-hue) + 15) 11.1% 10.6%/.7) 5%, hsl(calc(var(--accent-hue) + 15) 11.1% 10.6%/.4) 95%);
 
     .customStatusSection-2_fKRl {
         padding-top: 16px;
@@ -248,8 +248,8 @@ userProfileModalOuter-2wdWjU: modal
 
             &:focus,
             &:focus-within {
-                background: #23262e;
-                box-shadow: inset 1px 1px 4px rgb(0 0 0 / 67%);
+                background: var(--background-modifier-accent-dark);
+                box-shadow: inset 1px 1px 4px rgb(0 0 0/.67);
             }
         }
     }

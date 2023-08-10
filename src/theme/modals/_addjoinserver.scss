@@ -1,9 +1,6 @@
 .theme-dark #app-mount .theme-light {
     .root-1CAIjD {
-        --text-normal: #DCDEE1;
-        --text-muted: #8b929a;
-        --header-secondary: #acb2b8;
-        background: radial-gradient(circle at top left, rgba(74, 81, 92, 0.4) 0%, rgba(75, 81, 92, 0) 60%), #25282e;
+        --text-normal: hsl(alc(var(--accent-hue) + 11), 7.7%, 87.3%);
 
         .header-1ffhsl {
             [data-text-variant="heading-xl/semibold"] {
@@ -128,7 +125,7 @@
             transition-timing-function: ease-out;
 
             [data-text-variant="text-md/bold"] {
-                color: #dfe3e6;
+                color: var(--text-lighter);
                 font-weight: 400;
                 transition: color .2s ease-in-out;
             }
@@ -165,16 +162,17 @@
             padding: 8px 14px;
 
             &.lookBlank-FgPMy6 {
-                color: #dfe3e6;
-                background: hsla(222, 10%, 26%, 0.5);
+                color: var(--text-lighter);
+                background: var(--btn-grey);
                 transition-property: background, box-shadow, color;
                 transition-duration: .2s;
                 transition-timing-function: ease-out;
+                box-shadow: 2px 2px 5px rgb(0 0 0/.2);
 
                 &:hover {
-                    background: #464d58;
+                    background: var(--btn-grey-hover);
                     color: #fff;
-                    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.3);
+                    box-shadow: var(--btn-grey-boxshadow);
                 }
             }
         }

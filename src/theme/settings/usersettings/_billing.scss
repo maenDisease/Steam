@@ -27,7 +27,7 @@
                 content: '';
                 height: 2px;
                 margin: 0 10px 0 10px;
-                background: rgba(103, 112, 123, .3);
+                background: var(--background-modifier-accent-compat);
                 display: flex;
                 flex-grow: 1;
             }
@@ -121,7 +121,7 @@
         .giftIcon-U9wStf {
             height: 14px;
             width: 14px;
-            color: #ffc82c;
+            color: var(--gpColor-Yellow);
             opacity: 1;
             margin-left: 4px;
         }
@@ -158,11 +158,11 @@
     .paymentDetail-3Hi99Q {
         margin: 0;
         padding: 10px 0;
-        border-bottom: thin solid #23262e;
+        border-bottom: thin solid var(--background-modifier-accent-dark);
 
         &:first-child {
             margin-top: 10px;
-            border-top: thin solid #23262e;
+            border-top: thin solid var(--background-modifier-accent-dark);
         }
 
         >div {
@@ -172,7 +172,7 @@
             div:first-child {
                 font-size: 14px;
                 line-height: 18px;
-                color: #dcdedf;
+                color: var(--contextmenu-text);
             }
 
             div:last-child {

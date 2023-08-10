@@ -2,7 +2,7 @@
 
     .container-iA3Qrz,
     .channel-3NJZ1V {
-        background-color: #323640;
+        background-color: var(--modal-popout-message);
         border-radius: 0;
     }
 
@@ -11,7 +11,7 @@
     }
 
     .channelHeader-DFRX8q {
-        background: #323640;
+        background: var(--modal-popout-message);
         padding: 10px 10px 0 10px;
         border-bottom: none;
     }
@@ -33,11 +33,11 @@
         margin-right: 2px;
 
         &:hover {
-            background: hsla(213, 9%, 44%, 0.4);
+            background: var(--background-modifier-accent);
         }
 
         &.active-1grPyy {
-            background: #67707b;
+            background: var(--background-accent-hover);
         }
     }
 }
@@ -107,7 +107,7 @@
     [class^="jumpButton"] {
         margin: 0;
         border-radius: 0;
-        background: #454953;
+        background: var(--btn-grey-hover);
         height: 14px;
         padding: 2px 8px;
         display: flex;
@@ -120,7 +120,7 @@
         }
 
         &:hover {
-            background: #67707b;
+            background: var(--background-accent-hover);
         }
     }
 }

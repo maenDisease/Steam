@@ -20,12 +20,12 @@
             transition: background .2s linear;
 
             .iconWrapper-1sOtkE {
-                background-color: #67707b;
+                background-color: var(--background-accent-hover);
                 transition: background .2s linear;
             }
 
             .button-ejjZWC.lookFilled-1H2Jvj.colorBrand-2M3O3N.sizeSmall-3R2P2p.grow-2T4nbg {
-                background-color: #67707b;
+                background-color: var(--background-accent-hover);
                 transition: background .2s linear, box-shadow .2s ease-in-out;
             }
         }

@@ -53,7 +53,7 @@
         font-size: 14px;
         line-height: 18px;
         font-weight: 400;
-        color: #dfe3e6;
+        color: var(--text-lighter);
     }
 }
 
@@ -192,7 +192,7 @@
     &:not(:has(.bd-switch-checked), .bd-addon-card-disabled):hover {
 
         .bd-icon {
-            background-color: #67707b;
+            background-color: var(--background-accent-hover);
             transition: background .2s linear;
         }
     }
@@ -273,13 +273,13 @@
         }
 
         .bd-author {
-            color: #67707b;
+            color: var(--background-accent-hover);
         }
     }
 
     .bd-description-wrap {
         margin-left: 0;
-        background: linear-gradient(90deg, rgba(33, 162, 255, 0.1) 1.89%, rgba(50, 50, 51, 0) 50%), linear-gradient(180deg, #575860 11.6%, #3A4852 54.73%, #2C2D34 100%);
+        background: var(--contextmenu-gradient);
         border-radius: 0;
         box-shadow: 3px 3px 5px -3px #000;
 
@@ -289,7 +289,7 @@
     }
 
     .bd-description {
-        color: #dcdedf;
+        color: var(--contextmenu-text);
         font-weight: 400;
     }
 }

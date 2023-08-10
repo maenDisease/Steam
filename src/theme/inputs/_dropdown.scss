@@ -48,11 +48,11 @@
 
 .popout-15UxD6 {
     border: none;
-    background: #373c44;
+    background: var(--dropdown-popout-background);
     border-radius: 3px;
     margin-top: 2px;
     margin-bottom: 2px;
-    box-shadow: 0 8px 26px 2px rgba(0, 0, 0, .2);
+    box-shadow: var(--dropdown-popout-shadow);
     padding: 12px !important;
     max-height: 200px !important;
     overflow: overlay !important;
@@ -71,7 +71,7 @@
     line-height: 18px;
 
     &:hover {
-        background: #3e444d;
+        background: var(--dropdown-popout-hover);
     }
 }
 

@@ -16,7 +16,7 @@
     opacity: 1;
 
     &:hover {
-        background: #67c1f5;
+        background: var(--btn-dark-text);
         --interactive-normal: #fff;
     }
 }

@@ -106,6 +106,7 @@
 
 .members-3WRCEx {
     width: 308px;
+    padding-bottom: var(--content-gutter);
 }
 
 .membersWrap-3NUR2t {
@@ -116,19 +117,19 @@
     .content-yjf30S {
         margin-top: var(--content-gutter);
         padding-bottom: 16px;
-        background: linear-gradient(to right, rgba(0, 0, 0, 0.2) 0%, rgba(0, 0, 0, 0.5) 100%);
+        background: var(--store-sidebar-background);
     }
 }
 
 .layout-1qmrhw {
     border-radius: 1px;
     padding: 0 8px;
-    background: hsla(var(--accent-hue), 88%, 68%, 0.1);
+    background: var(--sidebar-btn-brand);
 }
 
 .clickable-28SzVr:hover .layout-1qmrhw,
 .selected-1-Z6gm .layout-1qmrhw {
-    background: linear-gradient(135deg, hsl(var(--accent-hue), 88%, 68%) 0%, hsl(var(--accent-hue), 41%, 43%) 100%);
+    background: var(--btn-brand-hover);
 }
 
 .membersGroup-2eiWxl.container-q97qHp {

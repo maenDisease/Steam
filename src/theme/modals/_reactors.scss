@@ -18,12 +18,12 @@
 
 .reactionDefault-1Sjj1f {
     &:hover {
-        background: rgba(255, 255, 255, 0.2);
+        background: rgb(255 255 255/.2);
     }
 }
 
 .reactionSelected-1aMb2K {
-    background: hsla(var(--accent-hue), 88%, 68%, 0.4);
+    background: var(--btn-dark-hover);
     [data-text-variant="text-sm/bold"] {
         color: #fff;
     }

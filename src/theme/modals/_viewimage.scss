@@ -26,7 +26,7 @@
     opacity: 1;
     border-radius: 2px;
     background: var(--btn-grey);
-    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
+    box-shadow: 2px 2px 5px rgb(0 0 0/.2);
     transition-property: background, box-shadow, color;
     transition-duration: .2s;
     transition-timing-function: ease-out;

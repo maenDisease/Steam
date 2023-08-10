@@ -8,7 +8,7 @@
     .container-1gltKk {
         margin-top: var(--content-gutter);
         padding-bottom: 12px;
-        background: linear-gradient(to right, rgba(0, 0, 0, 0) 50%, rgba(0, 0, 0, 0.4) 100%);
+        background: linear-gradient(to right, transparent 50%, rgb(0 0 0/.4) 100%);
         display: grid;
         grid-template-areas:
             "banner icon"
@@ -50,12 +50,12 @@
         text-align: left;
         margin: 0 0 10px 0;
         padding-right: 16px;
-        color: #c6d4df;
+        color: hsl(calc(var(--accent-hue) + 1), 28.1%, 82.5%);
     }
 
     .ctaSubtitle-2NP9L_ {
         grid-area: sub;
-        --header-secondary: #c6d4df;
+        --header-secondary: hsl(calc(var(--accent-hue) + 1), 28.1%, 82.5%);
         font-size: 14px;
         line-height: 18px;
         text-align: left;
@@ -94,7 +94,7 @@
     border-radius: 4px 4px 0 0;
     
     .tierInfoContainer-3o77tj {
-        background: linear-gradient(135deg, rgba(64,120,152,0.4) 10%,rgba(102,192,244,0.4) 100%);
+        background: var(--banner-lightblue);
         padding: 32px 16px 16px;
     }
 }

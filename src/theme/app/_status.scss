@@ -69,7 +69,7 @@
     content: '';
     position: absolute;
     inset: 0;
-    outline: 1px solid rgba(0, 0, 0, .3);
+    outline: 1px solid rgb(0 0 0/.3);
     outline-offset: -1px;
     z-index: 1;
 }
@@ -80,7 +80,7 @@
         display: block;
         position: absolute;
         inset: 0;
-        background: rgba(0, 0, 0, 0.8);
+        background: rgb(0 0 0/.8);
         z-index: 2999;
     }
 }
@@ -152,11 +152,11 @@
     inset: unset;
     padding: 10px 0 0 0;
     transform: none;
-    --text-link: hsl(197, 88%, 70%);
+    --text-link: var(--text-linkHi);
 
     a:hover {
         text-decoration: none;
-        --text-link: hsl(197, 100%, 85%);
+        --text-link: var(--text-linkHi-hover);
     }
 
     .links-30fqF9 {

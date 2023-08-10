@@ -6,7 +6,7 @@
     .header-20qCMo {
         margin-top: 52px;
         padding-bottom: 12px;
-        background: linear-gradient(to right, rgba(0, 0, 0, 0) 50%, rgba(0, 0, 0, 0.4) 100%);
+        background: linear-gradient(to right, transparent 50%, rgb(0 0 0/.4) 100%);
         display: grid;
         grid-template-columns: 1fr auto;
         gap: 16px;
@@ -72,7 +72,7 @@
                 bottom: 0;
                 width: 100%;
                 height: 1px;
-                background: linear-gradient(to right, hsl(201, 41%, 39%) 0%, transparent 100%);
+                background: var(--store-divider);
             }
         }
     }
@@ -81,12 +81,12 @@
 
         .action-3oG-si {
             padding: 4px 8px;
-            background: linear-gradient(135deg, rgba(97, 100, 101, 0.3) 0%, rgba(226, 244, 255, 0.3) 100%);
+            background: var(--banner-lightblue);
             transition: none;
             border-radius: 0;
 
             &:hover {
-                background-color: #417a9b;
+                background-color: var(--banner-lightblue-hover);
 
                 .checkCircle-1uvETj {
                     color: #fff;
@@ -105,7 +105,7 @@
             }
 
             &:has(.checkCircleCompleted-1VoXrE) {
-                background: linear-gradient(60deg, rgba(117, 176, 34, 0.7) 5%, rgba(88, 138, 27, 0.6) 95%);
+                background: linear-gradient(60deg, rgb(117 176 34/.7) 5%, rgb(88 138 27/.6) 95%);
             }
 
             .large-1W87Tq {
@@ -142,7 +142,7 @@
             }
 
             &:not(:hover, :has(.checkCircleCompleted-1VoXrE)) {
-                --header-primary: #a8b2ba;
+                --header-primary: hsl(calc(var(--accent-hue) + 2) 11.5% 69.4%);
             }
 
             &:hover:not(:has(.checkCircleCompleted-1VoXrE)) {
@@ -167,12 +167,12 @@
 
         .row--LCpto {
             padding: 8px;
-            background: linear-gradient(135deg, rgba(97, 100, 101, 0.3) 0%, rgba(226, 244, 255, 0.3) 100%);
+            background: var(--banner-lightblue);
             transition: none;
             border-radius: 0;
 
             &:hover {
-                background-color: #417a9b;
+                background-color: var(--banner-lightblue-hover);
             }
 
             .title-2Q1RSR {
@@ -242,7 +242,7 @@
     }
 
     .guildDescription-2azZZ9 {
-        --text-normal: #c6d4df;
+        --text-normal: hsl(calc(var(--accent-hue) + 1), 28.1%, 82.5%);
         font-size: 14px;
         line-height: 18px;
     }
@@ -258,7 +258,7 @@
 }
 
 .sidebarCardWrapper-34oCuK:not(:has(.guildDescription-2azZZ9)) {
-    background: linear-gradient(to right, rgba(0, 0, 0, 0.2) 0%, rgba(0, 0, 0, 0.5) 100%);
+    background: var(--store-sidebar-background);
     border-radius: 0;
 
     h2 {
@@ -266,7 +266,7 @@
         line-height: unset;
         font-weight: 400;
         margin-bottom: 2px;
-        --header-primary: #8f98a0;
+        --header-primary: hsl(calc(var(--accent-hue) + 3) 8.2% 59.4%);
     }
 }
 
@@ -279,7 +279,7 @@
     color: var(--btn-brand-text);
     border-radius: 1px;
     padding: 4px 0 4px 8px;
-    background: var(--btn-brand);
+    background: var(--sidebar-btn-brand);
 
     &:hover {
         background: var(--btn-brand-hover);

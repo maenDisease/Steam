@@ -14,7 +14,7 @@
 
 .presets-2zm9Ir.basicThemeSelectors-2wNKs6 {
     padding: 6px;
-    background: #202226;
+    background: var(--darker-grey);
     box-shadow: inset 0 1px 1px 0 #000a;
     border-radius: 2px;
     margin-bottom: 10px;
@@ -44,15 +44,15 @@
                 font-size: 14px;
                 line-height: 18px;
                 font-weight: 400;
-                color: #dfe3e6;
+                color: var(--text-lighter);
             }
 
             &:hover {
-                background: #33363e;
+                background: hsl(calc(var(--accent-hue) + 19) 9.7% 22.2%);
             }
 
             &.selected-2FbEJt {
-                background: #1f8dff;
+                background: var(--topbar-item-selected);
 
                 &[aria-label]::after {
                     color: #fff;

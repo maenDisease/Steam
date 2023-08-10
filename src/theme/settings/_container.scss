@@ -9,15 +9,15 @@
 #app-mount .layer-86YKbF~.layer-86YKbF {
     border-radius: 0 !important;
     border: 0.5px solid black;
-    --text-link: hsl(197, 88%, 70%);
+    --text-link: var(--text-linkHi);
 
     a:hover {
         text-decoration: none;
-        --text-link: hsl(197, 100%, 85%);
+        --text-link: var(--text-linkHi-hover);
     }
 
     .lookFilled-1H2Jvj.colorBrand-2M3O3N {
-        color: #dfe3e6;
+        color: var(--text-lighter);
         background: var(--btn-grey);
 
         &:hover {
@@ -95,11 +95,11 @@ body #app-mount {
         margin-bottom: 0;
         --interactive-normal: var(--header-secondary);
         --interactive-hover: var(--background-accent);
-        --background-modifier-hover: #DCDEDF;
+        --background-modifier-hover: var(--contextmenu-text);
         --background-modifier-selected: var(--background-accent);
 
         &:active {
-            background: #DCDEDF;
+            background: var(--contextmenu-text);
             color: var(--background-accent);
         }
 
@@ -182,7 +182,7 @@ body #app-mount {
     margin-left: -24px;
     z-index: 10;
     transform: translateY(calc(var(--header-padding) * -1 + 8.5px + 18px));
-    background: linear-gradient(to bottom, var(--background-tertiary) calc(100% - 24px), rgba(0, 204, 255, 0) 100%);
+    background: linear-gradient(to bottom, var(--background-tertiary) calc(100% - 24px), transparent 100%);
 }
 
 @mixin settingsHeaderText {
@@ -232,7 +232,7 @@ body #app-mount {
 
 .title-2yADjX,
 .h3-3jj15Z.title-lXcL8p.defaultColor-3Olr-9 {
-    color: #dcdedf;
+    color: var(--contextmenu-text);
     font-size: 14px;
     line-height: 18px;
     font-weight: 400;
@@ -291,7 +291,7 @@ body #app-mount {
 
 .modeDisabled-38SBXU.description-foE_WP {
     opacity: 1;
-    color: #67707b;
+    color: var(--background-accent-hover);
 }
 
 .children-2C96Ex>.marginBottom40-fvAlAV:last-child:has(.formText-2UzJT0) {

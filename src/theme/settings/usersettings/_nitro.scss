@@ -42,7 +42,7 @@
         width: 100%;
         height: 100%;
         background: linear-gradient(135deg, hsl(235, calc(var(--saturation-factor, 1)*85.6%), 64.7%) 48%, hsl(269, calc(var(--saturation-factor, 1)*52.7%), 52.7%) 55%);
-        mask: radial-gradient(circle at center, black 0%, transparent calc(45%));
+        mask: radial-gradient(circle at center, black 0%, transparent 45%);
     }
 
     [data-text-variant="text-lg/normal"] {
@@ -56,7 +56,7 @@
     background-size: 300% 300%;
     animation: nitroGradient 20s ease infinite;
     max-width: unset;
-    margin-bottom: 0px;
+    margin-bottom:0;
     padding-bottom: 4em;
     padding-top: 4em;
 
@@ -77,7 +77,7 @@
 
 .card-3ie2dy {
     max-width: 300px;
-    background: rgba(255, 255, 255, .0588235294);
+    background: rgb(255 255 255/.0588235294);
     border-radius: 3px;
     padding: 20px;
     margin: 10px;
@@ -135,7 +135,7 @@
         &:hover {
             color: #1b1b1b;
             background: #fff;
-            box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+            box-shadow: 0 4px 8px 0 rgb(0 0 0/.2);
         }
     }
 }

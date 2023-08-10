@@ -108,7 +108,7 @@
 
         &:hover:not(.roleRowDisableHover-3En0vy) {
             .circleButton-2Yr5A1 {
-                background-color: #67707b;
+                background-color: var(--background-accent-hover);
             }
         }
 
@@ -133,7 +133,7 @@
         margin-left: 24px;
         padding-top: 24px;
         flex: 0 0 calc(232px - 24px) !important;
-        border-right: thin solid #23262e;
+        border-right: thin solid var(--background-modifier-accent-dark);
 
 
         .titleContainer-3fPic2 {
@@ -147,7 +147,7 @@
             height: 34px;
             padding: 8px 14px;
             border-radius: 2px;
-            color: #dfe3e6;
+            color: var(--text-lighter);
             background: var(--btn-grey);
             transition-property: background, box-shadow, color;
             transition-duration: .2s;
@@ -205,7 +205,7 @@
 
             &:hover:not(.selected-1sf9UK),
             &:active:not(.selected-1sf9UK)titleContainer-3fPic2 {
-                background: #DCDEDF;
+                background: var(--contextmenu-text);
                 --interactive-hover: var(--background-accent);
                 --interactive-active: var(--background-accent);
                 --header-primary: var(--background-accent);
@@ -258,7 +258,7 @@
 
     .top-Ktfr_T {
         --btn-count: 4;
-        background: #202226;
+        background: var(--darker-grey);
         border-radius: 2px;
         padding: 0;
         margin: 0;
@@ -266,7 +266,7 @@
         display: flex;
         flex-direction: row;
         position: relative;
-        box-shadow: inset 0 1px 1px 0px #000a;
+        box-shadow: inset 0 1px 1px 0 #000a;
         border-bottom: none;
     }
 

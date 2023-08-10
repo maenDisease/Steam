@@ -30,7 +30,7 @@ foreignObject {
 
     svg {
         color: var(--background-tertiary);
-        background: hsl(var(--accent-hue), 9%, 44%);
+        background: hsl(var(--accent-hue) 9% 44%);
         border-radius: 2px;
         height: 28px;
         width: 28px;
@@ -88,7 +88,7 @@ foreignObject {
         position: absolute;
         height: 28px;
         width: 28px;
-        background: hsl(var(--accent-hue), 9%, 44%);
+        background: hsl(var(--accent-hue) 9% 44%);
         z-index: -1;
         border-radius: 2px;
     }

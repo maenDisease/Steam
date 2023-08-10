@@ -18,14 +18,14 @@
     margin: 0;
     padding: 0 14px;
     height: 36px;
-    text-shadow: 0px 2px 3px rgba(0, 0, 0, 0.3);
+    text-shadow:0 2px 3px rgb(0 0 0/.3);
     color: #e5e5e5;
     font-size: 14px;
     display: flex;
     align-items: center;
 
     &:hover:not(.disabled-2G98Nl) {
-        background: linear-gradient(90deg, rgba(33, 162, 255, 0.25) 0%, rgba(33, 162, 255, 0.15) 50%, rgba(50, 50, 51, 0) 100%);
+        background: var(--topbar-item-hover);
     }
 
     &.selected-1sf9UK,
@@ -41,8 +41,8 @@
         padding: 0 16px;
         border-radius: 2px;
         color: #d2efa9;
-        text-shadow: 1px 1px 0px rgba(0, 0, 0, 0.3);
-        box-shadow: 0 0 3px rgba(0, 0, 0, 0.4);
+        text-shadow: 1px 1px 0 rgb(0 0 0/.3);
+        box-shadow: 0 0 3px rgb(0 0 0/.4);
 
         &:hover {
             background: linear-gradient(to right, #8ed629 5%, #6aa621 95%);
@@ -50,7 +50,7 @@
         }
 
         &.selected-1sf9UK {
-            background: linear-gradient(to bottom, rgba(193, 228, 249, 1) 5%, rgba(148, 183, 202, 1) 95%);
+            background: linear-gradient(to bottom, rgb(193 228 249) 5%, rgb(148 183 202) 95%);
             color: #2B5066;
             text-shadow: none;
         }
@@ -60,7 +60,7 @@
 .searchBar-2aylmZ {
     background-color: var(--background-alpha-2);
     border: 1px solid #000;
-    box-shadow: 1px 1px 0 0 rgba(91, 132, 181, 0.2);
+    box-shadow: 1px 1px 0 0 var(--store-search-border);
     border-radius: 3px;
     margin: 0;
 }
@@ -79,7 +79,7 @@
 
     .sectionTitle-36PWt2 {
         max-width: var(--content-inner-width);
-        background-color: #015e80;
+        background-color: var(--store-body-header);
         padding: 10px 20px 10px 20px;
         margin-top: var(--content-gutter);
     }
@@ -123,7 +123,7 @@
         transition: background .2s linear;
 
         .actionButton-3-B2x- {
-            background-color: #67707b;
+            background-color: var(--background-accent-hover);
             transition: background .2s linear, box-shadow .2s ease-in-out;
 
             &.actionDeny-1pQVuZ {
@@ -226,7 +226,7 @@
     letter-spacing: .03em;
     text-transform: uppercase;
     color: #fff;
-    background-color: #015e80;
+    background-color: var(--store-body-header);
     padding: 10px 20px 10px 20px;
     margin-bottom: 0;
 }
@@ -240,7 +240,7 @@
     font-size: 14px;
     line-height: 18px;
     font-weight: normal;
-    color: #8f98a0;
+    color: hsl(calc(var(--accent-hue) + 3) 8.2% 59.4%);
     letter-spacing: .02em;
 }
 
@@ -268,7 +268,7 @@
 }
 
 .nowPlayingColumn-1eCBCN {
-    background: linear-gradient(to right, rgba(0, 0, 0, 0.2) 0%, rgba(0, 0, 0, 0.5) 100%);
+    background: var(--store-sidebar-background);
     margin-top: var(--content-gutter);
     margin-left: var(--content-gutter);
     height: fit-content;
@@ -284,17 +284,26 @@
         margin-left: 0;
     }
 
+    .header-Imy05m {
+        font-weight: 400;
+        font-size: 12px;
+        line-height: 16px;
+        letter-spacing: .02em;
+        color: var(--text-muted);
+        margin: 0 0 2px 0;
+    }
+
     .wrapper-2RrXDg {
-        background: rgba(103, 193, 245, 0.1);
+        background: var(--sidebar-btn-brand);
         border: none;
         border-radius: 0;
 
         &:hover {
-            background: linear-gradient(135deg, #67c1f5 0%, #417a9b 100%);
+            background: var(--btn-brand-hover);
         }
 
         .inset-SbsSFp {
-            background: rgba(0, 0, 0, 0.2);
+            background: rgb(0 0 0/.2);
             border-radius: 0;
         }
 
@@ -303,6 +312,15 @@
             background: none;
             border-radius: 0;
         }
+    }
+}
+
+.emptyCard-KDifrB {
+    background: var(--background-alpha-2);
+    border-radius: 0;
+
+    .emptyHeader-2tT-AY {
+        font-weight: 400;
     }
 }
 
@@ -381,7 +399,7 @@
     }
 
     .sectionTitle-1P1u0N {
-        background-color: #015e80;
+        background-color: var(--store-body-header);
         padding: 10px 20px 10px 20px;
         margin: -8px 0 0 0;
         font-weight: normal;
@@ -394,10 +412,6 @@
 
     .sectionTitle-1P1u0N+.messageRequestItem-1_NNAR {
         margin-top: 20px;
-    }
-
-    h2+div~.messageRequestItem-1_NNAR:last-child {
-        // outline: 1px dashed cyan;
     }
 
     .messageRequestItem-1_NNAR {

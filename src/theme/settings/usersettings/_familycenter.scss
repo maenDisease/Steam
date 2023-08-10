@@ -48,7 +48,7 @@
             width: 30px;
 
             svg {
-                color: #ffc82c;
+                color: var(--gpColor-Yellow);
                 margin: 0;
                 height: 30px;
                 width: 30px;
@@ -173,7 +173,7 @@
 
     .top-Ktfr_T {
         --btn-count: 3;
-        background: #202226;
+        background: var(--darker-grey);
         border-radius: 2px;
         padding: 0;
         margin: 0 0 10px 0;
@@ -181,7 +181,7 @@
         display: flex;
         flex-direction: row;
         position: relative;
-        box-shadow: inset 0 1px 1px 0px #000a;
+        box-shadow: inset 0 1px 1px 0 #000a;
         border-bottom: none;
     }
 
@@ -229,7 +229,7 @@
     .box-3QCU9H {
         background: none;
         padding: 0 0 10px 0;
-        border-bottom: thin solid #23262e;
+        border-bottom: thin solid var(--background-modifier-accent-dark);
     }
 
     .container-jV-A82 {
@@ -239,7 +239,7 @@
     .container-1iKw09 {
         background: none;
         padding: 10px 0 0 0;
-        border-top: thin solid #23262e;
+        border-top: thin solid var(--background-modifier-accent-dark);
     }
 
     .card-2guEcY {

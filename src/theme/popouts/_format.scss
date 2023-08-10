@@ -23,15 +23,15 @@
         }
         
         svg {
-            color: #dcdedf;
+            color: var(--contextmenu-text);
             height: 18px;
             width: 18px;
         }
 
         &.hover-3OQb9Y:hover {
-            background: #dcdedf;
+            background: var(--contextmenu-text);
             svg {
-                color: #171a21;
+                color: var(--contextmenu-text-hover);
             }
         }
     }

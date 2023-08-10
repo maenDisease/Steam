@@ -11,7 +11,7 @@
     .innerWrapper-MqFL7z {
         background-image: linear-gradient(45deg, var(--guild-boosting-blue), var(--guild-boosting-purple));
         border-radius: 4px;
-        box-shadow: 2px 2px 15px rgba(0, 0, 0, 0.4);
+        box-shadow: 2px 2px 15px rgb(0 0 0/.4);
         margin-bottom: 12px;
         padding: 16px;
         width: unset;
@@ -54,7 +54,7 @@
                 --guild-boosting-purple-hsl: 87 calc(var(--saturation-factor, 1)*45%) 32.5%;
                 --guild-boosting-blue: hsl(var(--guild-boosting-blue-hsl)/1);
                 --guild-boosting-purple: hsl(var(--guild-boosting-purple-hsl)/1);
-                background-image: linear-gradient(45deg,var(--guild-boosting-blue),var(--guild-boosting-purple));
+                background-image: linear-gradient(45deg, var(--guild-boosting-blue), var(--guild-boosting-purple));
             }
 
             .tierCardCurrentTier-2zaZoV {

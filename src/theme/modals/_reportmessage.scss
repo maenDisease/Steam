@@ -1,8 +1,8 @@
 .messagePreviewContainer-1oR1Oc {
     border-radius: 3px;
-    background-color: rgba(0, 0, 0, 0.2);
+    background-color: rgb(0 0 0/.2);
     border: 1px solid #000;
-    box-shadow: 1px 1px 0 0 rgba( 91, 132, 181, 0.2 );
+    box-shadow: 1px 1px 0 0 var(--store-search-border);
 }
 
 .childButton-3o_dlg {
@@ -12,7 +12,7 @@
     transition-property: background, box-shadow, color;
     transition-duration: .2s;
     transition-timing-function: ease-out;
-    --text-normal: #dfe3e6;
+    --text-normal: var(--text-lighter);
 
     &:hover {
         background: var(--btn-grey-hover);

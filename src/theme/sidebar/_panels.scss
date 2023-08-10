@@ -123,9 +123,8 @@
         pointer-events: none;
         z-index: -1;
         background: var(--background-tertiary);
-        box-shadow: inset rgb(61 68 80 / .75) 1px 1px 1px 0,
-            // inset rgb(61 68 80 / .25) -1px 0 1px 0,
-            inset rgb(61 68 80 / .25) -1px -1px 0 0;
+        box-shadow: inset hsl(calc(var(--accent-hue) + 13) 13.5% 27.6%/.75) 1px 1px 1px 0,
+            inset hsl(calc(var(--accent-hue) + 13) 13.5% 27.6%/.25) -1px -1px 0 0;
     }
 
     >* {
@@ -144,7 +143,7 @@
             transition: background .15s ease-out, color .15s ease-out;
 
             &:hover {
-                background: hsl(218, 13%, 28%);
+                background: var(--background-accent);
                 color: var(--interactive-active);
             }
 
@@ -163,7 +162,7 @@
 
 .withTagAsButton-OsgQ9L:hover,
 .withTagless-10ooWt:hover {
-    background-color: rgba(76, 180, 255, .2);
+    background-color: hsl(var(--accent-hue) 100% 64.9%/.2);
     border-radius: 2px;
 }
 

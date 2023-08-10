@@ -4,12 +4,12 @@
     background: var(--btn-grey);
     
     &:hover {
-        background: rgba(67, 73, 83, .6);
+        background: var(--btn-grey-hover-light);
     }
 
     &:focus,
     &:focus-within {
-        background: #23262e;
+        background: var(--background-modifier-accent-dark);
         box-shadow: inset 1px 1px 4px #000a;
     }
 }

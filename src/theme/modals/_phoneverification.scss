@@ -29,7 +29,7 @@
         padding: 0 32px;
         margin-bottom: 10px;
         text-align: left;
-        --text-normal: #acb2b8;
+        --text-normal: hsl(calc(var(--accent-hue) + 5), 7.8%, 69.8%);
         font-size: 14px;
         line-height: 18px;
 

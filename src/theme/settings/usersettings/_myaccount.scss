@@ -16,7 +16,7 @@
         height: 1px;
         min-height: 1px;
         border-radius: 0;
-        mask-image: linear-gradient(to right, rgba(0, 0, 0, 1), rgba(0, 0, 0, 0) 75%);
+        mask-image: linear-gradient(to right, rgb(0 0 0/1), transparent 75%);
     }
 
     .userInfo-regn9W {
@@ -84,7 +84,7 @@
         margin: 10px 0 0 0;
         border-radius: 0;
         padding: 10px 0;
-        border-top: thin solid #23262e;
+        border-top: thin solid var(--background-modifier-accent-dark);
     }
 }
 

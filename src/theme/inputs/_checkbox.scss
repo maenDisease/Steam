@@ -10,7 +10,7 @@
 
     .slider-HJFN2i {
         transform: scale(1.2) translateY(-1px);
-        filter: drop-shadow(0 0 5px rgba(0, 0, 0, 0.35));
+        filter: drop-shadow(0 0 5px rgb(0 0 0/.35));
 
         svg {
             display: none;
@@ -25,7 +25,7 @@
 
     &.disabled-3_3z1m {
         opacity: 1 !important;
-        background: #67707b !important;
+        background: var(--background-accent-hover) !important;
         cursor: default;
         rect {
             fill: var(--text-muted);
@@ -39,7 +39,7 @@
         width: 22px !important;
 
         &:hover + .checkbox-1LuCGM {
-            background: #67707b;
+            background: var(--background-accent-hover);
         }
     }
 }

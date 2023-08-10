@@ -82,7 +82,7 @@
                 width: 20px;
                 height: 20px;
                 mask: url(https://maendisease.github.io/Steam/illustrations/icns/circleplus.svg);
-                background: #67707b;
+                background: var(--background-accent-hover);
                 margin: 4px;
             }
 
@@ -117,7 +117,7 @@
             content: '';
             height: 2px;
             margin: 16px 10px 0 10px;
-            background: rgba(103, 112, 123, .3);
+            background: var(--background-modifier-accent-compat);
             display: flex;
             flex-grow: 1;
         }
@@ -155,7 +155,7 @@
 
                 .gameNameLastPlayed-2hWoXJ::after,
                 .removeGame-3V7nss {
-                    background-color: #67707b;
+                    background-color: var(--background-accent-hover);
                     transition: background .2s linear;
                 }
 
@@ -217,12 +217,12 @@
                     border-radius: 2px;
 
                     &:hover {
-                        background: #67707b;
+                        background: var(--background-accent-hover);
                     }
                 
                     &:focus,
                     &:focus-within {
-                        background: #23262e;
+                        background: var(--background-modifier-accent-dark);
                         box-shadow: inset 1px 1px 4px #000a;
                     }
                 }
@@ -244,7 +244,7 @@
                     align-items: center;
 
                     strong {
-                        color: #67707b;
+                        color: var(--background-accent-hover);
                         font-weight: 700;
                     }
 

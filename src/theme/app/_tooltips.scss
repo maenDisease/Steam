@@ -3,12 +3,12 @@
         border-radius: 2px;
         font-size: 13px;
         font-weight: 400;
-        color: #E0E1E6;
+        color: var(--tooltip-text);
         box-shadow: 1px 1px 8px #0005, 2px 2px 16px 1px #0005;
     }
 
     .tooltipPrimary-2466a2 {
-        background: #696773;
+        background: var(--tooltip-background);
     }
 
     .tooltipPointer-sMBQqe {
@@ -20,8 +20,8 @@
     }
 
     .tooltipBlack-3X399X {
-        background: #696773;
-        color: #E0E1E6;
+        background: var(--tooltip-background);
+        color: var(--tooltip-text);
     }
 }
 
@@ -29,9 +29,9 @@
     border-radius: 0;
 
     .tooltipPremiumFooterTierSegment-24h1a0 {
-        border-left-color: #696773;
-        border-bottom-color: #696773;
-        border-right-color: #696773;
-        border-top-color: #696773;
+        border-left-color: var(--tooltip-background);
+        border-bottom-color: var(--tooltip-background);
+        border-right-color: var(--tooltip-background);
+        border-top-color: var(--tooltip-background);
     }
 }

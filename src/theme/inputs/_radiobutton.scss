@@ -1,6 +1,6 @@
 [role="radiogroup"]:has(.item-1TA5qI) {
     padding: 6px;
-    background: #202226;
+    background: var(--darker-grey);
     box-shadow: inset 0 1px 1px 0 #000a;
     border-radius: 2px;
     gap: 6px;
@@ -14,7 +14,7 @@
     .item-1TA5qI {
         margin: 0;
         background: none;
-        color: #dfe3e6;
+        color: var(--text-lighter);
         transition: background 0.18s ease-in-out;
 
         [data-text-variant="text-md/medium"] {
@@ -29,12 +29,12 @@
         }
 
         &:hover:not([aria-checked=true]):not(.disabled-WBmOu_) {
-            background: #33363e;
-            color: #dfe3e6;
+            background: hsl(calc(var(--accent-hue) + 19) 9.7% 22.2%);
+            color: var(--text-lighter);
         }
 
         &[aria-checked="true"] {
-            background: #1f8dff;
+            background: var(--topbar-item-selected);
             color: #fff;
             --text-normal: #fff;
             --header-secondary: #fff;

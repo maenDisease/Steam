@@ -1,5 +1,5 @@
 .messageGroupWrapper-1jf_7C {
-    background: #323640;
+    background: var(--modal-popout-message);
     border-radius: 0;
     border: none;
     margin: 0 0 4px;
@@ -8,11 +8,11 @@
 .jumpButton-1ZwI_j {
     margin: 0;
     border-radius: 0;
-    background: #454953;
+    background: var(--btn-grey-hover);
 }
 
 .jumpButton-1ZwI_j:hover {
-    background: #67707b;
+    background: var(--background-accent-hover);
 }
 
 .messageGroupWrapper-1jf_7C:has(.jumpButton-1ZwI_j:hover) {

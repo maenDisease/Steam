@@ -31,14 +31,14 @@
 
 .segmentControl-3edJKN {
     --btn-count: 2;
-    background: #202226;
+    background: var(--darker-grey);
     border-radius: 2px;
     padding: 0;
     gap: 0;
     display: flex;
     flex-direction: row;
     position: relative;
-    box-shadow: inset 0 1px 1px 0px #000a;
+    box-shadow: inset 0 1px 1px 0 #000a;
     border-bottom: none;
 }
 
@@ -173,7 +173,7 @@
 }
 
 .warningIcon-3vNf04 {
-    color: #ffc82c;
+    color: var(--gpColor-Yellow);
 }
 
 .qualitySettingsContainer-2LjkfM {
@@ -191,14 +191,14 @@
 
     .settingsGroup-VNJxZ8 {
         [role="group"].group-1_ptLP {
-            background: #202226;
+            background: var(--darker-grey);
             border-radius: 2px;
             padding: 0;
             gap: 0;
             display: flex;
             flex-direction: row;
             position: relative;
-            box-shadow: inset 0 1px 1px 0px #000a;
+            box-shadow: inset 0 1px 1px 0 #000a;
             border-bottom: none;
 
             &::before {
@@ -252,5 +252,5 @@
     margin-top: 10px;
     padding: 16px;
     border-radius: 4px;
-    box-shadow: 2px 2px 15px rgba(0, 0, 0, 0.4);
+    box-shadow: 2px 2px 15px rgb(0 0 0/.4);
 }

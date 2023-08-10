@@ -69,7 +69,7 @@
         margin-top: 19px;
         padding: 8px 14px;
         border-radius: 2px;
-        --interactive-normal: #dfe3e6;
+        --interactive-normal: var(--text-lighter);
         background: var(--btn-grey);
         transition-property: background, box-shadow;
         transition-duration: .2s;
@@ -139,17 +139,17 @@
             .innerHeader-Us1oKD {
 
                 .container-1QtPKm:not(.checked-16gMAN) {
-                    background-color: #67707b !important;
+                    background-color: var(--background-accent-hover) !important;
                     transition: background-color .2s linear;
                 }
 
                 .input-3O04eu:not(:focus, .input-3O04eu:focus-within) {
-                    background: #67707b;
+                    background: var(--background-accent-hover);
                     transition: background-color .2s linear;
                 }
 
                 .lookFilled-1H2Jvj.colorBrand-2M3O3N {
-                    background: #67707b;
+                    background: var(--background-accent-hover);
                     transition: background-color .2s linear;
                 }
             }
@@ -305,12 +305,12 @@
         transition: none;
 
         &:hover {
-            background: rgba(67, 73, 83, .6);
+            background: var(--btn-grey-hover-light);
         }
 
         &:focus,
         &:focus-within {
-            background: #23262e;
+            background: var(--background-modifier-accent-dark);
             box-shadow: inset 1px 1px 4px #000a;
         }
     }
@@ -328,12 +328,12 @@
     transition: none;
 
     &:hover {
-        background: rgba(67, 73, 83, .6);
+        background: var(--btn-grey-hover-light);
     }
 
     &:focus,
     &:focus-within {
-        background: #23262e;
+        background: var(--background-modifier-accent-dark);
         box-shadow: inset 1px 1px 4px #000a;
     }
 }
@@ -342,7 +342,7 @@
     background: none;
     border-radius: 0;
     padding: 10px 0 0 0;
-    border-top: thin solid #23262e;
+    border-top: thin solid var(--background-modifier-accent-dark);
 
     &::before {
         display: none;

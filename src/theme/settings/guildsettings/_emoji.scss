@@ -15,7 +15,7 @@
             content: '';
             height: 2px;
             margin: 0 10px 0 10px;
-            background: rgba(103, 112, 123, .3);
+            background: var(--background-modifier-accent-compat);
             display: flex;
             flex-grow: 1;
         }

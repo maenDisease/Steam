@@ -16,7 +16,7 @@
     &.floating-3M3WeH {
         border-left: 1px solid #000;
         top: 16px;
-        background: #1b2838;
+        background: var(--app-background);
 
         .container-ZMc96U.themed-Hp1KC_ {
             margin-top: 0;
@@ -25,7 +25,7 @@
 }
 
 .box-2iMsQm {
-    background: hsla(206, 32%, 34%, 0.502);
+    background: hsl(calc(var(--accent-hue) + 1) 32% 34%/.502);
     border-radius: 0;
     margin: 12px 16px 12px 16px;
     padding: 16px 24px;

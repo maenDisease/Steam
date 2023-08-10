@@ -22,7 +22,7 @@
 
         .sessionIcon-2fwSzb,
         .sessionMoreButton-2cApSx {
-            background: #67707b;
+            background: var(--background-accent-hover);
             transition: background .2s linear;
         }
     }
@@ -52,7 +52,7 @@
         }
 
         span:nth-child(3) {
-            color: #67707b;
+            color: var(--background-accent-hover);
             font-weight: 700;
         }
     }

@@ -1,5 +1,5 @@
 .popout-TdhJ6Z {
-    background: linear-gradient(90deg, rgba(33, 162, 255, 0.1) 1.89%, rgba(50, 50, 51, 0) 50%), linear-gradient(180deg, #575860 11.6%, #3A4852 54.73%, #2C2D34 100%);
+    background: var(--contextmenu-gradient);
     padding: 8px 5px 8px 5px;
     border-radius: 0;
     box-shadow: 3px 3px 5px -3px #000;
@@ -10,14 +10,14 @@
         padding: 6px 15px;
         font-size: 12px;
         min-height: 21px;
-        color: #dcdedf;
+        color: var(--contextmenu-text);
 
         &:hover {
-            background: #dcdedf;
-            color: #171a21;
+            background: var(--contextmenu-text);
+            color: var(--contextmenu-text-hover);
 
             .timestamp-3gPmzJ {
-                color: #171a21;
+                color: var(--contextmenu-text-hover);
             }
         }
     }

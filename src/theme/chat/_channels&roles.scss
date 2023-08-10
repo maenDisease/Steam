@@ -15,9 +15,9 @@
         flex-direction: row;
         position: relative;
         border-radius: 3px;
-        background: rgba(0, 0, 0, 0.2);
+        background: rgb(0 0 0/.2);
         border: 1px solid #000;
-        box-shadow: 1px 1px 0 0 rgba(91, 132, 181, 0.2);
+        box-shadow: 1px 1px 0 0 var(--store-search-border);
 
         $tabCount: 2;
 
@@ -47,7 +47,7 @@
             justify-content: center;
 
             &:not([aria-selected="true"]):hover {
-                background: hsla(var(--accent-hue), 40%, 23%, 0.4);
+                background: hsl(var(--accent-hue) 40% 23%/.4);
             }
 
             border-bottom: none;
@@ -65,7 +65,7 @@
             position: absolute;
             height: 100%;
             width: calc(100% / var(--btn-count));
-            background: linear-gradient(135deg, #3d6c8d 0%, #2e5470 100%);
+            background: var(--store-tablist-btn);
             transition: translate .2s ease;
             border-radius: 3px;
         }
@@ -96,8 +96,8 @@
 
         >h2,
         >[data-text-variant="text-xs/normal"] {
-            background: linear-gradient(to right, rgba(0, 0, 0, 0.2) 0%, rgba(0, 0, 0, 0.5) 100%);
-            background-color: rgba(0, 0, 0, 0.2);
+            background: var(--store-sidebar-background);
+            background-color: rgb(0 0 0/.2);
             padding-left: 18px;
             padding-right: 18px;
         }
@@ -116,7 +116,7 @@
     .profileCard-2gVmvm {
         margin-top: 0;
         width: 308px;
-        background: linear-gradient(to right, rgba(0, 0, 0, 0.2) 0%, rgba(0, 0, 0, 0.5) 100%);
+        background: var(--store-sidebar-background);
         border-radius: 0;
         box-sizing: border-box;
 
@@ -135,7 +135,7 @@
     margin-top: var(--content-gutter);
 
     .promptTitle-1ID-ZY {
-        background-color: #015e80;
+        background-color: var(--store-body-header);
         padding: 10px 20px 10px 20px;
         font-weight: normal;
         font-size: 14px;
