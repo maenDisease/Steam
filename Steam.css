@@ -8,7 +8,7 @@
 :root {
   --hue-shift: 0;
   --content-width: 940px;
-  --messages-max-width: 640px;
+  --message-width: 640px;
   --custom-font-primary: "gg sans";
   --custom-font-display: "gg sans";
   --custom-font-code: monospace;
@@ -3181,7 +3181,7 @@ body #app-mount:-webkit-full-screen .app-3xd6d0 .base-2jDfDU {
   box-shadow: 0 0 5px #000;
   margin: 0 16px;
   margin-bottom: 2px;
-  max-width: var(--messages-max-width);
+  max-width: var(--message-width);
 }
 #app-mount .message-2CShn3.mentioned-Tre-dv {
   background: var(--message-background-gradient-yellow);
@@ -3664,7 +3664,7 @@ body #app-mount:-webkit-full-screen .app-3xd6d0 .base-2jDfDU {
   border-top: none;
   justify-content: flex-start;
   height: 1px;
-  max-width: calc(var(--messages-max-width) - 70px);
+  max-width: calc(var(--message-width) - 70px);
   background: var(--store-divider);
   margin-top: 2rem;
   margin-bottom: -1px;
