@@ -2077,6 +2077,7 @@ body #app-mount:-webkit-full-screen .app-3xd6d0 .base-2jDfDU {
 .inner-MGEKwh {
   min-width: 32px;
   min-height: 32px;
+  align-items: center;
 }
 
 .scroller-29cQFV .inner-MGEKwh {
@@ -14434,6 +14435,59 @@ userProfileModalOuter-2wdWjU: modal
   font-size: 22px;
   font-weight: 700;
   color: var(--header-primary);
+}
+
+#channelTabs-container {
+  box-shadow: inset hsl(calc(var(--accent-hue) + 13), 13.5%, 27.6%, 0.75) 1px 0 0 0, inset hsl(calc(var(--accent-hue) + 13), 13.5%, 27.6%, 0.25) -1px -1px 0 0;
+}
+#app-mount #channelTabs-container {
+  background: var(--background-tertiary);
+}
+#app-mount #channelTabs-container > :not(#channelTabs-settingsMenu) + div {
+  padding-top: 4px;
+  border-top: none;
+}
+#channelTabs-container ~ .layers-OrUESM .container-YkUktl::before {
+  box-shadow: inset hsl(calc(var(--accent-hue) + 13), 13.5%, 27.6%, 0.75) 1px 1px 1px 0, inset hsl(calc(var(--accent-hue) + 13), 13.5%, 27.6%, 0.25) -1px 0 1px 0;
+}
+#channelTabs-container .channelTabs-tab {
+  border-radius: 0;
+  --background-modifier-hover: var(--background-accent-25);
+  --background-modifier-active: var(--background-accent-25);
+  --background-modifier-selected: var(--background-accent);
+  transition-property: background, box-shadow, color;
+  transition-duration: 0.15s;
+  transition-timing-function: ease-out;
+}
+#channelTabs-container .channelTabs-mentionBadge,
+#channelTabs-container .channelTabs-unreadBadge {
+  border-radius: 0;
+}
+#channelTabs-container .channelTabs-closeTab {
+  border-radius: 0;
+}
+#channelTabs-container .channelTabs-newTab {
+  border-radius: 0;
+}
+#channelTabs-container .channelTabs-noFavNotice {
+  color: var(--background-accent-hover);
+  font-size: 12px;
+  line-height: 16px;
+  padding: 0;
+}
+#channelTabs-container .channelTabs-fav {
+  --background-modifier-hover: var(--background-accent-25);
+  --background-modifier-active: var(--background-accent-25);
+  transition-property: background, color;
+  transition-duration: 0.15s;
+  transition-timing-function: ease-out;
+  border-radius: 50px;
+  padding-left: 4px;
+  padding-right: 4px;
+}
+#channelTabs-container .channelTabs-fav .channelTabs-noMention,
+#channelTabs-container .channelTabs-fav .channelTabs-noUnread {
+  background-color: transparent;
 }
 
 .PI-indicatorContainer [style="color: #3BA55D;"] {
