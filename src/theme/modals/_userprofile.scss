@@ -5,8 +5,8 @@
 .userProfileModalOuter-2wdWjU {
 
     &.profileColors-2AgAV4 {
-        --profile-gradient-secondary-color: var(--background-alpha-4);
-        --profile-gradient-primary-color: var(--background-alpha-2);
+        --profile-gradient-secondary-color: rgb(0 0 0/.4);
+        --profile-gradient-primary-color: rgb(0 0 0/.2);
     }
 
     .topSection-13QKHs {
@@ -46,7 +46,7 @@
     .badgeList-2aoHPw {
         display: flex;
         flex-flow: row wrap;
-        background: var(--background-alpha-3);
+        background: rgb(0 0 0/.3);
         border-radius: 3px;
         padding: 10px;
         box-shadow: none;
@@ -63,7 +63,7 @@
 
         button {
             box-shadow: none;
-            background: var(--background-alpha-3);
+            background: rgb(0 0 0/.3);
             color: var(--gpColor-Green);
 
             &:hover {
@@ -73,7 +73,7 @@
         }
 
         [role="button"] {
-            background: var(--background-alpha-3);
+            background: rgb(0 0 0/.3);
             height: 34px;
             width: 34px;
             display: flex;
@@ -265,7 +265,7 @@
             user-select: text;
 
             +div {
-                background: var(--background-alpha-3);
+                background: rgb(0 0 0/.3);
                 border-radius: 0 0 3px 3px;
                 padding: 20px 10px 11px 10px;
                 margin-bottom: 12px;
@@ -278,7 +278,7 @@
     }
 
     .userInfoText-2MFCmH [data-text-variant="text-sm/normal"] {
-        background: var(--background-alpha-3);
+        background: rgb(0 0 0/.3);
         padding: 8px;
         border-radius: 5px;
     }
@@ -311,7 +311,7 @@
             line-height: 38px;
             font-weight: 200;
             color: #fff;
-            background: var(--background-alpha-3);
+            background: rgb(0 0 0/.3);
             padding: 8px;
             border-radius: 5px;
             width: 100%;
@@ -328,7 +328,7 @@
         .connectedAccounts-2R5M4w {
             grid-area: accounts;
             flex-direction: column;
-            background: var(--background-alpha-3);
+            background: rgb(0 0 0/.3);
             border-radius: 3px;
             padding: 10px;
             height: fit-content;
@@ -401,14 +401,14 @@
         display: grid;
         grid-template-columns: repeat(2, minmax(0, 1fr));
         grid-gap: 7px;
-        background: var(--background-alpha-3);
+        background: rgb(0 0 0/.3);
         border-radius: 3px;
         padding: 20px 10px 11px 10px !important;
         width: calc(100% - 12px - 10px);
     }
 
     .listRow-2nO1T6 {
-        background: var(--background-alpha-3);
+        background: rgb(0 0 0/.3);
         padding: 8px;
         border-radius: 5px;
         margin: 0;
@@ -427,7 +427,7 @@
 
     .userProfileActivity-sal5no {
         grid-column: span 2;
-        background: var(--background-alpha-3);
+        background: rgb(0 0 0/.3);
         padding: 8px;
         border-radius: 5px;
     }

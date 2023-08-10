@@ -6,7 +6,7 @@
     padding: 0;
 
     .container-2oNtJn {
-        background: var(--background-alpha-2);
+        background: rgb(0 0 0/.2);
         border: 1px solid #000;
         box-shadow: 1px 1px 0 0 var(--store-search-border);
         font-size: 20px;
@@ -14,7 +14,7 @@
         margin: 8px 8px 0;
 
         &:hover {
-            background: var(--background-alpha-3);
+            background: rgb(0 0 0/.3);
         }
 
         &:focus,

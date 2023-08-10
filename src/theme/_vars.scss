@@ -1,25 +1,44 @@
+// User Variables
 :root {
+    // Color
     --hue-shift: 0;
-    // Accent
+
+    // Size
+    --content-width: 940px;
+    --messages-max-width: 640px;
+
+    // Font
+    --custom-font-primary: "gg sans";
+    --custom-font-display: "gg sans";
+    --custom-font-code: monospace;
+}
+
+:root {
+    // Color
     --accent-hue: calc(205 + var(--hue-shift));
     --accent-saturation: 100%;
     --accent-brightness: 55%;
 
-    // Spacing
+    // Size
     --app-gutter: 24px;
     --content-gutter: 16px;
-    --content-width: 940px;
-    --content-inner-width: 656px;
-    --messages-max-width: 640px;
+    --content-inner-width: calc(var(--accent-hue) - 284px);
 
-    --titlebar-height: 36px;
-    --font-code: monospace, Consolas, "Andale Mono WT", "Andale Mono", "Lucida Console", "Lucida Sans Typewriter", "DejaVu Sans Mono", "Bitstream Vera Sans Mono", "Liberation Mono", "Nimbus Mono L", Monaco, "Courier New", Courier, monospace;
+    // Font
+    --font-primary: var(--custom-font-primary), "gg sans", "Noto Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    --font-display: var(--custom-font-display), "gg sans", "Noto Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    --font-code: var(--custom-font-code), monospace, Consolas, "Andale Mono WT", "Andale Mono", "Lucida Console", "Lucida Sans Typewriter", "DejaVu Sans Mono", "Bitstream Vera Sans Mono", "Liberation Mono", "Nimbus Mono L", Monaco, "Courier New", Courier, monospace;
+}
+
+.theme-dark,
+.theme-light {
+    --modal-background: radial-gradient(circle at top left, hsl(calc(var(--accent-hue) + 12) 10.8% 32.5%/0.4) 0%, hsl(calc(var(--accent-hue) + 14) 10.2% 32.7%/0) 60%), hsl(calc(var(--accent-hue) + 15) 10.8% 16.3%);
+    --text-muted: hsl(calc(var(--accent-hue) + 7) 6.9% 57.5%);
+    --header-secondary: hsl(calc(var(--accent-hue) + 1) 5.2% 73.5%);
 }
 
 .theme-dark {
-    --background-alpha-4: rgb(0 0 0/.4);
-    --background-alpha-3: rgb(0 0 0/.3);
-    --background-alpha-2: rgb(0 0 0/.2);
+    --titlebar-height: 36px;
 
     --store-sidebar-background: linear-gradient(to right, rgb(0 0 0/.2) 0%, rgb(0 0 0/.5) 100%);
     --code-background: hsl(calc(var(--accent-hue) - 2) 27.6% 11.4%);
@@ -45,13 +64,6 @@
     --banner-lightblue-input: hsl(calc(var(--accent-hue) + 7), 21.8%, 17.1%);
     --text-linkHi: hsl(calc(var(--accent-hue) - 8) 88% 70%);
     --text-linkHi-hover: hsl(calc(var(--accent-hue) - 8), 100%, 85%);
-}
-
-.theme-dark,
-.theme-light {
-    --modal-background: radial-gradient(circle at top left, hsl(calc(var(--accent-hue) + 12) 10.8% 32.5%/0.4) 0%, hsl(calc(var(--accent-hue) + 14) 10.2% 32.7%/0) 60%), hsl(calc(var(--accent-hue) + 15) 10.8% 16.3%);
-    --text-muted: hsl(calc(var(--accent-hue) + 7) 6.9% 57.5%);
-    --header-secondary: hsl(calc(var(--accent-hue) + 1) 5.2% 73.5%);
 }
 
 :root,

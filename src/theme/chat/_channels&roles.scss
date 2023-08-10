@@ -82,7 +82,7 @@
             gap: 0;
 
             >div:first-child:not([class]) {
-                background: var(--background-alpha-4);
+                background: rgb(0 0 0/.4);
                 padding: 20px;
 
                 h2 {
@@ -121,7 +121,7 @@
         box-sizing: border-box;
 
         .role-3uAPnQ {
-            background: var(--background-alpha-3);
+            background: rgb(0 0 0/.3);
             border-radius: 3px;
         }
     }
@@ -145,7 +145,7 @@
     }
 
     .promptOptions-3jDyZ4 {
-        background: var(--background-alpha-4);
+        background: rgb(0 0 0/.4);
         padding: 20px;
     }
 }

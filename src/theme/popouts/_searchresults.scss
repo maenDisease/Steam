@@ -49,7 +49,7 @@
 
         .react-datepicker__day--outside-month,
         .react-datepicker__day--disabled {
-            background: var(--background-alpha-2);
+            background: rgb(0 0 0/.2);
             color: var(--text-muted);
         }
 

@@ -306,7 +306,7 @@
 
     .searchHeader-gz2NXf {
         grid-area: found;
-        background: var(--background-alpha-2);
+        background: rgb(0 0 0/.2);
         margin-bottom: 0;
         padding: 10px;
 
@@ -401,7 +401,7 @@
     }
 
     .searchPage-3tt6dh {
-        background: var(--background-alpha-4);
+        background: rgb(0 0 0/.4);
         padding: 6px 6px 6px 52px;
         margin-top: var(--content-gutter);
         margin-bottom: var(--content-gutter);
@@ -446,11 +446,11 @@
     }
 
     .card-1rhKXq {
-        background: var(--background-alpha-2);
+        background: rgb(0 0 0/.2);
         border: 1px solid transparent;
 
         &:hover {
-            background: var(--background-alpha-4);
+            background: rgb(0 0 0/.4);
             border-color: hsl(calc(var(--accent-hue) - 2) 39% 41%);
         }
 
@@ -539,7 +539,7 @@
         margin: 0;
 
         .container-1wv6C6 {
-            background: var(--background-alpha-3);
+            background: rgb(0 0 0/.3);
             padding: 8px 16px 10px 16px;
             border-radius: 2px;
             display: flex;

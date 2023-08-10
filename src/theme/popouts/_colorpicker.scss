@@ -15,13 +15,13 @@
         height: 34px;
         width: 34px;
         border-radius: 2px;
-        background: var(--background-alpha-2);
+        background: rgb(0 0 0/.2);
         transition-property: background, box-shadow;
         transition-duration: .2s;
         transition-timing-function: ease-out;
 
         &:hover {
-            background: var(--background-alpha-3);
+            background: rgb(0 0 0/.3);
             box-shadow: var(--btn-grey-boxshadow);
 
             svg {
@@ -37,12 +37,12 @@
     }
 
     .input-3O04eu {
-        background: var(--background-alpha-2);
+        background: rgb(0 0 0/.2);
         border: 1px solid #000;
         box-shadow: 1px 1px 0 0 var(--store-search-border);
 
         &:hover:not(:focus, :focus-within) {
-            background: var(--background-alpha-3);
+            background: rgb(0 0 0/.3);
         }
     }
 
