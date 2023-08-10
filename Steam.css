@@ -316,6 +316,10 @@ body,
   align-self: flex-end;
 }
 
+.typeMacOS-3V4xXE.titleBar-1it3bQ {
+  display: none;
+}
+
 .winButton-3UMjdg {
   top: 0;
   width: 32px;
@@ -844,10 +848,6 @@ path[d="M20 11.1111H12.8889V4H11.1111V11.1111H4V12.8889H11.1111V20H12.8889V12.88
   box-shadow: inset hsl(calc(var(--accent-hue) + 13), 13.5%, 27.6%, 0.65) -1px -1px 0 0, inset hsl(calc(var(--accent-hue) + 13), 13.5%, 27.6%, 0.45) 1px 1px 0 0;
 }
 .platform-osx .wrapper-1_HaEi {
-  margin-top: var(--titlebar-height);
-}
-
-.platform-osx body #app-mount .app-3xd6d0 .base-2jDfDU {
   margin-top: var(--titlebar-height);
 }
 
