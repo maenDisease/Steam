@@ -36,7 +36,7 @@
     box-shadow: 0 0 5px #000;
     margin: 0 16px;
     margin-bottom: 2px;
-    max-width: var(--messages-max-width);
+    max-width: var(--message-width);
 
     &.mentioned-Tre-dv {
         background: var(--message-background-gradient-yellow);
@@ -602,7 +602,7 @@
     border-top: none;
     justify-content: flex-start;
     height: 1px;
-    max-width: calc(var(--messages-max-width) - 70px);
+    max-width: calc(var(--message-width) - 70px);
     background: var(--store-divider);
     margin-top: 2rem;
     margin-bottom: -1px;
