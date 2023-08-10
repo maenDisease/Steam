@@ -8,7 +8,3 @@
 .expandedFolderIconWrapper-3RwQpD svg {
   transform: rotate(90deg);
 }
-
-html.platform-osx #app-mount .base-2jDfDU {
-  top: var(--titlebar-height) !important;
-}

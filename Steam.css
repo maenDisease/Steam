@@ -851,6 +851,14 @@ path[d="M20 11.1111H12.8889V4H11.1111V11.1111H4V12.8889H11.1111V20H12.8889V12.88
   margin-top: var(--titlebar-height);
 }
 
+html.platform-osx #app-mount .base-2jDfDU {
+  top: 0 !important;
+}
+
+html.platform-osx #app-mount .base-2jDfDU {
+  margin-top: var(--titlebar-height) !important;
+}
+
 body #app-mount:-webkit-full-screen .app-3xd6d0 .base-2jDfDU {
   bottom: 0 !important;
 }
