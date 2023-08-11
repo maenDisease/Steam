@@ -983,7 +983,7 @@ body #app-mount:-webkit-full-screen .app-3xd6d0 .base-2jDfDU {
   --gpColor-Grey: var(--status-danger);
 }
 
-#app-mount .guilds-2JjMmN [class*=expandedFolderBackground] {
+#app-mount .wrapper-1_HaEi.guilds-2JjMmN [class*=expandedFolderBackground] {
   border-radius: 2px;
 }
 
