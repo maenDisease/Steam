@@ -22,7 +22,7 @@
     // Size
     --app-gutter: 24px;
     --content-gutter: 16px;
-    --content-inner-width: calc(var(--accent-hue) - 284px);
+    --content-inner-width: calc(var(--content-width) - 284px);
 
     // Font
     --font-primary: var(--custom-font-primary), "gg sans", "Noto Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
