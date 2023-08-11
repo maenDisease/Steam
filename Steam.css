@@ -20,7 +20,7 @@
   --accent-brightness: 55%;
   --app-gutter: 24px;
   --content-gutter: 16px;
-  --content-inner-width: calc(var(--accent-hue) - 284px);
+  --content-inner-width: calc(var(--content-width) - 284px);
   --font-primary: var(--custom-font-primary), "gg sans", "Noto Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
   --font-display: var(--custom-font-display), "gg sans", "Noto Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
   --font-code: var(--custom-font-code), monospace, Consolas, "Andale Mono WT", "Andale Mono", "Lucida Console", "Lucida Sans Typewriter", "DejaVu Sans Mono", "Bitstream Vera Sans Mono", "Liberation Mono", "Nimbus Mono L", Monaco, "Courier New", Courier, monospace;
@@ -2924,6 +2924,9 @@ body #app-mount:-webkit-full-screen .app-3xd6d0 .base-2jDfDU {
   padding: 3px 5px;
   border-radius: 2px;
   height: 32px;
+}
+.buttons-BK5gED button {
+  padding: 0;
 }
 .buttons-BK5gED button:first-child {
   order: 1;
