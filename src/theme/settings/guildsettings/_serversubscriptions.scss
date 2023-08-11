@@ -31,7 +31,7 @@
         background-size: 300% 300%;
         animation: nitroGradient 20s ease infinite;
         max-width: unset;
-        margin-bottom:0;
+        margin-bottom: 0;
         padding-bottom: 4em;
         padding-top: 4em;
     }
@@ -57,6 +57,7 @@
         +span {
             display: none !important;
         }
+
         ~div:has(a) {
             font-style: italic;
             font-size: 12px;
@@ -72,16 +73,17 @@
         --header-primary: #1b1b1b;
         --header-secondary: #1b1b1b;
 
-        [data-text-variant="heading-lg/semibold"] {
-            font-size: 20px;
-                font-weight: 700;
-                line-height: 24px;
-        }
-        [data-text-variant="text-md/normal"] {
-            font-size: 18px;
-                font-weight: 700;
-                line-height: 20px;
-        }
+        // [data-text-variant="heading-lg/semibold"] {
+        //     font-size: 20px;
+        //     font-weight: 700;
+        //     line-height: 24px;
+        // }
+
+        // [data-text-variant="text-md/normal"] {
+        //     font-size: 18px;
+        //     font-weight: 700;
+        //     line-height: 20px;
+        // }
 
         .earningsPreviewContainer-2I6S8Z {
             background: rgb(0 0 0/.2) !important;
@@ -91,8 +93,8 @@
             background: rgb(0 0 0/.2)
         }
 
-        .revenueSharePercentageDark-2gq6aI  {
-            text-shadow:0 2px 3px rgb(0 0 0/.3);
+        .revenueSharePercentageDark-2gq6aI {
+            text-shadow: 0 2px 3px rgb(0 0 0/.3);
         }
     }
 
