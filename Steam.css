@@ -9582,16 +9582,6 @@ body #app-mount .layer-86YKbF ~ .layer-86YKbF .sidebar-nqHbhN:has(.socialLinks-3
   --header-primary: #1b1b1b;
   --header-secondary: #1b1b1b;
 }
-.sidebarRegion-1VBisG:has(.selected-1sf9UK[aria-controls=role_subscriptions-tab]) + .contentRegion-3HkfJJ div:has(> .creatorBenefitsContainer-TwxZO6) [data-text-variant="heading-lg/semibold"] {
-  font-size: 20px;
-  font-weight: 700;
-  line-height: 24px;
-}
-.sidebarRegion-1VBisG:has(.selected-1sf9UK[aria-controls=role_subscriptions-tab]) + .contentRegion-3HkfJJ div:has(> .creatorBenefitsContainer-TwxZO6) [data-text-variant="text-md/normal"] {
-  font-size: 18px;
-  font-weight: 700;
-  line-height: 20px;
-}
 .sidebarRegion-1VBisG:has(.selected-1sf9UK[aria-controls=role_subscriptions-tab]) + .contentRegion-3HkfJJ div:has(> .creatorBenefitsContainer-TwxZO6) .earningsPreviewContainer-2I6S8Z {
   background: rgba(0, 0, 0, 0.2) !important;
 }
