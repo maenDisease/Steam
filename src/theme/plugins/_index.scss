@@ -1,4 +1,15 @@
 @forward './channeltabs';
+@forward './devilbro';
 @forward './platformindicators';
-@forward './spotifycontrols';
 @forward './viewprofilepicture';
+
+// OnlineFriendCount
+.container-OnlineFriendCount {
+    height: fit-content;
+    margin: 12px 0;
+}
+
+.item-OnlineFriendCount {
+    text-transform: capitalize;
+    margin-top: 2px;
+}

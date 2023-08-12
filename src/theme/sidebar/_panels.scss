@@ -42,8 +42,11 @@
     }
 
     .connection-3k9QeF {
-        .flex-2S1XBF:has(>button) {
-            gap: 4px;
+        .flex-2S1XBF {
+            margin-left: 6px;
+            &:has(>button) {
+                gap: 4px;
+            }
         }
 
         button.enabled-9OeuTA:has([d*="M21.1169 1.11603L22.8839 2.88403L19.7679 6.00003L22.8839"]) {

@@ -1,0 +1,177 @@
+@use '../settings/container';
+
+// GameActivityToggle
+.gameActivityToggleAdded-Yd-YxC .withTagAsButton-OsgQ9L,
+.gameActivityToggleAdded-Yd-YxC .withTagAsButton-OsgQ9L {
+    flex: initial;
+    min-width: initial;
+}
+
+// SpotifyControls
+.container-6sXIoE {
+    margin-bottom: 0;
+    border-bottom: 0;
+    padding: 8px;
+}
+
+// PluginRepo
+#app-mount .layer-86YKbF~.layer-86YKbF {
+    .repoHeader-2KfNvH.contentColumnDefault-3eyv5o {
+        padding: 32px 24px 0 !important;
+    }
+
+    .repo-k8F4Sd {
+        max-width: 100% !important;
+    }
+}
+
+.repoHeader-2KfNvH {
+    &::after {
+        content: '';
+        display: block;
+        position: absolute;
+        bottom: -24px;
+        left: 0;
+        height: 24px;
+        width: 100%;
+        background: linear-gradient(to bottom, var(--background-tertiary) 0%, transparent 100%);
+        pointer-events: none;
+        z-index: 1;
+    }
+
+    h2 {
+        @include container.settingsHeaderText;
+    }
+
+    .inner-2pOSmK {
+        border-radius: 2px;
+        transition: padding .3s cubic-bezier(0.16, 0.86, 0.43, 0.99);
+
+        &:hover {
+            padding-left: 8px;
+            padding-right: 8px;
+            background: var(--btn-grey-hover);
+            box-shadow: var(--btn-grey-boxshadow);
+        }
+
+        svg {
+            color: var(--brand-experiment);
+        }
+    }
+
+    .tabBarContainer-sCZC4w {
+        border: none;
+        margin: 10px 0 0 0;
+    }
+
+    .tabBar-2hXqzU {
+        gap: 4px;
+
+        .selected-1sf9UK {
+            display: none;
+        }
+
+        .item-2GWPIy {
+            font-size: 0;
+            height: 34px;
+            width: 34px;
+            border-radius: 2px;
+            background: var(--btn-grey);
+            transition-property: background, box-shadow, color;
+            transition-duration: .2s;
+            transition-timing-function: ease-out;
+            border: none;
+
+            &:nth-child(2):not(:last-child) {
+                width: fit-content;
+                font-size: 14px;
+                line-height: 18px;
+                font-weight: 400;
+                color: var(--text-lighter);
+                padding: 8px 14px;
+            }
+
+            &:hover {
+                background: var(--btn-grey-hover);
+                color: #fff;
+                box-shadow: var(--btn-grey-boxshadow);
+            }
+
+            &:first-child {
+                &::before {
+                    content: '';
+                    display: block;
+                    position: absolute;
+                    inset: 0;
+                    height: 100%;
+                    width: 100%;
+                    mask: url(https://maendisease.github.io/Steam/illustrations/icns/discordrightarrow.svg) center/contain no-repeat;
+                    mask-size: 20px;
+                    background: var(--brand-experiment);
+                    scale: -1;
+                }
+            }
+
+            &:last-child {
+
+                &::before {
+                    content: '';
+                    display: block;
+                    position: absolute;
+                    inset: 0;
+                    height: 100%;
+                    width: 100%;
+                    mask: url(https://maendisease.github.io/Steam/illustrations/icns/settings.svg) center/contain no-repeat;
+                    mask-size: 18px;
+                    background: var(--brand-experiment);
+                }
+            }
+        }
+    }
+}
+
+.repoScroller-9JnAPs {
+    overflow: hidden overlay !important;
+
+    .tabContent-nZ-1U5 {
+        margin-top: 14px;
+    }
+
+    .card-x5zW6z {
+        background: var(--btn-grey);
+        border: none;
+        border-radius: 2px;
+        box-shadow: none;
+        transform: none;
+        transition: none;
+
+        .header-4hHJgv {
+            margin-bottom: 16px;
+        }
+
+        .iconWrapper-eK7GO6 {
+            display: none;
+        }
+    }
+
+    .button-coQXfM {
+        border-radius: 2px;
+        font-size: 14px;
+        font-weight: 400;
+        height: 34px;
+        padding: 8px 14px;
+        transition-property: background, box-shadow, color;
+        transition-duration: .2s;
+        transition-timing-function: ease-out;
+        background-image: linear-gradient(to right, hsl(calc(var(--accent-hue) - 4), 100%, 63.9%) 0%, hsl(calc(var(--accent-hue) + 20), 76.4%, 43.1%) 60%);
+        background-position: 25%;
+        background-size: 330% 100%;
+
+        &:hover {
+            background-position: 0%;
+            background-size: 330% 100%;
+            background-image: linear-gradient(to right, hsl(calc(var(--accent-hue) - 4), 100%, 63.9%) 0%, hsl(calc(var(--accent-hue) + 20), 76.4%, 43.1%) 60%);
+            box-shadow: var(--btn-grey-boxshadow);
+        }
+    }
+}
