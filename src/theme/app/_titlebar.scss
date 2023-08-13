@@ -2,7 +2,7 @@
     height: 36px;
     margin-top: 0;
     width: 96px;
-    align-self:flex-end;
+    align-self: flex-end;
 }
 
 .typeMacOS-3V4xXE.titleBar-1it3bQ {
@@ -15,7 +15,6 @@
     height: 32px;
     --winbutton-svg: hsl(calc(var(--accent-hue) - 7) 10.7% 52.2%);
     color: var(--winbutton-svg);
-
 
     &:hover,
     &:active {
