@@ -753,3 +753,16 @@
     border-color: transparent;
     background: rgb(0 0 0/.2);
 }
+
+.container-3i3IzO {
+    background: hsl(calc(var(--accent-hue) + 1) 32% 34%/.502);
+    border-radius: 0;
+
+    .cta-1XhfrG, .name-13vPlv {
+        font-weight: 400;
+    }
+}
+
+.executedCommandAvatar-3oOnb1, .replyAvatar-sHd2sU, .replyBadge-LMm_Ic, .threadMessageAccessoryAvatar-17qE_g {
+    border-radius: 3px;
+}
