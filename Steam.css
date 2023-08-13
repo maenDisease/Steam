@@ -11726,6 +11726,9 @@ body #app-mount .layer-86YKbF ~ .layer-86YKbF .sidebar-nqHbhN:has(.socialLinks-3
 #app-mount .contentWarningPopout-WKdbDG .body-2rDNbs {
   background: none;
 }
+#app-mount .contentWarningPopout-WKdbDG .footer-2aeMle {
+  background: none;
+}
 
 #app-mount .autocomplete-3NRXG8 {
   background: var(--modal-background);
