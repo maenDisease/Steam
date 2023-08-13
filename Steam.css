@@ -164,7 +164,7 @@
 }
 
 :root {
-  --HSL-server-icon-size: 28px;
+  --server-size: 28px;
   --HSL-server-spacing: 10px;
   --HSL-server-direction: column;
 }
