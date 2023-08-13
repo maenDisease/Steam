@@ -9,8 +9,7 @@
   --hue-shift: 0;
   --content-width: 940px;
   --message-width: 640px;
-  --custom-font-primary: "gg sans";
-  --custom-font-display: "gg sans";
+  --custom-font: "gg sans";
   --custom-font-code: monospace;
 }
 
@@ -21,8 +20,8 @@
   --app-gutter: 24px;
   --content-gutter: 16px;
   --content-inner-width: calc(var(--content-width) - 284px);
-  --font-primary: var(--custom-font-primary), "gg sans", "Noto Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
-  --font-display: var(--custom-font-display), "gg sans", "Noto Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  --font-primary: var(--custom-font), "gg sans", "Noto Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  --font-display: var(--custom-font), "gg sans", "Noto Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
   --font-code: var(--custom-font-code), monospace, Consolas, "Andale Mono WT", "Andale Mono", "Lucida Console", "Lucida Sans Typewriter", "DejaVu Sans Mono", "Bitstream Vera Sans Mono", "Liberation Mono", "Nimbus Mono L", Monaco, "Courier New", Courier, monospace;
 }
 
