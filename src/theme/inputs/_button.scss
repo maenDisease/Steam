@@ -39,6 +39,8 @@
 }
 
 .lookFilled-1H2Jvj {
+    --button-danger-background: linear-gradient(to right, #ff4747 0%, #c21a1a 60%);
+    --button-danger-background-hover: var(--button-danger-background);
 
     &.colorBrand-2M3O3N {
         background-image: linear-gradient(to right, hsl(calc(var(--accent-hue) - 4), 100%, 63.9%) 0%, hsl(calc(var(--accent-hue) + 20), 76.4%, 43.1%) 60%);
@@ -50,12 +52,12 @@
 
     &.colorRed-2VFhM4 {
         background-image: var(--button-danger-background);
-        
+
         &:hover {
             background-image: var(--button-danger-background);
         }
     }
-    
+
     color: var(--text-lighter);
     transition-property: background, box-shadow, color;
     transition-duration: .2s;
@@ -76,11 +78,6 @@
             box-shadow: 2px 2px 5px rgb(0 0 0/.2);
         }
     }
-}
-
-:root {
-    --button-danger-background: linear-gradient(to right, #ff4747 0%, #c21a1a 60%);
-    --button-danger-background-hover: var(--button-danger-background);
 }
 
 #app-mount {
