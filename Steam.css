@@ -13282,6 +13282,8 @@ userProfileModalOuter-2wdWjU: modal
 }
 
 .lookFilled-1H2Jvj {
+  --button-danger-background: linear-gradient(to right, #ff4747 0%, #c21a1a 60%);
+  --button-danger-background-hover: var(--button-danger-background);
   color: var(--text-lighter);
   transition-property: background, box-shadow, color;
   transition-duration: 0.2s;
@@ -13309,11 +13311,6 @@ userProfileModalOuter-2wdWjU: modal
 }
 .root-1CAIjD .lookFilled-1H2Jvj:not(:hover), .prompt-R8SyL4 .lookFilled-1H2Jvj:not(:hover) {
   box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
-}
-
-:root {
-  --button-danger-background: linear-gradient(to right, #ff4747 0%, #c21a1a 60%);
-  --button-danger-background-hover: var(--button-danger-background);
 }
 
 #app-mount .lookLink-13iF2K.colorTransparent-2SBJ8-:hover .contents-3NembX {
