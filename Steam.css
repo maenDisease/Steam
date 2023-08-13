@@ -11718,6 +11718,15 @@ body #app-mount .layer-86YKbF ~ .layer-86YKbF .sidebar-nqHbhN:has(.socialLinks-3
   box-shadow: 0 2px 3px rgba(0, 0, 0, 0.3);
 }
 
+#app-mount .contentWarningPopout-WKdbDG {
+  background: var(--modal-background);
+  border-radius: 0;
+  box-shadow: var(--modal-shadow);
+}
+#app-mount .contentWarningPopout-WKdbDG .body-2rDNbs {
+  background: none;
+}
+
 #app-mount .autocomplete-3NRXG8 {
   background: var(--modal-background);
 }
