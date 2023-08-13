@@ -3801,6 +3801,18 @@ body #app-mount:-webkit-full-screen .app-3xd6d0 .base-2jDfDU {
   background: rgba(0, 0, 0, 0.2);
 }
 
+.container-3i3IzO {
+  background: hsl(calc(var(--accent-hue) + 1), 32%, 34%, 0.502);
+  border-radius: 0;
+}
+.container-3i3IzO .cta-1XhfrG, .container-3i3IzO .name-13vPlv {
+  font-weight: 400;
+}
+
+.executedCommandAvatar-3oOnb1, .replyAvatar-sHd2sU, .replyBadge-LMm_Ic, .threadMessageAccessoryAvatar-17qE_g {
+  border-radius: 3px;
+}
+
 .artwork-3uFrhF[viewBox="0 0 1700 1200"] {
   -webkit-mask: radial-gradient(circle at top, #000 0%, transparent 80%);
           mask: radial-gradient(circle at top, #000 0%, transparent 80%);
