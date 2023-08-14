@@ -268,18 +268,18 @@
 }
 
 .nowPlayingColumn-1eCBCN {
-    background: var(--store-sidebar-background);
+    background: none;
     margin-top: var(--content-gutter);
     margin-left: var(--content-gutter);
-    height: fit-content;
-    max-height: calc(100% - var(--content-gutter));
 
     .container-1oAagU {
         background: none;
     }
 
     .scroller-hE2gWq {
-        height: 100%;
+        background: var(--store-sidebar-background);
+        height: fit-content;
+        max-height: 100%;
         border-left: none;
         margin-left: 0;
     }
