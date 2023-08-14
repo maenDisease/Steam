@@ -4933,18 +4933,18 @@ body #app-mount:-webkit-full-screen .app-3xd6d0 .base-2jDfDU {
 }
 
 .nowPlayingColumn-1eCBCN {
-  background: var(--store-sidebar-background);
+  background: none;
   margin-top: var(--content-gutter);
   margin-left: var(--content-gutter);
-  height: -moz-fit-content;
-  height: fit-content;
-  max-height: calc(100% - var(--content-gutter));
 }
 .nowPlayingColumn-1eCBCN .container-1oAagU {
   background: none;
 }
 .nowPlayingColumn-1eCBCN .scroller-hE2gWq {
-  height: 100%;
+  background: var(--store-sidebar-background);
+  height: -moz-fit-content;
+  height: fit-content;
+  max-height: 100%;
   border-left: none;
   margin-left: 0;
 }
@@ -10110,6 +10110,11 @@ body #app-mount .layer-86YKbF ~ .layer-86YKbF .sidebar-nqHbhN:has(.socialLinks-3
 }
 .root-1CAIjD .actions-1qEPMo {
   margin: 32px 0;
+}
+
+#app-mount .authBox-1HR6Ha,
+#app-mount .authBox-1HR6Ha + .navRow-dG-XX8 {
+  background: none;
 }
 
 .root-1CAIjD:has(.tier2HeaderBackground-2XINxm) {
