@@ -1,0 +1,38 @@
+.root-1CAIjD:has([src="/assets/b6508869eb1b93a8e54729ac86985599.png"]) {
+    .header-1ffhsl h1 {
+        font-size: 22px;
+        font-weight: 700;
+        line-height: 24px;
+    }
+}
+
+video:has([src="/assets/b6508869eb1b93a8e54729ac86985599.png"]) {
+    width: 100%;
+    height: 120px;
+    margin-bottom: 10px;
+}
+
+.banReasonOtherClickable-8EKPlQ {
+    color: var(--text-lighter);
+    background: var(--btn-grey);
+    transition-property: background, box-shadow, color;
+    transition-duration: .2s;
+    transition-timing-function: ease-out;
+    border-radius: 2px;
+    padding: 8px 14px;
+    margin-top: 10px;
+
+    &:hover {
+        background: var(--btn-grey-hover);
+        color: #fff;
+    }
+
+    [data-text-variant="text-md/medium"] {
+        font-size: 14px;
+        font-weight: 400;
+    }
+
+    svg {
+        color: var(--brand-experiment);
+    }
+}
