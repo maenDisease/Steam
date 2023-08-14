@@ -50,9 +50,35 @@
     }
 }
 
-.authBox-1HR6Ha,
-.authBox-1HR6Ha+.navRow-dG-XX8 {
-    #app-mount & {
+#app-mount {
+    .authBox-1HR6Ha {
         background: none;
+        box-shadow: none;
+        padding: 32px 32px 0 32px;
+
+        +.navRow-dG-XX8 {
+            background: none;
+            padding: 32px;
+            
+            .button-ejjZWC {
+                margin: 0;
+            }
+        }
+    }
+}
+
+.mainLoginContainer-psZnyz {
+    h1 {
+        text-align: left;
+        font-size: 22px;
+            font-weight: 700;
+            line-height: 24px;
+            margin-bottom: 0;
+    }
+
+    .subtitle-N87Vzb {
+        text-align: left;
+        padding: 0;
+        margin-bottom: 32px;
     }
 }

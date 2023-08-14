@@ -4,6 +4,49 @@
     color: #fff;
 }
 
+.hljs {
+    padding: 10px;
+    border-radius: 0;
+    background: var(--code-background);
+}
+
+.markup-eYLPri {
+
+    code {
+        font-size: 0.8125rem;
+        line-height: 1.0625rem;
+        font-weight: lighter;
+        -webkit-font-smoothing: antialiased;
+        background: var(--code-background);
+        border: none;
+
+        &.inline {
+            background: hsl(calc(var(--accent-hue) + 11) 9.1% 21.6%);
+            padding: 0.2em 5px;
+        }
+    }
+
+    h1,
+    h2,
+    h3,
+    h4,
+    h5,
+    h6 {
+        font-family: var(--font-display);
+        font-weight: 700;
+        color: var(--header-primary);
+        line-height: 1.375em;
+        margin: 16px 0 4px;
+    }
+
+    h1,
+    h2,
+    h3 {
+        color: var(--channels-default-hover);
+        font-weight: 500;
+    }
+}
+
 .textBadge-1fdDPJ {
     border-radius: 0;
     font-size: 10px;
@@ -29,47 +72,4 @@
     border-radius: 2px;
     padding: 4px;
     text-transform: capitalize;
-}
-
-.markup-eYLPri code {
-    font-size: 0.8125rem;
-    line-height: 1.0625rem;
-    font-weight: lighter;
-    -webkit-font-smoothing: antialiased;
-    background: var(--code-background);
-    border: none;
-
-    &.inline {
-        background: hsl(calc(var(--accent-hue) + 11) 9.1% 21.6%);
-        padding: 0.2em 5px;
-    }
-}
-
-.hljs {
-    padding: 10px;
-    border-radius: 0;
-    background: var(--code-background);
-}
-
-.markup-eYLPri {
-
-    h1,
-    h2,
-    h3,
-    h4,
-    h5,
-    h6 {
-        font-family: var(--font-display);
-        font-weight: 700;
-        color: var(--header-primary);
-        line-height: 1.375em;
-        margin: 16px 0 4px;
-    }
-
-    h1,
-    h2,
-    h3 {
-        color: var(--channels-default-hover);
-        font-weight: 500;
-    }
 }
