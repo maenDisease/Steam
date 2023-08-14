@@ -645,6 +645,43 @@ path[d="M20 11.1111H12.8889V4H11.1111V11.1111H4V12.8889H11.1111V20H12.8889V12.88
   color: #fff;
 }
 
+.hljs {
+  padding: 10px;
+  border-radius: 0;
+  background: var(--code-background);
+}
+
+.markup-eYLPri code {
+  font-size: 0.8125rem;
+  line-height: 1.0625rem;
+  font-weight: lighter;
+  -webkit-font-smoothing: antialiased;
+  background: var(--code-background);
+  border: none;
+}
+.markup-eYLPri code.inline {
+  background: hsl(calc(var(--accent-hue) + 11), 9.1%, 21.6%);
+  padding: 0.2em 5px;
+}
+.markup-eYLPri h1,
+.markup-eYLPri h2,
+.markup-eYLPri h3,
+.markup-eYLPri h4,
+.markup-eYLPri h5,
+.markup-eYLPri h6 {
+  font-family: var(--font-display);
+  font-weight: 700;
+  color: var(--header-primary);
+  line-height: 1.375em;
+  margin: 16px 0 4px;
+}
+.markup-eYLPri h1,
+.markup-eYLPri h2,
+.markup-eYLPri h3 {
+  color: var(--channels-default-hover);
+  font-weight: 500;
+}
+
 .textBadge-1fdDPJ {
   border-radius: 0;
   font-size: 10px;
@@ -669,44 +706,6 @@ path[d="M20 11.1111H12.8889V4H11.1111V11.1111H4V12.8889H11.1111V20H12.8889V12.88
   border-radius: 2px;
   padding: 4px;
   text-transform: capitalize;
-}
-
-.markup-eYLPri code {
-  font-size: 0.8125rem;
-  line-height: 1.0625rem;
-  font-weight: lighter;
-  -webkit-font-smoothing: antialiased;
-  background: var(--code-background);
-  border: none;
-}
-.markup-eYLPri code.inline {
-  background: hsl(calc(var(--accent-hue) + 11), 9.1%, 21.6%);
-  padding: 0.2em 5px;
-}
-
-.hljs {
-  padding: 10px;
-  border-radius: 0;
-  background: var(--code-background);
-}
-
-.markup-eYLPri h1,
-.markup-eYLPri h2,
-.markup-eYLPri h3,
-.markup-eYLPri h4,
-.markup-eYLPri h5,
-.markup-eYLPri h6 {
-  font-family: var(--font-display);
-  font-weight: 700;
-  color: var(--header-primary);
-  line-height: 1.375em;
-  margin: 16px 0 4px;
-}
-.markup-eYLPri h1,
-.markup-eYLPri h2,
-.markup-eYLPri h3 {
-  color: var(--channels-default-hover);
-  font-weight: 500;
 }
 
 .withFrame-2dL45i {
@@ -10112,9 +10111,30 @@ body #app-mount .layer-86YKbF ~ .layer-86YKbF .sidebar-nqHbhN:has(.socialLinks-3
   margin: 32px 0;
 }
 
-#app-mount .authBox-1HR6Ha,
+#app-mount .authBox-1HR6Ha {
+  background: none;
+  box-shadow: none;
+  padding: 32px 32px 0 32px;
+}
 #app-mount .authBox-1HR6Ha + .navRow-dG-XX8 {
   background: none;
+  padding: 32px;
+}
+#app-mount .authBox-1HR6Ha + .navRow-dG-XX8 .button-ejjZWC {
+  margin: 0;
+}
+
+.mainLoginContainer-psZnyz h1 {
+  text-align: left;
+  font-size: 22px;
+  font-weight: 700;
+  line-height: 24px;
+  margin-bottom: 0;
+}
+.mainLoginContainer-psZnyz .subtitle-N87Vzb {
+  text-align: left;
+  padding: 0;
+  margin-bottom: 32px;
 }
 
 .root-1CAIjD:has(.tier2HeaderBackground-2XINxm) {
