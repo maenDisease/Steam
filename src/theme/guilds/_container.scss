@@ -15,6 +15,14 @@ html.platform-osx #app-mount .base-2jDfDU {
   margin-top: var(--titlebar-height) !important;
 }
 
+html.platform-linux #app-mount .base-2jDfDU {
+    top: 0 !important;
+}
+
+html.platform-linux #app-mount .base-2jDfDU {
+  margin-top: var(--titlebar-height) !important;
+}
+
 body #app-mount:-webkit-full-screen .app-3xd6d0 .base-2jDfDU {
     bottom: 0 !important;
 }

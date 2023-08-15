@@ -7,6 +7,10 @@
     box-shadow: none;
     width: 189px;
 
+    .platform-linux & {
+        left: 9px;
+    }
+
     .headerContent-2SNbie {
         -webkit-app-region: no-drag;
         width: fit-content;

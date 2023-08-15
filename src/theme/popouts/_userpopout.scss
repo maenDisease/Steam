@@ -225,6 +225,7 @@ userProfileModalOuter-2wdWjU: modal
         overflow: hidden overlay !important;
         display: flex;
         flex-direction: column;
+        max-height: calc(100vh - 200px);
     }
 
     .title-3CjiSS {
