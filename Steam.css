@@ -850,6 +850,14 @@ html.platform-osx #app-mount .base-2jDfDU {
   margin-top: var(--titlebar-height) !important;
 }
 
+html.platform-linux #app-mount .base-2jDfDU {
+  top: 0 !important;
+}
+
+html.platform-linux #app-mount .base-2jDfDU {
+  margin-top: var(--titlebar-height) !important;
+}
+
 body #app-mount:-webkit-full-screen .app-3xd6d0 .base-2jDfDU {
   bottom: 0 !important;
 }
@@ -1076,6 +1084,9 @@ body #app-mount:-webkit-full-screen .app-3xd6d0 .base-2jDfDU {
   box-shadow: none;
   width: 189px;
 }
+.platform-linux .header-3OsQeK {
+  left: 9px;
+}
 .header-3OsQeK .headerContent-2SNbie {
   -webkit-app-region: no-drag;
   width: -moz-fit-content;
@@ -1206,6 +1217,13 @@ body #app-mount:-webkit-full-screen .app-3xd6d0 .base-2jDfDU {
   width: 100%;
 }
 .platform-osx .container-YkUktl::before {
+  left: 0;
+}
+.platform-linux .container-YkUktl {
+  right: 0;
+  width: 100%;
+}
+.platform-linux .container-YkUktl::before {
   left: 0;
 }
 .container-YkUktl::before {
@@ -13249,6 +13267,7 @@ userProfileModalOuter-2wdWjU: modal
   overflow: hidden overlay !important;
   display: flex;
   flex-direction: column;
+  max-height: calc(100vh - 200px);
 }
 .overlayBackground-2aa7wt .title-3CjiSS {
   letter-spacing: 0.5px;
