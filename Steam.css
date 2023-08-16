@@ -5101,6 +5101,31 @@ body #app-mount:-webkit-full-screen .app-3xd6d0 .base-2jDfDU {
   margin-right: 0;
 }
 
+.containerCompact-1Jto1O {
+  margin: 16px 16px 0;
+}
+
+.compactButton-3hG-bs,
+.compactButtonDisabled-MwB2d6 {
+  padding: 8px 14px;
+  background: var(--btn-brand);
+  border-radius: 2px;
+}
+.compactButton-3hG-bs .text-2guAFQ,
+.compactButtonDisabled-MwB2d6 .text-2guAFQ {
+  font-size: 14px;
+  line-height: 18px;
+  font-weight: 400;
+  color: var(--btn-brand-text);
+}
+
+.compactButton-3hG-bs:hover {
+  background: var(--btn-brand-hover);
+}
+.compactButton-3hG-bs:hover .text-2guAFQ {
+  color: #fff;
+}
+
 .sidebar-1tnWFu:has(.discoverHeader-1vsvZ0) .discoverHeader-1vsvZ0 {
   font-size: 14px;
   font-weight: 700;
