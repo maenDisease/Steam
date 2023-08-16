@@ -18,7 +18,7 @@
     margin: 0;
     padding: 0 14px;
     height: 36px;
-    text-shadow:0 2px 3px rgb(0 0 0/.3);
+    text-shadow: 0 2px 3px rgb(0 0 0/.3);
     color: #e5e5e5;
     font-size: 14px;
     display: flex;
@@ -443,5 +443,31 @@
         .button-YJZ_0E:not(:last-child) {
             margin-right: 0;
         }
+    }
+}
+
+.containerCompact-1Jto1O {
+    margin: 16px 16px 0;
+}
+
+.compactButton-3hG-bs,
+.compactButtonDisabled-MwB2d6 {
+    padding: 8px 14px;
+    background: var(--btn-brand);
+    border-radius: 2px;
+
+    .text-2guAFQ {
+        font-size: 14px;
+        line-height: 18px;
+        font-weight: 400;
+        color: var(--btn-brand-text);
+    }
+}
+
+.compactButton-3hG-bs:hover {
+    background: var(--btn-brand-hover);
+
+    .text-2guAFQ {
+        color: #fff;
     }
 }
