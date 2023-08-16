@@ -58,11 +58,17 @@
     --quote-color: hsl(calc(var(--accent-hue) - 3) 19.2% 41.8%);
     --store-divider: linear-gradient(to right, hsl(calc(var(--accent-hue) - 4), 41.1%, 38.6%) 0%, transparent 100%);
 
+    --text-linkHi: hsl(calc(var(--accent-hue) - 8) 88% 70%);
+    --text-linkHi-hover: hsl(calc(var(--accent-hue) - 8), 100%, 85%);
+
+    --app-bg: hsl(213 35% 16%);
     --banner-lightblue: linear-gradient(135deg, hsl(calc(var(--accent-hue) - 10) 2.0% 38.8%/.3) 0%, hsl(calc(var(--accent-hue) - 2) 100.0% 94.3%/.3) 100%);
     --banner-lightblue-hover: hsl(calc(var(--accent-hue) - 3), 40.9%, 43.1%);
     --banner-lightblue-input: hsl(calc(var(--accent-hue) + 7), 21.8%, 17.1%);
-    --text-linkHi: hsl(calc(var(--accent-hue) - 8) 88% 70%);
-    --text-linkHi-hover: hsl(calc(var(--accent-hue) - 8), 100%, 85%);
+    --banner-blue: linear-gradient(135deg, hsl(calc(var(--accent-hue) - 3) 40.7% 42.4%/.4) 10%, hsl(calc(var(--accent-hue) - 3) 86.6% 67.8%/.4) 100%);
+    --banner-blue-child: linear-gradient(135deg, hsl(calc(var(--accent-hue) - 2) 41.2% 10%/.4) 10%, rgb(0 0 0/.4) 100%);
+    --banner-shadow: 2px 2px 15px rgb(0 0 0/.4);
+    --banner-green: linear-gradient(60deg, rgb(117 176 34/.7) 5%, rgb(88 138 27/.6) 95%);
 }
 
 :root,

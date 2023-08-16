@@ -267,8 +267,7 @@
 
 .tile-2mmK5T {
     #app-mount & {
-        background: var(--background-tertiary);
-        box-shadow: 2px 2px 10px rgb(0 0 0/.4);
+        background: var(--banner-lightblue);
     }
 
     transform: none;
@@ -279,35 +278,30 @@
 
     .invalidPoop--w1123 {
         background-color: transparent;
-    }
-
-    &:has(.invalidPoop--w1123) {
-        &::before {
-            content: '';
-            position: absolute;
-            inset: 0;
-            background: radial-gradient(circle at top left, var(--background-accent) 0%, transparent 95%);
-        }
+        background-size: 64%;
     }
 
     .title-oJa_A6 {
-        font-size: 16px;
+        font-size: 21px;
         font-weight: 400;
-        text-align: center;
     }
 
     .tagline-3DhQWg {
-        text-align: center;
         font-size: 14px;
         line-height: 18px;
         color: var(--header-secondary);
-        margin-top: 10px;
+        margin-top: 0;
     }
 
     .actions-3Gkxv6 {
         margin-top: 10px;
         display: flex;
-        justify-content: center;
+        margin-left: auto;
+        align-items: center;
+        width: fit-content;
+        background: #000;
+        padding: 3px;
+        border-radius: 2px;
     }
 }
 
@@ -316,6 +310,13 @@
 
     #app-mount & {
         background: var(--banner-lightblue);
+    }
+
+    .volumeButtonSlider-2OrZ9e {
+        position: absolute;
+        bottom: 10px;
+        left: -54px;
+        right: 0;
     }
 }
 
@@ -361,11 +362,20 @@
 }
 
 .volumeButton-3IDSX- {
+
+    // Full
     &:has([d^="M11.383 3.07904C11.009 2.92504 10.579 3.01004 10.293"]) {
         mask: url(https://maendisease.github.io/Steam/illustrations/icns/volume.svg) center/contain no-repeat;
         mask-size: 20px;
     }
 
+    // Half
+    &:has([d^="M10.293 3.29604C10.579 3.01004 11.009 2.92504 11.383"]) {
+        mask: url(https://maendisease.github.io/Steam/illustrations/icns/volumehalf.svg) center/contain no-repeat;
+        mask-size: 20px;
+    }
+
+    // Mute
     &:has([d^="M19.73 9L21 10.27l-2.23 2.23L21"]) {
         mask: url(https://maendisease.github.io/Steam/illustrations/icns/volumemuted.svg) center/contain no-repeat;
         mask-size: 20px;
@@ -528,7 +538,7 @@
 
     .inviteDestination-1rM5rX {
         font-weight: 400;
-        text-shadow:0 1px 2px rgb(0 0 0 / 30%);
+        text-shadow: 0 1px 2px rgb(0 0 0 / 30%);
     }
 
     .guildDetail-3EJhW_ {
@@ -538,7 +548,7 @@
 
     .count-62gVQ0 {
         color: var(--header-secondary);
-        text-shadow:0 1px 2px rgb(0 0 0 / 30%);
+        text-shadow: 0 1px 2px rgb(0 0 0 / 30%);
     }
 
     button {
@@ -745,7 +755,7 @@
 
 .spamBanner-1auiob {
     background: var(--message-background-gradient-red);
-    box-shadow: 2px 2px 15px rgb(0 0 0/.4);
+    box-shadow: var(--banner-shadow);
     border-radius: 4px;
 }
 
@@ -758,11 +768,15 @@
     background: hsl(calc(var(--accent-hue) + 1) 32% 34%/.502);
     border-radius: 0;
 
-    .cta-1XhfrG, .name-13vPlv {
+    .cta-1XhfrG,
+    .name-13vPlv {
         font-weight: 400;
     }
 }
 
-.executedCommandAvatar-3oOnb1, .replyAvatar-sHd2sU, .replyBadge-LMm_Ic, .threadMessageAccessoryAvatar-17qE_g {
+.executedCommandAvatar-3oOnb1,
+.replyAvatar-sHd2sU,
+.replyBadge-LMm_Ic,
+.threadMessageAccessoryAvatar-17qE_g {
     border-radius: 3px;
 }
