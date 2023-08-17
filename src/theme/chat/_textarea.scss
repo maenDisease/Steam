@@ -47,15 +47,15 @@
 .jumpToPresentBar-1cEnH0 {
     bottom: 1px;
     border-radius: 3px;
-    background: linear-gradient(135deg, hsl(0 0% 41%/.5) 0%, hsl(0 0% 72%/.502) 100%), var(--background-tertiary);
-    border: 1px solid hsl(var(--accent-hue) 35% 23%);
+    background: var(--banner-lightblue) var(--app-bg);
+    border: none;
     opacity: 1;
     padding-bottom: unset;
 }
 
 .newMessagesBar-1hF-9G {
     border-radius: 0 0 3px 3px;
-    background: linear-gradient(135deg, hsl(var(--accent-hue) 23% 41%/.5) 0%, hsl(var(--accent-hue) 60% 72%/.502) 100%), var(--background-tertiary);
+    background: linear-gradient(135deg, hsl(var(--accent-hue) 23.2% 41.4%/.5) 0%, hsl(var(--accent-hue) 60% 71.6%/.5) 100%), var(--background-tertiary);
     opacity: 1;
 }
 

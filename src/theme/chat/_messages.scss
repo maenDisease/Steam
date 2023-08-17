@@ -39,7 +39,7 @@
     max-width: var(--message-width);
 
     &.mentioned-Tre-dv {
-        background: var(--message-background-gradient-yellow);
+        background: var(--banner-yellow);
     }
 
     &.replying-eZ7p5z {
@@ -48,12 +48,12 @@
 
     &.automodMessage-265YwJ,
     &:has(.communicationDisabled-2KRN2p) {
-        background: var(--message-background-gradient-red);
+        background: var(--banner-red);
     }
 
     &:has(.button-3bklZh.dangerous-Y36ifs:hover),
     &:has(.button-3bklZh.dangerous-Y36ifs:active) {
-        background: var(--message-background-gradient-red);
+        background: var(--banner-red);
     }
 
     &:hover .header-2jRmjb {
@@ -71,7 +71,7 @@
 }
 
 #app-mount .messageListItem-ZZ7v6g:has(.communicationDisabled-2KRN2p)+.messageListItem-ZZ7v6g .message-2CShn3:not(.groupStart-3Mlgv1) {
-    background: var(--message-background-gradient-red);
+    background: var(--banner-red);
 }
 
 .hoverButtonGroup-2yZIzC {
@@ -758,7 +758,7 @@
 }
 
 .spamBanner-1auiob {
-    background: var(--message-background-gradient-red);
+    background: var(--banner-red);
     box-shadow: var(--banner-shadow);
     border-radius: 4px;
 }
@@ -769,8 +769,8 @@
 }
 
 .container-3i3IzO {
-    background: hsl(calc(var(--accent-hue) + 1) 32% 34%/.502);
-    border-radius: 0;
+    background: var(--btn-brand);
+    border-radius: 2px;
 
     .cta-1XhfrG,
     .name-13vPlv {

@@ -1,5 +1,29 @@
 @use "../modals/generic";
 
+.paymentModalContent {
+    .scroller-2M3eAB {
+        height: 100%;
+        padding: 0 32px 16px 32px !important;
+        overflow: hidden overlay !important;
+    }
+}
+.perks-2IIbWQ {
+    background: none;
+    border-radius: 0;
+
+    .perkRow-10K6XE {
+        padding: 8px 24px 10px 16px;
+        margin: 0;
+        background: var(--btn-grey);
+        border-radius: 2px;
+        margin-bottom: 10px;
+    }
+
+    .perkDescription-3e1T_w {
+        font-weight: 400;
+    }
+}
+
 #app-mount .root-2zfUH6 {
     background: var(--modal-background) !important;
     border-radius: 0 !important;
