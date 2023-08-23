@@ -5,7 +5,7 @@
 .container-ZMc96U.themed-Hp1KC_ {
     background: linear-gradient(90deg, hsl(calc(var(--accent-hue) + 7) 41.5% 41.6%/.919) 11.38%, hsl(calc(var(--accent-hue) + 4) 51% 46%/.8) 25.23%, hsl(calc(var(--accent-hue) + 24) 76.0% 24.5%) 100%);
     box-shadow: 0 0 3px rgb(0 0 0/.4);
-    height: 36px;
+    min-height: 36px;
     margin-top: var(--content-gutter);
     padding: 0 5px 0 4px;
     overflow: hidden;
@@ -19,7 +19,7 @@
     }
 
     .title-17SveM {
-        text-shadow:0 2px 3px rgb(0 0 0/.3);
+        text-shadow: 0 2px 3px rgb(0 0 0/.3);
         font-size: 14px;
         text-transform: capitalize;
     }
@@ -53,7 +53,7 @@
     }
 
     .topic-11NuQZ {
-        text-shadow:0 1px 2px rgb(0 0 0/.3);
+        text-shadow: 0 1px 2px rgb(0 0 0/.3);
     }
 
     .search-39IXmY {
