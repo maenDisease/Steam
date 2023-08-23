@@ -1767,7 +1767,7 @@ body #app-mount:-webkit-full-screen .app-3xd6d0 .base-2jDfDU {
 .container-ZMc96U.themed-Hp1KC_ {
   background: linear-gradient(90deg, hsl(calc(var(--accent-hue) + 7), 41.5%, 41.6%, 0.919) 11.38%, hsl(calc(var(--accent-hue) + 4), 51%, 46%, 0.8) 25.23%, hsl(calc(var(--accent-hue) + 24), 76%, 24.5%) 100%);
   box-shadow: 0 0 3px rgba(0, 0, 0, 0.4);
-  height: 36px;
+  min-height: 36px;
   margin-top: var(--content-gutter);
   padding: 0 5px 0 4px;
   overflow: hidden;
