@@ -152,6 +152,7 @@
         padding: 12px;
         min-width: 100%;
         box-shadow: var(--dropdown-popout-shadow);
+        z-index: 1002;
     }
 
     .bd-select-option {

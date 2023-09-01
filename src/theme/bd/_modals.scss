@@ -62,6 +62,28 @@
     box-shadow: none;
 }
 
+.bd-text-input {
+    padding: 10px;
+    height: 42px;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 22px;
+    border-radius: 2px;
+    background: var(--btn-grey);
+    border: none;
+    transition: none;
+
+    &:hover {
+        background: var(--btn-grey-hover-light);
+    }
+
+    &:focus,
+    &:focus-within {
+        background: var(--background-modifier-accent-dark);
+        box-shadow: inset 1px 1px 4px #000a;
+    }
+}
+
 .bd-error-modal {
     .header-1ffhsl {
         .title-lXcL8p {
