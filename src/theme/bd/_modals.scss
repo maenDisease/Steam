@@ -1,3 +1,67 @@
+@use "../modals/generic";
+
+.bd-modal-root {
+    background: var(--modal-background);
+    border-radius: 0;
+    @include generic.modalTopBar;
+
+    --text-link: var(--text-linkHi);
+
+    a:hover {
+        text-decoration: none;
+        --text-link: var(--text-linkHi-hover);
+    }
+}
+
+.bd-button.bd-close-button {
+    position: absolute;
+    top: 9px;
+    right: 9px;
+    height: 16px;
+    width: 16px;
+    padding: 0;
+    box-shadow: none;
+
+    svg {
+        height: 16px !important;
+        width: 16px !important;
+    }
+}
+
+.bd-modal-medium {
+    width: 500px;
+}
+
+.bd-modal-header {
+    h1 {
+        font-size: 22px;
+        font-weight: 700;
+        line-height: 24px;
+        text-transform: unset !important;
+        margin-bottom: 0 !important;
+        color: var(--header-primary);
+    }
+}
+
+.bd-modal-header,
+.bd-modal-footer {
+    padding: 32px;
+}
+
+.bd-modal-content {
+    border-radius: 0;
+    padding-left: 32px;
+    padding-bottom: 0;
+    padding-right: 32px;
+    overflow: hidden overlay;
+}
+
+.bd-modal-footer {
+    border-radius: 0;
+    background: none;
+    box-shadow: none;
+}
+
 .bd-error-modal {
     .header-1ffhsl {
         .title-lXcL8p {
@@ -75,7 +139,7 @@
         }
     }
 
-    .bd-addon-error-file {
+    .bd-addon-error-header-inner h3 {
         color: var(--status-danger);
         line-height: 20px;
         font-size: 16px;
@@ -144,13 +208,5 @@
             line-height: 24px;
             color: var(--header-primary);
         }
-    }
-}
-
-.bd-changelog-modal {
-    h1 {
-        font-size: 22px;
-        font-weight: 700;
-        color: var(--header-primary);
     }
 }
