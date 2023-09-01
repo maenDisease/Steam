@@ -14019,6 +14019,7 @@ userProfileModalOuter-2wdWjU: modal
   padding: 12px;
   min-width: 100%;
   box-shadow: var(--dropdown-popout-shadow);
+  z-index: 1002;
 }
 .bd-select .bd-select-option {
   padding: 10px 15px;
@@ -14537,6 +14538,25 @@ userProfileModalOuter-2wdWjU: modal
   border-radius: 0;
   background: none;
   box-shadow: none;
+}
+
+.bd-text-input {
+  padding: 10px;
+  height: 42px;
+  font-size: 14px;
+  font-weight: 300;
+  line-height: 22px;
+  border-radius: 2px;
+  background: var(--btn-grey);
+  border: none;
+  transition: none;
+}
+.bd-text-input:hover {
+  background: var(--btn-grey-hover-light);
+}
+.bd-text-input:focus, .bd-text-input:focus-within {
+  background: var(--background-modifier-accent-dark);
+  box-shadow: inset 1px 1px 4px rgba(0, 0, 0, 0.6666666667);
 }
 
 .bd-error-modal .header-1ffhsl .title-lXcL8p {
