@@ -52,6 +52,24 @@
         background: var(--topbar-item-hover);
     }
 
+    .iconWrapper-2awDjA[aria-label]:has(.iconBadge-3Mmg92) {
+
+        .svg-lIB-lq {
+            height: 16px !important;
+            width: 16px !important;
+        }
+
+        .icon-2xnN2Y {
+            height: 24px;
+            width: 24px;
+            color: var(--status-danger);
+        }
+    }
+
+    .iconBadge-3Mmg92 {
+        display: none;
+    }
+
     .topic-11NuQZ {
         text-shadow: 0 1px 2px rgb(0 0 0/.3);
     }
