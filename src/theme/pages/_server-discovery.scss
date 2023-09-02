@@ -117,10 +117,10 @@
 #app-mount {
 
     .card-2TuZPZ {
-        background: linear-gradient(-45deg, hsl(calc(var(--accent-hue) - 3) 41% 42.5%) 5%, hsl(calc(var(--accent-hue) + 9) 35.9% 25.7%) 95%);
+        background: linear-gradient(-45deg, hsl(calc(var(--accent-hue) - 3) calc(var(--saturation-factor, 1)*41%) 42.5%) 5%, hsl(calc(var(--accent-hue) + 9) calc(var(--saturation-factor, 1)*35.9%) 25.7%) 95%);
 
         &:hover {
-            background: linear-gradient(to right, hsl(calc(var(--accent-hue) - 4) 41.4% 37.5%) 5%, hsl(calc(var(--accent-hue) - 4) 41.1% 45.3%) 95%)
+            background: linear-gradient(to right, hsl(calc(var(--accent-hue) - 4) calc(var(--saturation-factor, 1)*41.4%) 37.5%) 5%, hsl(calc(var(--accent-hue) - 4) calc(var(--saturation-factor, 1)*41.1%) 45.3%) 95%)
         }
 
         .iconMask-2fMR98 {
@@ -363,7 +363,7 @@
             width: 100%;
             box-sizing: border-box;
             font-size: 12px;
-            color: hsl(calc(var(--accent-hue) + 1), 28.7%, 82.9%);
+            color: hsl(calc(var(--accent-hue) + 1) calc(var(--saturation-factor, 1)*28.7%) 82.9%);
             border-top-left-radius: 1px;
             border-top-right-radius: 1px;
         }
@@ -374,7 +374,7 @@
             border-radius: 0;
             margin: 0 2px 0 4px;
             width: calc(100% - 22px);
-            --text-muted: hsl(calc(var(--accent-hue) - 3), 29.7%, 71%);
+            --text-muted: hsl(calc(var(--accent-hue) - 3) calc(var(--saturation-factor, 1)*29.7%) 71%);
 
             &:first-child {
                 margin-top: 4px;
@@ -451,7 +451,7 @@
 
         &:hover {
             background: rgb(0 0 0/.4);
-            border-color: hsl(calc(var(--accent-hue) - 2) 39% 41%);
+            border-color: hsl(calc(var(--accent-hue) - 2) calc(var(--saturation-factor, 1)*39%) 41%);
         }
 
         .splashContainer-2PC_Bm {

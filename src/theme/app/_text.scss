@@ -1,5 +1,5 @@
 ::selection {
-    background: hsl(calc(var(--accent-hue) - 3), 59.8%, 58%);
+    background: hsl(calc(var(--accent-hue) - 3) calc(var(--saturation-factor, 1)*59.8%) 58%);
     text-shadow: 1px 1px 2px rgb(0 0 0/.6666666667);
     color: #fff;
 }
@@ -21,7 +21,7 @@
         border: none;
 
         &.inline {
-            background: hsl(calc(var(--accent-hue) + 11) 9.1% 21.6%);
+            background: hsl(calc(var(--accent-hue) + 11) calc(var(--saturation-factor, 1)*9.1%) 21.6%);
             padding: 0.2em 5px;
         }
     }
@@ -55,9 +55,9 @@
     align-self: center;
 
     &[style="background-color: var(--brand-500);"] {
-        background-color: hsl(calc(var(--accent-hue) + 5), 29%, 42%) !important;
-        border: 1px solid hsl(calc(var(--accent-hue) + 5), 34%, 60%);
-        color: hsl(calc(var(--accent-hue) + 5), 79%, 78%);
+        background-color: hsl(calc(var(--accent-hue) + 5) calc(var(--saturation-factor, 1)*29%) 42%) !important;
+        border: 1px solid hsl(calc(var(--accent-hue) + 5) calc(var(--saturation-factor, 1)*34%) 60%);
+        color: hsl(calc(var(--accent-hue) + 5) calc(var(--saturation-factor, 1)*79%) 78%);
     }
 }
 

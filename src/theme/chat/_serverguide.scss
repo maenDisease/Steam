@@ -146,7 +146,7 @@
             }
 
             &:not(:hover, :has(.checkCircleCompleted-1VoXrE)) {
-                --header-primary: hsl(calc(var(--accent-hue) + 2) 11.5% 69.4%);
+                --header-primary: hsl(calc(var(--accent-hue) + 2) calc(var(--saturation-factor, 1)*11.5%) 69.4%);
             }
 
             &:hover:not(:has(.checkCircleCompleted-1VoXrE)) {
@@ -246,7 +246,7 @@
     }
 
     .guildDescription-2azZZ9 {
-        --text-normal: hsl(calc(var(--accent-hue) + 1), 28.1%, 82.5%);
+        --text-normal: hsl(calc(var(--accent-hue) + 1) calc(var(--saturation-factor, 1)*28.1%) 82.5%);
         font-size: 14px;
         line-height: 18px;
     }
@@ -270,7 +270,7 @@
         line-height: unset;
         font-weight: 400;
         margin-bottom: 2px;
-        --header-primary: hsl(calc(var(--accent-hue) + 3) 8.2% 59.4%);
+        --header-primary: hsl(calc(var(--accent-hue) + 3) calc(var(--saturation-factor, 1)*8.2%) 59.4%);
     }
 }
 

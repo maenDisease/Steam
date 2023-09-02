@@ -50,12 +50,12 @@
         text-align: left;
         margin: 0 0 10px 0;
         padding-right: 16px;
-        color: hsl(calc(var(--accent-hue) + 1), 28.1%, 82.5%);
+        color: hsl(calc(var(--accent-hue) + 1) calc(var(--saturation-factor, 1)*28.1%) 82.5%);
     }
 
     .ctaSubtitle-2NP9L_ {
         grid-area: sub;
-        --header-secondary: hsl(calc(var(--accent-hue) + 1), 28.1%, 82.5%);
+        --header-secondary: hsl(calc(var(--accent-hue) + 1) calc(var(--saturation-factor, 1)*28.1%) 82.5%);
         font-size: 14px;
         line-height: 18px;
         text-align: left;

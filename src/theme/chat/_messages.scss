@@ -24,15 +24,15 @@
 }
 
 #app-mount .botTagRegular-kpctgU {
-    background-color: hsl(calc(var(--accent-hue) + 5) 28.7% 42.4%);
-    border: 1px solid hsl(calc(var(--accent-hue) + 5) 34.0% 60.2%);
-    color: hsl(calc(var(--accent-hue) + 5) 78.8% 77.8%);
+    background-color: hsl(calc(var(--accent-hue) + 5) calc(var(--saturation-factor, 1)*28.7%) 42.4%);
+    border: 1px solid hsl(calc(var(--accent-hue) + 5) calc(var(--saturation-factor, 1)*34%) 60.2%);
+    color: hsl(calc(var(--accent-hue) + 5) calc(var(--saturation-factor, 1)*78.8%) 77.8%);
     border-radius: 0;
 }
 
 #app-mount .message-2CShn3 {
-    background: hsl(calc(var(--accent-hue) + 9) 35.4% 19.4%/.8);
-    border: 1px solid hsl(calc(var(--accent-hue) + 9) 35.0% 22.9%);
+    background: hsl(calc(var(--accent-hue) + 9) calc(var(--saturation-factor, 1)*35.4%) 19.4%/.8);
+    border: 1px solid hsl(calc(var(--accent-hue) + 9) calc(var(--saturation-factor, 1)*35%) 22.9%);
     box-shadow: 0 0 5px #000;
     margin: 0 16px;
     margin-bottom: 2px;
@@ -239,14 +239,14 @@
     }
 
     .textContainer-36wgKK {
-        background: linear-gradient(-90deg, hsl(calc(var(--accent-hue) - 2) 100.0% 94.3%/.3) 5%, hsl(calc(var(--accent-hue) - 10) 15.6% 39.0%/.3) 95%);
+        background: linear-gradient(-90deg, hsl(calc(var(--accent-hue) - 2) calc(var(--saturation-factor, 1)*100%) 94.3%/.3) 5%, hsl(calc(var(--accent-hue) - 10) calc(var(--saturation-factor, 1)*15.6%) 39.0%/.3) 95%);
         border: none;
         border-radius: 4px 4px 0 0;
         min-height: 116px;
     }
 
     .footer-GXWBBp {
-        background: linear-gradient(-60deg, hsl(calc(var(--accent-hue) - 2) 100.0% 94.3%/.3) 5%, hsl(calc(var(--accent-hue) - 10) 15.6% 39.0%/.3) 95%);
+        background: linear-gradient(-60deg, hsl(calc(var(--accent-hue) - 2) calc(var(--saturation-factor, 1)*100%) 94.3%/.3) 5%, hsl(calc(var(--accent-hue) - 10) calc(var(--saturation-factor, 1)*15.6%) 39.0%/.3) 95%);
         border: none;
         border-radius: 0 0 4px 4px;
         gap: 4px;
@@ -325,10 +325,10 @@
 }
 
 .videoControls-2NzHnF {
-    background: linear-gradient(to top, rgb(0 0 0/.95) 0%, rgb(0 0 0/.6) 60%, hsl(calc(var(--accent-hue) + 25) 9.4% 12.5%/0) 100%);
+    background: linear-gradient(to top, rgb(0 0 0/.95) 0%, rgb(0 0 0/.6) 60%, hsl(calc(var(--accent-hue) + 25) calc(var(--saturation-factor, 1)*9.4%) 12.5%/0) 100%);
 
     .mediaBarWrapper-33h1oY {
-        background: hsl(calc(var(--accent-hue) - 13) 15.8% 29.8%);
+        background: hsl(calc(var(--accent-hue) - 13) calc(var(--saturation-factor, 1)*15.8%) 29.8%);
     }
 }
 
@@ -489,9 +489,9 @@
             width: 220%;
             height: 100%;
             background: linear-gradient(to bottom,
-                    hsl(calc(var(--accent-hue) + 5) 100% 96.1%/0) 0%,
-                    hsl(calc(var(--accent-hue) + 5) 100% 96.1%/.85) 12px,
-                    hsl(calc(var(--accent-hue) + 5) 100% 96.1%/.75) 20%,
+                    hsl(calc(var(--accent-hue) + 5) calc(var(--saturation-factor, 1)*100%) 96.1%/0) 0%,
+                    hsl(calc(var(--accent-hue) + 5) calc(var(--saturation-factor, 1)*100%) 96.1%/.85) 12px,
+                    hsl(calc(var(--accent-hue) + 5) calc(var(--saturation-factor, 1)*100%) 96.1%/.75) 20%,
                     rgb(210 210 210/0) 60%,
                     rgb(10 10 10/0.0) 85%,
                     rgb(10 10 10/.8) 100%);

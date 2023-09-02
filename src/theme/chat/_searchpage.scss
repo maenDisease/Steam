@@ -12,7 +12,7 @@
 }
 
 .searchResult-O9NDji {
-    background: hsl(var(--accent-hue) 88% 68%/.1);
+    background: hsl(var(--accent-hue) calc(var(--saturation-factor, 1)*88%) 68%/.1);
     border-radius: 0;
 }
 
@@ -50,7 +50,7 @@
     justify-content: center;
 
     &:not(.selected-1sf9UK):hover {
-        background: hsl(var(--accent-hue) 40% 23%/.4);
+        background: hsl(var(--accent-hue) calc(var(--saturation-factor, 1)*40%) 23%/.4);
     }
 }
 
@@ -88,11 +88,11 @@
 
 .pageButton-uta6J3.button-ejjZWC {
     background-color: var(--btn-brand);
-    color: hsl(var(--accent-hue) 87% 68%);
+    color: hsl(var(--accent-hue) calc(var(--saturation-factor, 1)*87%) 68%);
     font-weight: 400;
 
     &:hover {
-        background-color: hsl(var(--accent-hue) 87% 68%);
+        background-color: hsl(var(--accent-hue) calc(var(--saturation-factor, 1)*87%) 68%);
         color: #fff;
     }
 }
@@ -107,7 +107,7 @@
     }
 
     &.activeButton-2K2Fwx {
-        color: hsl(var(--accent-hue) 19% 42%);
+        color: hsl(var(--accent-hue) calc(var(--saturation-factor, 1)*19%) 42%);
         cursor: default;
         background: none;
     }

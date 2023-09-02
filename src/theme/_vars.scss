@@ -31,45 +31,45 @@
 
 .theme-dark,
 .theme-light {
-    --modal-background: radial-gradient(circle at top left, hsl(calc(var(--accent-hue) + 12) 10.8% 32.5%/0.4) 0%, hsl(calc(var(--accent-hue) + 14) 10.2% 32.7%/0) 60%), hsl(calc(var(--accent-hue) + 15) 10.8% 16.3%);
-    --text-muted: hsl(calc(var(--accent-hue) + 7) 6.9% 57.5%);
-    --header-secondary: hsl(calc(var(--accent-hue) + 1) 5.2% 73.5%);
+    --modal-background: radial-gradient(circle at top left, hsl(calc(var(--accent-hue) + 12) calc(var(--saturation-factor, 1)*10.8%) 32.5%/0.4) 0%, hsl(calc(var(--accent-hue) + 14) calc(var(--saturation-factor, 1)*10.2%) 32.7%/0) 60%), hsl(calc(var(--accent-hue) + 15) calc(var(--saturation-factor, 1)*10.8%) 16.3%);
+    --text-muted: hsl(calc(var(--accent-hue) + 7) calc(var(--saturation-factor, 1)*6.9%) 57.5%);
+    --header-secondary: hsl(calc(var(--accent-hue) + 1) calc(var(--saturation-factor, 1)*5.2%) 73.5%);
 }
 
 .theme-dark {
     --titlebar-height: 36px;
 
     --store-sidebar-background: linear-gradient(to right, rgb(0 0 0/.2) 0%, rgb(0 0 0/.5) 100%);
-    --code-background: hsl(calc(var(--accent-hue) - 2) 27.6% 11.4%);
+    --code-background: hsl(calc(var(--accent-hue) - 2) calc(var(--saturation-factor, 1)*27.6%) 11.4%);
 
     --contextmenu-background: var(--background-accent);
     --contextmenu-shadow: 3px 3px 5px -3px #000;
-    --contextmenu-text: hsl(calc(var(--accent-hue) - 5) 4.5% 86.9%);
-    --contextmenu-text-hover: hsl(calc(var(--accent-hue) + 17) 17.9% 11%);
+    --contextmenu-text: hsl(calc(var(--accent-hue) - 5) calc(var(--saturation-factor, 1)*4.5%) 86.9%);
+    --contextmenu-text-hover: hsl(calc(var(--accent-hue) + 17) calc(var(--saturation-factor, 1)*17.9%) 11%);
     --contextmenu-gradient:
         linear-gradient(90deg,
-            hsl(var(--accent-hue) 100% 56.5%/.1) 1.89%,
-            hsl(calc(var(--accent-hue) + 35) 1% 19.8%/0) 50%),
+            hsl(var(--accent-hue) calc(var(--saturation-factor, 1)*100%) 56.5%/.1) 1.89%,
+            hsl(calc(var(--accent-hue) + 35) calc(var(--saturation-factor, 1)*1%) 19.8%/0) 50%),
         linear-gradient(180deg,
-            hsl(calc(var(--accent-hue) + 28) 4.9% 35.9%) 11.6%,
-            hsl(var(--accent-hue) 17.1% 27.5%) 54.73%,
-            hsl(calc(var(--accent-hue) + 27) 8.3% 18.8%) 100%);
+            hsl(calc(var(--accent-hue) + 28) calc(var(--saturation-factor, 1)*4.9%) 35.9%) 11.6%,
+            hsl(var(--accent-hue) calc(var(--saturation-factor, 1)*17.1%) 27.5%) 54.73%,
+            hsl(calc(var(--accent-hue) + 27) calc(var(--saturation-factor, 1)*8.3%) 18.8%) 100%);
 
-    --quote-color: hsl(calc(var(--accent-hue) - 3) 19.2% 41.8%);
-    --store-divider: linear-gradient(to right, hsl(calc(var(--accent-hue) - 4), 41.1%, 38.6%) 0%, transparent 100%);
+    --quote-color: hsl(calc(var(--accent-hue) - 3) calc(var(--saturation-factor, 1)*19.2%) 41.8%);
+    --store-divider: linear-gradient(to right, hsl(calc(var(--accent-hue) - 4), calc(var(--saturation-factor, 1)*41.1%), 38.6%) 0%, transparent 100%);
 
-    --text-linkHi: hsl(calc(var(--accent-hue) - 8) 88% 70%);
-    --text-linkHi-hover: hsl(calc(var(--accent-hue) - 8), 100%, 85%);
+    --text-linkHi: hsl(calc(var(--accent-hue) - 8) calc(var(--saturation-factor, 1)*88%) 70%);
+    --text-linkHi-hover: hsl(calc(var(--accent-hue) - 8) calc(var(--saturation-factor, 1)*100%) 85%);
 
     --app-bg: hsl(213 35% 16%);
-    --banner-lightblue: linear-gradient(135deg, hsl(calc(var(--accent-hue) - 10) 2.0% 38.8%/.3) 0%, hsl(calc(var(--accent-hue) - 2) 100.0% 94.3%/.3) 100%);
-    --banner-lightblue-hover: hsl(calc(var(--accent-hue) - 3), 40.9%, 43.1%);
-    --banner-lightblue-input: hsl(calc(var(--accent-hue) + 7), 21.8%, 17.1%);
-    --banner-blue: linear-gradient(135deg, hsl(calc(var(--accent-hue) - 3) 40.7% 42.4%/.4) 10%, hsl(calc(var(--accent-hue) - 3) 86.6% 67.8%/.4) 100%);
-    --banner-blue-child: linear-gradient(135deg, hsl(calc(var(--accent-hue) - 2) 41.2% 10%/.4) 10%, rgb(0 0 0/.4) 100%);
+    --banner-lightblue: linear-gradient(135deg, hsl(calc(var(--accent-hue) - 10) calc(var(--saturation-factor, 1)*2%) 38.8%/.3) 0%, hsl(calc(var(--accent-hue) - 2) calc(var(--saturation-factor, 1)*100%) 94.3%/.3) 100%);
+    --banner-lightblue-hover: hsl(calc(var(--accent-hue) - 3) calc(var(--saturation-factor, 1)*40.9%) 43.1%);
+    --banner-lightblue-input: hsl(calc(var(--accent-hue) + 7) calc(var(--saturation-factor, 1)*21.8%) 17.1%);
+    --banner-blue: linear-gradient(135deg, hsl(calc(var(--accent-hue) - 3) calc(var(--saturation-factor, 1)*40.7%) 42.4%/.4) 10%, hsl(calc(var(--accent-hue) - 3) calc(var(--saturation-factor, 1)*86.6%) 67.8%/.4) 100%);
+    --banner-blue-child: linear-gradient(135deg, hsl(calc(var(--accent-hue) - 2) calc(var(--saturation-factor, 1)*41.2%) 10%/.4) 10%, rgb(0 0 0/.4) 100%);
     --banner-shadow: 2px 2px 15px rgb(0 0 0/.4);
     --banner-green: linear-gradient(60deg, rgb(117 176 34/.7) 5%, rgb(88 138 27/.6) 95%);
-    --banner-yellow: linear-gradient(135deg, rgb(130 114 81/.5) 0%,rgb(226 197 139/.5) 100%);
+    --banner-yellow: linear-gradient(135deg, rgb(130 114 81/.5) 0%, rgb(226 197 139/.5) 100%);
     // --banner-purple: linear-gradient(135deg,  rgba(72,23,70,0.8) 10%,rgba(165,84,177,0.8) 100%);
     // --banner-pink: linear-gradient( 60deg, #9d2f52 5%,#ce7e94 95%);
     // --banner-verylightblue: linear-gradient(135deg,  rgba(172,219,245,0.5) 0%,rgba(255,255,255,0.5) 100%);
@@ -80,68 +80,68 @@
 :root,
 .theme-dark {
 
-    --modal-popout-message: hsl(calc(var(--accent-hue) + 18), 12.3%, 22.4%);
-    --background-secondary: hsl(calc(var(--accent-hue) + 17) 10.6% 18.4%);
-    --background-tertiary: hsl(calc(var(--accent-hue) + 9) 23.3% 11.8%);
+    --modal-popout-message: hsl(calc(var(--accent-hue) + 18) calc(var(--saturation-factor, 1)*12.3%) 22.4%);
+    --background-secondary: hsl(calc(var(--accent-hue) + 17) calc(var(--saturation-factor, 1)*10.6%) 18.4%);
+    --background-tertiary: hsl(calc(var(--accent-hue) + 9) calc(var(--saturation-factor, 1)*23.3%) 11.8%);
 
-    --interactive-normal: hsl(calc(var(--accent-hue) + 7) 7% 57%);
-    --interactive-hover: hsl(calc(var(--accent-hue) + 1) 5% 74%);
+    --interactive-normal: hsl(calc(var(--accent-hue) + 7) calc(var(--saturation-factor, 1)*7%) 57%);
+    --interactive-hover: hsl(calc(var(--accent-hue) + 1) calc(var(--saturation-factor, 1)*5%) 74%);
 
-    --background-modifier-hover: hsl(var(--accent-hue) 24% 68%/0.3);
+    --background-modifier-hover: hsl(var(--accent-hue) calc(var(--saturation-factor, 1)*24%) 68%/0.3);
     --background-modifier-active: var(--background-modifier-hover);
 
     --message-background-gradient-blue: linear-gradient(135deg, hsl(var(--accent-hue) 23.2% 41.4%/.5) 0%, hsl(var(--accent-hue) 60% 71.6%/.5) 100%);
 
-    --darker-grey: hsl(calc(var(--accent-hue) + 15), 8.6%, 13.7%);
+    --darker-grey: hsl(calc(var(--accent-hue) + 15) calc(var(--saturation-factor, 1)*8.6%) 13.7%);
     --modal-footer-background: none;
     --modal-shadow: 1px 3px 14px rgb(0 0 0/.65);
-    --background-accent-25: hsl(calc(var(--accent-hue) + 13) 13.5% 27.6%/.25);
-    --background-accent-75: hsl(calc(var(--accent-hue) + 13) 13.5% 27.6%/.75);
-    --background-accent: hsl(calc(var(--accent-hue) + 13) 13.5% 27.6%);
-    --background-accent-hover: hsl(calc(var(--accent-hue) + 8) 8.8% 44.3%);
-    --background-modifier-accent: hsl(calc(var(--accent-hue) + 8) 8.8% 44.3%/.3);
-    --background-modifier-accent-compat: hsl(calc(var(--accent-hue) + 8) 8.8% 44.3%/.3);
-    --background-modifier-accent-dark: hsl(calc(var(--accent-hue) + 19) 13.6% 15.9%);
+    --background-accent-25: hsl(calc(var(--accent-hue) + 13) calc(var(--saturation-factor, 1)*13.5%) 27.6%/.25);
+    --background-accent-75: hsl(calc(var(--accent-hue) + 13) calc(var(--saturation-factor, 1)*13.5%) 27.6%/.75);
+    --background-accent: hsl(calc(var(--accent-hue) + 13) calc(var(--saturation-factor, 1)*13.5%) 27.6%);
+    --background-accent-hover: hsl(calc(var(--accent-hue) + 8) calc(var(--saturation-factor, 1)*8.8%) 44.3%);
+    --background-modifier-accent: hsl(calc(var(--accent-hue) + 8) calc(var(--saturation-factor, 1)*8.8%) 44.3%/.3);
+    --background-modifier-accent-compat: hsl(calc(var(--accent-hue) + 8) calc(var(--saturation-factor, 1)*8.8%) 44.3%/.3);
+    --background-modifier-accent-dark: hsl(calc(var(--accent-hue) + 19) calc(var(--saturation-factor, 1)*13.6%) 15.9%);
     --header-primary: #fff;
-    --scroller-color: hsl(calc(var(--accent-hue) + 13) 10.7% 29.4%);
-    --scroller-hover-color: hsl(calc(var(--accent-hue) + 15) 5.5% 32.4%);
-    --channels-category: hsl(calc(var(--accent-hue) + 2) 23.5% 42.5%);
-    --channels-default: hsl(calc(var(--accent-hue) - 1) 18.7% 52.7%);
-    --channels-default-hover: hsl(calc(var(--accent-hue) - 3) 86.6% 67.8%);
+    --scroller-color: hsl(calc(var(--accent-hue) + 13) calc(var(--saturation-factor, 1)*10.7%) 29.4%);
+    --scroller-hover-color: hsl(calc(var(--accent-hue) + 15) calc(var(--saturation-factor, 1)*5.5%) 32.4%);
+    --channels-category: hsl(calc(var(--accent-hue) + 2) calc(var(--saturation-factor, 1)*23.5%) 42.5%);
+    --channels-default: hsl(calc(var(--accent-hue) - 1) calc(var(--saturation-factor, 1)*18.7%) 52.7%);
+    --channels-default-hover: hsl(calc(var(--accent-hue) - 3) calc(var(--saturation-factor, 1)*88.6%) 67.8%);
     --channel-icon: var(--channels-category);
-    --channel-selected: radial-gradient(circle at 0%, hsl(calc(var(--accent-hue) + 2) 23.5% 42.5%/0) 20%, hsl(calc(var(--accent-hue) + 2) 23.5% 42.5%/.25) 100%);
-    --tooltip-background: hsl(calc(var(--accent-hue) + 45), 5.5%, 42.7%);
-    --tooltip-text: hsl(calc(var(--accent-hue) + 25), 10.7%, 89%);
-    --text-lighter: hsl(calc(var(--accent-hue) + 1), 12.3%, 88.8%);
+    --channel-selected: radial-gradient(circle at 0%, hsl(calc(var(--accent-hue) + 2) calc(var(--saturation-factor, 1)*23.5%) 42.5%/0) 20%, hsl(calc(var(--accent-hue) + 2) calc(var(--saturation-factor, 1)*23.5%) 42.5%/.25) 100%);
+    --tooltip-background: hsl(calc(var(--accent-hue) + 45) calc(var(--saturation-factor, 1)*5.5%) 42.7%);
+    --tooltip-text: hsl(calc(var(--accent-hue) + 25) calc(var(--saturation-factor, 1)*10.7%) 89%);
+    --text-lighter: hsl(calc(var(--accent-hue) + 1) calc(var(--saturation-factor, 1)*12.3%) 88.8%);
     // Button
-    --header-button-background: hsl(calc(var(--accent-hue) + 8) 8.8% 44.3%/.2);
-    --sidebar-btn-brand: hsl(calc(var(--accent-hue) - 3) 87.7% 68.2%/.1);
-    --btn-brand: hsl(calc(var(--accent-hue) - 3) 87.7% 68.2%/.2);
-    --btn-brand-border: hsl(calc(var(--accent-hue) - 3) 87.7% 68.2%/.15);
-    --btn-brand-text: hsl(calc(var(--accent-hue) - 3) 87.7% 68.2%);
-    --btn-brand-hover: linear-gradient(-60deg, hsl(calc(var(--accent-hue) - 3) 40.9% 43.1%) 5%, var(--btn-brand-text) 95%);
+    --header-button-background: hsl(calc(var(--accent-hue) + 8) calc(var(--saturation-factor, 1)*8.8%) 44.3%/.2);
+    --sidebar-btn-brand: hsl(calc(var(--accent-hue) - 3) calc(var(--saturation-factor, 1)*87.7%) 68.2%/.1);
+    --btn-brand: hsl(calc(var(--accent-hue) - 3) calc(var(--saturation-factor, 1)*87.7%) 68.2%/.2);
+    --btn-brand-border: hsl(calc(var(--accent-hue) - 3) calc(var(--saturation-factor, 1)*87.7%) 68.2%/.15);
+    --btn-brand-text: hsl(calc(var(--accent-hue) - 3) calc(var(--saturation-factor, 1)*87.7%) 68.2%);
+    --btn-brand-hover: linear-gradient(-60deg, hsl(calc(var(--accent-hue) - 3) calc(var(--saturation-factor, 1)*40.9%) 43.1%) 5%, var(--btn-brand-text) 95%);
 
-    --btn-grey: hsl(calc(var(--accent-hue) + 17) 9.9% 25.7%/.5);
-    --btn-grey-hover: hsl(calc(var(--accent-hue) + 12) 11.4% 31.0%);
-    --btn-grey-hover-light: hsl(calc(var(--accent-hue) + 13) 10.7% 29.4%/.6);
+    --btn-grey: hsl(calc(var(--accent-hue) + 17) calc(var(--saturation-factor, 1)*9.9%) 25.7%/.5);
+    --btn-grey-hover: hsl(calc(var(--accent-hue) + 12) calc(var(--saturation-factor, 1)*11.4%) 31.0%);
+    --btn-grey-hover-light: hsl(calc(var(--accent-hue) + 13) calc(var(--saturation-factor, 1)*10.7%) 29.4%/.6);
     --btn-grey-boxshadow: 0 8px 16px 0 rgb(0 0 0/.3);
 
     --btn-dark: rgb(0 0 0/.2);
-    --btn-dark-text: hsl(calc(var(--accent-hue) - 3) 86.6% 67.8%);
-    --btn-dark-hover: hsl(calc(var(--accent-hue) - 3) 86.6% 67.8%/.4);
+    --btn-dark-text: hsl(calc(var(--accent-hue) - 3) calc(var(--saturation-factor, 1)*86.6%) 67.8%);
+    --btn-dark-hover: hsl(calc(var(--accent-hue) - 3) calc(var(--saturation-factor, 1)*86.6%) 67.8%/.4);
 
     --button-positive-background: var(--gpColor-Green);
     --button-positive-background-hover: hsl(96 58% 30%);
 
-    --store-tablist-btn: linear-gradient(135deg, hsl(var(--accent-hue) 39.6% 39.6%) 0%, hsl(var(--accent-hue), 41.8%, 31%) 100%);
-    --dropdown-popout-background: hsl(calc(var(--accent-hue) + 12) 10.6% 24.1%);
+    --store-tablist-btn: linear-gradient(135deg, hsl(var(--accent-hue) calc(var(--saturation-factor, 1)*39.6%) 39.6%) 0%, hsl(var(--accent-hue) calc(var(--saturation-factor, 1)*41.8%) 31%) 100%);
+    --dropdown-popout-background: hsl(calc(var(--accent-hue) + 12) calc(var(--saturation-factor, 1)*10.6%) 24.1%);
     --dropdown-popout-shadow: 0 8px 26px 2px rgb(0 0 0/.2);
-    --dropdown-popout-hover: hsl(calc(var(--accent-hue) + 11), 10.8%, 27.3%);
-    --store-search-border: hsl(calc(var(--accent-hue) + 8) 37.8% 53.3%/.2);
-    --topbar-item-hover: linear-gradient(90deg, hsl(var(--accent-hue) 100.0% 56.5%/.25) 0%, hsl(var(--accent-hue) 100.0% 56.5%/.15) 50%, rgb(50 50 51/0) 100%);
-    --topbar-item-selected: hsl(calc(var(--accent-hue) + 6), 100%, 56.1%);
-    --app-background: hsl(calc(var(--accent-hue) + 8) 35% 16%);
-    --store-body-header: hsl(calc(var(--accent-hue) - 9) 98.4% 25.3%);
+    --dropdown-popout-hover: hsl(calc(var(--accent-hue) + 11) calc(var(--saturation-factor, 1)*10.8%) 27.3%);
+    --store-search-border: hsl(calc(var(--accent-hue) + 8) calc(var(--saturation-factor, 1)*37.8%) 53.3%/.2);
+    --topbar-item-hover: linear-gradient(90deg, hsl(var(--accent-hue) calc(var(--saturation-factor, 1)*100%) 56.5%/.25) 0%, hsl(var(--accent-hue) calc(var(--saturation-factor, 1)*100%) 56.5%/.15) 50%, rgb(50 50 51/0) 100%);
+    --topbar-item-selected: hsl(calc(var(--accent-hue) + 6) calc(var(--saturation-factor, 1)*100%) 56.1%);
+    --app-background: hsl(calc(var(--accent-hue) + 8) calc(var(--saturation-factor, 1)*35%) 16%);
+    --store-body-header: hsl(calc(var(--accent-hue) - 9) calc(var(--saturation-factor, 1)*98.4%) 25.3%);
     --mention-background: var(--btn-brand);
     --mention-foreground: var(--btn-brand-text);
 

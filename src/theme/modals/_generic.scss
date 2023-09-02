@@ -4,7 +4,7 @@
         display: block;
         height: 1px;
         width: 100%;
-        background: linear-gradient(to right, hsl(calc(var(--accent-hue) - 13) 100% 50%) 0%, hsl(calc(var(--accent-hue) + 20) 100% 60%) 100%);
+        background: linear-gradient(to right, hsl(calc(var(--accent-hue) - 13) calc(var(--saturation-factor, 1)*100%) 50%) 0%, hsl(calc(var(--accent-hue) + 20) calc(var(--saturation-factor, 1)*100%) 60%) 100%);
         position: absolute;
         z-index: 102;
         top: 0;
@@ -95,7 +95,7 @@
     }
 
     .defaultColor-1EVLSt.text-md-normal-2rFCH3 {
-        --text-normal: hsl(calc(var(--accent-hue) + 5), 7.8%, 69.8%);
+        --text-normal: hsl(calc(var(--accent-hue) + 5) calc(var(--saturation-factor, 1)*7.8%) 69.8%);
     }
 }
 

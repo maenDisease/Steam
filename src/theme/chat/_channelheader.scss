@@ -3,7 +3,7 @@
 }
 
 .container-ZMc96U.themed-Hp1KC_ {
-    background: linear-gradient(90deg, hsl(calc(var(--accent-hue) + 7) 41.5% 41.6%/.919) 11.38%, hsl(calc(var(--accent-hue) + 4) 51% 46%/.8) 25.23%, hsl(calc(var(--accent-hue) + 24) 76.0% 24.5%) 100%);
+    background: linear-gradient(90deg, hsl(calc(var(--accent-hue) + 7) calc(var(--saturation-factor, 1)*41.5%) 41.6%/.919) 11.38%, hsl(calc(var(--accent-hue) + 4) calc(var(--saturation-factor, 1)*51%) 46%/.8) 25.23%, hsl(calc(var(--accent-hue) + 24) calc(var(--saturation-factor, 1)*76%) 24.5%) 100%);
     box-shadow: 0 0 3px rgb(0 0 0/.4);
     min-height: 36px;
     margin-top: var(--content-gutter);
@@ -68,11 +68,11 @@
         border: 1px solid rgb(0 0 0/.3);
         box-shadow: 1px 1px 0 rgb(255 255 255/.2);
         padding: 1px 1px 1px 4px;
-        background: hsl(var(--accent-hue) 45% 35%);
+        background: hsl(var(--accent-hue) calc(var(--saturation-factor, 1)*45%) 35%);
     }
 
     .search-2Mwzzq .DraftEditor-root .public-DraftEditorPlaceholder-root {
-        color: hsl(var(--accent-hue) 45% 10%);
+        color: hsl(var(--accent-hue) calc(var(--saturation-factor, 1)*45%) 10%);
         font-size: 14px;
         font-style: italic;
         text-shadow: 1px 1px 0 rgb(255 255 255/.1);
@@ -83,7 +83,7 @@
     }
 
     .icon-tZMHgY {
-        background: hsl(var(--accent-hue) 73% 65%);
+        background: hsl(var(--accent-hue) calc(var(--saturation-factor, 1)*73%) 65%);
         border-radius: 2px;
     }
 

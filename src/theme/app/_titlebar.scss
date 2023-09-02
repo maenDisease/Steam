@@ -13,7 +13,7 @@
     top: 0;
     width: 32px;
     height: 32px;
-    --winbutton-svg: hsl(calc(var(--accent-hue) - 7) 10.7% 52.2%);
+    --winbutton-svg: hsl(calc(var(--accent-hue) - 7) calc(var(--saturation-factor, 1)*10.7%) 52.2%);
     color: var(--winbutton-svg);
 
     &:hover,
@@ -109,7 +109,7 @@ html.app-focused #app-mount::before {
     display: block;
     height: 1px;
     width: 100%;
-    background: linear-gradient(to right, transparent 10%, hsl(var(--accent-hue) 100% 55.1%/.325) 50%, transparent 90%);
+    background: linear-gradient(to right, transparent 10%, hsl(var(--accent-hue) calc(var(--saturation-factor, 1)*100%) 55.1%/.325) 50%, transparent 90%);
     position: absolute;
     z-index: 9999;
     top: 0;

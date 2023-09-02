@@ -198,7 +198,7 @@ userProfileModalOuter-2wdWjU: modal
 }
 
 .theme-light .overlayBackground-2aa7wt {
-    background: linear-gradient(to bottom, hsl(calc(var(--accent-hue) + 15) 11.1% 39%/.7) 5%, hsl(calc(var(--accent-hue) + 15) 11.1% 89%/.4) 95%);
+    background: linear-gradient(to bottom, hsl(calc(var(--accent-hue) + 15) calc(var(--saturation-factor, 1)*11.1%) 39%/.7) 5%, hsl(calc(var(--accent-hue) + 15) calc(var(--saturation-factor, 1)*11.1%) 89%/.4) 95%);
 }
 
 .profileColors-2AgAV4 .overlayBackground-2aa7wt {
@@ -212,7 +212,7 @@ userProfileModalOuter-2wdWjU: modal
 
 .overlayBackground-2aa7wt {
     border-radius: 0;
-    background: linear-gradient(to bottom, hsl(calc(var(--accent-hue) + 15) 11.1% 10.6%/.7) 5%, hsl(calc(var(--accent-hue) + 15) 11.1% 10.6%/.4) 95%);
+    background: linear-gradient(to bottom, hsl(calc(var(--accent-hue) + 15) calc(var(--saturation-factor, 1)*11.1%) 10.6%/.7) 5%, hsl(calc(var(--accent-hue) + 15) calc(var(--saturation-factor, 1)*11.1%) 10.6%/.4) 95%);
 
     .customStatusSection-2_fKRl {
         padding-top: 16px;

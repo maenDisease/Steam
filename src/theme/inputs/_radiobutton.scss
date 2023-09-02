@@ -29,7 +29,7 @@
         }
 
         &:hover:not([aria-checked=true]):not(.disabled-WBmOu_) {
-            background: hsl(calc(var(--accent-hue) + 19) 9.7% 22.2%);
+            background: hsl(calc(var(--accent-hue) + 19) calc(var(--saturation-factor, 1)*9.7%) 22.2%);
             color: var(--text-lighter);
         }
 

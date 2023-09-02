@@ -240,7 +240,7 @@
     font-size: 14px;
     line-height: 18px;
     font-weight: normal;
-    color: hsl(calc(var(--accent-hue) + 3) 8.2% 59.4%);
+    color: hsl(calc(var(--accent-hue) + 3) calc(var(--saturation-factor, 1)*8.2%) 59.4%);
     letter-spacing: .02em;
 }
 

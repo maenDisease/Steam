@@ -163,14 +163,14 @@
         transition-property: background, box-shadow, color;
         transition-duration: .2s;
         transition-timing-function: ease-out;
-        background-image: linear-gradient(to right, hsl(calc(var(--accent-hue) - 4), 100%, 63.9%) 0%, hsl(calc(var(--accent-hue) + 20), 76.4%, 43.1%) 60%);
+        background-image: linear-gradient(to right, hsl(calc(var(--accent-hue) - 4) calc(var(--saturation-factor, 1)*100%) 63.9%) 0%, hsl(calc(var(--accent-hue) + 20) calc(var(--saturation-factor, 1)*76.4%) 43.1%) 60%);
         background-position: 25%;
         background-size: 330% 100%;
 
         &:hover {
             background-position: 0%;
             background-size: 330% 100%;
-            background-image: linear-gradient(to right, hsl(calc(var(--accent-hue) - 4), 100%, 63.9%) 0%, hsl(calc(var(--accent-hue) + 20), 76.4%, 43.1%) 60%);
+            background-image: linear-gradient(to right, hsl(calc(var(--accent-hue) - 4) calc(var(--saturation-factor, 1)*100%) 63.9%) 0%, hsl(calc(var(--accent-hue) + 20) calc(var(--saturation-factor, 1)*76.4%) 43.1%) 60%);
             box-shadow: var(--btn-grey-boxshadow);
         }
     }

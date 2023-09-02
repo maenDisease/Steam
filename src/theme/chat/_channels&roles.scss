@@ -47,7 +47,7 @@
             justify-content: center;
 
             &:not([aria-selected="true"]):hover {
-                background: hsl(var(--accent-hue) 40% 23%/.4);
+                background: hsl(var(--accent-hue) calc(var(--saturation-factor, 1)*40%) 23%/.4);
             }
 
             border-bottom: none;

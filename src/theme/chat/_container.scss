@@ -154,7 +154,7 @@
         font-size: 14px;
         line-height: 18px;
         font-weight: 200;
-        color: hsl(calc(var(--accent-hue) + 3) 29.4% 90%);
+        color: hsl(calc(var(--accent-hue) + 3) calc(var(--saturation-factor, 1)*29.4%) 90%);
 
         +.flex-2S1XBF:has(>button) {
             margin-bottom: 35px;

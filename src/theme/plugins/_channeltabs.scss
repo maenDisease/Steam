@@ -14,12 +14,12 @@
 
     ~.layers-OrUESM {
         .container-YkUktl::before {
-            box-shadow: inset hsl(calc(var(--accent-hue) + 13), 13.5%, 27.6%, 0.75) 1px 1px 1px 0, inset hsl(calc(var(--accent-hue) + 13), 13.5%, 27.6%, 0.25) -1px 0 1px 0;
+            box-shadow: inset hsl(calc(var(--accent-hue) + 13) calc(var(--saturation-factor, 1)*13.5%) 27.6%/.75) 1px 1px 1px 0, inset hsl(calc(var(--accent-hue) + 13) calc(var(--saturation-factor, 1)*13.5%) 27.6%/.25) -1px 0 1px 0;
         }
     }
 
-    box-shadow: inset hsl(calc(var(--accent-hue) + 13), 13.5%, 27.6%, 0.75) 1px 0 0 0,
-    inset hsl(calc(var(--accent-hue) + 13), 13.5%, 27.6%, 0.25) -1px -1px 0 0;
+    box-shadow: inset hsl(calc(var(--accent-hue) + 13) calc(var(--saturation-factor, 1)*13.5%) 27.6%/.75) 1px 0 0 0,
+    inset hsl(calc(var(--accent-hue) + 13) calc(var(--saturation-factor, 1)*13.5%) 27.6%/.25) -1px -1px 0 0;
 
     .channelTabs-tab {
         border-radius: 0;
