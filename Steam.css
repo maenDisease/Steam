@@ -9788,7 +9788,7 @@ body #app-mount .layer-86YKbF ~ .layer-86YKbF .sidebar-nqHbhN:has(.socialLinks-3
 }
 
 .theme-dark #app-mount .theme-light .root-1CAIjD {
-  --text-normal: hsl(alc(var(--accent-hue) + 11) calc(var(--saturation-factor, 1)*7.7%) 87.3%);
+  --text-normal: hsl(calc(var(--accent-hue) + 11) calc(var(--saturation-factor, 1)*7.7%) 87.3%);
 }
 .theme-dark #app-mount .theme-light .root-1CAIjD .header-1ffhsl [data-text-variant="heading-xl/semibold"] {
   color: #fff;
