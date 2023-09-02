@@ -7159,6 +7159,15 @@ body #app-mount .layer-86YKbF ~ .layer-86YKbF .sidebar-nqHbhN:has(.socialLinks-3
   color: rgba(255, 255, 255, 0.2);
 }
 
+.innerWrapper-Eo2E86 {
+  background-image: linear-gradient(45deg, var(--guild-boosting-blue), var(--guild-boosting-purple));
+  border-radius: 4px;
+  box-shadow: var(--banner-shadow);
+  padding: 16px;
+  width: unset;
+  max-width: 438px;
+}
+
 #app-mount .contentRegion-3HkfJJ .contentRegionScroller-2_GT_N:has(#nitro-server-boost-tab) {
   padding-top: 0;
   background: #000;
