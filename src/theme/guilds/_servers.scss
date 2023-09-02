@@ -135,3 +135,11 @@ foreignObject {
         --gpColor-Grey: var(--status-danger);
     }
 }
+
+.placeholderMask-2FHNZU foreignObject[mask="url(#svg-mask-squircle)"] {
+    mask: none;
+}
+
+.dragInner-1CUBf_ {
+    background-color: var(--header-button-background);
+}
