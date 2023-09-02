@@ -987,6 +987,15 @@ body #app-mount:-webkit-full-screen .app-3xd6d0 .base-2jDfDU {
   --gpColor-Grey: var(--status-danger);
 }
 
+.placeholderMask-2FHNZU foreignObject[mask="url(#svg-mask-squircle)"] {
+  -webkit-mask: none;
+          mask: none;
+}
+
+.dragInner-1CUBf_ {
+  background-color: var(--header-button-background);
+}
+
 #app-mount .wrapper-1_HaEi.guilds-2JjMmN [class*=expandedFolderBackground] {
   border-radius: 2px;
 }
