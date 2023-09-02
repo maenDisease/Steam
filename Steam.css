@@ -1806,6 +1806,18 @@ body #app-mount:-webkit-full-screen .app-3xd6d0 .base-2jDfDU {
 .container-ZMc96U.themed-Hp1KC_ .toolbar-3_r2xA .iconWrapper-2awDjA:where(:hover, [aria-expanded=true]) {
   background: var(--topbar-item-hover);
 }
+.container-ZMc96U.themed-Hp1KC_ .iconWrapper-2awDjA[aria-label]:has(.iconBadge-3Mmg92) .svg-lIB-lq {
+  height: 16px !important;
+  width: 16px !important;
+}
+.container-ZMc96U.themed-Hp1KC_ .iconWrapper-2awDjA[aria-label]:has(.iconBadge-3Mmg92) .icon-2xnN2Y {
+  height: 24px;
+  width: 24px;
+  color: var(--status-danger);
+}
+.container-ZMc96U.themed-Hp1KC_ .iconBadge-3Mmg92 {
+  display: none;
+}
 .container-ZMc96U.themed-Hp1KC_ .topic-11NuQZ {
   text-shadow: 0 1px 2px rgba(0, 0, 0, 0.3);
 }
