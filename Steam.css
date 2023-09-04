@@ -11469,6 +11469,9 @@ video:has([src="/assets/b6508869eb1b93a8e54729ac86985599.png"]) {
 .userProfileModalOuter-2wdWjU .userInfoText-2MFCmH {
   margin-bottom: 0;
 }
+.userProfileModalOuter-2wdWjU .userInfoText-2MFCmH .lineClamp2Plus-2SCQmH {
+  -webkit-line-clamp: 20 !important;
+}
 .userProfileModalOuter-2wdWjU .userInfoSection-2u2hir {
   padding: 0;
 }
