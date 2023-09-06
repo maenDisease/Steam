@@ -8,7 +8,8 @@
         }
     }
 
-    .platform-linux & {
+    .platform-linux &,
+    .platform-web & {
         margin-top: var(--titlebar-height);
     }
 

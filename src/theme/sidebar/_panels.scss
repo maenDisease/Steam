@@ -115,7 +115,8 @@
         }
     }
 
-    .platform-linux & {
+    .platform-linux &,
+    .platform-web & {
         right: 0;
         width: 100%;
 

@@ -7,20 +7,13 @@
     }
 }
 
-html.platform-osx #app-mount .base-2jDfDU {
-    top: 0 !important;
-}
-
-html.platform-osx #app-mount .base-2jDfDU {
-  margin-top: var(--titlebar-height) !important;
-}
-
-html.platform-linux #app-mount .base-2jDfDU {
-    top: 0 !important;
-}
-
-html.platform-linux #app-mount .base-2jDfDU {
-  margin-top: var(--titlebar-height) !important;
+#app-mount .base-2jDfDU {
+    html.platform-osx &,
+    html.platform-linux &,
+    html.platform-web & {
+        top: 0 !important;
+        margin-top: var(--titlebar-height) !important;
+    }
 }
 
 body #app-mount:-webkit-full-screen .app-3xd6d0 .base-2jDfDU {
