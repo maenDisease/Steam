@@ -847,19 +847,8 @@ html.app-focused #app-mount::before {
   margin-top: var(--titlebar-height);
 }
 
-html.platform-osx #app-mount .base-2jDfDU {
+html.platform-osx #app-mount .base-2jDfDU, html.platform-linux #app-mount .base-2jDfDU, html.platform-web #app-mount .base-2jDfDU {
   top: 0 !important;
-}
-
-html.platform-osx #app-mount .base-2jDfDU {
-  margin-top: var(--titlebar-height) !important;
-}
-
-html.platform-linux #app-mount .base-2jDfDU {
-  top: 0 !important;
-}
-
-html.platform-linux #app-mount .base-2jDfDU {
   margin-top: var(--titlebar-height) !important;
 }
 
@@ -1098,7 +1087,7 @@ body #app-mount:-webkit-full-screen .app-3xd6d0 .base-2jDfDU {
   box-shadow: none;
   width: 189px;
 }
-.platform-linux .header-3OsQeK {
+.platform-linux .header-3OsQeK, .platform-web .header-3OsQeK {
   left: 9px;
 }
 .header-3OsQeK .headerContent-2SNbie {
@@ -1233,11 +1222,11 @@ body #app-mount:-webkit-full-screen .app-3xd6d0 .base-2jDfDU {
 .platform-osx .container-YkUktl::before {
   left: 0;
 }
-.platform-linux .container-YkUktl {
+.platform-linux .container-YkUktl, .platform-web .container-YkUktl {
   right: 0;
   width: 100%;
 }
-.platform-linux .container-YkUktl::before {
+.platform-linux .container-YkUktl::before, .platform-web .container-YkUktl::before {
   left: 0;
 }
 .container-YkUktl::before {
@@ -14741,7 +14730,7 @@ userProfileModalOuter-2wdWjU: modal
   padding-top: 4px;
   border-top: none;
 }
-.platform-linux #channelTabs-container {
+.platform-linux #channelTabs-container, .platform-web #channelTabs-container {
   margin-top: var(--titlebar-height);
 }
 #channelTabs-container ~ .layers-OrUESM .container-YkUktl::before {
