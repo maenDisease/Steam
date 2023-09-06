@@ -2,7 +2,9 @@
     box-shadow: inset hsl(calc(var(--accent-hue) + 13) calc(var(--saturation-factor, 1)*13.5%) 27.6%/.65) -1px -1px 0 0,
         inset hsl(calc(var(--accent-hue) + 13) calc(var(--saturation-factor, 1)*13.5%) 27.6%/.45) 1px 1px 0 0;
 
-    .platform-osx & {
+    .platform-osx &,
+    .platform-linux &,
+    .platform-web & {
         margin-top: var(--titlebar-height);
     }
 }
