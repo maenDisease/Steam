@@ -843,7 +843,7 @@ html.app-focused #app-mount::before {
 .wrapper-1_HaEi {
   box-shadow: inset hsl(calc(var(--accent-hue) + 13), calc(var(--saturation-factor, 1) * 13.5%), 27.6%, 0.65) -1px -1px 0 0, inset hsl(calc(var(--accent-hue) + 13), calc(var(--saturation-factor, 1) * 13.5%), 27.6%, 0.45) 1px 1px 0 0;
 }
-.platform-osx .wrapper-1_HaEi {
+.platform-osx .wrapper-1_HaEi, .platform-linux .wrapper-1_HaEi, .platform-web .wrapper-1_HaEi {
   margin-top: var(--titlebar-height);
 }
 
