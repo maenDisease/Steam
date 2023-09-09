@@ -259,8 +259,17 @@
             color: var(--text-muted);
         }
 
+        .downloadSection-20OayS+a {
+            align-items: center;
+            display: flex;
+        }
+
         svg {
             color: var(--brand-experiment);
+        }
+
+        .codeIcon-Ni8XUA {
+            padding-bottom: 0;
         }
     }
 }
