@@ -3,6 +3,7 @@ export default {
 	meta: {
 		name: "Steam",
 		author: "maenDisease",
+		authorLink: "https://maendisease.github.io/",
 		version: "1.0.0",
 		description: "Steam UI on Discord.",
 		source: "https://github.com/maenDisease/Steam",
