@@ -13,11 +13,11 @@
     }
 
     .children-2C96Ex {
-        > .divider-3nqZNm.marginBottom20-315RVT:has(+[data-text-variant="text-md/normal"]:last-child) {
+        >.divider-3nqZNm.marginBottom20-315RVT:nth-last-child(2) {
             margin-bottom: 0;
         }
         
-        > [data-text-variant="text-md/normal"]:last-child {
+        >[data-text-variant="text-md/normal"]:last-child {
             padding: 0;
             background: none;
             border: none;

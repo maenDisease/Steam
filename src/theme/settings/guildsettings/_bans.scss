@@ -1,30 +1,74 @@
-.sidebarRegion-1VBisG:has(.selected-1sf9UK[aria-controls="bans-tab"])+.contentRegion-3HkfJJ {
-    .searchBar-30dqPB {
-        border-radius: 2px;
-        transition: padding .3s cubic-bezier(0.16, 0.86, 0.43, 0.99);
+@use '../container';
 
-        &:hover {
-            padding-left: 8px;
-            padding-right: 8px;
-            background: var(--btn-grey-hover);
-            box-shadow: var(--btn-grey-boxshadow);
-        }
+.container-2BhFic {
+    gap: 0;
+    padding: 0 24px 24px 24px;
+    width: unset;
+
+    .sectionTitle-LdcnyP .title-lXcL8p {
+        @include container.settingsHeader;
+        @include container.settingsHeaderText;
+    }
+}
+
+.bansSearchContainer-q16YdP {
+    gap: 16px;
+
+    .searchBar-SC7FqZ {
+        border-radius: 2px;
+        transition-property: background, box-shadow;
+        transition-duration: .2s;
+        transition-timing-function: ease-out;
 
         .icon-3CDcPB {
             color: var(--brand-experiment);
         }
+
+        input,
+        input::placeholder {
+            color: #fff;
+            font-size: 16px;
+            line-height: 20px;
+            font-weight: 600;
+        }
+
+        &:hover:not(:focus, :focus-within) {
+            background: var(--btn-grey-hover);
+            box-shadow: var(--btn-grey-boxshadow);
+        }
+
+        &:focus,
+        &:focus-within {
+            background: var(--btn-grey);
+        }
     }
 }
 
-#app-mount {
-    .bannedUser-26qsXF {
-        box-shadow: none;
-        padding-left: 8px;
-        padding-right: 8px;
+.scrollerContainer-20PD88 {
+    height: 100%;
+    padding: 0;
+    border-radius: 0;
+    background: none;
+    box-shadow: none;
+    margin-top: 10px;
+}
 
-        &:hover {
-            background: var(--background-accent);
-            transition: background .2s linear;
-        }
+.listItems-6eZzQ1 {
+    inset: 0 !important;
+}
+
+.bannedUser-1IrKtC {
+    #app-mount & {
+        box-shadow: none;
+    }
+
+    cursor: pointer;
+    border-radius: 0;
+    background: none;
+    transition: none;
+
+    &:hover {
+        background: var(--background-accent);
+        transition: background .2s linear;
     }
 }

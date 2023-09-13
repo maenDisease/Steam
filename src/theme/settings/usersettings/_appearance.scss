@@ -1,5 +1,5 @@
 #appearance-tab {
-    .children-2C96Ex > [data-text-variant="text-md/normal"]:last-child {
+    .children-2C96Ex>[data-text-variant="text-md/normal"]:last-child {
         padding: 0;
         background: none;
         border: none;
@@ -72,12 +72,12 @@
         background: var(--background-tertiary);
 
         .header-LaudvZ {
-            
+
             .headings-1UkJbq {
                 gap: 0;
             }
 
-            [data-text-variant="text-md/medium"]{
+            [data-text-variant="text-md/medium"] {
                 color: var(--text-muted);
                 font-size: 14px;
                 font-weight: 700;

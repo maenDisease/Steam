@@ -4,10 +4,11 @@
     .otherSessions-3BQszU {
         margin-top: 10px;
     }
+}
 
-    +div .logOutAllButton-11uhew {
-        margin-top: 0;
-    }
+.logOutAllButton-11uhew {
+    margin-top: 0;
+    outline: 1px dashed cyan;
 }
 
 .session-9khLqt {
@@ -34,7 +35,9 @@
     .eyebrow-1Shfyi {
         color: #fff;
         font-weight: 400;
+        font-size: 16px;
         line-height: 20px;
+        text-transform: unset;
     }
 
     [data-text-variant="text-sm/medium"] {
@@ -57,32 +60,32 @@
         }
     }
 
-    .sessionMoreButton-2cApSx {
-        background-color: var(--background-accent);
-        border-radius: 2px;
-        margin: 8px 8px 8px auto;
-        height: 24px;
-        width: 24px;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        color: var(--status-danger);
-
-        &:hover {
-            background: var(--status-danger);
-            color: #fff;
-        }
-
-        svg {
-            height: 18px;
-            width: 18px;
-        }
-    }
-
     &:has(.sessionMoreButton-2cApSx:hover) {
         .sessionIcon-2fwSzb {
             background: var(--status-danger);
         }
+    }
+}
+
+.sessionMoreButton-2cApSx {
+    background-color: var(--background-accent);
+    border-radius: 2px;
+    margin: 8px 8px 8px auto;
+    height: 24px;
+    width: 24px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: var(--status-danger);
+
+    &:hover {
+        background: var(--status-danger);
+        color: #fff;
+    }
+
+    svg {
+        height: 18px;
+        width: 18px;
     }
 }
 

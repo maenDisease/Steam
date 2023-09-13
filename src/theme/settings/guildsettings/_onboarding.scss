@@ -1,6 +1,4 @@
-// @use '../container';
-
-.contentRegionScroller-2_GT_N:has(#onboarding-tab:not(:has(.onboardingContainer-2miLb4))) {
+.contentRegionScroller-2_GT_N:has(#onboarding-tab .upsellContainer-3YwRiu) {
     background: #000;
 }
 
@@ -96,10 +94,15 @@
             }
         }
     }
+}
 
-    .onboardingContainer-2miLb4 {
+.onboardingContainer-2miLb4 {
         padding: 24px;
         gap: 0;
+
+        &:has(.upsellContainer-3YwRiu) {
+            padding: 0;
+        }
 
         .channelBrowser-IzfwD1 {
             width: 50%;
@@ -114,8 +117,6 @@
             }
         }
     }
-
-}
 
 .educationUpsell-2MjLj5 {
     background: var(--background-accent);

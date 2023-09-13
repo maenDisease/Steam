@@ -2,6 +2,91 @@
     padding-top: 0;
 }
 
+.rolesTable-11lOYY {
+    .memberSpacing-1e6OH3 {
+        display: none;
+    }
+}
+
+.roleRow-230vCm {
+    margin-left: 0;
+    margin-right: 0;
+    border-radius: 0;
+
+    &::before,
+    &::after {
+        opacity: 0;
+    }
+
+    &:hover:not(.roleRowDisableHover-3En0vy) {
+        background: var(--background-accent);
+        transition: background .2s linear;
+    }
+
+    .dragIcon-2L691r {
+        color: var(--brand-experiment);
+    }
+
+    .roleIcon-1dWkrr:has(path[d="M19.487 5.126L10.487 0.126C10.184 -0.042 9.81798 -0.042 9.51498 0.126L0.514977 5.126C0.197977 5.302 0.000976562 5.636 0.000976562 5.999C0.000976562 6.693 0.114977 22.999 10.001 22.999C19.887 22.999 20.001 6.693 20.001 5.999C20.001 5.636 19.804 5.302 19.487 5.126ZM10.001 5.999C11.382 5.999 12.501 7.118 12.501 8.499C12.501 9.88 11.382 10.999 10.001 10.999C8.61998 10.999 7.50098 9.88 7.50098 8.499C7.50098 7.118 8.61998 5.999 10.001 5.999ZM6.25098 16C6.25098 13.699 7.69998 12.25 10.001 12.25C12.302 12.25 13.751 13.699 13.751 16H6.25098Z"]) {
+        height: 47px;
+        width: 49px;
+        margin-top: 1px;
+        margin-right: 12px;
+
+        path {
+            d: path("M 22 0 L 0 0 L 0 22 L 22 22 Z M 11.001 5.999 C 12.382 5.999 13.501 7.118 13.501 8.499 C 13.501 9.88 12.382 10.999 11.001 10.999 C 9.62 10.999 8.501 9.88 8.501 8.499 C 8.501 7.118 9.62 5.999 11.001 5.999 Z M 7.251 16 C 7.251 13.699 8.7 12.25 11.001 12.25 C 13.302 12.25 14.751 13.699 14.751 16 H 7.251 Z");
+        }
+    }
+
+    .roleName-1zfJkq {
+        font-weight: 400;
+        margin-bottom: 20px;
+    }
+
+    .memberCountContainer-2sIXRp {
+        position: absolute;
+        left: 0;
+        margin-top: 22px;
+        margin-left: calc(36px + 45px + 12px);
+        color: var(--text-muted);
+
+        .text-md-normal-2rFCH3 {
+            color: var(--text-muted);
+            font-size: 12px;
+            line-height: 22px;
+            letter-spacing: .5px;
+            text-transform: uppercase;
+            font-weight: 700;
+        }
+    }
+
+    .person-2z4Mcy {
+        order: -1;
+        margin-left: 0;
+        margin-right: 4px;
+        width: 16px;
+        height: 16px;
+    }
+
+    &:hover:not(.roleRowDisableHover-3En0vy) {
+        .circleButton-2Yr5A1 {
+            background-color: var(--background-accent-hover);
+        }
+    }
+
+    .circleButton-2Yr5A1 {
+        background: var(--btn-grey);
+        color: var(--brand-experiment);
+        transition: background .2s linear, box-shadow .2s ease-in-out;
+        border-radius: 2px;
+
+        &:hover {
+            background: var(--btn-grey-hover);
+            box-shadow: var(--btn-grey-boxshadow);
+        }
+    }
+}
+
 #roles-tab {
     .customScroller-m1-jZn>div {
         margin-left: 24px;
@@ -40,91 +125,6 @@
         }
     }
 
-    .rolesTable-11lOYY {
-        .memberSpacing-1e6OH3 {
-            display: none;
-        }
-    }
-
-    .roleRow-230vCm {
-        margin-left: 0;
-        margin-right: 0;
-        border-radius: 0;
-
-        &::before,
-        &::after {
-            opacity: 0;
-        }
-
-        &:hover:not(.roleRowDisableHover-3En0vy) {
-            background: var(--background-accent);
-            transition: background .2s linear;
-        }
-
-        .dragIcon-2L691r {
-            color: var(--brand-experiment);
-        }
-
-        .roleIcon-1dWkrr:has(path[d="M19.487 5.126L10.487 0.126C10.184 -0.042 9.81798 -0.042 9.51498 0.126L0.514977 5.126C0.197977 5.302 0.000976562 5.636 0.000976562 5.999C0.000976562 6.693 0.114977 22.999 10.001 22.999C19.887 22.999 20.001 6.693 20.001 5.999C20.001 5.636 19.804 5.302 19.487 5.126ZM10.001 5.999C11.382 5.999 12.501 7.118 12.501 8.499C12.501 9.88 11.382 10.999 10.001 10.999C8.61998 10.999 7.50098 9.88 7.50098 8.499C7.50098 7.118 8.61998 5.999 10.001 5.999ZM6.25098 16C6.25098 13.699 7.69998 12.25 10.001 12.25C12.302 12.25 13.751 13.699 13.751 16H6.25098Z"]) {
-            height: 47px;
-            width: 49px;
-            margin-top: 1px;
-            margin-right: 12px;
-
-            path {
-                d: path("M 22 0 L 0 0 L 0 22 L 22 22 Z M 11.001 5.999 C 12.382 5.999 13.501 7.118 13.501 8.499 C 13.501 9.88 12.382 10.999 11.001 10.999 C 9.62 10.999 8.501 9.88 8.501 8.499 C 8.501 7.118 9.62 5.999 11.001 5.999 Z M 7.251 16 C 7.251 13.699 8.7 12.25 11.001 12.25 C 13.302 12.25 14.751 13.699 14.751 16 H 7.251 Z");
-            }
-        }
-
-        .roleName-1zfJkq {
-            font-weight: 400;
-            margin-bottom: 20px;
-        }
-
-        .memberCountContainer-2sIXRp {
-            position: absolute;
-            left: 0;
-            margin-top: 22px;
-            margin-left: calc(36px + 45px + 12px);
-            color: var(--text-muted);
-
-            .text-md-normal-2rFCH3 {
-                color: var(--text-muted);
-                font-size: 12px;
-                line-height: 22px;
-                letter-spacing: .5px;
-                text-transform: uppercase;
-                font-weight: 700;
-            }
-        }
-
-        .person-2z4Mcy {
-            order: -1;
-            margin-left: 0;
-            margin-right: 4px;
-            width: 16px;
-            height: 16px;
-        }
-
-        &:hover:not(.roleRowDisableHover-3En0vy) {
-            .circleButton-2Yr5A1 {
-                background-color: var(--background-accent-hover);
-            }
-        }
-
-        .circleButton-2Yr5A1 {
-            background: var(--btn-grey);
-            color: var(--brand-experiment);
-            transition: background .2s linear, box-shadow .2s ease-in-out;
-            border-radius: 2px;
-
-            &:hover {
-                background: var(--btn-grey-hover);
-                box-shadow: var(--btn-grey-boxshadow);
-            }
-        }
-    }
-
     .page-15bX59 {
         min-width: unset;
     }
@@ -134,7 +134,6 @@
         padding-top: 24px;
         flex: 0 0 calc(232px - 24px) !important;
         border-right: thin solid var(--background-modifier-accent-dark);
-
 
         .titleContainer-3fPic2 {
             padding: 0 0 10px 0;
@@ -203,8 +202,7 @@
 
             --interactive-active: var(--header-secondary);
 
-            &:hover:not(.selected-1sf9UK),
-            &:active:not(.selected-1sf9UK)titleContainer-3fPic2 {
+            &:hover:not(.selected-1sf9UK) {
                 background: var(--contextmenu-text);
                 --interactive-hover: var(--background-accent);
                 --interactive-active: var(--background-accent);
@@ -337,11 +335,11 @@
         }
     }
 
-    .searchContainer-2kJ46v {
+    .searchContainer-u-1vUp {
         margin-top: 10px;
 
         .container-2oNtJn {
-            padding: 4px 8px;
+            padding: 0 8px;
             border-radius: 2px;
             overflow: hidden;
             background: none;

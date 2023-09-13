@@ -8,10 +8,8 @@
     }
 }
 
-.sidebarRegion-1VBisG:has(.selected-1sf9UK[aria-controls="role_subscriptions-tab"])+.contentRegion-3HkfJJ {
-    .contentRegionScroller-2_GT_N {
-        background: #000;
-    }
+.contentRegionScroller-2_GT_N:has(.howItWorksContainer-3ZDRIG) {
+    background: #000;
 
     .settingsContent-2HUX1H {
         margin-right: 0;
@@ -26,7 +24,7 @@
         display: none;
     }
 
-    div:has(>.howItWorksContainer-3ZDRIG) {
+    .container-2J1IM0>div:has(.howItWorksContainer-3ZDRIG) {
         background: linear-gradient(137.42deg, #00d5ff 0%, #d0266f 40%, #b9b500 100%);
         background-size: 300% 300%;
         animation: nitroGradient 20s ease infinite;
@@ -36,54 +34,12 @@
         padding-top: 4em;
     }
 
-    .howItWorksContainer-3ZDRIG {
-        background: none;
-        border-radius: 0;
-        gap: 20px;
-    }
-
-    .howItWorksCard-WMHpU3 {
-        background: rgb(255 255 255/.0588235294);
-        border-radius: 3px;
-        padding: 20px;
-    }
-
-    .howItWorksImageContainer-3U9Rdq {
-        background: none;
-        padding: 0;
-    }
-
-    .howItWorksContainer-3ZDRIG {
-        +span {
-            display: none !important;
-        }
-
-        ~div:has(a) {
-            font-style: italic;
-            font-size: 12px;
-            font-weight: 500;
-            color: #ffffff87;
-        }
-    }
-
-    div:has(>.creatorBenefitsContainer-TwxZO6) {
+    .container-2J1IM0>div:has(>.creatorBenefitsContainer-TwxZO6) {
         background: #fff;
         padding-top: 4em;
         padding-bottom: 4em;
         --header-primary: #1b1b1b;
         --header-secondary: #1b1b1b;
-
-        // [data-text-variant="heading-lg/semibold"] {
-        //     font-size: 20px;
-        //     font-weight: 700;
-        //     line-height: 24px;
-        // }
-
-        // [data-text-variant="text-md/normal"] {
-        //     font-size: 18px;
-        //     font-weight: 700;
-        //     line-height: 20px;
-        // }
 
         .earningsPreviewContainer-2I6S8Z {
             background: rgb(0 0 0/.2) !important;
@@ -98,7 +54,7 @@
         }
     }
 
-    div:has(>.root-22SjyR) {
+    .container-2J1IM0>div:last-child {
         padding: 4em 5em;
 
         .guildCardHeaderAvatar-3FAHSc {
@@ -118,6 +74,35 @@
                 line-height: 18px;
                 font-weight: 400;
             }
+        }
+    }
+}
+
+.howItWorksContainer-3ZDRIG {
+    background: none;
+    border-radius: 0;
+    gap: 20px;
+}
+
+#app-mount .howItWorksCard-WMHpU3 {
+    background: rgb(255 255 255/.0588235294);
+    border-radius: 3px;
+    padding: 20px;
+}
+
+.howItWorksImageContainer-3U9Rdq {
+    background: none;
+    padding: 0;
+}
+
+.howItWorksContainer-3ZDRIG {
+    +span {
+        display: none !important;
+
+        +[data-text-variant="text-sm/normal"] {
+            font-style: italic;
+            font-size: 12px;
+            font-weight: 500;
         }
     }
 }
