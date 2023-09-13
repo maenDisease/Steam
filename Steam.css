@@ -14533,6 +14533,10 @@ userProfileModalOuter-2wdWjU: modal
   opacity: 1;
 }
 
+.bd-notice:first-child {
+  border-radius: 0;
+}
+
 .bd-modal-root {
   background: var(--modal-background);
   border-radius: 0;
