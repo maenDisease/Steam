@@ -10787,6 +10787,17 @@ video:has([src="/assets/b6508869eb1b93a8e54729ac86985599.png"]) {
   color: var(--gpColor-Yellow);
 }
 
+.card-m7VgZ8 {
+  padding: 8px 14px;
+  border-radius: 2px;
+  border: none;
+  background: var(--btn-grey);
+}
+.card-m7VgZ8 .selectedIcon-277z4I,
+.card-m7VgZ8 .channelIcon-1BydE- {
+  color: var(--brand-experiment);
+}
+
 .qualitySettingsContainer-2LjkfM {
   border: none;
   border-radius: 0;
@@ -13434,6 +13445,17 @@ userProfileModalOuter-2wdWjU: modal
 
 .container-3MQTjc {
   border-radius: 0;
+  background: none;
+}
+
+.streamPreview-I7itZ6 {
+  border-radius: 0;
+  box-shadow: 3px 3px 5px -3px #000;
+}
+#app-mount .streamPreview-I7itZ6 {
+  background: var(--contextmenu-gradient);
+}
+#app-mount .streamPreview-I7itZ6 .previewContainer-35LFgt {
   background: none;
 }
 
