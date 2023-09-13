@@ -16,3 +16,16 @@
     border-radius: 0;
     background: none;
 }
+
+.streamPreview-I7itZ6 {
+    #app-mount & {
+        background: var(--contextmenu-gradient);
+
+        .previewContainer-35LFgt {
+            background: none;
+        }
+    }
+
+    border-radius: 0;
+    box-shadow: 3px 3px 5px -3px #000;
+}
