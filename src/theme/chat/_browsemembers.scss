@@ -1,0 +1,169 @@
+#app-mount {
+
+    .page-2dwf_i,
+    .container-2qjEOK {
+        background: none;
+    }
+}
+
+.container-2qjEOK {
+    padding: var(--content-gutter) 0 0 0;
+}
+
+.mainTableContainer-3Nxvkd {
+    background: none;
+    border-radius: 0;
+    box-shadow: none;
+    min-width: unset;
+    background: rgb(0 0 0/.4);
+
+    .searchHeaderContainer-1tLzKm {
+        background-color: var(--store-body-header);
+        padding: 10px 20px 10px 20px;
+
+        .heading-md-medium-2HtP7R {
+            font-size: 14px;
+            font-weight: normal;
+            line-height: 16px;
+            letter-spacing: .03em;
+            text-transform: uppercase;
+        }
+
+        .searchBar-3S907z {
+            background: rgba(0, 0, 0, 0.2);
+            border: 1px solid #000;
+            box-shadow: 1px 1px 0 0 var(--store-search-border);
+            border-radius: 3px;
+        }
+    }
+
+    .table-2Z1caJ {
+        padding: 0 20px 20px;
+        border-top: none;
+    }
+
+    .tableHeaderRow-2Jri1A {
+        &:first-child:after {
+            width: calc(100% + 40px);
+            height: 1px;
+            left: -20px;
+            right: -20px;
+            background: var(--background-modifier-accent);
+            box-shadow: none;
+            opacity: 1;
+            bottom: 20px;
+        }
+    }
+
+    .newMembersNotice-35VT6e {
+        position: relative;
+        top: -20px;
+        background: var(--btn-brand);
+        border-radius: 0 0 3px 3px;
+        transition: none;
+
+        &:hover {
+            background: var(--btn-brand-hover);
+
+            .text-sm-normal-AEQz4v {
+                color: #fff !important;
+            }
+        }
+
+        td {
+            &:first-child {
+                border-bottom-left-radius: 3px;
+            }
+
+            &:last-child {
+                border-bottom-right-radius: 3px;
+            }
+        }
+
+        .text-sm-normal-AEQz4v {
+            color: var(--btn-brand-text) !important;
+        }
+    }
+
+    .tableHeaderCellContainer-fAjuC1 {
+        padding: 8px 8px calc(8px + 20px);
+    }
+
+    .memberRowContainer-ZDlmmA {
+        background: none !important;
+
+        td {
+            &::after {
+                display: none;
+            }
+        }
+
+        &.roundedRow-2mAezB td {
+
+            &:first-child,
+            &:last-child {
+                border-radius: 0;
+            }
+        }
+
+        .button-2XiUpU {
+            color: var(--brand-experiment);
+            border-radius: 2px;
+            background: var(--btn-grey);
+            transition-property: background, box-shadow, color;
+            transition-duration: .2s;
+            transition-timing-function: ease-out;
+
+            svg {
+                color: var(--brand-experiment);
+            }
+        }
+
+        &:hover {
+            td {
+                background: none;
+            }
+        }
+
+        &:hover,
+        &:active {
+            background: var(--background-accent) !important;
+            transition: background .2s linear;
+
+            .button-2XiUpU {
+                background-color: var(--background-accent-hover);
+                transition: background .2s linear, box-shadow .2s ease-in-out;
+
+                &:hover {
+                    background: var(--btn-grey-hover);
+                    box-shadow: var(--btn-grey-boxshadow);
+                }
+            }
+        }
+
+        .smallCol-2P9JQN .text-sm-medium-2-Xzsi {
+            color: var(--text-muted) !important;
+            font-size: 12px;
+            line-height: 22px;
+            letter-spacing: 0.5px;
+            text-transform: uppercase;
+            font-weight: 700;
+            display: flex;
+            align-items: center;
+            overflow: hidden;
+            white-space: nowrap;
+            text-overflow: ellipsis;
+        }
+    }
+}
+
+.otherRoles-LMys1u {
+    background: rgba(0, 0, 0, 0.3);
+}
+
+.pageSizeSelection--FwCJx {
+    .text-md-normal-2rFCH3 {
+        font-size: 14px;
+        line-height: 18px;
+    }
+}

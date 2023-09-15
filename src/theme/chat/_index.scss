@@ -1,7 +1,8 @@
 @forward './browsechannels';
+@forward './browsechannels&roles';
+@forward './browsemembers';
 @forward './call';
 @forward './channelheader';
-@forward './channels&roles';
 @forward './chatsidebar';
 @forward './container';
 @forward './forums';

@@ -43,6 +43,29 @@
         height: 36px;
     }
 
+    .toolbar-3_r2xA {
+        .returnButton-1ptceW {
+            background: var(--btn-brand);
+            color: var(--btn-brand-text);
+            transition: none;
+            min-height: 24px;
+            height: 24px;
+
+            &:hover {
+                background: var(--btn-brand-hover);
+                color: #fff;
+
+                svg {
+                    color: #fff;
+                }
+            }
+
+            svg {
+                color: var(--btn-brand-text);
+            }
+        }
+    }
+
     .toolbar-3_r2xA .iconWrapper-2awDjA[aria-label] {
         margin: 0;
         padding: 0 14px;
