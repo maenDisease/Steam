@@ -1,4 +1,4 @@
-#app-mount [id^="popout"]>[aria-modal="true"]>div:only-child:not(.spinner-2ID8f1) {
+#app-mount [id^="popout"]>[aria-modal="true"]>div:only-child:not(.spinner_f931ee) {
     background: var(--modal-background);
     box-shadow: inset var(--background-accent-75) 1px 1px 1px 0, inset var(--background-accent-25) -1px -1px 1px 0;
     border-radius: 0;
@@ -22,7 +22,7 @@
             font-weight: 700;
         }
 
-        .size32-1NLMUP {
+        .size32_eadcb9 {
             width: 30px;
             min-width: 30px;
             height: 30px;
@@ -31,13 +31,13 @@
             background: var(--btn-grey-hover);
             border-radius: 2px;
 
-            &.secondary-2bzKEX:hover:not(.disabled-184-il) {
+            &.secondary_c96c46:hover:not(.disabled__8e315) {
                 background: var(--background-accent-hover);
             }
         }
     }
 
-    .scrollerBase-1Pkza4 {
+    .scrollerBase_dc3aa9 {
 
         padding: 4px 0 0 4px;
 
@@ -45,15 +45,15 @@
             width: 4px;
         }
 
-        .wrapper-30-Nkg {
+        .wrapper__09ecc {
             padding: 10px 10px 10px 14px;
         }
 
-        .avatar-2e8lTP {
+        .avatar__08316 {
             left: 16px;
         }
 
-        .header-2jRmjb {
+        .header__39b23 {
             opacity: 1;
             display: flex;
             flex-direction: column-reverse;
@@ -61,20 +61,20 @@
             margin-bottom: 10px;
         }
 
-        .username-h_Y3Us {
+        .username_d30d99 {
             font-size: 0.75rem;
             line-height: 1.125rem;
         }
 
-        .timestamp-p1Df1m {
+        .timestamp_cdbd93 {
             font-size: 0.6875rem;
         }
 
-        .timestampInline-_lS3aK {
+        .timestampInline__470e0 {
             margin-left: 0;
         }
 
-        .markup-eYLPri {
+        .markup_a7e664 {
             font-size: 0.875rem;
             line-height: 1.25rem;
 
@@ -88,14 +88,14 @@
             }
         }
 
-        .repliedMessage-3Z6XBG {
+        .repliedMessage_e2bf4a {
             top: 64px;
             left: calc(9px + 10px);
             padding: 4px;
             font-size: 0.8125rem;
             line-height: 1.0625rem;
 
-            +.contents-2MsGLg .header-2jRmjb {
+            +.contents_f41bb2 .header__39b23 {
                 margin-bottom: calc(35px + 10px);
             }
         }

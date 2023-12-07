@@ -1,28 +1,28 @@
-.scroller-2GkvCq {
+.scroller__5fda0 {
     background: none;
     border-top-left-radius: 0;
     border-bottom-left-radius: 0;
     padding: 0;
 }
 
-.reactors-1VXca7 {
+.reactors__20ab0 {
     background: none;
     border-radius: 0;
 }
 
-.reactionDefault-1Sjj1f, .reactionSelected-1aMb2K {
+.reactionDefault__792ef, .reactionSelected__249a7 {
     margin-bottom: 0;
     border-radius: 0;
     padding: 5px 8px;
 }
 
-.reactionDefault-1Sjj1f {
+.reactionDefault__792ef {
     &:hover {
         background: rgb(255 255 255/.2);
     }
 }
 
-.reactionSelected-1aMb2K {
+.reactionSelected__249a7 {
     background: var(--btn-dark-hover);
     [data-text-variant="text-sm/bold"] {
         color: #fff;

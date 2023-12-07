@@ -1,18 +1,18 @@
-#app-mount .autocomplete-3NRXG8 {
+#app-mount .autocomplete_df266d {
     background: var(--modal-background);
 }
 
-.autocomplete-3NRXG8 {
-    .section-Dep3No {
+.autocomplete_df266d {
+    .section_e983c1 {
         border-radius: 3px;
     }
 
-    .wrapper-1wwiGV {
+    .wrapper__19c60 {
         border-radius: 3px;
         transition: none;
     }
 
-    .wrapper-3t15Cn {
+    .wrapper__9ae30 {
         border-radius: 3px;
 
         svg {
@@ -24,10 +24,10 @@
         }
     }
 
-    .rail-1BiMhk {
+    .rail_ad1aea {
 
-        .wrapper-3t15Cn,
-        .wrapper-1wwiGV {
+        .wrapper__9ae30,
+        .wrapper__19c60 {
             transition: none;
             height: 32px;
             width: 32px;
@@ -43,16 +43,16 @@
     }
 
 
-    .selected-3B2w1z,
-    .selected-3B2w1z:hover {
+    .selected__608f1,
+    .selected__608f1:hover {
         background: none;
     }
 
-    .clickable-2V8YKY[aria-disabled=false]>.base-2v-uc0:hover {
+    .clickable_f8437d[aria-disabled=false]>.base__76a71:hover {
         background-color: var(--background-accent);
     }
 
-    .base-2v-uc0 {
+    .base__76a71 {
         border-radius: 0;
     }
 
@@ -63,18 +63,18 @@
     }
 }
 
-.outerWrapper-3UdjNj,
-.autocomplete-3jLKbj {
+.outerWrapper__08924,
+.autocomplete__0c75a {
     border-radius: 0;
     box-shadow: var(--modal-shadow);
 }
 
-.autocomplete-3NRXG8 {
-    .wrapper-3z7DuG {
+.autocomplete_df266d {
+    .wrapper__4e8f1 {
         background: none;
     }
 
-    .autocompleteInner-y1mjDl:has(.list-2u03C-) {
+    .autocompleteInner_a0e6a1:has(.list__0870a) {
         &::before {
             content: '';
             position: absolute;
@@ -89,17 +89,17 @@
         }
     }
 
-    .list-2u03C- {
+    .list__0870a {
         background: var(--background-modifier-accent-dark);
         margin: 16px 16px 0 0;
         height: calc(100% - 32px);
         border-radius: 2px;
     }
 
-    .categoryHeader-OpJ1Ly {
+    .categoryHeader_f97a5f {
         background: var(--background-modifier-accent-dark);
 
-        .headerLabel-1g790w {
+        .headerLabel_e9f74f {
             text-transform: capitalize;
         }
     }

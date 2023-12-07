@@ -1,7 +1,7 @@
-.panels-3wFtMD {
+.panels__58331 {
     background: none;
 
-    &:not(:has(.wrapper-3Hk9OB:empty + .container-YkUktl:nth-child(2))) {
+    &:not(:has(.wrapper__0ed4a:empty + .container_ca50b9:nth-child(2))) {
         position: relative;
         padding: 15px 0 15px 0;
         background: radial-gradient(50% 16px at top, hsla(var(--rtc-hsl, 207, 34%, 43%), 0.25) 0%, hsla(var(--rtc-hsl, 207, 24%, 43%), 0) 100%);
@@ -10,15 +10,15 @@
             --rtc-opacity: 1;
         }
 
-        &:has(.rtcConnectionStatusConnected-1c73OK) {
+        &:has(.rtcConnectionStatusConnected__1d5b0) {
             --rtc-hsl: 93, 50%, 50%;
         }
 
-        &:has(.rtcConnectionStatusConnecting-2D7M2N) {
+        &:has(.rtcConnectionStatusConnecting__7b83a) {
             --rtc-hsl: 58, 70%, 47%;
         }
 
-        &:has(.rtcConnectionStatusError-2QNGCS) {
+        &:has(.rtcConnectionStatusError_f91509) {
             --rtc-hsl: 0, 85%, 57%;
         }
 
@@ -33,7 +33,7 @@
         }
     }
 
-    >div:not(.container-YkUktl) button.enabled-9OeuTA {
+    >div:not(.container_ca50b9) button.enabled__470f0 {
         background: rgb(0 0 0/.2);
 
         &:hover {
@@ -41,15 +41,15 @@
         }
     }
 
-    .connection-3k9QeF {
-        .flex-2S1XBF {
+    .connection__5bb32 {
+        .flex_f5fbb7 {
             margin-left: 6px;
             &:has(>button) {
                 gap: 4px;
             }
         }
 
-        button.enabled-9OeuTA:has([d*="M21.1169 1.11603L22.8839 2.88403L19.7679 6.00003L22.8839"]) {
+        button.enabled__470f0:has([d*="M21.1169 1.11603L22.8839 2.88403L19.7679 6.00003L22.8839"]) {
             &:hover {
                 background: var(--status-danger);
                 color: #fff;
@@ -57,14 +57,14 @@
         }
     }
 
-    .rtcConnectionStatusLabel-Nodt6L {
+    .rtcConnectionStatusLabel__7029b {
         font-size: 12px;
     }
 
-    .actionButtons-2vEOUh {
+    .actionButtons_b58cbb {
         grid-gap: 4px;
 
-        .button-1EGGcP.buttonColor-3bP3fX {
+        .button__66e8c.buttonColor_a6eb73 {
             color: var(--btn-brand-text);
             background: var(--btn-brand);
             box-shadow: none;
@@ -78,20 +78,20 @@
     }
 }
 
-#app-mount .panel-2ZFCRb {
+#app-mount .panel_bd8c76 {
     background: none;
 }
 
-.activityPanel-9icbyU:has(+.wrapper-3Hk9OB:empty) {
+.activityPanel__22355:has(+.wrapper__0ed4a:empty) {
     border-bottom: none;
 }
 
-.container-1zzFcN {
+.container_d667ff {
     background: none;
     border: none;
 }
 
-.container-YkUktl {
+.container_ca50b9 {
     position: fixed;
     top: 0;
     right: 96px;
@@ -144,7 +144,7 @@
         -webkit-app-region: no-drag;
     }
 
-    >.flex-2S1XBF {
+    >.flex_f5fbb7 {
         gap: 8px;
 
         &>button {
@@ -168,18 +168,18 @@
     }
 }
 
-#app-mount .disabledButtonWrapper-1m0hYZ {
+#app-mount .disabledButtonWrapper__69c70 {
     padding: 0;
     background: none;
 }
 
-.withTagAsButton-OsgQ9L:hover,
-.withTagless-10ooWt:hover {
+.withTagAsButton_cc125f:hover,
+.withTagless__98b7d:hover {
     background-color: hsl(var(--accent-hue) calc(var(--saturation-factor, 1)*100%) 64.9%/.2);
     border-radius: 2px;
 }
 
-.avatarWrapper-1B9FTW {
+.avatarWrapper_ba5175 {
     order: 1;
     height: 24px;
     margin-left: 8px;
@@ -191,7 +191,7 @@
     transition: background .15s ease-out;
     overflow: hidden;
 
-    .avatar-1EWyVD {
+    .avatar_f8541f {
         height: 23px !important;
         width: 23px !important;
     }
@@ -202,7 +202,7 @@
     }
 }
 
-.nameTag-sc-gpq {
+.nameTag__0e320 {
     display: flex;
     flex-wrap: nowrap;
     align-items: center;
@@ -212,26 +212,26 @@
         display: flex;
     }
 
-    .withTagAsButton-OsgQ9L &,
-    .withTagless-10ooWt & {
+    .withTagAsButton_cc125f &,
+    .withTagless__98b7d & {
         padding-left: 5px;
     }
 
-    .subtext-2HDqJ7 {
+    .subtext__8f869 {
         line-height: 13px;
     }
 }
 
-.title-338goq {
+.title__10613 {
     color: hsl(var(--accent-hue) calc(var(--saturation-factor, 1)*100%) 64.9%);
     font-weight: 400;
     font-size: 12px;
 }
 
-.hoverRoll-2XwpoF {
+.hoverRoll__041cb {
     cursor: unset;
 }
 
-.hovered-20u3oh {
+.hovered__243e5 {
     margin-top: 2px;
 }

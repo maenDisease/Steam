@@ -1,13 +1,13 @@
-.homeContainer-1T8N7y {
+.homeContainer_a4aa0a {
     margin-top: var(--content-gutter);
     padding: 0 0 32px 0;
     position: relative;
 
-    .maxWidthWrapper-qP22dD {
+    .maxWidthWrapper_c95aa8 {
         max-width: unset;
     }
 
-    .header-20qCMo {
+    .header__35687 {
         margin-top: 52px;
         padding-bottom: 12px;
         background: linear-gradient(to right, transparent 50%, rgb(0 0 0/.4) 100%);
@@ -16,25 +16,25 @@
         gap: 16px;
     }
 
-    .headerArtWrapper-2o2rZd {
+    .headerArtWrapper__5d8d9 {
         margin-left: unset;
         margin-right: unset;
         border-radius: 0;
         width: 100%;
     }
 
-    .headerArt-UqZaX6 {
+    .headerArt_e3ee19 {
         border-radius: 0;
         background-position: center;
     }
 
-    .headerIcon-3Q7cOC {
+    .headerIcon__8b099 {
         margin: 16px 16px 16px 0;
         border: none;
         background-color: transparent;
     }
 
-    div.headerName-z8Vr_4 {
+    div.headerName__72ee0 {
         position: absolute;
         top: 0;
         left: 0;
@@ -53,8 +53,8 @@
     }
 
 
-    .container-28hluq,
-    .container-PAPxZh {
+    .container_c7a926,
+    .container_ec1a33 {
         padding-top: 30px;
         gap: 2px;
 
@@ -81,9 +81,9 @@
         }
     }
 
-    .container-28hluq {
+    .container_c7a926 {
 
-        .action-3oG-si {
+        .action_c957d9 {
             padding: 4px 8px;
             background: var(--banner-lightblue);
             transition: none;
@@ -92,33 +92,33 @@
             &:hover {
                 background-color: var(--banner-lightblue-hover);
 
-                .checkCircle-1uvETj {
+                .checkCircle__28cd5 {
                     color: #fff;
                 }
             }
 
             &:hover,
-            &:has(.checkCircleCompleted-1VoXrE) {
+            &:has(.checkCircleCompleted_c66388) {
 
-                .channelIconContainer-1sVwKj,
-                .rulesIconContainer-3hKWCf {
+                .channelIconContainer__5df13,
+                .rulesIconContainer__2a9f3 {
                     svg {
                         color: #fff;
                     }
                 }
             }
 
-            &:has(.checkCircleCompleted-1VoXrE) {
+            &:has(.checkCircleCompleted_c66388) {
                 background: linear-gradient(60deg, rgb(117 176 34/.7) 5%, rgb(88 138 27/.6) 95%);
             }
 
-            .large-1W87Tq {
+            .large_cbd54d {
                 width: 16px;
                 height: 16px;
             }
 
-            .channelIconContainer-1sVwKj,
-            .rulesIconContainer-3hKWCf {
+            .channelIconContainer__5df13,
+            .rulesIconContainer__2a9f3 {
                 width: 18px;
                 height: 18px;
                 border-radius: 0;
@@ -130,12 +130,12 @@
                 }
             }
 
-            .checkCircle-1uvETj {
+            .checkCircle__28cd5 {
                 height: 18px;
                 width: 18px;
             }
 
-            .checkCircleCompleted-1VoXrE {
+            .checkCircleCompleted_c66388 {
                 height: 18px;
                 width: 18px;
                 color: #fff;
@@ -145,15 +145,15 @@
                 }
             }
 
-            &:not(:hover, :has(.checkCircleCompleted-1VoXrE)) {
+            &:not(:hover, :has(.checkCircleCompleted_c66388)) {
                 --header-primary: hsl(calc(var(--accent-hue) + 2) calc(var(--saturation-factor, 1)*11.5%) 69.4%);
             }
 
-            &:hover:not(:has(.checkCircleCompleted-1VoXrE)) {
+            &:hover:not(:has(.checkCircleCompleted_c66388)) {
                 --text-muted: #fff;
             }
 
-            .actionInfo-3uojZl {
+            .actionInfo_ca1ce8 {
                 display: flex;
                 flex-direction: row;
             }
@@ -166,10 +166,10 @@
         }
     }
 
-    .container-PAPxZh {
+    .container_ec1a33 {
         margin-top: 0;
 
-        .row--LCpto {
+        .row__70f4c {
             padding: 8px;
             background: var(--banner-lightblue);
             transition: none;
@@ -179,7 +179,7 @@
                 background-color: var(--banner-lightblue-hover);
             }
 
-            .title-2Q1RSR {
+            .title_ba7ffc {
                 margin-bottom: 0;
                 font-size: 12px;
                 line-height: unset;
@@ -193,7 +193,7 @@
                 font-weight: 400;
             }
 
-            .media-1EQ0ve {
+            .media_c4f903 {
                 border-radius: 3px;
             }
         }
@@ -201,36 +201,36 @@
 }
 
 @media (min-width: 1300px) {
-    .homeContainer-1T8N7y {
-        .headerArt-UqZaX6 {
+    .homeContainer_a4aa0a {
+        .headerArt_e3ee19 {
             height: 338px;
             padding-top: 0;
         }
 
-        .header-20qCMo {
+        .header__35687 {
             grid-template-columns: 1fr 324px;
         }
     }
 }
 
-.iconActiveXLarge-ehIcza {
+.iconActiveXLarge_f0b973 {
     border-radius: 3px;
 }
 
-.homeContent-1M6ovF {
+.homeContent__049a1 {
     margin-top: 0;
     gap: var(--content-gutter);
 
 }
 
 @media (max-width: 1300px) {
-    .homeContent-1M6ovF {
+    .homeContent__049a1 {
         max-width: var(--content-inner-width);
         margin-left: 0;
     }
 }
 
-.sidebarCardWrapper-34oCuK:has(.guildDescription-2azZZ9) {
+.sidebarCardWrapper__2c840:has(.guildDescription_d4bc5b) {
     position: absolute;
     top: calc(52px + 16px + 100px + 8px);
     width: 324px;
@@ -245,23 +245,23 @@
         display: none;
     }
 
-    .guildDescription-2azZZ9 {
+    .guildDescription_d4bc5b {
         --text-normal: hsl(calc(var(--accent-hue) + 1) calc(var(--saturation-factor, 1)*28.1%) 82.5%);
         font-size: 14px;
         line-height: 18px;
     }
 
-    .guildInfoText-1GzwWc {
+    .guildInfoText__8ad0c {
         line-height: 20px;
     }
 }
 
-.sidebar-24m-_E {
+.sidebar_a22042 {
     width: 308px;
     min-width: 308px;
 }
 
-.sidebarCardWrapper-34oCuK:not(:has(.guildDescription-2azZZ9)) {
+.sidebarCardWrapper__2c840:not(:has(.guildDescription_d4bc5b)) {
     background: var(--store-sidebar-background);
     border-radius: 0;
 
@@ -274,12 +274,12 @@
     }
 }
 
-.resourceChannelsList-3tNCCN {
+.resourceChannelsList_ab112a {
     margin: 0;
     gap: 2px;
 }
 
-.resourceChannel-r2RX07 {
+.resourceChannel__79493 {
     color: var(--btn-brand-text);
     border-radius: 1px;
     padding: 4px 0 4px 8px;
@@ -290,7 +290,7 @@
         color: #fff;
     }
 
-    .resourceImageBase-2b0veT {
+    .resourceImageBase_c9b174 {
         border-radius: 2px;
     }
 
@@ -300,32 +300,32 @@
     }
 }
 
-.welcomeMessageContainer-35bQR5 {
+.welcomeMessageContainer__3d907 {
 
-    .welcomeMessageContent-1ZqlKh {
+    .welcomeMessageContent_c19bb5 {
         padding: 4px 16px 16px;
         z-index: 1;
     }
 
-    .userProfileOuter-2tQwNf,
-    .userProfileInner-1ngKnf {
+    .userProfileOuter__46bb7,
+    .userProfileInner__8065b {
         border-radius: 4px;
     }
 
-    .userCardInner-3c42YR {
+    .userCardInner_d6aa46 {
         border-radius: 4px;
         background: none;
     }
 
-    .wrapper-3Un6-K {
+    .wrapper_edb6e0 {
         #app-mount & {
             border-radius: 4px;
             overflow: hidden;
         }
     }
 
-    .avatarBackground-2PaDOT,
-    .avatarBorder-20IrEw {
+    .avatarBackground__9cf9d,
+    .avatarBorder_d9ba14 {
         border-radius: 4px;
     }
 
@@ -336,9 +336,9 @@
     }
 }
 
-.messagesWrapper-RpOMA3 .scrollerInner-2PPAp2[data-list-id=chat-messages]:not(:has(.wrapper-3HVHpV)) {
-    .navigationDescription-3xDmE2:first-child+.divider-IqmEqJ+.messageListItem-ZZ7v6g {
-        .message-2CShn3 {
+.messagesWrapper_ea2b0b .scrollerInner__059a5[data-list-id=chat-messages]:not(:has(.wrapper_b8c724)) {
+    .navigationDescription__203e4:first-child+.divider__8cf56+.messageListItem__6a4fb {
+        .message__80c10 {
             #app-mount & {
                 background: none;
                 border: none;
@@ -347,7 +347,7 @@
         }
     }
 
-    &:has(.navigationDescription-3xDmE2:first-child+.divider-IqmEqJ+.messageListItem-ZZ7v6g) {
+    &:has(.navigationDescription__203e4:first-child+.divider__8cf56+.messageListItem__6a4fb) {
         &::before {
             top: 32px;
         }

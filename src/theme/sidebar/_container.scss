@@ -1,14 +1,14 @@
-.sidebar-1tnWFu,
-#app-mount .container-1NXEtd {
+.sidebar_ded4b5,
+#app-mount .container__590e2 {
     background: none;
 }
 
-.sidebar-1tnWFu {
+.sidebar_ded4b5 {
     width: 210px;
     margin-right: var(--app-gutter);
 }
 
-.bar-wDIGjg {
+.bar__004d9 {
     background: #e5e5e5;
     box-shadow: 0 0 3px #000;
     padding: 0 6px;
@@ -21,7 +21,7 @@
     }
 }
 
-.mentionsBar-DpLHCy {
+.mentionsBar__4b47a {
     --status-danger-text: #fff;
     background: var(--status-danger);
 
@@ -30,11 +30,11 @@
     }
 }
 
-.barText-1eIsLx {
+.barText__1a44f {
     text-transform: capitalize;
 }
 
-.numberBadge-37OJ3S {
+.numberBadge__50328 {
     border-radius: 2px;
     min-width: unset;
     width: unset !important;
@@ -44,7 +44,7 @@
     font-weight: 400;
     letter-spacing: 0;
 
-    .listItem-3SmSlK & {
+    .listItem_fa7b36 & {
         border-radius: 0;
     }
 }

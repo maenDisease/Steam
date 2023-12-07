@@ -1,11 +1,11 @@
-#app-mount .layer-86YKbF~.layer-86YKbF .profileCustomizationSection-53kreU .baseLayout-1_9QRm .preview-sMYs9f .userPopoutOuter-1OHwPL,
-#app-mount .layer-86YKbF~.layer-86YKbF .baseLayout-1_9QRm.tryItOutLayout-2ypO8Z .preview-sMYs9f .userPopoutOuter-1OHwPL {
+#app-mount .layer__2efaa ~.layer__2efaa  .profileCustomizationSection__88eff .baseLayout_b00434 .preview__0c5fe .userPopoutOuter_d739b2,
+#app-mount .layer__2efaa ~.layer__2efaa  .baseLayout_b00434.tryItOutLayout__6026d .preview__0c5fe .userPopoutOuter_d739b2 {
     min-width: unset !important;
     width: 340px !important;
     max-width: 340px !important;
 }
 
-#app-mount .layer-86YKbF~.layer-86YKbF .baseLayout-1_9QRm.tryItOutLayout-2ypO8Z .preview-sMYs9f .userPopoutOuter-1OHwPL {
+#app-mount .layer__2efaa ~.layer__2efaa  .baseLayout_b00434.tryItOutLayout__6026d .preview__0c5fe .userPopoutOuter_d739b2 {
     width: 340px !important;
 }
 
@@ -22,7 +22,7 @@
 #profile-customization-tab {
     padding: 0 24px 24px 24px;
 
-    .top-Ktfr_T {
+    .top__592a7 {
         --btn-count: 2;
         background: var(--darker-grey);
         border-radius: 2px;
@@ -36,14 +36,14 @@
         border-bottom: none;
     }
 
-    .top-Ktfr_T .item-2GWPIy {
+    .top__592a7 .item__48dda {
         background: none;
         margin: 0;
         display: flex;
         flex: 0 1 calc(100% / var(--btn-count));
         justify-content: center;
 
-        &:not(.selected-1sf9UK):hover {
+        &:not(.selected__5711d):hover {
             background: var(--btn-grey);
         }
 
@@ -56,7 +56,7 @@
         font-weight: 400;
     }
 
-    .top-Ktfr_T {
+    .top__592a7 {
         &::before {
             content: '';
             position: absolute;
@@ -67,66 +67,66 @@
             border-radius: 2px;
         }
 
-        &:has(.selected-1sf9UK:nth-child(2)):before {
+        &:has(.selected__5711d:nth-child(2)):before {
             translate: 100%;
         }
     }
 
-    .imageUploaderIconWrapper-14sdnH {
+    .imageUploaderIconWrapper__4efff {
         padding: 0;
         border-radius: 0;
         box-shadow: 1px 3px 14px rgb(0 0 0/.65);
     }
 
-    .avatarUploader-qEFQS2 {
+    .avatarUploader__18c3f {
         z-index: 2;
     }
 
-    .imageUploaderIcon-2OHmFu {
+    .imageUploaderIcon__0c13b {
         pointer-events: none;
     }
 
-    .section-28YDOf:has(.customStatus-19KW6v) {
+    .section__6f61e:has(.customStatus__3aa7f) {
         order: -2;
         padding-top: 0;
         padding-bottom: 16px;
     }
 
-    .section-28YDOf:has(.fakeActivityTitle-3-_pB_) {
+    .section__6f61e:has(.fakeActivityTitle__79378) {
         background: rgb(0 0 0/.2);
         margin: 0 -16px;
         padding: 16px;
         order: -1;
 
-        .button-1d_47w {
+        .button__890f5 {
             max-width: unset;
         }
     }
 
-    .body-3lbupa {
+    .body_aa2c19 {
         padding-left: 16px;
         padding-right: 16px;
         padding-bottom: 16px;
     }
 
-    .divider-2dDziJ {
+    .divider_ed0c1d {
         display: none;
     }
 
-    .avatarUploaderPremium-2urJVq {
+    .avatarUploaderPremium_bbc93c {
         top: 16px;
 
-        +.profileBadges-2pItdR {
+        +.profileBadges__7a7cb {
             padding-top: 16px;
         }
     }
 
-    .spinningAvatar-3RLDX3 {
+    .spinningAvatar__012e4 {
         overflow: hidden;
         animation: spinningAvatarHue 5s ease infinite;
     }
 
-    .tryItOutSection-W9qeGH {
+    .tryItOutSection__0f9fb {
         margin: 10px 0 0 0;
         border-radius: 2px;
         border-width: 1px;
@@ -135,7 +135,7 @@
         border-radius: 0;
         position: relative;
 
-        .premiumBackground-34OIdE {
+        .premiumBackground__4ce97 {
             padding: 10px 0 24px 0;
             position: absolute;
             top: 1px;
@@ -145,16 +145,16 @@
     }
 }
 
-#app-mount .layer-86YKbF~.layer-86YKbF .profileCustomizationSection-53kreU .baseLayout-1_9QRm {
+#app-mount .layer__2efaa ~.layer__2efaa  .profileCustomizationSection__88eff .baseLayout_b00434 {
 
-    .sectionsContainer-3BlPu4,
-    .editor-328F1U,
-    .preview-sMYs9f {
+    .sectionsContainer_a37883,
+    .editor_bca4e3,
+    .preview__0c5fe {
         min-width: unset !important;
         max-width: unset !important;
     }
 }
 
-.swatch-efj8wq {
+.swatch__96672 {
     border-radius: 2px;
 }

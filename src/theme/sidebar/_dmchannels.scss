@@ -1,12 +1,12 @@
-.privateChannels-oVe7HL {
+.privateChannels__93473 {
     background: none;
     padding-top: 16px;
 
-    .searchBar-3TnChZ {
+    .searchBar_e4ea2a {
         height: unset;
         box-shadow: none;
     
-        .searchBarComponent-3N7dCG {
+        .searchBarComponent__22760 {
             height: unset;
             border-radius: 2px;
             font-size: 14px;
@@ -23,16 +23,16 @@
         }
     }
     
-    .scroller-WSmht3 {
+    .scroller__4b984 {
         background: none;
     }
 }
 
-.channel-1Shao0 {
+.channel_c21703 {
     border-radius: 0;
 }
 
-.interactive-26HRN_ {
+.interactive__776ee {
 
     &:focus-within,
     &:hover {
@@ -40,17 +40,17 @@
         background: none;
     }
 
-    &.selected-26oxtA {
+    &.selected_d94cf9 {
         color: var(--interactive-active);
         background: var(--channel-selected);
     }
 
-    .highlighted-Q8Nll-:hover {
+    .highlighted__7bba7:hover {
         color: var(--channels-default-hover);
     }
 }
 
-#app-mount .name-2m3Cms {
+#app-mount .name__02dbd {
     font-size: 12px;
     font-weight: 700;
 }

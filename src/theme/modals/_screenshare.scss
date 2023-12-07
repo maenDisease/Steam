@@ -6,7 +6,7 @@
     right: 32px;
 }
 
-.header-1ffhsl {
+.header__6d5ea {
     .header-12ZEIU {
         display: flex;
         align-items: flex-start;
@@ -50,7 +50,7 @@
     justify-content: center;
     z-index: 1;
 
-    &:not(.tabItemSelected-Z0xl-W):hover {
+    &:not(.tabItemSelected__3dfe7):hover {
         background: var(--btn-grey);
     }
 
@@ -73,7 +73,7 @@
         border-radius: 2px;
     }
 
-    &:has(.tabItemSelected-Z0xl-W:nth-child(2)):before {
+    &:has(.tabItemSelected__3dfe7:nth-child(2)):before {
         translate: 100%;
     }
 }

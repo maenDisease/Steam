@@ -12,11 +12,11 @@
     }
 }
 
-.contentRegionScroller-2_GT_N:has(#discord-nitro-tab) {
+.contentRegionScroller__86c79:has(#discord-nitro-tab) {
     background: #000;
 }
 
-#app-mount .layer-86YKbF~.layer-86YKbF .contentColumnDefault-3eyv5o {
+#app-mount .layer__2efaa ~.layer__2efaa  .contentColumnDefault_c66386 {
 
     &#discord-nitro-tab,
     &#nitro-server-boost-tab {
@@ -60,50 +60,50 @@
     padding-bottom: 4em;
     padding-top: 4em;
 
-    &:has(.banner-2kOu3o) {
+    &:has(.banner__4cbda) {
         padding-top: 0;
     }
 }
 
-.banner-2kOu3o {
+.banner__4cbda {
     border-radius: 0;
     max-width: unset;
 }
 
-.premiumCards-36uMGt {
+.premiumCards__1b3a9 {
     display: flex;
     justify-content: center;
 }
 
-.card-3ie2dy {
+.card__48184 {
     max-width: 300px;
     background: rgb(255 255 255/.0588235294);
     border-radius: 3px;
     padding: 20px;
     margin: 10px;
 
-    svg.title-Yr21jA {
+    svg.title__223b8 {
         color: #1b1b1b;
         position: absolute;
         right: 20px;
     }
 
-    .price-3oXq_a {
+    .price__12d41 {
         margin: 8px 0 24px 0;
         line-height: 33px;
     }
 
-    .price-6Nbraf {
+    .price__300d9 {
         font-size: 24px;
         line-height: 28px;
         font-weight: 600;
     }
 
-    .item-62htNl {
+    .item__4b324 {
         margin-left: 28px;
         margin-bottom: 5px;
 
-        .icon-2iprHa {
+        .icon_c4178d {
             height: 18px;
             width: 18px;
         }
@@ -113,7 +113,7 @@
         }
     }
 
-    .wumpusImageContainer-ZGD_8q {
+    .wumpusImageContainer__5990c {
         position: absolute;
         width: 30%;
         top: 50px;
@@ -122,7 +122,7 @@
         overflow: hidden;
     }
 
-    .shinyButton-2Q9MDB {
+    .shinyButton_fc8363 {
         color: #fff;
         background: #1b1b1b;
         border-radius: 50px;
@@ -145,7 +145,7 @@
     margin: 0;
     max-width: 100%;
 
-    .defaultColor-1GKx81 {
+    .defaultColor__87d87 {
         color: #1b1b1b;
     }
 }

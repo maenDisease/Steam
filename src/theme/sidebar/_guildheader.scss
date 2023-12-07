@@ -1,4 +1,4 @@
-.header-3OsQeK {
+.header__104ca {
     position: fixed;
     top: 0;
     left: 76px;
@@ -12,12 +12,12 @@
         left: 9px;
     }
 
-    .headerContent-2SNbie {
+    .headerContent_ee8727 {
         -webkit-app-region: no-drag;
         width: fit-content;
     }
 
-    .name-3Uvkvr {
+    .name_c08dbc {
         font-family: var(--font-display);
         font-size: 12px;
         line-height: 20px;
@@ -25,27 +25,27 @@
         cursor: pointer;
     }
 
-    .dropdownButton-1-5aBs {
+    .dropdownButton__3f3df {
         display: none;
     }
 }
 
-.clickable-vvKY2q .header-3OsQeK:hover,
-.selected-1GtAC5 .header-3OsQeK {
+.clickable__2d589 .header__104ca:hover,
+.selected__0b1ad .header__104ca {
     background-color: transparent;
 }
 
-#app-mount .clickable-vvKY2q .header-3OsQeK:hover .headerContent-2SNbie,
-#app-mount .selected-1GtAC5 .header-3OsQeK .headerContent-2SNbie {
+#app-mount .clickable__2d589 .header__104ca:hover .headerContent_ee8727,
+#app-mount .selected__0b1ad .header__104ca .headerContent_ee8727 {
     color: var(--interactive-active);
 }
 
-#app-mount .headerContent-2SNbie {
+#app-mount .headerContent_ee8727 {
     color: var(--interactive-normal);
     transition: color .15s ease;
     filter: none;
 }
 
-.guildIconV2Container-2H8IRS {
+.guildIconV2Container__53cdb {
     margin-right: 4px;
 }

@@ -1,8 +1,8 @@
 .theme-dark #app-mount .theme-light {
-    .root-1CAIjD {
+    .root_a28985 {
         --text-normal: hsl(calc(var(--accent-hue) + 11) calc(var(--saturation-factor, 1)*7.7%) 87.3%);
 
-        .header-1ffhsl {
+        .header__6d5ea {
             [data-text-variant="heading-xl/semibold"] {
                 color: #fff;
                 font-size: 22px;
@@ -79,7 +79,7 @@
             }
         }
 
-        .footer-IubaaS {
+        .footer__89240 {
             position: absolute;
             bottom: 0;
             justify-content: right;
@@ -98,7 +98,7 @@
             }
         }
 
-        .content-1OG56Q {
+        .content__764ce {
             margin-bottom: 102px;
         }
 
@@ -156,12 +156,12 @@
             }
         }
 
-        .button-ejjZWC:not(.close-A4ZfTI) {
+        .button_afdfd9:not(.close__1080c) {
             height: 34px;
             min-height: 34px;
             padding: 8px 14px;
 
-            &.lookBlank-FgPMy6 {
+            &.lookBlank__7ca0a {
                 color: var(--text-lighter);
                 background: var(--btn-grey);
                 transition-property: background, box-shadow, color;
