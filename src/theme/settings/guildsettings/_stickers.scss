@@ -1,38 +1,38 @@
 #app-mount {
-    .background-3xJH_4 {
+    .background__3dd67 {
         color: var(--btn-grey);
     }
 
-    .tierInProgress-1vFUnw {
+    .tierInProgress_f08e8b {
         background-color: var(--brand-experiment);
     }
 
-    .tierBody-1d3UiS {
+    .tierBody__615a1 {
         background: none;
     }
 
-    .tierHeaderLocked-30MLlO,
-    .tierHeaderUnlocked-1OpOLf {
+    .tierHeaderLocked__4d099,
+    .tierHeaderUnlocked_cc60fa {
         background: none;
     }
 }
 
 #stickers-tab {
-    .upsellContainer-22N_CL {
+    .upsellContainer__12e24 {
         display: none;
     }
 
-    .divider-3nqZNm {
+    .divider__2bbbc {
         display: none;
     }
 
-    .tiers-7TOtI7 {
+    .tiers__13b89 {
         margin-left: 38px;
         width: calc(100% - 96px - 20px);
     }
 }
 
-.tierHeaderContent-2SPBAA {
+.tierHeaderContent__27033 {
     padding: 16px 0 16px 0;
 
     &::after {
@@ -46,11 +46,11 @@
     }
 }
 
-.tierHeader-3q9jIw {
+.tierHeader__5bf89 {
     background: none;
 }
 
-.tierTitle-kGI87L {
+.tierTitle__25723 {
     width: fit-content;
     flex-grow: 0;
     order: -3;
@@ -67,18 +67,18 @@
     }
 }
 
-.tierIcon-3m8V16 {
+.tierIcon__2ac8f {
     height: 24px;
     width: 24px;
     margin: 4px 4px 4px 0;
     order: -4;
 }
 
-.tierIconLocked-RGSkSl {
+.tierIconLocked_c2f292 {
     color: var(--brand-experiment);
 }
 
-.tierRequirement-7q3_7- {
+.tierRequirement_c03194 {
     font-size: 16px;
     font-weight: 600;
     line-height: 20px;
@@ -87,7 +87,7 @@
     order: -2;
 }
 
-.tierLock-1eabw6 {
+.tierLock__3e43d {
     width: 24px;
     height: 24px;
     margin-left: 0;

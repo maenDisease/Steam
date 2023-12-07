@@ -37,11 +37,11 @@
     }
 }
 
-.sidebarScrollable-2mW9Ls {
-    .scroller-3_YDR2 {
+.sidebarScrollable__4aad1 {
+    .scroller__52680 {
         background: none;
 
-        .header-2F5_LB {
+        .header_f72511 {
             padding: 0 10px 10px 10px;
             color: var(--text-muted);
             transition-property: color;
@@ -57,13 +57,13 @@
                 transition: none;
             }
 
-            .headerText-10ez_d {
+            .headerText__94c22 {
                 font-size: 14px;
                 line-height: 18px;
             }
         }
 
-        .item-2GWPIy {
+        .item__48dda {
             padding-top: 6px;
             padding-bottom: 6px;
             margin-bottom: 2px;
@@ -73,14 +73,14 @@
             --interactive-active: var(--header-secondary);
 
             #app-mount & {
-                &:hover:not(.selected-1sf9UK) {
+                &:hover:not(.selected__5711d) {
                     background: var(--contextmenu-text);
                     --interactive-hover: var(--background-accent);
                     --interactive-active: var(--background-accent);
                     --header-primary: var(--background-accent);
                 }
 
-                &.selected-1sf9UK {
+                &.selected__5711d {
                     background: var(--background-accent);
                     color: #fff;
                     --header-primary: #fff;
@@ -91,7 +91,7 @@
     }
 }
 
-.group-LWHoGI {
+.group__6ae8b {
     display: grid;
     grid-auto-flow: column;
     border: none;
@@ -114,25 +114,25 @@
         z-index: 0;
     }
 
-    &:has(.passthrough--fbdFR.selected-3jieYB):before {
+    &:has(.passthrough__7cd54.selected__47401):before {
         translate: 100%;
         background: var(--btn-grey-hover);
     }
 
-    &:has(.allow-1h61-Z.selected-3jieYB):before {
+    &:has(.allow_bbc621.selected__47401):before {
         translate: 200%;
         background: var(--gpColor-Green);
     }
 
-    .item-4m-12I {
+    .item_f48d11 {
         background: none;
         z-index: 1;
         transition: color .2s ease;
 
-        &.passthrough--fbdFR {
+        &.passthrough__7cd54 {
             color: var(--btn-grey-hover);
 
-            &.selected-3jieYB {
+            &.selected__47401 {
                 color: #fff;
             }
         }

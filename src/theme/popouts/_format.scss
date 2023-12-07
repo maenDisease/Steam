@@ -4,19 +4,19 @@
     box-shadow: var(--contextmenu-shadow);
 }
 
-.toolbar-37BrJ5:before {
+.toolbar_c7b525:before {
     display: none;
 }
 
-.buttons-3snlAO {
+.buttons_bee06d {
     border-radius: 0;
 
-    .button-ejjZWC {
+    .button_afdfd9 {
         border-radius: 0;
         font-size: 12px;
         transition: none;
 
-        .buttonInner-1RE0NV {
+        .buttonInner__1dbe5 {
             display: flex;
             align-items: center;
             justify-content: center;
@@ -28,7 +28,7 @@
             width: 18px;
         }
 
-        &.hover-3OQb9Y:hover {
+        &.hover_d0ebf2:hover {
             background: var(--contextmenu-text);
             svg {
                 color: var(--contextmenu-text-hover);

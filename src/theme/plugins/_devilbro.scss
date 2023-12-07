@@ -1,8 +1,8 @@
 @use '../settings/container';
 
 // GameActivityToggle
-.gameActivityToggleAdded-Yd-YxC .withTagAsButton-OsgQ9L,
-.gameActivityToggleAdded-Yd-YxC .withTagAsButton-OsgQ9L {
+.gameActivityToggleAdded-Yd-YxC .withTagAsButton_cc125f,
+.gameActivityToggleAdded-Yd-YxC .withTagAsButton_cc125f {
     flex: initial;
     min-width: initial;
 }
@@ -15,8 +15,8 @@
 }
 
 // PluginRepo
-#app-mount .layer-86YKbF~.layer-86YKbF {
-    .repoHeader-2KfNvH.contentColumnDefault-3eyv5o {
+#app-mount .layer__2efaa ~.layer__2efaa  {
+    .repoHeader-2KfNvH.contentColumnDefault_c66386 {
         padding: 32px 24px 0 !important;
     }
 
@@ -43,7 +43,7 @@
         @include container.settingsHeaderText;
     }
 
-    .inner-2pOSmK {
+    .inner__999f6 {
         border-radius: 2px;
         transition: padding .3s cubic-bezier(0.16, 0.86, 0.43, 0.99);
 
@@ -67,11 +67,11 @@
     .tabBar-2hXqzU {
         gap: 4px;
 
-        .selected-1sf9UK {
+        .selected__5711d {
             display: none;
         }
 
-        .item-2GWPIy {
+        .item__48dda {
             font-size: 0;
             height: 34px;
             width: 34px;

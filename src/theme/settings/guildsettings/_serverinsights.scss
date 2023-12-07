@@ -1,29 +1,29 @@
-.error-2568aZ {
+.error_f5f3e1 {
     border-radius: 3px;
     font-size: 14px;
     line-height: 18px;
     font-weight: 400;
 }
 
-.developerPortalCtaWrapper-2PniQs {
+.developerPortalCtaWrapper__21172 {
     background: var(--btn-grey);
     border-radius: 2px;
 }
 
 .checklistContainer-12xGp5,
-.checklist-Asy_56 {
+.checklist__88646 {
     display: flex;
     flex-direction: column;
     background: none;
     border-radius: 0;
     margin: 0 32px;
 
-    .separator-1py8Bj {
+    .separator__26ad8 {
         display: none;
     }
 }
 
-.checklistItem-1gWPPD {
+.checklistItem__9f80c {
     padding: 8px 24px 10px 16px;
     background: var(--btn-grey);
     border-radius: 2px;
@@ -33,7 +33,7 @@
         order: 1;
     }
 
-    &:has(.checked-22NTbO) {
+    &:has(.checked__24ad6) {
         order: 2;
     }
 }

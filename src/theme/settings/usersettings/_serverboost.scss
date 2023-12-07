@@ -1,10 +1,10 @@
-#app-mount .contentRegion-3HkfJJ .contentRegionScroller-2_GT_N:has(#nitro-server-boost-tab) {
+#app-mount .contentRegion__0bec1 .contentRegionScroller__86c79:has(#nitro-server-boost-tab) {
     padding-top: 0;
     background: #000;
 }
 
 #nitro-server-boost-tab {
-    .background-2avFV1 {
+    .background__0be22 {
         &::after {
             content: '';
             z-index: 0;
@@ -18,21 +18,21 @@
         }
     }
 
-    .guildBoostGemWrapper-OwEiEr {
+    .guildBoostGemWrapper__975b2 {
         display: none;
     }
 
-    .gradient-ICI49D {
+    .gradient_e94761 {
         border-radius: 0;
         background: none;
 
-        .guildBoostGemWrapper-OwEiEr,
+        .guildBoostGemWrapper__975b2,
         svg {
             display: none;
         }
     }
 
-    .wrapper-3ypI92:has(.guildContainer-o60hpj) {
+    .wrapper__18a49:has(.guildContainer__9d362) {
         background: linear-gradient(137.42deg, #00d5ff 0%, #d0266f 40%, #b9b500 100%);
         background-size: 300% 300%;
         animation: nitroGradient 20s ease infinite;
@@ -41,7 +41,7 @@
         padding: 5em;
     }
 
-    .guildContainer-o60hpj {
+    .guildContainer__9d362 {
         background: rgb(255 255 255/.0588235294);
         border-radius: 3px;
         padding: 20px;
@@ -51,7 +51,7 @@
             display: none;
         }
 
-        .iconInactive-26M06U {
+        .iconInactive__90d40 {
             border-radius: 3px;
         }
 
@@ -68,11 +68,11 @@
             --text-muted: #fff;
         }
 
-        .separator-3ej3jr {
+        .separator_f8e077 {
             --text-muted: #fff;
         }
 
-        .shinyButton-2Q9MDB {
+        .shinyButton_fc8363 {
             color: #fff;
             background: #1b1b1b;
             border-radius: 50px;
@@ -89,7 +89,7 @@
             }
         }
 
-        +.wrapper-3htY7x {
+        +.wrapper__0df00 {
             background: none;
             border: none;
             justify-content: center;
@@ -104,8 +104,8 @@
     }
 }
 
-.tierComparisonTable-1gMWkk,
-.tierComparisonTable-13SiXF {
+.tierComparisonTable__3126f,
+.tierComparisonTable_b4d962 {
     padding: 24px;
     margin-bottom: 0;
     max-width: unset;
@@ -115,12 +115,12 @@
     background-size: 300% 300%;
     animation: nitroGradient 20s ease infinite;
 
-    .columnHeading-1mydnJ {
+    .columnHeading__7e90b {
         padding-bottom: 0;
     }
 
     thead {
-        .tableRowHeading-THiGY- {
+        .tableRowHeading__2b8b8 {
             h2 {
                 translate: 0 8px;
                 font-size: 16px;
@@ -141,13 +141,13 @@
         }
     }
 
-    .tableCellInner-1qMkMR {
+    .tableCellInner__3f5bb {
         min-height: 48px;
     }
 
     th {
 
-        .defaultColor-1EVLSt {
+        .defaultColor__77578 {
             font-size: 16px;
             line-height: 20px;
             font-weight: 600;
@@ -155,18 +155,18 @@
         }
     }
 
-    td.tableCell-NVV0Cc {
+    td.tableCell__77206 {
         text-align: left;
         padding: 4px;
     }
 
-    .tableCell-NVV0Cc {
+    .tableCell__77206 {
         padding-top: 0;
         padding-bottom: 0;
         position: relative;
     }
 
-    .booleanValueIcon-1Z365i {
+    .booleanValueIcon__864e1 {
         margin-left: 0;
 
         &:has([d="M18.4 4L12 10.4L5.6 4L4 5.6L10.4 12L4 18.4L5.6 20L12 13.6L18.4 20L20 18.4L13.6 12L20 5.6L18.4 4Z"]) {
@@ -175,47 +175,47 @@
     }
 }
 
-.wrapper-3ViBpj {
+.wrapper__26ed7 {
     border-radius: 0;
     margin-bottom: 0;
     padding: 4em 5em;
 }
 
-.card-2ZCHT- {
+.card__67edb {
     background: rgb(255 255 255/.0588235294);
     border-radius: 3px;
     padding: 20px;
     --text-normal: #fff;
 }
 
-.wrapper-2r1p30 {
+.wrapper_cf13f4 {
     border-radius: 0;
     background: none;
     padding: 4em 5em;
 }
 
-.list-3omFaz {
+.list__80e1b {
     border-top: none;
 }
 
-.listItem-2_Y_Te {
+.listItem_df7f03 {
     border-bottom: thin solid var(--background-modifier-accent-dark);
 }
 
-.question-1Ociyu {
+.question_b59602 {
     font-size: 16px;
     line-height: 20px;
     font-weight: 700;
 }
 
-.answer-3VW8AS {
+.answer_a88bb8 {
     font-size: 13px;
     line-height: 18px;
     font-weight: 400;
     --text-normal: var(--text-muted);
 }
 
-.perkPreviewImage-2jd1Tx {
+.perkPreviewImage__0a7e2 {
     background: var(--contextmenu-gradient);
     padding: 8px 5px 8px 5px;
     border-radius: 0;

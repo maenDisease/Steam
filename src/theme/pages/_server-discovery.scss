@@ -1,5 +1,5 @@
-.sidebar-1tnWFu:has(.discoverHeader-1vsvZ0) {
-    .discoverHeader-1vsvZ0 {
+.sidebar_ded4b5:has(.discoverHeader_fae7fd) {
+    .discoverHeader_fae7fd {
         font-size: 14px;
         font-weight: 700;
         line-height: 16px;
@@ -11,10 +11,10 @@
         margin-bottom: 0;
     }
 
-    .categoryItem-Kc_HK_ {
+    .categoryItem_b1be5c {
         --header-secondary: var(--channels-default);
 
-        &:hover:not(.selected-1-Z6gm) {
+        &:hover:not(.selected__9800b) {
             --channels-default: var(--channels-default-hover);
 
             svg {
@@ -22,28 +22,28 @@
             }
         }
 
-        &.selected-1-Z6gm {
+        &.selected__9800b {
             --channels-default: #fff;
 
-            .layout-1qmrhw {
+            .layout_bb8e67 {
                 background: var(--channel-selected);
             }
         }
     }
 
-    .layout-1qmrhw {
+    .layout_bb8e67 {
         border-radius: 0;
         background: none;
         padding: 6px 8px;
     }
 
-    .avatar-6qzftW {
+    .avatar__6337f {
         width: 16px;
         height: 16px;
         margin-right: 6px;
     }
 
-    .name-3Vmqxm {
+    .name__16feb {
         font-size: 12px;
         font-weight: 700;
         line-height: 20px;
@@ -51,11 +51,11 @@
     }
 }
 
-#app-mount .pageWrapper-2PwDoS {
+#app-mount .pageWrapper_fef757 {
     background: none;
 }
 
-.pageWrapper-2PwDoS {
+.pageWrapper_fef757 {
     max-width: var(--content-width);
 
     .scroller-3j5xK2 {
@@ -88,7 +88,7 @@
             }
         }
 
-        .input-3O04eu {
+        .input_d266e7 {
 
             &:focus,
             &:focus-within {
@@ -116,20 +116,20 @@
 
 #app-mount {
 
-    .card-2TuZPZ {
+    .card__86773 {
         background: linear-gradient(-45deg, hsl(calc(var(--accent-hue) - 3) calc(var(--saturation-factor, 1)*41%) 42.5%) 5%, hsl(calc(var(--accent-hue) + 9) calc(var(--saturation-factor, 1)*35.9%) 25.7%) 95%);
 
         &:hover {
             background: linear-gradient(to right, hsl(calc(var(--accent-hue) - 4) calc(var(--saturation-factor, 1)*41.4%) 37.5%) 5%, hsl(calc(var(--accent-hue) - 4) calc(var(--saturation-factor, 1)*41.1%) 45.3%) 95%)
         }
 
-        .iconMask-2fMR98 {
+        .iconMask__1aff7 {
             background: none;
         }
     }
 }
 
-.card-2TuZPZ {
+.card__86773 {
     height: 170px;
     border-radius: 0;
     border-top: 1px solid rgb(201 201 201/.06);
@@ -182,100 +182,100 @@
 
     &:focus,
     &:hover {
-        .splash-1VADA3 {
+        .splash_c32fae {
             -webkit-transform: none;
             transform: none;
         }
     }
 
-    .splashImage-_KUn-T,
-    .description-19gINd,
-    .memberInfo-3G3E9W {
+    .splashImage_d48ade,
+    .description__62490,
+    .memberInfo_d96ddb {
         transition-property: filter, opacity;
         transition-duration: .6s;
         transition-timing-function: cubic-bezier(0, 0.73, 0.48, 1);
     }
 
-    &:has(.title-2vVOzt:hover) {
-        .splashImage-_KUn-T {
+    &:has(.title__17a17:hover) {
+        .splashImage_d48ade {
             filter: blur(16px);
         }
 
-        .description-19gINd,
-        .memberInfo-3G3E9W {
+        .description__62490,
+        .memberInfo_d96ddb {
             opacity: 1;
         }
     }
 
-    .cardHeader-1kPMOm {
+    .cardHeader__889e1 {
         width: 100%;
         height: 100%;
         margin-bottom: 0;
     }
 
-    .splash-1VADA3 {
+    .splash_c32fae {
         position: relative;
     }
 
-    .guildIcon-1nnIAv {
+    .guildIcon__597aa {
         bottom: 0;
 
         foreignObject {
             mask: none;
         }
 
-        .iconMask-2fMR98 {
+        .iconMask__1aff7 {
             padding: 0;
 
-            .svg-lIB-lq {
+            .svg__7900e {
                 box-shadow: 0 0 5px 0 #000000;
                 background: #fff;
             }
         }
     }
 
-    .guildInfo-PdhToW {
+    .guildInfo_ef4f03 {
         position: absolute;
         top: 0;
         bottom: 0;
         padding: 16px 16px 10px 16px;
     }
 
-    .title-2vVOzt {
+    .title__17a17 {
         order: 1;
         padding-left: calc(40px + 4px);
         height: 40px;
 
-        .guildBadge-U9DBt_ {
+        .guildBadge__53c1d {
             filter: drop-shadow(0 0 5px #000000);
         }
 
-        .guildName-1sOa9v {
+        .guildName__802c6 {
             text-shadow: 0 0 5px #000000;
             overflow: visible;
         }
     }
 
-    .memberInfo-3G3E9W {
+    .memberInfo_d96ddb {
         margin-bottom: 10px;
     }
 
-    .description-19gINd,
-    .memberInfo-3G3E9W {
+    .description__62490,
+    .memberInfo_d96ddb {
         opacity: 0;
         text-shadow: 0 1px 2px rgb(0 0 0 / 30%);
         --header-secondary: #fff;
     }
 
-    .actionButtons-3ILsbw {
+    .actionButtons__481c3 {
         z-index: 1;
     }
 
-    .wrapper-2vIMkT {
+    .wrapper_c727b6 {
         overflow: visible;
     }
 
-    .button-3bklZh {
+    .button_d553e5 {
         height: 15px;
         width: 15px;
         background: #e5e5e5;
@@ -289,9 +289,9 @@
     }
 }
 
-.pageWrapper-2PwDoS {
+.pageWrapper_fef757 {
 
-    .container-3gW0Nv {
+    .container__56ed5 {
         flex-flow: row wrap;
         display: grid;
         grid-template-areas:
@@ -304,13 +304,13 @@
         grid-area: search;
     }
 
-    .searchHeader-gz2NXf {
+    .searchHeader_d44e8b {
         grid-area: found;
         background: rgb(0 0 0/.2);
         margin-bottom: 0;
         padding: 10px;
 
-        .arrow-3fMmSH {
+        .arrow__3dfcd {
             position: absolute;
             top: calc(var(--content-gutter) + 6px);
             left: 6px;
@@ -329,7 +329,7 @@
             }
         }
 
-        .header-3lOo5J {
+        .header__809e1 {
             font-size: 12px;
             color: var(--text-normal);
             font-weight: 500;
@@ -338,7 +338,7 @@
         }
     }
 
-    .results-1Lsvf8 {
+    .results__9b201 {
         grid-area: results;
         max-width: unset;
         width: 100%;
@@ -413,7 +413,7 @@
             flex-grow: 0;
         }
 
-        .searchBox-pyIJJj {
+        .searchBox_a63854 {
             background: var(--btn-brand);
             border: 1px solid #000;
             border-radius: 3px;
@@ -445,7 +445,7 @@
         grid-gap: 5px;
     }
 
-    .card-1rhKXq {
+    .card__33bd0 {
         background: rgb(0 0 0/.2);
         border: 1px solid transparent;
 
@@ -454,13 +454,13 @@
             border-color: hsl(calc(var(--accent-hue) - 2) calc(var(--saturation-factor, 1)*39%) 41%);
         }
 
-        .splashContainer-2PC_Bm {
+        .splashContainer__5cb35 {
             border-radius: 0;
             margin-right: 12px;
 
         }
 
-        .svg-lIB-lq {
+        .svg__7900e {
             position: absolute;
             top: 8px;
             margin-left: calc(calc(12px + 32px + 8px) * -1);
@@ -472,12 +472,12 @@
             }
         }
 
-        .content-3Xrx5s {
+        .content_f124d7 {
             margin-top: 12px;
             height: calc(135px - 32px);
         }
 
-        .headerName-1IcEWM {
+        .headerName__3905d {
             margin-top: 0;
 
             h2 {
@@ -486,59 +486,59 @@
             }
         }
 
-        .description-1l_PNB {
+        .description__91e03 {
             margin-top: 10px;
             margin-bottom: auto;
             color: var(--header-secondary);
         }
 
-        .memberInfo-1LJpwT {
+        .memberInfo_e30901 {
             --header-secondary: var(--text-muted);
             margin-top: 10px;
         }
 
-        .dotSeparator-3MbNc4 {
+        .dotSeparator__44bc0 {
             margin: 0 4px;
             background-color: var(--text-muted);
         }
 
-        .actionButtons-1KX_dv {
+        .actionButtons__24f78 {
             margin: 6px 6px 0 0;
         }
     }
 
-    .separator-2t2gPa {
+    .separator_f527c9 {
         display: none;
     }
 }
 
-.placeholder-2jEh13 {
+.placeholder__278ac {
     border-radius: 2px;
 }
 
 // Student Hubs
-.scroller-RfJjkV {
+.scroller_e9501c {
     background: none;
     padding: 0 !important;
     max-width: var(--content-width);
 
-    .headerContainer-1RYk-Y {
+    .headerContainer_e815c8 {
         padding: 32px;
     }
 
-    .headerImage-1c8Lrb {
+    .headerImage_d4505b {
         box-shadow: 0 0 5px 0 #000000;
         margin-bottom: 0;
     }
 
-    .guildListSection-27K5In {
+    .guildListSection__7daf6 {
         min-width: unset;
     }
 
-    .guildList-3-B_6n {
+    .guildList__5e642 {
         margin: 0;
 
-        .container-1wv6C6 {
+        .container__8877d {
             background: rgb(0 0 0/.3);
             padding: 8px 16px 10px 16px;
             border-radius: 2px;
@@ -546,12 +546,12 @@
             align-items: center;
             height: unset;
 
-            .iconContainer-6xlTpK {
+            .iconContainer__004ce {
                 border-radius: 2px;
                 margin: 6px 6px 16px 6px;
             }
 
-            .header-2jY5vI {
+            .header_ffc801 {
                 text-align: center;
                 font-size: 16px;
                 font-weight: 400;
@@ -569,7 +569,7 @@
         }
     }
 
-    .footerDescription-3D1fe9 {
+    .footerDescription__7d0c6 {
         --header-secondary: var(--text-muted);
         font-size: 14px;
         line-height: 18px;

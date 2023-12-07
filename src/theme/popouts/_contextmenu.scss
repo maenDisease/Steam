@@ -1,72 +1,72 @@
-.menu-2TXYjN {
+.menu_dc52c6 {
     box-shadow: var(--contextmenu-shadow);
     background: var(--contextmenu-background);
     border-radius: 0;
 
-    .button-1zW0-r {
+    .button__3ecb4 {
         width: 30px;
         height: 30px;
         padding: unset;
         border-radius: 2px;
         background:none;
 
-        &.focused-H4w81f {
+        &.focused__47631 {
             background: var(--contextmenu-text);
         }
     }
 
-    .scroller-nxCRu_ {
+    .scroller__750f5 {
         padding: 0;
         overflow-y: auto !important;
     }
 }
 
-.submenuPaddingContainer-QgnL1r {
+.submenuPaddingContainer__12a9d {
     margin: 0 -4px;
 }
 
-.item-5ApiZt.colorDefault-2_rLdz {
+.item__183e8.colorDefault__0b482 {
     border-radius: 0;
     margin: 0;
     padding: 6px 15px;
     font-size: 12px;
     min-height: 21px;
 
-    &:not(.colorDanger-3umuSx) {
+    &:not(.colorDanger_eec36d) {
         color: var(--contextmenu-text);
         
-        &.focused-3LIdPu,
+        &.focused__27621,
         &:active {
             background: var(--contextmenu-text);
             color: var(--contextmenu-text-hover);
 
-            .subtext-1mqKVB,
-            .caret-1TZU-U,
-            .radioSelection-3PDNAQ,
-            .checkbox-397WsK {
+            .subtext__8a015,
+            .caret_ce50ce,
+            .radioSelection__5ed39,
+            .checkbox__45366 {
                 color: var(--contextmenu-text-hover);
             }
 
-            .check-3-73a4 {
+            .check__8d1bd {
                 color: var(--contextmenu-text);
             }
         }
     }
 }
 
-.item-5ApiZt {
+.item__183e8 {
 
-    .iconContainer-Ksy8Oj {
+    .iconContainer__829e7 {
         justify-content: center;
         align-items: center;
         display: flex;
     }
     
-    .icon-3XHs8t {
+    .icon_f09dde {
         width: 16px;
     }
 }
 
-.focused-3RdCfX .userMenuUsername-2xdVcJ .userMenuDiscriminator-2Vj2p9, .focused-3RdCfX .userMenuUsername-2xdVcJ .userMenuText-2e3Dry {
+.focused_f6efd9 .userMenuUsername_f6de35 .userMenuDiscriminator_b70e1b, .focused_f6efd9 .userMenuUsername_f6de35 .userMenuText_a180af {
     color: var(--contextmenu-text-hover);
 }

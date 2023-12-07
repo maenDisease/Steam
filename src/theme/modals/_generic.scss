@@ -11,18 +11,18 @@
     }
 }
 
-.backdrop-2ByYRN.withLayer-2VVmpp[style="opacity: 0.85; background: var(--black-500);"] {
+.backdrop__7e89b.withLayer__1fe9d[style="opacity: 0.85; background: var(--black-500);"] {
     opacity: 0.8 !important;
 }
 
 #app-mount {
-    .root-1CAIjD {
+    .root_a28985 {
         background: var(--modal-background);
         box-shadow: none;
     }
 }
 
-.root-1CAIjD {
+.root_a28985 {
     @include modalTopBar;
     border-radius: 0;
 
@@ -32,7 +32,7 @@
         --text-link: var(--text-linkHi-hover);
     }
 
-    .close-A4ZfTI {
+    .close__1080c {
         position: absolute;
         top: 9px;
         right: 9px;
@@ -41,7 +41,7 @@
         margin: 0;
         padding: 0;
 
-        .contents-3NembX {
+        .contents_fb6220 {
             height: 16px;
         }
 
@@ -51,7 +51,7 @@
         }
     }
 
-    .artContainer-1yaXct {
+    .artContainer__56b19 {
         z-index: 102;
     }
 
@@ -59,7 +59,7 @@
         background-color: transparent;
     }
 
-    .header-1ffhsl {
+    .header__6d5ea {
         box-shadow: none;
         border-radius: 0;
         padding: 32px;
@@ -71,38 +71,38 @@
         }
     }
 
-    .footer-IubaaS:has(>.lookLink-13iF2K) {
+    .footer__89240:has(>.lookLink__93965) {
         gap: 4px;
     }
 
-    .footer-IubaaS,
-    .footer-VCsJQY {
+    .footer__89240,
+    .footer_ceda43 {
         padding: 32px;
         border-radius: 0;
         box-shadow: none;
         background: none;
     }
 
-    .content-1OG56Q {
+    .content__764ce {
         padding-left: 32px;
         padding-right: 32px;
         border-radius: 0;
     }
 
-    .text-md-normal-2rFCH3 {
+    .text-md-normal__6a4eb {
         font-size: 14px;
         line-height: 18px;
     }
 
-    .defaultColor-1EVLSt.text-md-normal-2rFCH3 {
+    .defaultColor__77578.text-md-normal__6a4eb {
         --text-normal: hsl(calc(var(--accent-hue) + 5) calc(var(--saturation-factor, 1)*7.8%) 69.8%);
     }
 }
 
-.medium-2JV7bE {
+.medium__408de {
     width: 500px;
 
-    &:has(.overviewSidebar-3JDLaJ,  .guildSidebar-UHnQqs) {
+    &:has(.overviewSidebar-3JDLaJ,  .guildSidebar__8763f) {
         width: calc(500px + 192px);
     }
 }
@@ -118,7 +118,7 @@
 
 .overrideList-1mnGiL {
 
-    .flex-2S1XBF:has(>.header-2BMCBr) {
+    .flex_f5fbb7:has(>.header-2BMCBr) {
         padding-top: 8px;
         padding-left: 8px;
     }

@@ -1,11 +1,11 @@
-.container-2kTWmC {
+.container_d27846 {
     border-radius: 0;
     border: none;
     background: var(--contextmenu-background);
     box-shadow: var(--contextmenu-shadow);
     padding: 0;
 
-    .container-2oNtJn {
+    .container__7712a {
         background: rgb(0 0 0/.2);
         border: 1px solid #000;
         box-shadow: 1px 1px 0 0 var(--store-search-border);
@@ -38,7 +38,7 @@
         }
     }
 
-    .item-1Mjtru {
+    .item__287de {
         font-weight: 400;
         font-size: 14px;
         line-height: 18px;
@@ -47,16 +47,16 @@
         border-radius: 0;
         color: var(--contextmenu-text);
 
-        &:hover:not(.disabled-Lzz-qs) {
+        &:hover:not(.disabled__1c6ff) {
             background: var(--contextmenu-text);
             color: var(--contextmenu-text-hover);
 
-            .roleName-2ZJJYR .defaultColor-1EVLSt {
+            .roleName_d19d33 .defaultColor__77578 {
                 color: var(--contextmenu-text-hover);
             }
         }
 
-        .roleCircle-3TFUOr {
+        .roleCircle_bae511 {
             box-shadow:0 2px 3px rgb(0 0 0/.3);
         }
     }

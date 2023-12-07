@@ -1,4 +1,4 @@
-.animatedContainer-2laTjx {
+.animatedContainer__341f6 {
     scale: 0.86;
     border-radius: 4px;
     z-index: 2;
@@ -9,17 +9,17 @@
     }
 }
 
-.bannerImage-ubW8K- {
+.bannerImage__39c51 {
     width: 210px;
 }
 
-.bannerImg-2PzH6z {
+.bannerImg_c85b7f {
     width: 210px !important;
 }
 
-.content-yjf30S>div[style="height: 84px;"]~.container-2giAcK {
+.content__23cab>div[style="height: 84px;"]~.container__4f639 {
 
-    .progressBarContainer-1efroK {
+    .progressBarContainer__9b571 {
         position: absolute;
         top: -90px;
         left: 11px;
@@ -28,28 +28,28 @@
         margin: 0;
     }
 
-    .progressBar-2yl2pi {
+    .progressBar_db0972 {
         height: 100%;
     }
 
-    .textArea-7J7xQx {
+    .textArea_f2029c {
         margin-top: 32px;
     }
 }
 
-.link-1_kTxV {
+.link__95dc0 {
     border-radius: 0;
 }
 
-.modeSelected-3DmyhH {
+.modeSelected__487d6 {
 
-    &:hover .link-1_kTxV,
-    .link-1_kTxV {
+    &:hover .link__95dc0,
+    .link__95dc0 {
         background: var(--channel-selected);
     }
 }
 
-.wrapper-NhbLHG:not(.modeSelected-3DmyhH):hover .link-1_kTxV {
+.wrapper__7bcde:not(.modeSelected__487d6):hover .link__95dc0 {
     background: none;
 }
 
@@ -59,72 +59,72 @@
     color: var(--channels-category);
 }
 
-.wrapper-1S43wv {
+.wrapper__9c483 {
     &:hover {
-        .icon-3zI3d2 {
+        .icon_ef4486 {
             color: var(--channels-category);
         }
 
-        .name-3BUDLf {
+        .name__590d6 {
             color: var(--channels-default-hover);
         }
     }
 
-    &.muted-19J0ih:hover {
-        .icon-3zI3d2 {
+    &.muted_de6e6e:hover {
+        .icon_ef4486 {
             color: var(--channels-category);
         }
 
-        .name-3BUDLf {
+        .name__590d6 {
             color: var(--channels-default-hover);
         }
     }
 }
 
-.name-28HaxV {
+.name__8d1ec {
     font-size: 12px;
     font-weight: 700;
 }
 
-.modeMuted-2T4MDZ:hover .name-28HaxV,
-.wrapper-NhbLHG:not(.modeSelected-3DmyhH):hover .name-28HaxV {
+.modeMuted__0aeea:hover .name__8d1ec,
+.wrapper__7bcde:not(.modeSelected__487d6):hover .name__8d1ec {
     color: var(--channels-default-hover);
 }
 
-.modeConnected-NrO4cP .name-28HaxV,
-.modeConnected-NrO4cP:hover .name-28HaxV,
-.modeSelected-3DmyhH .name-28HaxV,
-.modeSelected-3DmyhH:hover .name-28HaxV,
-.modeUnread-3Cxepe .name-28HaxV,
-.modeUnread-3Cxepe:hover .name-28HaxV,
-.notInteractive-2tFrlE.modeConnected-NrO4cP .name-28HaxV,
-.notInteractive-2tFrlE.modeSelected-3DmyhH .name-28HaxV {
+.modeConnected__1c02e .name__8d1ec,
+.modeConnected__1c02e:hover .name__8d1ec,
+.modeSelected__487d6 .name__8d1ec,
+.modeSelected__487d6:hover .name__8d1ec,
+.modeUnread_f74c03 .name__8d1ec,
+.modeUnread_f74c03:hover .name__8d1ec,
+.notInteractive_a7d9fb.modeConnected__1c02e .name__8d1ec,
+.notInteractive_a7d9fb.modeSelected__487d6 .name__8d1ec {
     font-weight: 700;
 }
 
-.icon-2W8DHg {
+.icon_eff5d4 {
     width: 16px;
     height: 16px;
 }
 
-.iconContainer-21RCa3 {
+.iconContainer__3f9b0 {
     display: flex;
     align-self: center;
 }
 
-.wrapper-1S43wv:not(:hover) .arrow-2HswgU {
+.wrapper__9c483:not(:hover) .arrow_cb03b8 {
     opacity: 0;
 }
 
-.spineBorder-1-F4s1 {
+.spineBorder_bdec8b {
     background: var(--channels-category);
 }
 
-.spine-29OFwR {
+.spine__88e6d {
     color: var(--channels-category);
 }
 
-.unread-36eUEm {
+.unread__48cf4 {
     position: absolute;
     height: 16px;
     width: 2px;
@@ -134,29 +134,29 @@
     margin-top: -8px;
 }
 
-.listDefault-2F-w65 .clickable-1ctZ-H {
+.listDefault__205d0 .clickable__137bc {
     &:hover {
 
-        .content-1Tgc42 {
+        .content_b60865 {
             background: none;
         }
 
-        .username-vAneIW {
+        .username__73ce9 {
             color: var(--channels-default-hover);
         }
     }
 
-    &.selected-1oxcpH .content-1Tgc42 {
+    &.selected__471ca .content_b60865 {
         background: var(--channel-selected);
     }
 }
 
 
-.content-1Tgc42 {
+.content_b60865 {
     border-radius: 0;
 }
 
-.wrapper-2fEmwW {
+.wrapper__5848b {
     line-height: 16px;
     font-weight: 700;
     height: 16px;
@@ -164,7 +164,7 @@
     overflow: hidden;
     color: var(--channels-default);
 
-    .users-2JoyGL {
+    .users__65981 {
         width: 28px;
         background-color: var(--btn-brand);
     }

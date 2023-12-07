@@ -1,16 +1,16 @@
-.sessions-2KZ0-Q {
+.sessions__3ce76 {
     margin: 10px 0;
 
-    .otherSessions-3BQszU {
+    .otherSessions_aad582 {
         margin-top: 10px;
     }
 }
 
-.logOutAllButton-11uhew {
+.logOutAllButton__88677 {
     margin-top: 0;
 }
 
-.session-9khLqt {
+.session_f56359 {
     border-bottom: none;
     gap: 12px;
     padding: 6px 8px;
@@ -20,18 +20,18 @@
         background: var(--background-accent);
         transition: background .2s linear;
 
-        .sessionIcon-2fwSzb,
-        .sessionMoreButton-2cApSx {
+        .sessionIcon__540be,
+        .sessionMoreButton__055f9 {
             background: var(--background-accent-hover);
             transition: background .2s linear;
         }
     }
 
-    .sessionInfo-HxfESS {
+    .sessionInfo__9bc47 {
         gap: 0;
     }
 
-    .eyebrow-1Shfyi {
+    .eyebrow_e5a66c {
         color: #fff;
         font-weight: 400;
         font-size: 16px;
@@ -59,14 +59,14 @@
         }
     }
 
-    &:has(.sessionMoreButton-2cApSx:hover) {
-        .sessionIcon-2fwSzb {
+    &:has(.sessionMoreButton__055f9:hover) {
+        .sessionIcon__540be {
             background: var(--status-danger);
         }
     }
 }
 
-.sessionMoreButton-2cApSx {
+.sessionMoreButton__055f9 {
     background-color: var(--background-accent);
     border-radius: 2px;
     margin: 8px 8px 8px auto;
@@ -88,7 +88,7 @@
     }
 }
 
-.sessionIcon-2fwSzb {
+.sessionIcon__540be {
     width: 98px;
     height: 45px;
     border-radius: 0;

@@ -1,10 +1,10 @@
-.root-1CAIjD:has(.userProfileModalOuter-2wdWjU)::before {
+.root_a28985:has(.userProfileModalOuter__3fe6b)::before {
     display: none;
 }
 
-.userProfileModalOuter-2wdWjU {
+.userProfileModalOuter__3fe6b {
 
-    &.profileColors-2AgAV4 {
+    &.profileColors__2e2f0 {
         --profile-gradient-secondary-color: rgb(0 0 0/.4);
         --profile-gradient-primary-color: rgb(0 0 0/.2);
     }
@@ -116,7 +116,7 @@
         }
     }
 
-    .userProfileModalInner-3dx9L9 {
+    .userProfileModalInner__7c87d {
         overflow: hidden overlay;
         box-sizing: border-box;
 
@@ -145,45 +145,45 @@
         }
     }
 
-    .overlayBackground-2aa7wt,
+    .overlayBackground__86b78,
     .body-1Ukv50 {
         overflow: visible;
     }
 
-    &.userProfileOuterUnthemed-11rPfA {
-        .bannerSVGWrapper-2CLfzN {
+    &.userProfileOuterUnthemed__48723 {
+        .bannerSVGWrapper__3e7b0 {
             position: absolute;
             inset: 0;
         }
 
-        .pencilContainer-18TrEJ {
+        .pencilContainer_d4ce8d {
             display: none;
         }
 
-        .overlayBackground-2aa7wt {
+        .overlayBackground__86b78 {
             margin-top: 0;
         }
 
     }
 
-    .top-Ktfr_T {
-        &:has(.item-2GWPIy:nth-child(1):last-child) {
+    .top__592a7 {
+        &:has(.item__48dda:nth-child(1):last-child) {
             --btn-count: 1;
         }
 
-        &:has(.item-2GWPIy:nth-child(2):last-child) {
+        &:has(.item__48dda:nth-child(2):last-child) {
             --btn-count: 2;
         }
 
-        &:has(.item-2GWPIy:nth-child(3):last-child) {
+        &:has(.item__48dda:nth-child(3):last-child) {
             --btn-count: 3;
         }
 
-        &:has(.item-2GWPIy:nth-child(4):last-child) {
+        &:has(.item__48dda:nth-child(4):last-child) {
             --btn-count: 4;
         }
 
-        &:has(.item-2GWPIy:nth-child(5):last-child) {
+        &:has(.item__48dda:nth-child(5):last-child) {
             --btn-count: 5;
         }
 
@@ -194,14 +194,14 @@
         position: relative;
         border-bottom: none;
 
-        .item-2GWPIy {
+        .item__48dda {
             background: none;
             margin: 0;
             display: flex;
             flex: 0 1 calc(100% / var(--btn-count));
             justify-content: center;
 
-            &:not(.selected-1sf9UK):hover {
+            &:not(.selected__5711d):hover {
                 color: var(--interactive-hover);
             }
 
@@ -223,24 +223,24 @@
             transition: translate .2s ease;
         }
 
-        &:has(.selected-1sf9UK:nth-child(2)):before {
+        &:has(.selected__5711d:nth-child(2)):before {
             translate: 100%;
         }
 
-        &:has(.selected-1sf9UK:nth-child(3)):before {
+        &:has(.selected__5711d:nth-child(3)):before {
             translate: 200%;
         }
 
-        &:has(.selected-1sf9UK:nth-child(4)):before {
+        &:has(.selected__5711d:nth-child(4)):before {
             translate: 300%;
         }
 
-        &:has(.selected-1sf9UK:nth-child(5)):before {
+        &:has(.selected__5711d:nth-child(5)):before {
             translate: 400%;
         }
     }
 
-    .scrollerBase-1Pkza4 {
+    .scrollerBase_dc3aa9 {
         overflow: hidden overlay !important;
         padding: 0 !important;
         margin: 16px 12px 12px 12px;
@@ -249,7 +249,7 @@
     .userInfoText-2MFCmH {
         margin-bottom: 0;
 
-        .lineClamp2Plus-2SCQmH {
+        .lineClamp2Plus_d4306b {
             -webkit-line-clamp: 20 !important;
         }
     }
@@ -292,7 +292,7 @@
         margin: 0 12px;
     }
 
-    &:has(.connectedAccountsColumn-1zdyyx) {
+    &:has(.connectedAccountsColumn_fd2c41) {
         .infoScroller-1QMpon {
             flex-flow: row wrap;
             display: grid;
@@ -308,7 +308,7 @@
         border-top: none;
     }
 
-    .memberSinceContainer-2CBD23 {
+    .memberSinceContainer__0a28b {
 
         .userInfoText-2MFCmH {
             font-size: 34px;
@@ -325,11 +325,11 @@
 
     .infoScroller-1QMpon {
 
-        .userInfoSection-2u2hir:not(.connectedAccounts-2R5M4w) {
+        .userInfoSection-2u2hir:not(.connectedAccounts_dc0a56) {
             grid-area: info;
         }
 
-        .connectedAccounts-2R5M4w {
+        .connectedAccounts_dc0a56 {
             grid-area: accounts;
             flex-direction: column;
             background: rgb(0 0 0/.3);
@@ -344,15 +344,15 @@
         }
     }
 
-    .connectedAccountsColumn-1zdyyx {
+    .connectedAccountsColumn_fd2c41 {
         width: 100%;
 
-        +.connectedAccountsColumn-1zdyyx {
+        +.connectedAccountsColumn_fd2c41 {
             margin-left: 0;
         }
     }
 
-    .connectedAccountContainer-3aLMHJ {
+    .connectedAccountContainer__23f00 {
         margin: 0 0 4px 0;
         padding: 4px 0 4px 4px;
         border-radius: 0;
@@ -361,30 +361,30 @@
         position: relative;
     }
 
-    .connectedAccount-1oLIrm {
+    .connectedAccount__28fb0 {
         gap: 7px;
     }
 
-    .connectedAccountIcon-3FdW8x {
+    .connectedAccountIcon__6bc30 {
         height: 34px;
         width: 34px;
     }
 
-    .connectedAccountNameText-tCbPXH {
+    .connectedAccountNameText__00810 {
         font-size: 13px;
         line-height: 17px;
         font-weight: 400;
     }
 
-    .connectedAccountChildren-29Qmfl {
+    .connectedAccountChildren__21b60 {
         margin-left: calc(34px + 7px);
     }
 
-    .connectedAccountVerifiedIcon-3EPFPC {
+    .connectedAccountVerifiedIcon_db6dbd {
         display: none;
     }
 
-    .anchor-1X4H4q:has(.connectedAccountOpenIcon-3i81Tz) {
+    .anchor_c8ddc0:has(.connectedAccountOpenIcon_df549d) {
         &:hover {
             background: var(--btn-brand-hover);
             border-radius: 2px;
@@ -401,7 +401,7 @@
         }
     }
 
-    .listScroller-entkMk {
+    .listScroller__92e1a {
         display: grid;
         grid-template-columns: repeat(2, minmax(0, 1fr));
         grid-gap: 7px;
@@ -411,7 +411,7 @@
         width: calc(100% - 12px - 10px);
     }
 
-    .listRow-2nO1T6 {
+    .listRow__60937 {
         background: rgb(0 0 0/.3);
         padding: 8px;
         border-radius: 5px;
@@ -419,12 +419,12 @@
         height: fit-content;
     }
 
-    .listName-PwbeHL {
+    .listName_dbd44a {
         font-size: 14px;
         line-height: 18px;
     }
 
-    .guildNick-fe8oPN {
+    .guildNick__01069 {
         font-size: 13px;
         line-height: 17px;
     }
@@ -436,12 +436,12 @@
         border-radius: 5px;
     }
 
-    .empty-2zcusz {
+    .empty__18e40 {
         grid-column: span 2;
     }
 }
 
-.assetsLargeImage-8U5dlz,
-.iconActiveMedium-27_R5B {
+.assetsLargeImage_b88a59,
+.iconActiveMedium_d5475f {
     border-radius: 0;
 }

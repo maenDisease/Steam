@@ -1,13 +1,13 @@
 #app-mount {
 
-    .emptyPage-2TGR7j,
-    .scrollerContainer-y16Rs9 {
+    .emptyPage__3e15d,
+    .scrollerContainer_bf5dbd {
         background: none;
     }
 }
 
-.chat-2ZfjoI .container-2IKOsH {
-    .tabBar-1_P75h {
+.chat__52833 .container__10dc7 {
+    .tabBar_d4764b {
         padding: 0;
         margin: 10px 0 10px 0;
         gap: 0;
@@ -23,7 +23,7 @@
 
         @for $i from 1 through $tabCount {
 
-            &:has(.item-2GWPIy:nth-child(#{$i}):last-child) {
+            &:has(.item__48dda:nth-child(#{$i}):last-child) {
                 --btn-count: #{$i};
             }
 
@@ -39,7 +39,7 @@
             $i: #{$i+1};
         }
 
-        .item-2GWPIy {
+        .item__48dda {
             background: none;
             margin: 0;
             display: flex;
@@ -72,12 +72,12 @@
     }
 }
 
-.chat-2ZfjoI.scrollerContainer-y16Rs9 {
-    .scroller-1fIBSS {
+.chat__52833.scrollerContainer_bf5dbd {
+    .scroller__81266 {
         padding: 0 !important;
         box-sizing: content-box;
 
-        .pageBody-29jwEZ {
+        .pageBody_bfae74 {
             padding-right: 0;
             gap: 0;
 
@@ -92,7 +92,7 @@
         }
     }
 
-    .profile-3xd-Cg {
+    .profile_b28ef9 {
 
         >h2,
         >[data-text-variant="text-xs/normal"] {
@@ -113,28 +113,28 @@
 
     }
 
-    .profileCard-2gVmvm {
+    .profileCard_bd55ee {
         margin-top: 0;
         width: 308px;
         background: var(--store-sidebar-background);
         border-radius: 0;
         box-sizing: border-box;
 
-        .role-3uAPnQ {
+        .role__65ab8 {
             background: rgb(0 0 0/.3);
             border-radius: 3px;
         }
     }
 }
 
-.prompt-1sE27N {
+.prompt__1b100 {
     gap: 0;
     padding: 0;
     border-radius: 0;
     background: none;
     margin-top: var(--content-gutter);
 
-    .promptTitle-1ID-ZY {
+    .promptTitle__514bc {
         background-color: var(--store-body-header);
         padding: 10px 20px 10px 20px;
         font-weight: normal;
@@ -144,7 +144,7 @@
         text-transform: uppercase;
     }
 
-    .promptOptions-3jDyZ4 {
+    .promptOptions__8e373 {
         background: rgb(0 0 0/.4);
         padding: 20px;
     }
