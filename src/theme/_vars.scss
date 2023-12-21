@@ -216,11 +216,18 @@
     // --settingsicons-logout: url(https://mwittrien.github.io/BetterDiscordAddons/Themes/_res/svgs/settingsicons/logout.svg);
 }
 
+.standardSidebarView__1129a:has(.socialLinks_c1fc99) .contentColumnDefault_c66386:not(.repoScroller_9JnAPs) div:first-child > div:first-child > .sectionTitle_e32631:first-child .title__3e421::before, .standardSidebarView__1129a:has(.socialLinks_c1fc99) .contentColumnDefault_c66386:not(.repoScroller_9JnAPs) div:first-child > div:first-child > h2.title__3e421::before, .standardSidebarView__1129a:has(.socialLinks_c1fc99) .contentColumnDefault_c66386:not(.repoScroller_9JnAPs) div:first-child > .sectionTitle__1605a::before, .standardSidebarView__1129a:has(.socialLinks_c1fc99) .contentColumnDefault_c66386.repoHeader_2KfNvH .title__3e421::before, .standardSidebarView__1129a:has(.socialLinks_c1fc99) .contentColumnDefault_c66386:not(.repoScroller_9JnAPs) > h2:first-child::before, .standardSidebarView__1129a:has(.socialLinks_c1fc99) .contentColumnWide_f71d35:not(.repoScroller_9JnAPs) > h2:first-child::before, .standardSidebarView__1129a:has(.socialLinks_c1fc99) .contentColumnDefault_c66386:not(.repoScroller_9JnAPs) > .settingsTabBar__17e8a:first-child::before, .standardSidebarView__1129a:has(.socialLinks_c1fc99) .contentColumnDefault_c66386:not(.repoScroller_9JnAPs) > *:first-child > .settingsTabBar__19aa3::before {
+    display: none;
+}
 // Settings Modal
 :root {
     --settingsmodalbackground: transparent;
-    --settingsmodalwidth: 850px;
-    --settingsmodalheight: 80vh;
+    --settingswidth: 850;
+	--settingsheight: 80;
+}
+
+#app-mount .contentRegion__0bec1 {
+    flex: 1 1 100%;
 }
 
 // HorizontalServerList
