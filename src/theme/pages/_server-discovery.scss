@@ -1,5 +1,5 @@
-.sidebar_ded4b5:has(.discoverHeader_fae7fd) {
-    .discoverHeader_fae7fd {
+.sidebar_ded4b5:has([class*="discoverHeader"]) {
+    [class*="discoverHeader"] {
         font-size: 14px;
         font-weight: 700;
         line-height: 16px;
@@ -11,7 +11,7 @@
         margin-bottom: 0;
     }
 
-    .categoryItem_b1be5c {
+    [class*="categoryItem"] {
         --header-secondary: var(--channels-default);
 
         &:hover:not(.selected__9800b) {
@@ -22,7 +22,7 @@
             }
         }
 
-        &.selected__9800b {
+        &[class*="selected"] {
             --channels-default: #fff;
 
             .layout_bb8e67 {
@@ -300,11 +300,11 @@
             "results categories";
     }
 
-    .searchPage-3tt6dh {
+    [class*="searchPage"] {
         grid-area: search;
     }
 
-    .searchHeader_d44e8b {
+    [class*="searchHeader"] {
         grid-area: found;
         background: rgb(0 0 0/.2);
         margin-bottom: 0;
@@ -344,7 +344,7 @@
         width: 100%;
     }
 
-    .categories-2LoSbA {
+    [class*="categories"] {
         grid-area: categories;
         align-items: flex-start;
         height: fit-content;
@@ -368,7 +368,7 @@
             border-top-right-radius: 1px;
         }
 
-        .categoryPill-1zjNrr {
+        [class*="categoryPill"] {
             padding: 6px 8px;
             text-align: left;
             border-radius: 0;
@@ -389,7 +389,7 @@
                 background: rgb(255 255 255/.1);
             }
 
-            &.selected-bLcqYK {
+            &[class*="selected"] {
                 background: var(--btn-brand-hover)
             }
 
@@ -407,13 +407,13 @@
         margin-bottom: var(--content-gutter);
         align-items: center;
 
-        .search-25t1e9 {
+        .search_e47903 {
             width: 300px;
             max-width: calc(100% - 80px - 2px);
             flex-grow: 0;
         }
 
-        .searchBox_a63854 {
+        [class*="searchBox"] {
             background: var(--btn-brand);
             border: 1px solid #000;
             border-radius: 3px;

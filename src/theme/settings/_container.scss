@@ -32,7 +32,7 @@ html.app-focused .layer__2efaa ~.layer__2efaa  {
     @include generic.modalTopBar;
 }
 
-#app-mount .layer__2efaa .stop-animations:first-child::after {
+#app-mount .layer__2efaa.stop-animations:first-child::after {
     opacity: 0 !important;
 }
 
