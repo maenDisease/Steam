@@ -147,25 +147,22 @@
     }
 }
 
-.problems__755eb {
+[class^="problems"] {
     position: relative;
     inset: unset;
     padding: 10px 0 0 0;
     transform: none;
     --text-link: var(--text-linkHi);
 
-    a:hover {
-        text-decoration: none;
-        --text-link: var(--text-linkHi-hover);
-    }
-
-    .links_ab4aa2 {
+    a {
         font-weight: 400;
         font-size: 14px;
         line-height: 18px;
-    }
-
-    .anchor_c8ddc0 {
         text-decoration: none;
+
+        &:hover {
+            text-decoration: none;
+            --text-link: var(--text-linkHi-hover);
+        }
     }
 }
