@@ -503,7 +503,7 @@
     background-repeat: no-repeat;
     z-index: 0;
     clip-path: inset(1px 0 0 2px);
-    filter: hue-rotate(calc(var(--hue-shift) * 1deg)) saturate(var(--saturation-factor,1));
+    filter: hue-rotate(calc(var(--hue-shift) * 1deg)) saturate(var(--saturation-factor, 1));
 }
 
 .mainCard__8a660:has(.pinIcon__39b6e):not([class*="isOpen"]):hover::before {
@@ -664,12 +664,32 @@
 .footer__7cd26 {
     height: unset;
     font-size: 12px;
-}
 
-.footer__7cd26 .messageCountText__13680,
-.footer__7cd26 .text-sm-normal_e612c7,
-.footer__7cd26 .newMessageCount-MJLPv {
-    font-size: 12px;
+    .messageCountText__13680,
+    .text-sm-normal_e612c7,
+    .newMessageCount-MJLPv {
+        font-size: 12px;
+    }
+
+    .reaction_b90ab0 {
+        border-radius: 2px;
+        margin-right: 0;
+        margin-bottom: 0;
+
+        .reactionInner__00d5f {
+            height: 20px;
+            padding: 0 6px;
+        }
+
+        .emoji {
+            height: 14px;
+            width: 14px;
+        }
+    }
+
+    .reactionCount__60448 {
+        font-size: 12px;
+    }
 }
 
 .messageCountBox_c71016 {
