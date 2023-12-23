@@ -2920,10 +2920,25 @@ body #app-mount:-webkit-full-screen .app_b1f720 .base__3e6af {
   height: unset;
   font-size: 12px;
 }
-
 .footer__7cd26 .messageCountText__13680,
 .footer__7cd26 .text-sm-normal_e612c7,
 .footer__7cd26 .newMessageCount-MJLPv {
+  font-size: 12px;
+}
+.footer__7cd26 .reaction_b90ab0 {
+  border-radius: 2px;
+  margin-right: 0;
+  margin-bottom: 0;
+}
+.footer__7cd26 .reaction_b90ab0 .reactionInner__00d5f {
+  height: 20px;
+  padding: 0 6px;
+}
+.footer__7cd26 .reaction_b90ab0 .emoji {
+  height: 14px;
+  width: 14px;
+}
+.footer__7cd26 .reactionCount__60448 {
   font-size: 12px;
 }
 
