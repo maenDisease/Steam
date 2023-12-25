@@ -119,6 +119,7 @@
     .userProfileModalInner__7c87d {
         overflow: hidden overlay;
         box-sizing: border-box;
+        max-height: calc(100vh - 84px);
 
         &::-webkit-scrollbar {
             width: 8px;
