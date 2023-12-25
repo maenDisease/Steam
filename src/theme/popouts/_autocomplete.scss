@@ -104,3 +104,21 @@
         }
     }
 }
+
+.autocomplete-3jLKbj {
+
+    .autocompleteInner-y1mjDl:has(.list-2u03C-) {
+        &::before {
+            content: '';
+            position: absolute;
+            inset: 40px 8px 8px;
+            height: calc(100% - 48px);
+            width: calc(100% - 16px);
+        }
+    }
+
+    .list-2u03C-  {
+        overflow: overlay !important;
+        margin: 0 0 0 8px;
+    }
+}
