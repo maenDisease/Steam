@@ -373,19 +373,19 @@
 .volumeButton__3a6bf {
 
     // Full
-    &:has([d^="M11.383 3.07904C11.009 2.92504 10.579 3.01004 10.293"]) {
+    &:has([d^="M12 3a1 1 0 0 0-1-1h-.06a1 1 0 0 0-.74.32L5.92 7H3a1 1 0 0 0-1 1v8a1 1 0 0 0 1 1h2.92l4.28 4.68a1 1 0 0 0 .74.32H11a1 1 0 0 0 1-1V3ZM15.1 20.75c-.58.14-1.1-.33-1.1-.92v-.03c0-.5.37-.92.85-1.05a7 7 0 0 0 0-13.5A1.11 1.11 0 0 1 14 4.2v-.03c0-.6.52-1.06 1.1-.92a9 9 0 0 1 0 17.5Z"]) {
         mask: url(https://maendisease.github.io/Steam/illustrations/icns/volume.svg) center/contain no-repeat;
         mask-size: 20px;
     }
 
     // Half
-    &:has([d^="M10.293 3.29604C10.579 3.01004 11.009 2.92504 11.383"]) {
+    &:has([d^="M12 3a1 1 0 0 0-1-1h-.06a1 1 0 0 0-.74.32L5.92 7H3a1 1 0 0 0-1 1v8a1 1 0 0 0 1 1h2.92l4.28 4.68a1 1 0 0 0 .74.32H11a1 1 0 0 0 1-1V3ZM15.18 15.36c-.55.35-1.18-.12-1.18-.78v-.27c0-.36.2-.67.45-.93a2 2 0 0 0 0-2.76c-.24-.26-.45-.57-.45-.93v-.27c0-.66.63-1.13 1.18-.78a4 4 0 0 1 0 6.72Z"]) {
         mask: url(https://maendisease.github.io/Steam/illustrations/icns/volumehalf.svg) center/contain no-repeat;
         mask-size: 20px;
     }
 
     // Mute
-    &:has([d^="M19.73 9L21 10.27l-2.23 2.23L21"]) {
+    &:has([d^="M12 3a1 1 0 0 0-1-1h-.06a1 1 0 0 0-.74.32L5.92 7H3a1 1 0 0 0-1 1v8a1 1 0 0 0 1 1h2.92l4.28 4.68a1 1 0 0 0 .74.32H11a1 1 0 0 0 1-1V3ZM22.7 8.3a1 1 0 0 0-1.4 0L19 10.58l-2.3-2.3a1 1 0 1 0-1.4 1.42L17.58 12l-2.3 2.3a1 1 0 0 0 1.42 1.4L19 13.42l2.3 2.3a1 1 0 0 0 1.4-1.42L20.42 12l2.3-2.3a1 1 0 0 0 0-1.4Z"]) {
         mask: url(https://maendisease.github.io/Steam/illustrations/icns/volumemuted.svg) center/contain no-repeat;
         mask-size: 20px;
     }

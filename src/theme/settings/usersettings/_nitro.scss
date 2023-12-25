@@ -24,7 +24,12 @@
     }
 }
 
-.settingsHero-2Me_mE {
+.premiumContainer__2ebd0 {
+    .root__3594f {
+        display: none;
+    }
+}
+[data-testid="v2-marketing-page-hero-header"] {
     width: 100%;
     border-radius: 0;
     background: none;
@@ -51,7 +56,7 @@
     }
 }
 
-.premiumTierCardsContainer-2obTQK {
+.premiumTierCardsContainer_e3c13b {
     background: linear-gradient(137.42deg, #00d5ff 0%, #d0266f 40%, #b9b500 100%);
     background-size: 300% 300%;
     animation: nitroGradient 20s ease infinite;
@@ -140,58 +145,66 @@
     }
 }
 
-.perksContainer-1hGJpM {
+.whatsNewSection_e83a8d {
+    position: relative;
+    gap: 64px;
+    padding-top: 64px;
+    padding-bottom: 64px;
+    margin-bottom: 0;
+    background-image: var(--custom-premium-colors-premium-gradient-tier-2-transparent);
+    border-radius: 0;
+}
+
+#app-mount .card_e97590 {
+    transform: none;
+    transition: filter 0.2s ease;
+    border-radius: 3px;
+    padding: 20px;
+    background: linear-gradient(137.42deg, #163bba 0%, #ae4d4d 100%);
+    overflow: hidden;
+
+    &:hover .cardImage__9da5b {
+        margin: 50px;
+        width: calc(100% - 100px);
+        border-radius: 0;
+    }
+}
+
+#app-mount .cardContainer__912d9 .noFlipCardContainer_e2d2c1:nth-child(2n) {
+    .card_e97590 {
+        background: linear-gradient(137.42deg, #ce158b 0%, #e36d23 100%);
+
+        .cardDescription__46c9d {
+            background: linear-gradient(137.42deg, #ce158b 0%, #e36d23 100%);
+        }
+    }
+}
+
+.cardDescription__46c9d {
+    padding: 20px;
+    border-radius: 3px;
+    background: linear-gradient(137.42deg, #163bba 0%, #ae4d4d 100%);
+    filter: hue-rotate(30deg);
+}
+
+#app-mount .cardImage__9da5b {
+    z-index: 21;
+    border-radius: 0;
+}
+
+.perksContainer_e3fd5b {
     background: #fff;
     margin: 0;
     max-width: 100%;
+    display: block;
+    padding-top: 4em;
 
     .defaultColor__87d87 {
         color: #1b1b1b;
     }
 }
 
-.perksTitle-1U7C5- {
-    display: none;
-}
-
-.bigPerkCardContainer-100zsH {
-    display: block;
-    padding-top: 4em;
-}
-
-.bigPerkCard-1uwmWV {
-    background: none;
-    border-radius: 0;
-    flex-direction: row;
-    padding: 0 5em;
-    gap: 20px;
-    margin-bottom: 20px;
-    justify-content: center;
-
-    &:nth-child(2),
-    &:nth-child(4) {
-        flex-direction: row-reverse;
-    }
-
-    h2,
-    img {
-        width: 50%;
-    }
-
-    [data-text-variant="heading-xl/extrabold"] {
-        text-align: left;
-        font-size: 18px;
-    }
-}
-
-.smallPerkCardContainer-X9-c92 {
-    display: grid;
-    grid-template-columns: repeat(3, minmax(0, 1fr));
-    grid-gap: 20px;
-    padding: 0 5em 4em 5em;
-}
-
-.smallPerkCard-2sX_-- {
+.perkCard__6fe60 {
     background: none;
     border-radius: 0;
     padding: 8px 16px 10px 16px;
@@ -222,11 +235,7 @@
     }
 }
 
-.bigPerkArt-2FBijV {
-    margin: 0;
-}
-
-.planComparisonTable-3NX-qt {
+.planComparisonTableContainer__5e152 {
     padding: 24px;
     max-width: unset;
     width: 100%;
@@ -235,7 +244,7 @@
     background-size: 300% 300%;
     animation: nitroGradient 20s ease infinite;
 
-    .titleText-rdztw2 {
+    [class*="titleText"] {
         font-size: 30px;
         line-height: 34px;
         font-weight: 800;
@@ -246,7 +255,7 @@
         text-align: start;
     }
 
-    .headerRow-_Ed0yk {
+    [class*="headerRow"] {
         h2 {
             font-size: 16px;
             line-height: 20px;
@@ -259,19 +268,19 @@
             justify-content: center;
         }
 
-        .headerLabelCell-eG_2hU {
+        [class*="headerLabelCell"] {
             align-items: center;
             justify-content: left;
             width: 25%;
             max-width: 25%;
         }
 
-        .headerCell-3mJ5RH {
+        [class*="headerCell"] {
             width: 37.5%;
         }
     }
 
-    .labelCell-1GC1sX {
+    [class*="labelCell"] {
         [data-text-variant="text-sm/normal"] {
             font-size: 16px;
             line-height: 20px;
@@ -280,7 +289,7 @@
         }
     }
 
-    .row-32xD2c {
+    [class^="row"] {
         height: unset;
         min-height: 48px;
     }
@@ -296,21 +305,21 @@
         width: 37.5%;
     }
 
-    .rowBottomBorder-3HkIZv {
+    [class*="rowBottomBorder"] {
         width: 100%;
         border-bottom: 1px solid #ffffff33;
     }
 
-    .tier2ColumnOuter-1U2eKO {
+    [class*="tier2ColumnOuter"] {
         display: none;
     }
 
-    .closeIcon-3aZ-RA {
+    [class*="closeIcon"] {
         color: #ffffff33;
     }
 }
 
-.innerWrapper-Eo2E86 {
+.innerWrapper_c80bad {
     background-image: linear-gradient(45deg, var(--guild-boosting-blue), var(--guild-boosting-purple));
     border-radius: 4px;
     box-shadow: var(--banner-shadow);
