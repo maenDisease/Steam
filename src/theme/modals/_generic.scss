@@ -55,7 +55,7 @@
         z-index: 102;
     }
 
-    .modalHeader-3X0A4K {
+    [class*="modalHeader"] {
         background-color: transparent;
     }
 
@@ -102,36 +102,36 @@
 .medium__408de {
     width: 500px;
 
-    &:has(.overviewSidebar-3JDLaJ,  .guildSidebar__8763f) {
+    &:has([class*="overviewSidebar"],  .guildSidebar__8763f) {
         width: calc(500px + 192px);
     }
 }
 
-.largeSpacing-22TLsQ {
+.largeSpacing_ac1945 {
     margin-bottom: 32px;
     margin-top: 10px;
 }
 
-.spacing-YMH87Q {
+.spacing_ce91c7 {
     margin: 0;
 }
 
-.overrideList-1mnGiL {
+.overrideList__3236e {
 
-    .flex_f5fbb7:has(>.header-2BMCBr) {
+    .flex_f5fbb7:has(>.header__995b4) {
         padding-top: 8px;
         padding-left: 8px;
     }
 
-    .header-2BMCBr {
+    .header__995b4 {
         margin-bottom: 0;
     }
 
-    .headerName-3l1jaS {
+    [class*="headerName"] {
         margin-left: 0;
     }
 
-    .headerOption-34DUW8 {
+    [class*="headerOption"] {
         align-self: flex-end;
     }
 }

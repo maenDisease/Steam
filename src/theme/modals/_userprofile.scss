@@ -3,13 +3,13 @@
 }
 
 .userProfileModalOuter__3fe6b {
-
+    
     &.profileColors__2e2f0 {
         --profile-gradient-secondary-color: rgb(0 0 0/.4);
         --profile-gradient-primary-color: rgb(0 0 0/.2);
     }
 
-    .topSection-13QKHs {
+    .topSection_dfb73b {
         position: relative;
         margin-bottom: 0;
         z-index: unset;
@@ -17,7 +17,7 @@
         width: 100%;
     }
 
-    .header-S26rhB {
+    .header__7da4f {
         position: absolute;
         bottom: calc(calc(120px + 24px) * -1);
         left: 0;
@@ -29,13 +29,13 @@
         justify-content: space-between;
         z-index: 2;
 
-        .avatar-3QF_VA {
+        .avatar__445f3 {
             position: relative;
             inset: unset;
             display: flex;
         }
 
-        .headerTop-1PNKck {
+        .headerTop__6628b {
             position: relative;
             inset: unset;
             width: 200px;
@@ -43,7 +43,7 @@
         }
     }
 
-    .badgeList-2aoHPw {
+    .badgeList_c193e3 {
         display: flex;
         flex-flow: row wrap;
         background: rgb(0 0 0/.3);
@@ -56,7 +56,7 @@
         gap: 6px 10px;
     }
 
-    .relationshipButtons-3ByBpj {
+    .relationshipButtons__5efdd {
         width: 100%;
         gap: 4px;
         margin-top: 12px;
@@ -91,12 +91,12 @@
         }
     }
 
-    .body-1Ukv50 {
+    .body_ea740e {
         padding-top: calc(120px + 48px);
         position: relative;
     }
 
-    .container-3g15px {
+    .container_b6b15b {
         position: absolute;
         top: 24px;
         left: 0;
@@ -146,7 +146,7 @@
     }
 
     .overlayBackground__86b78,
-    .body-1Ukv50 {
+    .body_ea740e {
         overflow: visible;
     }
 
@@ -246,7 +246,7 @@
         margin: 16px 12px 12px 12px;
     }
 
-    .userInfoText-2MFCmH {
+    .userInfoText__5f822 {
         margin-bottom: 0;
 
         .lineClamp2Plus_d4306b {
@@ -254,7 +254,7 @@
         }
     }
 
-    .userInfoSection-2u2hir {
+    .userInfoSection__1daf8 {
         padding: 0;
 
         h1 {
@@ -277,23 +277,23 @@
         }
     }
 
-    .note-3M15gE {
+    .note__7a4f4 {
         margin: 0 0 12px 0;
     }
 
-    .userInfoText-2MFCmH [data-text-variant="text-sm/normal"] {
+    .userInfoText__5f822 [data-text-variant="text-sm/normal"] {
         background: rgb(0 0 0/.3);
         padding: 8px;
         border-radius: 5px;
     }
 
-    .tabBarContainer-sCZC4w {
+    .tabBarContainer__63f55 {
         border-bottom: 0;
         margin: 0 12px;
     }
 
     &:has(.connectedAccountsColumn_fd2c41) {
-        .infoScroller-1QMpon {
+        .infoScroller__6ec79 {
             flex-flow: row wrap;
             display: grid;
             grid-template-columns: 1fr 200px;
@@ -304,13 +304,13 @@
         }
     }
 
-    .userInfoSection-2u2hir+.userInfoSection-2u2hir {
+    .userInfoSection__1daf8+.userInfoSection__1daf8 {
         border-top: none;
     }
 
     .memberSinceContainer__0a28b {
 
-        .userInfoText-2MFCmH {
+        .userInfoText__5f822 {
             font-size: 34px;
             line-height: 38px;
             font-weight: 200;
@@ -323,9 +323,9 @@
         }
     }
 
-    .infoScroller-1QMpon {
+    .infoScroller__6ec79 {
 
-        .userInfoSection-2u2hir:not(.connectedAccounts_dc0a56) {
+        .userInfoSection__1daf8:not(.connectedAccounts_dc0a56) {
             grid-area: info;
         }
 
@@ -429,7 +429,7 @@
         line-height: 17px;
     }
 
-    .userProfileActivity-sal5no {
+    .userProfileActivity__68b33 {
         grid-column: span 2;
         background: rgb(0 0 0/.3);
         padding: 8px;

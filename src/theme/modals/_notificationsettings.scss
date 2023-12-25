@@ -1,4 +1,4 @@
-.override-1sK4r0 {
+.override_f2098b {
     border-radius: 0;
     border: none;
     margin-bottom: 0;
@@ -17,23 +17,23 @@
         }
     }
 
-    .icon-qThCQ9 {
+    .icon__9a542 {
         width: 16px;
     }
 
-    .channelNameContainer-30S1Sr {
+    .channelNameContainer__2e09f {
         display: flex;
         justify-content: center;
         flex-direction: column;
     }
 
-    .channelName-IPB6B3 {
+    .channelName_a1ccf5 {
         color: #fff;
         font-weight: 400;
         line-height: 20px;
     }
 
-    .channelNameByline-tP477j {
+    .channelNameByline__574ef {
         color: var(--text-muted);
         font-size: 12px;
         line-height: 22px;
@@ -42,20 +42,20 @@
         font-weight: 700;
     }
 
-    .checkboxMute-1erNeD {
+    .checkboxMute__6e269 {
         &::before {
             display: none;
         }
     }
 }
 
-#app-mount .override-1sK4r0 {
+#app-mount .override_f2098b {
     &:hover {
         background: var(--background-accent);
         transition: background .2s linear;
     }
 
-    .checkboxContainer-1NbL2v:before {
+    .checkboxContainer__5a761:before {
         background-color: var(--background-modifier-accent-dark);
     }
 }
