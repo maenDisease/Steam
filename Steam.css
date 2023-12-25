@@ -11788,6 +11788,7 @@ video:has([src="/assets/b6508869eb1b93a8e54729ac86985599.png"]) {
 .userProfileModalOuter__3fe6b .userProfileModalInner__7c87d {
   overflow: hidden overlay;
   box-sizing: border-box;
+  max-height: calc(100vh - 84px);
 }
 .userProfileModalOuter__3fe6b .userProfileModalInner__7c87d::-webkit-scrollbar {
   width: 8px;
