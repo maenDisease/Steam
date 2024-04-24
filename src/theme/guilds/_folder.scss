@@ -1,4 +1,4 @@
-#app-mount .wrapper_a7e7a8.guilds__2b93a [class*=expandedFolderBackground] {
+#app-mount .wrapper__216eb.guilds__2b93a [class*=expandedFolderBackground] {
     border-radius: 2px;
 }
 
@@ -6,11 +6,11 @@
     background: none;
 }
 
-.expandedFolderBackground__1bec6 {
+.expandedFolderBackground_b1385f {
     bottom: 0;
     background-color: var(--brand-experiment-700);
 
-    &.collapsed__0a270 {
+    &.collapsed__98ad5 {
         background-color: var(--header-button-background);
         height: var(--server-size);
 
@@ -29,11 +29,11 @@
             z-index: 1;
         }
 
-        &:has(+.listItem_fa7b36 .item_f9d377[style="opacity: 1; height: 40px; transform: none;"]):before {
+        &:has(+.listItem__48528 .item_f9d377[style="opacity: 1; height: 40px; transform: none;"]):before {
             --gpColor-Grey: var(--brand-experiment);
         }
 
-        &:has(+.listItem_fa7b36 .item_f9d377):before {
+        &:has(+.listItem__48528 .item_f9d377):before {
             --gpColor-Grey: var(--header-primary);
         }
     }
@@ -44,6 +44,6 @@
     background-color: transparent !important;
 }
 
-.expandedFolderIconWrapper__458cf svg {
+.expandedFolderIconWrapper__324c1 svg {
     color: var(--brand-experiment-300) !important;
 }
