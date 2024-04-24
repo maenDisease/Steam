@@ -1,5 +1,5 @@
 #emoji-tab {
-    .title__9bb94 {
+    .title__70837 {
         margin-bottom: 0;
         padding-top: 8px;
         padding-left: 8px;
@@ -22,21 +22,21 @@
     }
 }
 
-.emojiTable_dd50d1 {
+.emojiTable__6262c {
     padding-top: 8px;
     padding-left: 8px;
     margin-bottom: 0;
 
-    .description__7af71 {
+    .description_b0e07c {
         margin-bottom: 0;
     }
 
-    .columnLabel_bb8404 {
+    .columnLabel__543ae {
         flex-basis: 40%;
     }
 }
 
-.emojiRow__4661c {
+.emojiRow_db53d4 {
     padding: 6px 8px;
     height: 58px;
     box-shadow: none;
@@ -45,33 +45,33 @@
         background: var(--background-accent);
         transition: background .2s linear;
 
-        .emojiInput__4fe54:not(:focus, :focus-within),
-        .emojiRemove_b299a6 {
+        .emojiInput__3270d:not(:focus, :focus-within),
+        .emojiRemove__744eb {
             background-color: var(--background-accent-hover);
             transition: background .2s linear;
         }
     }
 
-    .emojiColumn_c4b43c {
+    .emojiColumn__10dfb {
         flex-basis: unset;
     }
 
-    .emojiImage__841ea {
+    .emojiImage__7129a {
         height: 45px;
         width: 45px;
         margin-right: 12px;
     }
 
-    .emojiAliasInput_dd55f7 .emojiInput__4fe54 {
+    .emojiAliasInput_e70e7c .emojiInput__3270d {
         opacity: 1;
     }
 
-    .emojiAliasPlaceholder__71733 {
+    .emojiAliasPlaceholder_ecea45 {
         display: none;
     }
 
     &:not(:hover) {
-        .input_d266e7 {
+        .input_f27786 {
             background: none;
         }
     }
@@ -80,11 +80,11 @@
         bottom: 2px;
     }
 
-    .wrapper_edb6e0::before {
+    .wrapper__3ed10::before {
         display: none;
     }
 
-    .emojiRowText__5e305 {
+    .emojiRowText__46159 {
         font-size: 12px;
         line-height: 22px;
         letter-spacing: .5px;
@@ -92,7 +92,7 @@
         font-weight: 700;
     }
 
-    .emojiRemove_b299a6 {
+    .emojiRemove__744eb {
         position: relative;
         top: unset;
         right: unset;
@@ -104,10 +104,10 @@
         flex-shrink: 0;
     }
 
-    &:has(.emojiRemove_b299a6:hover) {
+    &:has(.emojiRemove__744eb:hover) {
         background: var(--status-danger);
 
-        .emojiInput__4fe54 {
+        .emojiInput__3270d {
             background: none;
         }
     }
