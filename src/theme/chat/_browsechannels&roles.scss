@@ -1,12 +1,12 @@
 #app-mount {
 
-    .emptyPage__3e15d,
-    .scrollerContainer_bf5dbd {
+    .emptyPage_feb902,
+    .scrollerContainer_dda72c {
         background: none;
     }
 }
 
-.chat__52833 .container__10dc7 {
+.chat__52833 .container__03ec9 {
     .tabBar_d4764b {
         padding: 0;
         margin: 10px 0 10px 0;
@@ -72,12 +72,12 @@
     }
 }
 
-.chat__52833.scrollerContainer_bf5dbd {
-    .scroller__81266 {
+.chat__52833.scrollerContainer_dda72c {
+    .scroller__6ea8b {
         padding: 0 !important;
         box-sizing: content-box;
 
-        .pageBody_bfae74 {
+        .pageBody__12fb4 {
             padding-right: 0;
             gap: 0;
 
@@ -92,7 +92,7 @@
         }
     }
 
-    .profile_b28ef9 {
+    .profile__4e41d {
 
         >h2,
         >[data-text-variant="text-xs/normal"] {
@@ -113,14 +113,14 @@
 
     }
 
-    .profileCard_bd55ee {
+    .profileCard__1d74b {
         margin-top: 0;
         width: 308px;
         background: var(--store-sidebar-background);
         border-radius: 0;
         box-sizing: border-box;
 
-        .role__65ab8 {
+        .role__110aa {
             background: rgb(0 0 0/.3);
             border-radius: 3px;
         }
@@ -134,7 +134,7 @@
     background: none;
     margin-top: var(--content-gutter);
 
-    .promptTitle__514bc {
+    .promptTitle_b85158 {
         background-color: var(--store-body-header);
         padding: 10px 20px 10px 20px;
         font-weight: normal;
@@ -144,7 +144,7 @@
         text-transform: uppercase;
     }
 
-    .promptOptions__8e373 {
+    .promptOptions__9b66e {
         background: rgb(0 0 0/.4);
         padding: 20px;
     }
