@@ -1,16 +1,16 @@
-.sessions__3ce76 {
+.sessions__7b95a {
     margin: 10px 0;
 
-    .otherSessions_aad582 {
+    .otherSessions_bb9ad2 {
         margin-top: 10px;
     }
 }
 
-.logOutAllButton__88677 {
+.logOutAllButton_f6af90 {
     margin-top: 0;
 }
 
-.session_f56359 {
+.session__201cb {
     border-bottom: none;
     gap: 12px;
     padding: 6px 8px;
@@ -20,14 +20,14 @@
         background: var(--background-accent);
         transition: background .2s linear;
 
-        .sessionIcon__540be,
-        .sessionMoreButton__055f9 {
+        .sessionIcon_df2e9c,
+        .sessionMoreButton_f38a79 {
             background: var(--background-accent-hover);
             transition: background .2s linear;
         }
     }
 
-    .sessionInfo__9bc47 {
+    .sessionInfo_e3ad35 {
         gap: 0;
     }
 
@@ -59,14 +59,14 @@
         }
     }
 
-    &:has(.sessionMoreButton__055f9:hover) {
-        .sessionIcon__540be {
+    &:has(.sessionMoreButton_f38a79:hover) {
+        .sessionIcon_df2e9c {
             background: var(--status-danger);
         }
     }
 }
 
-.sessionMoreButton__055f9 {
+.sessionMoreButton_f38a79 {
     background-color: var(--background-accent);
     border-radius: 2px;
     margin: 8px 8px 8px auto;
@@ -88,7 +88,7 @@
     }
 }
 
-.sessionIcon__540be {
+.sessionIcon_df2e9c {
     width: 98px;
     height: 45px;
     border-radius: 0;
