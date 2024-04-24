@@ -32,7 +32,7 @@
 
     @include generic.modalTopBar;
 
-    .innerWrapper__8cde3 {
+    .innerWrapper_cfb768 {
         background-image: linear-gradient(45deg, var(--guild-boosting-blue), var(--guild-boosting-purple));
         border-radius: 4px;
         box-shadow: var(--banner-shadow);
@@ -45,14 +45,14 @@
             display: none;
         }
 
-        .iconSizeLarger__57b8e {
+        .iconSizeLarger__2b0f6 {
             height: 48px;
             width: 48px;
             border-radius: 2px;
         }
     }
 
-    .headerWave_e4fdee {
+    .headerWave_dda892 {
         display: none;
     }
 
@@ -61,19 +61,19 @@
         line-height: 38px;
     }
 
-    .headerContentWrapper__30c3e {
+    .headerContentWrapper__3a2ce {
         padding: 4em 5em;
     }
 
-    .tierCards__109a2 {
+    .tierCards_a0105f {
         gap: 20px;
 
-        .tierCard_f6953a {
+        .tierCard__292e9 {
             width: calc(100% / 3 - 20px);
             border-radius: 3px;
             padding: 20px;
 
-            &:has(.tierCardCurrentTier_df8c32) {
+            &:has(.tierCardCurrentTier__633bb) {
                 --guild-boosting-blue-hsl: 85 calc(var(--saturation-factor, 1)*45%) 45.5%;
                 --guild-boosting-purple-hsl: 87 calc(var(--saturation-factor, 1)*45%) 32.5%;
                 --guild-boosting-blue: hsl(var(--guild-boosting-blue-hsl)/1);
@@ -81,11 +81,11 @@
                 background-image: linear-gradient(45deg, var(--guild-boosting-blue), var(--guild-boosting-purple));
             }
 
-            .tierCardCurrentTier_df8c32 {
+            .tierCardCurrentTier__633bb {
                 border-radius: 2px;
             }
 
-            .tierCardHeading_aa6988 {
+            .tierCardHeading__27545 {
                 position: absolute;
                 right: 20px;
                 top: 20px;
@@ -93,51 +93,51 @@
                 line-height: 24px;
             }
 
-            .tierCardBoostRequirement__2ae47 {
+            .tierCardBoostRequirement_b8c8fd {
                 font-size: 20px;
                 line-height: 24px;
                 font-weight: 600;
             }
 
-            .tierCardListIcon_c601ae {
+            .tierCardListIcon_f1ff24 {
                 height: 18px;
                 width: 18px;
             }
 
-            .tierCardListItem_c78d02 {
+            .tierCardListItem_cdf44a {
                 font-size: 12px;
                 line-height: 16px;
             }
 
-            .tierCardSparkle3__36e56 {
+            .tierCardSparkle3__4d9cf {
                 display: none;
             }
 
-            .tierCardBorderHighlight__9ca79 {
+            .tierCardBorderHighlight__502a7 {
                 border-radius: 3px;
             }
         }
     }
 
-    .scroller__439a2 {
+    .scroller__7d61e {
         overflow-y: overlay !important;
         background: #000;
     }
 
-    .middleBodyContentWrapper_fdfda8 {
+    .middleBodyContentWrapper__2da7a {
         padding: 4em 0;
         background: #fff;
         --header-primary: #1b1b1b;
         --header-secondary: #1b1b1b;
     }
 
-    .topPerksCards_aa1faf {
+    .topPerksCards_f80e57 {
         display: flex;
         align-items: center;
         flex-flow: column wrap;
     }
 
-    .topPerksCard__9fc01 {
+    .topPerksCard__0e34b {
         background: none;
         border-radius: 0;
         margin-bottom: 20px;
@@ -163,8 +163,8 @@
                 margin: 0 auto 0 0;
             }
 
-            .topPerksCardHeading__27bed,
-            .topPerksCardDescription_d09380 {
+            .topPerksCardHeading_d3e130,
+            .topPerksCardDescription__82224 {
                 text-align: right;
             }
         }
@@ -175,7 +175,7 @@
             grid-area: image;
         }
 
-        .topPerksCardHeading__27bed {
+        .topPerksCardHeading_d3e130 {
             grid-area: heading;
             text-align: left;
             align-self: end;
@@ -184,19 +184,19 @@
             font-weight: 900;
         }
 
-        .topPerksCardDescription_d09380 {
+        .topPerksCardDescription__82224 {
             grid-area: empty;
             text-align: left;
             font-weight: 600;
         }
     }
 
-    .tierComparisonTable_b4d962 {
+    .tierComparisonTable__25d64 {
         padding: 4em 32px;
         max-width: calc(100% - 64px);
     }
 
-    .lowerBodyContentWrapper__3be85 {
+    .lowerBodyContentWrapper_da9f83 {
         padding: 0;
     }
 }
