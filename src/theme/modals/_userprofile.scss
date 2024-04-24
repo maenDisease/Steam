@@ -1,15 +1,15 @@
-.root_a28985:has(.userProfileModalOuter__3fe6b)::before {
+.root_a28985:has(.userProfileModalOuter__90b4a)::before {
     display: none;
 }
 
-.userProfileModalOuter__3fe6b {
+.userProfileModalOuter__90b4a {
     
-    &.profileColors__2e2f0 {
+    &.profileColors_ac6ab4 {
         --profile-gradient-secondary-color: rgb(0 0 0/.4);
         --profile-gradient-primary-color: rgb(0 0 0/.2);
     }
 
-    .topSection_dfb73b {
+    .topSection__2d8b8 {
         position: relative;
         margin-bottom: 0;
         z-index: unset;
@@ -17,7 +17,7 @@
         width: 100%;
     }
 
-    .header__7da4f {
+    .header_dda341 {
         position: absolute;
         bottom: calc(calc(120px + 24px) * -1);
         left: 0;
@@ -35,7 +35,7 @@
             display: flex;
         }
 
-        .headerTop__6628b {
+        .headerTop_e82f16 {
             position: relative;
             inset: unset;
             width: 200px;
@@ -43,7 +43,7 @@
         }
     }
 
-    .badgeList_c193e3 {
+    .badgeList__126b0 {
         display: flex;
         flex-flow: row wrap;
         background: rgb(0 0 0/.3);
@@ -56,7 +56,7 @@
         gap: 6px 10px;
     }
 
-    .relationshipButtons__5efdd {
+    .relationshipButtons_b880ad {
         width: 100%;
         gap: 4px;
         margin-top: 12px;
@@ -91,12 +91,12 @@
         }
     }
 
-    .body_ea740e {
+    .body_bd4552 {
         padding-top: calc(120px + 48px);
         position: relative;
     }
 
-    .container_b6b15b {
+    .container__9f51c {
         position: absolute;
         top: 24px;
         left: 0;
@@ -116,7 +116,7 @@
         }
     }
 
-    .userProfileModalInner__7c87d {
+    .userProfileModalInner__84e47 {
         overflow: hidden overlay;
         box-sizing: border-box;
         max-height: calc(100vh - 84px);
@@ -146,28 +146,28 @@
         }
     }
 
-    .overlayBackground__86b78,
-    .body_ea740e {
+    .overlayBackground__345c9,
+    .body_bd4552 {
         overflow: visible;
     }
 
-    &.userProfileOuterUnthemed__48723 {
-        .bannerSVGWrapper__3e7b0 {
+    &.userProfileOuterUnthemed__9741c {
+        .bannerSVGWrapper__8a38c {
             position: absolute;
             inset: 0;
         }
 
-        .pencilContainer_d4ce8d {
+        .pencilContainer_ae6d25 {
             display: none;
         }
 
-        .overlayBackground__86b78 {
+        .overlayBackground__345c9 {
             margin-top: 0;
         }
 
     }
 
-    .top__592a7 {
+    .top_fae1fa {
         &:has(.item__48dda:nth-child(1):last-child) {
             --btn-count: 1;
         }
@@ -202,7 +202,7 @@
             flex: 0 1 calc(100% / var(--btn-count));
             justify-content: center;
 
-            &:not(.selected__5711d):hover {
+            &:not(.selected_a523ff):hover {
                 color: var(--interactive-hover);
             }
 
@@ -224,30 +224,30 @@
             transition: translate .2s ease;
         }
 
-        &:has(.selected__5711d:nth-child(2)):before {
+        &:has(.selected_a523ff:nth-child(2)):before {
             translate: 100%;
         }
 
-        &:has(.selected__5711d:nth-child(3)):before {
+        &:has(.selected_a523ff:nth-child(3)):before {
             translate: 200%;
         }
 
-        &:has(.selected__5711d:nth-child(4)):before {
+        &:has(.selected_a523ff:nth-child(4)):before {
             translate: 300%;
         }
 
-        &:has(.selected__5711d:nth-child(5)):before {
+        &:has(.selected_a523ff:nth-child(5)):before {
             translate: 400%;
         }
     }
 
-    .scrollerBase_dc3aa9 {
+    .scrollerBase_f742b2 {
         overflow: hidden overlay !important;
         padding: 0 !important;
         margin: 16px 12px 12px 12px;
     }
 
-    .userInfoText__5f822 {
+    .userInfoText_b87307 {
         margin-bottom: 0;
 
         .lineClamp2Plus_d4306b {
@@ -255,7 +255,7 @@
         }
     }
 
-    .userInfoSection__1daf8 {
+    .userInfoSection_e816c1 {
         padding: 0;
 
         h1 {
@@ -282,19 +282,19 @@
         margin: 0 0 12px 0;
     }
 
-    .userInfoText__5f822 [data-text-variant="text-sm/normal"] {
+    .userInfoText_b87307 [data-text-variant="text-sm/normal"] {
         background: rgb(0 0 0/.3);
         padding: 8px;
         border-radius: 5px;
     }
 
-    .tabBarContainer__63f55 {
+    .tabBarContainer_b283be {
         border-bottom: 0;
         margin: 0 12px;
     }
 
-    &:has(.connectedAccountsColumn_fd2c41) {
-        .infoScroller__6ec79 {
+    &:has(.connectedAccountsColumn__57331) {
+        .infoScroller__0920a {
             flex-flow: row wrap;
             display: grid;
             grid-template-columns: 1fr 200px;
@@ -305,13 +305,13 @@
         }
     }
 
-    .userInfoSection__1daf8+.userInfoSection__1daf8 {
+    .userInfoSection_e816c1+.userInfoSection_e816c1 {
         border-top: none;
     }
 
-    .memberSinceContainer__0a28b {
+    .memberSinceContainer__16630 {
 
-        .userInfoText__5f822 {
+        .userInfoText_b87307 {
             font-size: 34px;
             line-height: 38px;
             font-weight: 200;
@@ -324,13 +324,13 @@
         }
     }
 
-    .infoScroller__6ec79 {
+    .infoScroller__0920a {
 
-        .userInfoSection__1daf8:not(.connectedAccounts_dc0a56) {
+        .userInfoSection_e816c1:not(.connectedAccounts__7a8e6) {
             grid-area: info;
         }
 
-        .connectedAccounts_dc0a56 {
+        .connectedAccounts__7a8e6 {
             grid-area: accounts;
             flex-direction: column;
             background: rgb(0 0 0/.3);
@@ -345,15 +345,15 @@
         }
     }
 
-    .connectedAccountsColumn_fd2c41 {
+    .connectedAccountsColumn__57331 {
         width: 100%;
 
-        +.connectedAccountsColumn_fd2c41 {
+        +.connectedAccountsColumn__57331 {
             margin-left: 0;
         }
     }
 
-    .connectedAccountContainer__23f00 {
+    .connectedAccountContainer__5972d {
         margin: 0 0 4px 0;
         padding: 4px 0 4px 4px;
         border-radius: 0;
@@ -362,30 +362,30 @@
         position: relative;
     }
 
-    .connectedAccount__28fb0 {
+    .connectedAccount__75282 {
         gap: 7px;
     }
 
-    .connectedAccountIcon__6bc30 {
+    .connectedAccountIcon_e85011 {
         height: 34px;
         width: 34px;
     }
 
-    .connectedAccountNameText__00810 {
+    .connectedAccountNameText__7abc2 {
         font-size: 13px;
         line-height: 17px;
         font-weight: 400;
     }
 
-    .connectedAccountChildren__21b60 {
+    .connectedAccountChildren_abff48 {
         margin-left: calc(34px + 7px);
     }
 
-    .connectedAccountVerifiedIcon_db6dbd {
+    .connectedAccountVerifiedIcon__103a6 {
         display: none;
     }
 
-    .anchor_c8ddc0:has(.connectedAccountOpenIcon_df549d) {
+    .anchor_c8ddc0:has(.connectedAccountOpenIcon__23b1a) {
         &:hover {
             background: var(--btn-brand-hover);
             border-radius: 2px;
@@ -402,7 +402,7 @@
         }
     }
 
-    .listScroller__92e1a {
+    .listScroller__18a19 {
         display: grid;
         grid-template-columns: repeat(2, minmax(0, 1fr));
         grid-gap: 7px;
@@ -412,7 +412,7 @@
         width: calc(100% - 12px - 10px);
     }
 
-    .listRow__60937 {
+    .listRow__50619 {
         background: rgb(0 0 0/.3);
         padding: 8px;
         border-radius: 5px;
@@ -420,17 +420,17 @@
         height: fit-content;
     }
 
-    .listName_dbd44a {
+    .listName__028b9 {
         font-size: 14px;
         line-height: 18px;
     }
 
-    .guildNick__01069 {
+    .guildNick_d76c11 {
         font-size: 13px;
         line-height: 17px;
     }
 
-    .userProfileActivity__68b33 {
+    .userProfileActivity__0988f {
         grid-column: span 2;
         background: rgb(0 0 0/.3);
         padding: 8px;
@@ -442,7 +442,7 @@
     }
 }
 
-.assetsLargeImage_b88a59,
-.iconActiveMedium_d5475f {
+.assetsLargeImage__57902,
+.iconActiveMedium__24185 {
     border-radius: 0;
 }
