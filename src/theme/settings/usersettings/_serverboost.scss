@@ -1,10 +1,10 @@
-#app-mount .contentRegion__0bec1 .contentRegionScroller__86c79:has(#nitro-server-boost-tab) {
+#app-mount .contentRegion__08eba .contentRegionScroller__9ae20:has(#nitro-server-boost-tab) {
     padding-top: 0;
     background: #000;
 }
 
 #nitro-server-boost-tab {
-    .background__0be22 {
+    .background__7fedb {
         &::after {
             content: '';
             z-index: 0;
@@ -18,21 +18,21 @@
         }
     }
 
-    .guildBoostGemWrapper__975b2 {
+    .guildBoostGemWrapper__8ebc3 {
         display: none;
     }
 
-    .gradient_e94761 {
+    .gradient__79da8 {
         border-radius: 0;
         background: none;
 
-        .guildBoostGemWrapper__975b2,
+        .guildBoostGemWrapper__8ebc3,
         svg {
             display: none;
         }
     }
 
-    .wrapper__18a49:has(.guildContainer__9d362) {
+    .wrapper_ba972d:has(.guildContainer_fef06f) {
         background: linear-gradient(137.42deg, #00d5ff 0%, #d0266f 40%, #b9b500 100%);
         background-size: 300% 300%;
         animation: nitroGradient 20s ease infinite;
@@ -41,7 +41,7 @@
         padding: 5em;
     }
 
-    .guildContainer__9d362 {
+    .guildContainer_fef06f {
         background: rgb(255 255 255/.0588235294);
         border-radius: 3px;
         padding: 20px;
@@ -51,7 +51,7 @@
             display: none;
         }
 
-        .iconInactive__90d40 {
+        .iconInactive__8c603 {
             border-radius: 3px;
         }
 
@@ -68,11 +68,11 @@
             --text-muted: #fff;
         }
 
-        .separator_f8e077 {
+        .separator__699b6 {
             --text-muted: #fff;
         }
 
-        .shinyButton_fc8363 {
+        .shinyButton_d5e126 {
             color: #fff;
             background: #1b1b1b;
             border-radius: 50px;
@@ -89,7 +89,7 @@
             }
         }
 
-        +.wrapper__0df00 {
+        +.wrapper__6b347 {
             background: none;
             border: none;
             justify-content: center;
@@ -104,8 +104,8 @@
     }
 }
 
-.tierComparisonTable__3126f,
-.tierComparisonTable_b4d962 {
+.tierComparisonTable__28219,
+.tierComparisonTable__25d64 {
     padding: 24px;
     margin-bottom: 0;
     max-width: unset;
@@ -115,12 +115,12 @@
     background-size: 300% 300%;
     animation: nitroGradient 20s ease infinite;
 
-    .columnHeading__7e90b {
+    .columnHeading_d35d98 {
         padding-bottom: 0;
     }
 
     thead {
-        .tableRowHeading__2b8b8 {
+        .tableRowHeading_dbe97f {
             h2 {
                 translate: 0 8px;
                 font-size: 16px;
@@ -141,7 +141,7 @@
         }
     }
 
-    .tableCellInner__3f5bb {
+    .tableCellInner__8fe64 {
         min-height: 48px;
     }
 
@@ -155,18 +155,18 @@
         }
     }
 
-    td.tableCell__77206 {
+    td.tableCell__23b95 {
         text-align: left;
         padding: 4px;
     }
 
-    .tableCell__77206 {
+    .tableCell__23b95 {
         padding-top: 0;
         padding-bottom: 0;
         position: relative;
     }
 
-    .booleanValueIcon__864e1 {
+    .booleanValueIcon__88ae5 {
         margin-left: 0;
 
         &:has([d="M18.4 4L12 10.4L5.6 4L4 5.6L10.4 12L4 18.4L5.6 20L12 13.6L18.4 20L20 18.4L13.6 12L20 5.6L18.4 4Z"]) {
@@ -175,7 +175,7 @@
     }
 }
 
-.wrapper__26ed7 {
+.wrapper_d3adb0 {
     border-radius: 0;
     margin-bottom: 0;
     padding: 4em 5em;
@@ -188,7 +188,7 @@
     --text-normal: #fff;
 }
 
-.wrapper_cf13f4 {
+.wrapper__4308f {
     border-radius: 0;
     background: none;
     padding: 4em 5em;
@@ -198,11 +198,11 @@
     border-top: none;
 }
 
-.listItem_df7f03 {
+.listItem_b7467d {
     border-bottom: thin solid var(--background-modifier-accent-dark);
 }
 
-.question_b59602 {
+.question_eb9def {
     font-size: 16px;
     line-height: 20px;
     font-weight: 700;
@@ -215,7 +215,7 @@
     --text-normal: var(--text-muted);
 }
 
-.perkPreviewImage__0a7e2 {
+.perkPreviewImage__34031 {
     background: var(--contextmenu-gradient);
     padding: 8px 5px 8px 5px;
     border-radius: 0;
