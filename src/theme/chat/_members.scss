@@ -1,28 +1,28 @@
-.profilePanel__12596 {
+.profilePanel_e2cafe {
     margin-left: var(--content-gutter);
 
-    .bannerSVGWrapper__3e7b0:not(:has([style*=image])) {
+    .bannerSVGWrapper__8a38c:not(:has([style*=image])) {
         position: absolute;
         top: 0;
         left: 0;
         z-index: unset;
     }
 
-    &:not(:has(svg div[style*=image])) .overlayBackground__86b78 {
+    &:not(:has(svg div[style*=image])) .overlayBackground__345c9 {
         --header-height: 112px;
         margin-top: var(--header-height);
     }
 
-    .avatarPositionPanel__87e08 {
+    .avatarPositionPanel__2d765 {
         top: 16px;
     }
 
-    .userPanelInner_eddf4c:before {
+    .userPanelInner__3184c:before {
         height: 100%;
         width: 100%;
     }
 
-    .badgelistGroup__53eaa {
+    .badgelistGroup__8f7c7 {
         position: absolute;
         top: calc(var(--banner-height, 108px) + 2px + 16px);
         left: 0;
@@ -31,7 +31,7 @@
         margin: 0;
     }
 
-    .badgeList_ef4131 {
+    .badgeList__76720 {
         width: 100%;
         padding: 0;
         gap: 4px;
@@ -44,14 +44,14 @@
         margin: 0;
     }
 
-    .overlayBackground__86b78~.overlayBackground__86b78:not(:empty, :has(.activity__20c1e)) {
+    .overlayBackground__345c9~.overlayBackground__345c9:not(:empty, :has(.activity__20c1e)) {
         margin: 12px;
         background: rgb(0 0 0/.3);
         border-radius: 3px;
         padding: 20px 10px 11px 10px;
     }
 
-    .profilePanelConnections__3c232 {
+    .profilePanelConnections__34438 {
         gap: 7px;
 
         >div {
@@ -65,56 +65,56 @@
         }
     }
 
-    .mutualFriendsDivider_c21dfe {
+    .mutualFriendsDivider__2c616 {
         border-top: none;
     }
 
-    &:has(.containerWithContent__7e98f) .overlayBackground__86b78:has(.memberSinceContainer__0a28b) {
+    &:has(.containerWithContent_a67357) .overlayBackground__345c9:has(.memberSinceContainer__16630) {
         padding-top: calc(22px + 16px);
 
-        &:not(:has(.customStatusSection_ce6c27)) {
+        &:not(:has(.customStatusSection_c9f9ba)) {
             padding-top: calc(22px + 16px + 16px);
         }
     }
 
-    .divider_ed0c1d {
+    .divider_e6f9ab {
         display: none;
     }
 
-    .section__6f61e:has(.activity__20c1e) {
+    .section__62b44:has(.activity__20c1e) {
         background: rgb(0 0 0/.2);
         margin: 0 -12px -12px;
         padding: 12px;
     }
 }
 
-.container_b2ce9c,
+.container_f79ab4,
 .member_b44d5d,
-.members__9f47b {
+.members__573eb {
     background: none;
 }
 
-.container_b2ce9c {
-    .scrollerBase_dc3aa9 {
+.container_f79ab4 {
+    .scrollerBase_f742b2 {
         overflow: hidden overlay !important;
     }
 }
 
-.members__9f47b[style^="overflow: hidden scroll"] {
+.members__573eb[style^="overflow: hidden scroll"] {
     overflow: hidden overlay !important;
 }
 
-.members__9f47b {
+.members__573eb {
     width: 308px;
     padding-bottom: var(--content-gutter);
 }
 
-.membersWrap__90226 {
+.membersWrap__5ca6b {
     margin-left: var(--content-gutter);
     height: fit-content;
     max-height: 100%;
 
-    .content__23cab {
+    .content__690c5 {
         margin-top: var(--content-gutter);
         padding-bottom: 16px;
         background: var(--store-sidebar-background);
@@ -127,9 +127,9 @@
     background: var(--sidebar-btn-brand);
 }
 
-.clickable__17ccb:hover,
-.clickable__17ccb:active,
-.selected__9800b {
+.clickable__03a29:hover,
+.clickable__03a29:active,
+.selected__7f4cb {
 
     .layout_bb8e67 {
         background: var(--btn-brand-hover);
@@ -143,7 +143,7 @@
         color: #fff !important;
     }
 
-    .activity__3cbac {
+    .activity_bafb94 {
         color: #fff;
     }
 
@@ -154,7 +154,7 @@
     }
 }
 
-.membersGroup__85843.container-q97qHp {
+.membersGroup_cad095.container-q97qHp {
     font-size: 12px;
     font-weight: 500;
     color: var(--text-muted);
@@ -174,14 +174,14 @@
     margin-right: 8px;
 }
 
-.name__16feb {
+.name__7afe8 {
     font-size: 14px;
     line-height: 20px;
     font-weight: 600;
 }
 
 .layout_bb8e67:has([mask="url(#svg-mask-avatar-status-mobile-32)"]) {
-    .username__11d8c {
+    .username_ab1e31 {
         display: flex;
         flex-flow: row nowrap;
         align-items: center;
@@ -210,7 +210,7 @@
     background: var(--btn-brand-hover);
 }
 
-.wrapper__2d9b1 {
+.wrapper__4ef2e {
     border-radius: 2px;
     font-weight: 400;
 }
