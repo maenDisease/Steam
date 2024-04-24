@@ -1,13 +1,13 @@
 @use '../container';
 
-.sidebarRegion__60457:has(.selected__5711d[aria-controls="audit_log-tab"])+.contentRegion__0bec1 {
+.sidebarRegion__36437:has(.selected_a523ff[aria-controls="audit_log-tab"])+.contentRegion__08eba {
     overflow: hidden overlay !important;
 
-    .scroller__502b1 {
+    .scroller_ca9f10 {
         overflow: hidden overlay !important;
     }
 
-    .customHeader__11c0b {
+    .customHeader_c68a90 {
         @include container.settingsHeader;
         justify-content: left;
 
@@ -19,60 +19,60 @@
         }
     }
 
-    .divider_a26031 {
+    .divider__8d236 {
         display: none;
     }
 }
 
-.auditLog__6c805 {
+.auditLog__9228d {
     border: none;
     border-radius: 0;
 
     &:hover,
-    &:has(.headerExpanded__03c29) {
+    &:has(.headerExpanded__05a35) {
         background: var(--background-accent);
         transition: background .2s linear;
     }
 
-    &:has(.typeDelete__1e939) {
-        .title_cbda04 {
+    &:has(.typeDelete__5f7ca) {
+        .title__9a147 {
             color: var(--status-danger);
         }
     }
 
-    &:has(.typeUpdate__7c320) {
-        .title_cbda04 {
+    &:has(.typeUpdate__4b21b) {
+        .title__9a147 {
             color: var(--info-warning-foreground);
         }
     }
 
-    &:has(.typeCreate__18a1f) {
-        .title_cbda04 {
+    &:has(.typeCreate__01e59) {
+        .title__9a147 {
             color: var(--status-online);
         }
     }
 
-    .header_e08fd2 {
+    .header__8cacc {
         padding: 6px 8px;
         height: 58px;
         background: none;
     }
 
-    .headerClickable_c4d7a9 {
+    .headerClickable__334f7 {
         color: var(--text-muted);
     }
 
-    .timeWrap__554d7 {
+    .timeWrap__6885f {
         margin: 0 0 0 12px;
     }
 
-    .userHook_b1bf70 {
+    .userHook__0708a {
         .defaultColor__77578 {
             color: var(--header-primary);
         }
     }
 
-    .timestamp__2f935 {
+    .timestamp__33912 {
         color: var(--text-muted);
         font-size: 12px;
         line-height: 22px;
@@ -96,23 +96,23 @@
     .expand__7369a {
         margin: 8px;
 
-        .expandForeground_c53c75 {
+        .expandForeground__0d39b {
             stroke: var(--brand-experiment) !important;
         }
 
     }
 
-    .divider__1505d {
+    .divider__1ee1f {
         display: none;
     }
 }
 
 #app-mount {
-    .headerExpanded__03c29 {
+    .headerExpanded__05a35 {
         color: var(--header-secondary);
     }
 
-    .changeDetails_ecd760 {
+    .changeDetails_c0aa16 {
         background: var(--background-tertiary);
         margin: 0 8px 6px 8px;
         padding: 24px;
@@ -131,7 +131,7 @@
             color: var(--header-secondary);
         }
 
-        .subListItem__6cf39 {
+        .subListItem__6fcc6 {
             margin: 0;
             color: var(--header-primary);
         }

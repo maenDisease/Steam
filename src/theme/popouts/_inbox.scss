@@ -1,27 +1,27 @@
-.recentMentionsPopout__826a9 {
+.recentMentionsPopout__40c54 {
 
-    .container__56e52,
-    .channel_d48f2d {
+    .container__7c2c1,
+    .channel__36a7e {
         background-color: var(--modal-popout-message);
         border-radius: 0;
     }
 
-    .container__56e52 {
+    .container__7c2c1 {
         margin-bottom: 4px;
     }
 
-    .channelHeader__5d30c {
+    .channelHeader_ea0f89 {
         background: var(--modal-popout-message);
         padding: 10px 10px 0 10px;
         border-bottom: none;
     }
 
-    .messageContainer_aa7d14 {
+    .messageContainer_cb3d47 {
         padding: 0;
     }
 }
 
-#app-mount .recentMentionsPopout__826a9 {
+#app-mount .recentMentionsPopout__40c54 {
     .tab_a8a066 {
         border-radius: 2px;
         padding: 5px 10px;
@@ -42,31 +42,31 @@
     }
 }
 
-.recentMentionsPopout__826a9 {
+.recentMentionsPopout__40c54 {
 
-    .channel_d48f2d {
+    .channel__36a7e {
         margin: 0 0 4px 0;
 
-        .messages_f7999e {
+        .messages__1aaa1 {
             padding: 0;
         }
     }
 
-    .iconActiveMedium_d5475f {
+    .iconActiveMedium__24185 {
         border-radius: 0;
     }
 }
 
-#app-mount .channelHeader__5d30c+[class^="message"] {
-    .wrapper__09ecc {
+#app-mount .channelHeader_ea0f89+[class^="message"] {
+    .wrapper_a62503 {
         padding: 10px !important;
     }
 
-    .repliedMessage_e2bf4a {
+    .repliedMessage__636d2 {
         left: 15px !important;
         max-width: calc(100% - 20px);
 
-        .repliedTextContent__75526 {
+        .repliedTextContent_b12fe1 {
             display: flex;
             align-items: center;
         }
@@ -76,34 +76,34 @@
         left: 12px !important;
     }
 
-    .header__39b23 {
+    .header__6a14d {
         padding-left: 54px !important;
     }
 
-    .jumpButton__24ca6 {
+    .jumpButton_aab0bc {
         right: 10px;
     }
 }
 
-.recentMentionsPopout__826a9 .channelHeader__5d30c {
+.recentMentionsPopout__40c54 .channelHeader_ea0f89 {
     background: none;
 
-    .channelNameHeader_bfaee3 {
+    .channelNameHeader__1fdf1 {
         font-size: 12px;
     }
 
-    .closeButton_ba6c7d {
+    .closeButton__58b98 {
         margin-left: 0;
     }
 }
 
-.container__56e52:has([class^="jumpButton"]:hover),
-.channel_d48f2d:has([class^="jumpButton"]:hover) {
+.container__7c2c1:has([class^="jumpButton"]:hover),
+.channel__36a7e:has([class^="jumpButton"]:hover) {
     background: var(--background-accent);
 }
 
-.container__56e52,
-.channel_d48f2d {
+.container__7c2c1,
+.channel__36a7e {
     [class^="jumpButton"] {
         margin: 0;
         border-radius: 0;
@@ -114,7 +114,7 @@
         top: 10px;
         right: 10px;
 
-        .text__6b9e7 {
+        .text__76b99 {
             line-height: 14px;
             font-size: 11px;
         }

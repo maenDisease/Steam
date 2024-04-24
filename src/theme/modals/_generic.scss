@@ -11,7 +11,7 @@
     }
 }
 
-.backdrop__7e89b.withLayer__1fe9d[style="opacity: 0.85; background: var(--black-500);"] {
+.backdrop__1a911.withLayer__29ace[style="opacity: 0.85; background: var(--black-500);"] {
     opacity: 0.8 !important;
 }
 
@@ -41,7 +41,7 @@
         margin: 0;
         padding: 0;
 
-        .contents_fb6220 {
+        .contents__322f4 {
             height: 16px;
         }
 
@@ -51,7 +51,7 @@
         }
     }
 
-    .artContainer__56b19 {
+    .artContainer__748ff {
         z-index: 102;
     }
 
@@ -59,7 +59,7 @@
         background-color: transparent;
     }
 
-    .header__6d5ea {
+    .header__5e5a6 {
         box-shadow: none;
         border-radius: 0;
         padding: 32px;
@@ -71,19 +71,19 @@
         }
     }
 
-    .footer__89240:has(>.lookLink__93965) {
+    .footer_e0b400:has(>.lookLink_a2da25) {
         gap: 4px;
     }
 
-    .footer__89240,
-    .footer_ceda43 {
+    .footer_e0b400,
+    .footer_f06dbb {
         padding: 32px;
         border-radius: 0;
         box-shadow: none;
         background: none;
     }
 
-    .content__764ce {
+    .content_b28aab {
         padding-left: 32px;
         padding-right: 32px;
         border-radius: 0;
@@ -99,31 +99,31 @@
     }
 }
 
-.medium__408de {
+.medium_b9df4c {
     width: 500px;
 
-    &:has([class*="overviewSidebar"],  .guildSidebar__8763f) {
+    &:has([class*="overviewSidebar"],  .guildSidebar__74787) {
         width: calc(500px + 192px);
     }
 }
 
-.largeSpacing_ac1945 {
+.largeSpacing__434f1 {
     margin-bottom: 32px;
     margin-top: 10px;
 }
 
-.spacing_ce91c7 {
+.spacing_e3e55e {
     margin: 0;
 }
 
-.overrideList__3236e {
+.overrideList_a5ce46 {
 
-    .flex_f5fbb7:has(>.header__995b4) {
+    .flex_f18b02:has(>.header_e79f5a) {
         padding-top: 8px;
         padding-left: 8px;
     }
 
-    .header__995b4 {
+    .header_e79f5a {
         margin-bottom: 0;
     }
 

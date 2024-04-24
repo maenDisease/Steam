@@ -5,25 +5,25 @@
     font-weight: 400;
 }
 
-.developerPortalCtaWrapper__21172 {
+.developerPortalCtaWrapper_a92100 {
     background: var(--btn-grey);
     border-radius: 2px;
 }
 
 .checklistContainer-12xGp5,
-.checklist__88646 {
+.checklist__0a7d3 {
     display: flex;
     flex-direction: column;
     background: none;
     border-radius: 0;
     margin: 0 32px;
 
-    .separator__26ad8 {
+    .separator__31144 {
         display: none;
     }
 }
 
-.checklistItem__9f80c {
+.checklistItem__84da3 {
     padding: 8px 24px 10px 16px;
     background: var(--btn-grey);
     border-radius: 2px;
@@ -33,7 +33,7 @@
         order: 1;
     }
 
-    &:has(.checked__24ad6) {
+    &:has(.checked__16f88) {
         order: 2;
     }
 }

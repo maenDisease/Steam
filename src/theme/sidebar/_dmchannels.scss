@@ -1,12 +1,12 @@
-.privateChannels__93473 {
+.privateChannels__9b518 {
     background: none;
     padding-top: 16px;
 
-    .searchBar_e4ea2a {
+    .searchBar__621ec {
         height: unset;
         box-shadow: none;
     
-        .searchBarComponent__22760 {
+        .searchBarComponent__8f95f {
             height: unset;
             border-radius: 2px;
             font-size: 14px;
@@ -23,16 +23,16 @@
         }
     }
     
-    .scroller__4b984 {
+    .scroller__89969 {
         background: none;
     }
 }
 
-.channel_c21703 {
+.channel__0aef5 {
     border-radius: 0;
 }
 
-.interactive__776ee {
+.interactive__0786a {
 
     &:focus-within,
     &:hover {
@@ -40,17 +40,17 @@
         background: none;
     }
 
-    &.selected_d94cf9 {
+    &.selected__37292 {
         color: var(--interactive-active);
         background: var(--channel-selected);
     }
 
-    .highlighted__7bba7:hover {
+    .highlighted_e2e5df:hover {
         color: var(--channels-default-hover);
     }
 }
 
-#app-mount .name__02dbd {
+#app-mount .name_f842e4 {
     font-size: 12px;
     font-weight: 700;
 }

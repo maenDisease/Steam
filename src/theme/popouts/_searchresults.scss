@@ -1,4 +1,4 @@
-.container_d6dad3 {
+.container__84c26 {
     border-radius: 0;
     background: var(--contextmenu-background);
 
@@ -6,17 +6,17 @@
         box-shadow: 0 0 12px #000000;
     }
 
-    .focused_f9cf2c {
+    .focused__68b93 {
         background: var(--contextmenu-background);
     }
 
-    .queryContainer_c359fe {
+    .queryContainer_c1cb2f {
         border: none;
     }
 
-    .datePicker__94673 {
+    .datePicker_df63a7 {
 
-        .datePickerHint__7cc9b {
+        .datePickerHint_d023b6 {
             border-top: none;
         }
 
@@ -25,7 +25,7 @@
             font-size: 14px;
         }
 
-        .hintValue_c2ce1f {
+        .hintValue__0c960 {
             background: var(--background-accent-hover);
             font-weight: 400;
 
@@ -75,12 +75,12 @@
     }
 }
 
-.resultsGroup_ea9b64 .header_b24bd1 {
+.resultsGroup_b221b0 .header__00739 {
     font-weight: 700;
     letter-spacing: .5px;
 }
 
-.option_b5597b {
+.option__91497 {
     font-size: 16px;
     margin: 0 1px;
     border-radius: 0;
@@ -103,7 +103,7 @@
         --search-popout-option-filter-color: var(--contextmenu-text-hover);
         --search-popout-option-answer-color: var(--contextmenu-text-hover);
 
-        .filter_bd5fe7 {
+        .filter__851fb {
             color: var(--contextmenu-text-hover);
         }
 
@@ -111,7 +111,7 @@
             color: var(--contextmenu-text-hover);
         }
 
-        .nonText_cbb69b {
+        .nonText_fbd88d {
             color: var(--contextmenu-text-hover);
         }
 
@@ -125,7 +125,7 @@
         }
     }
 
-    .filter_bd5fe7 {
+    .filter__851fb {
         color: var(--contextmenu-text);
         font-weight: 500;
     }
@@ -136,7 +136,7 @@
         font-weight: 400;
     }
 
-    .nonText_cbb69b {
+    .nonText_fbd88d {
         color: var(--contextmenu-text);
     }
 
@@ -149,15 +149,15 @@
         text-shadow: 1px 1px 3px rgb(0 0 0/.3);
     }
 
-    &.user__97b4c .displayAvatar__98be9 {
+    &.user__97b4c .displayAvatar__0be99 {
         border-radius: 2px;
     }
 }
 
 #app-mount {
 
-    .searchAnswer_b452e7,
-    .searchFilter__118cb {
+    .searchAnswer__2ccaf,
+    .searchFilter_dbda51 {
         background: var(--background-accent);
         font-weight: 400;
         text-shadow: 1px 1px 3px rgb(0 0 0/.3);

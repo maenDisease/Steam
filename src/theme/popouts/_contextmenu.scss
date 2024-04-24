@@ -1,49 +1,49 @@
-.menu_dc52c6 {
+.menu__088f7 {
     box-shadow: var(--contextmenu-shadow);
     background: var(--contextmenu-background);
     border-radius: 0;
 
-    .button__3ecb4 {
+    .button_bfb8e1 {
         width: 30px;
         height: 30px;
         padding: unset;
         border-radius: 2px;
         background:none;
 
-        &.focused__47631 {
+        &.focused__53c23 {
             background: var(--contextmenu-text);
         }
     }
 
-    .scroller__750f5 {
+    .scroller__8f066 {
         padding: 0;
         overflow-y: auto !important;
     }
 }
 
-.submenuPaddingContainer__12a9d {
+.submenuPaddingContainer__5a97c {
     margin: 0 -4px;
 }
 
-.item__183e8.colorDefault__0b482 {
+.item__183e8.colorDefault_e361cf {
     border-radius: 0;
     margin: 0;
     padding: 6px 15px;
     font-size: 12px;
     min-height: 21px;
 
-    &:not(.colorDanger_eec36d) {
+    &:not(.colorDanger__08c25) {
         color: var(--contextmenu-text);
         
-        &.focused__27621,
+        &.focused_dcafb9,
         &:active {
             background: var(--contextmenu-text);
             color: var(--contextmenu-text-hover);
 
-            .subtext__8a015,
+            .subtext__694e2,
             .caret_ce50ce,
-            .radioSelection__5ed39,
-            .checkbox__45366 {
+            .radioSelection__41d1e,
+            .checkbox__378d3 {
                 color: var(--contextmenu-text-hover);
             }
 
@@ -56,17 +56,17 @@
 
 .item__183e8 {
 
-    .iconContainer__829e7 {
+    .iconContainer__5d61c {
         justify-content: center;
         align-items: center;
         display: flex;
     }
     
-    .icon_f09dde {
+    .icon__0bfbf {
         width: 16px;
     }
 }
 
-.focused_f6efd9 .userMenuUsername_f6de35 .userMenuDiscriminator_b70e1b, .focused_f6efd9 .userMenuUsername_f6de35 .userMenuText_a180af {
+.focused_a7ad64 .userMenuUsername_d2fe10 .userMenuDiscriminator__2334c, .focused_a7ad64 .userMenuUsername_d2fe10 .userMenuText_b1842d {
     color: var(--contextmenu-text-hover);
 }

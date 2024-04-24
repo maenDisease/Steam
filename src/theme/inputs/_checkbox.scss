@@ -1,10 +1,10 @@
-.container__871ba {
+.container__2ed72 {
     width: 38px;
     height: 22px;
     background-color: var(--background-accent) !important;
     margin-right: 4px;
 
-    &.checked__6bdb0 {
+    &.checked__36fdc {
         background: var(--brand-experiment) !important;
     }
 
@@ -17,13 +17,13 @@
         }
     }
 
-    &:not(.checked__6bdb0) {
+    &:not(.checked__36fdc) {
         svg {
             left: -4px !important;
         }
     }
 
-    &.disabled_eac369 {
+    &.disabled_b94a52 {
         opacity: 1 !important;
         background: var(--background-accent-hover) !important;
         cursor: default;
@@ -33,17 +33,17 @@
     }
 }
 
-.checkboxWrapper__02583 {
+.checkboxWrapper_a2bcc8 {
     input[type="checkbox"] {
         height: 22px !important;
         width: 22px !important;
 
-        &:hover + .checkbox_c7f690 {
+        &:hover + .checkbox_fcf2ad {
             background: var(--background-accent-hover);
         }
     }
 }
-.checkbox_c7f690 {
+.checkbox_fcf2ad {
     border-radius: 2px;
     border: none;
     background: var(--background-accent);

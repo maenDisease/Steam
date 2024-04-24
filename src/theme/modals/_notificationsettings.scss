@@ -1,4 +1,4 @@
-.override_f2098b {
+.override_ca20c5 {
     border-radius: 0;
     border: none;
     margin-bottom: 0;
@@ -11,29 +11,29 @@
         background: var(--background-accent);
         transition: background .2s linear;
 
-        .checkbox_c7f690 {
+        .checkbox_fcf2ad {
             background-color: var(--background-accent-hover);
             transition: background .2s linear;
         }
     }
 
-    .icon__9a542 {
+    .icon_f61ea0 {
         width: 16px;
     }
 
-    .channelNameContainer__2e09f {
+    .channelNameContainer_fb9a6f {
         display: flex;
         justify-content: center;
         flex-direction: column;
     }
 
-    .channelName_a1ccf5 {
+    .channelName__4e10b {
         color: #fff;
         font-weight: 400;
         line-height: 20px;
     }
 
-    .channelNameByline__574ef {
+    .channelNameByline_a8d00d {
         color: var(--text-muted);
         font-size: 12px;
         line-height: 22px;
@@ -42,24 +42,24 @@
         font-weight: 700;
     }
 
-    .checkboxMute__6e269 {
+    .checkboxMute__47021 {
         &::before {
             display: none;
         }
     }
 }
 
-#app-mount .override_f2098b {
+#app-mount .override_ca20c5 {
     &:hover {
         background: var(--background-accent);
         transition: background .2s linear;
     }
 
-    .checkboxContainer__5a761:before {
+    .checkboxContainer_d69195:before {
         background-color: var(--background-modifier-accent-dark);
     }
 }
 
-.button__71a0f {
+.button_e1ac5c {
     border-radius: 2px;
 }

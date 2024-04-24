@@ -1,16 +1,16 @@
 #billing-tab {
-    h2.title__3e421+.footer_bfb4b9 {
+    h2.title__1b7e8+.footer__86f19 {
         margin-top: 0;
     }
 
-    .subText__70c8d {
+    .subText__3b709 {
         margin-top: 10px;
     }
 
-    .paymentHistory__889da {
+    .paymentHistory_adb833 {
         margin-top: 24px;
 
-        h2.title__3e421 {
+        h2.title__1b7e8 {
             margin-bottom: 0;
             text-transform: capitalize;
             color: #fff;
@@ -33,41 +33,41 @@
             }
         }
 
-        .paymentRowHeader__930f3 {
+        .paymentRowHeader__36e9a {
             display: none;
         }
 
-        .paymentPane__9cf01 {
+        .paymentPane__541d7 {
             background: none;
             border-radius: 0;
         }
 
-        .paymentRow__1bb7a {
+        .paymentRow__7568c {
             border: none;
         }
 
-        .paginator_e620d3 {
+        .paginator__28ba5 {
             background: none;
         }
 
-        .scrollerBase_dc3aa9 {
+        .scrollerBase_f742b2 {
             overflow: auto !important;
             border: none;
         }
 
-        .payment__7d702 {
+        .payment_f27ac6 {
             background: none;
             border: none;
             padding: 6px 8px;
             min-height: 58px;
 
-            &.hoverablePayment__3ea24:hover,
-            &:has(.expandedInfo__47bad) {
+            &.hoverablePayment__4ff3b:hover,
+            &:has(.expandedInfo_efc786) {
                 background: var(--background-accent);
                 transition: background .2s linear;
             }
 
-            .summaryInfo_b57acb {
+            .summaryInfo__3df8a {
                 padding: 0;
             }
 
@@ -97,7 +97,7 @@
             }
         }
 
-        .gameIcon__90c32 {
+        .gameIcon_fc710a {
             border-radius: 0;
             margin-right: 16px;
         }
@@ -107,18 +107,18 @@
             width: 98px;
         }
 
-        .description_be3171 {
+        .description__3e625 {
             color: #fff;
             font-weight: 400;
             line-height: 20px;
 
-            >div:not(.gameIcon__90c32),
+            >div:not(.gameIcon_fc710a),
             >svg {
                 margin-top: -19px;
             }
         }
 
-        .giftIcon__9d0ce {
+        .giftIcon__75cfe {
             height: 14px;
             width: 14px;
             color: var(--gpColor-Yellow);
@@ -132,7 +132,7 @@
         }
     }
 
-    .codeRedemptionRedirect_bc7f36 {
+    .codeRedemptionRedirect_b3eca7 {
         padding: 0;
         background: none;
         border: none;
@@ -143,7 +143,7 @@
         letter-spacing: 0;
     }
 
-    .expandedInfo__47bad {
+    .expandedInfo_efc786 {
         background: var(--background-tertiary);
         padding: 24px;
         margin: 6px 0 0 0;
@@ -151,11 +151,11 @@
         border-radius: 0;
     }
 
-    .paymentText_deeaf4 {
+    .paymentText__55e50 {
         color: #fff;
     }
 
-    .paymentDetail_c96709 {
+    .paymentDetail_be84ed {
         margin: 0;
         padding: 10px 0;
         border-bottom: thin solid var(--background-modifier-accent-dark);
@@ -184,7 +184,7 @@
         }
     }
 
-    .paymentHeader__50c05 {
+    .paymentHeader__27aff {
         border: none;
         padding: 0;
         margin: 0;
@@ -196,7 +196,7 @@
         text-transform: uppercase;
     }
 
-    .paymentText_deeaf4>div:not([class]) {
+    .paymentText__55e50>div:not([class]) {
         font-size: 13px;
         line-height: 18px;
         font-weight: 400;
@@ -205,7 +205,7 @@
         margin-bottom: 10px;
     }
 
-    .refundSubHeader__3623a {
+    .refundSubHeader__70b6e {
         color: var(--text-muted);
         font-size: 14px;
         letter-spacing: 0.5px;
@@ -214,7 +214,7 @@
         text-transform: uppercase;
     }
 
-    .refundIconContainer__28442 {
+    .refundIconContainer_e75cbd {
         font-size: 13px;
         line-height: 18px;
         font-weight: 400;
@@ -222,7 +222,7 @@
         letter-spacing: 0;
     }
 
-    .refundActions_bdaec5 {
+    .refundActions_e1131d {
         font-size: 13px;
         line-height: 18px;
         font-weight: 400;

@@ -1,22 +1,22 @@
-.searchResultsWrap__9f374 {
+.searchResultsWrap__2e184 {
     background: var(--store-sidebar-background);
     margin-top: 16px;
     margin-left: 16px;
     max-height: calc(100% - 16px);
 }
 
-.searchHeader__19d87 {
+.searchHeader__4d70e {
     background-color: rgb(0 0 0/.2);
     height: 56px;
     padding: 16px;
 }
 
-.searchResult_dcd237 {
+.searchResult__00093 {
     background: hsl(var(--accent-hue) calc(var(--saturation-factor, 1)*88%) 68%/.1);
     border-radius: 0;
 }
 
-.container__7db35:hover .header__39b23 {
+.container__3be1d:hover .header__6a14d {
     opacity: 1;
 }
 
@@ -25,12 +25,12 @@
     background-color: hsl(86 52% 38%);
 }
 
-.totalResults__695d3 {
+.totalResults__8eee9 {
     flex-grow: 0;
     margin-right: 16px;
 }
 
-.searchHeaderTabList__78b98 {
+.searchHeaderTabList__75f6b {
     --btn-count: 3;
     background: rgb(0 0 0/.2);
     border-radius: 3px;
@@ -42,20 +42,20 @@
     position: relative;
 }
 
-#app-mount .searchHeaderTabList__78b98 .item__48dda {
+#app-mount .searchHeaderTabList__75f6b .item__48dda {
     background: none;
     margin: 0;
     display: flex;
     flex: 0 1 calc(100% / var(--btn-count));
     justify-content: center;
 
-    &:not(.selected__5711d):hover {
+    &:not(.selected_a523ff):hover {
         background: hsl(var(--accent-hue) calc(var(--saturation-factor, 1)*40%) 23%/.4);
     }
 }
 
 
-.searchHeaderTabList__78b98 {
+.searchHeaderTabList__75f6b {
     &::before {
         content: '';
         position: absolute;
@@ -66,27 +66,27 @@
         border-radius: 3px;
     }
 
-    &:has(.selected__5711d:nth-child(2)):before {
+    &:has(.selected_a523ff:nth-child(2)):before {
         translate: 100%;
     }
 
-    &:has(.selected__5711d:nth-child(3)):before {
+    &:has(.selected_a523ff:nth-child(3)):before {
         translate: 200%;
     }
 }
 
 // Bottom nav buttons
-.pageButton_bcd673 {
+.pageButton_bf9853 {
     min-height: 32px;
 }
 
-.pageButton_bcd673.button_afdfd9:disabled,
-.pageButton_bcd673.button_afdfd9[aria-disabled=true] {
+.pageButton_bf9853.button__581d0:disabled,
+.pageButton_bf9853.button__581d0[aria-disabled=true] {
     opacity: 0.2;
     pointer-events: none;
 }
 
-.pageButton_bcd673.button_afdfd9 {
+.pageButton_bf9853.button__581d0 {
     background-color: var(--btn-brand);
     color: hsl(var(--accent-hue) calc(var(--saturation-factor, 1)*87%) 68%);
     font-weight: 400;
@@ -97,7 +97,7 @@
     }
 }
 
-.roundButton__9e83c.pageButton_bcd673 {
+.roundButton_a01f15.pageButton_bf9853 {
     background: none;
     font-weight: 400;
 
@@ -106,7 +106,7 @@
         color: #fff;
     }
 
-    &.activeButton__7a550 {
+    &.activeButton__70b70 {
         color: hsl(var(--accent-hue) calc(var(--saturation-factor, 1)*19%) 42%);
         cursor: default;
         background: none;
@@ -117,6 +117,6 @@
     }
 }
 
-.pageControlContainer_b111b0 {
+.pageControlContainer__86479 {
     margin: 0 0 4px 0;
 }

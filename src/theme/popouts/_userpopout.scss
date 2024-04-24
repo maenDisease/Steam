@@ -1,29 +1,29 @@
 /*
-userProfileOuter__46bb7: popout, modal
-userPopoutOuter_d739b2: popout
-userProfileModalOuter__3fe6b: modal
+userProfileOuter__35e59: popout, modal
+userPopoutOuter_d67f56: popout
+userProfileModalOuter__90b4a: modal
 */
 
 // Popout
-.userProfileOuter__46bb7 {
+.userProfileOuter__35e59 {
     border-radius: 0;
 
-    &.userProfileOuterThemed__6eb84 {
+    &.userProfileOuterThemed_a425f3 {
         padding: 2px;
     }
 
-    .userProfileInnerThemedWithBanner_d5f991 {
-        .wrapper_edb6e0 {
+    .userProfileInnerThemedWithBanner_e9e7c5 {
+        .wrapper__3ed10 {
             backdrop-filter: blur(8px);
         }
     }
 }
 
-.userPopoutOuter_d739b2 {
+.userPopoutOuter_d67f56 {
     box-shadow: 0 10px 32px 0 #000000ab;
 }
 
-.userProfileInner__8065b {
+.userProfileInner__8ff35 {
     border-radius: 0;
 
     &:before {
@@ -34,49 +34,49 @@ userProfileModalOuter__3fe6b: modal
 }
 
 // Avatar
-.avatarWrapper_f77579 {
+.avatarWrapper__0cd44 {
     border-radius: 0;
     left: 16px;
     box-shadow: 1px 3px 14px rgb(0 0 0/.65);
     z-index: 2;
 }
 
-.avatarPositionPremiumBanner__1e83d,
-.avatarPositionPremiumNoBanner__8bf3b {
+.avatarPositionPremiumBanner_f3acc4,
+.avatarPositionPremiumNoBanner__8beba {
     top: 16px;
 }
 
 #app-mount {
 
-    .avatarHoverTarget__3a360,
-    .avatarHint__8e5b9,
+    .avatarHoverTarget__9b4a9,
+    .avatarHint__15059,
     .avatar__445f3 {
         padding: 0;
     }
 }
 
-.avatarHoverTarget__3a360 {
+.avatarHoverTarget__9b4a9 {
     border-radius: 0;
 }
 
-.avatarHint__8e5b9 {
+.avatarHint__15059 {
     foreignObject {
         mask: none;
     }
 }
 
 // Banner
-.bannerSVGWrapper__3e7b0 {
+.bannerSVGWrapper__8a38c {
     foreignObject {
         mask: none;
     }
 }
 
-.roundedBanner__9fa0a {
+.roundedBanner__16aa6 {
     border-radius: 0;
 }
 
-.pencilContainer_d4ce8d {
+.pencilContainer_ae6d25 {
     border-radius: 2px;
     transition: none;
 
@@ -91,11 +91,11 @@ userProfileModalOuter__3fe6b: modal
 }
 
 // Username section
-.overlayBackground__86b78:has(.userText__3e8b7) {
+.overlayBackground__345c9:has(.userText_c26b46) {
     overflow: visible;
 }
 
-.section__6f61e:has(.userText__3e8b7) {
+.section__62b44:has(.userText_c26b46) {
     position: absolute;
     top: calc((var(--header-height) * -1) + 16px);
     left: 0;
@@ -117,16 +117,16 @@ userProfileModalOuter__3fe6b: modal
         width: fit-content;
     }
 
-    .userTagUsernameBase__75fb1 {
+    .userTagUsernameBase__2bd24 {
         pointer-events: auto;
     }
 
-    .userTag_cf17d3 {
+    .userTag__45349 {
         font-weight: 300;
         width: 100%;
     }
 
-    .nameTag__693ff {
+    .nameTag__1d385 {
         overflow: unset;
         pointer-events: auto;
     }
@@ -135,17 +135,17 @@ userProfileModalOuter__3fe6b: modal
         overflow: unset;
     }
 
-    .pronouns__8bcdb {
+    .pronouns__8aa38 {
         font-size: 12px;
         pointer-events: auto;
     }
 
-    +.divider_ed0c1d {
+    +.divider_e6f9ab {
         display: none;
     }
 }
 
-.profileBadges__7a7cb {
+.profileBadges__1f2ab {
     position: absolute;
     top: calc(var(--header-height) + 16px);
     width: calc(100% - 32px);
@@ -159,13 +159,13 @@ userProfileModalOuter__3fe6b: modal
     justify-content: center;
 }
 
-.profileBadge22__3c451 {
+.profileBadge22_e4866d {
     filter: drop-shadow(1px 1px 2px #000);
 }
 
 // Body
 
-.profileColors__2e2f0 {
+.profileColors_ac6ab4 {
     --header-height: 112px;
 
     &:has(svg[viewBox$="60"]) {
@@ -182,26 +182,26 @@ userProfileModalOuter__3fe6b: modal
     }
 }
 
-.overlayBackground__86b78 {
+.overlayBackground__345c9 {
     margin-top: calc((var(--banner-height) * -1) + var(--header-height));
     margin-left: 0;
     margin-right: 0;
     margin-bottom: 0;
 }
 
-.userPopoutOuter_d739b2:has(.containerWithContent__7e98f) .overlayBackground__86b78 {
+.userPopoutOuter_d67f56:has(.containerWithContent_a67357) .overlayBackground__345c9 {
     padding-top: calc(22px + 16px);
 
-    &:not(:has(.customStatusSection_ce6c27)) {
+    &:not(:has(.customStatusSection_c9f9ba)) {
         padding-top: calc(22px + 16px + 16px);
     }
 }
 
-.theme-light .overlayBackground__86b78 {
+.theme-light .overlayBackground__345c9 {
     background: linear-gradient(to bottom, hsl(calc(var(--accent-hue) + 15) calc(var(--saturation-factor, 1)*11.1%) 39%/.7) 5%, hsl(calc(var(--accent-hue) + 15) calc(var(--saturation-factor, 1)*11.1%) 89%/.4) 95%);
 }
 
-.profileColors__2e2f0 .overlayBackground__86b78 {
+.profileColors_ac6ab4 .overlayBackground__345c9 {
     box-shadow: none;
 }
 
@@ -210,17 +210,17 @@ userProfileModalOuter__3fe6b: modal
     justify-content: center;
 }
 
-.overlayBackground__86b78 {
+.overlayBackground__345c9 {
     border-radius: 0;
     background: linear-gradient(to bottom, hsl(calc(var(--accent-hue) + 15) calc(var(--saturation-factor, 1)*11.1%) 10.6%/.7) 5%, hsl(calc(var(--accent-hue) + 15) calc(var(--saturation-factor, 1)*11.1%) 10.6%/.4) 95%);
 
-    .customStatusSection_ce6c27 {
+    .customStatusSection_c9f9ba {
         padding-top: 16px;
         padding-right: 16px;
         padding-left: 16px;
     }
 
-    .scroller__83262 {
+    .scroller_f9a667 {
         padding: 0 16px !important;
         overflow: hidden overlay !important;
         display: flex;
@@ -228,15 +228,15 @@ userProfileModalOuter__3fe6b: modal
         max-height: calc(100vh - 200px);
     }
 
-    .title_ef4a6d {
+    .title__392bc {
         letter-spacing: .5px;
     }
 
     .text-sm-medium_bc6ffc,
-    .text-sm-normal_e612c7,
+    .text-sm-normal__95a78,
     .text-sm-bold_ad6d44,
     .text-sm-semibold_a5824d,
-    .textRow__4750e {
+    .textRow_c835f1 {
         font-size: 13px;
         line-height: 17px;
     }
@@ -255,25 +255,25 @@ userProfileModalOuter__3fe6b: modal
         }
     }
 
-    .lastSection__37b97 {
+    .lastSection__62986 {
         padding-bottom: 16px;
     }
 
     &:has(.activity__20c1e) {
-        .divider_ed0c1d {
+        .divider_e6f9ab {
             opacity: 0;
         }
     }
 }
 
-.section__6f61e:has(.activity__20c1e) {
+.section__62b44:has(.activity__20c1e) {
     background: rgb(0 0 0/.2);
     margin: 0 -16px;
     padding: 16px;
     order: -1;
 }
 
-.role__631a3 {
+.role_d81130 {
     background: rgb(0 0 0/.3);
     border-radius: 3px;
 }

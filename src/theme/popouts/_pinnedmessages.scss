@@ -1,25 +1,25 @@
-.messageGroupWrapper_f8c6e9 {
+.messageGroupWrapper__1fce2 {
     background: var(--modal-popout-message);
     border-radius: 0;
     border: none;
     margin: 0 0 4px;
 }
 
-.jumpButton__0329d {
+.jumpButton__309d6 {
     margin: 0;
     border-radius: 0;
     background: var(--btn-grey-hover);
 }
 
-.jumpButton__0329d:hover {
+.jumpButton__309d6:hover {
     background: var(--background-accent-hover);
 }
 
-.messageGroupWrapper_f8c6e9:has(.jumpButton__0329d:hover) {
+.messageGroupWrapper__1fce2:has(.jumpButton__309d6:hover) {
     background: var(--background-accent);
 }
 
-.body__13cde {
+.body_a02b78 {
     margin-top: 10px;
     font-size: 14px;
     line-height: 18px;
@@ -27,6 +27,6 @@
     color: var(--text-muted);
 }
 
-.footer_a3029c {
+.footer__6b9ef {
     background: none;
 }

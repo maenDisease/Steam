@@ -1,11 +1,11 @@
-#app-mount .layer__2efaa ~.layer__2efaa  .profileCustomizationSection__88eff .baseLayout_b00434 .preview__0c5fe .userPopoutOuter_d739b2,
-#app-mount .layer__2efaa ~.layer__2efaa  .baseLayout_b00434.tryItOutLayout__6026d .preview__0c5fe .userPopoutOuter_d739b2 {
+#app-mount .layer_f7d46a ~.layer_f7d46a  .profileCustomizationSection_c4a87a .baseLayout_a5adfd .preview_de6062 .userPopoutOuter_d67f56,
+#app-mount .layer_f7d46a ~.layer_f7d46a  .baseLayout_a5adfd.tryItOutLayout_f54a16 .preview_de6062 .userPopoutOuter_d67f56 {
     min-width: unset !important;
     width: 340px !important;
     max-width: 340px !important;
 }
 
-#app-mount .layer__2efaa ~.layer__2efaa  .baseLayout_b00434.tryItOutLayout__6026d .preview__0c5fe .userPopoutOuter_d739b2 {
+#app-mount .layer_f7d46a ~.layer_f7d46a  .baseLayout_a5adfd.tryItOutLayout_f54a16 .preview_de6062 .userPopoutOuter_d67f56 {
     width: 340px !important;
 }
 
@@ -22,7 +22,7 @@
 #profile-customization-tab {
     padding: 0 24px 24px 24px;
 
-    .top__592a7 {
+    .top_fae1fa {
         --btn-count: 2;
         background: var(--darker-grey);
         border-radius: 2px;
@@ -36,14 +36,14 @@
         border-bottom: none;
     }
 
-    .top__592a7 .item__48dda {
+    .top_fae1fa .item__48dda {
         background: none;
         margin: 0;
         display: flex;
         flex: 0 1 calc(100% / var(--btn-count));
         justify-content: center;
 
-        &:not(.selected__5711d):hover {
+        &:not(.selected_a523ff):hover {
             background: var(--btn-grey);
         }
 
@@ -56,7 +56,7 @@
         font-weight: 400;
     }
 
-    .top__592a7 {
+    .top_fae1fa {
         &::before {
             content: '';
             position: absolute;
@@ -67,66 +67,66 @@
             border-radius: 2px;
         }
 
-        &:has(.selected__5711d:nth-child(2)):before {
+        &:has(.selected_a523ff:nth-child(2)):before {
             translate: 100%;
         }
     }
 
-    .imageUploaderIconWrapper__4efff {
+    .imageUploaderIconWrapper__3d11a {
         padding: 0;
         border-radius: 0;
         box-shadow: 1px 3px 14px rgb(0 0 0/.65);
     }
 
-    .avatarUploader__18c3f {
+    .avatarUploader__1f1a2 {
         z-index: 2;
     }
 
-    .imageUploaderIcon__0c13b {
+    .imageUploaderIcon__4b7d2 {
         pointer-events: none;
     }
 
-    .section__6f61e:has(.customStatus__3aa7f) {
+    .section__62b44:has(.customStatus__3aa7f) {
         order: -2;
         padding-top: 0;
         padding-bottom: 16px;
     }
 
-    .section__6f61e:has(.fakeActivityTitle__79378) {
+    .section__62b44:has(.fakeActivityTitle__7a49d) {
         background: rgb(0 0 0/.2);
         margin: 0 -16px;
         padding: 16px;
         order: -1;
 
-        .button__890f5 {
+        .button__4d0db {
             max-width: unset;
         }
     }
 
-    .body_aa2c19 {
+    .body_d75d88 {
         padding-left: 16px;
         padding-right: 16px;
         padding-bottom: 16px;
     }
 
-    .divider_ed0c1d {
+    .divider_e6f9ab {
         display: none;
     }
 
-    .avatarUploaderPremium_bbc93c {
+    .avatarUploaderPremium__520da {
         top: 16px;
 
-        +.profileBadges__7a7cb {
+        +.profileBadges__1f2ab {
             padding-top: 16px;
         }
     }
 
-    .spinningAvatar__012e4 {
+    .spinningAvatar_c1430f {
         overflow: hidden;
         animation: spinningAvatarHue 5s ease infinite;
     }
 
-    .tryItOutSection__0f9fb {
+    .tryItOutSection_d658ca {
         margin: 10px 0 0 0;
         border-radius: 2px;
         border-width: 1px;
@@ -135,7 +135,7 @@
         border-radius: 0;
         position: relative;
 
-        .premiumBackground__4ce97 {
+        .premiumBackground__4f769 {
             padding: 10px 0 24px 0;
             position: absolute;
             top: 1px;
@@ -145,11 +145,11 @@
     }
 }
 
-#app-mount .layer__2efaa ~.layer__2efaa  .profileCustomizationSection__88eff .baseLayout_b00434 {
+#app-mount .layer_f7d46a ~.layer_f7d46a  .profileCustomizationSection_c4a87a .baseLayout_a5adfd {
 
-    .sectionsContainer_a37883,
+    .sectionsContainer__45b62,
     .editor_bca4e3,
-    .preview__0c5fe {
+    .preview_de6062 {
         min-width: unset !important;
         max-width: unset !important;
     }

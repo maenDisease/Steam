@@ -12,11 +12,11 @@
     }
 }
 
-.contentRegionScroller__86c79:has(#discord-nitro-tab) {
+.contentRegionScroller__9ae20:has(#discord-nitro-tab) {
     background: #000;
 }
 
-#app-mount .layer__2efaa ~.layer__2efaa  .contentColumnDefault_c66386 {
+#app-mount .layer_f7d46a ~.layer_f7d46a  .contentColumnDefault__78de3 {
 
     &#discord-nitro-tab,
     &#nitro-server-boost-tab {
@@ -24,7 +24,7 @@
     }
 }
 
-.premiumContainer__2ebd0 {
+.premiumContainer__11813 {
     .root__3594f {
         display: none;
     }
@@ -56,7 +56,7 @@
     }
 }
 
-.premiumTierCardsContainer_e3c13b {
+.premiumTierCardsContainer__686eb {
     background: linear-gradient(137.42deg, #00d5ff 0%, #d0266f 40%, #b9b500 100%);
     background-size: 300% 300%;
     animation: nitroGradient 20s ease infinite;
@@ -75,7 +75,7 @@
     max-width: unset;
 }
 
-.premiumCards__1b3a9 {
+.premiumCards_ed071e {
     display: flex;
     justify-content: center;
 }
@@ -87,7 +87,7 @@
     padding: 20px;
     margin: 10px;
 
-    svg.title__223b8 {
+    svg.title__649cc {
         color: #1b1b1b;
         position: absolute;
         right: 20px;
@@ -108,7 +108,7 @@
         margin-left: 28px;
         margin-bottom: 5px;
 
-        .icon_c4178d {
+        .icon__77190 {
             height: 18px;
             width: 18px;
         }
@@ -118,7 +118,7 @@
         }
     }
 
-    .wumpusImageContainer__5990c {
+    .wumpusImageContainer__22112 {
         position: absolute;
         width: 30%;
         top: 50px;
@@ -127,7 +127,7 @@
         overflow: hidden;
     }
 
-    .shinyButton_fc8363 {
+    .shinyButton_d5e126 {
         color: #fff;
         background: #1b1b1b;
         border-radius: 50px;
@@ -145,7 +145,7 @@
     }
 }
 
-.whatsNewSection_e83a8d {
+.whatsNewSection__4186d {
     position: relative;
     gap: 64px;
     padding-top: 64px;
@@ -163,48 +163,48 @@
     background: linear-gradient(137.42deg, #163bba 0%, #ae4d4d 100%);
     overflow: hidden;
 
-    &:hover .cardImage__9da5b {
+    &:hover .cardImage_a87f5e {
         margin: 50px;
         width: calc(100% - 100px);
         border-radius: 0;
     }
 }
 
-#app-mount .cardContainer__912d9 .noFlipCardContainer_e2d2c1:nth-child(2n) {
+#app-mount .cardContainer_d674b8 .noFlipCardContainer__756fb:nth-child(2n) {
     .card_e97590 {
         background: linear-gradient(137.42deg, #ce158b 0%, #e36d23 100%);
 
-        .cardDescription__46c9d {
+        .cardDescription_efa634 {
             background: linear-gradient(137.42deg, #ce158b 0%, #e36d23 100%);
         }
     }
 }
 
-.cardDescription__46c9d {
+.cardDescription_efa634 {
     padding: 20px;
     border-radius: 3px;
     background: linear-gradient(137.42deg, #163bba 0%, #ae4d4d 100%);
     filter: hue-rotate(30deg);
 }
 
-#app-mount .cardImage__9da5b {
+#app-mount .cardImage_a87f5e {
     z-index: 21;
     border-radius: 0;
 }
 
-.perksContainer_e3fd5b {
+.perksContainer__13855 {
     background: #fff;
     margin: 0;
     max-width: 100%;
     display: block;
     padding-top: 4em;
 
-    .defaultColor__87d87 {
+    .defaultColor__8610e {
         color: #1b1b1b;
     }
 }
 
-.perkCard__6fe60 {
+.perkCard__412af {
     background: none;
     border-radius: 0;
     padding: 8px 16px 10px 16px;
@@ -235,7 +235,7 @@
     }
 }
 
-.planComparisonTableContainer__5e152 {
+.planComparisonTableContainer_adf170 {
     padding: 24px;
     max-width: unset;
     width: 100%;
@@ -319,7 +319,7 @@
     }
 }
 
-.innerWrapper_c80bad {
+.innerWrapper_fd8553 {
     background-image: linear-gradient(45deg, var(--guild-boosting-blue), var(--guild-boosting-purple));
     border-radius: 4px;
     box-shadow: var(--banner-shadow);
