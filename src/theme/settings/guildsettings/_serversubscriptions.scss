@@ -1,14 +1,14 @@
-#app-mount .sidebarRegion__60457:has(.selected__5711d[aria-controls="role_subscriptions-tab"])+.contentRegion__0bec1 {
-    .contentColumnDefault_c66386 {
+#app-mount .sidebarRegion__36437:has(.selected_a523ff[aria-controls="role_subscriptions-tab"])+.contentRegion__08eba {
+    .contentColumnDefault__78de3 {
         padding: 0 !important;
     }
 
-    .contentRegionScroller__86c79 {
+    .contentRegionScroller__9ae20 {
         padding-top: 0;
     }
 }
 
-.contentRegionScroller__86c79:has(.howItWorksContainer_ef4386) {
+.contentRegionScroller__9ae20:has(.howItWorksContainer__025eb) {
     background: #000;
 
     .settingsContent__75a7e {
@@ -20,11 +20,11 @@
         border-radius: 0;
     }
 
-    .divider__2bbbc {
+    .divider_d6f39c {
         display: none;
     }
 
-    .container__9547a>div:has(.howItWorksContainer_ef4386) {
+    .container__174c5>div:has(.howItWorksContainer__025eb) {
         background: linear-gradient(137.42deg, #00d5ff 0%, #d0266f 40%, #b9b500 100%);
         background-size: 300% 300%;
         animation: nitroGradient 20s ease infinite;
@@ -34,34 +34,34 @@
         padding-top: 4em;
     }
 
-    .container__9547a>div:has(>.creatorBenefitsContainer__2e05e) {
+    .container__174c5>div:has(>.creatorBenefitsContainer_c959ae) {
         background: #fff;
         padding-top: 4em;
         padding-bottom: 4em;
         --header-primary: #1b1b1b;
         --header-secondary: #1b1b1b;
 
-        .earningsPreviewContainer__775cb {
+        .earningsPreviewContainer__2b25a {
             background: rgb(0 0 0/.2) !important;
         }
 
-        .avatarCard_edc99c {
+        .avatarCard__8d1e3 {
             background: rgb(0 0 0/.2)
         }
 
-        .revenueSharePercentageDark__68593 {
+        .revenueSharePercentageDark_ded27c {
             text-shadow: 0 2px 3px rgb(0 0 0/.3);
         }
     }
 
-    .container__9547a>div:last-child {
+    .container__174c5>div:last-child {
         padding: 4em 5em;
 
-        .guildCardHeaderAvatar__47b9e {
+        .guildCardHeaderAvatar_c2e74d {
             border-radius: 2px;
         }
 
-        .guildCardQuote_b4f165 {
+        .guildCardQuote__51017 {
             [data-text-variant="text-lg/normal"] {
                 font-size: 16px;
                 line-height: 20px;
@@ -78,7 +78,7 @@
     }
 }
 
-.howItWorksContainer_ef4386 {
+.howItWorksContainer__025eb {
     background: none;
     border-radius: 0;
     gap: 20px;
@@ -90,12 +90,12 @@
     padding: 20px;
 }
 
-.howItWorksImageContainer__91f71 {
+.howItWorksImageContainer__33219 {
     background: none;
     padding: 0;
 }
 
-.howItWorksContainer_ef4386 {
+.howItWorksContainer__025eb {
     +span {
         display: none !important;
 
