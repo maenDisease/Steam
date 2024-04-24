@@ -1,16 +1,16 @@
-.accountProfilePopoutWrapper_af829a {
-    .overlayBackground__86b78 {
+.accountProfilePopoutWrapper_d4887f {
+    .overlayBackground__345c9 {
 
-        .divider__06972 {
+        .divider_f0c60d {
             display: none;
         }
 
-        .scroller__83262 {
+        .scroller_f9a667 {
             max-height: 200px;
             padding-bottom: 16px;
         }
 
-        >.menu_dc52c6 {
+        >.menu__088f7 {
             box-shadow: none;
             background: rgb(0 0 0/.3);
                 padding: 8px;
@@ -23,7 +23,7 @@
                 box-sizing:content-box;
         }
 
-        .section__6f61e:has(.memberSinceContainer__0a28b) {
+        .section__62b44:has(.memberSinceContainer__16630) {
             padding-bottom: 12px;
         }
     }
@@ -32,11 +32,11 @@
         max-width: 200px;
     }
 
-    .statusItem__72404 {
+    .statusItem__24445 {
         padding: 0;
         min-height: unset;
 
-        .description_ea6680 {
+        .description_d1e167 {
             margin-bottom: 0;
             color: var(--text-muted);
         }
