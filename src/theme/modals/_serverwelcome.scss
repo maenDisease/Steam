@@ -1,12 +1,12 @@
 .root_a28985 {
 
-    .guildSidebar__8763f {
+    .guildSidebar__74787 {
         border-top-left-radius: 0;
         border-bottom-left-radius: 0;
         background: var(--background-tertiary);
         padding: 32px;
 
-        .guildIcon__31e46 {
+        .guildIcon__3cd2e {
             border-radius: 2px;
         }
     }
@@ -18,19 +18,19 @@
     }
 }
 
-.root_a28985:has(.modal_b38209 .requirementContainer__45cb0) {
-    .content__3020d {
+.root_a28985:has(.modal_b38209 .requirementContainer__84d8e) {
+    .content__9b52d {
         padding-left: 0;
         padding-right: 0;
     }
 
-    .animationAndSparklesContainer_f5565f {
+    .animationAndSparklesContainer_d2a9ed {
         position: absolute;
         right: 0;
         top: 16px;
     }
 
-    .header__14708 {
+    .header_c78725 {
         margin: 0 100px 0 0;
         text-align: left;
         font-size: 22px;
@@ -38,29 +38,29 @@
             line-height: 24px;
     }
 
-    .subheader_b02893 {
+    .subheader__4e007 {
         margin: 0 100px 32px 0;
         text-align: left;
     }
     
-    .divider_e8e5fa {
+    .divider_e4bcab {
         margin: 10px 0;
     }
 
-    .requirementContainer__45cb0 {
+    .requirementContainer__84d8e {
         margin-top: 0;
         border: none;
         padding: 8px 14px;
         background: var(--btn-grey);
         border-radius: 2px;
 
-        .sizeSmall__71a98 {
+        .sizeSmall_da7d10 {
             padding: 0;
         }
     }
 }
 
-.termsRow_a03d1d {
+.termsRow__8e6aa {
     
     [style="color: var(--text-muted);"] {
         --text-muted: var(--brand-experiment);
@@ -69,18 +69,18 @@
     }
 }
 
-.termsRowContent__82e2f[data-text-variant="text-md/normal"] {
+.termsRowContent__605ae[data-text-variant="text-md/normal"] {
     font-size: 14px;
     font-weight: 400;
 }
 
-.fieldBackground_d6edfa,
-.fieldBackground_d6edfa:hover:not(:focus) {
+.fieldBackground__4007e,
+.fieldBackground__4007e:hover:not(:focus) {
     background: var(--btn-grey);
     border: none;
     border-radius: 2px;
 }
 
-.fieldBackground_d6edfa {
+.fieldBackground__4007e {
     padding: 8px 14px;
 }
