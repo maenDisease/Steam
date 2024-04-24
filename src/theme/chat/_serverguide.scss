@@ -1,13 +1,13 @@
-.homeContainer_a4aa0a {
+.homeContainer_c36871 {
     margin-top: var(--content-gutter);
     padding: 0 0 32px 0;
     position: relative;
 
-    .maxWidthWrapper_c95aa8 {
+    .maxWidthWrapper__64962 {
         max-width: unset;
     }
 
-    .header__35687 {
+    .header__09049 {
         margin-top: 52px;
         padding-bottom: 12px;
         background: linear-gradient(to right, transparent 50%, rgb(0 0 0/.4) 100%);
@@ -16,25 +16,25 @@
         gap: 16px;
     }
 
-    .headerArtWrapper__5d8d9 {
+    .headerArtWrapper__31b51 {
         margin-left: unset;
         margin-right: unset;
         border-radius: 0;
         width: 100%;
     }
 
-    .headerArt_e3ee19 {
+    .headerArt__1cd19 {
         border-radius: 0;
         background-position: center;
     }
 
-    .headerIcon__8b099 {
+    .headerIcon_f56272 {
         margin: 16px 16px 16px 0;
         border: none;
         background-color: transparent;
     }
 
-    div.headerName__72ee0 {
+    div.headerName_b10e0f {
         position: absolute;
         top: 0;
         left: 0;
@@ -53,8 +53,8 @@
     }
 
 
-    .container_c7a926,
-    .container_ec1a33 {
+    .container__541ec,
+    .container__9f322 {
         padding-top: 30px;
         gap: 2px;
 
@@ -81,9 +81,9 @@
         }
     }
 
-    .container_c7a926 {
+    .container__541ec {
 
-        .action_c957d9 {
+        .action__94060 {
             padding: 4px 8px;
             background: var(--banner-lightblue);
             transition: none;
@@ -92,23 +92,23 @@
             &:hover {
                 background-color: var(--banner-lightblue-hover);
 
-                .checkCircle__28cd5 {
+                .checkCircle__5103d {
                     color: #fff;
                 }
             }
 
             &:hover,
-            &:has(.checkCircleCompleted_c66388) {
+            &:has(.checkCircleCompleted__90309) {
 
-                .channelIconContainer__5df13,
-                .rulesIconContainer__2a9f3 {
+                .channelIconContainer__67756,
+                .rulesIconContainer__0c984 {
                     svg {
                         color: #fff;
                     }
                 }
             }
 
-            &:has(.checkCircleCompleted_c66388) {
+            &:has(.checkCircleCompleted__90309) {
                 background: linear-gradient(60deg, rgb(117 176 34/.7) 5%, rgb(88 138 27/.6) 95%);
             }
 
@@ -117,8 +117,8 @@
                 height: 16px;
             }
 
-            .channelIconContainer__5df13,
-            .rulesIconContainer__2a9f3 {
+            .channelIconContainer__67756,
+            .rulesIconContainer__0c984 {
                 width: 18px;
                 height: 18px;
                 border-radius: 0;
@@ -130,12 +130,12 @@
                 }
             }
 
-            .checkCircle__28cd5 {
+            .checkCircle__5103d {
                 height: 18px;
                 width: 18px;
             }
 
-            .checkCircleCompleted_c66388 {
+            .checkCircleCompleted__90309 {
                 height: 18px;
                 width: 18px;
                 color: #fff;
@@ -145,15 +145,15 @@
                 }
             }
 
-            &:not(:hover, :has(.checkCircleCompleted_c66388)) {
+            &:not(:hover, :has(.checkCircleCompleted__90309)) {
                 --header-primary: hsl(calc(var(--accent-hue) + 2) calc(var(--saturation-factor, 1)*11.5%) 69.4%);
             }
 
-            &:hover:not(:has(.checkCircleCompleted_c66388)) {
+            &:hover:not(:has(.checkCircleCompleted__90309)) {
                 --text-muted: #fff;
             }
 
-            .actionInfo_ca1ce8 {
+            .actionInfo__1ac38 {
                 display: flex;
                 flex-direction: row;
             }
@@ -166,10 +166,10 @@
         }
     }
 
-    .container_ec1a33 {
+    .container__9f322 {
         margin-top: 0;
 
-        .row__70f4c {
+        .row__4f559 {
             padding: 8px;
             background: var(--banner-lightblue);
             transition: none;
@@ -179,7 +179,7 @@
                 background-color: var(--banner-lightblue-hover);
             }
 
-            .title_ba7ffc {
+            .title__0ba32 {
                 margin-bottom: 0;
                 font-size: 12px;
                 line-height: unset;
@@ -193,7 +193,7 @@
                 font-weight: 400;
             }
 
-            .media_c4f903 {
+            .media_a5d930 {
                 border-radius: 3px;
             }
         }
@@ -201,36 +201,36 @@
 }
 
 @media (min-width: 1300px) {
-    .homeContainer_a4aa0a {
-        .headerArt_e3ee19 {
+    .homeContainer_c36871 {
+        .headerArt__1cd19 {
             height: 338px;
             padding-top: 0;
         }
 
-        .header__35687 {
+        .header__09049 {
             grid-template-columns: 1fr 324px;
         }
     }
 }
 
-.iconActiveXLarge_f0b973 {
+.iconActiveXLarge_e200c8 {
     border-radius: 3px;
 }
 
-.homeContent__049a1 {
+.homeContent_e458e8 {
     margin-top: 0;
     gap: var(--content-gutter);
 
 }
 
 @media (max-width: 1300px) {
-    .homeContent__049a1 {
+    .homeContent_e458e8 {
         max-width: var(--content-inner-width);
         margin-left: 0;
     }
 }
 
-.sidebarCardWrapper__2c840:has(.guildDescription_d4bc5b) {
+.sidebarCardWrapper__98124:has(.guildDescription_e1a241) {
     position: absolute;
     top: calc(52px + 16px + 100px + 8px);
     width: 324px;
@@ -245,23 +245,23 @@
         display: none;
     }
 
-    .guildDescription_d4bc5b {
+    .guildDescription_e1a241 {
         --text-normal: hsl(calc(var(--accent-hue) + 1) calc(var(--saturation-factor, 1)*28.1%) 82.5%);
         font-size: 14px;
         line-height: 18px;
     }
 
-    .guildInfoText__8ad0c {
+    .guildInfoText_db8170 {
         line-height: 20px;
     }
 }
 
-.sidebar_a22042 {
+.sidebar_fa53ea {
     width: 308px;
     min-width: 308px;
 }
 
-.sidebarCardWrapper__2c840:not(:has(.guildDescription_d4bc5b)) {
+.sidebarCardWrapper__98124:not(:has(.guildDescription_e1a241)) {
     background: var(--store-sidebar-background);
     border-radius: 0;
 
@@ -274,12 +274,12 @@
     }
 }
 
-.resourceChannelsList_ab112a {
+.resourceChannelsList__45019 {
     margin: 0;
     gap: 2px;
 }
 
-.resourceChannel__79493 {
+.resourceChannel__12be0 {
     color: var(--btn-brand-text);
     border-radius: 1px;
     padding: 4px 0 4px 8px;
@@ -290,7 +290,7 @@
         color: #fff;
     }
 
-    .resourceImageBase_c9b174 {
+    .resourceImageBase_b39084 {
         border-radius: 2px;
     }
 
@@ -300,32 +300,32 @@
     }
 }
 
-.welcomeMessageContainer__3d907 {
+.welcomeMessageContainer__3f43b {
 
-    .welcomeMessageContent_c19bb5 {
+    .welcomeMessageContent__26562 {
         padding: 4px 16px 16px;
         z-index: 1;
     }
 
-    .userProfileOuter__46bb7,
-    .userProfileInner__8065b {
+    .userProfileOuter__35e59,
+    .userProfileInner__8ff35 {
         border-radius: 4px;
     }
 
-    .userCardInner_d6aa46 {
+    .userCardInner_e36852 {
         border-radius: 4px;
         background: none;
     }
 
-    .wrapper_edb6e0 {
+    .wrapper__3ed10 {
         #app-mount & {
             border-radius: 4px;
             overflow: hidden;
         }
     }
 
-    .avatarBackground__9cf9d,
-    .avatarBorder_d9ba14 {
+    .avatarBackground_c0a21e,
+    .avatarBorder_d374d6 {
         border-radius: 4px;
     }
 
@@ -336,9 +336,9 @@
     }
 }
 
-.messagesWrapper_ea2b0b .scrollerInner__059a5[data-list-id=chat-messages]:not(:has(.wrapper_b8c724)) {
-    .navigationDescription__203e4:first-child+.divider__8cf56+.messageListItem__6a4fb {
-        .message__80c10 {
+.messagesWrapper_add28b .scrollerInner__37fee[data-list-id=chat-messages]:not(:has(.wrapper__11501)) {
+    .navigationDescription__4e2ab:first-child+.divider__01aed+.messageListItem__050f9 {
+        .message_ccca67 {
             #app-mount & {
                 background: none;
                 border: none;
@@ -347,7 +347,7 @@
         }
     }
 
-    &:has(.navigationDescription__203e4:first-child+.divider__8cf56+.messageListItem__6a4fb) {
+    &:has(.navigationDescription__4e2ab:first-child+.divider__01aed+.messageListItem__050f9) {
         &::before {
             top: 32px;
         }
