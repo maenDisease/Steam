@@ -1,11 +1,11 @@
-.container_d27846 {
+.container_cff83e {
     border-radius: 0;
     border: none;
     background: var(--contextmenu-background);
     box-shadow: var(--contextmenu-shadow);
     padding: 0;
 
-    .container__7712a {
+    .container__33507 {
         background: rgb(0 0 0/.2);
         border: 1px solid #000;
         box-shadow: 1px 1px 0 0 var(--store-search-border);
@@ -47,16 +47,16 @@
         border-radius: 0;
         color: var(--contextmenu-text);
 
-        &:hover:not(.disabled__1c6ff) {
+        &:hover:not(.disabled_ef860a) {
             background: var(--contextmenu-text);
             color: var(--contextmenu-text-hover);
 
-            .roleName_d19d33 .defaultColor__77578 {
+            .roleName__851c9 .defaultColor__77578 {
                 color: var(--contextmenu-text-hover);
             }
         }
 
-        .roleCircle_bae511 {
+        .roleCircle__61ad8 {
             box-shadow:0 2px 3px rgb(0 0 0/.3);
         }
     }
