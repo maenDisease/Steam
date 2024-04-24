@@ -1,28 +1,28 @@
-.scroller__5fda0 {
+.scroller__9a4f3 {
     background: none;
     border-top-left-radius: 0;
     border-bottom-left-radius: 0;
     padding: 0;
 }
 
-.reactors__20ab0 {
+.reactors__0f305 {
     background: none;
     border-radius: 0;
 }
 
-.reactionDefault__792ef, .reactionSelected__249a7 {
+.reactionDefault_de3361, .reactionSelected__16345 {
     margin-bottom: 0;
     border-radius: 0;
     padding: 5px 8px;
 }
 
-.reactionDefault__792ef {
+.reactionDefault_de3361 {
     &:hover {
         background: rgb(255 255 255/.2);
     }
 }
 
-.reactionSelected__249a7 {
+.reactionSelected__16345 {
     background: var(--btn-dark-hover);
     [data-text-variant="text-sm/bold"] {
         color: #fff;
