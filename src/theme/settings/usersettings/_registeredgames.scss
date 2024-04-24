@@ -1,22 +1,22 @@
 #game-activity-tab {
-    .children_b15c64 {
+    .children_aba8cb {
         display: flex;
         flex-wrap: wrap;
         flex-direction: row;
 
-        >.marginTop40__2b1fe {
+        >.marginTop40_bda863 {
             flex-basis: 100%;
         }
     }
 
-    .activeGame__99516 {
+    .activeGame__6d821 {
         padding: 8px 24px 10px 16px;
         margin-right: 8px;
         border-radius: 2px;
         width: fit-content;
         max-width: calc(100% - 8px - 20px - 12px);
 
-        &.notDetected__2a0c9 {
+        &.notDetected__14b92 {
             background: var(--background-accent);
             width: fit-content;
         }
@@ -31,48 +31,48 @@
             margin-right: 12px;
         }
 
-        .gameNameLastPlayed__1f167 {
+        .gameNameLastPlayed_c84f71 {
             max-width: calc(var(--settingsmodalwidth) - 196px - 200px);
         }
 
-        .gameName_aeeab5,
-        .lastPlayed_accc56 {
+        .gameName_c1c8a6,
+        .lastPlayed__0b4ef {
             font-size: 14px;
             font-weight: 600;
             color: #fff;
             line-height: 20px;
         }
 
-        .lastPlayed_accc56 {
+        .lastPlayed__0b4ef {
             height: 20px;
             overflow: hidden;
         }
 
-        .default_cae228 {
+        .default__74311 {
             transform: translateY(-107%);
         }
 
-        .lastPlayed_accc56,
-        .hoverRoll__041cb,
-        .hovered__243e5,
-        .default_cae228 {
+        .lastPlayed__0b4ef,
+        .hoverRoll__3ea9e,
+        .hovered__5a165,
+        .default__74311 {
             width: fit-content;
         }
 
-        .hovered__243e5 {
+        .hovered__5a165 {
             position: relative;
             max-width: calc(var(--settingsmodalwidth) - 196px - 200px);
         }
     }
 
-    .nowPlayingAdd__7caf1 {
+    .nowPlayingAdd_ab1001 {
         margin: 0;
         font-size: 0;
 
         button {
             padding: 0;
 
-            .contents_fb6220 {
+            .contents__322f4 {
                 display: none;
             }
 
@@ -96,7 +96,7 @@
         counter-reset: gamesCount;
     }
 
-    .marginTop40__2b1fe {
+    .marginTop40_bda863 {
         display: flex;
         flex-flow: row wrap;
         margin-top: 24px;
@@ -153,27 +153,27 @@
                 background: var(--background-accent);
                 transition: background .2s linear;
 
-                .gameNameLastPlayed__1f167::after,
-                .removeGame_aa12f1 {
+                .gameNameLastPlayed_c84f71::after,
+                .removeGame__4f4cb {
                     background-color: var(--background-accent-hover);
                     transition: background .2s linear;
                 }
 
-                &:has(.removeGame_aa12f1:hover) {
-                    .gameNameLastPlayed__1f167::after {
+                &:has(.removeGame__4f4cb:hover) {
+                    .gameNameLastPlayed_c84f71::after {
                         transition: background .2s linear;
                         background-color: var(--status-danger);
                     }
                 }
             }
 
-            .gameVerifiedIcon_bcd5fc {
+            .gameVerifiedIcon__31a94 {
                 height: 14px !important;
                 width: 14px !important;
                 margin-left: 4px;
             }
 
-            .gameNameLastPlayed__1f167 {
+            .gameNameLastPlayed_c84f71 {
 
                 &::before {
                     content: '';
@@ -211,7 +211,7 @@
                     margin-left: calc(98px + 16px);
                 }
 
-                .gameNameInput_e25dd8 {
+                .gameNameInput__3e1e4 {
                     margin-left: calc(98px + 16px - 4px);
                     border: none;
                     border-radius: 2px;
@@ -227,13 +227,13 @@
                     }
                 }
 
-                .gameName_aeeab5 {
+                .gameName_c1c8a6 {
                     color: #fff;
                     font-weight: 400;
                     line-height: 20px;
                 }
 
-                .lastPlayed_accc56 {
+                .lastPlayed__0b4ef {
                     color: var(--text-muted);
                     font-size: 12px;
                     line-height: 22px;
@@ -269,7 +269,7 @@
         }
     }
 
-    .removeGame_aa12f1 {
+    .removeGame__4f4cb {
         opacity: 1;
         position: relative;
         top: unset;
