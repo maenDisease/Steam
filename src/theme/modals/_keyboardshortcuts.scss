@@ -1,15 +1,15 @@
 #app-mount {
-    .keyboardShortcutsModal__74c71 {
+    .keyboardShortcutsModal__44538 {
         background: var(--modal-background);
     }
 
-    .modalSubtitle__40325 {
+    .modalSubtitle_f39977 {
         border-bottom: none;
     }
 }
 
-.keyboardShortcutsModal__74c71 {
-    .modalTitle_cf2de1 {
+.keyboardShortcutsModal__44538 {
+    .modalTitle__3df11 {
         margin: 0;
         padding: 32px 32px 0 32px;
         font-size: 22px;
@@ -17,14 +17,14 @@
         line-height: 24px;
     }
 
-    .modalSubtitle__40325 {
+    .modalSubtitle_f39977 {
         padding: 0 32px 32px 32px;
         font-size: 14px;
         line-height: 18px;
         color: var(--header-secondary);
     }
 
-    .keyboardShortcutList__1f357 {
+    .keyboardShortcutList_a3e292 {
         column-count: unset;
         column-gap: unset;
         display: flex;
@@ -35,7 +35,7 @@
         --columns: 3;
     }
 
-    .keyboardShortcutListGroup__9bf22 {
+    .keyboardShortcutListGroup_aec68f {
         background: var(--btn-grey);
         border-radius: 2px;
         padding: 8px 24px 10px 16px;
@@ -45,14 +45,14 @@
         width: calc((100% / var(--columns)) - var(--gap) + (var(--gap) / var(--columns)));
     }
 
-    .keybindGroup_bd18f5 {
+    .keybindGroup__00ce0 {
         [data-text-variant="heading-md/semibold"] {
             font-size: 16px;
             font-weight: 400;
             line-height: 20px;
         }
 
-        .keybindGroupDescription__8172e {
+        .keybindGroupDescription__887a3 {
             font-size: 13px;
             line-height: 18px;
             font-weight: 400;
@@ -61,12 +61,12 @@
         }
     }
 
-    .divider__2bbbc {
+    .divider_d6f39c {
         display: none;
     }
 }
 
-#app-mount .key__06fe6 {
+#app-mount .key__6a8d9 {
     background: var(--btn-brand);
     border: none;
     padding: 3px 6px 4px;
@@ -78,7 +78,7 @@
     color: var(--btn-brand-text);
     font-weight: 400;
 
-    .key__06fe6:active {
+    .key__6a8d9:active {
         height: unset;
         color: #fff;
         background: var(--btn-brand-hover);
