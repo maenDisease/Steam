@@ -171,6 +171,7 @@
   --settingsmodalbackground: transparent;
   --settingswidth: 850;
   --settingsheight: 80;
+  --settingswidthpx: calc(var(--settingswidth) * 1px);
 }
 
 #app-mount .contentRegion__0bec1 {
@@ -5969,14 +5970,14 @@ body #app-mount .layer_f7d46a ~ .layer_f7d46a .sidebar__02e8d:has(.socialLinks_d
   --header-padding: 32px;
   padding-top: 6px;
   overflow-y: overlay !important;
-  max-width: calc(var(--settingsmodalwidth) - 196px);
+  max-width: calc(var(--settingswidthpx) - 196px);
 }
 #app-mount .contentRegion__08eba .contentRegionScroller__9ae20::-webkit-scrollbar-track {
   margin-top: 88px;
 }
 
 .contentRegion__08eba {
-  flex: 1 1 calc(var(--settingsmodalwidth) - 196px);
+  flex: 1 1 calc(var(--settingswidthpx) - 196px);
 }
 
 .contentColumn__5f80b,
@@ -8134,7 +8135,7 @@ body #app-mount .layer_f7d46a ~ .layer_f7d46a .sidebar__02e8d:has(.socialLinks_d
   margin-right: 12px;
 }
 #game-activity-tab .activeGame__6d821 .gameNameLastPlayed_c84f71 {
-  max-width: calc(var(--settingsmodalwidth) - 196px - 200px);
+  max-width: calc(var(--settingswidthpx) - 196px - 200px);
 }
 #game-activity-tab .activeGame__6d821 .gameName_c1c8a6,
 #game-activity-tab .activeGame__6d821 .lastPlayed__0b4ef {
@@ -8159,7 +8160,7 @@ body #app-mount .layer_f7d46a ~ .layer_f7d46a .sidebar__02e8d:has(.socialLinks_d
 }
 #game-activity-tab .activeGame__6d821 .hovered__5a165 {
   position: relative;
-  max-width: calc(var(--settingsmodalwidth) - 196px - 200px);
+  max-width: calc(var(--settingswidthpx) - 196px - 200px);
 }
 #game-activity-tab .nowPlayingAdd_ab1001 {
   margin: 0;
