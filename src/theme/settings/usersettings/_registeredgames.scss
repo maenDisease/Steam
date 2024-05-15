@@ -32,7 +32,7 @@
         }
 
         .gameNameLastPlayed_c84f71 {
-            max-width: calc(var(--settingsmodalwidth) - 196px - 200px);
+            max-width: calc(var(--settingswidthpx) - 196px - 200px);
         }
 
         .gameName_c1c8a6,
@@ -61,7 +61,7 @@
 
         .hovered__5a165 {
             position: relative;
-            max-width: calc(var(--settingsmodalwidth) - 196px - 200px);
+            max-width: calc(var(--settingswidthpx) - 196px - 200px);
         }
     }
 

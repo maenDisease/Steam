@@ -140,7 +140,7 @@ body #app-mount {
         --header-padding: 32px;
         padding-top: 6px;
         overflow-y: overlay !important;
-        max-width: calc(var(--settingsmodalwidth) - 196px);
+        max-width: calc(var(--settingswidthpx) - 196px);
 
         &::-webkit-scrollbar-track {
             margin-top: calc(32px * 2 + 24px);
@@ -149,7 +149,7 @@ body #app-mount {
 }
 
 .contentRegion__08eba {
-    flex: 1 1 calc(var(--settingsmodalwidth) - 196px);
+    flex: 1 1 calc(var(--settingswidthpx) - 196px);
 }
 
 .contentColumn__5f80b,

@@ -224,6 +224,8 @@
     --settingsmodalbackground: transparent;
     --settingswidth: 850;
 	--settingsheight: 80;
+
+    --settingswidthpx: calc(var(--settingswidth) * 1px);
 }
 
 #app-mount .contentRegion__0bec1 {
