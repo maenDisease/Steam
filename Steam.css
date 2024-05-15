@@ -1273,9 +1273,9 @@ body #app-mount:-webkit-full-screen .app_b1f720 .base_c0676e {
   background: var(--background-accent);
   color: var(--interactive-active);
 }
-.container_debb33 > .flex_f18b02 > button svg {
-  height: 16px;
-  width: 16px;
+.container_debb33 > .flex_f18b02 > button .lottieIcon_c7076c {
+  height: 16px !important;
+  width: 16px !important;
 }
 
 #app-mount .disabledButtonWrapper_b04230 {
@@ -4672,7 +4672,7 @@ body #app-mount:-webkit-full-screen .app_b1f720 .base_c0676e {
   background: none;
 }
 
-#app-mount .form_d8a4a1:before {
+#app-mount .form_d8a4a1::after {
   display: none;
 }
 
