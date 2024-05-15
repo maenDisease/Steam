@@ -6706,7 +6706,7 @@ body #app-mount .layer_f7d46a ~ .layer_f7d46a .sidebar__02e8d:has(.socialLinks_d
   border-bottom: thin solid var(--background-modifier-accent-dark);
 }
 #app-mount #family-center-tab .container_db1b74 {
-  background: var(--btn-grey);
+  background: none;
 }
 #app-mount #family-center-tab .container__5a2c3 {
   background: none;
