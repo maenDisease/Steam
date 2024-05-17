@@ -4672,11 +4672,12 @@ body #app-mount:-webkit-full-screen .app_b1f720 .base_c0676e {
   background: none;
 }
 
-#app-mount .form_d8a4a1::after {
+#app-mount .form_d8a4a1::before, #app-mount .form_d8a4a1::after {
   display: none;
 }
 
-.replyBar_ed6afc, .threadSuggestionBar__717a3 {
+.replyBar_ed6afc,
+.threadSuggestionBar__717a3 {
   background: rgba(0, 0, 0, 0.2);
   margin-bottom: 1px;
   border-radius: 3px;
