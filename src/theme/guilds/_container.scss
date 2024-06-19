@@ -23,6 +23,11 @@ body #app-mount:-webkit-full-screen .app_bd26cc .base_a4d4d9 {
 }
 
 .bar_c10249 {
+
+    &.unreadMentionsBar_fea3ef {
+        display: none;
+    }
+    
     text-transform: capitalize;
     height: unset;
     border-radius: 3px;
