@@ -65,7 +65,7 @@
     }
 }
 
-#app-mount .wrapper__3ed10::before {
+#app-mount .wrapper_c51b4e::before {
     content: '';
     position: absolute;
     inset: 0;
@@ -74,7 +74,7 @@
     z-index: 1;
 }
 
-.app_b1f720:has(>.container__827e6) {
+.app_bd26cc:has(>.container_e40c16) {
     &::before {
         content: '';
         display: block;
@@ -85,7 +85,7 @@
     }
 }
 
-.container__827e6 {
+.container_e40c16 {
     background: var(--modal-background);
     max-width: 600px;
     max-height: 300px;
@@ -100,14 +100,14 @@
     flex-flow: column wrap;
 }
 
-.ready__61f2f {
+.ready_e40c16 {
     display: none;
 }
 
-.content_de05de {
+.content_e40c16 {
     position: relative;
 
-    &:has(.ready__61f2f) {
+    &:has(.ready_e40c16) {
         @include discordSpinner;
 
         &::before {
@@ -122,16 +122,16 @@
             width: 100px;
         }
 
-        .ready__61f2f {
+        .ready_e40c16 {
             display: none;
         }
 
-        .text__35f5c {
+        .text_e40c16 {
             margin-top: 32px;
             top: 0;
         }
 
-        .tipTitle_ebc1d5 {
+        .tipTitle_e40c16 {
             color: var(--text-muted);
             font-size: 14px;
             letter-spacing: .5px;
@@ -139,7 +139,7 @@
             margin-bottom: 0;
         }
 
-        .tip__6e299 {
+        .tip_e40c16 {
             color: var(--text-muted);
             font-size: 14px;
             line-height: 18px;

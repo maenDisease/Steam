@@ -1,13 +1,13 @@
 #app-mount {
 
-    .emptyPage_feb902,
-    .scrollerContainer_dda72c {
+    .emptyPage_c6b11b,
+    .scrollerContainer_c6b11b {
         background: none;
     }
 }
 
-.chat__52833 .container__03ec9 {
-    .tabBar_d4764b {
+.chat_a7d72e .container_f1fd9c {
+    .tabBar_f1fd9c {
         padding: 0;
         margin: 10px 0 10px 0;
         gap: 0;
@@ -23,7 +23,7 @@
 
         @for $i from 1 through $tabCount {
 
-            &:has(.item__48dda:nth-child(#{$i}):last-child) {
+            &:has(.item_a0:nth-child(#{$i}):last-child) {
                 --btn-count: #{$i};
             }
 
@@ -39,7 +39,7 @@
             $i: #{$i+1};
         }
 
-        .item__48dda {
+        .item_a0 {
             background: none;
             margin: 0;
             display: flex;
@@ -72,12 +72,12 @@
     }
 }
 
-.chat__52833.scrollerContainer_dda72c {
-    .scroller__6ea8b {
+.chat_a7d72e.scrollerContainer_c6b11b {
+    .scroller_c6b11b {
         padding: 0 !important;
         box-sizing: content-box;
 
-        .pageBody__12fb4 {
+        .pageBody_c6b11b {
             padding-right: 0;
             gap: 0;
 
@@ -92,7 +92,7 @@
         }
     }
 
-    .profile__4e41d {
+    .profile_c6b11b {
 
         >h2,
         >[data-text-variant="text-xs/normal"] {
@@ -113,28 +113,28 @@
 
     }
 
-    .profileCard__1d74b {
+    .profileCard_c6b11b {
         margin-top: 0;
         width: 308px;
         background: var(--store-sidebar-background);
         border-radius: 0;
         box-sizing: border-box;
 
-        .role__110aa {
+        .role_c6b11b {
             background: rgb(0 0 0/.3);
             border-radius: 3px;
         }
     }
 }
 
-.prompt__1b100 {
+.prompt_c6b11b {
     gap: 0;
     padding: 0;
     border-radius: 0;
     background: none;
     margin-top: var(--content-gutter);
 
-    .promptTitle_b85158 {
+    .promptTitle_c6b11b {
         background-color: var(--store-body-header);
         padding: 10px 20px 10px 20px;
         font-weight: normal;
@@ -144,7 +144,7 @@
         text-transform: uppercase;
     }
 
-    .promptOptions__9b66e {
+    .promptOptions_c6b11b {
         background: rgb(0 0 0/.4);
         padding: 20px;
     }
