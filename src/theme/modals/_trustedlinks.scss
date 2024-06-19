@@ -1,21 +1,21 @@
-.root_a28985:has(.linkCalloutContainer-1CixBe) {
-    .title-1xObkH {
+.root_f9a4c9:has([class*="linkCalloutContainer"]) {
+    [class*="title"] {
         margin-top: 32px;
         margin-bottom: 32px;
         text-align: left;
     }
 
-    .warningText-26ASyQ {
+    [class*="warningText"] {
         text-align: left;
         margin-bottom: 10px;
     }
 
-    .linkCalloutContainer-1CixBe {
+    [class*="linkCalloutContainer"] {
         margin-bottom: 10px;
         border-radius: 3px;
     }
 
-    .checkbox-1O3Aey {
+    [class*="checkbox"] {
         margin-bottom: 0;
     }
 }

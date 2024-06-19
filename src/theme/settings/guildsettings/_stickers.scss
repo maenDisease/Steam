@@ -1,38 +1,38 @@
 #app-mount {
-    .background__092a0 {
+    .background_a4fd01 {
         color: var(--btn-grey);
     }
 
-    .tierInProgress__549bc {
+    .tierInProgress_a4fd01 {
         background-color: var(--brand-experiment);
     }
 
-    .tierBody_fd5f94 {
+    .tierBody_da77bd {
         background: none;
     }
 
-    .tierHeaderLocked__0ca2e,
-    .tierHeaderUnlocked__960f7 {
+    .tierHeaderLocked_da77bd,
+    .tierHeaderUnlocked_da77bd {
         background: none;
     }
 }
 
 #stickers-tab {
-    .upsellContainer_df4d69 {
+    .upsellContainer_bb33d5 {
         display: none;
     }
 
-    .divider_d6f39c {
+    .divider_ae36e5 {
         display: none;
     }
 
-    .tiers__13b89 {
+    .tiers_da77bd {
         margin-left: 38px;
         width: calc(100% - 96px - 20px);
     }
 }
 
-.tierHeaderContent__3351e {
+.tierHeaderContent_da77bd {
     padding: 16px 0 16px 0;
 
     &::after {
@@ -46,11 +46,11 @@
     }
 }
 
-.tierHeader_a0ef30 {
+.tierHeader_da77bd {
     background: none;
 }
 
-.tierTitle_cc21b0 {
+.tierTitle_da77bd {
     width: fit-content;
     flex-grow: 0;
     order: -3;
@@ -67,18 +67,18 @@
     }
 }
 
-.tierIcon_fc03d4 {
+.tierIcon_da77bd {
     height: 24px;
     width: 24px;
     margin: 4px 4px 4px 0;
     order: -4;
 }
 
-.tierIconLocked__99052 {
+.tierIconLocked_da77bd {
     color: var(--brand-experiment);
 }
 
-.tierRequirement_d22ce7 {
+.tierRequirement_da77bd {
     font-size: 16px;
     font-weight: 600;
     line-height: 20px;
@@ -87,7 +87,7 @@
     order: -2;
 }
 
-.tierLock__2d9cb {
+.tierLock_da77bd {
     width: 24px;
     height: 24px;
     margin-left: 0;

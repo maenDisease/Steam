@@ -1,22 +1,22 @@
-.searchResultsWrap__2e184 {
+.searchResultsWrap_c2b47d {
     background: var(--store-sidebar-background);
     margin-top: 16px;
     margin-left: 16px;
     max-height: calc(100% - 16px);
 }
 
-.searchHeader__4d70e {
+.searchHeader_b7c924 {
     background-color: rgb(0 0 0/.2);
     height: 56px;
     padding: 16px;
 }
 
-.searchResult__00093 {
+.searchResult_ddc613 {
     background: hsl(var(--accent-hue) calc(var(--saturation-factor, 1)*88%) 68%/.1);
     border-radius: 0;
 }
 
-.container__3be1d:hover .header__6a14d {
+.container_ddc613:hover .header_ec86aa {
     opacity: 1;
 }
 
@@ -25,12 +25,12 @@
     background-color: hsl(86 52% 38%);
 }
 
-.totalResults__8eee9 {
+.totalResults_b7c924 {
     flex-grow: 0;
     margin-right: 16px;
 }
 
-.searchHeaderTabList__75f6b {
+.searchHeaderTabList_b7c924 {
     --btn-count: 3;
     background: rgb(0 0 0/.2);
     border-radius: 3px;
@@ -42,20 +42,20 @@
     position: relative;
 }
 
-#app-mount .searchHeaderTabList__75f6b .item__48dda {
+#app-mount .searchHeaderTabList_b7c924 .item_a0 {
     background: none;
     margin: 0;
     display: flex;
     flex: 0 1 calc(100% / var(--btn-count));
     justify-content: center;
 
-    &:not(.selected_a523ff):hover {
+    &:not(.selected_a0):hover {
         background: hsl(var(--accent-hue) calc(var(--saturation-factor, 1)*40%) 23%/.4);
     }
 }
 
 
-.searchHeaderTabList__75f6b {
+.searchHeaderTabList_b7c924 {
     &::before {
         content: '';
         position: absolute;
@@ -66,27 +66,27 @@
         border-radius: 3px;
     }
 
-    &:has(.selected_a523ff:nth-child(2)):before {
+    &:has(.selected_a0:nth-child(2)):before {
         translate: 100%;
     }
 
-    &:has(.selected_a523ff:nth-child(3)):before {
+    &:has(.selected_a0:nth-child(3)):before {
         translate: 200%;
     }
 }
 
 // Bottom nav buttons
-.pageButton_bf9853 {
+.pageButton_b48941 {
     min-height: 32px;
 }
 
-.pageButton_bf9853.button__581d0:disabled,
-.pageButton_bf9853.button__581d0[aria-disabled=true] {
+.pageButton_b48941.button_dd4f85:disabled,
+.pageButton_b48941.button_dd4f85[aria-disabled=true] {
     opacity: 0.2;
     pointer-events: none;
 }
 
-.pageButton_bf9853.button__581d0 {
+.pageButton_b48941.button_dd4f85 {
     background-color: var(--btn-brand);
     color: hsl(var(--accent-hue) calc(var(--saturation-factor, 1)*87%) 68%);
     font-weight: 400;
@@ -97,7 +97,7 @@
     }
 }
 
-.roundButton_a01f15.pageButton_bf9853 {
+.roundButton_b48941.pageButton_b48941 {
     background: none;
     font-weight: 400;
 
@@ -106,17 +106,17 @@
         color: #fff;
     }
 
-    &.activeButton__70b70 {
+    &.activeButton_b48941 {
         color: hsl(var(--accent-hue) calc(var(--saturation-factor, 1)*19%) 42%);
         cursor: default;
         background: none;
     }
 
-    &.gap__94f25 {
+    &.gap_b48941 {
         cursor: text;
     }
 }
 
-.pageControlContainer__86479 {
+.pageControlContainer_b48941 {
     margin: 0 0 4px 0;
 }

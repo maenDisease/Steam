@@ -1,4 +1,4 @@
-.sidebar_e031be:has([class*="discoverHeader"]) {
+.sidebar_a4d4d9:has([class*="discoverHeader"]) {
     [class*="discoverHeader"] {
         font-size: 14px;
         font-weight: 700;
@@ -14,7 +14,7 @@
     [class*="categoryItem"] {
         --header-secondary: var(--channels-default);
 
-        &:hover:not(.selected__7f4cb) {
+        &:hover:not(.selected_e9f61e) {
             --channels-default: var(--channels-default-hover);
 
             svg {
@@ -25,25 +25,25 @@
         &[class*="selected"] {
             --channels-default: #fff;
 
-            .layout_bb8e67 {
+            .layout_e9f61e {
                 background: var(--channel-selected);
             }
         }
     }
 
-    .layout_bb8e67 {
+    .layout_e9f61e {
         border-radius: 0;
         background: none;
         padding: 6px 8px;
     }
 
-    .avatar__6337f {
+    .avatar_e9f61e {
         width: 16px;
         height: 16px;
         margin-right: 6px;
     }
 
-    .name__7afe8 {
+    .name_e9f61e {
         font-size: 12px;
         font-weight: 700;
         line-height: 20px;
@@ -51,11 +51,11 @@
     }
 }
 
-#app-mount .pageWrapper_c182d3 {
+#app-mount .pageWrapper_a3a4ce {
     background: none;
 }
 
-.pageWrapper_c182d3 {
+.pageWrapper_a3a4ce {
     max-width: var(--content-width);
 
     .scroller-3j5xK2 {
@@ -88,7 +88,7 @@
             }
         }
 
-        .input_f27786 {
+        .input_f8bc55 {
 
             &:focus,
             &:focus-within {
@@ -116,20 +116,20 @@
 
 #app-mount {
 
-    .card__86773 {
+    .card_eb1ca6 {
         background: linear-gradient(-45deg, hsl(calc(var(--accent-hue) - 3) calc(var(--saturation-factor, 1)*41%) 42.5%) 5%, hsl(calc(var(--accent-hue) + 9) calc(var(--saturation-factor, 1)*35.9%) 25.7%) 95%);
 
         &:hover {
             background: linear-gradient(to right, hsl(calc(var(--accent-hue) - 4) calc(var(--saturation-factor, 1)*41.4%) 37.5%) 5%, hsl(calc(var(--accent-hue) - 4) calc(var(--saturation-factor, 1)*41.1%) 45.3%) 95%)
         }
 
-        .iconMask__4092e {
+        .iconMask_eb1ca6 {
             background: none;
         }
     }
 }
 
-.card__86773 {
+.card_eb1ca6 {
     height: 170px;
     border-radius: 0;
     border-top: 1px solid rgb(201 201 201/.06);
@@ -182,100 +182,100 @@
 
     &:focus,
     &:hover {
-        .splash_c32fae {
+        .splash_eb1ca6 {
             -webkit-transform: none;
             transform: none;
         }
     }
 
-    .splashImage__9b574,
-    .description__36a9a,
-    .memberInfo__4d246 {
+    .splashImage_eb1ca6,
+    .description_eb1ca6,
+    .memberInfo_eb1ca6 {
         transition-property: filter, opacity;
         transition-duration: .6s;
         transition-timing-function: cubic-bezier(0, 0.73, 0.48, 1);
     }
 
-    &:has(.title_cb8320:hover) {
-        .splashImage__9b574 {
+    &:has(.title_eb1ca6:hover) {
+        .splashImage_eb1ca6 {
             filter: blur(16px);
         }
 
-        .description__36a9a,
-        .memberInfo__4d246 {
+        .description_eb1ca6,
+        .memberInfo_eb1ca6 {
             opacity: 1;
         }
     }
 
-    .cardHeader__0c218 {
+    .cardHeader_eb1ca6 {
         width: 100%;
         height: 100%;
         margin-bottom: 0;
     }
 
-    .splash_c32fae {
+    .splash_eb1ca6 {
         position: relative;
     }
 
-    .guildIcon__66641 {
+    .guildIcon_eb1ca6 {
         bottom: 0;
 
         foreignObject {
             mask: none;
         }
 
-        .iconMask__4092e {
+        .iconMask_eb1ca6 {
             padding: 0;
 
-            .svg_bb7847 {
+            .svg_d48241 {
                 box-shadow: 0 0 5px 0 #000000;
                 background: #fff;
             }
         }
     }
 
-    .guildInfo__4779b {
+    .guildInfo_eb1ca6 {
         position: absolute;
         top: 0;
         bottom: 0;
         padding: 16px 16px 10px 16px;
     }
 
-    .title_cb8320 {
+    .title_eb1ca6 {
         order: 1;
         padding-left: calc(40px + 4px);
         height: 40px;
 
-        .guildBadge_ba66be {
+        .guildBadge_eb1ca6 {
             filter: drop-shadow(0 0 5px #000000);
         }
 
-        .guildName_c7c59e {
+        .guildName_eb1ca6 {
             text-shadow: 0 0 5px #000000;
             overflow: visible;
         }
     }
 
-    .memberInfo__4d246 {
+    .memberInfo_eb1ca6 {
         margin-bottom: 10px;
     }
 
-    .description__36a9a,
-    .memberInfo__4d246 {
+    .description_eb1ca6,
+    .memberInfo_eb1ca6 {
         opacity: 0;
         text-shadow: 0 1px 2px rgb(0 0 0 / 30%);
         --header-secondary: #fff;
     }
 
-    .actionButtons_dc4206 {
+    .actionButtons_eb1ca6 {
         z-index: 1;
     }
 
-    .wrapper__4e6b6 {
+    .wrapper_ef319f {
         overflow: visible;
     }
 
-    .button_d4bf9b {
+    .button_ef319f {
         height: 15px;
         width: 15px;
         background: #e5e5e5;
@@ -289,9 +289,9 @@
     }
 }
 
-.pageWrapper_c182d3 {
+.pageWrapper_a3a4ce {
 
-    .container_defa9a {
+    .container_e37a20 {
         flex-flow: row wrap;
         display: grid;
         grid-template-areas:
@@ -310,7 +310,7 @@
         margin-bottom: 0;
         padding: 10px;
 
-        .arrow__3dfcd {
+        .arrow_e37a20 {
             position: absolute;
             top: calc(var(--content-gutter) + 6px);
             left: 6px;
@@ -329,7 +329,7 @@
             }
         }
 
-        .header_ec3c67 {
+        .header_e37a20 {
             font-size: 12px;
             color: var(--text-normal);
             font-weight: 500;
@@ -338,7 +338,7 @@
         }
     }
 
-    .results__7a0d3 {
+    .results_e37a20 {
         grid-area: results;
         max-width: unset;
         width: 100%;
@@ -407,7 +407,7 @@
         margin-bottom: var(--content-gutter);
         align-items: center;
 
-        .search_e47903 {
+        .search_f69601 {
             width: 300px;
             max-width: calc(100% - 80px - 2px);
             flex-grow: 0;
@@ -445,7 +445,7 @@
         grid-gap: 5px;
     }
 
-    .card__33bd0 {
+    .card_e825f6 {
         background: rgb(0 0 0/.2);
         border: 1px solid transparent;
 
@@ -454,13 +454,13 @@
             border-color: hsl(calc(var(--accent-hue) - 2) calc(var(--saturation-factor, 1)*39%) 41%);
         }
 
-        .splashContainer_c07592 {
+        .splashContainer_e825f6 {
             border-radius: 0;
             margin-right: 12px;
 
         }
 
-        .svg_bb7847 {
+        .svg_d48241 {
             position: absolute;
             top: 8px;
             margin-left: calc(calc(12px + 32px + 8px) * -1);
@@ -472,12 +472,12 @@
             }
         }
 
-        .content_d876f9 {
+        .content_e825f6 {
             margin-top: 12px;
             height: calc(135px - 32px);
         }
 
-        .headerName_d8b242 {
+        .headerName_e825f6 {
             margin-top: 0;
 
             h2 {
@@ -486,59 +486,59 @@
             }
         }
 
-        .description__92f04 {
+        .description_e825f6 {
             margin-top: 10px;
             margin-bottom: auto;
             color: var(--header-secondary);
         }
 
-        .memberInfo_ddb9fc {
+        .memberInfo_e825f6 {
             --header-secondary: var(--text-muted);
             margin-top: 10px;
         }
 
-        .dotSeparator__4e54d {
+        .dotSeparator_e825f6 {
             margin: 0 4px;
             background-color: var(--text-muted);
         }
 
-        .actionButtons_e367a5 {
+        .actionButtons_e825f6 {
             margin: 6px 6px 0 0;
         }
     }
 
-    .separator__16faf {
+    .separator_e825f6 {
         display: none;
     }
 }
 
-.placeholder_ab7387 {
+.placeholder_e825f6 {
     border-radius: 2px;
 }
 
 // Student Hubs
-.scroller__32e73 {
+.scroller_a39aa3 {
     background: none;
     padding: 0 !important;
     max-width: var(--content-width);
 
-    .headerContainer_bfb753 {
+    .headerContainer_a39aa3 {
         padding: 32px;
     }
 
-    .headerImage__9a34a {
+    .headerImage_a39aa3 {
         box-shadow: 0 0 5px 0 #000000;
         margin-bottom: 0;
     }
 
-    .guildListSection_e27022 {
+    .guildListSection_ac51fa {
         min-width: unset;
     }
 
-    .guildList__99864 {
+    .guildList_ac51fa {
         margin: 0;
 
-        .container_c83a4f {
+        .container_f11cbf {
             background: rgb(0 0 0/.3);
             padding: 8px 16px 10px 16px;
             border-radius: 2px;
@@ -546,12 +546,12 @@
             align-items: center;
             height: unset;
 
-            .iconContainer__6b1cc {
+            .iconContainer_f11cbf {
                 border-radius: 2px;
                 margin: 6px 6px 16px 6px;
             }
 
-            .header_e41b21 {
+            .header_f11cbf {
                 text-align: center;
                 font-size: 16px;
                 font-weight: 400;
@@ -569,7 +569,7 @@
         }
     }
 
-    .footerDescription_c1c662 {
+    .footerDescription_a39aa3 {
         --header-secondary: var(--text-muted);
         font-size: 14px;
         line-height: 18px;

@@ -1,20 +1,20 @@
 @use '../container';
 
-.container__84447 {
+.container_c90ddb {
     gap: 0;
     padding: 0 24px 24px 24px;
     width: unset;
 
-    .sectionTitle__3e02b .title__1b7e8 {
+    .sectionTitle_a6ae9b .title_c46f6a {
         @include container.settingsHeader;
         @include container.settingsHeaderText;
     }
 }
 
-.bansSearchContainer__6c97b {
+.bansSearchContainer_c90ddb {
     gap: 16px;
 
-    .searchBar__9113e {
+    .searchBar_c90ddb {
         border-radius: 2px;
         transition-property: background, box-shadow;
         transition-duration: .2s;
@@ -44,7 +44,7 @@
     }
 }
 
-.scrollerContainer__35215 {
+.scrollerContainer_c90ddb {
     height: 100%;
     padding: 0;
     border-radius: 0;
@@ -52,12 +52,12 @@
     box-shadow: none;
     margin-top: 10px;
 
-    .listItems__49027 {
+    .listItems_dcade6 {
         inset: 0 !important;
     }
 }
 
-.bannedUser_f75842 {
+.bannedUser_c90ddb {
     #app-mount & {
         box-shadow: none;
     }

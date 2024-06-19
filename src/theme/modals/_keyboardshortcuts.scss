@@ -1,15 +1,15 @@
 #app-mount {
-    .keyboardShortcutsModal__44538 {
+    .keyboardShortcutsModal_ad95dc {
         background: var(--modal-background);
     }
 
-    .modalSubtitle_f39977 {
+    .modalSubtitle_ad95dc {
         border-bottom: none;
     }
 }
 
-.keyboardShortcutsModal__44538 {
-    .modalTitle__3df11 {
+.keyboardShortcutsModal_ad95dc {
+    .modalTitle_ad95dc {
         margin: 0;
         padding: 32px 32px 0 32px;
         font-size: 22px;
@@ -17,14 +17,14 @@
         line-height: 24px;
     }
 
-    .modalSubtitle_f39977 {
+    .modalSubtitle_ad95dc {
         padding: 0 32px 32px 32px;
         font-size: 14px;
         line-height: 18px;
         color: var(--header-secondary);
     }
 
-    .keyboardShortcutList_a3e292 {
+    .keyboardShortcutList_ad95dc {
         column-count: unset;
         column-gap: unset;
         display: flex;
@@ -35,7 +35,7 @@
         --columns: 3;
     }
 
-    .keyboardShortcutListGroup_aec68f {
+    .keyboardShortcutListGroup_ad95dc {
         background: var(--btn-grey);
         border-radius: 2px;
         padding: 8px 24px 10px 16px;
@@ -45,14 +45,14 @@
         width: calc((100% / var(--columns)) - var(--gap) + (var(--gap) / var(--columns)));
     }
 
-    .keybindGroup__00ce0 {
+    .keybindGroup_ad95dc {
         [data-text-variant="heading-md/semibold"] {
             font-size: 16px;
             font-weight: 400;
             line-height: 20px;
         }
 
-        .keybindGroupDescription__887a3 {
+        .keybindGroupDescription_ad95dc {
             font-size: 13px;
             line-height: 18px;
             font-weight: 400;
@@ -61,12 +61,12 @@
         }
     }
 
-    .divider_d6f39c {
+    .divider_ae36e5 {
         display: none;
     }
 }
 
-#app-mount .key__6a8d9 {
+#app-mount .key_c90023 {
     background: var(--btn-brand);
     border: none;
     padding: 3px 6px 4px;
@@ -74,11 +74,11 @@
     box-shadow: inset 0 -1px 0 var(--brand-experiment);
 }
 
-#app-mount .combo__57290 {
+#app-mount .combo_c90023 {
     color: var(--btn-brand-text);
     font-weight: 400;
 
-    .key__6a8d9:active {
+    .key_c90023:active {
         height: unset;
         color: #fff;
         background: var(--btn-brand-hover);

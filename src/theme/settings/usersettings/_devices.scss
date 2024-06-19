@@ -1,16 +1,16 @@
-.sessions__7b95a {
+.sessions_c7a2c0 {
     margin: 10px 0;
 
-    .otherSessions_bb9ad2 {
+    .otherSessions_c7a2c0 {
         margin-top: 10px;
     }
 }
 
-.logOutAllButton_f6af90 {
+.logOutAllButton_c7a2c0 {
     margin-top: 0;
 }
 
-.session__201cb {
+.session_c7a2c0 {
     border-bottom: none;
     gap: 12px;
     padding: 6px 8px;
@@ -20,14 +20,14 @@
         background: var(--background-accent);
         transition: background .2s linear;
 
-        .sessionIcon_df2e9c,
-        .sessionMoreButton_f38a79 {
+        .sessionIcon_c7a2c0,
+        .sessionMoreButton_c7a2c0 {
             background: var(--background-accent-hover);
             transition: background .2s linear;
         }
     }
 
-    .sessionInfo_e3ad35 {
+    .sessionInfo_c7a2c0 {
         gap: 0;
     }
 
@@ -59,14 +59,14 @@
         }
     }
 
-    &:has(.sessionMoreButton_f38a79:hover) {
-        .sessionIcon_df2e9c {
+    &:has(.sessionMoreButton_c7a2c0:hover) {
+        .sessionIcon_c7a2c0 {
             background: var(--status-danger);
         }
     }
 }
 
-.sessionMoreButton_f38a79 {
+.sessionMoreButton_c7a2c0 {
     background-color: var(--background-accent);
     border-radius: 2px;
     margin: 8px 8px 8px auto;
@@ -88,7 +88,7 @@
     }
 }
 
-.sessionIcon_df2e9c {
+.sessionIcon_c7a2c0 {
     width: 98px;
     height: 45px;
     border-radius: 0;

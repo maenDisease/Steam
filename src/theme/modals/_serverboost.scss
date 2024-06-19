@@ -24,7 +24,7 @@
     }
 }
 
-#app-mount .root__6d24f {
+#app-mount .root_f906dd {
     background: var(--modal-background) !important;
     border-radius: 0 !important;
     box-shadow: none !important;
@@ -32,7 +32,7 @@
 
     @include generic.modalTopBar;
 
-    .innerWrapper_cfb768 {
+    .innerWrapper_aecbd6 {
         background-image: linear-gradient(45deg, var(--guild-boosting-blue), var(--guild-boosting-purple));
         border-radius: 4px;
         box-shadow: var(--banner-shadow);
@@ -45,14 +45,14 @@
             display: none;
         }
 
-        .iconSizeLarger__2b0f6 {
+        .iconSizeLarger_f11207 {
             height: 48px;
             width: 48px;
             border-radius: 2px;
         }
     }
 
-    .headerWave_dda892 {
+    .headerWave_a586c4 {
         display: none;
     }
 
@@ -61,19 +61,19 @@
         line-height: 38px;
     }
 
-    .headerContentWrapper__3a2ce {
+    .headerContentWrapper_a50853 {
         padding: 4em 5em;
     }
 
-    .tierCards_a0105f {
+    .tierCards_e3ebb9 {
         gap: 20px;
 
-        .tierCard__292e9 {
+        .tierCard_e3ebb9 {
             width: calc(100% / 3 - 20px);
             border-radius: 3px;
             padding: 20px;
 
-            &:has(.tierCardCurrentTier__633bb) {
+            &:has(.tierCardCurrentTier_e3ebb9) {
                 --guild-boosting-blue-hsl: 85 calc(var(--saturation-factor, 1)*45%) 45.5%;
                 --guild-boosting-purple-hsl: 87 calc(var(--saturation-factor, 1)*45%) 32.5%;
                 --guild-boosting-blue: hsl(var(--guild-boosting-blue-hsl)/1);
@@ -81,11 +81,11 @@
                 background-image: linear-gradient(45deg, var(--guild-boosting-blue), var(--guild-boosting-purple));
             }
 
-            .tierCardCurrentTier__633bb {
+            .tierCardCurrentTier_e3ebb9 {
                 border-radius: 2px;
             }
 
-            .tierCardHeading__27545 {
+            .tierCardHeading_e3ebb9 {
                 position: absolute;
                 right: 20px;
                 top: 20px;
@@ -93,51 +93,51 @@
                 line-height: 24px;
             }
 
-            .tierCardBoostRequirement_b8c8fd {
+            .tierCardBoostRequirement_e3ebb9 {
                 font-size: 20px;
                 line-height: 24px;
                 font-weight: 600;
             }
 
-            .tierCardListIcon_f1ff24 {
+            .tierCardListIcon_e3ebb9 {
                 height: 18px;
                 width: 18px;
             }
 
-            .tierCardListItem_cdf44a {
+            .tierCardListItem_e3ebb9 {
                 font-size: 12px;
                 line-height: 16px;
             }
 
-            .tierCardSparkle3__4d9cf {
+            .tierCardSparkle3_e3ebb9 {
                 display: none;
             }
 
-            .tierCardBorderHighlight__502a7 {
+            .tierCardBorderHighlight_e3ebb9 {
                 border-radius: 3px;
             }
         }
     }
 
-    .scroller__7d61e {
+    .scroller_a50853 {
         overflow-y: overlay !important;
         background: #000;
     }
 
-    .middleBodyContentWrapper__2da7a {
+    .middleBodyContentWrapper_a50853 {
         padding: 4em 0;
         background: #fff;
         --header-primary: #1b1b1b;
         --header-secondary: #1b1b1b;
     }
 
-    .topPerksCards_f80e57 {
+    .topPerksCards_adc107 {
         display: flex;
         align-items: center;
         flex-flow: column wrap;
     }
 
-    .topPerksCard__0e34b {
+    .topPerksCard_adc107 {
         background: none;
         border-radius: 0;
         margin-bottom: 20px;
@@ -163,8 +163,8 @@
                 margin: 0 auto 0 0;
             }
 
-            .topPerksCardHeading_d3e130,
-            .topPerksCardDescription__82224 {
+            .topPerksCardHeading_adc107,
+            .topPerksCardDescription_adc107 {
                 text-align: right;
             }
         }
@@ -175,7 +175,7 @@
             grid-area: image;
         }
 
-        .topPerksCardHeading_d3e130 {
+        .topPerksCardHeading_adc107 {
             grid-area: heading;
             text-align: left;
             align-self: end;
@@ -184,19 +184,19 @@
             font-weight: 900;
         }
 
-        .topPerksCardDescription__82224 {
+        .topPerksCardDescription_adc107 {
             grid-area: empty;
             text-align: left;
             font-weight: 600;
         }
     }
 
-    .tierComparisonTable__25d64 {
+    .tierComparisonTable_a50853 {
         padding: 4em 32px;
         max-width: calc(100% - 64px);
     }
 
-    .lowerBodyContentWrapper_da9f83 {
+    .lowerBodyContentWrapper_a50853 {
         padding: 0;
     }
 }

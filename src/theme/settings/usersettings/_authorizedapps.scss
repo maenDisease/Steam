@@ -1,12 +1,12 @@
 #authorized-apps-tab {
-    .formNotice__0a16b {
+    .formNotice_aae945 {
         padding: 0;
         margin-bottom: 10px;
         background: none;
         border: none;
     }
 
-    .authedApp__71a52 {
+    .authedApp_f0135d {
         padding: 6px 8px;
         margin-bottom: 10px;
         border: none;
@@ -18,21 +18,21 @@
             transition: background .2s linear;
         }
 
-        .marginBottom20__9fcf3 {
+        .marginBottom20_f7730b {
             margin-bottom: 10px;
         }
 
-        .headerInfo__7273f {
+        .headerInfo_f0135d {
 
             [data-text-variant="text-sm/semibold"] {
                 margin-left: 12px;
             }
         }
 
-        .twoWayWarning__5c3ce {
+        .twoWayWarning_f0135d {
             margin-top: 10px;
 
-            .twoWayWarningIcon_d162b5 {
+            .twoWayWarningIcon_f0135d {
                 height: 18px;
                 width: 18px;
                 color: var(--gpColor-Yellow);
@@ -47,16 +47,16 @@
             }
         }
 
-        .permission__8fb49 {
+        .permission_f0135d {
             margin-top: 0;
 
-            .formText__20efd {
+            .formText_b89ec7 {
                 margin-bottom: 0;
             }
         }
     }
 
-    .appAvatar__1fa87 {
+    .appAvatar_f0135d {
         width: 98px;
         height: 45px;
         border-radius: 0;
@@ -98,7 +98,7 @@
         counter-reset: authappsCount;
     }
 
-    .children_aba8cb {
+    .children_a6ae9b {
         display: flex;
         flex-flow: row wrap;
 
@@ -130,11 +130,11 @@
         }
     }
 
-    .formNotice__0a16b {
+    .formNotice_aae945 {
         order: -3;
     }
 
-    .authedApp__71a52 {
+    .authedApp_f0135d {
         counter-increment: authappsCount;
         flex-basis: 100%;
     }

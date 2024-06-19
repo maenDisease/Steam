@@ -1,5 +1,5 @@
 #voice-\&-video-tab {
-    .micTest__208c7 {
+    .micTest_e75a73 {
         margin-top: 0;
         gap: 10px;
 
@@ -8,30 +8,30 @@
             margin: 0;
         }
 
-        .wrapper_e5073f {
+        .wrapper_e5cdf3 {
             border-radius: 50px;
             overflow: hidden;
             height: 8px;
         }
 
-        .progress_bcbb99 {
+        .progress_e5cdf3 {
             background: var(--background-modifier-accent-dark);
         }
 
-        .notches__5406c {
+        .notches_e5cdf3 {
             display: none;
         }
 
-        .micTestCaption__7ec1b {
+        .micTestCaption_e75a73 {
             left: 0;
         }
     }
 
-    [role=radiogroup]:has(.item_b7fb7e)[aria-orientation=vertical] {
+    [role=radiogroup]:has(.item_eb92a8)[aria-orientation=vertical] {
         flex-direction: row;
     }
 
-    [role=radiogroup]:has(.item_b7fb7e) .item_b7fb7e {
+    [role=radiogroup]:has(.item_eb92a8) .item_eb92a8 {
         width: 100%;
 
         [data-text-variant="text-md/medium"] {
@@ -40,6 +40,6 @@
     }
 }
 
-.newTextBadge__9d678 {
+.newTextBadge_ad7d79 {
     border: 3px solid var(--background-tertiary);
 }

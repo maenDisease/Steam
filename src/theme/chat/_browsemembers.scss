@@ -2,7 +2,7 @@
 
     .page_d20375,
     .container_d20375 {
-        background: none;
+        background: none !important;
     }
 }
 
@@ -162,7 +162,7 @@
 }
 
 .pageSizeSelection_cb152b {
-    .text-md-normal__6a4eb {
+    [data-text-variant="text-md/normal"] {
         font-size: 14px;
         line-height: 18px;
     }

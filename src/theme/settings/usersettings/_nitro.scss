@@ -12,11 +12,11 @@
     }
 }
 
-.contentRegionScroller__9ae20:has(#discord-nitro-tab) {
+.contentRegionScroller_c25c6d:has(#discord-nitro-tab) {
     background: #000;
 }
 
-#app-mount .layer_f7d46a ~.layer_f7d46a  .contentColumnDefault__78de3 {
+#app-mount .layer_d4b6c5 ~.layer_d4b6c5  .contentColumnDefault_c25c6d {
 
     &#discord-nitro-tab,
     &#nitro-server-boost-tab {
@@ -25,7 +25,7 @@
 }
 
 .premiumContainer__11813 {
-    .root__3594f {
+    .root_a3b6be {
         display: none;
     }
 }
@@ -56,7 +56,7 @@
     }
 }
 
-.premiumTierCardsContainer__686eb {
+.premiumTierCardsContainer_a8b566 {
     background: linear-gradient(137.42deg, #00d5ff 0%, #d0266f 40%, #b9b500 100%);
     background-size: 300% 300%;
     animation: nitroGradient 20s ease infinite;
@@ -65,50 +65,50 @@
     padding-bottom: 4em;
     padding-top: 4em;
 
-    &:has(.banner__4cbda) {
+    &:has(.banner_d83928) {
         padding-top: 0;
     }
 }
 
-.banner__4cbda {
+.banner_d83928 {
     border-radius: 0;
     max-width: unset;
 }
 
-.premiumCards_ed071e {
+.premiumCards_c87d73 {
     display: flex;
     justify-content: center;
 }
 
-.card__48184 {
+.card_c87d73 {
     max-width: 300px;
     background: rgb(255 255 255/.0588235294);
     border-radius: 3px;
     padding: 20px;
     margin: 10px;
 
-    svg.title__649cc {
+    svg.title_c87d73 {
         color: #1b1b1b;
         position: absolute;
         right: 20px;
     }
 
-    .price__12d41 {
+    .price_c87d73 {
         margin: 8px 0 24px 0;
         line-height: 33px;
     }
 
-    .price__300d9 {
+    .price_af8f09 {
         font-size: 24px;
         line-height: 28px;
         font-weight: 600;
     }
 
-    .item__4b324 {
+    .item_c87d73 {
         margin-left: 28px;
         margin-bottom: 5px;
 
-        .icon__77190 {
+        .icon_c87d73 {
             height: 18px;
             width: 18px;
         }
@@ -118,7 +118,7 @@
         }
     }
 
-    .wumpusImageContainer__22112 {
+    .wumpusImageContainer_c87d73 {
         position: absolute;
         width: 30%;
         top: 50px;
@@ -155,7 +155,7 @@
     border-radius: 0;
 }
 
-#app-mount .card_e97590 {
+#app-mount .card_c21997 {
     transform: none;
     transition: filter 0.2s ease;
     border-radius: 3px;
@@ -163,48 +163,48 @@
     background: linear-gradient(137.42deg, #163bba 0%, #ae4d4d 100%);
     overflow: hidden;
 
-    &:hover .cardImage_a87f5e {
+    &:hover .cardImage_c21997 {
         margin: 50px;
         width: calc(100% - 100px);
         border-radius: 0;
     }
 }
 
-#app-mount .cardContainer_d674b8 .noFlipCardContainer__756fb:nth-child(2n) {
-    .card_e97590 {
+#app-mount .cardContainer_d1d9c7 .noFlipCardContainer_c21997:nth-child(2n) {
+    .card_c21997 {
         background: linear-gradient(137.42deg, #ce158b 0%, #e36d23 100%);
 
-        .cardDescription_efa634 {
+        .cardDescription_c21997 {
             background: linear-gradient(137.42deg, #ce158b 0%, #e36d23 100%);
         }
     }
 }
 
-.cardDescription_efa634 {
+.cardDescription_c21997 {
     padding: 20px;
     border-radius: 3px;
     background: linear-gradient(137.42deg, #163bba 0%, #ae4d4d 100%);
     filter: hue-rotate(30deg);
 }
 
-#app-mount .cardImage_a87f5e {
+#app-mount .cardImage_c21997 {
     z-index: 21;
     border-radius: 0;
 }
 
-.perksContainer__13855 {
+.perksContainer_d611db {
     background: #fff;
     margin: 0;
     max-width: 100%;
     display: block;
     padding-top: 4em;
 
-    .defaultColor__8610e {
+    .defaultColor_e9e35f {
         color: #1b1b1b;
     }
 }
 
-.perkCard__412af {
+.perkCard_d611db {
     background: none;
     border-radius: 0;
     padding: 8px 16px 10px 16px;
@@ -235,7 +235,7 @@
     }
 }
 
-.planComparisonTableContainer_adf170 {
+.planComparisonTableContainer_a8b566 {
     padding: 24px;
     max-width: unset;
     width: 100%;
@@ -319,7 +319,7 @@
     }
 }
 
-.innerWrapper_fd8553 {
+.innerWrapper_c511e4 {
     background-image: linear-gradient(45deg, var(--guild-boosting-blue), var(--guild-boosting-purple));
     border-radius: 4px;
     box-shadow: var(--banner-shadow);

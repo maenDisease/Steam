@@ -1,4 +1,4 @@
-.picker__6dca7 {
+.picker_cd703d {
     background: var(--modal-background);
     border-radius: 0;
     box-shadow: var(--modal-shadow);
@@ -25,7 +25,7 @@
                 box-shadow: inset 1px 1px 4px #000a;
             }
 
-            .iconContainer__9f124 {
+            .iconContainer_effbe2 {
                 height: 18px;
                 width: 18px;
             }
@@ -36,7 +36,7 @@
         }
     }
 
-    .category__81549 {
+    .category_ceda83 {
         border-radius: 3px;
         transition: none;
 
@@ -48,7 +48,7 @@
             }
         }
 
-        &.categoryItemDefaultCategorySelected__7d6e0 {
+        &.categoryItemDefaultCategorySelected_dfa278 {
             background: none;
         }
 
@@ -61,12 +61,12 @@
         }
     }
 
-    .sectionHeader_d974fe {
+    .sectionHeader_ca5acd {
         width: 100%;
         display: flex;
         align-items: center;
 
-        .sectionTitle__1a48e {
+        .sectionTitle_ca5acd {
             margin-left: 4px;
             margin-right: 0;
             text-transform: capitalize;
@@ -88,7 +88,7 @@
         }
     }
 
-    .soundButton__845c7 {
+    .soundButton_f40049 {
         border-radius: 2px;
         background: var(--btn-grey);
         transition-property: background, box-shadow;
@@ -109,16 +109,16 @@
             }
         }
 
-        .buttonOverlay_f5fc59 {
+        .buttonOverlay_f40049 {
             -webkit-transition: opacity .2s ease-in-out;
             transition: opacity .2s ease-in-out;
         }
 
-        .buttonOverlayBackground__9265a {
+        .buttonOverlayBackground_f40049 {
             display: none;
         }
 
-        .playIcon__7aba3 {
+        .playIcon_f40049 {
             display: none;
         }
     }

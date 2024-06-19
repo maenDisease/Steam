@@ -1,25 +1,25 @@
-.messageGroupWrapper__1fce2 {
+.messageGroupWrapper_ac90a2 {
     background: var(--modal-popout-message);
     border-radius: 0;
     border: none;
     margin: 0 0 4px;
 }
 
-.jumpButton__309d6 {
+.jumpButton_ac90a2 {
     margin: 0;
     border-radius: 0;
     background: var(--btn-grey-hover);
 }
 
-.jumpButton__309d6:hover {
+.jumpButton_ac90a2:hover {
     background: var(--background-accent-hover);
 }
 
-.messageGroupWrapper__1fce2:has(.jumpButton__309d6:hover) {
+.messageGroupWrapper_ac90a2:has(.jumpButton_ac90a2:hover) {
     background: var(--background-accent);
 }
 
-.body_a02b78 {
+.body_ac90a2 {
     margin-top: 10px;
     font-size: 14px;
     line-height: 18px;
@@ -27,6 +27,6 @@
     color: var(--text-muted);
 }
 
-.footer__6b9ef {
+.footer_ac90a2 {
     background: none;
 }

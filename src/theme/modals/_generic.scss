@@ -11,18 +11,18 @@
     }
 }
 
-.backdrop__1a911.withLayer__29ace[style="opacity: 0.85; background: var(--black-500);"] {
+.backdrop_e4f2ae.withLayer_e4f2ae[style="background: rgba(0, 0, 0, 0.7); backdrop-filter: blur(0px);"] {
     opacity: 0.8 !important;
 }
 
 #app-mount {
-    .root_a28985 {
+    .root_f9a4c9 {
         background: var(--modal-background);
         box-shadow: none;
     }
 }
 
-.root_a28985 {
+.root_f9a4c9 {
     @include modalTopBar;
     border-radius: 0;
 
@@ -32,7 +32,7 @@
         --text-link: var(--text-linkHi-hover);
     }
 
-    .close__1080c {
+    .close_f9a4c9 {
         position: absolute;
         top: 9px;
         right: 9px;
@@ -41,7 +41,7 @@
         margin: 0;
         padding: 0;
 
-        .contents__322f4 {
+        .contents_dd4f85 {
             height: 16px;
         }
 
@@ -51,7 +51,7 @@
         }
     }
 
-    .artContainer__748ff {
+    .artContainer_ffaecb {
         z-index: 102;
     }
 
@@ -59,7 +59,7 @@
         background-color: transparent;
     }
 
-    .header__5e5a6 {
+    .header_f9a4c9 {
         box-shadow: none;
         border-radius: 0;
         padding: 32px;
@@ -71,59 +71,59 @@
         }
     }
 
-    .footer_e0b400:has(>.lookLink_a2da25) {
+    .footer_f9a4c9:has(>.lookLink_dd4f85) {
         gap: 4px;
     }
 
-    .footer_e0b400,
-    .footer_f06dbb {
+    .footer_f9a4c9,
+    .footer_f82cc7 {
         padding: 32px;
         border-radius: 0;
         box-shadow: none;
         background: none;
     }
 
-    .content_b28aab {
+    .content_f9a4c9 {
         padding-left: 32px;
         padding-right: 32px;
         border-radius: 0;
     }
 
-    .text-md-normal__6a4eb {
+    [data-text-variant="text-md/normal"] {
         font-size: 14px;
         line-height: 18px;
     }
 
-    .defaultColor__77578.text-md-normal__6a4eb {
+    [class*="defaultColor"][data-text-variant="text-md/normal"] {
         --text-normal: hsl(calc(var(--accent-hue) + 5) calc(var(--saturation-factor, 1)*7.8%) 69.8%);
     }
 }
 
-.medium_b9df4c {
+.medium_f9a4c9 {
     width: 500px;
 
-    &:has([class*="overviewSidebar"],  .guildSidebar__74787) {
+    &:has([class*="overviewSidebar"],  .guildSidebar_a74b6f) {
         width: calc(500px + 192px);
     }
 }
 
-.largeSpacing__434f1 {
+.largeSpacing_cacc4c {
     margin-bottom: 32px;
     margin-top: 10px;
 }
 
-.spacing_e3e55e {
+.spacing_cacc4c {
     margin: 0;
 }
 
-.overrideList_a5ce46 {
+.overrideList_cacc4c {
 
-    .flex_f18b02:has(>.header_e79f5a) {
+    .flex_bba380:has(>.header_cacc4c) {
         padding-top: 8px;
         padding-left: 8px;
     }
 
-    .header_e79f5a {
+    .header_cacc4c {
         margin-bottom: 0;
     }
 

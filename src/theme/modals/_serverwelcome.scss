@@ -1,36 +1,36 @@
-.root_a28985 {
+.root_f9a4c9 {
 
-    .guildSidebar__74787 {
+    .guildSidebar_a74b6f {
         border-top-left-radius: 0;
         border-bottom-left-radius: 0;
         background: var(--background-tertiary);
         padding: 32px;
 
-        .guildIcon__3cd2e {
+        .guildIcon_a74b6f {
             border-radius: 2px;
         }
     }
 
-    .modal_b38209 {
+    .modal_a74b6f {
         border-top-right-radius: 0;
         border-bottom-right-radius: 0;
         background: var(--modal-background);
     }
 }
 
-.root_a28985:has(.modal_b38209 .requirementContainer__84d8e) {
-    .content__9b52d {
+.root_f9a4c9:has(.modal_a74b6f .requirementContainer_b007eb) {
+    .content_a74b6f {
         padding-left: 0;
         padding-right: 0;
     }
 
-    .animationAndSparklesContainer_d2a9ed {
+    .animationAndSparklesContainer_a74b6f {
         position: absolute;
         right: 0;
         top: 16px;
     }
 
-    .header_c78725 {
+    .header_a74b6f {
         margin: 0 100px 0 0;
         text-align: left;
         font-size: 22px;
@@ -38,29 +38,29 @@
             line-height: 24px;
     }
 
-    .subheader__4e007 {
+    .subheader_a74b6f {
         margin: 0 100px 32px 0;
         text-align: left;
     }
     
-    .divider_e4bcab {
+    .divider_a74b6f {
         margin: 10px 0;
     }
 
-    .requirementContainer__84d8e {
+    .requirementContainer_b007eb {
         margin-top: 0;
         border: none;
         padding: 8px 14px;
         background: var(--btn-grey);
         border-radius: 2px;
 
-        .sizeSmall_da7d10 {
+        .sizeSmall_dd4f85 {
             padding: 0;
         }
     }
 }
 
-.termsRow__8e6aa {
+.termsRow_bd5b94 {
     
     [style="color: var(--text-muted);"] {
         --text-muted: var(--brand-experiment);
@@ -69,18 +69,18 @@
     }
 }
 
-.termsRowContent__605ae[data-text-variant="text-md/normal"] {
+.termsRowContent_bd5b94[data-text-variant="text-md/normal"] {
     font-size: 14px;
     font-weight: 400;
 }
 
-.fieldBackground__4007e,
-.fieldBackground__4007e:hover:not(:focus) {
+.fieldBackground_bd5b94,
+.fieldBackground_bd5b94:hover:not(:focus) {
     background: var(--btn-grey);
     border: none;
     border-radius: 2px;
 }
 
-.fieldBackground__4007e {
+.fieldBackground_bd5b94 {
     padding: 8px 14px;
 }

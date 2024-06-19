@@ -1,12 +1,12 @@
 @use '../container';
 
 #subscriptions-tab {
-    .h1_dc86b3.title__1b7e8.defaultColor_e04945.sectionTitle_f81028 {
+    .h1_c46f6a.title_c46f6a.defaultColor_c46f6a.sectionTitle_a206c7 {
         @include container.settingsHeader;
         @include container.settingsHeaderText;
     }
 
-    .card__4dc22 {
+    .card_a298b8 {
         padding: 8px 24px 10px 16px;
         margin-top: 0;
         margin-right: 8px;
@@ -20,13 +20,13 @@
         [class*="noItemsIcon"] {
             background: #fff;
 
-            &.small__93cfd {
+            &.small_f394e5 {
                 width: 20px;
                 height: 20px;
             }
         }
 
-        .gameIcon_fc710a {
+        .gameIcon_f394e5 {
             color: var(--background-accent);
         }
 
@@ -38,15 +38,15 @@
         }
     }
 
-    .sectionAccountCredit_c94c5d,
-    .subscriptionDetails_a1ad09 {
+    .sectionAccountCredit_e70817,
+    .subscriptionDetails_e70817 {
         padding-bottom: 10px;
         margin-bottom: 10px;
         border-bottom: thin solid var(--background-modifier-accent-dark);
     }
 }
 
-.accountCreditTitle_f27b61 {
+.accountCreditTitle_e70817 {
     color: var(--text-muted);
     font-size: 14px;
     letter-spacing: .5px;
@@ -55,7 +55,7 @@
     text-transform: uppercase;
 }
 
-.accountCreditDescription__41083 {
+.accountCreditDescription_e70817 {
     font-size: 13px;
     line-height: 18px;
     font-weight: 400;

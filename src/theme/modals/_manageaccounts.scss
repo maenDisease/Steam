@@ -1,5 +1,5 @@
-.root_a28985 {
-    .header-1LSUD5 {
+.root_f9a4c9 {
+    .header_f31a4d {
         padding: 0;
         align-items: flex-start;
 
@@ -9,21 +9,21 @@
             line-height: 24px;
         }
 
-        .subheaderText-2Slnoc {
+        .subheaderText_f31a4d {
             margin: 0;
         }
     }
 
-    .list-3-WAYB {
+    .list_f20a46 {
         background: none;
         border-radius: 0;
 
-        .separator-3pyJLj {
+        [class*="separator"] {
             display: none;
         }
 
 
-        .accountCard-2lki2x {
+        .accountCard_f20a46 {
             padding: 8px 24px 10px 16px;
             background: var(--btn-grey);
             border-radius: 2px;
@@ -36,7 +36,7 @@
                 font-weight: 400;
             }
 
-            .hintText-1gwhJG {
+            .hintText_f20a46 {
                 font-size: 12px;
                 letter-spacing: .5px;
                 text-transform: uppercase;
@@ -45,29 +45,29 @@
         }
     }
 
-    .actions-1qEPMo {
+    .actions_f31a4d {
         margin: 32px 0;
     }
 }
 
 #app-mount {
-    .authBox__7196a {
+    .authBox_dc6abe {
         background: none;
         box-shadow: none;
         padding: 32px 32px 0 32px;
 
-        +.navRow-dG-XX8 {
+        +[class*="navRow"] {
             background: none;
             padding: 32px;
             
-            .button_afdfd9 {
+            [class*="button"] {
                 margin: 0;
             }
         }
     }
 }
 
-.mainLoginContainer-psZnyz {
+[class*="mainLoginContainer"] {
     h1 {
         text-align: left;
         font-size: 22px;
@@ -76,7 +76,7 @@
             margin-bottom: 0;
     }
 
-    .subtitle-N87Vzb {
+    [class*="subtitle"] {
         text-align: left;
         padding: 0;
         margin-bottom: 32px;

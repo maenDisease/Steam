@@ -1,16 +1,16 @@
 #billing-tab {
-    h2.title__1b7e8+.footer__86f19 {
+    h2.title_c46f6a+.footer_edf4d6 {
         margin-top: 0;
     }
 
-    .subText__3b709 {
+    .subText_edf4d6 {
         margin-top: 10px;
     }
 
-    .paymentHistory_adb833 {
+    .paymentHistory_cb70f4 {
         margin-top: 24px;
 
-        h2.title__1b7e8 {
+        h2.title_c46f6a {
             margin-bottom: 0;
             text-transform: capitalize;
             color: #fff;
@@ -33,45 +33,45 @@
             }
         }
 
-        .paymentRowHeader__36e9a {
+        .paymentRowHeader_f66684 {
             display: none;
         }
 
-        .paymentPane__541d7 {
+        .paymentPane_f66684 {
             background: none;
             border-radius: 0;
         }
 
-        .paymentRow__7568c {
+        .paymentRow_f66684 {
             border: none;
         }
 
-        .paginator__28ba5 {
+        .paginator_f66684 {
             background: none;
         }
 
-        .scrollerBase_f742b2 {
+        .scrollerBase_eed6a8 {
             overflow: auto !important;
             border: none;
         }
 
-        .payment_f27ac6 {
+        .payment_a28a08 {
             background: none;
             border: none;
             padding: 6px 8px;
             min-height: 58px;
 
-            &.hoverablePayment__4ff3b:hover,
-            &:has(.expandedInfo_efc786) {
+            &.hoverablePayment_a28a08:hover,
+            &:has(.expandedInfo_a28a08) {
                 background: var(--background-accent);
                 transition: background .2s linear;
             }
 
-            .summaryInfo__3df8a {
+            .summaryInfo_a28a08 {
                 padding: 0;
             }
 
-            .date_ad0cb9 {
+            .date_a28a08 {
                 position: absolute;
                 left: 122px;
                 margin-top: 20px;
@@ -97,28 +97,28 @@
             }
         }
 
-        .gameIcon_fc710a {
+        .gameIcon_f394e5 {
             border-radius: 0;
             margin-right: 16px;
         }
 
-        .xsmall_b118ce {
+        .xsmall_f394e5 {
             height: 45px;
             width: 98px;
         }
 
-        .description__3e625 {
+        .description_a28a08 {
             color: #fff;
             font-weight: 400;
             line-height: 20px;
 
-            >div:not(.gameIcon_fc710a),
+            >div:not(.gameIcon_f394e5),
             >svg {
                 margin-top: -19px;
             }
         }
 
-        .giftIcon__75cfe {
+        .giftIcon_a28a08 {
             height: 14px;
             width: 14px;
             color: var(--gpColor-Yellow);
@@ -126,13 +126,13 @@
             margin-left: 4px;
         }
 
-        svg.expand__12c96 {
+        svg.expand_a28a08 {
             margin: 8px;
             color: var(--brand-experiment);
         }
     }
 
-    .codeRedemptionRedirect_b3eca7 {
+    .codeRedemptionRedirect_cb70f4 {
         padding: 0;
         background: none;
         border: none;
@@ -143,7 +143,7 @@
         letter-spacing: 0;
     }
 
-    .expandedInfo_efc786 {
+    .expandedInfo_a28a08 {
         background: var(--background-tertiary);
         padding: 24px;
         margin: 6px 0 0 0;
@@ -151,11 +151,11 @@
         border-radius: 0;
     }
 
-    .paymentText__55e50 {
+    .paymentText_a28a08 {
         color: #fff;
     }
 
-    .paymentDetail_be84ed {
+    .paymentDetail_a28a08 {
         margin: 0;
         padding: 10px 0;
         border-bottom: thin solid var(--background-modifier-accent-dark);
@@ -184,7 +184,7 @@
         }
     }
 
-    .paymentHeader__27aff {
+    .paymentHeader_a28a08 {
         border: none;
         padding: 0;
         margin: 0;
@@ -196,7 +196,7 @@
         text-transform: uppercase;
     }
 
-    .paymentText__55e50>div:not([class]) {
+    .paymentText_a28a08>div:not([class]) {
         font-size: 13px;
         line-height: 18px;
         font-weight: 400;
@@ -205,7 +205,7 @@
         margin-bottom: 10px;
     }
 
-    .refundSubHeader__70b6e {
+    .refundSubHeader_a28a08 {
         color: var(--text-muted);
         font-size: 14px;
         letter-spacing: 0.5px;
@@ -214,7 +214,7 @@
         text-transform: uppercase;
     }
 
-    .refundIconContainer_e75cbd {
+    .refundIconContainer_a28a08 {
         font-size: 13px;
         line-height: 18px;
         font-weight: 400;
@@ -222,7 +222,7 @@
         letter-spacing: 0;
     }
 
-    .refundActions_e1131d {
+    .refundActions_a28a08 {
         font-size: 13px;
         line-height: 18px;
         font-weight: 400;

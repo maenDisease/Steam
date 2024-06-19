@@ -1,17 +1,17 @@
-#app-mount .layer_f7d46a ~.layer_f7d46a  .contentColumnDefault__78de3#hypesquad-online-tab {
+#app-mount .layer_d4b6c5 ~.layer_d4b6c5  .contentColumnDefault_c25c6d#hypesquad-online-tab {
     padding: 0 !important;
 }
 
-#app-mount .contentRegion__08eba .contentRegionScroller__9ae20:has(#hypesquad-online-tab) {
+#app-mount .contentRegion_c25c6d .contentRegionScroller_c25c6d:has(#hypesquad-online-tab) {
     padding-top: 0;
 }
 
-.contentRegionScroller__9ae20:has(#hypesquad-online-tab) {
+.contentRegionScroller_c25c6d:has(#hypesquad-online-tab) {
     background: #000;
 }
 
 #hypesquad-online-tab {
-    .intro__5a71e {
+    .intro_ca5ce6 {
         z-index: 0;
         position: relative;
         margin-bottom: 0;
@@ -73,7 +73,7 @@
         flex-basis: 100%;
     }
 
-    .feature__863ba {
+    .feature_c80ac3 {
         width: 100%;
         background: rgb(255 255 255/.0588235294);
         border-radius: 3px;
@@ -85,12 +85,12 @@
         border: none;
         flex-wrap: nowrap;
 
-        .icon__88e76 {
+        .icon_c80ac3 {
             margin: 0;
         }
     }
 
-    .title_ad6686 {
+    .title_c80ac3 {
         font-size: 24px;
         line-height: 28px;
         font-weight: 600;
@@ -98,7 +98,7 @@
         text-align: center;
     }
 
-    .description__1f05f {
+    .description_c80ac3 {
         font-size: 12px;
         line-height: 16px;
         text-align: center;

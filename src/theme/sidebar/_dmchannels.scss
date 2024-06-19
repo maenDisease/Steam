@@ -1,12 +1,12 @@
-.privateChannels__9b518 {
+.privateChannels_f0963d {
     background: none;
     padding-top: 16px;
 
-    .searchBar__621ec {
+    .searchBar_f0963d {
         height: unset;
         box-shadow: none;
     
-        .searchBarComponent__8f95f {
+        .searchBarComponent_f0963d {
             height: unset;
             border-radius: 2px;
             font-size: 14px;
@@ -23,16 +23,16 @@
         }
     }
     
-    .scroller__89969 {
+    .scroller_c47fa9 {
         background: none;
     }
 }
 
-.channel__0aef5 {
+.channel_c91bad {
     border-radius: 0;
 }
 
-.interactive__0786a {
+.interactive_f5eb4b {
 
     &:focus-within,
     &:hover {
@@ -40,17 +40,17 @@
         background: none;
     }
 
-    &.selected__37292 {
+    &.selected_f5eb4b {
         color: var(--interactive-active);
         background: var(--channel-selected);
     }
 
-    .highlighted_e2e5df:hover {
+    .highlighted_f9647d:hover {
         color: var(--channels-default-hover);
     }
 }
 
-#app-mount .name_f842e4 {
+#app-mount .name_f9647d {
     font-size: 12px;
     font-weight: 700;
 }

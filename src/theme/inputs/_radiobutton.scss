@@ -1,4 +1,4 @@
-[role="radiogroup"]:has(.item_b7fb7e) {
+[role="radiogroup"]:has(.item_eb92a8) {
     padding: 6px;
     background: var(--darker-grey);
     box-shadow: inset 0 1px 1px 0 #000a;
@@ -11,7 +11,7 @@
         flex-direction: column;
     }
 
-    .item_b7fb7e {
+    .item_eb92a8 {
         margin: 0;
         background: none;
         color: var(--text-lighter);
@@ -28,7 +28,7 @@
             line-height: 18px;
         }
 
-        &:hover:not([aria-checked=true]):not(.disabled_e23f76) {
+        &:hover:not([aria-checked=true]):not(.disabled_eb92a8) {
             background: hsl(calc(var(--accent-hue) + 19) calc(var(--saturation-factor, 1)*9.7%) 22.2%);
             color: var(--text-lighter);
         }
@@ -41,7 +41,7 @@
         }
 
         &:not([aria-checked=true]) {
-            .radioBar__70669 {
+            .radioBar_eb92a8 {
                 &[style*="--radio-bar-accent-color:var(--green"] {
 
                     [data-text-variant="text-md/medium"] {
@@ -65,7 +65,7 @@
             }
         }
 
-        .radioBar__70669 {
+        .radioBar_eb92a8 {
             border-left: none;
             border-radius: 2px;
             grid-gap: 0;

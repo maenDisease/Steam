@@ -1,7 +1,7 @@
-.root_a28985:has(.tier2HeaderBackground-2XINxm) {
+.root_f9a4c9:has(.tier2HeaderBackground_af10a6) {
     --text-muted: #ffffff7a;
 
-    .header__5e5a6:has(.headerBackground-131uxy) {
+    .header_f9a4c9:has(.headerBackground_af10a6) {
         box-shadow: none;
         border-radius: 0;
         padding: 0;
@@ -14,21 +14,21 @@
             margin-top: 87px;
         }
 
-        .headerBackground-131uxy {
+        [class*="headerBackground"] {
             inset: 0;
             height: 100%;
             padding: 32px;
             box-sizing: border-box;
         }
 
-        .headerAnimation-3DVb6i {
+        [class*="headerAnimation"] {
             position: absolute;
             inset: 0;
             min-width: unset;
             -webkit-transform: none;
             transform: none;
 
-            .panningAnimation-1pMfvn {
+            [class*="panningAnimation"] {
                 position: absolute;
                 inset: 0;
                 overflow: hidden;
@@ -36,7 +36,7 @@
                 margin-top: auto;
             }
 
-            .sequencedAnimation-f_FX_M {
+            [class*="sequencedAnimation"] {
                 position: absolute;
                 inset: 0;
                 max-height: 100px;
@@ -44,11 +44,11 @@
         }
     }
 
-    .paymentNote-3dcb-Z {
+    [class*="paymentNote"] {
         padding: 0 32px 0 32px;
     }
 
-    .breadcrumb.wrapper-wOVKdL {
+    .breadcrumb[class*="wrapper"] {
         padding: 10px 32px 0 32px;
 
         &::after {
@@ -56,7 +56,7 @@
         }
     }
 
-    .content_b28aab>[style^="position: relative; width:"] {
+    .content_f9a4c9>[style^="position: relative; width:"] {
         width: 100% !important;
 
         >[style^="position: absolute;"] {
@@ -66,7 +66,7 @@
         }
     }
 
-    .sliderBody__94955 {
+    .sliderBody_bf926b {
         width: 100%;
     }
 
@@ -76,7 +76,7 @@
         gap: 10px;
     }
 
-    .planOptionClickableContainer-O-50CZ {
+    [class*="planOptionClickableContainer"] {
         background: rgb(255 255 255/.0588235294);
         border-radius: 3px;
         padding: 20px;
@@ -95,17 +95,17 @@
             background: #fff;
             box-shadow: none;
 
-            .optionSelected-2AMHHJ {
+            [class*="optionSelected"] {
                 color: #1b1b1b;
             }
 
-            .planOptionDiscount-2nex9n {
+            [class*="planOptionDiscount"] {
                 color: #1b1b1b !important;
             }
         }
     }
 
-    .checkboxWrapper_a2bcc8 {
+    [class*="checkboxWrapper"] {
         position: absolute;
         inset: 0;
         height: 100%;
@@ -114,7 +114,7 @@
         margin: 0;
     }
 
-    .planOptionInterval-3QyrC0 {
+    [class*="planOptionInterval"] {
         color: #1b1b1b;
         font-weight: 400;
         font-size: 20px;
@@ -123,7 +123,7 @@
         right: 0;
     }
 
-    .planOption-187LtR {
+    .planOption_bd3462 {
         flex-direction: column-reverse;
         position: relative;
         padding: 0;
@@ -132,18 +132,18 @@
         font-size: 20px !important;
     }
 
-    .planOptionDiscount-2nex9n {
+    [class*="planOptionDiscount"] {
         background: none;
         border-radius: 0;
         padding: 0;
         margin: 0;
     }
 
-    .totalLabel-2RGUEh {
+    .optionSelected_bd3462 {
         color: #ffffff7a;
     }
 
-    .wrap_abadb9:has(.cardIcon__45b55) {
+    .wrap_ec1a20:has(.cardIcon_c829b4) {
 
         button {
             background: rgb(255 255 255/.0588235294);

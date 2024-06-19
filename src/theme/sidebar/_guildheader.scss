@@ -1,4 +1,4 @@
-.header__77c95 {
+.header_fd6364 {
     position: fixed;
     top: 0;
     left: 76px;
@@ -12,12 +12,12 @@
         left: 9px;
     }
 
-    .headerContent__6fcc7 {
+    .headerContent_fd6364 {
         -webkit-app-region: no-drag;
         width: fit-content;
     }
 
-    .name_e8e549 {
+    .name_fd6364 {
         font-family: var(--font-display);
         font-size: 12px;
         line-height: 20px;
@@ -25,27 +25,27 @@
         cursor: pointer;
     }
 
-    .dropdownButton_a246fc {
+    .dropdownButton_ee69e0 {
         display: none;
     }
 }
 
-.clickable__1383f .header__77c95:hover,
-.selected__987e6 .header__77c95 {
+.clickable_fd6364 .header_fd6364:hover,
+.selected_fd6364 .header_fd6364 {
     background-color: transparent;
 }
 
-#app-mount .clickable__1383f .header__77c95:hover .headerContent__6fcc7,
-#app-mount .selected__987e6 .header__77c95 .headerContent__6fcc7 {
+#app-mount .clickable_fd6364 .header_fd6364:hover .headerContent_fd6364,
+#app-mount .selected_fd6364 .header_fd6364 .headerContent_fd6364 {
     color: var(--interactive-active);
 }
 
-#app-mount .headerContent__6fcc7 {
+#app-mount .headerContent_fd6364 {
     color: var(--interactive-normal);
     transition: color .15s ease;
     filter: none;
 }
 
-.guildIconV2Container_ddc448 {
+.guildIconV2Container_ed9816 {
     margin-right: 4px;
 }

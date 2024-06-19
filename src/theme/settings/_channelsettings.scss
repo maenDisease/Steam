@@ -37,11 +37,11 @@
     }
 }
 
-.sidebarScrollable_d64933 {
-    .scroller_c92337 {
+.sidebarScrollable_e9196a {
+    .scroller_e9196a {
         background: none;
 
-        .header__71a82 {
+        .header_a0 {
             padding: 0 10px 10px 10px;
             color: var(--text-muted);
             transition-property: color;
@@ -57,13 +57,13 @@
                 transition: none;
             }
 
-            .headerText_e86b38 {
+            .headerText_a0 {
                 font-size: 14px;
                 line-height: 18px;
             }
         }
 
-        .item__48dda {
+        .item_a0 {
             padding-top: 6px;
             padding-bottom: 6px;
             margin-bottom: 2px;
@@ -73,14 +73,14 @@
             --interactive-active: var(--header-secondary);
 
             #app-mount & {
-                &:hover:not(.selected_a523ff) {
+                &:hover:not(.selected_a0) {
                     background: var(--contextmenu-text);
                     --interactive-hover: var(--background-accent);
                     --interactive-active: var(--background-accent);
                     --header-primary: var(--background-accent);
                 }
 
-                &.selected_a523ff {
+                &.selected_a0 {
                     background: var(--background-accent);
                     color: #fff;
                     --header-primary: #fff;
@@ -91,7 +91,7 @@
     }
 }
 
-.group__6ae8b {
+.group_e3c4bb {
     display: grid;
     grid-auto-flow: column;
     border: none;
@@ -114,25 +114,25 @@
         z-index: 0;
     }
 
-    &:has(.passthrough__91f95.selected__5faae):before {
+    &:has(.passthrough_e3c4bb.selected_e3c4bb):before {
         translate: 100%;
         background: var(--btn-grey-hover);
     }
 
-    &:has(.allow_bbc621.selected__5faae):before {
+    &:has(.allow_e3c4bb.selected_e3c4bb):before {
         translate: 200%;
         background: var(--gpColor-Green);
     }
 
-    .item_f48d11 {
+    .item_e3c4bb {
         background: none;
         z-index: 1;
         transition: color .2s ease;
 
-        &.passthrough__91f95 {
+        &.passthrough_e3c4bb {
             color: var(--btn-grey-hover);
 
-            &.selected__5faae {
+            &.selected_e3c4bb {
                 color: #fff;
             }
         }

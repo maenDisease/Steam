@@ -1,31 +1,32 @@
-#app-mount .layer_f7d46a ~.layer_f7d46a  .accountProfileCard__744d8 {
+#app-mount .layer_d4b6c5 ~.layer_d4b6c5  .accountProfileCard_b69b77 {
     max-width: 100% !important;
 }
 
-#app-mount .accountProfileCard__744d8 {
+#app-mount .accountProfileCard_b69b77 {
     box-shadow: none;
     border-radius: 0;
     overflow: visible;
 
-    .bannerSVGWrapper__8a38c:not(:has([style*="/banners/"])) {
+    .bannerSVGWrapper_b32cc2:not(:has([style*="/banners/"])) {
         min-height: 1px !important;
         min-width: 100% !important;
+        margin-bottom: -91px !important;
     }
 
-    .banner__6d414:not([style^="background-image"]) {
+    .banner_c3e427:not([style^="background-image"]) {
         height: 1px;
         min-height: 1px;
         border-radius: 0;
         mask-image: linear-gradient(to right, rgb(0 0 0/1), transparent 75%);
     }
 
-    .userInfo_fb7651 {
+    .userInfo_b69b77 {
         height: calc(62px + 10px);
         align-items: center;
         padding: 10px 0 0 87px;
     }
 
-    .avatar__6c108 {
+    .avatar_b69b77 {
         padding: 0;
         top: unset;
         margin: auto 0;
@@ -39,7 +40,7 @@
         }
     }
 
-    .userTag__28f9c {
+    .userTag_b69b77 {
         margin: 0;
         padding-left: 0;
         font-size: 16px;
@@ -47,7 +48,7 @@
         font-weight: 400;
     }
 
-    .overflowMenuButton__38716 {
+    .overflowMenuButton_b69b77 {
         margin-left: 0;
         height: 100%;
         position: absolute;
@@ -55,8 +56,8 @@
         opacity: 0;
     }
 
-    .profileCardUsernameRow_f8853e,
-    .containerWithContent_a67357 {
+    .profileCardUsernameRow_b69b77,
+    .containerWithContent_b64375 {
         background: none;
         box-shadow: none;
         border-radius: 0;
@@ -65,20 +66,20 @@
         position: relative;
     }
 
-    .containerWithContent_a67357 {
+    .containerWithContent_b64375 {
         margin-top: 0;
     }
 
-    .container_ed2af4 {
+    .container_b64375 {
         min-height: unset;
     }
 
-    .profileBadge22_e4866d {
+    .profileBadge22_b64375 {
         width: 18px;
         height: 18px;
     }
 
-    .background__4e802 {
+    .background_b69b77 {
         background: none !important;
         box-shadow: none;
         margin: 10px 0 0 0;
@@ -88,14 +89,14 @@
     }
 }
 
-.fieldList__4e6dd {
+.fieldList_b69b77 {
     display: grid;
     grid-template-columns: repeat(3, minmax(0, 1fr));
     grid-gap: 20px;
     background: none;
 }
 
-.field__69fa0 {
+.field_b69b77 {
     flex-direction: column;
     background: var(--btn-grey);
     margin: 0;
@@ -109,15 +110,15 @@
     transition-duration: .2s;
     transition-timing-function: ease-out;
 
-    .constrainedRow__72f7a {
+    .constrainedRow_b69b77 {
         margin-right: 0;
         flex-grow: 0;
 
-        .fieldTitle_f182ed+div {
+        .fieldTitle_b69b77+div {
             text-align: center;
         }
 
-        .fieldTitle_f182ed {
+        .fieldTitle_b69b77 {
             font-size: 16px;
             font-weight: 400;
             line-height: 20px;
@@ -141,12 +142,12 @@
         }
     }
 
-    &:has(button.lookFilled__950dd:hover) {
+    &:has(button.lookFilled_dd4f85:hover) {
         background: var(--btn-grey-hover);
         box-shadow: var(--btn-grey-boxshadow);
     }
 
-    .fieldButtonList_fd9518 {
+    .fieldButtonList_b69b77 {
         position: absolute;
         inset: 0;
         align-items: end;
@@ -156,7 +157,7 @@
     button {
         margin: 0;
 
-        &.lookFilled__950dd {
+        &.lookFilled_dd4f85 {
             position: absolute;
             width: 100%;
             height: 100%;
@@ -164,23 +165,23 @@
             z-index: 0;
         }
 
-        &.lookLink_a2da25 {
+        &.lookLink_dd4f85 {
             z-index: 1;
         }
     }
 }
 
 #my-account-tab {
-    .flex_f18b02:has(>button) {
+    .flex_bba380:has(>button) {
         gap: 4px;
     }
 }
 
-.horizontal__4848b>.flexChild__3da10 {
+.horizontal_bba380>.flexChild_bba380 {
     margin-left: 2px;
     margin-right: 2px;
 }
 
-.disableButton__09342 {
+.disableButton_adabdf {
     margin-right: 4px;
 }

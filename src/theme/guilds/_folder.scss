@@ -1,20 +1,20 @@
-#app-mount .wrapper__216eb.guilds__2b93a [class*=expandedFolderBackground] {
+#app-mount .wrapper_fea3ef.guilds_a4d4d9 [class*=expandedFolderBackground] {
     border-radius: 2px;
 }
 
-#app-mount .folder__17546 {
+#app-mount .folder_bc7085 {
     background: none;
 }
 
-.expandedFolderBackground_b1385f {
+.expandedFolderBackground_bc7085 {
     bottom: 0;
     background-color: var(--brand-experiment-700);
 
-    &.collapsed__98ad5 {
+    &.collapsed_bc7085 {
         background-color: var(--header-button-background);
         height: var(--server-size);
 
-        &.hover__043de {
+        &.hover_bc7085 {
             background-color: var(--brand-experiment-700);
         }
 
@@ -29,11 +29,11 @@
             z-index: 1;
         }
 
-        &:has(+.listItem__48528 .item_f9d377[style="opacity: 1; height: 40px; transform: none;"]):before {
+        &:has(+.listItem_c96c45 .item_fd07a3[style="opacity: 1; height: 40px; transform: none;"]):before {
             --gpColor-Grey: var(--brand-experiment);
         }
 
-        &:has(+.listItem__48528 .item_f9d377):before {
+        &:has(+.listItem_c96c45 .item_fd07a3):before {
             --gpColor-Grey: var(--header-primary);
         }
     }
@@ -44,6 +44,6 @@
     background-color: transparent !important;
 }
 
-.expandedFolderIconWrapper__324c1 svg {
+.expandedFolderIconWrapper_bc7085 svg {
     color: var(--brand-experiment-300) !important;
 }

@@ -1,4 +1,4 @@
-.container__84c26 {
+.container_eedf95 {
     border-radius: 0;
     background: var(--contextmenu-background);
 
@@ -6,26 +6,26 @@
         box-shadow: 0 0 12px #000000;
     }
 
-    .focused__68b93 {
+    .focused_eedf95 {
         background: var(--contextmenu-background);
     }
 
-    .queryContainer_c1cb2f {
+    .queryContainer_eedf95 {
         border: none;
     }
 
-    .datePicker_df63a7 {
+    .datePicker_b0286e {
 
-        .datePickerHint_d023b6 {
+        .datePickerHint_b0286e {
             border-top: none;
         }
 
-        .hint__460f1 {
+        .hint_b0286e {
             color: var(--contextmenu-text);
             font-size: 14px;
         }
 
-        .hintValue__0c960 {
+        .hintValue_b0286e {
             background: var(--background-accent-hover);
             font-weight: 400;
 
@@ -75,12 +75,12 @@
     }
 }
 
-.resultsGroup_b221b0 .header__00739 {
+.resultsGroup_b0286e .header_b0286e {
     font-weight: 700;
     letter-spacing: .5px;
 }
 
-.option__91497 {
+.option_b0286e {
     font-size: 16px;
     margin: 0 1px;
     border-radius: 0;
@@ -103,15 +103,15 @@
         --search-popout-option-filter-color: var(--contextmenu-text-hover);
         --search-popout-option-answer-color: var(--contextmenu-text-hover);
 
-        .filter__851fb {
+        .filter_b0286e {
             color: var(--contextmenu-text-hover);
         }
 
-        .answer__9ff92 {
+        .answer_b0286e {
             color: var(--contextmenu-text-hover);
         }
 
-        .nonText_fbd88d {
+        .nonText_b0286e {
             color: var(--contextmenu-text-hover);
         }
 
@@ -125,18 +125,18 @@
         }
     }
 
-    .filter__851fb {
+    .filter_b0286e {
         color: var(--contextmenu-text);
         font-weight: 500;
     }
 
-    .answer__9ff92 {
+    .answer_b0286e {
         color: var(--text-muted);
         font-size: 14px;
         font-weight: 400;
     }
 
-    .nonText_fbd88d {
+    .nonText_b0286e {
         color: var(--contextmenu-text);
     }
 
@@ -149,15 +149,15 @@
         text-shadow: 1px 1px 3px rgb(0 0 0/.3);
     }
 
-    &.user__97b4c .displayAvatar__0be99 {
+    &.user_b0286e .displayAvatar_b0286e {
         border-radius: 2px;
     }
 }
 
 #app-mount {
 
-    .searchAnswer__2ccaf,
-    .searchFilter_dbda51 {
+    .searchAnswer_b0fa94,
+    .searchFilter_b0fa94 {
         background: var(--background-accent);
         font-weight: 400;
         text-shadow: 1px 1px 3px rgb(0 0 0/.3);

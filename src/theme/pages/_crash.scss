@@ -2,24 +2,24 @@
 @use "../modals/generic";
 
 #app-mount {
-    .errorPage_a41002 {
+    .errorPage_dd2aa2 {
         background:
             linear-gradient(to right, rgb(0 0 0/.8), rgb(0 0 0/.8)),
             url(https://maendisease.github.io/Steam/illustrations/colored_body_top.avif) center left/cover no-repeat,
             linear-gradient(to right, var(--background-tertiary), var(--background-tertiary));
     }
 
-    .image_e0cb48 {
+    .image_b06619 {
         background: none;
     }
 }
 
-.errorPage_a41002 {
+.errorPage_dd2aa2 {
     display: flex;
     align-items: center;
     justify-content: center;
 
-    >.flex_f18b02 {
+    >.flex_bba380 {
         background: var(--modal-background);
         max-width: 600px;
         max-height: 300px;
@@ -33,14 +33,14 @@
         overflow: hidden;
     }
 
-    .title__5060d {
+    .title_b06619 {
         font-size: 22px;
         font-weight: 700;
         line-height: 24px;
         margin-bottom: 0;
     }
 
-    .note__35490 {
+    .note_b06619 {
         font-size: 14px;
         margin-top: 10px;
 
@@ -51,7 +51,7 @@
     }
 }
 
-.image_e0cb48 {
+.image_b06619 {
     position: relative;
     background: none;
     height: 100px;

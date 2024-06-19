@@ -1,9 +1,9 @@
 #notifications-tab {
-    [role=radiogroup]:has(.item_b7fb7e)[aria-orientation=vertical] {
+    [role=radiogroup]:has(.item_eb92a8)[aria-orientation=vertical] {
         flex-direction: row;
     }
 
-    [role=radiogroup]:has(.item_b7fb7e) .item_b7fb7e {
+    [role=radiogroup]:has(.item_eb92a8) .item_eb92a8 {
         width: 100%;
 
         [data-text-variant="text-md/medium"] {
@@ -11,31 +11,31 @@
         }
     }
 
-    .container__7ad1e:has(+.container__7ad1e.soundRow_afb019) {
+    .container_ed1d57:has(+.container_ed1d57.soundRow_ec96b2) {
         margin-bottom: 7px;
     }
 
-    .container__7ad1e.soundRow_afb019 {
+    .container_ed1d57.soundRow_ec96b2 {
         margin-bottom: 7px;
 
-        .divider_d6f39c {
+        .divider_ae36e5 {
             margin-top: 6px;
         }
 
-        .title__8b9e4 {
+        .title_ed1d57 {
             overflow: visible;
         }
 
-        .control__6a084 {
+        .control_ed1d57 {
             order: -1;
             margin-right: 6px;
         }
 
-        .soundName__9daf8 {
+        .soundName_ec96b2 {
             margin-right: auto;
         }
 
-        .soundIcon__85115 {
+        .soundIcon_ec96b2 {
             opacity: 1;
             background: var(--btn-grey);
             margin-right: 4px;
@@ -55,7 +55,7 @@
                 box-shadow: var(--btn-grey-boxshadow);
             }
 
-            .icon__46d48 {
+            .icon_ec96b2 {
                 width: 18px;
                 height: 18px;
             }

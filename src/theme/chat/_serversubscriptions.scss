@@ -1,11 +1,11 @@
-.container__2b28c {
+.container_fca846 {
     max-width: var(--content-width);
 
-    .scroller__12676 {
+    .scroller_fca846 {
         background: none;
     }
 
-    .container__01da0 {
+    .container_d575b2 {
         margin-top: var(--content-gutter);
         padding-bottom: 12px;
         background: linear-gradient(to right, transparent 50%, rgb(0 0 0/.4) 100%);
@@ -20,14 +20,14 @@
         position: relative;
     }
 
-    .coverImageContainer__29476 {
+    .coverImageContainer_d575b2 {
         grid-area: banner;
         padding-bottom: 0;
         height: 100%;
         max-height: 338px;
     }
 
-    .guildIconContainer__5fbec {
+    .guildIconContainer_d575b2 {
         grid-area: icon;
         padding: 0;
         background: none;
@@ -38,11 +38,11 @@
         width: 100px;
     }
 
-    .iconInactive__8c603 {
+    .iconInactive_f11207 {
         border-radius: 3px;
     }
 
-    .ctaTitle__65abd {
+    .ctaTitle_d575b2 {
         grid-area: title;
         font-size: 14px;
         line-height: 18px;
@@ -53,7 +53,7 @@
         color: hsl(calc(var(--accent-hue) + 1) calc(var(--saturation-factor, 1)*28.1%) 82.5%);
     }
 
-    .ctaSubtitle__5c2e0 {
+    .ctaSubtitle_d575b2 {
         grid-area: sub;
         --header-secondary: hsl(calc(var(--accent-hue) + 1) calc(var(--saturation-factor, 1)*28.1%) 82.5%);
         font-size: 14px;
@@ -63,48 +63,48 @@
         padding-right: 16px;
     }
 
-    .container__93a40 {
+    .container_ecba8f {
         flex: 1 1 320px;
         border-radius: 4px 4px 0 0;
     }
 
-    .roleMessagePreview__242dc {
+    .roleMessagePreview_ecba8f {
         padding: 0;
         background: none;
         border-radius: 0;
         border: none;
     }
 
-    .benefitsList_a60ccd {
+    .benefitsList_ecba8f {
         gap: 10px;
     }
 
-    .container__1897b {
+    .container_a934b7 {
         padding: 8px 24px 10px 16px;
         background: var(--btn-grey);
         border-radius: 2px;
     }
 }
 
-.tierPreviewsContainer__3e3d4 {
+.tierPreviewsContainer_c19193 {
     padding: 0;
 }
 
-.cardContainerWithoutTopIndicator_a60d34 {
+.cardContainerWithoutTopIndicator_ecba8f {
     border-radius: 4px 4px 0 0;
     
-    .tierInfoContainer_dd1f1c {
+    .tierInfoContainer_ecba8f {
         background: var(--banner-lightblue);
         padding: 32px 16px 16px;
     }
 }
 
-.subscriptionPerks__47df3 {
+.subscriptionPerks_ecba8f {
     background: rgb(0 0 0/.4);
 }
 
-.infoContainer__2420e {
-    .name__5e438 {
+.infoContainer_a934b7 {
+    .name_a934b7 {
         font-weight: 400;
     }
 }

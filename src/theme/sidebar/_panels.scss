@@ -1,7 +1,7 @@
-.panels__58331 {
+.panels_a4d4d9 {
     background: none;
 
-    &:not(:has(.wrapper_e832ee:empty + .container_debb33:nth-child(2))) {
+    &:not(:has(.wrapper_adcaac:empty + .container_b2ca13:nth-child(2))) {
         position: relative;
         padding: 15px 0 15px 0;
         background: radial-gradient(50% 16px at top, hsla(var(--rtc-hsl, 207, 34%, 43%), 0.25) 0%, hsla(var(--rtc-hsl, 207, 24%, 43%), 0) 100%);
@@ -10,15 +10,15 @@
             --rtc-opacity: 1;
         }
 
-        &:has(.rtcConnectionStatusConnected__9db4a) {
+        &:has(.rtcConnectionStatusConnected_c0cb95) {
             --rtc-hsl: 93, 50%, 50%;
         }
 
-        &:has(.rtcConnectionStatusConnecting__057df) {
+        &:has(.rtcConnectionStatusConnecting_c0cb95) {
             --rtc-hsl: 58, 70%, 47%;
         }
 
-        &:has(.rtcConnectionStatusError__77afa) {
+        &:has(.rtcConnectionStatusError_c0cb95) {
             --rtc-hsl: 0, 85%, 57%;
         }
 
@@ -33,7 +33,7 @@
         }
     }
 
-    >div:not(.container_debb33) button.enabled__214db {
+    >div:not(.container_b2ca13) button.enabled_f67531 {
         background: rgb(0 0 0/.2);
 
         &:hover {
@@ -41,15 +41,15 @@
         }
     }
 
-    .connection__38593 {
-        .flex_f18b02 {
+    .connection_adcaac {
+        .flex_bba380 {
             margin-left: 6px;
             &:has(>button) {
                 gap: 4px;
             }
         }
 
-        button.enabled__214db:has([d*="M21.1169 1.11603L22.8839 2.88403L19.7679 6.00003L22.8839"]) {
+        button.enabled_f67531:has([d*="M21.1169 1.11603L22.8839 2.88403L19.7679 6.00003L22.8839"]) {
             &:hover {
                 background: var(--status-danger);
                 color: #fff;
@@ -57,14 +57,14 @@
         }
     }
 
-    .rtcConnectionStatusLabel_c2abfa {
+    .rtcConnectionStatusLabel_c0cb95 {
         font-size: 12px;
     }
 
-    .actionButtons__85e3c {
+    .actionButtons_adcaac {
         grid-gap: 4px;
 
-        .button_b82d53.buttonColor__7bad9 {
+        .button_adcaac.buttonColor_adcaac {
             color: var(--btn-brand-text);
             background: var(--btn-brand);
             box-shadow: none;
@@ -78,20 +78,20 @@
     }
 }
 
-#app-mount .panel_bd8c76 {
+#app-mount .panel_bf1a22 {
     background: none;
 }
 
-.activityPanel_b73e7a:has(+.wrapper_e832ee:empty) {
+.activityPanel_a4d4d9:has(+.wrapper_adcaac:empty) {
     border-bottom: none;
 }
 
-.container_e1958d {
+.container_adcaac {
     background: none;
     border: none;
 }
 
-.container_debb33 {
+.container_b2ca13 {
     position: fixed;
     top: 0;
     right: 96px;
@@ -144,7 +144,7 @@
         -webkit-app-region: no-drag;
     }
 
-    >.flex_f18b02 {
+    >.flex_bba380 {
         gap: 8px;
 
         &>button {
@@ -160,7 +160,7 @@
                 color: var(--interactive-active);
             }
 
-            .lottieIcon_c7076c {
+            .lottieIcon_f73ef7 {
                 height: 16px !important;
                 width: 16px !important;
             }
@@ -168,18 +168,18 @@
     }
 }
 
-#app-mount .disabledButtonWrapper_b04230 {
+#app-mount .disabledButtonWrapper_dd4f85 {
     padding: 0;
     background: none;
 }
 
-.withTagAsButton_e22174:hover,
-.withTagless__058f8:hover {
+.withTagAsButton_b2ca13:hover,
+.withTagless_b2ca13:hover {
     background-color: hsl(var(--accent-hue) calc(var(--saturation-factor, 1)*100%) 64.9%/.2);
     border-radius: 2px;
 }
 
-.avatarWrapper__500a6 {
+.avatarWrapper_b2ca13 {
     order: 1;
     height: 24px;
     margin-left: 8px;
@@ -191,7 +191,7 @@
     transition: background .15s ease-out;
     overflow: hidden;
 
-    .avatar_f8541f {
+    .avatar_b2ca13 {
         height: 23px !important;
         width: 23px !important;
     }
@@ -202,7 +202,7 @@
     }
 }
 
-.nameTag__77ab2 {
+.nameTag_b2ca13 {
     display: flex;
     flex-wrap: nowrap;
     align-items: center;
@@ -212,26 +212,26 @@
         display: flex;
     }
 
-    .withTagAsButton_e22174 &,
-    .withTagless__058f8 & {
+    .withTagAsButton_b2ca13 &,
+    .withTagless_b2ca13 & {
         padding-left: 5px;
     }
 
-    .subtext_ce73b4 {
+    .subtext_e06aad {
         line-height: 13px;
     }
 }
 
-.title__4a7a9 {
+.title_d1da5f {
     color: hsl(var(--accent-hue) calc(var(--saturation-factor, 1)*100%) 64.9%);
     font-weight: 400;
     font-size: 12px;
 }
 
-.hoverRoll__3ea9e {
+.hoverRoll_c0d6c6 {
     cursor: unset;
 }
 
-.hovered__5a165 {
+.hovered_c0d6c6 {
     margin-top: 2px;
 }

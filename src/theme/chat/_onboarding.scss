@@ -1,14 +1,14 @@
 @use "../modals/generic";
 
-.artwork_eaea88[viewBox="0 0 1700 1200"] {
+.artwork_d8215a[viewBox="0 0 1700 1200"] {
     mask: radial-gradient(circle at top, #000 0%, transparent 80%);
 
-    +.gradient_fd12e1 {
+    +.gradient_d8215a {
         background: rgb(0 0 0/.8);
     }
 }
 
-.prompt__671aa {
+.prompt_cd377c {
     @include generic.modalTopBar;
     width: 548px;
     min-height: 400px;
@@ -26,11 +26,11 @@
         line-height: 24px;
     }
     
-    .overlay_a15774 {
+    .overlay_cd377c {
         display: none;
     }
 
-    .navButtons__60fcf {
+    .navButtons_cd377c {
         background: none;
         padding: 32px;
         border-bottom-left-radius: 0;
@@ -38,20 +38,20 @@
     }
 }
 
-.scrollerContent__98911 {
+.scrollerContent_cd377c {
     padding: 32px;
 }
 
-.promptOptions_db6367 {
+.promptOptions_cd377c {
     gap: 4px;
 }
 
-.optionButtonWrapper_c86844 {
+.optionButtonWrapper_bd5e1f {
     border: 0;
     border-radius: 2px;
     background: var(--background-accent);
 
-    &:not(:hover, .pressed_e85da9, .selected__31118) {
+    &:not(:hover, .pressed_bd5e1f, .selected_bd5e1f) {
         [data-text-variant="text-md/medium"] {
             --header-primary: var(--contextmenu-text);
         }
@@ -61,26 +61,26 @@
         background: var(--background-accent-hover);
     }
 
-    &.pressed_e85da9 {
+    &.pressed_bd5e1f {
         transform: none;
     }
 
-    &.selected__31118 {
+    &.selected_bd5e1f {
         background: var(--brand-experiment);
         --header-secondary: #fff;
     }
 
-    .checkIcon__3c055 {
+    .checkIcon_bd5e1f {
         display: none;
     }
 
-    .memberCount__2f2df {
+    .memberCount_bd5e1f {
         z-index: 1;
         border-radius: 3px;
     }
 }
 
-.termsRow__4a332 {
+.termsRow_cd377c {
     
     [style="color: var(--text-muted);"] {
         --text-muted: var(--brand-experiment);
@@ -89,7 +89,7 @@
     }
 }
 
-.termsFieldBody_c56d5f {
+.termsFieldBody_cd377c {
     border-radius: 3px;
     background-color: rgb(0 0 0/.2);
     border: 1px solid #000;

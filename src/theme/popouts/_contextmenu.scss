@@ -1,72 +1,72 @@
-.menu__088f7 {
+.menu_d90b3d {
     box-shadow: var(--contextmenu-shadow);
     background: var(--contextmenu-background);
     border-radius: 0;
 
-    .button_bfb8e1 {
+    .button_a24e84 {
         width: 30px;
         height: 30px;
         padding: unset;
         border-radius: 2px;
         background:none;
 
-        &.focused__53c23 {
+        &.focused_a24e84 {
             background: var(--contextmenu-text);
         }
     }
 
-    .scroller__8f066 {
+    .scroller_d90b3d {
         padding: 0;
         overflow-y: auto !important;
     }
 }
 
-.submenuPaddingContainer__5a97c {
+.submenuPaddingContainer_d90b3d {
     margin: 0 -4px;
 }
 
-.item__183e8.colorDefault_e361cf {
+.item_d90b3d.colorDefault_d90b3d {
     border-radius: 0;
     margin: 0;
     padding: 6px 15px;
     font-size: 12px;
     min-height: 21px;
 
-    &:not(.colorDanger__08c25) {
+    &:not(.colorDanger_d90b3d) {
         color: var(--contextmenu-text);
         
-        &.focused_dcafb9,
+        &.focused_d90b3d,
         &:active {
             background: var(--contextmenu-text);
             color: var(--contextmenu-text-hover);
 
-            .subtext__694e2,
-            .caret_ce50ce,
-            .radioSelection__41d1e,
-            .checkbox__378d3 {
+            .subtext_d90b3d,
+            .caret_d90b3d,
+            .radioSelection_d90b3d,
+            .checkbox_d90b3d {
                 color: var(--contextmenu-text-hover);
             }
 
-            .check__8d1bd {
+            .check_d90b3d {
                 color: var(--contextmenu-text);
             }
         }
     }
 }
 
-.item__183e8 {
+.item_d90b3d {
 
-    .iconContainer__5d61c {
+    .iconContainer_d90b3d {
         justify-content: center;
         align-items: center;
         display: flex;
     }
     
-    .icon__0bfbf {
+    .icon_d90b3d {
         width: 16px;
     }
 }
 
-.focused_a7ad64 .userMenuUsername_d2fe10 .userMenuDiscriminator__2334c, .focused_a7ad64 .userMenuUsername_d2fe10 .userMenuText_b1842d {
+.focused_e1268c .userMenuUsername_e1268c .userMenuDiscriminator_e1268c, .focused_e1268c .userMenuUsername_e1268c .userMenuText_e1268c {
     color: var(--contextmenu-text-hover);
 }

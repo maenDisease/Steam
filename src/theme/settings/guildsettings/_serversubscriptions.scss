@@ -1,30 +1,30 @@
-#app-mount .sidebarRegion__36437:has(.selected_a523ff[aria-controls="role_subscriptions-tab"])+.contentRegion__08eba {
-    .contentColumnDefault__78de3 {
+#app-mount .sidebarRegion_c25c6d:has(.selected_a0[aria-controls="role_subscriptions-tab"])+.contentRegion_c25c6d {
+    .contentColumnDefault_c25c6d {
         padding: 0 !important;
     }
 
-    .contentRegionScroller__9ae20 {
+    .contentRegionScroller_c25c6d {
         padding-top: 0;
     }
 }
 
-.contentRegionScroller__9ae20:has(.howItWorksContainer__025eb) {
+.contentRegionScroller_c25c6d:has(.howItWorksContainer_aa72d6) {
     background: #000;
 
     .settingsContent__75a7e {
         margin-right: 0;
     }
 
-    .card_bc6ee2 {
+    .card_ea91d1 {
         background: none;
         border-radius: 0;
     }
 
-    .divider_d6f39c {
+    .divider_ae36e5 {
         display: none;
     }
 
-    .container__174c5>div:has(.howItWorksContainer__025eb) {
+    .container_ea91d1>div:has(.howItWorksContainer_aa72d6) {
         background: linear-gradient(137.42deg, #00d5ff 0%, #d0266f 40%, #b9b500 100%);
         background-size: 300% 300%;
         animation: nitroGradient 20s ease infinite;
@@ -34,34 +34,34 @@
         padding-top: 4em;
     }
 
-    .container__174c5>div:has(>.creatorBenefitsContainer_c959ae) {
+    .container_ea91d1>div:has(>.creatorBenefitsContainer_da92c3) {
         background: #fff;
         padding-top: 4em;
         padding-bottom: 4em;
         --header-primary: #1b1b1b;
         --header-secondary: #1b1b1b;
 
-        .earningsPreviewContainer__2b25a {
+        .earningsPreviewContainer_da92c3 {
             background: rgb(0 0 0/.2) !important;
         }
 
-        .avatarCard__8d1e3 {
+        .avatarCard_da92c3 {
             background: rgb(0 0 0/.2)
         }
 
-        .revenueSharePercentageDark_ded27c {
+        .revenueSharePercentageDark_da92c3 {
             text-shadow: 0 2px 3px rgb(0 0 0/.3);
         }
     }
 
-    .container__174c5>div:last-child {
+    .container_ea91d1>div:last-child {
         padding: 4em 5em;
 
-        .guildCardHeaderAvatar_c2e74d {
+        .guildCardHeaderAvatar_adff39 {
             border-radius: 2px;
         }
 
-        .guildCardQuote__51017 {
+        .guildCardQuote_adff39 {
             [data-text-variant="text-lg/normal"] {
                 font-size: 16px;
                 line-height: 20px;
@@ -78,7 +78,7 @@
     }
 }
 
-.howItWorksContainer__025eb {
+.howItWorksContainer_aa72d6 {
     background: none;
     border-radius: 0;
     gap: 20px;
@@ -90,12 +90,12 @@
     padding: 20px;
 }
 
-.howItWorksImageContainer__33219 {
+.howItWorksImageContainer_aa72d6 {
     background: none;
     padding: 0;
 }
 
-.howItWorksContainer__025eb {
+.howItWorksContainer_aa72d6 {
     +span {
         display: none !important;
 

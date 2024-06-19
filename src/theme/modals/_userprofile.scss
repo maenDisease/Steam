@@ -1,15 +1,15 @@
-.root_a28985:has(.userProfileModalOuter__90b4a)::before {
+.root_f9a4c9:has(.userProfileModalOuter_c69a7b)::before {
     display: none;
 }
 
-.userProfileModalOuter__90b4a {
+.userProfileModalOuter_c69a7b {
     
     &.profileColors_ac6ab4 {
         --profile-gradient-secondary-color: rgb(0 0 0/.4);
         --profile-gradient-primary-color: rgb(0 0 0/.2);
     }
 
-    .topSection__2d8b8 {
+    .topSection_b9fccc {
         position: relative;
         margin-bottom: 0;
         z-index: unset;
@@ -17,7 +17,7 @@
         width: 100%;
     }
 
-    .header_dda341 {
+    .header_ec3b75 {
         position: absolute;
         bottom: calc(calc(120px + 24px) * -1);
         left: 0;
@@ -29,13 +29,13 @@
         justify-content: space-between;
         z-index: 2;
 
-        .avatar__445f3 {
+        .avatar_ec3b75 {
             position: relative;
             inset: unset;
             display: flex;
         }
 
-        .headerTop_e82f16 {
+        .headerTop_ec3b75 {
             position: relative;
             inset: unset;
             width: 200px;
@@ -43,7 +43,7 @@
         }
     }
 
-    .badgeList__126b0 {
+    .badgeList_ec3b75 {
         display: flex;
         flex-flow: row wrap;
         background: rgb(0 0 0/.3);
@@ -56,7 +56,7 @@
         gap: 6px 10px;
     }
 
-    .relationshipButtons_b880ad {
+    .relationshipButtons_ec3b75 {
         width: 100%;
         gap: 4px;
         margin-top: 12px;
@@ -91,12 +91,12 @@
         }
     }
 
-    .body_bd4552 {
+    .body_b9fccc {
         padding-top: calc(120px + 48px);
         position: relative;
     }
 
-    .container__9f51c {
+    .container_afed89 {
         position: absolute;
         top: 24px;
         left: 0;
@@ -116,7 +116,7 @@
         }
     }
 
-    .userProfileModalInner__84e47 {
+    .userProfileModalInner_c69a7b {
         overflow: hidden overlay;
         box-sizing: border-box;
         max-height: calc(100vh - 84px);
@@ -146,45 +146,45 @@
         }
     }
 
-    .overlayBackground__345c9,
-    .body_bd4552 {
+    .overlayBackground_c69a7b,
+    .body_b9fccc {
         overflow: visible;
     }
 
-    &.userProfileOuterUnthemed__9741c {
-        .bannerSVGWrapper__8a38c {
+    &.userProfileOuterUnthemed_c69a7b {
+        .bannerSVGWrapper_b32cc2 {
             position: absolute;
             inset: 0;
         }
 
-        .pencilContainer_ae6d25 {
+        .pencilContainer_c3e427 {
             display: none;
         }
 
-        .overlayBackground__345c9 {
+        .overlayBackground_c69a7b {
             margin-top: 0;
         }
 
     }
 
-    .top_fae1fa {
-        &:has(.item__48dda:nth-child(1):last-child) {
+    .top_a0 {
+        &:has(.item_a0:nth-child(1):last-child) {
             --btn-count: 1;
         }
 
-        &:has(.item__48dda:nth-child(2):last-child) {
+        &:has(.item_a0:nth-child(2):last-child) {
             --btn-count: 2;
         }
 
-        &:has(.item__48dda:nth-child(3):last-child) {
+        &:has(.item_a0:nth-child(3):last-child) {
             --btn-count: 3;
         }
 
-        &:has(.item__48dda:nth-child(4):last-child) {
+        &:has(.item_a0:nth-child(4):last-child) {
             --btn-count: 4;
         }
 
-        &:has(.item__48dda:nth-child(5):last-child) {
+        &:has(.item_a0:nth-child(5):last-child) {
             --btn-count: 5;
         }
 
@@ -195,14 +195,14 @@
         position: relative;
         border-bottom: none;
 
-        .item__48dda {
+        .item_a0 {
             background: none;
             margin: 0;
             display: flex;
             flex: 0 1 calc(100% / var(--btn-count));
             justify-content: center;
 
-            &:not(.selected_a523ff):hover {
+            &:not(.selected_a0):hover {
                 color: var(--interactive-hover);
             }
 
@@ -224,30 +224,30 @@
             transition: translate .2s ease;
         }
 
-        &:has(.selected_a523ff:nth-child(2)):before {
+        &:has(.selected_a0:nth-child(2)):before {
             translate: 100%;
         }
 
-        &:has(.selected_a523ff:nth-child(3)):before {
+        &:has(.selected_a0:nth-child(3)):before {
             translate: 200%;
         }
 
-        &:has(.selected_a523ff:nth-child(4)):before {
+        &:has(.selected_a0:nth-child(4)):before {
             translate: 300%;
         }
 
-        &:has(.selected_a523ff:nth-child(5)):before {
+        &:has(.selected_a0:nth-child(5)):before {
             translate: 400%;
         }
     }
 
-    .scrollerBase_f742b2 {
+    .scrollerBase_eed6a8 {
         overflow: hidden overlay !important;
         padding: 0 !important;
         margin: 16px 12px 12px 12px;
     }
 
-    .userInfoText_b87307 {
+    .userInfoText_a24910 {
         margin-bottom: 0;
 
         .lineClamp2Plus_d4306b {
@@ -255,7 +255,7 @@
         }
     }
 
-    .userInfoSection_e816c1 {
+    .userInfoSection_a24910 {
         padding: 0;
 
         h1 {
@@ -278,23 +278,23 @@
         }
     }
 
-    .note__7a4f4 {
+    .note_a24910 {
         margin: 0 0 12px 0;
     }
 
-    .userInfoText_b87307 [data-text-variant="text-sm/normal"] {
+    .userInfoText_a24910 [data-text-variant="text-sm/normal"] {
         background: rgb(0 0 0/.3);
         padding: 8px;
         border-radius: 5px;
     }
 
-    .tabBarContainer_b283be {
+    .tabBarContainer_b9fccc {
         border-bottom: 0;
         margin: 0 12px;
     }
 
-    &:has(.connectedAccountsColumn__57331) {
-        .infoScroller__0920a {
+    &:has(.connectedAccountsColumn_f3eb60) {
+        .infoScroller_a24910 {
             flex-flow: row wrap;
             display: grid;
             grid-template-columns: 1fr 200px;
@@ -305,13 +305,13 @@
         }
     }
 
-    .userInfoSection_e816c1+.userInfoSection_e816c1 {
+    .userInfoSection_a24910+.userInfoSection_a24910 {
         border-top: none;
     }
 
     .memberSinceContainer__16630 {
 
-        .userInfoText_b87307 {
+        .userInfoText_a24910 {
             font-size: 34px;
             line-height: 38px;
             font-weight: 200;
@@ -324,13 +324,13 @@
         }
     }
 
-    .infoScroller__0920a {
+    .infoScroller_a24910 {
 
-        .userInfoSection_e816c1:not(.connectedAccounts__7a8e6) {
+        .userInfoSection_a24910:not(.connectedAccounts_f3eb60) {
             grid-area: info;
         }
 
-        .connectedAccounts__7a8e6 {
+        .connectedAccounts_f3eb60 {
             grid-area: accounts;
             flex-direction: column;
             background: rgb(0 0 0/.3);
@@ -345,15 +345,15 @@
         }
     }
 
-    .connectedAccountsColumn__57331 {
+    .connectedAccountsColumn_f3eb60 {
         width: 100%;
 
-        +.connectedAccountsColumn__57331 {
+        +.connectedAccountsColumn_f3eb60 {
             margin-left: 0;
         }
     }
 
-    .connectedAccountContainer__5972d {
+    .connectedAccountContainer_f3eb60 {
         margin: 0 0 4px 0;
         padding: 4px 0 4px 4px;
         border-radius: 0;
@@ -362,30 +362,30 @@
         position: relative;
     }
 
-    .connectedAccount__75282 {
+    .connectedAccount_f3eb60 {
         gap: 7px;
     }
 
-    .connectedAccountIcon_e85011 {
+    .connectedAccountIcon_f3eb60 {
         height: 34px;
         width: 34px;
     }
 
-    .connectedAccountNameText__7abc2 {
+    .connectedAccountNameText_f3eb60 {
         font-size: 13px;
         line-height: 17px;
         font-weight: 400;
     }
 
-    .connectedAccountChildren_abff48 {
+    .connectedAccountChildren_f3eb60 {
         margin-left: calc(34px + 7px);
     }
 
-    .connectedAccountVerifiedIcon__103a6 {
+    .connectedAccountVerifiedIcon_f3eb60 {
         display: none;
     }
 
-    .anchor_c8ddc0:has(.connectedAccountOpenIcon__23b1a) {
+    .anchor_af404b:has(.connectedAccountOpenIcon_f3eb60) {
         &:hover {
             background: var(--btn-brand-hover);
             border-radius: 2px;
@@ -402,7 +402,7 @@
         }
     }
 
-    .listScroller__18a19 {
+    .listScroller_e4be58 {
         display: grid;
         grid-template-columns: repeat(2, minmax(0, 1fr));
         grid-gap: 7px;
@@ -412,7 +412,7 @@
         width: calc(100% - 12px - 10px);
     }
 
-    .listRow__50619 {
+    .listRow_e4be58 {
         background: rgb(0 0 0/.3);
         padding: 8px;
         border-radius: 5px;
@@ -420,29 +420,29 @@
         height: fit-content;
     }
 
-    .listName__028b9 {
+    .listName_e4be58 {
         font-size: 14px;
         line-height: 18px;
     }
 
-    .guildNick_d76c11 {
+    .guildNick_b26403 {
         font-size: 13px;
         line-height: 17px;
     }
 
-    .userProfileActivity__0988f {
+    .userProfileActivity_fc39e7 {
         grid-column: span 2;
         background: rgb(0 0 0/.3);
         padding: 8px;
         border-radius: 5px;
     }
 
-    .empty__18e40 {
+    .empty_e4be58 {
         grid-column: span 2;
     }
 }
 
-.assetsLargeImage__57902,
-.iconActiveMedium__24185 {
+.assetsLargeImage_d5089b,
+.iconActiveMedium_f11207 {
     border-radius: 0;
 }

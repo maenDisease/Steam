@@ -1,5 +1,5 @@
-.root_a28985:has(.overviewSteps-eGJA8e) {
-    .sequencer-3ojOk0 {
+.root_f9a4c9:has([class*="overviewSteps"]) {
+    [class*="sequencer"] {
         padding: 32px 0 0 0;
     }
 
@@ -24,7 +24,7 @@
         margin-bottom: 0;
     }
 
-    .button_afdfd9 {
+    .button_dd4f85 {
         height: 34px;
         min-height: 34px;
         padding: 8px 14px;
@@ -42,8 +42,8 @@
     }
 }
 
-.checkboxWrapper__02583.row_f4c450,
-.checkboxWrapper__02583.row_f4c450.checked__24ad6 {
+.checkboxWrapper_f6cde8.row_f6cde8,
+.checkboxWrapper_f6cde8.row_f6cde8.checked_f6cde8 {
     background: var(--btn-grey);
     border-radius: 2px;
     transition-property: background, box-shadow, color;

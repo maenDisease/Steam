@@ -1,13 +1,13 @@
-.homeContainer_c36871 {
+.homeContainer_e85cee {
     margin-top: var(--content-gutter);
     padding: 0 0 32px 0;
     position: relative;
 
-    .maxWidthWrapper__64962 {
+    .maxWidthWrapper_e85cee {
         max-width: unset;
     }
 
-    .header__09049 {
+    .header_d32e26 {
         margin-top: 52px;
         padding-bottom: 12px;
         background: linear-gradient(to right, transparent 50%, rgb(0 0 0/.4) 100%);
@@ -16,25 +16,25 @@
         gap: 16px;
     }
 
-    .headerArtWrapper__31b51 {
+    .headerArtWrapper_d32e26 {
         margin-left: unset;
         margin-right: unset;
         border-radius: 0;
         width: 100%;
     }
 
-    .headerArt__1cd19 {
+    .headerArt_d32e26 {
         border-radius: 0;
         background-position: center;
     }
 
-    .headerIcon_f56272 {
+    .headerIcon_d32e26 {
         margin: 16px 16px 16px 0;
         border: none;
         background-color: transparent;
     }
 
-    div.headerName_b10e0f {
+    div.headerName_d32e26 {
         position: absolute;
         top: 0;
         left: 0;
@@ -53,8 +53,8 @@
     }
 
 
-    .container__541ec,
-    .container__9f322 {
+    .container_e3f878,
+    .container_b53f4f {
         padding-top: 30px;
         gap: 2px;
 
@@ -81,9 +81,9 @@
         }
     }
 
-    .container__541ec {
+    .container_e3f878 {
 
-        .action__94060 {
+        .action_e3f878 {
             padding: 4px 8px;
             background: var(--banner-lightblue);
             transition: none;
@@ -92,33 +92,33 @@
             &:hover {
                 background-color: var(--banner-lightblue-hover);
 
-                .checkCircle__5103d {
+                .checkCircle_e3f878 {
                     color: #fff;
                 }
             }
 
             &:hover,
-            &:has(.checkCircleCompleted__90309) {
+            &:has(.checkCircleCompleted_e3f878) {
 
-                .channelIconContainer__67756,
-                .rulesIconContainer__0c984 {
+                .channelIconContainer_e3f878,
+                .rulesIconContainer_e3f878 {
                     svg {
                         color: #fff;
                     }
                 }
             }
 
-            &:has(.checkCircleCompleted__90309) {
+            &:has(.checkCircleCompleted_e3f878) {
                 background: linear-gradient(60deg, rgb(117 176 34/.7) 5%, rgb(88 138 27/.6) 95%);
             }
 
-            .large_cbd54d {
+            .large_b37d25 {
                 width: 16px;
                 height: 16px;
             }
 
-            .channelIconContainer__67756,
-            .rulesIconContainer__0c984 {
+            .channelIconContainer_e3f878,
+            .rulesIconContainer_e3f878 {
                 width: 18px;
                 height: 18px;
                 border-radius: 0;
@@ -130,12 +130,12 @@
                 }
             }
 
-            .checkCircle__5103d {
+            .checkCircle_e3f878 {
                 height: 18px;
                 width: 18px;
             }
 
-            .checkCircleCompleted__90309 {
+            .checkCircleCompleted_e3f878 {
                 height: 18px;
                 width: 18px;
                 color: #fff;
@@ -145,15 +145,15 @@
                 }
             }
 
-            &:not(:hover, :has(.checkCircleCompleted__90309)) {
+            &:not(:hover, :has(.checkCircleCompleted_e3f878)) {
                 --header-primary: hsl(calc(var(--accent-hue) + 2) calc(var(--saturation-factor, 1)*11.5%) 69.4%);
             }
 
-            &:hover:not(:has(.checkCircleCompleted__90309)) {
+            &:hover:not(:has(.checkCircleCompleted_e3f878)) {
                 --text-muted: #fff;
             }
 
-            .actionInfo__1ac38 {
+            .actionInfo_e3f878 {
                 display: flex;
                 flex-direction: row;
             }
@@ -166,10 +166,10 @@
         }
     }
 
-    .container__9f322 {
+    .container_b53f4f {
         margin-top: 0;
 
-        .row__4f559 {
+        .row_b53f4f {
             padding: 8px;
             background: var(--banner-lightblue);
             transition: none;
@@ -179,7 +179,7 @@
                 background-color: var(--banner-lightblue-hover);
             }
 
-            .title__0ba32 {
+            .title_b53f4f {
                 margin-bottom: 0;
                 font-size: 12px;
                 line-height: unset;
@@ -193,7 +193,7 @@
                 font-weight: 400;
             }
 
-            .media_a5d930 {
+            .media_b53f4f {
                 border-radius: 3px;
             }
         }
@@ -201,36 +201,36 @@
 }
 
 @media (min-width: 1300px) {
-    .homeContainer_c36871 {
-        .headerArt__1cd19 {
+    .homeContainer_e85cee {
+        .headerArt_d32e26 {
             height: 338px;
             padding-top: 0;
         }
 
-        .header__09049 {
+        .header_d32e26 {
             grid-template-columns: 1fr 324px;
         }
     }
 }
 
-.iconActiveXLarge_e200c8 {
+.iconActiveXLarge_f11207 {
     border-radius: 3px;
 }
 
-.homeContent_e458e8 {
+.homeContent_e85cee {
     margin-top: 0;
     gap: var(--content-gutter);
 
 }
 
 @media (max-width: 1300px) {
-    .homeContent_e458e8 {
+    .homeContent_e85cee {
         max-width: var(--content-inner-width);
         margin-left: 0;
     }
 }
 
-.sidebarCardWrapper__98124:has(.guildDescription_e1a241) {
+.sidebarCardWrapper_e85cee:has(.guildDescription_e85cee) {
     position: absolute;
     top: calc(52px + 16px + 100px + 8px);
     width: 324px;
@@ -245,23 +245,23 @@
         display: none;
     }
 
-    .guildDescription_e1a241 {
+    .guildDescription_e85cee {
         --text-normal: hsl(calc(var(--accent-hue) + 1) calc(var(--saturation-factor, 1)*28.1%) 82.5%);
         font-size: 14px;
         line-height: 18px;
     }
 
-    .guildInfoText_db8170 {
+    .guildInfoText_e85cee {
         line-height: 20px;
     }
 }
 
-.sidebar_fa53ea {
+.sidebar_e85cee {
     width: 308px;
     min-width: 308px;
 }
 
-.sidebarCardWrapper__98124:not(:has(.guildDescription_e1a241)) {
+.sidebarCardWrapper_e85cee:not(:has(.guildDescription_e85cee)) {
     background: var(--store-sidebar-background);
     border-radius: 0;
 
@@ -274,12 +274,12 @@
     }
 }
 
-.resourceChannelsList__45019 {
+.resourceChannelsList_e85cee {
     margin: 0;
     gap: 2px;
 }
 
-.resourceChannel__12be0 {
+.resourceChannel_e85cee {
     color: var(--btn-brand-text);
     border-radius: 1px;
     padding: 4px 0 4px 8px;
@@ -290,7 +290,7 @@
         color: #fff;
     }
 
-    .resourceImageBase_b39084 {
+    .resourceImageBase_e85cee {
         border-radius: 2px;
     }
 
@@ -300,32 +300,32 @@
     }
 }
 
-.welcomeMessageContainer__3f43b {
+.welcomeMessageContainer_a1289e {
 
-    .welcomeMessageContent__26562 {
+    .welcomeMessageContent_a1289e {
         padding: 4px 16px 16px;
         z-index: 1;
     }
 
-    .userProfileOuter__35e59,
-    .userProfileInner__8ff35 {
+    .userProfileOuter_c69a7b,
+    .userProfileInner_c69a7b {
         border-radius: 4px;
     }
 
-    .userCardInner_e36852 {
+    .userCardInner_c69a7b {
         border-radius: 4px;
         background: none;
     }
 
-    .wrapper__3ed10 {
+    .wrapper_c51b4e {
         #app-mount & {
             border-radius: 4px;
             overflow: hidden;
         }
     }
 
-    .avatarBackground_c0a21e,
-    .avatarBorder_d374d6 {
+    .avatarBackground_a1289e,
+    .avatarBorder_a1289e {
         border-radius: 4px;
     }
 
@@ -336,9 +336,9 @@
     }
 }
 
-.messagesWrapper_add28b .scrollerInner__37fee[data-list-id=chat-messages]:not(:has(.wrapper__11501)) {
-    .navigationDescription__4e2ab:first-child+.divider__01aed+.messageListItem__050f9 {
-        .message_ccca67 {
+.messagesWrapper_e2e187 .scrollerInner_e2e187[data-list-id=chat-messages]:not(:has(.wrapper_ba0ffb)) {
+    .navigationDescription_e2e187:first-child+.divider_d5deea+.messageListItem_d5deea {
+        .message_d5deea {
             #app-mount & {
                 background: none;
                 border: none;
@@ -347,7 +347,7 @@
         }
     }
 
-    &:has(.navigationDescription__4e2ab:first-child+.divider__01aed+.messageListItem__050f9) {
+    &:has(.navigationDescription_e2e187:first-child+.divider_d5deea+.messageListItem_d5deea) {
         &::before {
             top: 32px;
         }

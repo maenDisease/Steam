@@ -1,29 +1,29 @@
 /*
-userProfileOuter__35e59: popout, modal
-userPopoutOuter_d67f56: popout
-userProfileModalOuter__90b4a: modal
+userProfileOuter_c69a7b: popout, modal
+userPopoutOuter_c69a7b: popout
+userProfileModalOuter_c69a7b: modal
 */
 
 // Popout
-.userProfileOuter__35e59 {
+.userProfileOuter_c69a7b {
     border-radius: 0;
 
-    &.userProfileOuterThemed_a425f3 {
+    &.userProfileOuterThemed_c69a7b {
         padding: 2px;
     }
 
-    .userProfileInnerThemedWithBanner_e9e7c5 {
-        .wrapper__3ed10 {
+    .userProfileInnerThemedWithBanner_c69a7b {
+        .wrapper_c51b4e {
             backdrop-filter: blur(8px);
         }
     }
 }
 
-.userPopoutOuter_d67f56 {
+.userPopoutOuter_c69a7b {
     box-shadow: 0 10px 32px 0 #000000ab;
 }
 
-.userProfileInner__8ff35 {
+.userProfileInner_c69a7b {
     border-radius: 0;
 
     &:before {
@@ -34,49 +34,49 @@ userProfileModalOuter__90b4a: modal
 }
 
 // Avatar
-.avatarWrapper__0cd44 {
+.avatarWrapper_f89da9 {
     border-radius: 0;
     left: 16px;
     box-shadow: 1px 3px 14px rgb(0 0 0/.65);
     z-index: 2;
 }
 
-.avatarPositionPremiumBanner_f3acc4,
-.avatarPositionPremiumNoBanner__8beba {
+.avatarPositionPremiumBanner_f89da9,
+.avatarPositionPremiumNoBanner_f89da9 {
     top: 16px;
 }
 
 #app-mount {
 
-    .avatarHoverTarget__9b4a9,
-    .avatarHint__15059,
-    .avatar__445f3 {
+    .avatarHoverTarget_f89da9,
+    .avatarHint_f89da9,
+    .avatar_ec3b75 {
         padding: 0;
     }
 }
 
-.avatarHoverTarget__9b4a9 {
+.avatarHoverTarget_f89da9 {
     border-radius: 0;
 }
 
-.avatarHint__15059 {
+.avatarHint_f89da9 {
     foreignObject {
         mask: none;
     }
 }
 
 // Banner
-.bannerSVGWrapper__8a38c {
+.bannerSVGWrapper_b32cc2 {
     foreignObject {
         mask: none;
     }
 }
 
-.roundedBanner__16aa6 {
+.roundedBanner_c3e427 {
     border-radius: 0;
 }
 
-.pencilContainer_ae6d25 {
+.pencilContainer_c3e427 {
     border-radius: 2px;
     transition: none;
 
@@ -91,11 +91,11 @@ userProfileModalOuter__90b4a: modal
 }
 
 // Username section
-.overlayBackground__345c9:has(.userText_c26b46) {
+.overlayBackground_c69a7b:has(.userText_c9ccf6) {
     overflow: visible;
 }
 
-.section__62b44:has(.userText_c26b46) {
+.section_d7a21f:has(.userText_c9ccf6) {
     position: absolute;
     top: calc((var(--header-height) * -1) + 16px);
     left: 0;
@@ -117,25 +117,25 @@ userProfileModalOuter__90b4a: modal
         width: fit-content;
     }
 
-    .userTagUsernameBase__2bd24 {
+    .userTagUsernameBase_c9ccf6 {
         pointer-events: auto;
     }
 
-    .userTag__45349 {
+    .userTag_c9ccf6 {
         font-weight: 300;
         width: 100%;
     }
 
-    .nameTag__1d385 {
+    .nameTag_be84f0 {
         overflow: unset;
         pointer-events: auto;
     }
 
-    .info__40462 {
+    .info_e86508 {
         overflow: unset;
     }
 
-    .pronouns__8aa38 {
+    .pronouns_c9ccf6 {
         font-size: 12px;
         pointer-events: auto;
     }
@@ -145,7 +145,7 @@ userProfileModalOuter__90b4a: modal
     }
 }
 
-.profileBadges__1f2ab {
+.profileBadges_f89da9 {
     position: absolute;
     top: calc(var(--header-height) + 16px);
     width: calc(100% - 32px);
@@ -159,7 +159,7 @@ userProfileModalOuter__90b4a: modal
     justify-content: center;
 }
 
-.profileBadge22_e4866d {
+.profileBadge22_b64375 {
     filter: drop-shadow(1px 1px 2px #000);
 }
 
@@ -182,26 +182,26 @@ userProfileModalOuter__90b4a: modal
     }
 }
 
-.overlayBackground__345c9 {
+.overlayBackground_c69a7b {
     margin-top: calc((var(--banner-height) * -1) + var(--header-height));
     margin-left: 0;
     margin-right: 0;
     margin-bottom: 0;
 }
 
-.userPopoutOuter_d67f56:has(.containerWithContent_a67357) .overlayBackground__345c9 {
+.userPopoutOuter_c69a7b:has(.containerWithContent_b64375) .overlayBackground_c69a7b {
     padding-top: calc(22px + 16px);
 
-    &:not(:has(.customStatusSection_c9f9ba)) {
+    &:not(:has(.customStatusSection_d2b491)) {
         padding-top: calc(22px + 16px + 16px);
     }
 }
 
-.theme-light .overlayBackground__345c9 {
+.theme-light .overlayBackground_c69a7b {
     background: linear-gradient(to bottom, hsl(calc(var(--accent-hue) + 15) calc(var(--saturation-factor, 1)*11.1%) 39%/.7) 5%, hsl(calc(var(--accent-hue) + 15) calc(var(--saturation-factor, 1)*11.1%) 89%/.4) 95%);
 }
 
-.profileColors_ac6ab4 .overlayBackground__345c9 {
+.profileColors_ac6ab4 .overlayBackground_c69a7b {
     box-shadow: none;
 }
 
@@ -210,17 +210,17 @@ userProfileModalOuter__90b4a: modal
     justify-content: center;
 }
 
-.overlayBackground__345c9 {
+.overlayBackground_c69a7b {
     border-radius: 0;
     background: linear-gradient(to bottom, hsl(calc(var(--accent-hue) + 15) calc(var(--saturation-factor, 1)*11.1%) 10.6%/.7) 5%, hsl(calc(var(--accent-hue) + 15) calc(var(--saturation-factor, 1)*11.1%) 10.6%/.4) 95%);
 
-    .customStatusSection_c9f9ba {
+    .customStatusSection_d2b491 {
         padding-top: 16px;
         padding-right: 16px;
         padding-left: 16px;
     }
 
-    .scroller_f9a667 {
+    .scroller_d2b491 {
         padding: 0 16px !important;
         overflow: hidden overlay !important;
         display: flex;
@@ -228,7 +228,7 @@ userProfileModalOuter__90b4a: modal
         max-height: calc(100vh - 200px);
     }
 
-    .title__392bc {
+    .title_c4a579 {
         letter-spacing: .5px;
     }
 
@@ -236,12 +236,12 @@ userProfileModalOuter__90b4a: modal
     .text-sm-normal__95a78,
     .text-sm-bold_ad6d44,
     .text-sm-semibold_a5824d,
-    .textRow_c835f1 {
+    .textRow_d5089b {
         font-size: 13px;
         line-height: 17px;
     }
 
-    .note_ba0c31 {
+    .note_c90ad7 {
         textarea {
             height: fit-content !important;
             max-height: fit-content;
@@ -255,7 +255,7 @@ userProfileModalOuter__90b4a: modal
         }
     }
 
-    .lastSection__62986 {
+    .lastSection_d7a21f {
         padding-bottom: 16px;
     }
 
@@ -266,14 +266,14 @@ userProfileModalOuter__90b4a: modal
     }
 }
 
-.section__62b44:has(.activity__20c1e) {
+.section_d7a21f:has(.activity__20c1e) {
     background: rgb(0 0 0/.2);
     margin: 0 -16px;
     padding: 16px;
     order: -1;
 }
 
-.role_d81130 {
+.role_f9575e {
     background: rgb(0 0 0/.3);
     border-radius: 3px;
 }

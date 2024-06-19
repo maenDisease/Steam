@@ -1,4 +1,4 @@
-.root_a28985:has(img[alt="characters playing a game"]) {
+.root_f9a4c9:has(img[alt="characters playing a game"]) {
     .shelfTopBackground-R55ED9 {
         position: absolute;
         top: 16px;
@@ -8,13 +8,13 @@
         width: 120px;
     }
 
-    .header__5e5a6 {
-        .headerTextContainer-16tB2v {
+    .header_f9a4c9 {
+        [class*="headerTextContainer"] {
             -webkit-box-align: start;
             align-items: start;
             width: calc(100% - 140px);
 
-            .activityShelfTitle-1rkbSI {
+            [class*="activityShelfTitle"] {
                 justify-content: left;
                 margin-top: 0;
             }
@@ -33,25 +33,25 @@
         }
     }
 
-    .modalDivider-MtZbPb {
+    [class*="modalDivider"] {
         display: none;
     }
 
-    .scrollBackgroundContainer-1gy1Hx {
+    [class*="scrollBackgroundContainer"] {
         display: none;
     }
 
-    .scroller-3oxliS {
+    .scroller_f09e45 {
         overflow: overlay !important;
     }
 
-    .scrollSection-HnJkHK {
+    .scrollSection_f09e45 {
         padding-left: 32px;
         padding-right: 32px;
         padding-bottom: 32px;
     }
 
-    .shelf-3D6g4D {
+    .shelf_f09e45 {
         display: grid;
         margin-top: 1em;
         margin-bottom: 1em;
@@ -59,7 +59,7 @@
         gap: 10px;
     }
 
-    .activityItem__2bb92 {
+    .activityItem_d46b95 {
         width: unset;
         height: fit-content;
         border-radius: 2px;
@@ -75,27 +75,27 @@
             box-shadow: var(--btn-grey-boxshadow);
         }
 
-        .activityImageContainer__70d51 {
+        .activityImageContainer_d46b95 {
             border-radius: 2px;
             margin-bottom: 10px;
         }
 
-        .activityTextContainer__930a7{
+        .activityTextContainer_d46b95{
             padding: 0;
         }
 
-        .activityName_ac9d46 {
+        .activityName_d46b95 {
             width: 100%;
             justify-content: center;
         }
 
-        .activityTitleText-3LZ9o5 {
+        .activityTitleText_d46b95 {
             font-size: 16px;
             font-weight: 400;
             line-height: 20px;
         }
 
-        .activitySubtitleText__221fc{
+        .activitySubtitleText_d46b95{
             max-height: unset;
             margin-bottom: 10px;
             font-size: 14px;
@@ -105,12 +105,12 @@
 
         }
 
-        .activityTagsContainer__772de {
+        .activityTagsContainer_d46b95 {
             width: 100%;
             justify-content: center;
         }
 
-        .activityTag__1f89a {
+        .activityTag_d46b95 {
             background-color: rgb(0 0 0/.2);
             border-radius: 2px;
             height: 20px;
