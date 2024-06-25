@@ -1,26 +1,53 @@
+:root {
+    --custom-user-profile-width-bite-size : 328px;
+}
 /*
 userProfileOuter_c69a7b: popout, modal
 userPopoutOuter_c69a7b: popout
-userProfileModalOuter_c69a7b: modal
+fullSizeOuter_c69a7b: modal
 */
 
 // Popout
 .userProfileOuter_c69a7b {
     border-radius: 0;
+    box-shadow: 0 10px 32px 0 #000000ab;
 
-    &.userProfileOuterThemed_c69a7b {
+    &:has(.bannerPremium_c3e427) {
         padding: 2px;
-    }
 
-    .userProfileInnerThemedWithBanner_c69a7b {
         .wrapper_c51b4e {
             backdrop-filter: blur(8px);
         }
     }
-}
 
-.userPopoutOuter_c69a7b {
-    box-shadow: 0 10px 32px 0 #000000ab;
+    header {
+        .clickable_cc54d6 {
+            top: 16px;
+            left: 0;
+        }
+
+        .wrapper_c51b4e {
+            border-radius: 0;
+            left: 16px;
+            box-shadow: 1px 3px 14px rgb(0 0 0/.65);
+            z-index: 2;
+
+            &::before {
+                display: none;
+            }
+        }
+
+        >div:not([class]) {
+            position: absolute;
+            top: 0;
+        }
+    }
+
+    :where(.button_f1cdcc).banner_f1cdcc {
+        border-radius: 2px;
+        width: 20px;
+        height: 20px;
+    }
 }
 
 .userProfileInner_c69a7b {
@@ -33,38 +60,6 @@ userProfileModalOuter_c69a7b: modal
     }
 }
 
-// Avatar
-.avatarWrapper_f89da9 {
-    border-radius: 0;
-    left: 16px;
-    box-shadow: 1px 3px 14px rgb(0 0 0/.65);
-    z-index: 2;
-}
-
-.avatarPositionPremiumBanner_f89da9,
-.avatarPositionPremiumNoBanner_f89da9 {
-    top: 16px;
-}
-
-#app-mount {
-
-    .avatarHoverTarget_f89da9,
-    .avatarHint_f89da9,
-    .avatar_ec3b75 {
-        padding: 0;
-    }
-}
-
-.avatarHoverTarget_f89da9 {
-    border-radius: 0;
-}
-
-.avatarHint_f89da9 {
-    foreignObject {
-        mask: none;
-    }
-}
-
 // Banner
 .bannerSVGWrapper_b32cc2 {
     foreignObject {
@@ -72,96 +67,68 @@ userProfileModalOuter_c69a7b: modal
     }
 }
 
-.roundedBanner_c3e427 {
-    border-radius: 0;
-}
-
-.pencilContainer_c3e427 {
-    border-radius: 2px;
-    transition: none;
-
-    &:hover {
-        background: rgb(0 0 0 / .6);
-    }
-
-    svg {
-        height: 18px;
-        width: 18px;
-    }
-}
-
-// Username section
-.overlayBackground_c69a7b:has(.userText_c9ccf6) {
-    overflow: visible;
-}
-
-.section_d7a21f:has(.userText_c9ccf6) {
+.container_c32acf {
     position: absolute;
-    top: calc((var(--header-height) * -1) + 16px);
+    top: 16px;
     left: 0;
+    outline: 1px dashed cyan;
     padding: 0 0 0 calc(16px + 82px + 16px);
     height: 82px;
     display: flex;
-    align-items: center;
+    box-sizing: border-box;
+    overflow: visible;
+    justify-content:center;
+    flex-direction: column;
     text-shadow: 1px 1px 4px #000;
     width: 100%;
     box-sizing: border-box;
     --header-primary: #fff;
     --text-normal: #bbb;
-    pointer-events: none;
 
-    [data-text-variant="heading-lg/semibold"] {
+    h1 {
         font-weight: 300;
         letter-spacing: 1px;
         pointer-events: auto;
         width: fit-content;
+        overflow: visible;
     }
 
-    .userTagUsernameBase_c9ccf6 {
-        pointer-events: auto;
+    .nicknameIcons_c32acf {
+        position: absolute;
+        top: 0;
+        left: 0;
     }
 
-    .userTag_c9ccf6 {
-        font-weight: 300;
-        width: 100%;
-    }
-
-    .nameTag_be84f0 {
-        overflow: unset;
-        pointer-events: auto;
-    }
-
-    .info_e86508 {
-        overflow: unset;
-    }
-
-    .pronouns_c9ccf6 {
+    .userTag_c32acf {
         font-size: 12px;
+        font-weight: 300;
         pointer-events: auto;
+        overflow: visible;
     }
 
-    +.divider_e6f9ab {
-        display: none;
+    .container_e5a42d {
+        background: none;
+        border: none;
+        filter: drop-shadow(1px 1px 2px #000);
     }
+
 }
-
-.profileBadges_f89da9 {
-    position: absolute;
-    top: calc(var(--header-height) + 16px);
-    width: calc(100% - 32px);
-    max-width: calc(100% - 32px);
-    padding: 0;
-    gap: 4px;
+.body_a45fe8 {
     z-index: 2;
-    background: none;
-    box-shadow: none;
-    -webkit-box-pack: center;
-    justify-content: center;
 }
 
-.profileBadge22_b64375 {
-    filter: drop-shadow(1px 1px 2px #000);
-}
+// .invisibleContainer_d0a252.biteSize_d0a252 {
+//     top: 16px;
+//     left: 106px;
+//     position: absolute;
+// }
+
+// .visibleContainer_d0a252.biteSize_d0a252 {
+//     top: calc(16px + 20px);
+//     left: 106px;
+// }
+
+// Username section
 
 // Body
 
