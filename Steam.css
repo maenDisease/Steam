@@ -13603,24 +13603,47 @@ video:has([src="/assets/b6508869eb1b93a8e54729ac86985599.png"]) {
   width: 18px;
 }
 
+:root {
+  --custom-user-profile-width-bite-size: 328px;
+}
+
 /*
 userProfileOuter_c69a7b: popout, modal
 userPopoutOuter_c69a7b: popout
-userProfileModalOuter_c69a7b: modal
+fullSizeOuter_c69a7b: modal
 */
 .userProfileOuter_c69a7b {
   border-radius: 0;
+  box-shadow: 0 10px 32px 0 rgba(0, 0, 0, 0.6705882353);
 }
-.userProfileOuter_c69a7b.userProfileOuterThemed_c69a7b {
+.userProfileOuter_c69a7b:has(.bannerPremium_c3e427) {
   padding: 2px;
 }
-.userProfileOuter_c69a7b .userProfileInnerThemedWithBanner_c69a7b .wrapper_c51b4e {
+.userProfileOuter_c69a7b:has(.bannerPremium_c3e427) .wrapper_c51b4e {
   -webkit-backdrop-filter: blur(8px);
           backdrop-filter: blur(8px);
 }
-
-.userPopoutOuter_c69a7b {
-  box-shadow: 0 10px 32px 0 rgba(0, 0, 0, 0.6705882353);
+.userProfileOuter_c69a7b header .clickable_cc54d6 {
+  top: 16px;
+  left: 0;
+}
+.userProfileOuter_c69a7b header .wrapper_c51b4e {
+  border-radius: 0;
+  left: 16px;
+  box-shadow: 1px 3px 14px rgba(0, 0, 0, 0.65);
+  z-index: 2;
+}
+.userProfileOuter_c69a7b header .wrapper_c51b4e::before {
+  display: none;
+}
+.userProfileOuter_c69a7b header > div:not([class]) {
+  position: absolute;
+  top: 0;
+}
+.userProfileOuter_c69a7b :where(.button_f1cdcc).banner_f1cdcc {
+  border-radius: 2px;
+  width: 20px;
+  height: 20px;
 }
 
 .userProfileInner_c69a7b {
@@ -13632,117 +13655,56 @@ userProfileModalOuter_c69a7b: modal
   width: calc(100% - 4px);
 }
 
-.avatarWrapper_f89da9 {
-  border-radius: 0;
-  left: 16px;
-  box-shadow: 1px 3px 14px rgba(0, 0, 0, 0.65);
-  z-index: 2;
-}
-
-.avatarPositionPremiumBanner_f89da9,
-.avatarPositionPremiumNoBanner_f89da9 {
-  top: 16px;
-}
-
-#app-mount .avatarHoverTarget_f89da9,
-#app-mount .avatarHint_f89da9,
-#app-mount .avatar_ec3b75 {
-  padding: 0;
-}
-
-.avatarHoverTarget_f89da9 {
-  border-radius: 0;
-}
-
-.avatarHint_f89da9 foreignObject {
-  -webkit-mask: none;
-          mask: none;
-}
-
 .bannerSVGWrapper_b32cc2 foreignObject {
   -webkit-mask: none;
           mask: none;
 }
 
-.roundedBanner_c3e427 {
-  border-radius: 0;
-}
-
-.pencilContainer_c3e427 {
-  border-radius: 2px;
-  transition: none;
-}
-.pencilContainer_c3e427:hover {
-  background: rgba(0, 0, 0, 0.6);
-}
-.pencilContainer_c3e427 svg {
-  height: 18px;
-  width: 18px;
-}
-
-.overlayBackground_c69a7b:has(.userText_c9ccf6) {
-  overflow: visible;
-}
-
-.section_d7a21f:has(.userText_c9ccf6) {
+.container_c32acf {
   position: absolute;
-  top: calc(var(--header-height) * -1 + 16px);
+  top: 16px;
   left: 0;
+  outline: 1px dashed cyan;
   padding: 0 0 0 114px;
   height: 82px;
   display: flex;
-  align-items: center;
+  box-sizing: border-box;
+  overflow: visible;
+  justify-content: center;
+  flex-direction: column;
   text-shadow: 1px 1px 4px #000;
   width: 100%;
   box-sizing: border-box;
   --header-primary: #fff;
   --text-normal: #bbb;
-  pointer-events: none;
 }
-.section_d7a21f:has(.userText_c9ccf6) [data-text-variant="heading-lg/semibold"] {
+.container_c32acf h1 {
   font-weight: 300;
   letter-spacing: 1px;
   pointer-events: auto;
   width: -moz-fit-content;
   width: fit-content;
+  overflow: visible;
 }
-.section_d7a21f:has(.userText_c9ccf6) .userTagUsernameBase_c9ccf6 {
-  pointer-events: auto;
-}
-.section_d7a21f:has(.userText_c9ccf6) .userTag_c9ccf6 {
-  font-weight: 300;
-  width: 100%;
-}
-.section_d7a21f:has(.userText_c9ccf6) .nameTag_be84f0 {
-  overflow: unset;
-  pointer-events: auto;
-}
-.section_d7a21f:has(.userText_c9ccf6) .info_e86508 {
-  overflow: unset;
-}
-.section_d7a21f:has(.userText_c9ccf6) .pronouns_c9ccf6 {
-  font-size: 12px;
-  pointer-events: auto;
-}
-.section_d7a21f:has(.userText_c9ccf6) + .divider_e6f9ab {
-  display: none;
-}
-
-.profileBadges_f89da9 {
+.container_c32acf .nicknameIcons_c32acf {
   position: absolute;
-  top: calc(var(--header-height) + 16px);
-  width: calc(100% - 32px);
-  max-width: calc(100% - 32px);
-  padding: 0;
-  gap: 4px;
-  z-index: 2;
+  top: 0;
+  left: 0;
+}
+.container_c32acf .userTag_c32acf {
+  font-size: 12px;
+  font-weight: 300;
+  pointer-events: auto;
+  overflow: visible;
+}
+.container_c32acf .container_e5a42d {
   background: none;
-  box-shadow: none;
-  justify-content: center;
+  border: none;
+  filter: drop-shadow(1px 1px 2px #000);
 }
 
-.profileBadge22_b64375 {
-  filter: drop-shadow(1px 1px 2px #000);
+.body_a45fe8 {
+  z-index: 2;
 }
 
 .profileColors_ac6ab4 {
