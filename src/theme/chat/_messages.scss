@@ -1,4 +1,4 @@
-.avatar_ec86aa {
+.avatar_f9f2ca {
     position: absolute;
     left: 14px;
     border-radius: 0;
@@ -7,11 +7,11 @@
         0 0 0 2px hsl(0 0% 36%);
 }
 
-.header_ec86aa {
+.header_f9f2ca {
     opacity: 0.25;
 }
 
-.username_ec86aa {
+.username_f9f2ca {
     font-weight: 600;
 }
 
@@ -47,7 +47,7 @@
     }
 
     &.automodMessage_d5deea,
-    &:has(.communicationDisabled_ec86aa) {
+    &:has(.communicationDisabled_f9f2ca) {
         background: var(--banner-red);
     }
 
@@ -56,13 +56,13 @@
         background: var(--banner-red);
     }
 
-    &:hover .header_ec86aa {
+    &:hover .header_f9f2ca {
         opacity: 1;
     }
 
-    .visualMediaItemContainer_df7417,
-    .mosaicItemMediaMosaic_ab8b23,
-    .oneByOneGridSingle_df7417,
+    .visualMediaItemContainer_cda674,
+    .mosaicItemMediaMosaic_e5c1dc,
+    .oneByOneGridSingle_cda674,
     .imageWrapper_d4597d,
     .video_f316dd,
     .wrapper_f316dd {
@@ -70,11 +70,11 @@
     }
 }
 
-#app-mount .messageListItem_d5deea:has(.communicationDisabled_ec86aa)+.messageListItem_d5deea .message_d5deea:not(.groupStart_d5deea) {
+#app-mount .messageListItem_d5deea:has(.communicationDisabled_f9f2ca)+.messageListItem_d5deea .message_d5deea:not(.groupStart_d5deea) {
     background: var(--banner-red);
 }
 
-.hoverButtonGroup__304b2 {
+.hoverButtonGroup_e5c1dc {
     border-radius: 3px;
 }
 
@@ -82,22 +82,22 @@
     margin-top: 0;
 }
 
-.compact_ec86aa.wrapper_ec86aa,
-.cozy_ec86aa.wrapper_ec86aa {
+.compact_f9f2ca.wrapper_f9f2ca,
+.cozy_f9f2ca.wrapper_f9f2ca {
     padding-top: 12px;
     padding-bottom: 20px;
     padding-left: 70px;
 }
 
-#app-mount .compact_ec86aa .repliedMessage_ec86aa {
+#app-mount .compact_f9f2ca .repliedMessage_f9f2ca {
     top: 12px;
 }
 
-.compact_ec86aa .repliedMessage_ec86aa+.contents_ec86aa {
+.compact_f9f2ca .repliedMessage_f9f2ca+.contents_f9f2ca {
     margin-top: 58px;
 }
 
-#app-mount .repliedMessage_ec86aa {
+#app-mount .repliedMessage_f9f2ca {
     position: absolute;
     top: 56px;
     left: 86px;
@@ -117,7 +117,7 @@
         content: none;
     }
 
-    &+.contents_ec86aa .header_ec86aa {
+    &+.contents_f9f2ca .header_f9f2ca {
         margin-bottom: 92px;
     }
 
@@ -125,12 +125,12 @@
         display: inline;
     }
 
-    .username_ec86aa {
+    .username_f9f2ca {
         margin-right: 5px;
     }
 }
 
-.blockquoteDivider_d6076c {
+.blockquoteDivider_f8f345 {
     background-color: var(--quote-color);
 }
 
@@ -321,7 +321,7 @@
         background: var(--banner-lightblue);
     }
 
-    .volumeButtonSlider_c30bea {
+    .volumeButtonSlider_ea7ad5 {
         position: absolute;
         bottom: 10px;
         left: -54px;
@@ -370,7 +370,7 @@
     }
 }
 
-.volumeButton_c30bea {
+.volumeButton_ea7ad5 {
 
     // Full
     &:has([d^="M12 3a1 1 0 0 0-1-1h-.06a1 1 0 0 0-.74.32L5.92 7H3a1 1 0 0 0-1 1v8a1 1 0 0 0 1 1h2.92l4.28 4.68a1 1 0 0 0 .74.32H11a1 1 0 0 0 1-1V3ZM15.1 20.75c-.58.14-1.1-.33-1.1-.92v-.03c0-.5.37-.92.85-1.05a7 7 0 0 0 0-13.5A1.11 1.11 0 0 1 14 4.2v-.03c0-.6.52-1.06 1.1-.92a9 9 0 0 1 0 17.5Z"]) {
@@ -621,7 +621,7 @@
     top: 0;
 }
 
-#app-mount .divider_fc5f50[role="separator"] {
+#app-mount .divider_c2654d[role="separator"] {
     border-top: none;
     justify-content: flex-start;
     height: 1px;
@@ -635,7 +635,7 @@
     }
 }
 
-.content_fc5f50 {
+.content_c2654d {
     padding: 0;
     color: var(--quote-color);
     background: none;
@@ -648,7 +648,7 @@
     text-transform: uppercase;
 }
 
-.unreadPill_fc5f50 {
+.unreadPill_c2654d {
     top: unset;
     right: unset;
     bottom: 0;
@@ -663,11 +663,11 @@
     background: none;
 }
 
-.unreadPillCap_fc5f50 {
+.unreadPillCap_c2654d {
     display: none;
 }
 
-.content_fc5f50+.unreadPill_fc5f50 {
+.content_c2654d+.unreadPill_c2654d {
     right: 0;
 }
 
@@ -703,10 +703,10 @@
     }
 }
 
-.wrapper_ec86aa:has(.blockedMessageText_c09d0f) {
+.wrapper_f9f2ca:has(.blockedMessageText_c09d0f) {
     padding: 0 0 0 16px;
 
-    &.compact_ec86aa {
+    &.compact_f9f2ca {
         padding: 0 0 0 108px;
     }
 }
@@ -787,9 +787,9 @@
     }
 }
 
-.executedCommandAvatar_ec86aa,
-.replyAvatar_ec86aa,
-.replyBadge_ec86aa,
-.threadMessageAccessoryAvatar_ec86aa {
+.executedCommandAvatar_f9f2ca,
+.replyAvatar_f9f2ca,
+.replyBadge_f9f2ca,
+.threadMessageAccessoryAvatar_f9f2ca {
     border-radius: 3px;
 }

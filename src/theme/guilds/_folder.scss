@@ -29,11 +29,11 @@
             z-index: 1;
         }
 
-        &:has(+.listItem_c96c45 .item_fd07a3[style="opacity: 1; height: 40px; transform: none;"]):before {
+        &:has(+.listItem_c96c45 .item_c4cd66[style="opacity: 1; height: 40px; transform: none;"]):before {
             --gpColor-Grey: var(--brand-experiment);
         }
 
-        &:has(+.listItem_c96c45 .item_fd07a3):before {
+        &:has(+.listItem_c96c45 .item_c4cd66):before {
             --gpColor-Grey: var(--header-primary);
         }
     }

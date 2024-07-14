@@ -2,7 +2,7 @@
     display: none;
 }
 
-.container_e44302.themed_e44302 {
+.container_fc4f04.themed_fc4f04 {
     background: linear-gradient(90deg, hsl(calc(var(--accent-hue) + 7) calc(var(--saturation-factor, 1)*41.5%) 41.6%/.919) 11.38%, hsl(calc(var(--accent-hue) + 4) calc(var(--saturation-factor, 1)*51%) 46%/.8) 25.23%, hsl(calc(var(--accent-hue) + 24) calc(var(--saturation-factor, 1)*76%) 24.5%) 100%);
     box-shadow: 0 0 3px rgb(0 0 0/.4);
     min-height: 36px;
@@ -10,21 +10,21 @@
     padding: 0 5px 0 4px;
     overflow: hidden;
 
-    .children_e44302:after {
+    .children_fc4f04:after {
         display: none;
     }
 
-    .divider_e44302 {
+    .divider_fc4f04 {
         display: none;
     }
 
-    .title_e44302 {
+    .title_fc4f04 {
         text-shadow: 0 2px 3px rgb(0 0 0/.3);
         font-size: 14px;
         text-transform: capitalize;
     }
 
-    .icon_e44302 {
+    .icon_fc4f04 {
         color: var(--header-primary);
         width: 16px;
         height: 16px;
@@ -36,14 +36,14 @@
         font-size: 14px;
     }
 
-    .iconWrapper_e44302 {
+    .iconWrapper_fc4f04 {
         justify-content: center;
         align-items: center;
         display: flex;
         height: 36px;
     }
 
-    .toolbar_e44302 {
+    .toolbar_fc4f04 {
         .returnButton_d20375 {
             background: var(--btn-brand);
             color: var(--btn-brand-text);
@@ -66,30 +66,30 @@
         }
     }
 
-    .toolbar_e44302 .iconWrapper_e44302[aria-label] {
+    .toolbar_fc4f04 .iconWrapper_fc4f04[aria-label] {
         margin: 0;
         padding: 0 14px;
     }
 
-    .toolbar_e44302 .iconWrapper_e44302:where(:hover, [aria-expanded="true"]) {
+    .toolbar_fc4f04 .iconWrapper_fc4f04:where(:hover, [aria-expanded="true"]) {
         background: var(--topbar-item-hover);
     }
 
-    .iconWrapper_e44302[aria-label]:has(.iconBadge_e44302) {
+    .iconWrapper_fc4f04[aria-label]:has(.iconBadge_fc4f04) {
 
         .svg_d48241 {
             height: 16px !important;
             width: 16px !important;
         }
 
-        .icon_e44302 {
+        .icon_fc4f04 {
             height: 24px;
             width: 24px;
             color: var(--status-danger);
         }
     }
 
-    .iconBadge_e44302 {
+    .iconBadge_fc4f04 {
         display: none;
     }
 

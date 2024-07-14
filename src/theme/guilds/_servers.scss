@@ -94,7 +94,7 @@ foreignObject {
     }
 }
 
-.item_fd07a3 {
+.item_c4cd66 {
     display: none;
 }
 
@@ -125,7 +125,7 @@ foreignObject {
         --gpColor-Grey: var(--brand-experiment);
     }
 
-    .listItem_c96c45:has(.item_fd07a3) & {
+    .listItem_c96c45:has(.item_c4cd66) & {
         &:not(.selected_a5ad63):before {
             --gpColor-Grey: var(--header-primary);
         }

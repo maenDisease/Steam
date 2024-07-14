@@ -45,15 +45,15 @@
             width: 4px;
         }
 
-        .wrapper_ec86aa {
+        .wrapper_f9f2ca {
             padding: 10px 10px 10px 14px;
         }
 
-        .avatar_ec86aa {
+        .avatar_f9f2ca {
             left: 16px;
         }
 
-        .header_ec86aa {
+        .header_f9f2ca {
             opacity: 1;
             display: flex;
             flex-direction: column-reverse;
@@ -61,20 +61,20 @@
             margin-bottom: 10px;
         }
 
-        .username_ec86aa {
+        .username_f9f2ca {
             font-size: 0.75rem;
             line-height: 1.125rem;
         }
 
-        .timestamp_ec86aa {
+        .timestamp_f9f2ca {
             font-size: 0.6875rem;
         }
 
-        .timestampInline_ec86aa {
+        .timestampInline_f9f2ca {
             margin-left: 0;
         }
 
-        .markup_d6076c {
+        .markup_f8f345 {
             font-size: 0.875rem;
             line-height: 1.25rem;
 
@@ -88,14 +88,14 @@
             }
         }
 
-        .repliedMessage_ec86aa {
+        .repliedMessage_f9f2ca {
             top: 64px;
             left: calc(9px + 10px);
             padding: 4px;
             font-size: 0.8125rem;
             line-height: 1.0625rem;
 
-            +.contents_ec86aa .header_ec86aa {
+            +.contents_f9f2ca .header_f9f2ca {
                 margin-bottom: calc(35px + 10px);
             }
         }
