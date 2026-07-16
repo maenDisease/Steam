@@ -5,6 +5,6 @@
 <p align="left">Steam UI on Discord.</p>
 <p align="left">Available on https://bdeditor.dev/theme/steam for ease of customization.</p>
 
-![Image of chat](https://i.imgur.com/BizjNu3.png)
-![Image of friends](https://i.imgur.com/gTGvgf3.png)
-![Image of settings](https://i.imgur.com/Yo4GhrT.png)
+![Image of chat](https://i.imgur.com/jmrquwK.png)
+![Image of friends](https://i.imgur.com/XxYXtX5.png)
+![Image of settings](https://i.imgur.com/L8ezLbL.png)
